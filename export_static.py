@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import shutil
-import re
 from pathlib import Path
 from urllib.parse import quote
 import app
@@ -15,11 +14,6 @@ def static_html(body: bytes) -> bytes:
     text = body.decode("utf-8")
     text = text.replace('href="/', f'href="{BASE_PATH}/')
     text = text.replace('action="/', f'action="{BASE_PATH}/')
-    text = re.sub(
-        rf'href="{re.escape(BASE_PATH)}/project/([^"]+)"',
-        lambda match: f'href="{BASE_PATH}/project/{match.group(1).replace("%", "%25")}"',
-        text,
-    )
     return text.encode("utf-8")
 
 
@@ -27,6 +21,16 @@ def write_page(relative_path: str, body: bytes) -> None:
     target = SITE_DIR / relative_path / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(static_html(body))
+
+
+def write_project_page(project_name: str, body: bytes) -> None:
+    try:
+        write_page(f"project/{project_name}", body)
+    except OSError:
+        pass
+    encoded_path = f"project/{quote(project_name, safe='')}"
+    if encoded_path != f"project/{project_name}":
+        write_page(encoded_path, body)
 
 
 def main() -> None:
@@ -40,7 +44,7 @@ def main() -> None:
     write_page("updates", app.render_updates(data))
 
     for project in data["projects"]:
-        write_page(f"project/{quote(project['name'], safe='')}", app.render_project(data, project["name"]))
+        write_project_page(project["name"], app.render_project(data, project["name"]))
 
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
