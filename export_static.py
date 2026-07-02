@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 import shutil
+import re
 from pathlib import Path
 from urllib.parse import quote
-
 import app
 
 
@@ -15,6 +15,11 @@ def static_html(body: bytes) -> bytes:
     text = body.decode("utf-8")
     text = text.replace('href="/', f'href="{BASE_PATH}/')
     text = text.replace('action="/', f'action="{BASE_PATH}/')
+    text = re.sub(
+        rf'href="{re.escape(BASE_PATH)}/project/([^"]+)"',
+        lambda match: f'href="{BASE_PATH}/project/{match.group(1).replace("%", "%25")}"',
+        text,
+    )
     return text.encode("utf-8")
 
 
@@ -35,7 +40,7 @@ def main() -> None:
     write_page("updates", app.render_updates(data))
 
     for project in data["projects"]:
-        write_page(f"project/{quote(project['name'])}", app.render_project(data, project["name"]))
+        write_page(f"project/{quote(project['name'], safe='')}", app.render_project(data, project["name"]))
 
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
