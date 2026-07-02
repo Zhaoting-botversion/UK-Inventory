@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-02T14:40:55",
+  "synced_at": "2026-07-02T16:45:33",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1078,6 +1078,15 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
       "latest_files": [
         {
+          "file": "Goodluck Hope Price List 30th June 2026.pdf",
+          "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
+          "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
+          "modified_at": "2026-07-01T09:44:09.000Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Goodluck Hope Price List 12th June 2026.pdf",
           "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
           "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
@@ -1085,7 +1094,6 @@
           "price_date": "June 2026"
         }
       ],
-      "old_files": [],
       "notes": []
     },
     "E14 - Landmark Pinnacle": {
@@ -1678,9 +1686,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
       "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
       "price_folder_url": "https://drive.google.com/drive/folders/1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1fSPJ4vgGnOAdX4e7yeaauHWt_fIEX3Ux",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1fSPJ4vgGnOAdX4e7yeaauHWt_fIEX3Ux",
       "latest_files": [
+        {
+          "file": "The Wilderly Tower Availability List July 2026.pdf",
+          "file_id": "1A0imVfKNru84fT4sHxQQM5RX5ISW7ZG4",
+          "file_url": "https://drive.google.com/file/d/1A0imVfKNru84fT4sHxQQM5RX5ISW7ZG4/view?usp=drivesdk",
+          "modified_at": "2026-07-02T07:18:35.000Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "The Wilderly Mansion Availability List May 2026.pdf",
           "file_id": "1sGRpZWlS1q5QWncQzpj2CVxAcga8Guiu",
@@ -1696,10 +1713,7 @@
           "price_date": "May 2026"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "E1 - London Dock": {
       "project": "E1 - London Dock",
@@ -5402,6 +5416,52 @@
         "Missing old pricelist folder"
       ]
     },
+    "Bankside": {
+      "project": "Bankside",
+      "city": "Manchester",
+      "developer": "未分类",
+      "path": "UK 英国 / Manchester 曼彻斯特 / Bankside",
+      "folder_id": "16s9znCO9KzHktmANDGWzVIANsjaT25fs",
+      "folder_url": "https://drive.google.com/drive/folders/16s9znCO9KzHktmANDGWzVIANsjaT25fs",
+      "price_folder_id": "1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
+      "price_folder_url": "https://drive.google.com/drive/folders/1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
+      "old_price_folder_id": "1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
+      "latest_files": [
+        {
+          "file": "Bankside Availability List 26.06.2026.pdf",
+          "file_id": "1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX",
+          "file_url": "https://drive.google.com/file/d/1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:18:50.460Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "Contour": {
+      "project": "Contour",
+      "city": "Manchester",
+      "developer": "未分类",
+      "path": "UK 英国 / Manchester 曼彻斯特 / Contour",
+      "folder_id": "1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
+      "folder_url": "https://drive.google.com/drive/folders/1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
+      "price_folder_id": "1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
+      "price_folder_url": "https://drive.google.com/drive/folders/1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
+      "old_price_folder_id": "1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
+      "latest_files": [
+        {
+          "file": "Contour Availability List 26.06.2026.pdf",
+          "file_id": "1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH",
+          "file_url": "https://drive.google.com/file/d/1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:20:19.292Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
     "M15 - Vita Living": {
       "project": "M15 - Vita Living",
       "city": "Manchester",
@@ -5443,13 +5503,19 @@
       "folder_url": "https://drive.google.com/drive/folders/1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo",
       "price_folder_id": "1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
       "price_folder_url": "https://drive.google.com/drive/folders/1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
+      "old_price_folder_id": "11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
+      "latest_files": [
+        {
+          "file": "Vista River Gardens Availability 26.06.2026.pdf",
+          "file_id": "1680xS0MX8ger9keurp0qhOOWO8jyHQ5-",
+          "file_url": "https://drive.google.com/file/d/1680xS0MX8ger9keurp0qhOOWO8jyHQ5-/view?usp=drivesdk",
+          "modified_at": "2026-07-02T07:39:33.000Z",
+          "price_date": "26.06.2026"
+        }
+      ],
       "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "M3 - Waterhouse Gardens": {
       "project": "M3 - Waterhouse Gardens",
@@ -5484,6 +5550,29 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "West Gate": {
+      "project": "West Gate",
+      "city": "Manchester",
+      "developer": "未分类",
+      "path": "UK 英国 / Manchester 曼彻斯特 / West Gate",
+      "folder_id": "1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
+      "folder_url": "https://drive.google.com/drive/folders/1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
+      "price_folder_id": "1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
+      "price_folder_url": "https://drive.google.com/drive/folders/1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
+      "old_price_folder_id": "18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
+      "latest_files": [
+        {
+          "file": "West Gate Price List 26.06.2026.pdf",
+          "file_id": "1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC",
+          "file_url": "https://drive.google.com/file/d/1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:24:22.437Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     },
     "BN1 - Edward Street Quarter, Brighton": {
       "project": "BN1 - Edward Street Quarter, Brighton",
