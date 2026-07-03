@@ -513,11 +513,11 @@ def followup_signal(project: dict) -> dict:
 
     if project.get("archived_count", 0):
         score += 15
-        reasons.append("有历史价单归档，说明价单版本发生变化")
+        reasons.append("有旧价单归档，说明价单版本发生变化")
 
     if group == "Prime Central London":
         score += 25
-        reasons.append("Prime Central London 核心项目")
+        reasons.append("Prime Central London 项目")
     elif group == "伦敦核心区":
         score += 18
         reasons.append("伦敦核心区项目")
@@ -531,12 +531,12 @@ def followup_signal(project: dict) -> dict:
     developer = project.get("developer", "")
     if developer in {"Berkeley Group", "London Square"}:
         score += 10
-        reasons.append(f"{developer} 重点开发商")
+        reasons.append(f"{developer} 项目")
 
     file_count = project.get("uploaded_count", 0)
     if file_count >= 2:
         score += min(10, file_count * 2)
-        reasons.append(f"当前有 {file_count} 个最新价单文件")
+        reasons.append(f"当前识别到 {file_count} 个最新价单文件")
 
     keyword_rules = [
         (("discount", "reduced", "reduction", "incentive", "offer", "summer fete"), 14, "文件名出现优惠/活动信号"),
@@ -765,7 +765,7 @@ def render_dashboard(data: dict) -> bytes:
               <div class="project-name">{project_link(project['name'])}</div>
               <div class="small-meta">{e(display_label(market_group(project)))} · {fmt_time(project['last_updated_at']) or "暂无更新时间"}</div>
             </div>
-            <span class="score-badge">{project['followup_score']} 分</span>
+            <span class="score-badge">建议查看</span>
           </div>
           <ul class="reason-list">{''.join(f'<li>{e(reason)}</li>' for reason in project['followup_reasons'])}</ul>
           <div class="file-name">{e(project['latest_file']) or '<span class="muted">暂无价单文件</span>'}</div>
@@ -819,8 +819,8 @@ def render_dashboard(data: dict) -> bytes:
       </div>
 
       <div class="section-head">
-        <h2>今日可重点跟进项目</h2>
-        <div class="muted">MVP 先基于项目级信号评分：近期更新、区域权重、开发商、历史价单归档、文件名中的优惠/现房/新放出等关键词。它用于帮助销售优先看项目，不代表已经完成逐套房源价格变化判断。</div>
+        <h2>最新价单更新提醒</h2>
+        <div class="muted">这里不是项目好坏评分，只是提示哪些项目近期价单或资料有变化，建议销售优先打开网盘确认。排序依据包括更新时间、是否有旧价单归档、开发商和文件名关键词等更新信号。</div>
       </div>
       <div class="followup-grid">{followup_cards}</div>
 
