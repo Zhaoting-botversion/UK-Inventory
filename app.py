@@ -332,14 +332,18 @@ def is_recent(value: str, days: int) -> bool:
     return dt >= now - timedelta(days=days)
 
 
-CORE_LONDON_PREFIXES = (
+PRIME_CENTRAL_LONDON_DISTRICTS = {
     "W1",
     "W2",
     "W8",
     "SW1",
     "SW3",
     "SW7",
-    "WC",
+    "WC1",
+    "WC2",
+}
+
+CENTRAL_LONDON_DISTRICTS = {
     "EC1",
     "EC2",
     "EC3",
@@ -348,9 +352,45 @@ CORE_LONDON_PREFIXES = (
     "NW1",
     "NW3",
     "NW8",
-)
+}
+
+EAST_LONDON_DISTRICTS = {
+    "E1",
+    "E2",
+    "E3",
+    "E10",
+    "E14",
+    "E16",
+    "SE8",
+    "SE10",
+    "SE18",
+}
+
+WEST_SOUTHWEST_LONDON_DISTRICTS = {
+    "W3",
+    "W4",
+    "W5",
+    "W6",
+    "W10",
+    "W11",
+    "W12",
+    "W14",
+}
+
+GREATER_LONDON_DISTRICTS = {
+    "BR",
+    "CR",
+    "DA",
+    "HA",
+    "RM",
+    "WD",
+    "CM",
+    "HP",
+    "OX",
+}
 
 MARKET_ORDER = [
+    "Prime Central London",
     "伦敦核心区",
     "伦敦东区 / 金丝雀码头 / Royal Docks",
     "伦敦西区 / 西南区",
@@ -371,6 +411,7 @@ DISPLAY_LABELS = {
     "Berkshire / Slough": "伯克郡 / 斯劳",
     "Others": "其他英国区域",
     "London": "伦敦",
+    "Prime Central London": "Prime Central London 核心伦敦",
     "Google Drive": "网盘",
     "Drive": "网盘",
     "Google Drive 当前状态": "网盘当前状态",
@@ -382,6 +423,11 @@ DISPLAY_LABELS = {
 def postcode_prefix(name: str) -> str:
     head = name.split(" - ", 1)[0].strip().upper()
     return head if re.match(r"^[A-Z]{1,2}\d", head) or head.startswith(("WC", "EC", "SW", "NW", "SE")) else ""
+
+
+def postcode_district(prefix: str) -> str:
+    match = re.match(r"^([A-Z]{1,2}\d{1,2})", prefix.upper())
+    return match.group(1) if match else prefix.upper()
 
 
 def display_label(value: str) -> str:
@@ -413,6 +459,9 @@ def market_group(project: dict | str) -> str:
         city = ""
 
     prefix = postcode_prefix(name)
+    district = postcode_district(prefix)
+    area = re.match(r"^[A-Z]+", district)
+    area_code = area.group(0) if area else district
     if city == "Manchester":
         return "Manchester"
     if city == "Birmingham":
@@ -422,15 +471,17 @@ def market_group(project: dict | str) -> str:
     if city and city not in {"London", "Others"}:
         return city
 
-    if prefix.startswith(CORE_LONDON_PREFIXES):
+    if district in PRIME_CENTRAL_LONDON_DISTRICTS:
+        return "Prime Central London"
+    if district in CENTRAL_LONDON_DISTRICTS:
         return "伦敦核心区"
-    if prefix.startswith(("E1", "E2", "E3", "E10", "E14", "E16", "SE8", "SE10")):
+    if district in EAST_LONDON_DISTRICTS:
         return "伦敦东区 / 金丝雀码头 / Royal Docks"
-    if prefix.startswith(("W3", "W4", "W5", "W6", "SW", "TW")):
+    if district in WEST_SOUTHWEST_LONDON_DISTRICTS or area_code in {"SW", "TW"}:
         return "伦敦西区 / 西南区"
-    if prefix.startswith(("N", "NW")):
+    if area_code in {"N", "NW"}:
         return "伦敦北区 / 西北区"
-    if prefix.startswith(("BR", "CR", "DA", "HA", "RM", "WD", "CM", "HP", "OX")):
+    if area_code in GREATER_LONDON_DISTRICTS:
         return "大伦敦"
     if city == "London":
         return "大伦敦"
@@ -597,8 +648,8 @@ def render_dashboard(data: dict) -> bytes:
         project = project_by_name.get(row["project"])
         updates_by_group[market_group(project or row["project"])].append(row)
 
-    core_projects = projects_by_group.get("伦敦核心区", [])
-    core_recent = [row for row in recent_projects if market_group(row) == "伦敦核心区"]
+    core_projects = projects_by_group.get("Prime Central London", [])
+    core_recent = [row for row in recent_projects if market_group(row) == "Prime Central London"]
     priority_projects = (core_recent or sorted(core_projects, key=lambda row: row["last_updated_at"] or "", reverse=True))[:6]
 
     def project_link(name: str) -> str:
@@ -617,7 +668,7 @@ def render_dashboard(data: dict) -> bytes:
           </div>
         </article>"""
         for project in priority_projects
-    ) or '<div class="empty">暂无伦敦核心区近期更新。</div>'
+    ) or '<div class="empty">暂无 Prime Central London 近期更新。</div>'
 
     market_cards = []
     for group_name in sorted(projects_by_group, key=group_rank):
@@ -631,7 +682,7 @@ def render_dashboard(data: dict) -> bytes:
             for project in group_recent
         )
         market_cards.append(
-            f"""<section class="market-card {'featured' if group_name == '伦敦核心区' else ''}">
+            f"""<section class="market-card {'featured' if group_name == 'Prime Central London' else ''}">
               <div class="market-title"><strong>{e(display_label(group_name))}</strong><span class="count-pill">{len(group_projects)} 个项目</span></div>
               <ul class="project-list">{items}</ul>
             </section>"""
@@ -665,14 +716,14 @@ def render_dashboard(data: dict) -> bytes:
       </div>
 
       <div class="section-head">
-        <h2>伦敦核心区优先关注</h2>
-        <div class="muted">优先显示 W1/W2/W8/SW1/WC/EC/SE1/NW 等核心邮编项目，适合老板快速看主战场是否有新价单或关键更新。</div>
+        <h2>Prime Central London 优先关注</h2>
+        <div class="muted">优先显示 W1/W2/W8/SW1/SW3/WC1/WC2 等核心邮编项目。EC、SE1、NW 等仍保留在伦敦核心区，但不再和 PCL 混在同一组。</div>
       </div>
       <div class="priority-grid">{priority_cards}</div>
 
       <div class="section-head">
         <h2>按城市 / 区域查看楼盘</h2>
-        <div class="muted">先看伦敦核心区，再看伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进项目总览筛选。</div>
+        <div class="muted">先看 Prime Central London，再看伦敦核心区、伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进项目总览筛选。</div>
       </div>
       <div class="market-grid">{''.join(market_cards)}</div>
 
