@@ -744,6 +744,158 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
     return layout("项目总览", content, "/projects")
 
 
+def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
+    all_projects = data["projects"]
+    cities = sorted({row["city"] for row in all_projects}, key=display_label)
+    developers = sorted({row["developer"] for row in all_projects})
+    selected_city = query.get("city", [""])[0]
+    selected_developer = query.get("developer", [""])[0]
+    selected_status = query.get("status", [""])[0]
+    q = query.get("q", [""])[0]
+
+    def filter_status(project: dict) -> str:
+        if is_recent(project["last_updated_at"], 1):
+            return "today"
+        if is_recent(project["last_updated_at"], 7):
+            return "week"
+        if project["last_updated_at"]:
+            return "updated"
+        return ""
+
+    city_options = '<option value="">全部城市/区域</option>' + "".join(
+        f'<option value="{e(city)}" {"selected" if city == selected_city else ""}>{e(display_label(city))}</option>'
+        for city in cities
+    )
+    developer_options = '<option value="">全部开发商</option>' + "".join(
+        f'<option value="{e(item)}" {"selected" if item == selected_developer else ""}>{e(item)}</option>'
+        for item in developers
+    )
+    status_options = "".join(
+        f'<option value="{value}" {"selected" if selected_status == value else ""}>{label}</option>'
+        for value, label in [
+            ("", "全部状态"),
+            ("today", "今日更新"),
+            ("week", "本周更新"),
+            ("updated", "有更新记录"),
+        ]
+    )
+
+    rows = []
+    for project in all_projects:
+        city_label = display_label(project["city"])
+        source_label = display_label(project.get("data_source", "日志"))
+        group_label = display_label(market_group(project))
+        search_text = " ".join(
+            [
+                project.get("name", ""),
+                project.get("city", ""),
+                city_label,
+                group_label,
+                project.get("developer", ""),
+                project.get("latest_file", ""),
+                project.get("latest_date", ""),
+                source_label,
+            ]
+        ).lower()
+        rows.append(
+            f"""<tr data-search="{e(search_text)}" data-city="{e(project['city'])}" data-developer="{e(project['developer'])}" data-status="{filter_status(project)}">
+          <td><a href="/project/{quote(project['name'])}">{e(project['name'])}</a></td>
+          <td>{e(city_label)}</td>
+          <td>{e(project['developer'])}</td>
+          <td>{project_status(project)}</td>
+          <td>{e(project['latest_date'])}</td>
+          <td>{fmt_time(project['last_updated_at'])}</td>
+          <td>{e(project['uploaded_count'])}</td>
+          <td>{e(source_label)}</td>
+          <td>{drive_link(project)}</td>
+        </tr>"""
+        )
+
+    content = f"""
+      <h1>项目总览</h1>
+      <form class="toolbar" id="projectFilters" action="/projects">
+        <input name="q" value="{e(q)}" placeholder="搜索项目、邮编、城市、开发商、价单文件" data-filter="q" autocomplete="off">
+        <select name="city" data-filter="city">{city_options}</select>
+        <select name="developer" data-filter="developer">{developer_options}</select>
+        <select name="status" data-filter="status">{status_options}</select>
+        <button type="button" id="resetProjectFilters">重置</button>
+      </form>
+      <p class="muted" id="projectCount">当前显示 {len(all_projects)} 个项目</p>
+      <div id="noProjects" class="empty" style="display:none">没有找到匹配项目。</div>
+      <table id="projectsTable">
+        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
+        <tbody>{''.join(rows)}</tbody>
+      </table>
+      <script>
+      (() => {{
+        const form = document.getElementById("projectFilters");
+        const searchInput = form.querySelector('[data-filter="q"]');
+        const citySelect = form.querySelector('[data-filter="city"]');
+        const developerSelect = form.querySelector('[data-filter="developer"]');
+        const statusSelect = form.querySelector('[data-filter="status"]');
+        const rows = Array.from(document.querySelectorAll("#projectsTable tbody tr"));
+        const table = document.getElementById("projectsTable");
+        const countEl = document.getElementById("projectCount");
+        const noProjects = document.getElementById("noProjects");
+        const normalize = (value) => (value || "").toString().trim().toLowerCase();
+        const statusMatches = (rowStatus, selected) => {{
+          if (!selected) return true;
+          if (selected === "week") return rowStatus === "today" || rowStatus === "week";
+          if (selected === "updated") return rowStatus === "today" || rowStatus === "week" || rowStatus === "updated";
+          return rowStatus === selected;
+        }};
+        const syncQuery = () => {{
+          const params = new URLSearchParams();
+          if (searchInput.value.trim()) params.set("q", searchInput.value.trim());
+          if (citySelect.value) params.set("city", citySelect.value);
+          if (developerSelect.value) params.set("developer", developerSelect.value);
+          if (statusSelect.value) params.set("status", statusSelect.value);
+          const query = params.toString();
+          history.replaceState(null, "", query ? `${{location.pathname}}?${{query}}` : location.pathname);
+        }};
+        const applyFilters = () => {{
+          const term = normalize(searchInput.value);
+          const city = citySelect.value;
+          const developer = developerSelect.value;
+          const status = statusSelect.value;
+          let visible = 0;
+          rows.forEach((row) => {{
+            const matched = (!term || row.dataset.search.includes(term))
+              && (!city || row.dataset.city === city)
+              && (!developer || row.dataset.developer === developer)
+              && statusMatches(row.dataset.status, status);
+            row.style.display = matched ? "" : "none";
+            if (matched) visible += 1;
+          }});
+          countEl.textContent = `当前显示 ${{visible}} 个项目`;
+          table.style.display = visible ? "" : "none";
+          noProjects.style.display = visible ? "none" : "";
+          syncQuery();
+        }};
+        const params = new URLSearchParams(location.search);
+        if (params.has("q")) searchInput.value = params.get("q") || "";
+        if (params.has("city")) citySelect.value = params.get("city") || "";
+        if (params.has("developer")) developerSelect.value = params.get("developer") || "";
+        if (params.has("status")) statusSelect.value = params.get("status") || "";
+        form.addEventListener("submit", (event) => event.preventDefault());
+        [searchInput, citySelect, developerSelect, statusSelect].forEach((el) => {{
+          el.addEventListener("input", applyFilters);
+          el.addEventListener("change", applyFilters);
+        }});
+        document.getElementById("resetProjectFilters").addEventListener("click", () => {{
+          searchInput.value = "";
+          citySelect.value = "";
+          developerSelect.value = "";
+          statusSelect.value = "";
+          applyFilters();
+        }});
+        applyFilters();
+      }})();
+      </script>
+    """
+    return layout("项目总览", content, "/projects")
+
+
 def drive_link(project: dict) -> str:
     if project.get("folder_url"):
         return f'<a href="{e(project["folder_url"])}" target="_blank" rel="noreferrer">打开网盘</a>'
