@@ -494,6 +494,87 @@ def group_rank(name: str) -> tuple[int, str]:
     return (len(MARKET_ORDER), name)
 
 
+def followup_signal(project: dict) -> dict:
+    score = 0
+    reasons = []
+    group = market_group(project)
+    latest_file = project.get("latest_file", "")
+    text = " ".join([latest_file] + [row.get("file", "") for row in project.get("files", [])]).lower()
+
+    if is_recent(project.get("last_updated_at", ""), 1):
+        score += 35
+        reasons.append("今天有价单或资料更新")
+    elif is_recent(project.get("last_updated_at", ""), 3):
+        score += 25
+        reasons.append("近3天有更新")
+    elif is_recent(project.get("last_updated_at", ""), 7):
+        score += 15
+        reasons.append("本周有更新")
+
+    if project.get("archived_count", 0):
+        score += 15
+        reasons.append("有历史价单归档，说明价单版本发生变化")
+
+    if group == "Prime Central London":
+        score += 25
+        reasons.append("Prime Central London 核心项目")
+    elif group == "伦敦核心区":
+        score += 18
+        reasons.append("伦敦核心区项目")
+    elif group in {"伦敦东区 / 金丝雀码头 / Royal Docks", "伦敦西区 / 西南区"}:
+        score += 12
+        reasons.append(display_label(group))
+    elif group in {"Manchester", "Birmingham", "Reading / Berkshire"}:
+        score += 6
+        reasons.append(display_label(group))
+
+    developer = project.get("developer", "")
+    if developer in {"Berkeley Group", "London Square"}:
+        score += 10
+        reasons.append(f"{developer} 重点开发商")
+
+    file_count = project.get("uploaded_count", 0)
+    if file_count >= 2:
+        score += min(10, file_count * 2)
+        reasons.append(f"当前有 {file_count} 个最新价单文件")
+
+    keyword_rules = [
+        (("discount", "reduced", "reduction", "incentive", "offer", "summer fete"), 14, "文件名出现优惠/活动信号"),
+        (("ready", "move in", "completed", "completion"), 10, "文件名出现现房或准现房信号"),
+        (("new", "release", "availability"), 8, "文件名出现新放出或可售清单信号"),
+        (("penthouse", "private", "collection", "exclusive"), 8, "文件名出现稀缺产品信号"),
+        (("price list", "pricelist", "prices"), 6, "识别到价单文件"),
+    ]
+    for keywords, points, reason in keyword_rules:
+        if any(keyword in text for keyword in keywords):
+            score += points
+            reasons.append(reason)
+
+    unique_reasons = []
+    for reason in reasons:
+        if reason not in unique_reasons:
+            unique_reasons.append(reason)
+
+    return {
+        "score": min(score, 100),
+        "reasons": unique_reasons[:4],
+    }
+
+
+def followup_projects(projects: list[dict]) -> list[dict]:
+    rows = []
+    for project in projects:
+        signal = followup_signal(project)
+        if signal["score"] < 35:
+            continue
+        row = dict(project)
+        row["followup_score"] = signal["score"]
+        row["followup_reasons"] = signal["reasons"]
+        rows.append(row)
+    rows.sort(key=lambda row: (row["followup_score"], row.get("last_updated_at", "")), reverse=True)
+    return rows[:6]
+
+
 def layout(title: str, content: str, active: str = "") -> bytes:
     nav = [
         ("/", "首页"),
@@ -560,6 +641,12 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .priority-card .project-name {{ font-size: 16px; font-weight: 700; line-height: 1.35; }}
     .priority-card .file-name {{ margin-top: 10px; color: #344054; line-height: 1.35; overflow-wrap: anywhere; }}
     .priority-card .meta {{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; color: var(--muted); font-size: 13px; }}
+    .followup-grid {{ display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }}
+    .followup-card {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 170px; }}
+    .followup-card.high {{ border-color: #99d8cf; background: #f4fbf9; }}
+    .followup-head {{ display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; }}
+    .score-badge {{ border-radius: 999px; background: var(--accent-soft); color: var(--accent); padding: 4px 9px; font-size: 12px; font-weight: 700; white-space: nowrap; }}
+    .reason-list {{ margin: 10px 0 0; padding-left: 18px; color: #344054; line-height: 1.45; font-size: 13px; }}
     .market-grid {{ display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }}
     .market-card {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 180px; }}
     .market-card.featured {{ border-color: #99d8cf; background: #f4fbf9; }}
@@ -575,8 +662,8 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .update-row {{ display: grid; gap: 4px; border-top: 1px solid #eef1f5; padding-top: 10px; margin-top: 10px; }}
     .update-row:first-of-type {{ border-top: 0; padding-top: 0; margin-top: 12px; }}
     .empty {{ background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 24px; color: var(--muted); }}
-    @media (max-width: 1100px) {{ .priority-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} }}
-    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} }}
+    @media (max-width: 1100px) {{ .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} }}
+    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} }}
   </style>
 </head>
 <body>
@@ -638,6 +725,7 @@ def render_dashboard(data: dict) -> bytes:
     latest_run = runs[0] if runs else {}
     latest_run_time = latest_run.get("finished_at") or latest_run.get("started_at") or latest_run.get("_mtime", "")
     drive_synced_at = data.get("drive_state", {}).get("synced_at", "")
+    followups = followup_projects(projects)
 
     project_by_name = {row["name"]: row for row in projects}
     projects_by_group: dict[str, list[dict]] = defaultdict(list)
@@ -669,6 +757,21 @@ def render_dashboard(data: dict) -> bytes:
         </article>"""
         for project in priority_projects
     ) or '<div class="empty">暂无 Prime Central London 近期更新。</div>'
+
+    followup_cards = "".join(
+        f"""<article class="followup-card {'high' if project['followup_score'] >= 75 else ''}">
+          <div class="followup-head">
+            <div>
+              <div class="project-name">{project_link(project['name'])}</div>
+              <div class="small-meta">{e(display_label(market_group(project)))} · {fmt_time(project['last_updated_at']) or "暂无更新时间"}</div>
+            </div>
+            <span class="score-badge">{project['followup_score']} 分</span>
+          </div>
+          <ul class="reason-list">{''.join(f'<li>{e(reason)}</li>' for reason in project['followup_reasons'])}</ul>
+          <div class="file-name">{e(project['latest_file']) or '<span class="muted">暂无价单文件</span>'}</div>
+        </article>"""
+        for project in followups
+    ) or '<div class="empty">暂无需要重点跟进的项目。</div>'
 
     market_cards = []
     for group_name in sorted(projects_by_group, key=group_rank):
@@ -714,6 +817,12 @@ def render_dashboard(data: dict) -> bytes:
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
+
+      <div class="section-head">
+        <h2>今日可重点跟进项目</h2>
+        <div class="muted">MVP 先基于项目级信号评分：近期更新、区域权重、开发商、历史价单归档、文件名中的优惠/现房/新放出等关键词。它用于帮助销售优先看项目，不代表已经完成逐套房源价格变化判断。</div>
+      </div>
+      <div class="followup-grid">{followup_cards}</div>
 
       <div class="section-head">
         <h2>Prime Central London 优先关注</h2>

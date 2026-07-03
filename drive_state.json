@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-03T13:44:41",
+  "synced_at": "2026-07-03T16:26:30",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -13,6 +13,23 @@
       "folder_url": "https://drive.google.com/drive/folders/1F8C_AgOcR3z-HK13yDrc3hnvwwwTCQZk",
       "price_folder_id": "1_b0u4dmDZ4b0RdpbQQlOgKRw25A2cZt6",
       "price_folder_url": "https://drive.google.com/drive/folders/1_b0u4dmDZ4b0RdpbQQlOgKRw25A2cZt6",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "B1 - Photographic Works": {
+      "project": "B1 - Photographic Works",
+      "city": "Birmingham",
+      "developer": "未分类",
+      "path": "UK 英国 / Birmingham 伯明翰 / B1 - Photographic Works",
+      "folder_id": "1clRzfxBuRE6Zdl2LyXYA8sauahIgL-zQ",
+      "folder_url": "https://drive.google.com/drive/folders/1clRzfxBuRE6Zdl2LyXYA8sauahIgL-zQ",
+      "price_folder_id": "1RUcnRMFVoJWieErd9WoKO_OXo5IQp1dH",
+      "price_folder_url": "https://drive.google.com/drive/folders/1RUcnRMFVoJWieErd9WoKO_OXo5IQp1dH",
       "old_price_folder_id": "",
       "old_price_folder_url": "",
       "latest_files": [],
@@ -38,28 +55,11 @@
         "Missing old pricelist folder"
       ]
     },
-    "B4 - Snowhill Wharf": {
-      "project": "B4 - Snowhill Wharf",
-      "city": "Birmingham",
-      "developer": "未分类",
-      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Snowhill Wharf",
-      "folder_id": "1Bmwu_fBfRiJ3gxjD4V2JiaP_uZv-ZZ2q",
-      "folder_url": "https://drive.google.com/drive/folders/1Bmwu_fBfRiJ3gxjD4V2JiaP_uZv-ZZ2q",
-      "price_folder_id": "1_qgRAuAeVG3Klqw6uiEnHhhJMF-VFh6l",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_qgRAuAeVG3Klqw6uiEnHhhJMF-VFh6l",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "Glasswater Locks": {
-      "project": "Glasswater Locks",
+    "B4 - Glasswater Locks": {
+      "project": "B4 - Glasswater Locks",
       "city": "Birmingham",
       "developer": "Berkeley Group",
-      "path": "UK 英国 / Birmingham 伯明翰 / Glasswater Locks",
+      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Glasswater Locks",
       "folder_id": "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
       "folder_url": "https://drive.google.com/drive/folders/1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
       "price_folder_id": "1R24lF6rqbqmHlNO6dHfT1kGZkFqbzlB-",
@@ -156,11 +156,11 @@
       ],
       "notes": []
     },
-    "Gunsmith House": {
-      "project": "Gunsmith House",
+    "B4 - Gunsmith House": {
+      "project": "B4 - Gunsmith House",
       "city": "Birmingham",
       "developer": "未分类",
-      "path": "UK 英国 / Birmingham 伯明翰 / Gunsmith House",
+      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Gunsmith House",
       "folder_id": "166dIoWUK_PN7HvDfxg_gRK_HYzoxm3up",
       "folder_url": "https://drive.google.com/drive/folders/166dIoWUK_PN7HvDfxg_gRK_HYzoxm3up",
       "price_folder_id": "1YMhwYwF-47zCFaLXSqoXKhAUEwlbvrWa",
@@ -173,15 +173,15 @@
         "Missing old pricelist folder"
       ]
     },
-    "Photographic Works": {
-      "project": "Photographic Works",
+    "B4 - Snowhill Wharf": {
+      "project": "B4 - Snowhill Wharf",
       "city": "Birmingham",
       "developer": "未分类",
-      "path": "UK 英国 / Birmingham 伯明翰 / Photographic Works",
-      "folder_id": "1clRzfxBuRE6Zdl2LyXYA8sauahIgL-zQ",
-      "folder_url": "https://drive.google.com/drive/folders/1clRzfxBuRE6Zdl2LyXYA8sauahIgL-zQ",
-      "price_folder_id": "1RUcnRMFVoJWieErd9WoKO_OXo5IQp1dH",
-      "price_folder_url": "https://drive.google.com/drive/folders/1RUcnRMFVoJWieErd9WoKO_OXo5IQp1dH",
+      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Snowhill Wharf",
+      "folder_id": "1Bmwu_fBfRiJ3gxjD4V2JiaP_uZv-ZZ2q",
+      "folder_url": "https://drive.google.com/drive/folders/1Bmwu_fBfRiJ3gxjD4V2JiaP_uZv-ZZ2q",
+      "price_folder_id": "1_qgRAuAeVG3Klqw6uiEnHhhJMF-VFh6l",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_qgRAuAeVG3Klqw6uiEnHhhJMF-VFh6l",
       "old_price_folder_id": "",
       "old_price_folder_url": "",
       "latest_files": [],
@@ -190,11 +190,11 @@
         "Missing old pricelist folder"
       ]
     },
-    "Warwick House, Solihull": {
-      "project": "Warwick House, Solihull",
+    "B91 - Warwick House, Solihull": {
+      "project": "B91 - Warwick House, Solihull",
       "city": "Birmingham",
       "developer": "未分类",
-      "path": "UK 英国 / Birmingham 伯明翰 / Warwick House, Solihull",
+      "path": "UK 英国 / Birmingham 伯明翰 / B91 - Warwick House, Solihull",
       "folder_id": "13GaHFAhnL_QpcLgJE2z7Ivgr5XgVRl67",
       "folder_url": "https://drive.google.com/drive/folders/13GaHFAhnL_QpcLgJE2z7Ivgr5XgVRl67",
       "price_folder_id": "1nSe8uTrQNxpTLMrP4rdIVcOa02MxeFl6",
@@ -237,31 +237,6 @@
         }
       ],
       "notes": []
-    },
-    "Chimes": {
-      "project": "Chimes",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / Chimes",
-      "folder_id": "1PawVqu-MTjykuN-fGUJLvYVQYE_gVzBZ",
-      "folder_url": "https://drive.google.com/drive/folders/1PawVqu-MTjykuN-fGUJLvYVQYE_gVzBZ",
-      "price_folder_id": "1FXyNYOtPaICnCr1XJenVLjfiioVmNFPH",
-      "price_folder_url": "https://drive.google.com/drive/folders/1FXyNYOtPaICnCr1XJenVLjfiioVmNFPH",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Chimes Westminster_Availability & Price List230530.pdf",
-          "file_id": "1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh",
-          "file_url": "https://drive.google.com/file/d/1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:22:17.000Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "EC1V - Angel Village - Est. complete from Q4 2026": {
       "project": "EC1V - Angel Village - Est. complete from Q4 2026",
@@ -391,40 +366,6 @@
         }
       ],
       "notes": []
-    },
-    "One Cluny Mews": {
-      "project": "One Cluny Mews",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / One Cluny Mews",
-      "folder_id": "1UwlhGVP_RED-fbPqn6h0zF1oPD5aa9Bq",
-      "folder_url": "https://drive.google.com/drive/folders/1UwlhGVP_RED-fbPqn6h0zF1oPD5aa9Bq",
-      "price_folder_id": "13Sy8xnf6Q4BVYCfIPJO-xJ9JEbUyEKWw",
-      "price_folder_url": "https://drive.google.com/drive/folders/13Sy8xnf6Q4BVYCfIPJO-xJ9JEbUyEKWw",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "River Park Tower": {
-      "project": "River Park Tower",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / River Park Tower",
-      "folder_id": "1_Bw8HAtZEB1NEcC2ExnsnyRyusIiNdTd",
-      "folder_url": "https://drive.google.com/drive/folders/1_Bw8HAtZEB1NEcC2ExnsnyRyusIiNdTd",
-      "price_folder_id": "1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
-      "price_folder_url": "https://drive.google.com/drive/folders/1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "SE1 - Brigade Court": {
       "project": "SE1 - Brigade Court",
@@ -691,6 +632,82 @@
       ],
       "notes": []
     },
+    "SW1P - Chimes": {
+      "project": "SW1P - Chimes",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / SW1P - Chimes",
+      "folder_id": "1PawVqu-MTjykuN-fGUJLvYVQYE_gVzBZ",
+      "folder_url": "https://drive.google.com/drive/folders/1PawVqu-MTjykuN-fGUJLvYVQYE_gVzBZ",
+      "price_folder_id": "1FXyNYOtPaICnCr1XJenVLjfiioVmNFPH",
+      "price_folder_url": "https://drive.google.com/drive/folders/1FXyNYOtPaICnCr1XJenVLjfiioVmNFPH",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "Chimes Westminster_Availability & Price List230530.pdf",
+          "file_id": "1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh",
+          "file_url": "https://drive.google.com/file/d/1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh/view?usp=drivesdk",
+          "modified_at": "2026-05-29T07:22:17.000Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "SW5 - One Cluny Mews": {
+      "project": "SW5 - One Cluny Mews",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / SW5 - One Cluny Mews",
+      "folder_id": "1UwlhGVP_RED-fbPqn6h0zF1oPD5aa9Bq",
+      "folder_url": "https://drive.google.com/drive/folders/1UwlhGVP_RED-fbPqn6h0zF1oPD5aa9Bq",
+      "price_folder_id": "13Sy8xnf6Q4BVYCfIPJO-xJ9JEbUyEKWw",
+      "price_folder_url": "https://drive.google.com/drive/folders/13Sy8xnf6Q4BVYCfIPJO-xJ9JEbUyEKWw",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "SW8 - River Park Tower": {
+      "project": "SW8 - River Park Tower",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / SW8 - River Park Tower",
+      "folder_id": "1_Bw8HAtZEB1NEcC2ExnsnyRyusIiNdTd",
+      "folder_url": "https://drive.google.com/drive/folders/1_Bw8HAtZEB1NEcC2ExnsnyRyusIiNdTd",
+      "price_folder_id": "1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
+      "price_folder_url": "https://drive.google.com/drive/folders/1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "SW8 - Wilcox": {
+      "project": "SW8 - Wilcox",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / SW8 - Wilcox",
+      "folder_id": "1udZUqpGyvMT6wjw-kSvQGwuyqeIOB75X",
+      "folder_url": "https://drive.google.com/drive/folders/1udZUqpGyvMT6wjw-kSvQGwuyqeIOB75X",
+      "price_folder_id": "1mAoRbNYcZQZdj_m7RCEpc9-QKqzkayo6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1mAoRbNYcZQZdj_m7RCEpc9-QKqzkayo6",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
     "W1 - W1 Place-Completion Q1 2024": {
       "project": "W1 - W1 Place-Completion Q1 2024",
       "city": "London",
@@ -935,23 +952,6 @@
         }
       ],
       "notes": []
-    },
-    "Wilcox": {
-      "project": "Wilcox",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Central London 中心伦敦 / Wilcox",
-      "folder_id": "1udZUqpGyvMT6wjw-kSvQGwuyqeIOB75X",
-      "folder_url": "https://drive.google.com/drive/folders/1udZUqpGyvMT6wjw-kSvQGwuyqeIOB75X",
-      "price_folder_id": "1mAoRbNYcZQZdj_m7RCEpc9-QKqzkayo6",
-      "price_folder_url": "https://drive.google.com/drive/folders/1mAoRbNYcZQZdj_m7RCEpc9-QKqzkayo6",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "DA15 - Urban Picturehouse - Completed": {
       "project": "DA15 - Urban Picturehouse - Completed",
@@ -1661,36 +1661,11 @@
       ],
       "notes": []
     },
-    "SE26 - Dylon Riverside - Completed": {
-      "project": "SE26 - Dylon Riverside - Completed",
+    "SE17 - The Wilderly": {
+      "project": "SE17 - The Wilderly",
       "city": "London",
       "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / City, East & South East 城东和东南伦敦 / SE26 - Dylon Riverside - Completed",
-      "folder_id": "1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
-      "folder_url": "https://drive.google.com/drive/folders/1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
-      "price_folder_id": "1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
-      "price_folder_url": "https://drive.google.com/drive/folders/1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Dylon Riverside Price List December 2025.pdf",
-          "file_id": "1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0",
-          "file_url": "https://drive.google.com/file/d/1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:07:43.934Z",
-          "price_date": "December 2025"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "The Wilderly": {
-      "project": "The Wilderly",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / City, East & South East 城东和东南伦敦 / The Wilderly",
+      "path": "UK 英国 / London 伦敦 / City, East & South East 城东和东南伦敦 / SE17 - The Wilderly",
       "folder_id": "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
       "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
       "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
@@ -1724,35 +1699,30 @@
       ],
       "notes": []
     },
-    "Dagenham Green": {
-      "project": "Dagenham Green",
+    "SE26 - Dylon Riverside - Completed": {
+      "project": "SE26 - Dylon Riverside - Completed",
       "city": "London",
       "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Dagenham Green",
-      "folder_id": "1IVcgYox6kNeSgEx8HDCAEdfiZSB7aOyC",
-      "folder_url": "https://drive.google.com/drive/folders/1IVcgYox6kNeSgEx8HDCAEdfiZSB7aOyC",
-      "price_folder_id": "1X-ATCkmRuDvfuetdBD5v5WrBnPJ4n7YL",
-      "price_folder_url": "https://drive.google.com/drive/folders/1X-ATCkmRuDvfuetdBD5v5WrBnPJ4n7YL",
-      "old_price_folder_id": "1pfY5kkABf2zj9FH7cyvXfn0XNAE3T2k_",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1pfY5kkABf2zj9FH7cyvXfn0XNAE3T2k_",
+      "path": "UK 英国 / London 伦敦 / City, East & South East 城东和东南伦敦 / SE26 - Dylon Riverside - Completed",
+      "folder_id": "1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
+      "folder_url": "https://drive.google.com/drive/folders/1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
+      "price_folder_id": "1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
+      "price_folder_url": "https://drive.google.com/drive/folders/1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
       "latest_files": [
         {
-          "file": "Dagenham Green The Liberty Price List 01.07.2026.pdf",
-          "file_id": "1lTD__-0TuY-QqXx1yV9CFdbZCOEgeULg",
-          "file_url": "https://drive.google.com/file/d/1lTD__-0TuY-QqXx1yV9CFdbZCOEgeULg/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:34.145Z",
-          "price_date": "01.07.2026"
-        },
-        {
-          "file": "Dagenham Green The Empire Price List 01.07.2026.pdf",
-          "file_id": "1rsMneB5MtPedtlBnSC9wxhcqIp6hZthN",
-          "file_url": "https://drive.google.com/file/d/1rsMneB5MtPedtlBnSC9wxhcqIp6hZthN/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:31.351Z",
-          "price_date": "01.07.2026"
+          "file": "Dylon Riverside Price List December 2025.pdf",
+          "file_id": "1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0",
+          "file_url": "https://drive.google.com/file/d/1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:07:43.934Z",
+          "price_date": "December 2025"
         }
       ],
       "old_files": [],
-      "notes": []
+      "notes": [
+        "Missing old pricelist folder"
+      ]
     },
     "E1 - London Dock": {
       "project": "E1 - London Dock",
@@ -2339,59 +2309,6 @@
       ],
       "notes": []
     },
-    "Kew Bridge Rise": {
-      "project": "Kew Bridge Rise",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Kew Bridge Rise",
-      "folder_id": "17BHw-Q28dyZs5YInRGirY0qPM2VxYjIn",
-      "folder_url": "https://drive.google.com/drive/folders/17BHw-Q28dyZs5YInRGirY0qPM2VxYjIn",
-      "price_folder_id": "13qFFkqv-lkkuP7hT-6f7flg3BE0zwn4t",
-      "price_folder_url": "https://drive.google.com/drive/folders/13qFFkqv-lkkuP7hT-6f7flg3BE0zwn4t",
-      "old_price_folder_id": "1K98KLA3P7k1d8MEZBszWKrsCoFK3qKSp",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1K98KLA3P7k1d8MEZBszWKrsCoFK3qKSp",
-      "latest_files": [
-        {
-          "file": "Kew Bridge Rise Wren Price List 01.07.2026.pdf",
-          "file_id": "1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU",
-          "file_url": "https://drive.google.com/file/d/1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:42.780Z",
-          "price_date": "01.07.2026"
-        },
-        {
-          "file": "Kew bridge Rise Starling Price List 01.07.2026.pdf",
-          "file_id": "1tTYL9FN1P5RnoMuveKz9OG6b55fHC5J5",
-          "file_url": "https://drive.google.com/file/d/1tTYL9FN1P5RnoMuveKz9OG6b55fHC5J5/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:39.964Z",
-          "price_date": "01.07.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "Lampton Parkside": {
-      "project": "Lampton Parkside",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Lampton Parkside",
-      "folder_id": "17vtvIgTuF7XmssMbYlXX72pTUP_rxgI9",
-      "folder_url": "https://drive.google.com/drive/folders/17vtvIgTuF7XmssMbYlXX72pTUP_rxgI9",
-      "price_folder_id": "1Q7mOXjC-IVspnlj62dkIjZYQ-LYdkQLr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Q7mOXjC-IVspnlj62dkIjZYQ-LYdkQLr",
-      "old_price_folder_id": "11FCE1YdIMEmYG2gpiDM3L0msF1rZyjQh",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/11FCE1YdIMEmYG2gpiDM3L0msF1rZyjQh",
-      "latest_files": [
-        {
-          "file": "Lampton Parkside Forest View Price List 01.07.2026.pdf",
-          "file_id": "1Ick5KnYG4-IoRvVMc2EiiR1chk7nvGsc",
-          "file_url": "https://drive.google.com/file/d/1Ick5KnYG4-IoRvVMc2EiiR1chk7nvGsc/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:53.773Z",
-          "price_date": "01.07.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "N10 - Alexandra Gate": {
       "project": "N10 - Alexandra Gate",
       "city": "London",
@@ -2896,6 +2813,36 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "RM9 - Dagenham Green": {
+      "project": "RM9 - Dagenham Green",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / RM9 - Dagenham Green",
+      "folder_id": "1IVcgYox6kNeSgEx8HDCAEdfiZSB7aOyC",
+      "folder_url": "https://drive.google.com/drive/folders/1IVcgYox6kNeSgEx8HDCAEdfiZSB7aOyC",
+      "price_folder_id": "1X-ATCkmRuDvfuetdBD5v5WrBnPJ4n7YL",
+      "price_folder_url": "https://drive.google.com/drive/folders/1X-ATCkmRuDvfuetdBD5v5WrBnPJ4n7YL",
+      "old_price_folder_id": "1pfY5kkABf2zj9FH7cyvXfn0XNAE3T2k_",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1pfY5kkABf2zj9FH7cyvXfn0XNAE3T2k_",
+      "latest_files": [
+        {
+          "file": "Dagenham Green The Liberty Price List 01.07.2026.pdf",
+          "file_id": "1lTD__-0TuY-QqXx1yV9CFdbZCOEgeULg",
+          "file_url": "https://drive.google.com/file/d/1lTD__-0TuY-QqXx1yV9CFdbZCOEgeULg/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:34.145Z",
+          "price_date": "01.07.2026"
+        },
+        {
+          "file": "Dagenham Green The Empire Price List 01.07.2026.pdf",
+          "file_id": "1rsMneB5MtPedtlBnSC9wxhcqIp6hZthN",
+          "file_url": "https://drive.google.com/file/d/1rsMneB5MtPedtlBnSC9wxhcqIp6hZthN/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:31.351Z",
+          "price_date": "01.07.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     },
     "SE1 - Bermondsey (London Square)": {
       "project": "SE1 - Bermondsey (London Square)",
@@ -3435,6 +3382,13 @@
           "file_url": "https://drive.google.com/file/d/1Qan0OZxv7m-_BsTZZzRdjX0IzcupXYdc/view?usp=drivesdk",
           "modified_at": "2026-06-22T05:46:56.743Z",
           "price_date": "15.06.2026"
+        },
+        {
+          "file": "Ransomes Wharf - Customer Price List - 01.05.2026 (1).pdf",
+          "file_id": "1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek",
+          "file_url": "https://drive.google.com/file/d/1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek/view?usp=drivesdk",
+          "modified_at": "2026-05-11T07:21:42.000Z",
+          "price_date": "01.05.2026"
         }
       ],
       "notes": []
@@ -3815,82 +3769,6 @@
       "old_files": [],
       "notes": []
     },
-    "36 & 37 Hertfort Street": {
-      "project": "36 & 37 Hertfort Street",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / 36 & 37 Hertfort Street",
-      "folder_id": "17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
-      "folder_url": "https://drive.google.com/drive/folders/17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
-      "price_folder_id": "1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "36 & 37 Hertftord Street Price List - 10.02.2026  - INTERNAL ONLY.xlsx",
-          "file_id": "1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY",
-          "file_url": "https://docs.google.com/spreadsheets/d/1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY/edit?usp=drivesdk&ouid=100818136449455990698&rtpof=true&sd=true",
-          "modified_at": "2026-04-11T10:43:06.000Z",
-          "price_date": "10.02.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "6 Charles Street": {
-      "project": "6 Charles Street",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / 6 Charles Street",
-      "folder_id": "128giq6NYPF_f5_ingdaxmAK-tS3RkT7K",
-      "folder_url": "https://drive.google.com/drive/folders/128giq6NYPF_f5_ingdaxmAK-tS3RkT7K",
-      "price_folder_id": "1pJ1aIEkNleOqmlrpJR61V8jMcjMpZK-d",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pJ1aIEkNleOqmlrpJR61V8jMcjMpZK-d",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "Belgravia Gate": {
-      "project": "Belgravia Gate",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / Belgravia Gate",
-      "folder_id": "1AW7xM6PuxJvjOKR07SbUOtlWtdwLimjV",
-      "folder_url": "https://drive.google.com/drive/folders/1AW7xM6PuxJvjOKR07SbUOtlWtdwLimjV",
-      "price_folder_id": "1lyZR-5T7iZAtprR5TLxZjKbcPGFwprZm",
-      "price_folder_url": "https://drive.google.com/drive/folders/1lyZR-5T7iZAtprR5TLxZjKbcPGFwprZm",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "MANDARIN ORIENTAL THE RESIDENCES MAYFAIR LONDON": {
-      "project": "MANDARIN ORIENTAL THE RESIDENCES MAYFAIR LONDON",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / MANDARIN ORIENTAL THE RESIDENCES MAYFAIR LONDON",
-      "folder_id": "1HabUn71Yb5IlYNDFEj0wkj6nKvRTlbfX",
-      "folder_url": "https://drive.google.com/drive/folders/1HabUn71Yb5IlYNDFEj0wkj6nKvRTlbfX",
-      "price_folder_id": "1HWpnmzx6J9qudlq-COVWssxx26JkSYat",
-      "price_folder_url": "https://drive.google.com/drive/folders/1HWpnmzx6J9qudlq-COVWssxx26JkSYat",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "N2 - Bishops Avenue Gardens - Est. Complete Q4 2026": {
       "project": "N2 - Bishops Avenue Gardens - Est. Complete Q4 2026",
       "city": "London",
@@ -3903,48 +3781,6 @@
       "old_price_folder_id": "",
       "old_price_folder_url": "",
       "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "No.1 Palace Street": {
-      "project": "No.1 Palace Street",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / No.1 Palace Street",
-      "folder_id": "1MHR-gSimFpPSsCQgBEtzG5i5CUMXs3F6",
-      "folder_url": "https://drive.google.com/drive/folders/1MHR-gSimFpPSsCQgBEtzG5i5CUMXs3F6",
-      "price_folder_id": "1NaoPFCkUdfbweSau0CLDSaRsGgPHwdD9",
-      "price_folder_url": "https://drive.google.com/drive/folders/1NaoPFCkUdfbweSau0CLDSaRsGgPHwdD9",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "One Carrington": {
-      "project": "One Carrington",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / One Carrington",
-      "folder_id": "1KgYPZmG6HOSDNnjNrrs_QHaIb--0O-2h",
-      "folder_url": "https://drive.google.com/drive/folders/1KgYPZmG6HOSDNnjNrrs_QHaIb--0O-2h",
-      "price_folder_id": "1EQaa6ZrE0FNHUlt5GhVfg1zvgKrdComC",
-      "price_folder_url": "https://drive.google.com/drive/folders/1EQaa6ZrE0FNHUlt5GhVfg1zvgKrdComC",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "One Carrington - Customer Price List - November 2024 Release.pdf",
-          "file_id": "1Qh61x1kw8HjseectSL0yVkltsqLS09MD",
-          "file_url": "https://drive.google.com/file/d/1Qh61x1kw8HjseectSL0yVkltsqLS09MD/view?usp=drivesdk",
-          "modified_at": "2026-05-23T10:02:46.000Z",
-          "price_date": "November 2024"
-        }
-      ],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -4009,6 +3845,23 @@
         "Missing old pricelist folder"
       ]
     },
+    "SW1E - No.1 Palace Street": {
+      "project": "SW1E - No.1 Palace Street",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / SW1E - No.1 Palace Street",
+      "folder_id": "1MHR-gSimFpPSsCQgBEtzG5i5CUMXs3F6",
+      "folder_url": "https://drive.google.com/drive/folders/1MHR-gSimFpPSsCQgBEtzG5i5CUMXs3F6",
+      "price_folder_id": "1NaoPFCkUdfbweSau0CLDSaRsGgPHwdD9",
+      "price_folder_url": "https://drive.google.com/drive/folders/1NaoPFCkUdfbweSau0CLDSaRsGgPHwdD9",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
     "SW1W - Chelsea Barracks -Price on application": {
       "project": "SW1W - Chelsea Barracks -Price on application",
       "city": "London",
@@ -4029,6 +3882,23 @@
           "price_date": ""
         }
       ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "SW1X - Belgravia Gate": {
+      "project": "SW1X - Belgravia Gate",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / SW1X - Belgravia Gate",
+      "folder_id": "1AW7xM6PuxJvjOKR07SbUOtlWtdwLimjV",
+      "folder_url": "https://drive.google.com/drive/folders/1AW7xM6PuxJvjOKR07SbUOtlWtdwLimjV",
+      "price_folder_id": "1lyZR-5T7iZAtprR5TLxZjKbcPGFwprZm",
+      "price_folder_url": "https://drive.google.com/drive/folders/1lyZR-5T7iZAtprR5TLxZjKbcPGFwprZm",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -4084,23 +3954,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "Three Kings Yard": {
-      "project": "Three Kings Yard",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / Three Kings Yard",
-      "folder_id": "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "folder_url": "https://drive.google.com/drive/folders/16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "price_folder_id": "1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "price_folder_url": "https://drive.google.com/drive/folders/1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "W1 - 60 Curzon, Mayfair- Completed-Price on application": {
       "project": "W1 - 60 Curzon, Mayfair- Completed-Price on application",
       "city": "London",
@@ -4138,6 +3991,107 @@
           "price_date": "May 2026"
         }
       ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W1J - 36 & 37 Hertfort Street": {
+      "project": "W1J - 36 & 37 Hertfort Street",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / W1J - 36 & 37 Hertfort Street",
+      "folder_id": "17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
+      "folder_url": "https://drive.google.com/drive/folders/17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
+      "price_folder_id": "1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "36 & 37 Hertftord Street Price List - 10.02.2026  - INTERNAL ONLY.xlsx",
+          "file_id": "1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY",
+          "file_url": "https://docs.google.com/spreadsheets/d/1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY/edit?usp=drivesdk&ouid=100818136449455990698&rtpof=true&sd=true",
+          "modified_at": "2026-04-11T10:43:06.000Z",
+          "price_date": "10.02.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W1J - 6 Charles Street": {
+      "project": "W1J - 6 Charles Street",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / W1J - 6 Charles Street",
+      "folder_id": "128giq6NYPF_f5_ingdaxmAK-tS3RkT7K",
+      "folder_url": "https://drive.google.com/drive/folders/128giq6NYPF_f5_ingdaxmAK-tS3RkT7K",
+      "price_folder_id": "1pJ1aIEkNleOqmlrpJR61V8jMcjMpZK-d",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pJ1aIEkNleOqmlrpJR61V8jMcjMpZK-d",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W1J - One Carrington": {
+      "project": "W1J - One Carrington",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / W1J - One Carrington",
+      "folder_id": "1KgYPZmG6HOSDNnjNrrs_QHaIb--0O-2h",
+      "folder_url": "https://drive.google.com/drive/folders/1KgYPZmG6HOSDNnjNrrs_QHaIb--0O-2h",
+      "price_folder_id": "1EQaa6ZrE0FNHUlt5GhVfg1zvgKrdComC",
+      "price_folder_url": "https://drive.google.com/drive/folders/1EQaa6ZrE0FNHUlt5GhVfg1zvgKrdComC",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "One Carrington - Customer Price List - November 2024 Release.pdf",
+          "file_id": "1Qh61x1kw8HjseectSL0yVkltsqLS09MD",
+          "file_url": "https://drive.google.com/file/d/1Qh61x1kw8HjseectSL0yVkltsqLS09MD/view?usp=drivesdk",
+          "modified_at": "2026-05-23T10:02:46.000Z",
+          "price_date": "November 2024"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W1K - Three Kings Yard": {
+      "project": "W1K - Three Kings Yard",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / W1K - Three Kings Yard",
+      "folder_id": "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
+      "folder_url": "https://drive.google.com/drive/folders/16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
+      "price_folder_id": "1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
+      "price_folder_url": "https://drive.google.com/drive/folders/1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W1S - Mandarin Oriental The Residences Mayfair London": {
+      "project": "W1S - Mandarin Oriental The Residences Mayfair London",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / Super Prime London 顶豪 / W1S - Mandarin Oriental The Residences Mayfair London",
+      "folder_id": "1HabUn71Yb5IlYNDFEj0wkj6nKvRTlbfX",
+      "folder_url": "https://drive.google.com/drive/folders/1HabUn71Yb5IlYNDFEj0wkj6nKvRTlbfX",
+      "price_folder_id": "1HWpnmzx6J9qudlq-COVWssxx26JkSYat",
+      "price_folder_url": "https://drive.google.com/drive/folders/1HWpnmzx6J9qudlq-COVWssxx26JkSYat",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -4420,6 +4374,59 @@
           "price_date": "16.06.26"
         }
       ],
+      "notes": []
+    },
+    "TW3 - Lampton Parkside": {
+      "project": "TW3 - Lampton Parkside",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / TW3 - Lampton Parkside",
+      "folder_id": "17vtvIgTuF7XmssMbYlXX72pTUP_rxgI9",
+      "folder_url": "https://drive.google.com/drive/folders/17vtvIgTuF7XmssMbYlXX72pTUP_rxgI9",
+      "price_folder_id": "1Q7mOXjC-IVspnlj62dkIjZYQ-LYdkQLr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Q7mOXjC-IVspnlj62dkIjZYQ-LYdkQLr",
+      "old_price_folder_id": "11FCE1YdIMEmYG2gpiDM3L0msF1rZyjQh",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/11FCE1YdIMEmYG2gpiDM3L0msF1rZyjQh",
+      "latest_files": [
+        {
+          "file": "Lampton Parkside Forest View Price List 01.07.2026.pdf",
+          "file_id": "1Ick5KnYG4-IoRvVMc2EiiR1chk7nvGsc",
+          "file_url": "https://drive.google.com/file/d/1Ick5KnYG4-IoRvVMc2EiiR1chk7nvGsc/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:53.773Z",
+          "price_date": "01.07.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "TW8 - Kew Bridge Rise": {
+      "project": "TW8 - Kew Bridge Rise",
+      "city": "London",
+      "developer": "未分类",
+      "path": "UK 英国 / London 伦敦 / TW8 - Kew Bridge Rise",
+      "folder_id": "17BHw-Q28dyZs5YInRGirY0qPM2VxYjIn",
+      "folder_url": "https://drive.google.com/drive/folders/17BHw-Q28dyZs5YInRGirY0qPM2VxYjIn",
+      "price_folder_id": "13qFFkqv-lkkuP7hT-6f7flg3BE0zwn4t",
+      "price_folder_url": "https://drive.google.com/drive/folders/13qFFkqv-lkkuP7hT-6f7flg3BE0zwn4t",
+      "old_price_folder_id": "1K98KLA3P7k1d8MEZBszWKrsCoFK3qKSp",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1K98KLA3P7k1d8MEZBszWKrsCoFK3qKSp",
+      "latest_files": [
+        {
+          "file": "Kew Bridge Rise Wren Price List 01.07.2026.pdf",
+          "file_id": "1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU",
+          "file_url": "https://drive.google.com/file/d/1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:42.780Z",
+          "price_date": "01.07.2026"
+        },
+        {
+          "file": "Kew bridge Rise Starling Price List 01.07.2026.pdf",
+          "file_id": "1tTYL9FN1P5RnoMuveKz9OG6b55fHC5J5",
+          "file_url": "https://drive.google.com/file/d/1tTYL9FN1P5RnoMuveKz9OG6b55fHC5J5/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:39.964Z",
+          "price_date": "01.07.2026"
+        }
+      ],
+      "old_files": [],
       "notes": []
     },
     "UB1 - The Green Quarter": {
@@ -4752,23 +4759,6 @@
       ],
       "notes": []
     },
-    "Chelsea Finery": {
-      "project": "Chelsea Finery",
-      "city": "London",
-      "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / West & South West 西和西南伦敦 / Chelsea Finery",
-      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "KT1 - County Hall Kingston (London Square)": {
       "project": "KT1 - County Hall Kingston (London Square)",
       "city": "London",
@@ -4814,49 +4804,18 @@
       ],
       "notes": []
     },
-    "Parkside Collection at Chelsea Bridge Wharf": {
-      "project": "Parkside Collection at Chelsea Bridge Wharf",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "path": "UK 英国 / London 伦敦 / West & South West 西和西南伦敦 / Parkside Collection at Chelsea Bridge Wharf",
-      "folder_id": "1qwYVMBbawjR8OG8CW3KTPTmk028lsya2",
-      "folder_url": "https://drive.google.com/drive/folders/1qwYVMBbawjR8OG8CW3KTPTmk028lsya2",
-      "price_folder_id": "1m3gzIBp2BaA_kvt8wJa1aPTm5xNwaWkk",
-      "price_folder_url": "https://drive.google.com/drive/folders/1m3gzIBp2BaA_kvt8wJa1aPTm5xNwaWkk",
-      "old_price_folder_id": "1_xYfu2cSIpgPHVEli5_NKLXEIVAnYIgY",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_xYfu2cSIpgPHVEli5_NKLXEIVAnYIgY",
-      "latest_files": [
-        {
-          "file": "Parkside Collection Price List June 2026.pdf",
-          "file_id": "1E_ciz3Xzx_sgXBx6xiacQ8Qmxwct0Y64",
-          "file_url": "https://drive.google.com/file/d/1E_ciz3Xzx_sgXBx6xiacQ8Qmxwct0Y64/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:23:57.131Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "Ransoms Wharf": {
-      "project": "Ransoms Wharf",
+    "SW10 - Chelsea Finery": {
+      "project": "SW10 - Chelsea Finery",
       "city": "London",
       "developer": "未分类",
-      "path": "UK 英国 / London 伦敦 / West & South West 西和西南伦敦 / Ransoms Wharf",
-      "folder_id": "1b8dKzzrLtnO0yxEwjYaR9lYcyQFvJmJy",
-      "folder_url": "https://drive.google.com/drive/folders/1b8dKzzrLtnO0yxEwjYaR9lYcyQFvJmJy",
-      "price_folder_id": "1n5THtIv-kK2oiylqAvW8CPjUUJIFkVLh",
-      "price_folder_url": "https://drive.google.com/drive/folders/1n5THtIv-kK2oiylqAvW8CPjUUJIFkVLh",
+      "path": "UK 英国 / London 伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
+      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
       "old_price_folder_id": "",
       "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Ransomes Wharf - Customer Price List - 01.05.2026 (1).pdf",
-          "file_id": "1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek",
-          "file_url": "https://drive.google.com/file/d/1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek/view?usp=drivesdk",
-          "modified_at": "2026-05-11T07:21:42.000Z",
-          "price_date": "01.05.2026"
-        }
-      ],
+      "latest_files": [],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -4970,6 +4929,29 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "SW11 - Parkside Collection at Chelsea Bridge Wharf": {
+      "project": "SW11 - Parkside Collection at Chelsea Bridge Wharf",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "path": "UK 英国 / London 伦敦 / West & South West 西和西南伦敦 / SW11 - Parkside Collection at Chelsea Bridge Wharf",
+      "folder_id": "1qwYVMBbawjR8OG8CW3KTPTmk028lsya2",
+      "folder_url": "https://drive.google.com/drive/folders/1qwYVMBbawjR8OG8CW3KTPTmk028lsya2",
+      "price_folder_id": "1m3gzIBp2BaA_kvt8wJa1aPTm5xNwaWkk",
+      "price_folder_url": "https://drive.google.com/drive/folders/1m3gzIBp2BaA_kvt8wJa1aPTm5xNwaWkk",
+      "old_price_folder_id": "1_xYfu2cSIpgPHVEli5_NKLXEIVAnYIgY",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_xYfu2cSIpgPHVEli5_NKLXEIVAnYIgY",
+      "latest_files": [
+        {
+          "file": "Parkside Collection Price List June 2026.pdf",
+          "file_id": "1E_ciz3Xzx_sgXBx6xiacQ8Qmxwct0Y64",
+          "file_url": "https://drive.google.com/file/d/1E_ciz3Xzx_sgXBx6xiacQ8Qmxwct0Y64/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:23:57.131Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     },
     "SW11 - The HiLight - Est Completion Q2 2026": {
       "project": "SW11 - The HiLight - Est Completion Q2 2026",
