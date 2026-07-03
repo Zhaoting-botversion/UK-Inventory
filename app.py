@@ -362,10 +362,46 @@ MARKET_ORDER = [
     "其他英国区域",
 ]
 
+DISPLAY_LABELS = {
+    "Manchester": "曼彻斯特",
+    "Birmingham": "伯明翰",
+    "Reading": "雷丁",
+    "Berkshire": "伯克郡",
+    "Reading / Berkshire": "雷丁 / 伯克郡",
+    "Berkshire / Slough": "伯克郡 / 斯劳",
+    "Others": "其他英国区域",
+    "London": "伦敦",
+    "Google Drive": "网盘",
+    "Drive": "网盘",
+    "Google Drive 当前状态": "网盘当前状态",
+    "Google Drive 当前快照": "网盘当前快照",
+    "Old Pricelist": "历史价单",
+}
+
 
 def postcode_prefix(name: str) -> str:
     head = name.split(" - ", 1)[0].strip().upper()
     return head if re.match(r"^[A-Z]{1,2}\d", head) or head.startswith(("WC", "EC", "SW", "NW", "SE")) else ""
+
+
+def display_label(value: str) -> str:
+    return DISPLAY_LABELS.get(value, value)
+
+
+def display_path(value: str) -> str:
+    text = value or ""
+    replacements = {
+        "UK 英国": "英国",
+        "London 伦敦": "伦敦",
+        "Manchester 曼彻斯特": "曼彻斯特",
+        "Birmingham 伯明翰": "伯明翰",
+        "Others 其他": "其他英国区域",
+        "Google Drive": "网盘",
+        "Drive": "网盘",
+    }
+    for source, target in replacements.items():
+        text = text.replace(source, target)
+    return text
 
 
 def market_group(project: dict | str) -> str:
@@ -575,7 +611,7 @@ def render_dashboard(data: dict) -> bytes:
           <div class="project-name">{project_link(project['name'])}</div>
           <div class="file-name">{e(project['latest_file']) or '<span class="muted">暂无价单更新</span>'}</div>
           <div class="meta">
-            <span>{e(market_group(project))}</span>
+            <span>{e(display_label(market_group(project)))}</span>
             <span>{fmt_time(project['last_updated_at']) or "暂无更新时间"}</span>
             <span>{e(project['uploaded_count'])} 个价单</span>
           </div>
@@ -596,7 +632,7 @@ def render_dashboard(data: dict) -> bytes:
         )
         market_cards.append(
             f"""<section class="market-card {'featured' if group_name == '伦敦核心区' else ''}">
-              <div class="market-title"><strong>{e(group_name)}</strong><span class="count-pill">{len(group_projects)} 个项目</span></div>
+              <div class="market-title"><strong>{e(display_label(group_name))}</strong><span class="count-pill">{len(group_projects)} 个项目</span></div>
               <ul class="project-list">{items}</ul>
             </section>"""
         )
@@ -614,7 +650,7 @@ def render_dashboard(data: dict) -> bytes:
         )
         update_groups.append(
             f"""<section class="update-group">
-              <div class="market-title"><strong>{e(group_name)}</strong><span class="count-pill">{len(updates_by_group[group_name])} 条动态</span></div>
+              <div class="market-title"><strong>{e(display_label(group_name))}</strong><span class="count-pill">{len(updates_by_group[group_name])} 条动态</span></div>
               {rows}
             </section>"""
         )
@@ -664,7 +700,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
     selected_developer = query.get("developer", [""])[0]
     selected_status = query.get("status", [""])[0]
     q = query.get("q", [""])[0]
-    city_options = '<option value="">全部城市/区域</option>' + "".join(f'<option {"selected" if city == selected_city else ""}>{e(city)}</option>' for city in cities)
+    city_options = '<option value="">全部城市/区域</option>' + "".join(f'<option value="{e(city)}" {"selected" if city == selected_city else ""}>{e(display_label(city))}</option>' for city in cities)
     developer_options = '<option value="">全部开发商</option>' + "".join(f'<option {"selected" if item == selected_developer else ""}>{e(item)}</option>' for item in developers)
     status_options = "".join(
         f'<option value="{value}" {"selected" if selected_status == value else ""}>{label}</option>'
@@ -678,13 +714,13 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
     rows = "".join(
         f"""<tr>
           <td><a href="/project/{quote(project['name'])}">{e(project['name'])}</a></td>
-          <td>{e(project['city'])}</td>
+          <td>{e(display_label(project['city']))}</td>
           <td>{e(project['developer'])}</td>
           <td>{project_status(project)}</td>
           <td>{e(project['latest_date'])}</td>
           <td>{fmt_time(project['last_updated_at'])}</td>
           <td>{e(project['uploaded_count'])}</td>
-          <td>{e(project.get('data_source', '日志'))}</td>
+          <td>{e(display_label(project.get('data_source', '日志')))}</td>
           <td>{drive_link(project)}</td>
         </tr>"""
         for project in projects
@@ -701,7 +737,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
       </form>
       <p class="muted">当前显示 {len(projects)} 个项目</p>
       <table>
-        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>Google Drive</th></tr></thead>
+        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
         <tbody>{rows}</tbody>
       </table>
     """
@@ -710,7 +746,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
 
 def drive_link(project: dict) -> str:
     if project.get("folder_url"):
-        return f'<a href="{e(project["folder_url"])}" target="_blank" rel="noreferrer">打开 Drive</a>'
+        return f'<a href="{e(project["folder_url"])}" target="_blank" rel="noreferrer">打开网盘</a>'
     return '<span class="muted">缺失</span>'
 
 
@@ -721,7 +757,7 @@ def render_updates(data: dict) -> bytes:
           <td>{'<span class="tag archived">已归档</span>' if row['type'] == 'archived' else '<span class="tag today">新上传</span>'}</td>
           <td><a href="/project/{quote(row['project'])}">{e(row['project'])}</a></td>
           <td>{file_link(row)}</td>
-          <td class="muted">{e(row['log'])}</td>
+          <td class="muted">{e(display_label(row['log']))}</td>
         </tr>"""
         for row in data["updates"]
     )
@@ -742,26 +778,26 @@ def render_project(data: dict, name: str) -> bytes:
     files = sorted(project["files"], key=lambda row: row["run_time"] or "", reverse=True)
     archived = sorted(project["archived"], key=lambda row: row["run_time"] or "", reverse=True)
     file_rows = "".join(
-        f"""<tr><td>{file_link(row)}</td><td>{e(row['price_date'])}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(row['log'])}</td></tr>"""
+        f"""<tr><td>{file_link(row)}</td><td>{e(row['price_date'])}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(display_label(row['log']))}</td></tr>"""
         for row in files
     ) or '<tr><td colspan="4" class="muted">暂无价单上传记录。</td></tr>'
     archived_rows = "".join(
-        f"""<tr><td>{e(row['file'])}</td><td>{e(row['old_folder'])}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(row['log'])}</td></tr>"""
+        f"""<tr><td>{e(row['file'])}</td><td>{e(display_label(row['old_folder']))}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(display_label(row['log']))}</td></tr>"""
         for row in archived
     ) or '<tr><td colspan="4" class="muted">暂无历史价单归档记录。</td></tr>'
     content = f"""
       <h1>{e(project['name'])}</h1>
       <div class="grid">
-        <div class="metric"><div class="label">城市/区域</div><div class="value" style="font-size:20px">{e(project['city'])}</div></div>
+        <div class="metric"><div class="label">城市/区域</div><div class="value" style="font-size:20px">{e(display_label(project['city']))}</div></div>
         <div class="metric"><div class="label">开发商</div><div class="value" style="font-size:20px">{e(project['developer'])}</div></div>
         <div class="metric"><div class="label">已上传价单</div><div class="value">{e(project['uploaded_count'])}</div></div>
         <div class="metric"><div class="label">已归档旧价单</div><div class="value">{e(project['archived_count'])}</div></div>
       </div>
       <div class="panel" style="margin-top:16px">
-        <strong>Google Drive：</strong> {drive_link(project)}
+        <strong>网盘：</strong> {drive_link(project)}
         <span class="muted" style="margin-left:18px">最近更新：{fmt_time(project['last_updated_at']) or "暂无记录"}</span>
       </div>
-      {f'<div class="panel" style="margin-top:10px"><strong>Drive 路径：</strong>{e(project.get("path", ""))}</div>' if project.get("path") else ""}
+      {f'<div class="panel" style="margin-top:10px"><strong>网盘路径：</strong>{e(display_path(project.get("path", "")))}</div>' if project.get("path") else ""}
       <h2>最新价单文件</h2>
       <table><thead><tr><th>文件</th><th>识别到的价单日期</th><th>上传时间</th><th>日志</th></tr></thead><tbody>{file_rows}</tbody></table>
       <h2>历史价单归档</h2>
