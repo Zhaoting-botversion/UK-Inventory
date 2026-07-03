@@ -332,6 +332,81 @@ def is_recent(value: str, days: int) -> bool:
     return dt >= now - timedelta(days=days)
 
 
+CORE_LONDON_PREFIXES = (
+    "W1",
+    "W2",
+    "W8",
+    "SW1",
+    "SW3",
+    "SW7",
+    "WC",
+    "EC1",
+    "EC2",
+    "EC3",
+    "EC4",
+    "SE1",
+    "NW1",
+    "NW3",
+    "NW8",
+)
+
+MARKET_ORDER = [
+    "伦敦核心区",
+    "伦敦东区 / 金丝雀码头 / Royal Docks",
+    "伦敦西区 / 西南区",
+    "伦敦北区 / 西北区",
+    "大伦敦",
+    "Manchester",
+    "Birmingham",
+    "Reading / Berkshire",
+    "其他英国区域",
+]
+
+
+def postcode_prefix(name: str) -> str:
+    head = name.split(" - ", 1)[0].strip().upper()
+    return head if re.match(r"^[A-Z]{1,2}\d", head) or head.startswith(("WC", "EC", "SW", "NW", "SE")) else ""
+
+
+def market_group(project: dict | str) -> str:
+    if isinstance(project, dict):
+        name = project.get("name", "")
+        city = project.get("city", "")
+    else:
+        name = project
+        city = ""
+
+    prefix = postcode_prefix(name)
+    if city == "Manchester":
+        return "Manchester"
+    if city == "Birmingham":
+        return "Birmingham"
+    if city in {"Reading", "Berkshire / Slough"} or prefix.startswith(("RG", "SL")):
+        return "Reading / Berkshire"
+    if city and city not in {"London", "Others"}:
+        return city
+
+    if prefix.startswith(CORE_LONDON_PREFIXES):
+        return "伦敦核心区"
+    if prefix.startswith(("E1", "E2", "E3", "E10", "E14", "E16", "SE8", "SE10")):
+        return "伦敦东区 / 金丝雀码头 / Royal Docks"
+    if prefix.startswith(("W3", "W4", "W5", "W6", "SW", "TW")):
+        return "伦敦西区 / 西南区"
+    if prefix.startswith(("N", "NW")):
+        return "伦敦北区 / 西北区"
+    if prefix.startswith(("BR", "CR", "DA", "HA", "RM", "WD", "CM", "HP", "OX")):
+        return "大伦敦"
+    if city == "London":
+        return "大伦敦"
+    return "其他英国区域"
+
+
+def group_rank(name: str) -> tuple[int, str]:
+    if name in MARKET_ORDER:
+        return (MARKET_ORDER.index(name), name)
+    return (len(MARKET_ORDER), name)
+
+
 def layout(title: str, content: str, active: str = "") -> bytes:
     nav = [
         ("/", "首页"),
@@ -390,8 +465,31 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .tag.archived {{ background: #f1f5f9; color: #475569; }}
     .split {{ display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }}
     .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }}
+    .section-head {{ display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 26px 0 12px; }}
+    .section-head h2 {{ margin: 0; }}
+    .section-head .muted {{ max-width: 680px; line-height: 1.5; }}
+    .priority-grid {{ display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }}
+    .priority-card {{ background: var(--panel); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 8px; padding: 14px; min-height: 132px; }}
+    .priority-card .project-name {{ font-size: 16px; font-weight: 700; line-height: 1.35; }}
+    .priority-card .file-name {{ margin-top: 10px; color: #344054; line-height: 1.35; overflow-wrap: anywhere; }}
+    .priority-card .meta {{ display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px; color: var(--muted); font-size: 13px; }}
+    .market-grid {{ display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }}
+    .market-card {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; min-height: 180px; }}
+    .market-card.featured {{ border-color: #99d8cf; background: #f4fbf9; }}
+    .market-title {{ display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }}
+    .market-title strong {{ font-size: 16px; }}
+    .count-pill {{ border: 1px solid var(--line); border-radius: 999px; padding: 2px 8px; color: #344054; font-size: 12px; background: #fff; white-space: nowrap; }}
+    .project-list {{ list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 8px; }}
+    .project-list li {{ display: grid; gap: 3px; border-top: 1px solid #eef1f5; padding-top: 8px; }}
+    .project-list li:first-child {{ border-top: 0; padding-top: 0; }}
+    .small-meta {{ color: var(--muted); font-size: 12px; line-height: 1.35; }}
+    .updates-grid {{ display: grid; gap: 12px; grid-template-columns: repeat(3, minmax(0, 1fr)); }}
+    .update-group {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }}
+    .update-row {{ display: grid; gap: 4px; border-top: 1px solid #eef1f5; padding-top: 10px; margin-top: 10px; }}
+    .update-row:first-of-type {{ border-top: 0; padding-top: 0; margin-top: 12px; }}
     .empty {{ background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 24px; color: var(--muted); }}
-    @media (max-width: 900px) {{ .grid, .split {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} }}
+    @media (max-width: 1100px) {{ .priority-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} }}
+    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} }}
   </style>
 </head>
 <body>
@@ -445,29 +543,82 @@ def render_dashboard(data: dict) -> bytes:
     runs = data["runs"]
     updated_projects = {row["project"] for row in updates if row["type"] == "uploaded"}
     today_updates = [row for row in updates if is_recent(row["run_time"], 1)]
-    recent_projects = [row for row in projects if is_recent(row["last_updated_at"], 7)]
+    recent_projects = sorted(
+        [row for row in projects if is_recent(row["last_updated_at"], 7)],
+        key=lambda row: row["last_updated_at"] or "",
+        reverse=True,
+    )
     latest_run = runs[0] if runs else {}
     latest_run_time = latest_run.get("finished_at") or latest_run.get("started_at") or latest_run.get("_mtime", "")
     drive_synced_at = data.get("drive_state", {}).get("synced_at", "")
 
-    recent_rows = "".join(
-        f"""<tr>
-          <td><a href="/project/{quote(project['name'])}">{e(project['name'])}</a></td>
-          <td>{e(project['city'])}</td>
-          <td>{e(project['latest_file'])}</td>
-          <td>{fmt_time(project['last_updated_at'])}</td>
-        </tr>"""
-        for project in recent_projects[:10]
-    )
-    update_rows = "".join(
-        f"""<tr>
-          <td>{'<span class="tag archived">已归档</span>' if row['type'] == 'archived' else '<span class="tag today">新上传</span>'}</td>
-          <td><a href="/project/{quote(row['project'])}">{e(row['project'])}</a></td>
-          <td>{file_link(row)}</td>
-          <td>{fmt_time(row['run_time'])}</td>
-        </tr>"""
-        for row in updates[:12]
-    )
+    project_by_name = {row["name"]: row for row in projects}
+    projects_by_group: dict[str, list[dict]] = defaultdict(list)
+    updates_by_group: dict[str, list[dict]] = defaultdict(list)
+    for project in projects:
+        projects_by_group[market_group(project)].append(project)
+    for row in updates:
+        project = project_by_name.get(row["project"])
+        updates_by_group[market_group(project or row["project"])].append(row)
+
+    core_projects = projects_by_group.get("伦敦核心区", [])
+    core_recent = [row for row in recent_projects if market_group(row) == "伦敦核心区"]
+    priority_projects = (core_recent or sorted(core_projects, key=lambda row: row["last_updated_at"] or "", reverse=True))[:6]
+
+    def project_link(name: str) -> str:
+        if name in project_by_name:
+            return f'<a href="/project/{quote(name)}">{e(name)}</a>'
+        return e(name)
+
+    priority_cards = "".join(
+        f"""<article class="priority-card">
+          <div class="project-name">{project_link(project['name'])}</div>
+          <div class="file-name">{e(project['latest_file']) or '<span class="muted">暂无价单更新</span>'}</div>
+          <div class="meta">
+            <span>{e(market_group(project))}</span>
+            <span>{fmt_time(project['last_updated_at']) or "暂无更新时间"}</span>
+            <span>{e(project['uploaded_count'])} 个价单</span>
+          </div>
+        </article>"""
+        for project in priority_projects
+    ) or '<div class="empty">暂无伦敦核心区近期更新。</div>'
+
+    market_cards = []
+    for group_name in sorted(projects_by_group, key=group_rank):
+        group_projects = sorted(projects_by_group[group_name], key=lambda row: row["last_updated_at"] or "", reverse=True)
+        group_recent = [row for row in group_projects if row["last_updated_at"]][:5] or group_projects[:5]
+        items = "".join(
+            f"""<li>
+              <div>{project_link(project['name'])}</div>
+              <div class="small-meta">{fmt_time(project['last_updated_at']) or "暂无更新"} · {e(project['uploaded_count'])} 个价单</div>
+            </li>"""
+            for project in group_recent
+        )
+        market_cards.append(
+            f"""<section class="market-card {'featured' if group_name == '伦敦核心区' else ''}">
+              <div class="market-title"><strong>{e(group_name)}</strong><span class="count-pill">{len(group_projects)} 个项目</span></div>
+              <ul class="project-list">{items}</ul>
+            </section>"""
+        )
+
+    update_groups = []
+    for group_name in sorted(updates_by_group, key=group_rank):
+        group_updates = sorted(updates_by_group[group_name], key=lambda row: row["run_time"] or "", reverse=True)[:5]
+        rows = "".join(
+            f"""<div class="update-row">
+              <div>{'<span class="tag archived">已归档</span>' if row['type'] == 'archived' else '<span class="tag today">新上传</span>'} {project_link(row['project'])}</div>
+              <div>{file_link(row)}</div>
+              <div class="small-meta">{fmt_time(row['run_time'])}</div>
+            </div>"""
+            for row in group_updates
+        )
+        update_groups.append(
+            f"""<section class="update-group">
+              <div class="market-title"><strong>{e(group_name)}</strong><span class="count-pill">{len(updates_by_group[group_name])} 条动态</span></div>
+              {rows}
+            </section>"""
+        )
+
     content = f"""
       <h1>英国销控看板</h1>
       <div class="grid">
@@ -476,16 +627,24 @@ def render_dashboard(data: dict) -> bytes:
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
-      <div class="split">
-        <section>
-          <h2>近期更新项目</h2>
-          <table><thead><tr><th>项目</th><th>城市/区域</th><th>最新价单文件</th><th>更新时间</th></tr></thead><tbody>{recent_rows}</tbody></table>
-        </section>
-        <section>
-          <h2>最新动态</h2>
-          <table><thead><tr><th>类型</th><th>项目</th><th>文件</th><th>时间</th></tr></thead><tbody>{update_rows}</tbody></table>
-        </section>
+
+      <div class="section-head">
+        <h2>伦敦核心区优先关注</h2>
+        <div class="muted">优先显示 W1/W2/W8/SW1/WC/EC/SE1/NW 等核心邮编项目，适合老板快速看主战场是否有新价单或关键更新。</div>
       </div>
+      <div class="priority-grid">{priority_cards}</div>
+
+      <div class="section-head">
+        <h2>按城市 / 区域查看楼盘</h2>
+        <div class="muted">先看伦敦核心区，再看伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进项目总览筛选。</div>
+      </div>
+      <div class="market-grid">{''.join(market_cards)}</div>
+
+      <div class="section-head">
+        <h2>最新动态按区域归类</h2>
+        <div class="muted">同一城市或板块的上传记录放在一起，避免最新动态变成一张难读的流水账。</div>
+      </div>
+      <div class="updates-grid">{''.join(update_groups)}</div>
     """
     return layout("首页", content, "/")
 
