@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-03T09:55:14",
+  "synced_at": "2026-07-03T13:44:41",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1150,6 +1150,15 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/15WkH6UDf157JxrQNDv3nChOlt5gMz409",
       "latest_files": [
         {
+          "file": "One Thames Quay Price List - June 2026 v1.pdf",
+          "file_id": "1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek",
+          "file_url": "https://drive.google.com/file/d/1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek/view?usp=drivesdk",
+          "modified_at": "2026-07-03T03:04:49.000Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "One Thames Quay Price List - April 2026 v3.pdf",
           "file_id": "1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi",
           "file_url": "https://drive.google.com/file/d/1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi/view?usp=drivesdk",
@@ -1157,7 +1166,6 @@
           "price_date": "April 2026"
         }
       ],
-      "old_files": [],
       "notes": []
     },
     "E14 - Rivermark": {
@@ -5086,6 +5094,36 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
       "latest_files": [
         {
+          "file": "Tower West Pricelist  29th June 2026.pdf",
+          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
+          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  29th June 2026.pdf",
+          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
+          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:57.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  29th June 2026.pdf",
+          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
+          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:56.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  29th June 2026.pdf",
+          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
+          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:54.000Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Savills Tower East Price List 15th June 2026.pdf",
           "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
           "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
@@ -5114,19 +5152,17 @@
           "price_date": "June 2026"
         },
         {
-          "file": "Water Gardens Pricelist 8th June 2026.pdf",
-          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
-          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:43.000Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
-        {
           "file": "Tower East  Pricelist 8th June 2026.pdf",
           "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
           "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
           "modified_at": "2026-06-09T02:13:45.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 8th June 2026.pdf",
+          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
+          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:43.000Z",
           "price_date": "June 2026"
         },
         {
