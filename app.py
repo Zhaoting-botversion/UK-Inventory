@@ -1122,7 +1122,7 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     main {{ padding: 24px 28px 40px; max-width: 1440px; margin: 0 auto; }}
     h1 {{ font-size: 26px; margin: 0 0 18px; }}
     h2 {{ font-size: 18px; margin: 24px 0 10px; }}
-    .grid {{ display: grid; gap: 14px; grid-template-columns: repeat(4, minmax(0, 1fr)); }}
+    .grid {{ display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }}
     .metric {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }}
     .metric .label {{ color: var(--muted); font-size: 13px; }}
     .metric .value {{ font-size: 28px; font-weight: 700; margin-top: 8px; }}
@@ -1146,6 +1146,10 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .tag.release {{ background: #dbeafe; color: #1e40af; }}
     .split {{ display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }}
     .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }}
+    .unit-highlight {{ border-color: #b7d7d2; background: #f5fffd; }}
+    .unit-highlight h2 {{ margin-top: 0; }}
+    .unit-highlight table {{ margin-top: 10px; }}
+    .unit-cta {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 10px; }}
     .section-head {{ display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 26px 0 12px; }}
     .section-head h2 {{ margin: 0; }}
     .section-head .muted {{ max-width: 680px; line-height: 1.5; }}
@@ -1258,6 +1262,34 @@ def render_dashboard(data: dict) -> bytes:
             return f'<a href="/project/{quote(name)}">{e(name)}</a>'
         return e(name)
 
+    unit_priority = {
+        "PRICE_DROP": 0,
+        "NEW_RELEASE": 1,
+        "SOLD": 2,
+        "BACK_ON_MARKET": 3,
+        "RESERVED": 4,
+        "PRICE_INCREASE": 5,
+        "STATUS_CHANGE": 6,
+    }
+    all_unit_events = load_unit_events(500)
+    unit_events = sorted(
+        all_unit_events,
+        key=lambda row: (unit_priority.get(row.get("change_type", ""), 9), row.get("created_at", "")),
+        reverse=False,
+    )[:8]
+    unit_event_rows = "".join(
+        f"""<tr>
+          <td>{project_link(row.get('project_name', ''))}</td>
+          <td>{e(row.get('unit', ''))}</td>
+          <td>{change_tag(row.get('change_type', ''))}</td>
+          <td>{money_value(row.get('old_price'))}</td>
+          <td>{money_value(row.get('new_price'))}</td>
+          <td>{money_delta(row.get('price_change'))}</td>
+          <td class="muted">{fmt_time(row.get('created_at', ''))}</td>
+        </tr>"""
+        for row in unit_events
+    ) or '<tr><td colspan="7" class="muted">暂无房源级变化数据。导入新旧价单后，这里会显示具体房号的降价、新放出、已售/下架。</td></tr>'
+
     priority_cards = "".join(
         f"""<article class="priority-card">
           <div class="project-name">{project_link(project['name'])}</div>
@@ -1327,9 +1359,24 @@ def render_dashboard(data: dict) -> bytes:
       <div class="grid">
         <div class="metric"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div></div>
         <div class="metric"><div class="label">有更新项目</div><div class="value">{len(updated_projects)}</div></div>
+        <div class="metric"><div class="label">房源变化事件</div><div class="value">{len(all_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
+
+      <section class="panel unit-highlight" style="margin-top:18px">
+        <div class="unit-cta">
+          <div>
+            <h2>重点房源变化</h2>
+            <div class="muted">具体到房号的价单变化，比“项目有更新”更值得销售优先跟进。</div>
+          </div>
+          <a href="/unit-changes">查看全部房源变化</a>
+        </div>
+        <table>
+          <thead><tr><th>项目</th><th>房号</th><th>类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>时间</th></tr></thead>
+          <tbody>{unit_event_rows}</tbody>
+        </table>
+      </section>
 
       <div class="section-head">
         <h2>最新价单更新提醒</h2>
@@ -1623,6 +1670,16 @@ def change_tag(change_type: str) -> str:
     return f'<span class="tag {cls}">{e(change_label(change_type))}</span>'
 
 
+def money_value(value: object) -> str:
+    if value in (None, ""):
+        return ""
+    try:
+        number = float(str(value).replace(",", ""))
+    except (TypeError, ValueError):
+        return e(str(value))
+    return f"£{number:,.0f}"
+
+
 def money_delta(value: object) -> str:
     if value in (None, ""):
         return ""
@@ -1686,8 +1743,8 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
           <td><a href="/project/{quote(row.get('project_name', ''))}">{e(row.get('project_name', ''))}</a></td>
           <td>{e(row.get('unit', ''))}</td>
           <td>{change_tag(row.get('change_type', ''))}</td>
-          <td>{e(row.get('old_price', ''))}</td>
-          <td>{e(row.get('new_price', ''))}</td>
+          <td>{money_value(row.get('old_price'))}</td>
+          <td>{money_value(row.get('new_price'))}</td>
           <td>{money_delta(row.get('price_change'))}</td>
           <td>{e(row.get('old_status', ''))}</td>
           <td>{e(row.get('new_status', ''))}</td>
@@ -1716,7 +1773,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         <section>
           <h2>房源变化明细</h2>
           <table>
-            <thead><tr><th>时间</th><th>项目</th><th>房号</th><th>类型</th><th>原价</th><th>新价</th><th>变化</th><th>原状态</th><th>新状态</th><th>来源文件</th></tr></thead>
+            <thead><tr><th>时间</th><th>项目</th><th>房号</th><th>类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th><th>来源文件</th></tr></thead>
             <tbody>{event_rows}</tbody>
           </table>
         </section>
@@ -1752,8 +1809,8 @@ def render_project(data: dict, name: str) -> bytes:
           <td>{fmt_time(row.get('created_at', ''))}</td>
           <td>{e(row.get('unit', ''))}</td>
           <td>{change_tag(row.get('change_type', ''))}</td>
-          <td>{e(row.get('old_price', ''))}</td>
-          <td>{e(row.get('new_price', ''))}</td>
+          <td>{money_value(row.get('old_price'))}</td>
+          <td>{money_value(row.get('new_price'))}</td>
           <td>{money_delta(row.get('price_change'))}</td>
           <td>{e(row.get('old_status', ''))}</td>
           <td>{e(row.get('new_status', ''))}</td>
@@ -1778,7 +1835,7 @@ def render_project(data: dict, name: str) -> bytes:
       <h2>最新价单文件</h2>
       <table><thead><tr><th>文件</th><th>识别到的价单日期</th><th>上传时间</th><th>日志</th></tr></thead><tbody>{file_rows}</tbody></table>
       <h2>房源变化</h2>
-      <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价</th><th>新价</th><th>变化</th><th>原状态</th><th>新状态</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
+      <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
       <h2>历史价单归档</h2>
       <table><thead><tr><th>文件</th><th>归档文件夹</th><th>归档时间</th><th>日志</th></tr></thead><tbody>{archived_rows}</tbody></table>
     """
