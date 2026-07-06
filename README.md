@@ -5,8 +5,9 @@
 ## 数据来源
 
 - `drive_state.json`：Google Drive 当前快照，优先读取
-- `../logs/berkeley_update_*.json`：Berkeley 自动更新日志，用于“更新记录”
-- `../berkeley_update_pricelists.py`：Berkeley 项目映射，用于识别开发商
+- `../迁移资料到Google Drive/logs/uk_update_*.json`：英国项目价单自动更新日志，用于“更新记录”
+- `../迁移资料到Google Drive/logs/berkeley_update_*.json`：历史日志，继续兼容读取
+- `../迁移资料到Google Drive/uk_update_pricelists.py`：英国项目映射，用于识别开发商和项目文件夹
 
 ## 当前范围
 
@@ -24,6 +25,30 @@
 - `http://127.0.0.1:8765/` 首页
 - `http://127.0.0.1:8765/projects` 项目总览
 - `http://127.0.0.1:8765/updates` 更新记录
+- `http://127.0.0.1:8765/unit-changes` 房源变化
+
+## 房源变化数据库
+
+`unit_change_engine.py` 是独立的房源变化 MVP：
+
+- 把 PDF、Excel、CSV 价单抽取为房源记录
+- 记录每个项目的价单版本
+- 对比上一版和最新版，识别降价、涨价、新放出、售出/下架、状态变化
+- 写入 `inventory_units.sqlite`
+- 在网站的“房源变化”页面展示，也会在单个项目页展示该项目最近的房源变化
+
+测试样本：
+
+```powershell
+python unit_change_engine.py seed-postmark-test --reset
+python unit_change_engine.py recent --limit 20
+```
+
+真实价单入库示例：
+
+```powershell
+python unit_change_engine.py ingest --project "WC1X - Postmark, Farringdon" --file "C:\path\to\new_price_list.pdf" --version-label "04.07.26"
+```
 
 ## 启动
 
@@ -39,20 +64,52 @@
 python app.py
 ```
 
-## 同步 Google Drive 当前状态
+## 发布线上网站
 
-如果 Google Drive 里有人手动新增、移动、重命名或归档文件，先双击：
+日常只需要双击：
 
 ```text
-同步GoogleDrive当前状态.cmd
+发布销控网站.cmd
 ```
 
-它会重新扫描 `UK 英国`，生成 `drive_state.json`。网站会优先读取这个快照；如果没有快照，才回退读取本地更新日志。
+这个脚本会让你选择：
+
+- `1`：快速发布当前数据，默认选项
+- `2`：重新扫描 Google Drive 后发布
+
+如果 8 秒内不选择，会自动使用 `1` 模式。
+
+## 什么时候选哪个
+
+- 日常改了网页、开发商、合作信息、已有 `drive_state.json`：选 `1 快速发布当前数据`
+- Google Drive 里新增、移动、重命名或归档了项目/价单：选 `2 重新扫描 Google Drive 后发布`
+
+旧的拆分脚本已经移到 `高级工具_旧脚本`，日常不需要使用。
+
+它会自动执行：
+
+1. 重新扫描 Google Drive 的 `UK 英国`
+2. 生成新的 `drive_state.json`
+3. 复制到 GitHub Pages 部署仓库
+4. 如果数据有变化，自动 commit 并 push 到 GitHub
+5. GitHub Actions 自动重新部署页面
+
+云端地址：
+
+```text
+https://zhaoting-botversion.github.io/UK-Inventory/
+```
+
+如果 Google Drive 没有变化，脚本会提示 `No Drive changes detected`，不会重复发布。
+
+脚本比较变化时会忽略 `synced_at` 时间戳，所以只有项目、文件、价单链接等实际内容变化时才会推送到 GitHub。
+
+全量扫描依赖 Google Drive API 和本地网络，可能会比较慢。扫描窗口现在会显示正在扫描的文件夹和正在收集的项目，方便判断进度。
 
 ## 注意
 
 - 项目总览现在以 Google Drive 快照为准，避免旧 Berkeley 项目名和带邮编的新项目名重复显示。
-- “更新记录”仍保留 Berkeley 自动上传和旧价单归档日志，方便追踪最近操作。
+- “更新记录”读取英国项目价单自动上传和旧价单归档日志，历史 Berkeley 日志继续兼容。
 - 非 Berkeley 项目的开发商字段目前多为“未分类”，后续可以继续补充开发商识别规则。
 
 ## 云端部署
@@ -109,7 +166,7 @@ python app.py
 6. 在 Environment Variables 里设置 `DASHBOARD_USER` 和 `DASHBOARD_PASSWORD`。
 7. 部署完成后，把 Render 生成的网址发给老板。
 
-### 更新云端数据
+### 手动更新云端数据
 
 当 Google Drive 里项目或价单变化后：
 

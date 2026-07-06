@@ -12,10 +12,20 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, quote, unquote, urlparse
 
+from unit_change_engine import DB_PATH as UNIT_DB_PATH
+from unit_change_engine import recent_events, version_summary
+
 
 BASE_DIR = Path(__file__).resolve().parents[1]
-LOG_DIR = BASE_DIR / "logs"
-BERKELEY_SCRIPT = BASE_DIR / "berkeley_update_pricelists.py"
+WORK_PROJECTS_DIR = BASE_DIR.parent
+LOG_DIR = WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "logs"
+UK_UPDATE_SCRIPT_CANDIDATES = [
+    WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "uk_update_pricelists.py",
+    WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "berkeley_update_pricelists.py",
+    BASE_DIR / "uk_update_pricelists.py",
+    BASE_DIR / "berkeley_update_pricelists.py",
+]
+UK_UPDATE_SCRIPT = next((path for path in UK_UPDATE_SCRIPT_CANDIDATES if path.exists()), UK_UPDATE_SCRIPT_CANDIDATES[0])
 DRIVE_STATE_PATH = Path(__file__).resolve().parent / "drive_state.json"
 APP_TITLE = "英国销控看板"
 HOST = os.environ.get("HOST") or ("0.0.0.0" if "PORT" in os.environ else "127.0.0.1")
@@ -519,9 +529,9 @@ COOPERATION_OVERRIDES = {
 
 
 def load_projects() -> dict[str, str]:
-    if not BERKELEY_SCRIPT.exists():
+    if not UK_UPDATE_SCRIPT.exists():
         return {}
-    text = BERKELEY_SCRIPT.read_text(encoding="utf-8", errors="replace")
+    text = UK_UPDATE_SCRIPT.read_text(encoding="utf-8", errors="replace")
     match = re.search(r"PROJECTS\s*=\s*(\{.*?\})\n\nALIASES", text, re.S)
     if not match:
         return {}
@@ -592,7 +602,8 @@ def read_logs() -> list[dict]:
     runs = []
     if not LOG_DIR.exists():
         return runs
-    for path in sorted(LOG_DIR.glob("berkeley_update_*.json")):
+    log_paths = [*LOG_DIR.glob("uk_update_*.json"), *LOG_DIR.glob("berkeley_update_*.json")]
+    for path in sorted(log_paths):
         try:
             payload = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
@@ -1076,6 +1087,7 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     nav = [
         ("/", "首页"),
         ("/projects", "项目总览"),
+        ("/unit-changes", "房源变化"),
         ("/updates", "更新记录"),
     ]
     nav_html = "".join(
@@ -1128,6 +1140,10 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .tag.today {{ background: #dcfce7; color: #166534; }}
     .tag.week {{ background: #fef3c7; color: var(--warn); }}
     .tag.archived {{ background: #f1f5f9; color: #475569; }}
+    .tag.drop {{ background: #fee2e2; color: #991b1b; }}
+    .tag.increase {{ background: #ffedd5; color: #9a3412; }}
+    .tag.sold {{ background: #f1f5f9; color: #334155; }}
+    .tag.release {{ background: #dbeafe; color: #1e40af; }}
     .split {{ display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }}
     .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }}
     .section-head {{ display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 26px 0 12px; }}
@@ -1565,6 +1581,59 @@ def drive_link(project: dict) -> str:
     return '<span class="muted">缺失</span>'
 
 
+def load_unit_events(limit: int = 200) -> list[dict]:
+    if not UNIT_DB_PATH.exists():
+        return []
+    try:
+        return recent_events(limit)
+    except Exception:
+        return []
+
+
+def load_unit_version_summary() -> list[dict]:
+    if not UNIT_DB_PATH.exists():
+        return []
+    try:
+        return version_summary()
+    except Exception:
+        return []
+
+
+def change_label(change_type: str) -> str:
+    labels = {
+        "PRICE_DROP": "价格下降",
+        "PRICE_INCREASE": "价格上涨",
+        "NEW_RELEASE": "新放出",
+        "SOLD": "已售/下架",
+        "RESERVED": "变为预订",
+        "BACK_ON_MARKET": "回到市场",
+        "STATUS_CHANGE": "状态变化",
+    }
+    return labels.get(change_type, change_type or "变化")
+
+
+def change_tag(change_type: str) -> str:
+    cls = {
+        "PRICE_DROP": "drop",
+        "PRICE_INCREASE": "increase",
+        "SOLD": "sold",
+        "NEW_RELEASE": "release",
+        "BACK_ON_MARKET": "release",
+    }.get(change_type, "")
+    return f'<span class="tag {cls}">{e(change_label(change_type))}</span>'
+
+
+def money_delta(value: object) -> str:
+    if value in (None, ""):
+        return ""
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return e(str(value))
+    sign = "+" if number > 0 else ""
+    return f"{sign}£{number:,.0f}"
+
+
 def render_updates(data: dict) -> bytes:
     rows = "".join(
         f"""<tr>
@@ -1586,6 +1655,83 @@ def render_updates(data: dict) -> bytes:
     return layout("更新记录", content, "/updates")
 
 
+def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -> bytes:
+    events = load_unit_events(500)
+    versions = load_unit_version_summary()
+    query = query or {}
+    selected_project = query.get("project", [""])[0]
+    if selected_project:
+        events = [row for row in events if row.get("project_name") == selected_project]
+
+    projects = sorted({row.get("project_name", "") for row in events if row.get("project_name")})
+    project_options = '<option value="">全部项目</option>' + "".join(
+        f'<option value="{e(project)}" {"selected" if project == selected_project else ""}>{e(project)}</option>'
+        for project in projects
+    )
+    counts = defaultdict(int)
+    project_counts = defaultdict(int)
+    for row in events:
+        counts[row.get("change_type", "")] += 1
+        project_counts[row.get("project_name", "")] += 1
+    top_project_rows = "".join(
+        f"""<tr>
+          <td><a href="/project/{quote(project)}">{e(project)}</a></td>
+          <td>{count}</td>
+        </tr>"""
+        for project, count in sorted(project_counts.items(), key=lambda item: item[1], reverse=True)[:10]
+    ) or '<tr><td colspan="2" class="muted">暂无房源变化数据。</td></tr>'
+    event_rows = "".join(
+        f"""<tr>
+          <td>{fmt_time(row.get('created_at', ''))}</td>
+          <td><a href="/project/{quote(row.get('project_name', ''))}">{e(row.get('project_name', ''))}</a></td>
+          <td>{e(row.get('unit', ''))}</td>
+          <td>{change_tag(row.get('change_type', ''))}</td>
+          <td>{e(row.get('old_price', ''))}</td>
+          <td>{e(row.get('new_price', ''))}</td>
+          <td>{money_delta(row.get('price_change'))}</td>
+          <td>{e(row.get('old_status', ''))}</td>
+          <td>{e(row.get('new_status', ''))}</td>
+          <td class="muted">{e(row.get('new_file', ''))}</td>
+        </tr>"""
+        for row in events
+    ) or '<tr><td colspan="10" class="muted">暂无房源变化数据。可以先运行 unit_change_engine.py seed-postmark-test 做测试，或导入新旧价单。</td></tr>'
+    content = f"""
+      <h1>房源变化</h1>
+      <div class="grid">
+        <div class="metric"><div class="label">变化事件</div><div class="value">{len(events)}</div></div>
+        <div class="metric"><div class="label">价格下降</div><div class="value">{counts.get('PRICE_DROP', 0)}</div></div>
+        <div class="metric"><div class="label">新放出</div><div class="value">{counts.get('NEW_RELEASE', 0)}</div></div>
+        <div class="metric"><div class="label">已售/下架</div><div class="value">{counts.get('SOLD', 0)}</div></div>
+      </div>
+      <div class="panel" style="margin-top:16px">
+        <strong>数据库：</strong> {e(str(UNIT_DB_PATH))}
+        <span class="muted" style="margin-left:18px">已入库项目：{len(versions)}</span>
+      </div>
+      <form class="toolbar" method="get" action="/unit-changes" style="margin-top:16px">
+        <select name="project">{project_options}</select>
+        <button type="submit">筛选</button>
+        <a href="/unit-changes">重置</a>
+      </form>
+      <div class="split">
+        <section>
+          <h2>房源变化明细</h2>
+          <table>
+            <thead><tr><th>时间</th><th>项目</th><th>房号</th><th>类型</th><th>原价</th><th>新价</th><th>变化</th><th>原状态</th><th>新状态</th><th>来源文件</th></tr></thead>
+            <tbody>{event_rows}</tbody>
+          </table>
+        </section>
+        <section>
+          <h2>项目变化排行</h2>
+          <table>
+            <thead><tr><th>项目</th><th>变化数</th></tr></thead>
+            <tbody>{top_project_rows}</tbody>
+          </table>
+        </section>
+      </div>
+    """
+    return layout("房源变化", content, "/unit-changes")
+
+
 def render_project(data: dict, name: str) -> bytes:
     project = next((row for row in data["projects"] if row["name"] == name), None)
     if not project:
@@ -1600,6 +1746,20 @@ def render_project(data: dict, name: str) -> bytes:
         f"""<tr><td>{e(row['file'])}</td><td>{e(display_label(row['old_folder']))}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(display_label(row['log']))}</td></tr>"""
         for row in archived
     ) or '<tr><td colspan="4" class="muted">暂无历史价单归档记录。</td></tr>'
+    unit_events = [row for row in load_unit_events(500) if row.get("project_name") == name][:20]
+    unit_event_rows = "".join(
+        f"""<tr>
+          <td>{fmt_time(row.get('created_at', ''))}</td>
+          <td>{e(row.get('unit', ''))}</td>
+          <td>{change_tag(row.get('change_type', ''))}</td>
+          <td>{e(row.get('old_price', ''))}</td>
+          <td>{e(row.get('new_price', ''))}</td>
+          <td>{money_delta(row.get('price_change'))}</td>
+          <td>{e(row.get('old_status', ''))}</td>
+          <td>{e(row.get('new_status', ''))}</td>
+        </tr>"""
+        for row in unit_events
+    ) or '<tr><td colspan="8" class="muted">暂无房源级变化记录。</td></tr>'
     content = f"""
       <h1>{e(project['name'])}</h1>
       <div class="grid">
@@ -1617,6 +1777,8 @@ def render_project(data: dict, name: str) -> bytes:
       {f'<div class="panel" style="margin-top:10px"><strong>网盘路径：</strong>{e(display_path(project.get("path", "")))}</div>' if project.get("path") else ""}
       <h2>最新价单文件</h2>
       <table><thead><tr><th>文件</th><th>识别到的价单日期</th><th>上传时间</th><th>日志</th></tr></thead><tbody>{file_rows}</tbody></table>
+      <h2>房源变化</h2>
+      <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价</th><th>新价</th><th>变化</th><th>原状态</th><th>新状态</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
       <h2>历史价单归档</h2>
       <table><thead><tr><th>文件</th><th>归档文件夹</th><th>归档时间</th><th>日志</th></tr></thead><tbody>{archived_rows}</tbody></table>
     """
@@ -1657,6 +1819,8 @@ class Handler(BaseHTTPRequestHandler):
             body = render_dashboard(data)
         elif path == "/projects":
             body = render_projects(data, query)
+        elif path == "/unit-changes":
+            body = render_unit_changes(data, query)
         elif path == "/updates":
             body = render_updates(data)
         elif path.startswith("/project/"):

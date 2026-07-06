@@ -42,6 +42,7 @@ def main() -> None:
     write_page("", app.render_dashboard(data))
     write_page("projects", app.render_projects(data, {}))
     write_page("updates", app.render_updates(data))
+    write_page("unit-changes", app.render_unit_changes(data, {}))
 
     for project in data["projects"]:
         write_project_page(project["name"], app.render_project(data, project["name"]))
