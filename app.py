@@ -75,6 +75,17 @@ DEVELOPER_OVERRIDES = {
     "WC1X - Postmark, Farringdon": "Taylor Wimpey Central London",
 }
 
+COOPERATION_OVERRIDES = {
+    "SW10 - Chelsea Finery": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Mount Anvil",
+    },
+    "W14 - 100 Kensington - Est complete in Q1 2027": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "JLL",
+    },
+}
+
 
 def load_projects() -> dict[str, str]:
     if not BERKELEY_SCRIPT.exists():
@@ -132,6 +143,13 @@ def infer_developer(project: str) -> str:
     return "未分类"
 
 
+def infer_cooperation(project: str) -> dict[str, str]:
+    return COOPERATION_OVERRIDES.get(project, {
+        "cooperation_level": "未记录",
+        "cooperation_partner": "未记录",
+    })
+
+
 def normalize_project_for_file(project: str, file_name: str) -> str:
     low = file_name.lower()
     if low.startswith("rv-ready") or low.startswith("rv-westwood") or low.startswith("rv-wright"):
@@ -179,6 +197,7 @@ def build_data() -> dict:
             "name": name,
             "city": infer_city(name),
             "developer": infer_developer(name),
+            **infer_cooperation(name),
             "folder_id": folder_id,
             "folder_url": drive_folder_url(folder_id),
             "latest_file": "",
@@ -207,6 +226,7 @@ def build_data() -> dict:
                     "name": project,
                     "city": infer_city(project),
                     "developer": infer_developer(project),
+                    **infer_cooperation(project),
                     "folder_id": "",
                     "folder_url": "",
                     "latest_file": "",
@@ -279,6 +299,7 @@ def build_data() -> dict:
                 "name": project_name,
                 "city": infer_city(project_name),
                 "developer": infer_developer(project_name),
+                **infer_cooperation(project_name),
                 "folder_id": state.get("folder_id", ""),
                 "folder_url": state.get("folder_url", ""),
                 "latest_file": "",
@@ -301,6 +322,9 @@ def build_data() -> dict:
         project["data_source"] = "Drive"
         project["city"] = state.get("city") or project.get("city") or infer_city(project_name)
         project["developer"] = state.get("developer") or project.get("developer") or infer_developer(project_name)
+        cooperation = infer_cooperation(project_name)
+        project["cooperation_level"] = state.get("cooperation_level") or project.get("cooperation_level") or cooperation["cooperation_level"]
+        project["cooperation_partner"] = state.get("cooperation_partner") or project.get("cooperation_partner") or cooperation["cooperation_partner"]
         project["path"] = state.get("path", "")
         project["folder_url"] = state.get("folder_url") or project.get("folder_url", "")
         project["price_folder_url"] = state.get("price_folder_url", "")
@@ -918,6 +942,8 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
           <td><a href="/project/{quote(project['name'])}">{e(project['name'])}</a></td>
           <td>{e(display_label(project['city']))}</td>
           <td>{e(project['developer'])}</td>
+          <td>{e(project.get('cooperation_level', '未记录'))}</td>
+          <td>{e(project.get('cooperation_partner', '未记录'))}</td>
           <td>{project_status(project)}</td>
           <td>{e(project['latest_date'])}</td>
           <td>{fmt_time(project['last_updated_at'])}</td>
@@ -939,7 +965,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
       </form>
       <p class="muted">当前显示 {len(projects)} 个项目</p>
       <table>
-        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
+        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>合作程度</th><th>合作方</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
         <tbody>{rows}</tbody>
       </table>
     """
@@ -994,6 +1020,8 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
                 city_label,
                 group_label,
                 project.get("developer", ""),
+                project.get("cooperation_level", ""),
+                project.get("cooperation_partner", ""),
                 project.get("latest_file", ""),
                 project.get("latest_date", ""),
                 source_label,
@@ -1004,6 +1032,8 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
           <td><a href="/project/{quote(project['name'])}">{e(project['name'])}</a></td>
           <td>{e(city_label)}</td>
           <td>{e(project['developer'])}</td>
+          <td>{e(project.get('cooperation_level', '未记录'))}</td>
+          <td>{e(project.get('cooperation_partner', '未记录'))}</td>
           <td>{project_status(project)}</td>
           <td>{e(project['latest_date'])}</td>
           <td>{fmt_time(project['last_updated_at'])}</td>
@@ -1016,7 +1046,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
     content = f"""
       <h1>项目总览</h1>
       <form class="toolbar" id="projectFilters" action="/projects">
-        <input name="q" value="{e(q)}" placeholder="搜索项目、邮编、城市、开发商、价单文件" data-filter="q" autocomplete="off">
+        <input name="q" value="{e(q)}" placeholder="搜索项目、邮编、城市、开发商、合作方、价单文件" data-filter="q" autocomplete="off">
         <select name="city" data-filter="city">{city_options}</select>
         <select name="developer" data-filter="developer">{developer_options}</select>
         <select name="status" data-filter="status">{status_options}</select>
@@ -1025,7 +1055,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
       <p class="muted" id="projectCount">当前显示 {len(all_projects)} 个项目</p>
       <div id="noProjects" class="empty" style="display:none">没有找到匹配项目。</div>
       <table id="projectsTable">
-        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
+        <thead><tr><th>项目</th><th>城市/区域</th><th>开发商</th><th>合作程度</th><th>合作方</th><th>状态</th><th>价单日期</th><th>最近更新</th><th>价单数量</th><th>数据来源</th><th>网盘</th></tr></thead>
         <tbody>{''.join(rows)}</tbody>
       </table>
       <script>
@@ -1144,6 +1174,8 @@ def render_project(data: dict, name: str) -> bytes:
       <div class="grid">
         <div class="metric"><div class="label">城市/区域</div><div class="value" style="font-size:20px">{e(display_label(project['city']))}</div></div>
         <div class="metric"><div class="label">开发商</div><div class="value" style="font-size:20px">{e(project['developer'])}</div></div>
+        <div class="metric"><div class="label">合作程度</div><div class="value" style="font-size:20px">{e(project.get('cooperation_level', '未记录'))}</div></div>
+        <div class="metric"><div class="label">合作方</div><div class="value" style="font-size:20px">{e(project.get('cooperation_partner', '未记录'))}</div></div>
         <div class="metric"><div class="label">已上传价单</div><div class="value">{e(project['uploaded_count'])}</div></div>
         <div class="metric"><div class="label">已归档旧价单</div><div class="value">{e(project['archived_count'])}</div></div>
       </div>
