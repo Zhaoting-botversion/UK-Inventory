@@ -38,9 +38,21 @@ CITY_HINTS = {
 }
 
 DEVELOPER_OVERRIDES = {
-    "E3 - Oxbow": "EcoWorld London",
-    "EC2 - One Crown Place": "MTD Group",
-    "EC3 - One Bishopsgate Plaza - Completed": "UOL Group",
+    "B1 - Imperial House": "Elevate Property Group",
+    "B1 - Photographic Works": "Hatchbury",
+    "B12 - The Pressworks": "Countrywide Developments PLC",
+    "B4 - Glasswater Locks": "Berkeley Group",
+    "B4 - Gunsmith House": "Elevate Property Group",
+    "B4 - Snowhill Wharf": "St Joseph Homes (Berkeley Group)",
+    "B91 - Warwick House, Solihull": "BPG",
+    "BN1 - Edward Street Quarter, Brighton": "Socius + First Base + Patron Capital",
+    "Bankside": "Renaker",
+    "CM16 - Epping Forest": "GS8",
+    "Canalside Quarter": "The Hill Group",
+    "City Reach": "The Hill Group",
+    "Contour": "Renaker",
+    "DA15 - Urban Picturehouse - Completed": "Montreaux Homes",
+    "E10 - Coronation Square": "Taylor Wimpey",
     "E14 - 25 Cuba Street": "Canary Wharf Group",
     "E14 - 8 Harbord Square - Off market": "Canary Wharf Group",
     "E14 - Aspen": "Far East Consortium",
@@ -49,50 +61,185 @@ DEVELOPER_OVERRIDES = {
     "E14 - One Park Drive &10 Park Drive- - Completed": "Canary Wharf Group",
     "E14 - One Thames Quay": "Chalegrove Properties",
     "E14 - Rivermark": "Barratt London",
+    "E14 - South Quay Plaza": "Berkeley Group",
+    "E16 - Cerulean Quarter - Completed": "English Cities Fund (Muse/LCR)",
+    "E16 - Queens Cross": "Mount Anvil",
     "E16 - Riverscape": "Ballymore",
-    "SE1 - The Edit": "Mount Anvil",
+    "E3 - Heron Wharf": "Berkeley Group",
+    "E3 - Hertford Mill": "Taylor Wimpey",
+    "E3 - Oxbow": "EcoWorld London",
+    "E5 - Parkhaus -Completed": "Union Developments",
+    "E8 - Smokehaus": "Union Developments",
+    "EC1 - The Arc - Est. Completion Q2 2023": "Berkeley Group",
+    "EC1V - Angel Village - Est. complete from Q4 2026": "Bentry Capital",
+    "EC2 - One Crown Place": "MTD Group",
+    "EC2A - Principal Tower": "SHUI ON",
+    "EC2A - The Stage": "Galliard Homes",
+    "EC3 - One Bishopsgate Plaza - Completed": "UOL Group",
+    "EC3 - The Haydon - Completed": "Berkeley Group",
+    "EN4 - Trent Park": "Berkeley Group",
+    "HA9 - Fulton & Fifth": "Berkeley Group",
+    "HA9 - The Pages - Est Complete Sep 2026": "Wates Residential",
+    "HP10 - Abbey Barn Park": "Berkeley Group",
+    "Hartmere": "The Hill Group",
+    "Highcroft": "Berkeley Group",
+    "KT1 - County Hall Kingston (London Square)": "London Square",
+    "Knights Park": "The Hill Group",
+    "Liverpool - Abbey Row": "Bentry Capital",
+    "Liverpool - The Forge": "Jarron Developments",
+    "M15 - Vita Living": "Select Property",
+    "M3 - Vista River Gardens": "Renaker",
+    "M3 - Waterhouse Gardens": "Salboy",
+    "M4 - Victoria Riverside": "L&Q (Laurus Homes)",
+    "Marleigh Park": "The Hill Group",
+    "N1 - Shoreditch Parkside - Est. Complete Q1 2026": "Hackney Council",
+    "N10 - Alexandra Gate": "Berkeley Group (St William)",
+    "N15 - Park North": "Kimbrook Property Developments",
+    "N2 - Bishops Avenue Gardens - Est. Complete Q4 2026": "Valouran",
+    "N8 - Hornsey Town Hall - Completed": "Far East Consortium (FEC)",
+    "NW1 - Camden Goods Yard": "Berkeley Group",
+    "NW1 - Piano Studios": "Ferdinand Holdings Limited",
+    "NW2 - Brent Cross Town - Completed": "Related Argent",
+    "NW3 - 100 Avenue Road": "Arada",
+    "NW6 - The Clay Yard": "Berkeley Group",
+    "NW7 - The Claves": "EcoWorld (EWL Living)",
+    "NW8 - The Broadley - Est Complete Q2 2030": "Mount Anvil",
+    "North Gate Park": "The Hill Group + Peabody",
+    "OX10 - Winterbrook Meadows": "Berkeley Group",
+    "One Waterside": "Berkeley Group",
+    "RG7 3SY - Tower House Farm (T A Fisher)": "VIVID Homes",
+    "RG9 4PS - Highlands Park, Henley": "Crest Nicholson",
+    "RM9 - Dagenham Green": "The Hill Group",
+    "RM9 - Eastbrook Village": "Berkeley Group",
+    "Reading Riverworks": "Berkeley Group",
+    "Reading-RG1 7YU - Brunswick Hill House": "未找到",
+    "Regents Crescent": "Great Marlborough Estates",
+    "SE1 - Bermondsey (London Square)": "London Square",
+    "SE1 - Brigade Court": "Hadston Southwark Ltd",
+    "SE1 - Opus": "Qatari Diar",
     "SE1 - Pinks Mews": "Sons and Co",
+    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026": "Qatari Diar",
+    "SE1 - The Edit": "Mount Anvil",
     "SE1 - Triptych Bankside - Completion Q3 2023": "JTRE London",
+    "SE1 - Westminster Tower (London Square)": "Berkeley Group",
     "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025": "Knight Dragon",
     "SE11 - Graphite Square": "Third.i",
-    "SW1X - Belgravia Gate": "Wainbridge",
-    "SW5 - One Cluny Mews": "Salboy",
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2025": "Rockwell Property",
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": "Rockwell Property",
-    "SW8 - Key Bridge": "Mount Anvil",
+    "SE11 - Oval Village": "Berkeley Group",
+    "SE16 - The Founding, Canada Water - Est.completion mid 2025": "British Land",
+    "SE17 - The Wilderly": "Lendlease",
+    "SE18 - Woolwich (London Square)": "London Square",
+    "SE26 - Dylon Riverside - Completed": "Weston Homes",
+    "SE3 - Kidbrooke Village": "Berkeley Group",
+    "SL5 - Heatherwood Royal": "Taylor Wimpey",
+    "SL6 - Harvest Hill": "Taylor Wimpey",
+    "SM1 - Sutton Garden Square": "Berkeley Group",
+    "SW1 - 8 Eaton Lane-Est.completion: Q1 2026": "CIT",
+    "SW1 - Ebury - Completed": "Loxley",
+    "SW1 - The Broadway-Completed": "Canary Wharf Group",
+    "SW1- OWO - Completed": "OHLA",
+    "SW10 - Chelsea Finery": "Mount Anvil",
     "SW11 - Battersea Power Station": "Battersea Power Station Development Company",
     "SW11 - Embassy Gardens - The Capston": "Ballymore",
     "SW11 - One Clapham Junction - Completion  from Q1-Q3 2025": "Mount Anvil",
+    "SW11 - Parkside Collection at Chelsea Bridge Wharf": "Berkeley Group",
+    "SW11 - The HiLight - Est Completion Q2 2026": "Qatari Diar",
+    "SW14 - Beverley Waterside": "Wimshurst Pelleriti",
+    "SW17 - Wandsworth Common (London Square)": "London Square",
+    "SW18 - King George's Gate": "Taylor Wimpey",
+    "SW18-Riverside Quarter Development": "Frasers Property",
+    "SW19 - Lombard Square": "Berkeley Group",
+    "SW19 - Wimbledon Bridge House (London Square)": "London Square",
+    "SW1E - No.1 Palace Street": "NorthAcre",
+    "SW1P - Chimes": "PegasusLife",
+    "SW1W - Chelsea Barracks -Price on application": "Qatari Diar",
+    "SW1X - Belgravia Gate": "Wainbridge",
+    "SW1X - Knightsbridge Gate - Completed-Price on application": "OHLA",
+    "SW3 - The Lucan-completed": "Gulf Islamic Investments (GII)",
+    "SW5 - One Cluny Mews": "Salboy",
+    "SW6 - Chelsea Waterfront Tower East": "长江实业",
+    "SW6 - Hurlingham Gardens": "Berkeley Group",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2025": "Rockwell Property",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": "Rockwell Property",
+    "SW8 - Key Bridge": "Mount Anvil",
+    "SW8 - Nine Elms (London Square)": "London Square",
+    "SW8 - River Park Tower": "富力集团",
+    "SW8 - The Newton": "Thornsett Group",
+    "SW8 - Wilcox": "Turnqey International",
+    "Sunningdale villas": "Consero London",
+    "TW1 - Twickenham Square (London Square)": "London Square",
+    "TW2 - Twickenham Green (London Square)": "London Square",
+    "TW3 - Lampton Parkside": "The Hill Group",
+    "TW8 - Kew Bridge Rise": "The Hill Group + L&Q",
     "TW8 - The Brentford Project": "Ballymore",
+    "TW9 - Richmond Square": "RER London",
+    "The ICON": "The Hill Group",
+    "W1 - 60 Curzon, Mayfair- Completed-Price on application": "OHLA",
     "W1 - W1 Place-Completion Q1 2024": "Concord London",
+    "W10 - Portobello Square - Completed": "Peabody",
+    "W11 - The Pembridge": "Beauchamp Estates",
+    "W12 - Television Centre - Est. Completion Q2 2027": "Stanhope + Mitsui Fudosan",
+    "W14 - 100 Kensington - Est complete in Q1 2027": "SevenCapital",
+    "W14 - 50 Brook Green (London Square)": "London Square",
     "W1H - The Bryanston-completed": "Almacantar",
+    "W1J - 36 & 37 Hertfort Street": "CIT",
+    "W1J - 6 Charles Street": "REDD",
+    "W1J - One Carrington": "OHLA",
+    "W1K - Three Kings Yard": "EcoWorld London",
+    "W1S - Mandarin Oriental The Residences Mayfair London": "Clivedale",
+    "W1T - Fitzroy Walk": "Middlesex Annexe LLP",
     "W1U - 100 George Street": "Native Land",
+    "W1U - Marylebone Mansions": "Elliott House",
     "W1U - Marylebone Square - completed": "Concord London",
+    "W1W - 19 Bolsover Street": "SATO Investments",
+    "W1W - The Bolsover": "Stone/RE",
     "W2 - 18 Porchester Garden-Completed": "Taylor Wimpey Central London",
     "W2 - Park Modern-completed": "Fenton Whelan",
+    "W2 - Vabel Townhouse": "Vabel",
+    "W2 -The Whiteley-completed": "Voluran/Finchatton",
+    "W4 - Chiswick Green": "Great Marlborough Estates",
+    "W4 - Marlborough House, Chiswick High Road": "未找到",
+    "W5 - The Warwick": "Kingmead Homes",
+    "W6 - Artisi - Completed": "FABRICA (A2Dominion)",
+    "W8 - Allen House-completed": "Topland Group",
     "W8 - Holland Park Gate - completed": "Lodha",
+    "W8 - One Kensington Gardens": "De Vere Estates",
     "WC1A - Centre Point Residences": "Almacantar",
     "WC1X - Postmark, Farringdon": "Taylor Wimpey Central London",
+    "WC2B - Chapter House": "Londonewcastle",
+    "WC2R - Strand Chamber": "Seastar Developments",
+    "West Gate": "Renaker"
 }
 
 COOPERATION_OVERRIDES = {
-    "SW10 - Chelsea Finery": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Mount Anvil"
-    },
-    "SW11 - Ransomes Wharf (London Square)": {
+    "CR0 - Croydon (London Square)": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "London Square"
     },
-    "W14 - 100 Kensington - Est complete in Q1 2027": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "JLL"
+    "E1 - London Dock": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
     },
-    "E14 - One Park Drive &10 Park Drive- - Completed": {
+    "E14 - 25 Cuba Street": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Ballymore"
+    },
+    "E14 - 8 Harbord Square - Off market": {
         "cooperation_level": "独代合作",
         "cooperation_partner": "莱坊"
     },
-    "E14 - 8 Harbord Square - Off market": {
+    "E14 - Aspen": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊"
+    },
+    "E14 - Goodluck Hope": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Ballymore"
+    },
+    "E14 - Landmark Pinnacle": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Chalegrove"
+    },
+    "E14 - One Park Drive &10 Park Drive- - Completed": {
         "cooperation_level": "独代合作",
         "cooperation_partner": "莱坊"
     },
@@ -100,29 +247,201 @@ COOPERATION_OVERRIDES = {
         "cooperation_level": "独代合作",
         "cooperation_partner": "JLL"
     },
-    "E14 - Landmark Pinnacle": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Chalegrove"
-    },
-    "E14 - 25 Cuba Street": {
+    "E16 - Riverscape": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "Ballymore"
+    },
+    "E2 - Regent's View": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "E3 - Bow Green": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "E3 - Twelvetrees Park": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "EC1 - The Arc - Est. Completion Q2 2023": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊"
+    },
+    "EC1V - Angel Village - Est. complete from Q4 2026": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "CBRE"
+    },
+    "EC2A - Principal Tower": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Concord"
+    },
+    "EC3 - One Bishopsgate Plaza - Completed": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊"
+    },
+    "EC3 - The Haydon - Completed": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "GAL"
+    },
+    "EN4 - Trent Park": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "HA0 - Grand Union": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "HA9 - Fulton & Fifth": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "GAL"
+    },
+    "N4 - Woodberry Down": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "NW1 - Piano Studios": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊"
+    },
+    "NW6 - The Clay Yard": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊"
+    },
+    "NW7 - The Claves": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Royal Dock"
+    },
+    "SE1 - Bermondsey Place": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "SE1 - Opus": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊/JLL"
+    },
+    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊/JLL"
     },
     "SE1 - Triptych Bankside - Completion Q3 2023": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "JTRE"
     },
+    "SE16 - The Founding, Canada Water - Est.completion mid 2025": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊/JLL"
+    },
+    "SE17 - The Wilderly": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊/JLL"
+    },
+    "SE18 - Royal Arsenal Riverside": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "SW1 - 8 Eaton Lane-Est.completion: Q1 2026": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "CIT"
+    },
+    "SW1 - Ebury - Completed": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "JLL"
+    },
+    "SW1 - The Broadway-Completed": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "JLL"
+    },
+    "SW1- OWO - Completed": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "OHLA"
+    },
+    "SW10 - Chelsea Finery": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Mount Anvil"
+    },
+    "SW11 - Battersea Power Station": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Savills"
+    },
+    "SW11 - Embassy Gardens - The Capston": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Ballymore"
+    },
+    "SW11 - Ransomes Wharf (London Square)": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "London Square"
+    },
+    "SW11 - The HiLight - Est Completion Q2 2026": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "莱坊/JLL"
+    },
+    "SW18 - Wandsworth Mills": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "SW1E - No.1 Palace Street": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "NorthAcre"
+    },
+    "SW1W - Chelsea Barracks -Price on application": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Qatari Diar"
+    },
+    "SW1X - Knightsbridge Gate - Completed-Price on application": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Knight Frank 莱坊"
+    },
+    "SW6 - Chelsea Waterfront Tower East": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "长江实业"
+    },
+    "SW6 - King's Road Park": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "SW8 - Key Bridge": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Hamptons"
+    },
+    "SW8 - Nine Elms (London Square)": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "London Square"
+    },
+    "SW8 - River Park Tower": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "富力"
+    },
+    "SW8 - The Newton": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "CBRE"
+    },
+    "TW8 - The Brentford Project": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Ballymore"
+    },
+    "UB1 - The Green Quarter": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
     "W1 - 60 Curzon, Mayfair- Completed-Price on application": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "Brockton Everlast"
     },
-    "W1J - One Carrington": {
+    "W12 - Television Centre - Est. Completion Q2 2027": {
         "cooperation_level": "独代合作",
-        "cooperation_partner": "Knight Frank 莱坊"
+        "cooperation_partner": "莱坊"
     },
-    "W1K - Three Kings Yard": {
+    "W12 - White City Living": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
+    },
+    "W14 - 100 Kensington - Est complete in Q1 2027": {
         "cooperation_level": "独代合作",
-        "cooperation_partner": "CBRE"
+        "cooperation_partner": "JLL"
+    },
+    "W1H - The Bryanston-completed": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Almacantar"
     },
     "W1J - 36 & 37 Hertfort Street": {
         "cooperation_level": "开发商合作",
@@ -132,6 +451,14 @@ COOPERATION_OVERRIDES = {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "DD"
     },
+    "W1J - One Carrington": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Knight Frank 莱坊"
+    },
+    "W1K - Three Kings Yard": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "CBRE"
+    },
     "W1S - Mandarin Oriental The Residences Mayfair London": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "Clivedale"
@@ -140,167 +467,15 @@ COOPERATION_OVERRIDES = {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "Native Land"
     },
-    "W1H - The Bryanston-completed": {
+    "W1U - Marylebone Square - completed": {
         "cooperation_level": "开发商合作",
-        "cooperation_partner": "Almacantar"
-    },
-    "SW1- OWO - Completed": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "OHLA"
-    },
-    "SW1 - 8 Eaton Lane-Est.completion: Q1 2026": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "CIT"
-    },
-    "SW1W - Chelsea Barracks -Price on application": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Qatari Diar"
+        "cooperation_partner": "Concord"
     },
     "W2 - 18 Porchester Garden-Completed": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "CIT"
     },
-    "W2 -The Whiteley-completed": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Voluran/Finchatton"
-    },
-    "W8 - Holland Park Gate - completed": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Lodha"
-    },
-    "W8 - Allen House-completed": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "Knight Frank 莱坊"
-    },
-    "W8 - One Kensington Gardens": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "Knight Frank 莱坊"
-    },
-    "SW1X - Knightsbridge Gate - Completed-Price on application": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "Knight Frank 莱坊"
-    },
-    "HA9 - Fulton & Fifth": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "GAL"
-    },
-    "EC3 - The Haydon - Completed": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "GAL"
-    },
-    "CR0 - Croydon (London Square)": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "London Square"
-    },
-    "SW8 - Nine Elms (London Square)": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "London Square"
-    },
-    "W12 - Television Centre - Est. Completion Q2 2027": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "SE1 - Opus": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊/JLL"
-    },
-    "E3 - Bow Green": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "SW1 - Ebury - Completed": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "JLL"
-    },
-    "W6 - Fulham Reach": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "N4 - Woodberry Down": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "EN4 - Trent Park": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "SW1E - No.1 Palace Street": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "NorthAcre"
-    },
-    "SW8 - Key Bridge": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "Hamptons"
-    },
-    "W6 - Artisi - Completed": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "SW6 - Chelsea Waterfront Tower East": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "长江实业"
-    },
-    "W12 - White City Living": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "NW7 - The Claves": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Royal Dock"
-    },
-    "EC1 - The Arc - Est. Completion Q2 2023": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "SW11 - Embassy Gardens - The Capston": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Ballymore"
-    },
-    "E14 - Aspen": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "E3 - Twelvetrees Park": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "UB1 - The Green Quarter": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "EC3 - One Bishopsgate Plaza - Completed": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "HA0 - Grand Union": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "SW11 - Battersea Power Station": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "Savills"
-    },
-    "SW6 - King's Road Park": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "E1 - London Dock": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "EC2A - Principal Tower": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Concord"
-    },
-    "WC1X - Postmark, Farringdon": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Taylor Wimpey"
-    },
-    "SW8 - River Park Tower": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "富力"
-    },
-    "WD17 - The Exchange Watford": {
+    "W2 - Trillium": {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "伯克利"
     },
@@ -308,77 +483,37 @@ COOPERATION_OVERRIDES = {
         "cooperation_level": "开发商合作",
         "cooperation_partner": "伯克利"
     },
-    "SE18 - Royal Arsenal Riverside": {
+    "W2 -The Whiteley-completed": {
         "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
+        "cooperation_partner": "Voluran/Finchatton"
     },
-    "SW1 - The Broadway-Completed": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "JLL"
-    },
-    "W2 - Trillium": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "E2 - Regent's View": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "SW18 - Wandsworth Mills": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "SE1 - Bermondsey Place": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "伯克利"
-    },
-    "E16 - Riverscape": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Ballymore"
-    },
-    "TW8 - The Brentford Project": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Ballymore"
-    },
-    "E14 - Goodluck Hope": {
-        "cooperation_level": "开发商合作",
-        "cooperation_partner": "Ballymore"
-    },
-    "EC1V - Angel Village - Est. complete from Q4 2026": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "CBRE"
-    },
-    "NW6 - The Clay Yard": {
+    "W6 - Artisi - Completed": {
         "cooperation_level": "独代合作",
         "cooperation_partner": "莱坊"
     },
-    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊/JLL"
-    },
-    "SE16 - The Founding, Canada Water - Est.completion mid 2025": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊/JLL"
-    },
-    "SW11 - The HiLight - Est Completion Q2 2026": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊/JLL"
-    },
-    "SE17 - The Wilderly": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊/JLL"
-    },
-    "NW1 - Piano Studios": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "莱坊"
-    },
-    "SW8 - The Newton": {
-        "cooperation_level": "独代合作",
-        "cooperation_partner": "CBRE"
-    },
-    "W1U - Marylebone Square - completed": {
+    "W6 - Fulham Reach": {
         "cooperation_level": "开发商合作",
-        "cooperation_partner": "Concord"
+        "cooperation_partner": "伯克利"
+    },
+    "W8 - Allen House-completed": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Knight Frank 莱坊"
+    },
+    "W8 - Holland Park Gate - completed": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Lodha"
+    },
+    "W8 - One Kensington Gardens": {
+        "cooperation_level": "独代合作",
+        "cooperation_partner": "Knight Frank 莱坊"
+    },
+    "WC1X - Postmark, Farringdon": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "Taylor Wimpey"
+    },
+    "WD17 - The Exchange Watford": {
+        "cooperation_level": "开发商合作",
+        "cooperation_partner": "伯克利"
     }
 }
 
