@@ -38,6 +38,9 @@ CITY_HINTS = {
 }
 
 DEVELOPER_OVERRIDES = {
+    "E3 - Oxbow": "EcoWorld London",
+    "EC2 - One Crown Place": "MTD Group",
+    "EC3 - One Bishopsgate Plaza - Completed": "UOL Group",
     "E14 - 25 Cuba Street": "Canary Wharf Group",
     "E14 - 8 Harbord Square - Off market": "Canary Wharf Group",
     "E14 - Aspen": "Far East Consortium",
@@ -48,9 +51,14 @@ DEVELOPER_OVERRIDES = {
     "E14 - Rivermark": "Barratt London",
     "E16 - Riverscape": "Ballymore",
     "SE1 - The Edit": "Mount Anvil",
+    "SE1 - Pinks Mews": "Sons and Co",
     "SE1 - Triptych Bankside - Completion Q3 2023": "JTRE London",
     "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025": "Knight Dragon",
     "SE11 - Graphite Square": "Third.i",
+    "SW1X - Belgravia Gate": "Wainbridge",
+    "SW5 - One Cluny Mews": "Salboy",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2025": "Rockwell Property",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": "Rockwell Property",
     "SW8 - Key Bridge": "Mount Anvil",
     "SW11 - Battersea Power Station": "Battersea Power Station Development Company",
     "SW11 - Embassy Gardens - The Capston": "Ballymore",
@@ -61,6 +69,7 @@ DEVELOPER_OVERRIDES = {
     "W1U - 100 George Street": "Native Land",
     "W1U - Marylebone Square - completed": "Concord London",
     "W2 - 18 Porchester Garden-Completed": "Taylor Wimpey Central London",
+    "W2 - Park Modern-completed": "Fenton Whelan",
     "W8 - Holland Park Gate - completed": "Lodha",
     "WC1A - Centre Point Residences": "Almacantar",
     "WC1X - Postmark, Farringdon": "Taylor Wimpey Central London",
