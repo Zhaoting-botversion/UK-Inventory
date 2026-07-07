@@ -66,6 +66,18 @@ def header_to_field(value: str) -> str | None:
     key = header_key(value)
     if not key:
         return None
+    if "unit area" in key or key in {"area", "sq ft", "sqft", "unit ea q", "u ar s m"}:
+        return "internal_area"
+    if "balcony" in key or "terrace" in key or "external" in key:
+        return "external_area"
+    if "asking price" in key or "list price" in key or "purchase price" in key or key == "price":
+        return "price"
+    if "est rental" in key or "rental per month" in key or key in {"rent", "rental"}:
+        return "rent_estimate"
+    if "rental yield" in key:
+        return None
+    if key in {"plot no", "plot", "unit", "apartment", "apartment number", "apt"}:
+        return "unit"
     for field, synonyms in FIELD_SYNONYMS.items():
         for synonym in synonyms:
             syn = header_key(synonym)
@@ -95,6 +107,8 @@ def normalize_record_value(field: str, value: object) -> str:
         parsed = parse_price(text)
         if parsed is not None:
             return str(int(parsed)) if parsed.is_integer() else str(parsed)
+    if field == "external_area":
+        text = re.sub(r"\b(Terrace|Balcony)\s+(\d{2,5})\s+\d\b", r"\1 \2", text, flags=re.IGNORECASE)
     return text
 
 
@@ -127,7 +141,18 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
         fields = [header_to_field(cell) for cell in row]
         if "unit" not in fields or ("price" not in fields and "status" not in fields):
             continue
-        mapping = {field: pos for pos, field in enumerate(fields) if field}
+        mapping = {}
+        for pos, field in enumerate(fields):
+            if not field:
+                continue
+            key = header_key(row[pos]) if pos < len(row) else ""
+            if field == "bedroom" and field in mapping:
+                current_key = header_key(row[mapping[field]]) if mapping[field] < len(row) else ""
+                if "bed" in key and "bed" not in current_key:
+                    mapping[field] = pos
+                continue
+            if field not in mapping:
+                mapping[field] = pos
         for data_row in rows[index + 1 :]:
             if not any(cell_text(cell) for cell in data_row):
                 continue
@@ -135,6 +160,9 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
             for field in OUTPUT_FIELDS:
                 pos = mapping.get(field)
                 record[field] = normalize_record_value(field, data_row[pos]) if pos is not None and pos < len(data_row) else ""
+            unit_key = normalize_unit(record["unit"])
+            if unit_key in {"plotno", "unit", "unitno", "apartment", "apartmentnumber", "property"}:
+                continue
             if record["unit"] and (record["price"] or record["status"]):
                 records.append(record)
     deduped: dict[str, dict] = {}
