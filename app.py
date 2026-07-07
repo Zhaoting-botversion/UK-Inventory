@@ -1150,6 +1150,23 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .unit-highlight h2 {{ margin-top: 0; }}
     .unit-highlight table {{ margin-top: 10px; }}
     .unit-cta {{ display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 10px; }}
+    .unit-focus-columns {{ display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 12px; }}
+    .unit-focus-column {{ background: #fff; border: 1px solid #3f70d8; border-radius: 8px; padding: 14px; }}
+    .unit-focus-column h3 {{ margin: 0 0 12px; font-size: 22px; }}
+    .unit-focus-column.drop h3 {{ color: #b91c1c; }}
+    .unit-focus-column.new h3 {{ color: #059669; }}
+    .unit-focus-column.sold h3 {{ color: #6b7280; }}
+    .unit-project-card {{ background: #fff; border: 1px solid #3f70d8; border-radius: 8px; padding: 12px; margin-top: 12px; }}
+    .unit-project-card:first-of-type {{ margin-top: 0; }}
+    .unit-project-card h3 {{ margin: 0; font-size: 17px; }}
+    .change-block {{ border-top: 1px solid #eef1f5; margin-top: 12px; padding-top: 10px; }}
+    .change-block h4 {{ display: flex; align-items: center; gap: 8px; margin: 0 0 8px; font-size: 14px; color: #344054; }}
+    .unit-list {{ list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }}
+    .unit-list li {{ display: grid; grid-template-columns: minmax(90px, 1fr) minmax(90px, .8fr) minmax(150px, 1.2fr); gap: 8px; align-items: baseline; padding: 8px 0; border-top: 1px dashed #eef1f5; }}
+    .unit-list li:first-child {{ border-top: 0; }}
+    .unit-name {{ font-weight: 700; }}
+    .unit-price {{ font-weight: 700; color: #111827; }}
+    .unit-note {{ color: var(--muted); font-size: 12px; }}
     .section-head {{ display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 26px 0 12px; }}
     .section-head h2 {{ margin: 0; }}
     .section-head .muted {{ max-width: 680px; line-height: 1.5; }}
@@ -1179,8 +1196,8 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .update-row {{ display: grid; gap: 4px; border-top: 1px solid #eef1f5; padding-top: 10px; margin-top: 10px; }}
     .update-row:first-of-type {{ border-top: 0; padding-top: 0; margin-top: 12px; }}
     .empty {{ background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 24px; color: var(--muted); }}
-    @media (max-width: 1100px) {{ .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} }}
-    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} }}
+    @media (max-width: 1100px) {{ .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} .unit-focus-columns {{ grid-template-columns: 1fr; }} }}
+    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} .unit-list li {{ grid-template-columns: 1fr; gap: 3px; }} }}
   </style>
 </head>
 <body>
@@ -1265,33 +1282,8 @@ def render_dashboard(data: dict) -> bytes:
             return f'<a href="/project/{quote(name)}">{e(name)}</a>'
         return e(name)
 
-    unit_priority = {
-        "PRICE_DROP": 0,
-        "NEW_RELEASE": 1,
-        "SOLD": 2,
-        "BACK_ON_MARKET": 3,
-        "RESERVED": 4,
-        "PRICE_INCREASE": 5,
-        "STATUS_CHANGE": 6,
-    }
     all_unit_events = load_unit_events(500)
-    unit_events = sorted(
-        all_unit_events,
-        key=lambda row: (unit_priority.get(row.get("change_type", ""), 9), row.get("created_at", "")),
-        reverse=False,
-    )[:8]
-    unit_event_rows = "".join(
-        f"""<tr>
-          <td>{project_link(row.get('project_name', ''))}</td>
-          <td>{e(row.get('unit', ''))}</td>
-          <td>{change_tag(row.get('change_type', ''))}</td>
-          <td>{money_value(row.get('old_price'))}</td>
-          <td>{money_value(row.get('new_price'))}</td>
-          <td>{money_delta(row.get('price_change'))}</td>
-          <td class="muted">{fmt_time(row.get('created_at', ''))}</td>
-        </tr>"""
-        for row in unit_events
-    ) or '<tr><td colspan="7" class="muted">暂无房源级变化数据。导入新旧价单后，这里会显示具体房号的降价、新放出、已售/下架。</td></tr>'
+    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=4)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1375,10 +1367,7 @@ def render_dashboard(data: dict) -> bytes:
           </div>
           <a href="/unit-changes">查看全部房源变化</a>
         </div>
-        <table>
-          <thead><tr><th>项目</th><th>房号</th><th>类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>时间</th></tr></thead>
-          <tbody>{unit_event_rows}</tbody>
-        </table>
+        {unit_focus_cards}
       </section>
 
       <div class="section-head">
@@ -1720,8 +1709,131 @@ def money_delta(value: object) -> str:
         number = float(value)
     except (TypeError, ValueError):
         return e(str(value))
+    if number < 0:
+        return f"-£{abs(number):,.0f}"
     sign = "+" if number > 0 else ""
     return f"{sign}£{number:,.0f}"
+
+
+def unit_focus_category(row: dict) -> str:
+    change_type = row.get("change_type", "")
+    if change_type == "PRICE_DROP":
+        return "drop"
+    if change_type == "SOLD":
+        return "sold"
+    if change_type in {"NEW_RELEASE", "BACK_ON_MARKET"}:
+        return "new"
+    return ""
+
+
+def unit_focus_title(category: str) -> str:
+    return {
+        "drop": "降价",
+        "sold": "售出 / 下架",
+        "new": "新释出 / 新低价机会",
+    }.get(category, "其他变化")
+
+
+def unit_focus_tag(category: str) -> str:
+    cls = {"drop": "drop", "sold": "sold", "new": "release"}.get(category, "")
+    return f'<span class="tag {cls}">{e(unit_focus_title(category))}</span>'
+
+
+def text_value(value: object) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"\s+", " ", str(value).replace("\u00a0", " ")).strip()
+
+
+def bedroom_text(value: object) -> str:
+    text = text_value(value)
+    if not text:
+        return "居室缺失"
+    match = re.search(r"\d+", text)
+    if match:
+        return f"{match.group(0)}房"
+    if "studio" in text.lower():
+        return "Studio"
+    return f"居室: {text}"
+
+
+def unit_price_text(row: dict) -> str:
+    category = unit_focus_category(row)
+    old_price = money_value(row.get("old_price"))
+    new_price = money_value(row.get("new_price"))
+    delta = money_delta(row.get("price_change"))
+    if category == "drop":
+        return f"{old_price} → {new_price} ({delta})"
+    if category == "sold":
+        return f"{old_price or row.get('old_status') or '旧价单有记录'} → 已消失"
+    if category == "new":
+        return f"新价 {new_price or row.get('new_status') or '缺失'}"
+    return new_price or old_price or delta
+
+
+def unit_note_text(row: dict) -> str:
+    bits = []
+    floor = text_value(row.get("floor"))
+    area = text_value(row.get("internal_area"))
+    aspect = text_value(row.get("aspect"))
+    status = text_value(row.get("new_status")) or text_value(row.get("old_status"))
+    if floor and floor.lower() not in {"floor"}:
+        bits.append(f"{floor}层")
+    if area and area.lower() not in {"status", "balcony sqft", "balcony sq m"}:
+        bits.append(area)
+    if aspect and aspect.lower() not in {"aspect", "rental yield"}:
+        bits.append(aspect)
+    if status and status not in {"缺失"}:
+        bits.append(status)
+    return " · ".join(bits)
+
+
+def render_unit_rows(rows: list[dict]) -> str:
+    return "".join(
+        f"""<li>
+          <div><span class="unit-name">{e(row.get('unit', ''))}</span><div class="unit-note">{bedroom_text(row.get('bedroom'))}</div></div>
+          <div class="unit-price">{unit_price_text(row)}</div>
+          <div class="unit-note">{e(unit_note_text(row))}<br>{fmt_time(row.get('created_at', ''))}</div>
+        </li>"""
+        for row in rows
+    )
+
+
+def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None) -> str:
+    focus_events = [row for row in events if unit_focus_category(row)]
+    grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
+    for row in focus_events:
+        grouped[base_unit_project_name(row.get("project_name", ""))][unit_focus_category(row)].append(row)
+    columns = []
+    for category in ("drop", "new", "sold"):
+        projects = [
+            project for project, by_category in grouped.items()
+            if by_category.get(category)
+        ]
+        projects = sorted(projects, key=lambda project: (-len(grouped[project][category]), project))
+        if limit_projects:
+            projects = projects[:limit_projects]
+        cards = []
+        for project in projects:
+            rows = grouped[project][category]
+            items = render_unit_rows(rows[:8])
+            extra = f'<div class="unit-note">另有 {len(rows) - 8} 套未展开</div>' if len(rows) > 8 else ""
+            cards.append(
+                f"""<article class="unit-project-card">
+                  <h3>{project_link_func(project)}</h3>
+                  <div class="small-meta">{len(rows)} 套</div>
+                  <ul class="unit-list">{items}</ul>
+                  {extra}
+                </article>"""
+            )
+        body = "".join(cards) or '<div class="empty">暂无</div>'
+        columns.append(
+            f"""<section class="unit-focus-column {category}">
+              <h3>{unit_focus_title(category)}</h3>
+              {body}
+            </section>"""
+        )
+    return f'<div class="unit-focus-columns">{"".join(columns)}</div>'
 
 
 def render_updates(data: dict) -> bytes:
@@ -1769,7 +1881,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
     project_counts = defaultdict(int)
     for row in events:
         counts[row.get("change_type", "")] += 1
-        project_counts[row.get("project_name", "")] += 1
+        project_counts[base_unit_project_name(row.get("project_name", ""))] += 1
     top_project_rows = "".join(
         f"""<tr>
           <td>{unit_project_link(project)}</td>
@@ -1792,6 +1904,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         </tr>"""
         for row in events
     ) or '<tr><td colspan="10" class="muted">暂无房源变化数据。可以先运行 unit_change_engine.py seed-postmark-test 做测试，或导入新旧价单。</td></tr>'
+    focus_cards = render_unit_focus_columns(events, unit_project_link)
     content = f"""
       <h1>房源变化</h1>
       <div class="grid">
@@ -1809,6 +1922,15 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         <button type="submit">筛选</button>
         <a href="/unit-changes">重置</a>
       </form>
+      <section class="panel unit-highlight" style="margin-top:16px">
+        <div class="unit-cta">
+          <div>
+            <h2>按楼盘分组的重点变化</h2>
+            <div class="muted">优先看降价、售出/下架、新增或新低价机会；同一个楼盘的多套变化放在一起。</div>
+          </div>
+        </div>
+        {focus_cards}
+      </section>
       <div class="split">
         <section>
           <h2>房源变化明细</h2>
@@ -1847,6 +1969,7 @@ def render_project(data: dict, name: str) -> bytes:
         row for row in load_unit_events(500)
         if base_unit_project_name(row.get("project_name", "")) == name
     ][:20]
+    unit_focus_cards = render_unit_focus_columns(unit_events, lambda project_name: e(project_name))
     unit_event_rows = "".join(
         f"""<tr>
           <td>{fmt_time(row.get('created_at', ''))}</td>
@@ -1878,6 +2001,7 @@ def render_project(data: dict, name: str) -> bytes:
       <h2>最新价单文件</h2>
       <table><thead><tr><th>文件</th><th>识别到的价单日期</th><th>上传时间</th><th>日志</th></tr></thead><tbody>{file_rows}</tbody></table>
       <h2>房源变化</h2>
+      {unit_focus_cards}
       <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
       <h2>历史价单归档</h2>
       <table><thead><tr><th>文件</th><th>归档文件夹</th><th>归档时间</th><th>日志</th></tr></thead><tbody>{archived_rows}</tbody></table>
