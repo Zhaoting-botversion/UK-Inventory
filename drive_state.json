@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-07T09:43:19",
+  "synced_at": "2026-07-07T17:31:09",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -60,109 +60,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "B4 - Glasswater Locks": {
-      "project": "B4 - Glasswater Locks",
-      "city": "Birmingham",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Glasswater Locks",
-      "folder_id": "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
-      "folder_url": "https://drive.google.com/drive/folders/1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
-      "price_folder_id": "1R24lF6rqbqmHlNO6dHfT1kGZkFqbzlB-",
-      "price_folder_url": "https://drive.google.com/drive/folders/1R24lF6rqbqmHlNO6dHfT1kGZkFqbzlB-",
-      "old_price_folder_id": "1_pbX52-MbuVvjiw5rLGo1QQq9DLwE5hG",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_pbX52-MbuVvjiw5rLGo1QQq9DLwE5hG",
-      "latest_files": [
-        {
-          "file": "CN Agent_ Glasswater Locks Phase 1 Price List - 27.06.26.pdf",
-          "file_id": "1QtcYJcbXhgGeiKKAAFTT90GTRvPMVFTF",
-          "file_url": "https://drive.google.com/file/d/1QtcYJcbXhgGeiKKAAFTT90GTRvPMVFTF/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:48:54.392Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "CN Agent_ Glasswater Locks Brindley Collection  - 27.06.26.pdf",
-          "file_id": "1YtG9G8G7Gnes-z7g1GlbzuYQPz33cmg5",
-          "file_url": "https://drive.google.com/file/d/1YtG9G8G7Gnes-z7g1GlbzuYQPz33cmg5/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:48:44.475Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "Glasswater Locks Availability Finder 13.06.26.pdf",
-          "file_id": "12tcQWZKnU4Nnr8mF-YuUEGu_Bf5WA7aG",
-          "file_url": "https://drive.google.com/file/d/12tcQWZKnU4Nnr8mF-YuUEGu_Bf5WA7aG/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:22:34.124Z",
-          "price_date": "13.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Glasswater Locks Brindley Collection- 13.06.26.pdf",
-          "file_id": "1b7k8wSFGMq1p7z2lvLX3qmeRX4NcKlvd",
-          "file_url": "https://drive.google.com/file/d/1b7k8wSFGMq1p7z2lvLX3qmeRX4NcKlvd/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:22:37.774Z",
-          "price_date": "13.06.26"
-        },
-        {
-          "file": "CN Agent_ Glasswater Locks Phase 1 Price List - 13.05.26.pdf",
-          "file_id": "1sZqkcWPt6GD_242ScaDqp5pzgnfkRlo1",
-          "file_url": "https://drive.google.com/file/d/1sZqkcWPt6GD_242ScaDqp5pzgnfkRlo1/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:22:10.514Z",
-          "price_date": "13.05.26"
-        },
-        {
-          "file": "CN Agent_ Glasswater Locks Brindley Collection  - 13.06.26.pdf",
-          "file_id": "1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG",
-          "file_url": "https://drive.google.com/file/d/1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:21:57.510Z",
-          "price_date": "13.06.26"
-        },
-        {
-          "file": "(CN Agent) Glasswater Locks Phase 1 Price List - 10.06.26.pdf",
-          "file_id": "1XQkR7hSIQ24mqhiiQMXvie3_EdK02PlK",
-          "file_url": "https://drive.google.com/file/d/1XQkR7hSIQ24mqhiiQMXvie3_EdK02PlK/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:02.523Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "(CN Agent) Glasswater Locks Brindley Collection  - 10.06.26.pdf",
-          "file_id": "13kJdw6UfkH95TX6--vCsQA79Rr6qYEbQ",
-          "file_url": "https://drive.google.com/file/d/13kJdw6UfkH95TX6--vCsQA79Rr6qYEbQ/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:55:58.072Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "(CN Agent) Glasswater Locks Phase 1 Price List - 08.06.26.pdf",
-          "file_id": "1Fn9kg3o0l10qXJKu-Iy0tSsQV_6jglkW",
-          "file_url": "https://drive.google.com/file/d/1Fn9kg3o0l10qXJKu-Iy0tSsQV_6jglkW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:01:04.661Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "(CN Agent) Glasswater Locks Brindley Collection  - 08.06.26.pdf",
-          "file_id": "1V6iLU96Rk9845QKQrsQg5ax2qTHL8dSJ",
-          "file_url": "https://drive.google.com/file/d/1V6iLU96Rk9845QKQrsQg5ax2qTHL8dSJ/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:01:00.173Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "2026-05-28_Glasswater Locks Phase 1 Price List - 20.05.26.pdf",
-          "file_id": "1frdqbAsoqyhmWH9qperVP4H48a90Ozbz",
-          "file_url": "https://drive.google.com/file/d/1frdqbAsoqyhmWH9qperVP4H48a90Ozbz/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:35.157Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Glasswater Locks Phase 1 Price List - 15.05.26.pdf",
-          "file_id": "1m5o3HmFQykw504vYA_tIEteFfI966kMR",
-          "file_url": "https://drive.google.com/file/d/1m5o3HmFQykw504vYA_tIEteFfI966kMR/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:01.416Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
     },
     "B4 - Gunsmith House": {
       "project": "B4 - Gunsmith House",
@@ -1853,221 +1750,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "E1 - London Dock": {
-      "project": "E1 - London Dock",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / E1 - London Dock",
-      "folder_id": "1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
-      "folder_url": "https://drive.google.com/drive/folders/1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
-      "price_folder_id": "19ovjjabR-mviqUAULKtRm00t_sN_boo1",
-      "price_folder_url": "https://drive.google.com/drive/folders/19ovjjabR-mviqUAULKtRm00t_sN_boo1",
-      "old_price_folder_id": "1R-mGQx5WiPkpHVo0h8thVMC8LnqucO5a",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1R-mGQx5WiPkpHVo0h8thVMC8LnqucO5a",
-      "latest_files": [
-        {
-          "file": "Saffron Private Price list June 28.06.26.pdf",
-          "file_id": "1q2OKY9wWspP333ThzaeQAnBWAkJNKu61",
-          "file_url": "https://drive.google.com/file/d/1q2OKY9wWspP333ThzaeQAnBWAkJNKu61/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:52:51.493Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "London Dock G4 - Chime Gardens 28.06.26.pdf",
-          "file_id": "1vkNTErkJ1ty-l0B1qIZu3eOoV2cNz176",
-          "file_url": "https://drive.google.com/file/d/1vkNTErkJ1ty-l0B1qIZu3eOoV2cNz176/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:52:45.324Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "London Dock G3 - Imperial Tower - 28.06.26.pdf",
-          "file_id": "1X_5e6LYtx5m_Pfzn8hQTxb_B_7JezJzC",
-          "file_url": "https://drive.google.com/file/d/1X_5e6LYtx5m_Pfzn8hQTxb_B_7JezJzC/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:52:37.997Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "London Dock G2 - Kingfisher Court - 28.06.26.pdf",
-          "file_id": "1ykfQTRX3-pGQSqaTKUYZXU2Vq9RdxKLm",
-          "file_url": "https://drive.google.com/file/d/1ykfQTRX3-pGQSqaTKUYZXU2Vq9RdxKLm/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:52:30.663Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "London Dock G1 - Tranquillity Place - 28.06.26.pdf",
-          "file_id": "17tm8TbkBEFJ9FScDZTu1obyEEwIaMzoV",
-          "file_url": "https://drive.google.com/file/d/17tm8TbkBEFJ9FScDZTu1obyEEwIaMzoV/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:52:24.102Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Saffron Private Price list June 10.06.26.pdf",
-          "file_id": "1-wsyqrHDqsai33i9uPdEV8jTDxscjIRZ",
-          "file_url": "https://drive.google.com/file/d/1-wsyqrHDqsai33i9uPdEV8jTDxscjIRZ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:41:28.407Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "London Dock G4 - Chime Gardens 14.06.26.pdf",
-          "file_id": "1UJehxuyfoxATiF5FXRVL7BVOGYX1qDk5",
-          "file_url": "https://drive.google.com/file/d/1UJehxuyfoxATiF5FXRVL7BVOGYX1qDk5/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:21.281Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "London Dock G3 - Imperial Tower - 14.06.26.pdf",
-          "file_id": "1xrlX4Dj3-GSNp_QOOEbutYmOiat0whcN",
-          "file_url": "https://drive.google.com/file/d/1xrlX4Dj3-GSNp_QOOEbutYmOiat0whcN/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:14.715Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "London Dock G2 - Kingfisher Court - 14.06.26.pdf",
-          "file_id": "1kzp5S5GfoioZFVF2FWlx-N5gHmNzESih",
-          "file_url": "https://drive.google.com/file/d/1kzp5S5GfoioZFVF2FWlx-N5gHmNzESih/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:08.211Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "London Dock G1 - Tranquillity Place - 14.06.26.pdf",
-          "file_id": "1DMqKwQoWtaPRV7bcnRPfnEEip6TYFQT9",
-          "file_url": "https://drive.google.com/file/d/1DMqKwQoWtaPRV7bcnRPfnEEip6TYFQT9/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:00.981Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "London Dock G4 - Chime Gardens 10.06.26.pdf",
-          "file_id": "1b21jABOwmIpT4pkMdpxoqrx_PQKi9LLO",
-          "file_url": "https://drive.google.com/file/d/1b21jABOwmIpT4pkMdpxoqrx_PQKi9LLO/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:33.717Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "London Dock G3 - Imperial Tower - 10.06.26.pdf",
-          "file_id": "1JFMGjiVbndD-2YFKQ82adSKZz2LoyYjE",
-          "file_url": "https://drive.google.com/file/d/1JFMGjiVbndD-2YFKQ82adSKZz2LoyYjE/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:29.836Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "London Dock G2 - Kingfisher Court - 10.06.26.pdf",
-          "file_id": "1JDhBDI76jlX1s81Wj1f4gUWu96jSID24",
-          "file_url": "https://drive.google.com/file/d/1JDhBDI76jlX1s81Wj1f4gUWu96jSID24/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:26.561Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "London Dock G1 - Tranquillity Place - 10.06.26.pdf",
-          "file_id": "1YKjCG_VZw_kwQ7Ajh_KICalj8x3J-MV1",
-          "file_url": "https://drive.google.com/file/d/1YKjCG_VZw_kwQ7Ajh_KICalj8x3J-MV1/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:23.374Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "London Dock G4 - Chime Gardens 07.06.26.pdf",
-          "file_id": "1C6-DZjerSrKHI_-JGytmKnOmbwXk3mn4",
-          "file_url": "https://drive.google.com/file/d/1C6-DZjerSrKHI_-JGytmKnOmbwXk3mn4/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:33.684Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "London Dock G3 - Imperial Tower - 07.06.26.pdf",
-          "file_id": "1ORirkJzevDqPpjHL7m2Q9SvkUgdWzl1i",
-          "file_url": "https://drive.google.com/file/d/1ORirkJzevDqPpjHL7m2Q9SvkUgdWzl1i/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:30.536Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "London Dock G2 - Kingfisher Court - 07.06.26.pdf",
-          "file_id": "1MtdFdSTp5NaFLe06mDfo-2qjUEr5QU3E",
-          "file_url": "https://drive.google.com/file/d/1MtdFdSTp5NaFLe06mDfo-2qjUEr5QU3E/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:27.408Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "London Dock G1 - Tranquillity Place - 07.06.26.pdf",
-          "file_id": "1aBW7M_WIfB6Xgk4I6P1rm6FfGbgSpi6I",
-          "file_url": "https://drive.google.com/file/d/1aBW7M_WIfB6Xgk4I6P1rm6FfGbgSpi6I/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:24.269Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_London Dock G4 - Chime Gardens 24.05.26.pdf",
-          "file_id": "1JNfKdA6T4egXo7YYlSF_zax0zy8Dt--F",
-          "file_url": "https://drive.google.com/file/d/1JNfKdA6T4egXo7YYlSF_zax0zy8Dt--F/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:39.299Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G3 - Imperial Tower 24.05.26.pdf",
-          "file_id": "1Tx2C_LwfiGmlwz5rAdu7HCg6RD_Cl2sf",
-          "file_url": "https://drive.google.com/file/d/1Tx2C_LwfiGmlwz5rAdu7HCg6RD_Cl2sf/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:37.365Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G2 - Kingfisher Court - 24.05.26.pdf",
-          "file_id": "19v2-ieCCJ3i16HGd8SlVrAKpvSZOZn52",
-          "file_url": "https://drive.google.com/file/d/19v2-ieCCJ3i16HGd8SlVrAKpvSZOZn52/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:35.567Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G1 - Tranquillity Place - 24.05.26.pdf",
-          "file_id": "1NFdlHry55PDAc8X-Q04bewRk1hx9DQPp",
-          "file_url": "https://drive.google.com/file/d/1NFdlHry55PDAc8X-Q04bewRk1hx9DQPp/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:33.855Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G4 - Chime Gardens 17.05.26.pdf",
-          "file_id": "1y1XpV3L1n5rzPfmd76ryjyRvzSLwB0am",
-          "file_url": "https://drive.google.com/file/d/1y1XpV3L1n5rzPfmd76ryjyRvzSLwB0am/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:38.382Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G3 - Imperial Tower 17.05.26.pdf",
-          "file_id": "1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u",
-          "file_url": "https://drive.google.com/file/d/1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:36.930Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G2 - Kingfisher Court - 17.05.26.pdf",
-          "file_id": "1hw-FfcVqL_sduNx7S0SnalACysOQKi53",
-          "file_url": "https://drive.google.com/file/d/1hw-FfcVqL_sduNx7S0SnalACysOQKi53/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:35.160Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_London Dock G1 - Tranquillity Place - 17.05.26.pdf",
-          "file_id": "1I2Q1DSVWwtQbVEQut9bQZ2WTDYKozDKr",
-          "file_url": "https://drive.google.com/file/d/1I2Q1DSVWwtQbVEQut9bQZ2WTDYKozDKr/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:33.549Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "London Dock G1 - Tranquillity Place - 03.05.26.pdf",
-          "file_id": "1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk",
-          "file_url": "https://drive.google.com/file/d/1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk/view?usp=drivesdk",
-          "modified_at": "2026-05-09T03:13:34.000Z",
-          "price_date": "03.05.26"
-        },
-        {
-          "file": "London Dock G2 - Kingfisher Court - 06.05.26.pdf",
-          "file_id": "14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif",
-          "file_url": "https://drive.google.com/file/d/14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif/view?usp=drivesdk",
-          "modified_at": "2026-05-07T02:22:35.000Z",
-          "price_date": "06.05.26"
-        }
-      ],
-      "notes": []
-    },
     "E14 - South Quay Plaza": {
       "project": "E14 - South Quay Plaza",
       "city": "London",
@@ -2099,113 +1781,6 @@
           "price_date": "06.06.2026"
         }
       ],
-      "notes": []
-    },
-    "E2 - Regent's View": {
-      "project": "E2 - Regent's View",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / E2 - Regent's View",
-      "folder_id": "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-      "folder_url": "https://drive.google.com/drive/folders/1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-      "price_folder_id": "1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
-      "price_folder_url": "https://drive.google.com/drive/folders/1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
-      "old_price_folder_id": "1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
-      "latest_files": [
-        {
-          "file": "RV-Ready to move in - Wright Building 29.06.2026.pdf",
-          "file_id": "1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS",
-          "file_url": "https://drive.google.com/file/d/1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:06.025Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "RV-Ready to move in - Westwood 29.06.2026.pdf",
-          "file_id": "1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun",
-          "file_url": "https://drive.google.com/file/d/1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:04.018Z",
-          "price_date": "29.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "RV-Wright Building- ready to move in 08.06.2026.pdf",
-          "file_id": "1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h",
-          "file_url": "https://drive.google.com/file/d/1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:11.101Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "RV-Westwood Building- ready to move in 08.06.2026.pdf",
-          "file_id": "1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7",
-          "file_url": "https://drive.google.com/file/d/1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:07.540Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "RV-Westwood- ready to move in 25.05.2026.pdf",
-          "file_id": "1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e",
-          "file_url": "https://drive.google.com/file/d/1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:53.000Z",
-          "price_date": "25.05.2026"
-        },
-        {
-          "file": "RV-Wright-ready to move in 25.05.2026.pdf",
-          "file_id": "1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy",
-          "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:52.000Z",
-          "price_date": "25.05.2026"
-        }
-      ],
-      "notes": []
-    },
-    "E3 - Bow Green": {
-      "project": "E3 - Bow Green",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / E3 - Bow Green",
-      "folder_id": "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-      "folder_url": "https://drive.google.com/drive/folders/1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-      "price_folder_id": "1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
-      "price_folder_url": "https://drive.google.com/drive/folders/1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
-      "old_price_folder_id": "1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
-      "latest_files": [
-        {
-          "file": "Bow Green - ready to move in Core C Pricelist.pdf",
-          "file_id": "1quptATS3AjVMnauCKwEq54oaRfSuVb5d",
-          "file_url": "https://drive.google.com/file/d/1quptATS3AjVMnauCKwEq54oaRfSuVb5d/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:22:43.246Z",
-          "price_date": ""
-        },
-        {
-          "file": "Bow Green - ready to move in Core B Pricelist.pdf",
-          "file_id": "17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa",
-          "file_url": "https://drive.google.com/file/d/17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:22:41.295Z",
-          "price_date": ""
-        },
-        {
-          "file": "Bow View Core C-Ready to move in- Pricelist 15.06.26.pdf",
-          "file_id": "1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs",
-          "file_url": "https://drive.google.com/file/d/1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
-          "price_date": "15.06.26"
-        },
-        {
-          "file": "Bow Green Core B-Ready to move in- Pricelist 15.06.26 1.pdf",
-          "file_id": "1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM",
-          "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
-          "price_date": "15.06.26"
-        }
-      ],
-      "old_files": [],
       "notes": []
     },
     "E3 - Heron Wharf": {
@@ -2393,67 +1968,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "HA0 - Grand Union": {
-      "project": "HA0 - Grand Union",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / HA0 - Grand Union",
-      "folder_id": "1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
-      "folder_url": "https://drive.google.com/drive/folders/1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
-      "price_folder_id": "1eyu-KIlHZ4Zj_JmbJsm0kuZcZ22Sxn0G",
-      "price_folder_url": "https://drive.google.com/drive/folders/1eyu-KIlHZ4Zj_JmbJsm0kuZcZ22Sxn0G",
-      "old_price_folder_id": "1Kfq4zXJQa9wBMB6BB5jN058W9-3a67qy",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1Kfq4zXJQa9wBMB6BB5jN058W9-3a67qy",
-      "latest_files": [
-        {
-          "file": "CN Grand Union - Peninsula House Price List - 28.06.26.pdf",
-          "file_id": "17yfjOqD1IxUosNlZgjR6OTgvuA2OEH1r",
-          "file_url": "https://drive.google.com/file/d/17yfjOqD1IxUosNlZgjR6OTgvuA2OEH1r/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:49:12.937Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN Grand Union - Peninsula House Price List - 14.06.26.pdf",
-          "file_id": "148bAtLzktZyNTJfVtRe-Knu4aQYET44X",
-          "file_url": "https://drive.google.com/file/d/148bAtLzktZyNTJfVtRe-Knu4aQYET44X/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:22:56.828Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN Grand Union - Peninsula House Price List - 10.06.26.pdf",
-          "file_id": "1empKhvv6nQguM4eevSLytXlMogNY9OLX",
-          "file_url": "https://drive.google.com/file/d/1empKhvv6nQguM4eevSLytXlMogNY9OLX/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:48.243Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "CN Grand Union - Peninsula House Price List - 07.06.26.pdf",
-          "file_id": "19kuDrztWRp-kH-X8n2jhnn3Iz1FAietK",
-          "file_url": "https://drive.google.com/file/d/19kuDrztWRp-kH-X8n2jhnn3Iz1FAietK/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:01:52.547Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_CN Grand Union - Peninsula House Price List - 24.05.26.pdf",
-          "file_id": "13563UrsrGxwJh55vDuuG1DhDqPMaXa1y",
-          "file_url": "https://drive.google.com/file/d/13563UrsrGxwJh55vDuuG1DhDqPMaXa1y/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:40.095Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN Grand Union - Peninsula House Price List - 17.05.26.pdf",
-          "file_id": "1lC_u1Xm4sb3DbQoyMScz7JoL39SJ8BAK",
-          "file_url": "https://drive.google.com/file/d/1lC_u1Xm4sb3DbQoyMScz7JoL39SJ8BAK/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:51.892Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "N10 - Alexandra Gate": {
       "project": "N10 - Alexandra Gate",
       "city": "London",
@@ -2607,109 +2121,6 @@
           "file_id": "1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB",
           "file_url": "https://drive.google.com/file/d/1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB/view?usp=drivesdk",
           "modified_at": "2026-05-28T02:21:33.602Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "NW1 - Camden Goods Yard": {
-      "project": "NW1 - Camden Goods Yard",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / NW1 - Camden Goods Yard",
-      "folder_id": "1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
-      "folder_url": "https://drive.google.com/drive/folders/1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
-      "price_folder_id": "1x_FN0UTQLw5655VDt0WTEXsXFBZzLFbL",
-      "price_folder_url": "https://drive.google.com/drive/folders/1x_FN0UTQLw5655VDt0WTEXsXFBZzLFbL",
-      "old_price_folder_id": "1LDQYOHOvZo6Zfq--1bB4abR28dHeodfE",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1LDQYOHOvZo6Zfq--1bB4abR28dHeodfE",
-      "latest_files": [
-        {
-          "file": "CN Camden Goods Yard - The Regent  - Pricelist 28.06.26.pdf",
-          "file_id": "1S_okEv2qRHudohPW3XyQ2xfgi-e7CkL0",
-          "file_url": "https://drive.google.com/file/d/1S_okEv2qRHudohPW3XyQ2xfgi-e7CkL0/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:41.771Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - The Regent  - Pricelist 28.06.26.pdf",
-          "file_id": "1nsN7oI_WhoQHfM9Q5HYUUECNB028wRMl",
-          "file_url": "https://drive.google.com/file/d/1nsN7oI_WhoQHfM9Q5HYUUECNB028wRMl/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:33.116Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - The Gallery - Pricelist - 28.06.26.pdf",
-          "file_id": "1tgRx8qyGOSLgX0Gh_btlHj_FSjNLtotd",
-          "file_url": "https://drive.google.com/file/d/1tgRx8qyGOSLgX0Gh_btlHj_FSjNLtotd/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:23.455Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 28.06.26.pdf",
-          "file_id": "1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO",
-          "file_url": "https://drive.google.com/file/d/1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:13.870Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN Camden Goods Yard - The Regent  - Pricelist 14.06.26.pdf",
-          "file_id": "1aZvI90BSyCHTXo9SHpyqU5H2Zos4PyDf",
-          "file_url": "https://drive.google.com/file/d/1aZvI90BSyCHTXo9SHpyqU5H2Zos4PyDf/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:21:13.825Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 14.06.26.pdf",
-          "file_id": "1IRxw0tV0KnZgbp096N6U6ogfqJwZ2x3i",
-          "file_url": "https://drive.google.com/file/d/1IRxw0tV0KnZgbp096N6U6ogfqJwZ2x3i/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:21:05.172Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN Camden Goods Yard - The Regent  - Pricelist 10.06.26.pdf",
-          "file_id": "1yS6lh5zytTdAP1huZIofnPk5S2Tr0-_O",
-          "file_url": "https://drive.google.com/file/d/1yS6lh5zytTdAP1huZIofnPk5S2Tr0-_O/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:33.369Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 10.06.26.pdf",
-          "file_id": "1Q5sFDgwTWCDQKpuojJrbK5SxMV3XR7Du",
-          "file_url": "https://drive.google.com/file/d/1Q5sFDgwTWCDQKpuojJrbK5SxMV3XR7Du/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:29.224Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "CN Camden Goods Yard - The Regent  - Pricelist 08.06.26.pdf",
-          "file_id": "1ry_BxQRU9XO9oscCwIqVZ3W5M6lmcuiP",
-          "file_url": "https://drive.google.com/file/d/1ry_BxQRU9XO9oscCwIqVZ3W5M6lmcuiP/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:01:31.433Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 08.06.26.pdf",
-          "file_id": "1JLw949ItEkqiXntVJiqIxUZMuQeZVpYW",
-          "file_url": "https://drive.google.com/file/d/1JLw949ItEkqiXntVJiqIxUZMuQeZVpYW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:01:27.565Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "2026-05-28_CN Camden Goods Yard - The Regent  - Pricelist 24.05.26.pdf",
-          "file_id": "16SfCSr26FVarDU6Z3MDDM6xrbvAlOwdu",
-          "file_url": "https://drive.google.com/file/d/16SfCSr26FVarDU6Z3MDDM6xrbvAlOwdu/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:58.899Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN Camden Goods Yard - The Regent  - Pricelist 13.05.26.pdf",
-          "file_id": "1LXXeLzI5N-l9C9IIfAKPBH4kmTj0X2xu",
-          "file_url": "https://drive.google.com/file/d/1LXXeLzI5N-l9C9IIfAKPBH4kmTj0X2xu/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:04.626Z",
           "price_date": "26-05-28"
         }
       ],
@@ -3432,60 +2843,6 @@
       ],
       "notes": []
     },
-    "SM1 - Sutton Garden Square": {
-      "project": "SM1 - Sutton Garden Square",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / SM1 - Sutton Garden Square",
-      "folder_id": "13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
-      "folder_url": "https://drive.google.com/drive/folders/13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
-      "price_folder_id": "1c5xGwxLpEP0yFNWdo4LNQmIx6bLlIssS",
-      "price_folder_url": "https://drive.google.com/drive/folders/1c5xGwxLpEP0yFNWdo4LNQmIx6bLlIssS",
-      "old_price_folder_id": "1P09Gcli7-wxH_6x9IOdmV0hOQD7VgT5m",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1P09Gcli7-wxH_6x9IOdmV0hOQD7VgT5m",
-      "latest_files": [
-        {
-          "file": "Sutton Garden Square Exclusive Preview Price List 28.06.26.pdf",
-          "file_id": "1_r9rxXQ2d6R4bUtPKUbFt3OQRAY5PNYi",
-          "file_url": "https://drive.google.com/file/d/1_r9rxXQ2d6R4bUtPKUbFt3OQRAY5PNYi/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:54:51.301Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Sutton Garden Square Exclusive Preview Price List 10.06.26.pdf",
-          "file_id": "1w7bA_rlmX0kpN49L3SU-MLkRQL2FruKQ",
-          "file_url": "https://drive.google.com/file/d/1w7bA_rlmX0kpN49L3SU-MLkRQL2FruKQ/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:46.243Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "Sutton Garden Square Exclusive Preview Price List 07.06.26.pdf",
-          "file_id": "1eK1GfROsdke-7USgQBP9rxSPxGd2_RrW",
-          "file_url": "https://drive.google.com/file/d/1eK1GfROsdke-7USgQBP9rxSPxGd2_RrW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:22.899Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_Sutton Garden Square Exclusive Preview Price List 24.05.26.pdf",
-          "file_id": "19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK",
-          "file_url": "https://drive.google.com/file/d/19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:27.830Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Sutton Garden Square Exclusive Preview Price List 17.05.26.pdf",
-          "file_id": "1eJfc-MQnAAhgsXG1Eo4ZOIC5xl0o-Shz",
-          "file_url": "https://drive.google.com/file/d/1eJfc-MQnAAhgsXG1Eo4ZOIC5xl0o-Shz/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:05.876Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "SW11 - Ransomes Wharf (London Square)": {
       "project": "SW11 - Ransomes Wharf (London Square)",
       "city": "London",
@@ -3583,81 +2940,6 @@
           "file_url": "https://drive.google.com/file/d/1aV_LlVPF8mhJx1LTMrieVYTjTV7w5p_y/view?usp=drivesdk",
           "modified_at": "2026-06-22T05:47:32.042Z",
           "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "SW18 - Wandsworth Mills": {
-      "project": "SW18 - Wandsworth Mills",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
-      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "latest_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
-          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:58.532Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
-          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
-          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:50.827Z",
-          "price_date": "24.06.26"
-        },
-        {
-          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
-          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:47.463Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
-          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:06.658Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
-          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:04.648Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
-          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:22.031Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
-          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:20.071Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
-          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
-          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:40:59.966Z",
-          "price_date": "14.06.26"
         }
       ],
       "notes": []
@@ -4683,219 +3965,6 @@
       "old_files": [],
       "notes": []
     },
-    "UB1 - The Green Quarter": {
-      "project": "UB1 - The Green Quarter",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / UB1 - The Green Quarter",
-      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "latest_files": [
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
-          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
-          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:53.955Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
-          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:47.323Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
-          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
-          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:39.662Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
-          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:32.738Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
-          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
-          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:43.161Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
-          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
-          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:34.089Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
-          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
-          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:04.829Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
-          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
-          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:01.609Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
-          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
-          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:25.504Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
-          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:21.886Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
-          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
-          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:18.249Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
-          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:13.533Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
-          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
-          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:38.496Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
-          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
-          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:37.250Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
-          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
-          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:56.379Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
-          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
-          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:54.662Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "W12 - White City Living": {
-      "project": "W12 - White City Living",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / W12 - White City Living",
-      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "latest_files": [
-        {
-          "file": "WCL - Solaris Two 27.06.26.pdf",
-          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
-          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:42.040Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
-          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
-          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:40.017Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
-          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
-          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:37.880Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL Ready to Move 09.06.26.pdf",
-          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
-          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:38.068Z",
-          "price_date": "09.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "WCL Solaris Two 09.06.26.pdf",
-          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
-          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:41.309Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 09.06.26.pdf",
-          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
-          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:34.629Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Solaris Two 22.05.26.pdf",
-          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
-          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:51.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Ready to Move 22.05.26.pdf",
-          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
-          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:49.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 22.05.26.pdf",
-          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
-          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
-          "modified_at": "2026-05-23T01:30:00.000Z",
-          "price_date": "22.05.26"
-        }
-      ],
-      "notes": []
-    },
     "W2 - West End Gate": {
       "project": "W2 - West End Gate",
       "city": "London",
@@ -4932,46 +4001,6 @@
           "file_url": "https://drive.google.com/file/d/1PpxumYTlcqN2Z0zqNGNo1BT7lh4b_ejD/view?usp=drivesdk",
           "modified_at": "2026-06-17T06:27:36.835Z",
           "price_date": "14.06.26"
-        }
-      ],
-      "notes": []
-    },
-    "W6 - Fulham Reach": {
-      "project": "W6 - Fulham Reach",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / W6 - Fulham Reach",
-      "folder_id": "1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
-      "folder_url": "https://drive.google.com/drive/folders/1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
-      "price_folder_id": "1cKOMHSTghZ1jlRLiA8ULA41ecwoLyoT4",
-      "price_folder_url": "https://drive.google.com/drive/folders/1cKOMHSTghZ1jlRLiA8ULA41ecwoLyoT4",
-      "old_price_folder_id": "1cPYdAtgWekFYNTaQwDYbPI9SkcvoCDxI",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1cPYdAtgWekFYNTaQwDYbPI9SkcvoCDxI",
-      "latest_files": [
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 24.06.26.pdf",
-          "file_id": "1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda",
-          "file_url": "https://drive.google.com/file/d/1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:48:30.124Z",
-          "price_date": "24.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 10.06.26.pdf",
-          "file_id": "1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ",
-          "file_url": "https://drive.google.com/file/d/1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:16.137Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 24.05.26.pdf",
-          "file_id": "1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV",
-          "file_url": "https://drive.google.com/file/d/1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:53.488Z",
-          "price_date": "24.05.26"
         }
       ],
       "notes": []
@@ -6200,81 +5229,6 @@
       ],
       "notes": []
     },
-    "RM9 - Eastbrook Village": {
-      "project": "RM9 - Eastbrook Village",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Buckinghamshire 白金汉郡 / RM9 - Eastbrook Village",
-      "folder_id": "1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
-      "folder_url": "https://drive.google.com/drive/folders/1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
-      "price_folder_id": "19P9VYD0avNavs3cac8hcl03r1_r_KXSD",
-      "price_folder_url": "https://drive.google.com/drive/folders/19P9VYD0avNavs3cac8hcl03r1_r_KXSD",
-      "old_price_folder_id": "1YK59fwQXv1YjnuBglDeFwvtK187XTO09",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1YK59fwQXv1YjnuBglDeFwvtK187XTO09",
-      "latest_files": [
-        {
-          "file": "EBV Mater Price List - 24.06.2026.pdf",
-          "file_id": "1SoHIVoIwQsQ7vALXhaLAbLEA-erTilG0",
-          "file_url": "https://drive.google.com/file/d/1SoHIVoIwQsQ7vALXhaLAbLEA-erTilG0/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:48:04.032Z",
-          "price_date": "24.06.2026"
-        },
-        {
-          "file": "Beech Apartments Price List  - 29.04.26.pdf",
-          "file_id": "1HvT0ryd6KKI4GGRny2tJCQTzz0rgSoJu",
-          "file_url": "https://drive.google.com/file/d/1HvT0ryd6KKI4GGRny2tJCQTzz0rgSoJu/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:56.013Z",
-          "price_date": "29.04.26"
-        },
-        {
-          "file": "Eastbrook Village - Beech Apartments - Price List  - 20.05.26.pdf",
-          "file_id": "1f8DTI0pgyoFKqe9fjE_VEwrhdm3R5qo3",
-          "file_url": "https://drive.google.com/file/d/1f8DTI0pgyoFKqe9fjE_VEwrhdm3R5qo3/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:21:28.579Z",
-          "price_date": "20.05.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "EBV Mater Price List - 10.06.2026.pdf",
-          "file_id": "1eOSGJrWm8aoi5gKqWhvfZPFkYoRMnFUI",
-          "file_url": "https://drive.google.com/file/d/1eOSGJrWm8aoi5gKqWhvfZPFkYoRMnFUI/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:14.789Z",
-          "price_date": "10.06.2026"
-        },
-        {
-          "file": "Beech Apartments Price List  - 20.05.26.pdf",
-          "file_id": "1_KKWG5timbL9xxuv0AZcwpZqzLMt17zr",
-          "file_url": "https://drive.google.com/file/d/1_KKWG5timbL9xxuv0AZcwpZqzLMt17zr/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:11.111Z",
-          "price_date": "20.05.26"
-        },
-        {
-          "file": "EBV Mater Price List 08.06.2026.pdf",
-          "file_id": "1KqPraBJbyln9-hJTcUsEJ_EA-IsoQX7m",
-          "file_url": "https://drive.google.com/file/d/1KqPraBJbyln9-hJTcUsEJ_EA-IsoQX7m/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:43.955Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "Eastbrook Village - Beech Apartments Price List (30.05.26).pdf",
-          "file_id": "19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1",
-          "file_url": "https://drive.google.com/file/d/19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:40.040Z",
-          "price_date": "30.05.26"
-        },
-        {
-          "file": "2026-05-28_EBV Mater Price List 16.05.2026.pdf",
-          "file_id": "1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL",
-          "file_url": "https://drive.google.com/file/d/1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:12.050Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "City Reach": {
       "project": "City Reach",
       "city": "Others",
@@ -6729,114 +5683,6 @@
       "old_files": [],
       "notes": []
     },
-    "Highcroft": {
-      "project": "Highcroft",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / Highcroft",
-      "folder_id": "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-      "folder_url": "https://drive.google.com/drive/folders/1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-      "price_folder_id": "17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
-      "price_folder_url": "https://drive.google.com/drive/folders/17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
-      "old_price_folder_id": "14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
-      "latest_files": [
-        {
-          "file": "CN-Highcroft - Price List 28.6.26.pdf",
-          "file_id": "1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48",
-          "file_url": "https://drive.google.com/file/d/1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:50:31.409Z",
-          "price_date": "28.6.26"
-        },
-        {
-          "file": "CN-Highcroft - Price List 10.06 2026.pdf",
-          "file_id": "16iNPDQo-XRihIHrJM16coaAI84e9Tnkz",
-          "file_url": "https://drive.google.com/file/d/16iNPDQo-XRihIHrJM16coaAI84e9Tnkz/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:54.984Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN-Highcroft - Price List 14.6.26.pdf",
-          "file_id": "1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM",
-          "file_url": "https://drive.google.com/file/d/1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:24:17.575Z",
-          "price_date": "14.6.26"
-        },
-        {
-          "file": "CN-Highcroft - Price List 07.06 2026.pdf",
-          "file_id": "1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE",
-          "file_url": "https://drive.google.com/file/d/1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:03.817Z",
-          "price_date": ""
-        },
-        {
-          "file": "2026-05-28_CN-Highcroft - Price List 24.5.26.pdf",
-          "file_id": "1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ",
-          "file_url": "https://drive.google.com/file/d/1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ/view?usp=drivesdk",
-          "modified_at": "2026-05-28T07:42:01.163Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-Highcroft - Price List 17.05 2026.pdf",
-          "file_id": "1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD",
-          "file_url": "https://drive.google.com/file/d/1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD/view?usp=drivesdk",
-          "modified_at": "2026-05-28T07:41:59.848Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "OX10 - Winterbrook Meadows": {
-      "project": "OX10 - Winterbrook Meadows",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / OX10 - Winterbrook Meadows",
-      "folder_id": "18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
-      "folder_url": "https://drive.google.com/drive/folders/18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
-      "price_folder_id": "1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
-      "price_folder_url": "https://drive.google.com/drive/folders/1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
-      "old_price_folder_id": "1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
-      "latest_files": [
-        {
-          "file": "WBM - Summerleigh Inserts - The Dickinson.pdf",
-          "file_id": "1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh",
-          "file_url": "https://drive.google.com/file/d/1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:27:43.135Z",
-          "price_date": ""
-        },
-        {
-          "file": "Winterbrook Meadows  Updated price list 14.06. 2026.pdf",
-          "file_id": "1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC",
-          "file_url": "https://drive.google.com/file/d/1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:27:13.746Z",
-          "price_date": ""
-        },
-        {
-          "file": "Winterbrook Meadows Price List 030626.pdf",
-          "file_id": "1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng",
-          "file_url": "https://drive.google.com/file/d/1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:05:08.121Z",
-          "price_date": "List 0306"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "2026-05-28_Winterbrook Meadows Price List 210526.pdf",
-          "file_id": "1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV",
-          "file_url": "https://drive.google.com/file/d/1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:24.011Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "RG7 3SY - Tower House Farm (T A Fisher)": {
       "project": "RG7 3SY - Tower House Farm (T A Fisher)",
       "city": "Others",
@@ -7246,19 +6092,1824 @@
         }
       ],
       "notes": []
+    },
+    "E3 - Bow Green": {
+      "project": "E3 - Bow Green",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / E3 - Bow Green",
+      "folder_id": "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+      "folder_url": "https://drive.google.com/drive/folders/1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+      "price_folder_id": "1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
+      "old_price_folder_id": "1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
+      "latest_files": [
+        {
+          "file": "Bow Green Ready to Move In_Core B Pricelist.pdf",
+          "file_id": "1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a",
+          "file_url": "https://drive.google.com/file/d/1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:12.067Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green - ready to move in Core C Pricelist.pdf",
+          "file_id": "1quptATS3AjVMnauCKwEq54oaRfSuVb5d",
+          "file_url": "https://drive.google.com/file/d/1quptATS3AjVMnauCKwEq54oaRfSuVb5d/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:43.246Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow View Core C-Ready to move in- Pricelist 15.06.26.pdf",
+          "file_id": "1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs",
+          "file_url": "https://drive.google.com/file/d/1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:50:43.000Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "Bow Green Core B-Ready to move in- Pricelist 15.06.26 1.pdf",
+          "file_id": "1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM",
+          "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:50:43.000Z",
+          "price_date": "15.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bow Green - ready to move in Core B Pricelist.pdf",
+          "file_id": "17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa",
+          "file_url": "https://drive.google.com/file/d/17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:41.295Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "NW1 - Camden Goods Yard": {
+      "project": "NW1 - Camden Goods Yard",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / NW1 - Camden Goods Yard",
+      "folder_id": "1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
+      "folder_url": "https://drive.google.com/drive/folders/1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
+      "price_folder_id": "1x_FN0UTQLw5655VDt0WTEXsXFBZzLFbL",
+      "price_folder_url": "https://drive.google.com/drive/folders/1x_FN0UTQLw5655VDt0WTEXsXFBZzLFbL",
+      "old_price_folder_id": "1LDQYOHOvZo6Zfq--1bB4abR28dHeodfE",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1LDQYOHOvZo6Zfq--1bB4abR28dHeodfE",
+      "latest_files": [
+        {
+          "file": "CN Camden Goods Yard - The Regent  - Pricelist 05.07.26.pdf",
+          "file_id": "1Xb5HV9qJATmKXNw8Juzz0wl7j6bMAZWN",
+          "file_url": "https://drive.google.com/file/d/1Xb5HV9qJATmKXNw8Juzz0wl7j6bMAZWN/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:32.071Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 05.07.26.pdf",
+          "file_id": "1zxCh1FBHQZvNFfK8Pq2pgqx3rpF5mje6",
+          "file_url": "https://drive.google.com/file/d/1zxCh1FBHQZvNFfK8Pq2pgqx3rpF5mje6/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:24.877Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN Camden Goods Yard - The Regent  - Pricelist 28.06.26.pdf",
+          "file_id": "1S_okEv2qRHudohPW3XyQ2xfgi-e7CkL0",
+          "file_url": "https://drive.google.com/file/d/1S_okEv2qRHudohPW3XyQ2xfgi-e7CkL0/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:47:41.771Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - The Regent  - Pricelist 28.06.26.pdf",
+          "file_id": "1nsN7oI_WhoQHfM9Q5HYUUECNB028wRMl",
+          "file_url": "https://drive.google.com/file/d/1nsN7oI_WhoQHfM9Q5HYUUECNB028wRMl/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:47:33.116Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - The Gallery - Pricelist - 28.06.26.pdf",
+          "file_id": "1tgRx8qyGOSLgX0Gh_btlHj_FSjNLtotd",
+          "file_url": "https://drive.google.com/file/d/1tgRx8qyGOSLgX0Gh_btlHj_FSjNLtotd/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:47:23.455Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 28.06.26.pdf",
+          "file_id": "1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO",
+          "file_url": "https://drive.google.com/file/d/1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:47:13.870Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN Camden Goods Yard - The Regent  - Pricelist 14.06.26.pdf",
+          "file_id": "1aZvI90BSyCHTXo9SHpyqU5H2Zos4PyDf",
+          "file_url": "https://drive.google.com/file/d/1aZvI90BSyCHTXo9SHpyqU5H2Zos4PyDf/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:21:13.825Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 14.06.26.pdf",
+          "file_id": "1IRxw0tV0KnZgbp096N6U6ogfqJwZ2x3i",
+          "file_url": "https://drive.google.com/file/d/1IRxw0tV0KnZgbp096N6U6ogfqJwZ2x3i/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:21:05.172Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN Camden Goods Yard - The Regent  - Pricelist 10.06.26.pdf",
+          "file_id": "1yS6lh5zytTdAP1huZIofnPk5S2Tr0-_O",
+          "file_url": "https://drive.google.com/file/d/1yS6lh5zytTdAP1huZIofnPk5S2Tr0-_O/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:33.369Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 10.06.26.pdf",
+          "file_id": "1Q5sFDgwTWCDQKpuojJrbK5SxMV3XR7Du",
+          "file_url": "https://drive.google.com/file/d/1Q5sFDgwTWCDQKpuojJrbK5SxMV3XR7Du/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:29.224Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "CN Camden Goods Yard - The Regent  - Pricelist 08.06.26.pdf",
+          "file_id": "1ry_BxQRU9XO9oscCwIqVZ3W5M6lmcuiP",
+          "file_url": "https://drive.google.com/file/d/1ry_BxQRU9XO9oscCwIqVZ3W5M6lmcuiP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:01:31.433Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "Camden Goods Yard - CN The Gallery - Pricelist - 08.06.26.pdf",
+          "file_id": "1JLw949ItEkqiXntVJiqIxUZMuQeZVpYW",
+          "file_url": "https://drive.google.com/file/d/1JLw949ItEkqiXntVJiqIxUZMuQeZVpYW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:01:27.565Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "2026-05-28_CN Camden Goods Yard - The Regent  - Pricelist 24.05.26.pdf",
+          "file_id": "16SfCSr26FVarDU6Z3MDDM6xrbvAlOwdu",
+          "file_url": "https://drive.google.com/file/d/16SfCSr26FVarDU6Z3MDDM6xrbvAlOwdu/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:58.899Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN Camden Goods Yard - The Regent  - Pricelist 13.05.26.pdf",
+          "file_id": "1LXXeLzI5N-l9C9IIfAKPBH4kmTj0X2xu",
+          "file_url": "https://drive.google.com/file/d/1LXXeLzI5N-l9C9IIfAKPBH4kmTj0X2xu/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:04.626Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "RM9 - Eastbrook Village": {
+      "project": "RM9 - Eastbrook Village",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Buckinghamshire 白金汉郡 / RM9 - Eastbrook Village",
+      "folder_id": "1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
+      "folder_url": "https://drive.google.com/drive/folders/1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
+      "price_folder_id": "19P9VYD0avNavs3cac8hcl03r1_r_KXSD",
+      "price_folder_url": "https://drive.google.com/drive/folders/19P9VYD0avNavs3cac8hcl03r1_r_KXSD",
+      "old_price_folder_id": "1YK59fwQXv1YjnuBglDeFwvtK187XTO09",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1YK59fwQXv1YjnuBglDeFwvtK187XTO09",
+      "latest_files": [
+        {
+          "file": "EBV Mater Price List - 03.07.2026.pdf",
+          "file_id": "1UQda9NpjLItxEF_hFwrPNPWJS47CIlac",
+          "file_url": "https://drive.google.com/file/d/1UQda9NpjLItxEF_hFwrPNPWJS47CIlac/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:56.172Z",
+          "price_date": "03.07.2026"
+        },
+        {
+          "file": "Beech Apartments Price List  - 03.07.26.pdf",
+          "file_id": "1OTpjWtGJs831lsZc97aJ7v9UQEDskR5_",
+          "file_url": "https://drive.google.com/file/d/1OTpjWtGJs831lsZc97aJ7v9UQEDskR5_/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:49.037Z",
+          "price_date": "03.07.26"
+        },
+        {
+          "file": "Eastbrook Village - Beech Apartments - Price List  - 20.05.26.pdf",
+          "file_id": "1f8DTI0pgyoFKqe9fjE_VEwrhdm3R5qo3",
+          "file_url": "https://drive.google.com/file/d/1f8DTI0pgyoFKqe9fjE_VEwrhdm3R5qo3/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:21:28.579Z",
+          "price_date": "20.05.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "EBV Mater Price List - 24.06.2026.pdf",
+          "file_id": "1SoHIVoIwQsQ7vALXhaLAbLEA-erTilG0",
+          "file_url": "https://drive.google.com/file/d/1SoHIVoIwQsQ7vALXhaLAbLEA-erTilG0/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:04.032Z",
+          "price_date": "24.06.2026"
+        },
+        {
+          "file": "Beech Apartments Price List  - 29.04.26.pdf",
+          "file_id": "1HvT0ryd6KKI4GGRny2tJCQTzz0rgSoJu",
+          "file_url": "https://drive.google.com/file/d/1HvT0ryd6KKI4GGRny2tJCQTzz0rgSoJu/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:47:56.013Z",
+          "price_date": "29.04.26"
+        },
+        {
+          "file": "EBV Mater Price List - 10.06.2026.pdf",
+          "file_id": "1eOSGJrWm8aoi5gKqWhvfZPFkYoRMnFUI",
+          "file_url": "https://drive.google.com/file/d/1eOSGJrWm8aoi5gKqWhvfZPFkYoRMnFUI/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:14.789Z",
+          "price_date": "10.06.2026"
+        },
+        {
+          "file": "Beech Apartments Price List  - 20.05.26.pdf",
+          "file_id": "1_KKWG5timbL9xxuv0AZcwpZqzLMt17zr",
+          "file_url": "https://drive.google.com/file/d/1_KKWG5timbL9xxuv0AZcwpZqzLMt17zr/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:11.111Z",
+          "price_date": "20.05.26"
+        },
+        {
+          "file": "EBV Mater Price List 08.06.2026.pdf",
+          "file_id": "1KqPraBJbyln9-hJTcUsEJ_EA-IsoQX7m",
+          "file_url": "https://drive.google.com/file/d/1KqPraBJbyln9-hJTcUsEJ_EA-IsoQX7m/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:43.955Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "Eastbrook Village - Beech Apartments Price List (30.05.26).pdf",
+          "file_id": "19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1",
+          "file_url": "https://drive.google.com/file/d/19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:40.040Z",
+          "price_date": "30.05.26"
+        },
+        {
+          "file": "2026-05-28_EBV Mater Price List 16.05.2026.pdf",
+          "file_id": "1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL",
+          "file_url": "https://drive.google.com/file/d/1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:12.050Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "Foal Hurst Green": {
+      "project": "Foal Hurst Green",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Foal Hurst Green",
+      "folder_id": "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+      "folder_url": "https://drive.google.com/drive/folders/1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+      "price_folder_id": "1fTVVC15JtPfMZUVdmSeoK5cQ1FLK6inc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1fTVVC15JtPfMZUVdmSeoK5cQ1FLK6inc",
+      "old_price_folder_id": "18toJsT89TEmP71u77p7th5W2jBcLY3_4",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/18toJsT89TEmP71u77p7th5W2jBcLY3_4",
+      "latest_files": [
+        {
+          "file": "Foal Hurst Green - Phase 2.1 _ 2.2 Meadow Rise 06.07.2026.pdf",
+          "file_id": "1dcTadYK8Vctnd9LRhNHW-dCV4r2rAWyc",
+          "file_url": "https://drive.google.com/file/d/1dcTadYK8Vctnd9LRhNHW-dCV4r2rAWyc/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:12.739Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "Foal Hurst Green - Phase 2 & 2.2 Meadow Rise 05.06.26.pdf",
+          "file_id": "17qVBg8rdDBfNnWPfxaNzbNcM25wylqkd",
+          "file_url": "https://drive.google.com/file/d/17qVBg8rdDBfNnWPfxaNzbNcM25wylqkd/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:25:52.888Z",
+          "price_date": "05.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Foal Hurst Green - Phase 2.1 _ 2.2 Meadow Rise 25.06.2026.pdf",
+          "file_id": "10TQIkDr8ZGjuhySrifWIof67OEpsBGMm",
+          "file_url": "https://drive.google.com/file/d/10TQIkDr8ZGjuhySrifWIof67OEpsBGMm/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:23.625Z",
+          "price_date": "25.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "W6 - Fulham Reach": {
+      "project": "W6 - Fulham Reach",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / W6 - Fulham Reach",
+      "folder_id": "1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
+      "folder_url": "https://drive.google.com/drive/folders/1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
+      "price_folder_id": "1cKOMHSTghZ1jlRLiA8ULA41ecwoLyoT4",
+      "price_folder_url": "https://drive.google.com/drive/folders/1cKOMHSTghZ1jlRLiA8ULA41ecwoLyoT4",
+      "old_price_folder_id": "1cPYdAtgWekFYNTaQwDYbPI9SkcvoCDxI",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1cPYdAtgWekFYNTaQwDYbPI9SkcvoCDxI",
+      "latest_files": [
+        {
+          "file": "Fulham Reach Palmer House - Customer Pricelist - 05.07.26.pdf",
+          "file_id": "1_V95UtYqOMrpuorSAsYI1eukUJmk1NTe",
+          "file_url": "https://drive.google.com/file/d/1_V95UtYqOMrpuorSAsYI1eukUJmk1NTe/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:40.107Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "Fulham Reach Palmer House - CN Agent use only - 05.07.26.pdf",
+          "file_id": "12CqnlEuGpp7n5wcevoV9qCS_7G917QMc",
+          "file_url": "https://drive.google.com/file/d/12CqnlEuGpp7n5wcevoV9qCS_7G917QMc/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:26.023Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Fulham Reach Palmer House - CN Agent use only - 24.06.26.pdf",
+          "file_id": "1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda",
+          "file_url": "https://drive.google.com/file/d/1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:30.124Z",
+          "price_date": "24.06.26"
+        },
+        {
+          "file": "Fulham Reach Palmer House - CN Agent use only - 10.06.26.pdf",
+          "file_id": "1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ",
+          "file_url": "https://drive.google.com/file/d/1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:16.137Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Fulham Reach Palmer House - CN Agent use only - 24.05.26.pdf",
+          "file_id": "1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV",
+          "file_url": "https://drive.google.com/file/d/1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:53.488Z",
+          "price_date": "24.05.26"
+        }
+      ],
+      "notes": []
+    },
+    "B4 - Glasswater Locks": {
+      "project": "B4 - Glasswater Locks",
+      "city": "Birmingham",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Birmingham 伯明翰 / B4 - Glasswater Locks",
+      "folder_id": "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
+      "folder_url": "https://drive.google.com/drive/folders/1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
+      "price_folder_id": "1R24lF6rqbqmHlNO6dHfT1kGZkFqbzlB-",
+      "price_folder_url": "https://drive.google.com/drive/folders/1R24lF6rqbqmHlNO6dHfT1kGZkFqbzlB-",
+      "old_price_folder_id": "1_pbX52-MbuVvjiw5rLGo1QQq9DLwE5hG",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_pbX52-MbuVvjiw5rLGo1QQq9DLwE5hG",
+      "latest_files": [
+        {
+          "file": "Glasswater Locks Phase 1 Price List - 04.07.26.pdf",
+          "file_id": "1XHRUcs0UWkg0h25SuwT9d5Do3IgwFqOo",
+          "file_url": "https://drive.google.com/file/d/1XHRUcs0UWkg0h25SuwT9d5Do3IgwFqOo/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:57.710Z",
+          "price_date": "04.07.26"
+        },
+        {
+          "file": "Glasswater Locks Brindley Collection- 04.07.26.pdf",
+          "file_id": "1AolenheZ0cQmQzUf5eoGMHRTZIVDnUID",
+          "file_url": "https://drive.google.com/file/d/1AolenheZ0cQmQzUf5eoGMHRTZIVDnUID/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:46.550Z",
+          "price_date": "04.07.26"
+        },
+        {
+          "file": "Glasswater Locks Availability Finder 13.06.26.pdf",
+          "file_id": "12tcQWZKnU4Nnr8mF-YuUEGu_Bf5WA7aG",
+          "file_url": "https://drive.google.com/file/d/12tcQWZKnU4Nnr8mF-YuUEGu_Bf5WA7aG/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:22:34.124Z",
+          "price_date": "13.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN Agent_ Glasswater Locks Phase 1 Price List - 27.06.26.pdf",
+          "file_id": "1QtcYJcbXhgGeiKKAAFTT90GTRvPMVFTF",
+          "file_url": "https://drive.google.com/file/d/1QtcYJcbXhgGeiKKAAFTT90GTRvPMVFTF/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:54.392Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "CN Agent_ Glasswater Locks Brindley Collection  - 27.06.26.pdf",
+          "file_id": "1YtG9G8G7Gnes-z7g1GlbzuYQPz33cmg5",
+          "file_url": "https://drive.google.com/file/d/1YtG9G8G7Gnes-z7g1GlbzuYQPz33cmg5/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:44.475Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Glasswater Locks Brindley Collection- 13.06.26.pdf",
+          "file_id": "1b7k8wSFGMq1p7z2lvLX3qmeRX4NcKlvd",
+          "file_url": "https://drive.google.com/file/d/1b7k8wSFGMq1p7z2lvLX3qmeRX4NcKlvd/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:22:37.774Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "CN Agent_ Glasswater Locks Phase 1 Price List - 13.05.26.pdf",
+          "file_id": "1sZqkcWPt6GD_242ScaDqp5pzgnfkRlo1",
+          "file_url": "https://drive.google.com/file/d/1sZqkcWPt6GD_242ScaDqp5pzgnfkRlo1/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:22:10.514Z",
+          "price_date": "13.05.26"
+        },
+        {
+          "file": "CN Agent_ Glasswater Locks Brindley Collection  - 13.06.26.pdf",
+          "file_id": "1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG",
+          "file_url": "https://drive.google.com/file/d/1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:21:57.510Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "(CN Agent) Glasswater Locks Phase 1 Price List - 10.06.26.pdf",
+          "file_id": "1XQkR7hSIQ24mqhiiQMXvie3_EdK02PlK",
+          "file_url": "https://drive.google.com/file/d/1XQkR7hSIQ24mqhiiQMXvie3_EdK02PlK/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:02.523Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "(CN Agent) Glasswater Locks Brindley Collection  - 10.06.26.pdf",
+          "file_id": "13kJdw6UfkH95TX6--vCsQA79Rr6qYEbQ",
+          "file_url": "https://drive.google.com/file/d/13kJdw6UfkH95TX6--vCsQA79Rr6qYEbQ/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:55:58.072Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "(CN Agent) Glasswater Locks Phase 1 Price List - 08.06.26.pdf",
+          "file_id": "1Fn9kg3o0l10qXJKu-Iy0tSsQV_6jglkW",
+          "file_url": "https://drive.google.com/file/d/1Fn9kg3o0l10qXJKu-Iy0tSsQV_6jglkW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:01:04.661Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "(CN Agent) Glasswater Locks Brindley Collection  - 08.06.26.pdf",
+          "file_id": "1V6iLU96Rk9845QKQrsQg5ax2qTHL8dSJ",
+          "file_url": "https://drive.google.com/file/d/1V6iLU96Rk9845QKQrsQg5ax2qTHL8dSJ/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:01:00.173Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "2026-05-28_Glasswater Locks Phase 1 Price List - 20.05.26.pdf",
+          "file_id": "1frdqbAsoqyhmWH9qperVP4H48a90Ozbz",
+          "file_url": "https://drive.google.com/file/d/1frdqbAsoqyhmWH9qperVP4H48a90Ozbz/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:35.157Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Glasswater Locks Phase 1 Price List - 15.05.26.pdf",
+          "file_id": "1m5o3HmFQykw504vYA_tIEteFfI966kMR",
+          "file_url": "https://drive.google.com/file/d/1m5o3HmFQykw504vYA_tIEteFfI966kMR/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:01.416Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "HA0 - Grand Union": {
+      "project": "HA0 - Grand Union",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / HA0 - Grand Union",
+      "folder_id": "1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
+      "folder_url": "https://drive.google.com/drive/folders/1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
+      "price_folder_id": "1eyu-KIlHZ4Zj_JmbJsm0kuZcZ22Sxn0G",
+      "price_folder_url": "https://drive.google.com/drive/folders/1eyu-KIlHZ4Zj_JmbJsm0kuZcZ22Sxn0G",
+      "old_price_folder_id": "1Kfq4zXJQa9wBMB6BB5jN058W9-3a67qy",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Kfq4zXJQa9wBMB6BB5jN058W9-3a67qy",
+      "latest_files": [
+        {
+          "file": "CN Grand Union - Peninsula House Price List - 05.07.26.pdf",
+          "file_id": "1Q-1NkFtVWi3kiJaNMH1ZA25WEV854pts",
+          "file_url": "https://drive.google.com/file/d/1Q-1NkFtVWi3kiJaNMH1ZA25WEV854pts/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:17.372Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN Grand Union - Peninsula House Price List - 28.06.26.pdf",
+          "file_id": "17yfjOqD1IxUosNlZgjR6OTgvuA2OEH1r",
+          "file_url": "https://drive.google.com/file/d/17yfjOqD1IxUosNlZgjR6OTgvuA2OEH1r/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:12.937Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN Grand Union - Peninsula House Price List - 14.06.26.pdf",
+          "file_id": "148bAtLzktZyNTJfVtRe-Knu4aQYET44X",
+          "file_url": "https://drive.google.com/file/d/148bAtLzktZyNTJfVtRe-Knu4aQYET44X/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:22:56.828Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN Grand Union - Peninsula House Price List - 10.06.26.pdf",
+          "file_id": "1empKhvv6nQguM4eevSLytXlMogNY9OLX",
+          "file_url": "https://drive.google.com/file/d/1empKhvv6nQguM4eevSLytXlMogNY9OLX/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:48.243Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "CN Grand Union - Peninsula House Price List - 07.06.26.pdf",
+          "file_id": "19kuDrztWRp-kH-X8n2jhnn3Iz1FAietK",
+          "file_url": "https://drive.google.com/file/d/19kuDrztWRp-kH-X8n2jhnn3Iz1FAietK/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:01:52.547Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_CN Grand Union - Peninsula House Price List - 24.05.26.pdf",
+          "file_id": "13563UrsrGxwJh55vDuuG1DhDqPMaXa1y",
+          "file_url": "https://drive.google.com/file/d/13563UrsrGxwJh55vDuuG1DhDqPMaXa1y/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:40.095Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN Grand Union - Peninsula House Price List - 17.05.26.pdf",
+          "file_id": "1lC_u1Xm4sb3DbQoyMScz7JoL39SJ8BAK",
+          "file_url": "https://drive.google.com/file/d/1lC_u1Xm4sb3DbQoyMScz7JoL39SJ8BAK/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:51.892Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "Hareshill": {
+      "project": "Hareshill",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Hareshill",
+      "folder_id": "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+      "folder_url": "https://drive.google.com/drive/folders/1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+      "price_folder_id": "1PHZ8poPrGI6G_OwizR8QeoWwAysoaHQg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1PHZ8poPrGI6G_OwizR8QeoWwAysoaHQg",
+      "old_price_folder_id": "1oXRqbGrpe-padlL9BRYTik6GG7Xsg01L",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1oXRqbGrpe-padlL9BRYTik6GG7Xsg01L",
+      "latest_files": [
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 01.07.26.pdf",
+          "file_id": "1j2vxXRm035UV9qGZJkQFAHZdtn6L0I6y",
+          "file_url": "https://drive.google.com/file/d/1j2vxXRm035UV9qGZJkQFAHZdtn6L0I6y/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:36.336Z",
+          "price_date": "01.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 01.07.26.pdf",
+          "file_id": "1jvy1AjzVDuQSZnA0JMtLslMrjPU4gR1w",
+          "file_url": "https://drive.google.com/file/d/1jvy1AjzVDuQSZnA0JMtLslMrjPU4gR1w/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:28.471Z",
+          "price_date": "01.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 23.06.26.pdf",
+          "file_id": "1_nFynEybjIpgWeBbsgokCkfSYQ7Gll7c",
+          "file_url": "https://drive.google.com/file/d/1_nFynEybjIpgWeBbsgokCkfSYQ7Gll7c/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:23.723Z",
+          "price_date": "23.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 23.06.26.pdf",
+          "file_id": "1xuUDyBH1gXFGkJReZaFHIjwJOEuUHrHa",
+          "file_url": "https://drive.google.com/file/d/1xuUDyBH1gXFGkJReZaFHIjwJOEuUHrHa/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:38.089Z",
+          "price_date": "23.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 23.06.26.pdf",
+          "file_id": "1LbDgd1uImcLERsyNi3gXo7q1VE8KUy4C",
+          "file_url": "https://drive.google.com/file/d/1LbDgd1uImcLERsyNi3gXo7q1VE8KUy4C/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:31.230Z",
+          "price_date": "23.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 10.06.26.pdf",
+          "file_id": "1B17LMZlL4FXL6JizfQfAwIAghDpFjPJx",
+          "file_url": "https://drive.google.com/file/d/1B17LMZlL4FXL6JizfQfAwIAghDpFjPJx/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:25.281Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 10.06.26.pdf",
+          "file_id": "1Btjp0B3hvVRHy-tX63XftyOYAukU0SDk",
+          "file_url": "https://drive.google.com/file/d/1Btjp0B3hvVRHy-tX63XftyOYAukU0SDk/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:16.771Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 10.06.26.pdf",
+          "file_id": "10Lmzpop752YD8R-gvA_f6vdwqN6ZHOW2",
+          "file_url": "https://drive.google.com/file/d/10Lmzpop752YD8R-gvA_f6vdwqN6ZHOW2/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:09.564Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 03.06.26.pdf",
+          "file_id": "1F40_ucRkwRcTpqqNL_6VNeiixt4i6gz7",
+          "file_url": "https://drive.google.com/file/d/1F40_ucRkwRcTpqqNL_6VNeiixt4i6gz7/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:11.138Z",
+          "price_date": "03.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 03.06.26.pdf",
+          "file_id": "19jqfAHbd8PD8CDPWSDM9rcqieiybr_An",
+          "file_url": "https://drive.google.com/file/d/19jqfAHbd8PD8CDPWSDM9rcqieiybr_An/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:07.463Z",
+          "price_date": "03.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 03.06.26.pdf",
+          "file_id": "16FG4QEuAQlM54FqkAynKufZO81H-zhm_",
+          "file_url": "https://drive.google.com/file/d/16FG4QEuAQlM54FqkAynKufZO81H-zhm_/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:03.681Z",
+          "price_date": "03.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "Hartland Village": {
+      "project": "Hartland Village",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Hartland Village",
+      "folder_id": "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+      "folder_url": "https://drive.google.com/drive/folders/1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+      "price_folder_id": "1P6tbjg7BOa-QPGX9ij48iquH7SFbMGa9",
+      "price_folder_url": "https://drive.google.com/drive/folders/1P6tbjg7BOa-QPGX9ij48iquH7SFbMGa9",
+      "old_price_folder_id": "14_CjPgE7P0cCzoRvEzx1N4MPuQG5DU6-",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14_CjPgE7P0cCzoRvEzx1N4MPuQG5DU6-",
+      "latest_files": [
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 02.07.26.pdf",
+          "file_id": "1gAERl5Hb5Ex4AiwPIGYf7Sn4q8lRXCa4",
+          "file_url": "https://drive.google.com/file/d/1gAERl5Hb5Ex4AiwPIGYf7Sn4q8lRXCa4/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:03.311Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 02.07.26.pdf",
+          "file_id": "18L9XTiWmyYWb3yiHfX29_UzmwHKq_-Ff",
+          "file_url": "https://drive.google.com/file/d/18L9XTiWmyYWb3yiHfX29_UzmwHKq_-Ff/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:54.663Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 02.07.26.pdf",
+          "file_id": "1qWOLx-TUU_jVLsYJtUfxQ7W55R1RM3PU",
+          "file_url": "https://drive.google.com/file/d/1qWOLx-TUU_jVLsYJtUfxQ7W55R1RM3PU/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:47.327Z",
+          "price_date": "02.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 27.06.26.pdf",
+          "file_id": "1SHplAZMiLCxCO07kkeeuHjmP85VRP8Yc",
+          "file_url": "https://drive.google.com/file/d/1SHplAZMiLCxCO07kkeeuHjmP85VRP8Yc/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:05.938Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 27.06.26.pdf",
+          "file_id": "1kpfURWA3e4PqoDSwdo7X5MzgXBzFWfEL",
+          "file_url": "https://drive.google.com/file/d/1kpfURWA3e4PqoDSwdo7X5MzgXBzFWfEL/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:59.262Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 27.06.26.pdf",
+          "file_id": "1_TQif1mcUH3C8KeB1Zm5tXmOAzEeQgGF",
+          "file_url": "https://drive.google.com/file/d/1_TQif1mcUH3C8KeB1Zm5tXmOAzEeQgGF/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:53.216Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 09.06.26.pdf",
+          "file_id": "18THUJ1jeqFaapR7G_fJ7Xm28B_CJxENx",
+          "file_url": "https://drive.google.com/file/d/18THUJ1jeqFaapR7G_fJ7Xm28B_CJxENx/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:59.728Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 09.06.26.pdf",
+          "file_id": "1YRv4UqcTtYfBfgXP6dbcjsoU9Ze46IPz",
+          "file_url": "https://drive.google.com/file/d/1YRv4UqcTtYfBfgXP6dbcjsoU9Ze46IPz/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:48.354Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 07.06.26.pdf",
+          "file_id": "1UiVx1_q671inKy2IhLmeSXBdMKNIaBj0",
+          "file_url": "https://drive.google.com/file/d/1UiVx1_q671inKy2IhLmeSXBdMKNIaBj0/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:41.062Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 04.06.26.pdf",
+          "file_id": "1e9UEWGu8D6UJmD-pEqa265X_8o7hX2zW",
+          "file_url": "https://drive.google.com/file/d/1e9UEWGu8D6UJmD-pEqa265X_8o7hX2zW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:26.689Z",
+          "price_date": "04.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 04.06.26.pdf",
+          "file_id": "1Vuc1J2MKMwtD-8YAIIS-45uSElXV0_ds",
+          "file_url": "https://drive.google.com/file/d/1Vuc1J2MKMwtD-8YAIIS-45uSElXV0_ds/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:23.298Z",
+          "price_date": "04.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 04.06.26.pdf",
+          "file_id": "1h_h9eddjgrZzhSVQQbzlmEoh879V0nNW",
+          "file_url": "https://drive.google.com/file/d/1h_h9eddjgrZzhSVQQbzlmEoh879V0nNW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:19.564Z",
+          "price_date": "04.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "SG13 - Hertford Locks": {
+      "project": "SG13 - Hertford Locks",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "SG13 - Hertford Locks",
+      "folder_id": "1huj_phV8Nv7q_9e1jCQFFyntQsb2fvL5",
+      "folder_url": "https://drive.google.com/drive/folders/1huj_phV8Nv7q_9e1jCQFFyntQsb2fvL5",
+      "price_folder_id": "1DaWm5M_fwa5ENq8gpZc6GprIHi_bRhsb",
+      "price_folder_url": "https://drive.google.com/drive/folders/1DaWm5M_fwa5ENq8gpZc6GprIHi_bRhsb",
+      "old_price_folder_id": "1gjWNk063yaFRHuNP3h9ryXYqZys2qoZj",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1gjWNk063yaFRHuNP3h9ryXYqZys2qoZj",
+      "latest_files": [
+        {
+          "file": "Hertford Overseas Pricelist Apartments 05.07.pdf",
+          "file_id": "1BNH4_3H17OJa3rdb4NOdEtJffs-jlWCd",
+          "file_url": "https://drive.google.com/file/d/1BNH4_3H17OJa3rdb4NOdEtJffs-jlWCd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:24.900Z",
+          "price_date": ""
+        },
+        {
+          "file": "Hertford Locks Townhouse Price List 05.07.pdf",
+          "file_id": "12Srmh2iUmCGzw0djmA4cms2iqlTsjGu9",
+          "file_url": "https://drive.google.com/file/d/12Srmh2iUmCGzw0djmA4cms2iqlTsjGu9/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:19.773Z",
+          "price_date": ""
+        },
+        {
+          "file": "Hertford Overseas Pricelist Apartments with rentals 28.06.pdf",
+          "file_id": "1KfBEtOB53sPQvpCFvpiLyphZXO5Kq6lr",
+          "file_url": "https://drive.google.com/file/d/1KfBEtOB53sPQvpCFvpiLyphZXO5Kq6lr/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:25.337Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Hertford Locks Townhouse Price List 28.06.pdf",
+          "file_id": "1oVliKgpFFPGme6VCOgCHOOpqGuC4recU",
+          "file_url": "https://drive.google.com/file/d/1oVliKgpFFPGme6VCOgCHOOpqGuC4recU/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:21.656Z",
+          "price_date": ""
+        },
+        {
+          "file": "Hertford Overseas Pricelist Apartments 12.06.pdf",
+          "file_id": "1Dk36Cpl9cg92-OMHbDEfBpheesmPklvi",
+          "file_url": "https://drive.google.com/file/d/1Dk36Cpl9cg92-OMHbDEfBpheesmPklvi/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:41:08.457Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "Highcroft": {
+      "project": "Highcroft",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / Highcroft",
+      "folder_id": "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
+      "folder_url": "https://drive.google.com/drive/folders/1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
+      "price_folder_id": "17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
+      "price_folder_url": "https://drive.google.com/drive/folders/17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
+      "old_price_folder_id": "14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
+      "latest_files": [
+        {
+          "file": "CN-Highcroft - Price List 01.07 2026 .pdf",
+          "file_id": "1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp",
+          "file_url": "https://drive.google.com/file/d/1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:33.988Z",
+          "price_date": ""
+        },
+        {
+          "file": "CN-Highcroft - Price List 28.6.26.pdf",
+          "file_id": "1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48",
+          "file_url": "https://drive.google.com/file/d/1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:31.409Z",
+          "price_date": "28.6.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN-Highcroft - Price List 14.6.26.pdf",
+          "file_id": "1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM",
+          "file_url": "https://drive.google.com/file/d/1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:17.575Z",
+          "price_date": "14.6.26"
+        },
+        {
+          "file": "CN-Highcroft - Price List 10.06 2026.pdf",
+          "file_id": "16iNPDQo-XRihIHrJM16coaAI84e9Tnkz",
+          "file_url": "https://drive.google.com/file/d/16iNPDQo-XRihIHrJM16coaAI84e9Tnkz/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:54.984Z",
+          "price_date": ""
+        },
+        {
+          "file": "CN-Highcroft - Price List 07.06 2026.pdf",
+          "file_id": "1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE",
+          "file_url": "https://drive.google.com/file/d/1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:03.817Z",
+          "price_date": ""
+        },
+        {
+          "file": "2026-05-28_CN-Highcroft - Price List 24.5.26.pdf",
+          "file_id": "1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ",
+          "file_url": "https://drive.google.com/file/d/1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ/view?usp=drivesdk",
+          "modified_at": "2026-05-28T07:42:01.163Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-Highcroft - Price List 17.05 2026.pdf",
+          "file_id": "1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD",
+          "file_url": "https://drive.google.com/file/d/1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD/view?usp=drivesdk",
+          "modified_at": "2026-05-28T07:41:59.848Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "Leighwood Fields": {
+      "project": "Leighwood Fields",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Leighwood Fields",
+      "folder_id": "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+      "folder_url": "https://drive.google.com/drive/folders/1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+      "price_folder_id": "1ad90pWki-ngVR6shQhp7J3S7XqxRsAiL",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ad90pWki-ngVR6shQhp7J3S7XqxRsAiL",
+      "old_price_folder_id": "1AvV0Gc9pDwEo4OriZchFUEI9yv4NLQas",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1AvV0Gc9pDwEo4OriZchFUEI9yv4NLQas",
+      "latest_files": [
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 04.07.26.pdf",
+          "file_id": "1xRCKUDQnPSgMBPxnP0LEzQHjbZDT792F",
+          "file_url": "https://drive.google.com/file/d/1xRCKUDQnPSgMBPxnP0LEzQHjbZDT792F/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:09.211Z",
+          "price_date": "04.07.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 04.07.26.pdf",
+          "file_id": "1um-dIoNF5oFvPQCzCdUQAYsbMjmmpRel",
+          "file_url": "https://drive.google.com/file/d/1um-dIoNF5oFvPQCzCdUQAYsbMjmmpRel/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:00.531Z",
+          "price_date": "04.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 27.06.26.pdf",
+          "file_id": "1YUT4qbAx3NUPQ_5QRWW5qGHP9nE9K5ww",
+          "file_url": "https://drive.google.com/file/d/1YUT4qbAx3NUPQ_5QRWW5qGHP9nE9K5ww/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:51:24.793Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 27.06.26.pdf",
+          "file_id": "18pDvC-_kfCXYnXR7HELImng8layu4nMn",
+          "file_url": "https://drive.google.com/file/d/18pDvC-_kfCXYnXR7HELImng8layu4nMn/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:51:17.771Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 13.06.26.pdf",
+          "file_id": "1FdGrdqxGri9LrSQzHfuMDR1XwQiyizTT",
+          "file_url": "https://drive.google.com/file/d/1FdGrdqxGri9LrSQzHfuMDR1XwQiyizTT/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:47.068Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 13.06.26.pdf",
+          "file_id": "1dWT-1hbndrb76hohB-R3nCwb30_tlPBy",
+          "file_url": "https://drive.google.com/file/d/1dWT-1hbndrb76hohB-R3nCwb30_tlPBy/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:38.770Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 30.05.26.pdf",
+          "file_id": "1SMnkTAjAAiMVe-ujIkcqfU1-A5-jbyz-",
+          "file_url": "https://drive.google.com/file/d/1SMnkTAjAAiMVe-ujIkcqfU1-A5-jbyz-/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:37.727Z",
+          "price_date": "30.05.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 30.05.26.pdf",
+          "file_id": "1LZX8uB1-YKOGLmRo_cYZuJHR2vOFPcGa",
+          "file_url": "https://drive.google.com/file/d/1LZX8uB1-YKOGLmRo_cYZuJHR2vOFPcGa/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:34.550Z",
+          "price_date": "30.05.26"
+        }
+      ],
+      "notes": []
+    },
+    "E1 - London Dock": {
+      "project": "E1 - London Dock",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / E1 - London Dock",
+      "folder_id": "1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
+      "folder_url": "https://drive.google.com/drive/folders/1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
+      "price_folder_id": "19ovjjabR-mviqUAULKtRm00t_sN_boo1",
+      "price_folder_url": "https://drive.google.com/drive/folders/19ovjjabR-mviqUAULKtRm00t_sN_boo1",
+      "old_price_folder_id": "1R-mGQx5WiPkpHVo0h8thVMC8LnqucO5a",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1R-mGQx5WiPkpHVo0h8thVMC8LnqucO5a",
+      "latest_files": [
+        {
+          "file": "Saffron Private Price list June 05.07.26.pdf",
+          "file_id": "1K0wDdpZI3c8MWp2_OontaYQlY7HtPKY6",
+          "file_url": "https://drive.google.com/file/d/1K0wDdpZI3c8MWp2_OontaYQlY7HtPKY6/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:50.716Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "London Dock G4 - Chime Gardens 05.07.26.pdf",
+          "file_id": "1_qFGiEeZKNpd-DFuZqnFmH56dw-rbNPf",
+          "file_url": "https://drive.google.com/file/d/1_qFGiEeZKNpd-DFuZqnFmH56dw-rbNPf/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:44.344Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "London Dock G3 - Imperial Tower - 05.07.26.pdf",
+          "file_id": "12d3A0v1vNJiJgjHVv8k7h6FVEl60eC-D",
+          "file_url": "https://drive.google.com/file/d/12d3A0v1vNJiJgjHVv8k7h6FVEl60eC-D/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:36.588Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 05.07.26.pdf",
+          "file_id": "10WEMDe7bo-JZmdaA-T3RdbGYporA6_AX",
+          "file_url": "https://drive.google.com/file/d/10WEMDe7bo-JZmdaA-T3RdbGYporA6_AX/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:27.709Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 05.07.26.pdf",
+          "file_id": "1snPIS40AZYDnOmvutZ4-5QYHUk2QwzdA",
+          "file_url": "https://drive.google.com/file/d/1snPIS40AZYDnOmvutZ4-5QYHUk2QwzdA/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:21.056Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Saffron Private Price list June 28.06.26.pdf",
+          "file_id": "1q2OKY9wWspP333ThzaeQAnBWAkJNKu61",
+          "file_url": "https://drive.google.com/file/d/1q2OKY9wWspP333ThzaeQAnBWAkJNKu61/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:52:51.493Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "London Dock G4 - Chime Gardens 28.06.26.pdf",
+          "file_id": "1vkNTErkJ1ty-l0B1qIZu3eOoV2cNz176",
+          "file_url": "https://drive.google.com/file/d/1vkNTErkJ1ty-l0B1qIZu3eOoV2cNz176/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:52:45.324Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "London Dock G3 - Imperial Tower - 28.06.26.pdf",
+          "file_id": "1X_5e6LYtx5m_Pfzn8hQTxb_B_7JezJzC",
+          "file_url": "https://drive.google.com/file/d/1X_5e6LYtx5m_Pfzn8hQTxb_B_7JezJzC/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:52:37.997Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 28.06.26.pdf",
+          "file_id": "1ykfQTRX3-pGQSqaTKUYZXU2Vq9RdxKLm",
+          "file_url": "https://drive.google.com/file/d/1ykfQTRX3-pGQSqaTKUYZXU2Vq9RdxKLm/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:52:30.663Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 28.06.26.pdf",
+          "file_id": "17tm8TbkBEFJ9FScDZTu1obyEEwIaMzoV",
+          "file_url": "https://drive.google.com/file/d/17tm8TbkBEFJ9FScDZTu1obyEEwIaMzoV/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:52:24.102Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Saffron Private Price list June 10.06.26.pdf",
+          "file_id": "1-wsyqrHDqsai33i9uPdEV8jTDxscjIRZ",
+          "file_url": "https://drive.google.com/file/d/1-wsyqrHDqsai33i9uPdEV8jTDxscjIRZ/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:41:28.407Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "London Dock G4 - Chime Gardens 14.06.26.pdf",
+          "file_id": "1UJehxuyfoxATiF5FXRVL7BVOGYX1qDk5",
+          "file_url": "https://drive.google.com/file/d/1UJehxuyfoxATiF5FXRVL7BVOGYX1qDk5/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:21.281Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "London Dock G3 - Imperial Tower - 14.06.26.pdf",
+          "file_id": "1xrlX4Dj3-GSNp_QOOEbutYmOiat0whcN",
+          "file_url": "https://drive.google.com/file/d/1xrlX4Dj3-GSNp_QOOEbutYmOiat0whcN/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:14.715Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 14.06.26.pdf",
+          "file_id": "1kzp5S5GfoioZFVF2FWlx-N5gHmNzESih",
+          "file_url": "https://drive.google.com/file/d/1kzp5S5GfoioZFVF2FWlx-N5gHmNzESih/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:08.211Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 14.06.26.pdf",
+          "file_id": "1DMqKwQoWtaPRV7bcnRPfnEEip6TYFQT9",
+          "file_url": "https://drive.google.com/file/d/1DMqKwQoWtaPRV7bcnRPfnEEip6TYFQT9/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:00.981Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "London Dock G4 - Chime Gardens 10.06.26.pdf",
+          "file_id": "1b21jABOwmIpT4pkMdpxoqrx_PQKi9LLO",
+          "file_url": "https://drive.google.com/file/d/1b21jABOwmIpT4pkMdpxoqrx_PQKi9LLO/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:33.717Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "London Dock G3 - Imperial Tower - 10.06.26.pdf",
+          "file_id": "1JFMGjiVbndD-2YFKQ82adSKZz2LoyYjE",
+          "file_url": "https://drive.google.com/file/d/1JFMGjiVbndD-2YFKQ82adSKZz2LoyYjE/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:29.836Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 10.06.26.pdf",
+          "file_id": "1JDhBDI76jlX1s81Wj1f4gUWu96jSID24",
+          "file_url": "https://drive.google.com/file/d/1JDhBDI76jlX1s81Wj1f4gUWu96jSID24/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:26.561Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 10.06.26.pdf",
+          "file_id": "1YKjCG_VZw_kwQ7Ajh_KICalj8x3J-MV1",
+          "file_url": "https://drive.google.com/file/d/1YKjCG_VZw_kwQ7Ajh_KICalj8x3J-MV1/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:23.374Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "London Dock G4 - Chime Gardens 07.06.26.pdf",
+          "file_id": "1C6-DZjerSrKHI_-JGytmKnOmbwXk3mn4",
+          "file_url": "https://drive.google.com/file/d/1C6-DZjerSrKHI_-JGytmKnOmbwXk3mn4/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:03:33.684Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "London Dock G3 - Imperial Tower - 07.06.26.pdf",
+          "file_id": "1ORirkJzevDqPpjHL7m2Q9SvkUgdWzl1i",
+          "file_url": "https://drive.google.com/file/d/1ORirkJzevDqPpjHL7m2Q9SvkUgdWzl1i/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:03:30.536Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 07.06.26.pdf",
+          "file_id": "1MtdFdSTp5NaFLe06mDfo-2qjUEr5QU3E",
+          "file_url": "https://drive.google.com/file/d/1MtdFdSTp5NaFLe06mDfo-2qjUEr5QU3E/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:03:27.408Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 07.06.26.pdf",
+          "file_id": "1aBW7M_WIfB6Xgk4I6P1rm6FfGbgSpi6I",
+          "file_url": "https://drive.google.com/file/d/1aBW7M_WIfB6Xgk4I6P1rm6FfGbgSpi6I/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:03:24.269Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_London Dock G4 - Chime Gardens 24.05.26.pdf",
+          "file_id": "1JNfKdA6T4egXo7YYlSF_zax0zy8Dt--F",
+          "file_url": "https://drive.google.com/file/d/1JNfKdA6T4egXo7YYlSF_zax0zy8Dt--F/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:39.299Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G3 - Imperial Tower 24.05.26.pdf",
+          "file_id": "1Tx2C_LwfiGmlwz5rAdu7HCg6RD_Cl2sf",
+          "file_url": "https://drive.google.com/file/d/1Tx2C_LwfiGmlwz5rAdu7HCg6RD_Cl2sf/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:37.365Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G2 - Kingfisher Court - 24.05.26.pdf",
+          "file_id": "19v2-ieCCJ3i16HGd8SlVrAKpvSZOZn52",
+          "file_url": "https://drive.google.com/file/d/19v2-ieCCJ3i16HGd8SlVrAKpvSZOZn52/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:35.567Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G1 - Tranquillity Place - 24.05.26.pdf",
+          "file_id": "1NFdlHry55PDAc8X-Q04bewRk1hx9DQPp",
+          "file_url": "https://drive.google.com/file/d/1NFdlHry55PDAc8X-Q04bewRk1hx9DQPp/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:33.855Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G4 - Chime Gardens 17.05.26.pdf",
+          "file_id": "1y1XpV3L1n5rzPfmd76ryjyRvzSLwB0am",
+          "file_url": "https://drive.google.com/file/d/1y1XpV3L1n5rzPfmd76ryjyRvzSLwB0am/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:55:38.382Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G3 - Imperial Tower 17.05.26.pdf",
+          "file_id": "1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u",
+          "file_url": "https://drive.google.com/file/d/1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:55:36.930Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G2 - Kingfisher Court - 17.05.26.pdf",
+          "file_id": "1hw-FfcVqL_sduNx7S0SnalACysOQKi53",
+          "file_url": "https://drive.google.com/file/d/1hw-FfcVqL_sduNx7S0SnalACysOQKi53/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:55:35.160Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_London Dock G1 - Tranquillity Place - 17.05.26.pdf",
+          "file_id": "1I2Q1DSVWwtQbVEQut9bQZ2WTDYKozDKr",
+          "file_url": "https://drive.google.com/file/d/1I2Q1DSVWwtQbVEQut9bQZ2WTDYKozDKr/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:55:33.549Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "London Dock G1 - Tranquillity Place - 03.05.26.pdf",
+          "file_id": "1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk",
+          "file_url": "https://drive.google.com/file/d/1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk/view?usp=drivesdk",
+          "modified_at": "2026-05-09T03:13:34.000Z",
+          "price_date": "03.05.26"
+        },
+        {
+          "file": "London Dock G2 - Kingfisher Court - 06.05.26.pdf",
+          "file_id": "14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif",
+          "file_url": "https://drive.google.com/file/d/14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif/view?usp=drivesdk",
+          "modified_at": "2026-05-07T02:22:35.000Z",
+          "price_date": "06.05.26"
+        }
+      ],
+      "notes": []
+    },
+    "Oakhill": {
+      "project": "Oakhill",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Oakhill",
+      "folder_id": "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
+      "folder_url": "https://drive.google.com/drive/folders/1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
+      "price_folder_id": "1dK15BBDZvRSpela64JzdYs7-x8ApOGWh",
+      "price_folder_url": "https://drive.google.com/drive/folders/1dK15BBDZvRSpela64JzdYs7-x8ApOGWh",
+      "old_price_folder_id": "1BvaZ7p-s_HTnFwV4PHrtCjFFF8tZK9ex",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1BvaZ7p-s_HTnFwV4PHrtCjFFF8tZK9ex",
+      "latest_files": [
+        {
+          "file": "Oakhill - House 04.07.2026.pdf",
+          "file_id": "1g1I7gy5OlNYKfrBzeYNCVz2tHJKiMqIF",
+          "file_url": "https://drive.google.com/file/d/1g1I7gy5OlNYKfrBzeYNCVz2tHJKiMqIF/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:10.793Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 04.07.2026.pdf",
+          "file_id": "15V9ClZe8lZiC64vdKqf4RUrh4yiXQyXd",
+          "file_url": "https://drive.google.com/file/d/15V9ClZe8lZiC64vdKqf4RUrh4yiXQyXd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:03.257Z",
+          "price_date": "04.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Oakhill - House 26.06.2026.pdf",
+          "file_id": "1rBjLHm0kVwI1I5nHPPTPZMSmGQQgQLpe",
+          "file_url": "https://drive.google.com/file/d/1rBjLHm0kVwI1I5nHPPTPZMSmGQQgQLpe/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:16.485Z",
+          "price_date": "26.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 26.06.2026.pdf",
+          "file_id": "1I-uwXuRw1zmFEKtB2JkMNJ9M_PcQHB-M",
+          "file_url": "https://drive.google.com/file/d/1I-uwXuRw1zmFEKtB2JkMNJ9M_PcQHB-M/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:08.468Z",
+          "price_date": "26.06.2026"
+        },
+        {
+          "file": "Oakhill - House 12.06.2026.pdf",
+          "file_id": "1DjZpl_yS8Ocx0C7aPbRbNP9Uk2_Hqums",
+          "file_url": "https://drive.google.com/file/d/1DjZpl_yS8Ocx0C7aPbRbNP9Uk2_Hqums/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:42.065Z",
+          "price_date": "12.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 12.06.2026.pdf",
+          "file_id": "18_d5GP9770m1U6fGAVHAr3fNK0U3Cajv",
+          "file_url": "https://drive.google.com/file/d/18_d5GP9770m1U6fGAVHAr3fNK0U3Cajv/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:36.276Z",
+          "price_date": "12.06.2026"
+        },
+        {
+          "file": "Oakhill - House 01.06.2026.pdf",
+          "file_id": "15TgpCxGY7zKZZ-7gO5poTL1tkm24iNOG",
+          "file_url": "https://drive.google.com/file/d/15TgpCxGY7zKZZ-7gO5poTL1tkm24iNOG/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:49.869Z",
+          "price_date": "01.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 03.06.2026.pdf",
+          "file_id": "1MzoSRIZViqeSTunpEn4VHyNHXjZHkOvP",
+          "file_url": "https://drive.google.com/file/d/1MzoSRIZViqeSTunpEn4VHyNHXjZHkOvP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:46.032Z",
+          "price_date": "03.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "E2 - Regent's View": {
+      "project": "E2 - Regent's View",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / E2 - Regent's View",
+      "folder_id": "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+      "folder_url": "https://drive.google.com/drive/folders/1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+      "price_folder_id": "1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
+      "price_folder_url": "https://drive.google.com/drive/folders/1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
+      "old_price_folder_id": "1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
+      "latest_files": [
+        {
+          "file": "RV-Ready to Move in-Wright Building 06.07.2026.pdf",
+          "file_id": "1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5",
+          "file_url": "https://drive.google.com/file/d/1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:23.482Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "RV-Ready to Move in-Westwood Building 06.07.2026.pdf",
+          "file_id": "1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu",
+          "file_url": "https://drive.google.com/file/d/1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:20.324Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "RV-Ready to move in - Westwood 29.06.2026.pdf",
+          "file_id": "1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun",
+          "file_url": "https://drive.google.com/file/d/1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:04.018Z",
+          "price_date": "29.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "RV-Ready to move in - Wright Building 29.06.2026.pdf",
+          "file_id": "1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS",
+          "file_url": "https://drive.google.com/file/d/1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:06.025Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "RV-Wright Building- ready to move in 08.06.2026.pdf",
+          "file_id": "1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h",
+          "file_url": "https://drive.google.com/file/d/1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:11.101Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "RV-Westwood Building- ready to move in 08.06.2026.pdf",
+          "file_id": "1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7",
+          "file_url": "https://drive.google.com/file/d/1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:07.540Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "RV-Westwood- ready to move in 25.05.2026.pdf",
+          "file_id": "1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e",
+          "file_url": "https://drive.google.com/file/d/1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:53.000Z",
+          "price_date": "25.05.2026"
+        },
+        {
+          "file": "RV-Wright-ready to move in 25.05.2026.pdf",
+          "file_id": "1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy",
+          "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:52.000Z",
+          "price_date": "25.05.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SM1 - Sutton Garden Square": {
+      "project": "SM1 - Sutton Garden Square",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / SM1 - Sutton Garden Square",
+      "folder_id": "13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
+      "folder_url": "https://drive.google.com/drive/folders/13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
+      "price_folder_id": "1c5xGwxLpEP0yFNWdo4LNQmIx6bLlIssS",
+      "price_folder_url": "https://drive.google.com/drive/folders/1c5xGwxLpEP0yFNWdo4LNQmIx6bLlIssS",
+      "old_price_folder_id": "1P09Gcli7-wxH_6x9IOdmV0hOQD7VgT5m",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1P09Gcli7-wxH_6x9IOdmV0hOQD7VgT5m",
+      "latest_files": [
+        {
+          "file": "Sutton Garden Square Exclusive Preview Price List 05.07.26.pdf",
+          "file_id": "13K8MOTiyL6FeRcEVc5XUp_5yR9qXfVhO",
+          "file_url": "https://drive.google.com/file/d/13K8MOTiyL6FeRcEVc5XUp_5yR9qXfVhO/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:34.423Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Sutton Garden Square Exclusive Preview Price List 28.06.26.pdf",
+          "file_id": "1_r9rxXQ2d6R4bUtPKUbFt3OQRAY5PNYi",
+          "file_url": "https://drive.google.com/file/d/1_r9rxXQ2d6R4bUtPKUbFt3OQRAY5PNYi/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:54:51.301Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Sutton Garden Square Exclusive Preview Price List 10.06.26.pdf",
+          "file_id": "1w7bA_rlmX0kpN49L3SU-MLkRQL2FruKQ",
+          "file_url": "https://drive.google.com/file/d/1w7bA_rlmX0kpN49L3SU-MLkRQL2FruKQ/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:46.243Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Sutton Garden Square Exclusive Preview Price List 07.06.26.pdf",
+          "file_id": "1eK1GfROsdke-7USgQBP9rxSPxGd2_RrW",
+          "file_url": "https://drive.google.com/file/d/1eK1GfROsdke-7USgQBP9rxSPxGd2_RrW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:22.899Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_Sutton Garden Square Exclusive Preview Price List 24.05.26.pdf",
+          "file_id": "19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK",
+          "file_url": "https://drive.google.com/file/d/19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:27.830Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Sutton Garden Square Exclusive Preview Price List 17.05.26.pdf",
+          "file_id": "1eJfc-MQnAAhgsXG1Eo4ZOIC5xl0o-Shz",
+          "file_url": "https://drive.google.com/file/d/1eJfc-MQnAAhgsXG1Eo4ZOIC5xl0o-Shz/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:05.876Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "UB1 - The Green Quarter": {
+      "project": "UB1 - The Green Quarter",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / UB1 - The Green Quarter",
+      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "latest_files": [
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 05.07.26_.pdf",
+          "file_id": "1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN",
+          "file_url": "https://drive.google.com/file/d/1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:59.231Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -05.07.26.pdf",
+          "file_id": "1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd",
+          "file_url": "https://drive.google.com/file/d/1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:52.967Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
+          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
+          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:53.955Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
+          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:47.323Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
+          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
+          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:39.662Z",
+          "price_date": "28.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
+          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:32.738Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
+          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
+          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:43.161Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
+          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
+          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:34.089Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
+          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
+          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:04.829Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
+          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
+          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:01.609Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
+          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
+          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:25.504Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
+          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:21.886Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
+          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
+          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:18.249Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
+          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:13.533Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
+          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
+          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:38.496Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
+          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
+          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:37.250Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
+          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
+          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:56.379Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
+          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
+          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:54.662Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "SW18 - Wandsworth Mills": {
+      "project": "SW18 - Wandsworth Mills",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
+      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "latest_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
+          "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
+          "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:05.170Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
+          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:47.463Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
+          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:06.658Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
+          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:04.648Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
+          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:22.031Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
+          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:20.071Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
+          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:58.532Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
+          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
+          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:50.827Z",
+          "price_date": "24.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
+          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
+          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:40:59.966Z",
+          "price_date": "14.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "W12 - White City Living": {
+      "project": "W12 - White City Living",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / W12 - White City Living",
+      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "latest_files": [
+        {
+          "file": "WCL - Solaris Two 02.07.26.pdf",
+          "file_id": "162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX",
+          "file_url": "https://drive.google.com/file/d/162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:22.809Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 02.07.26.pdf",
+          "file_id": "1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6",
+          "file_url": "https://drive.google.com/file/d/1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:16.557Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
+          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
+          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:40.017Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL Ready to Move 09.06.26.pdf",
+          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
+          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:38.068Z",
+          "price_date": "09.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "WCL - Solaris Two 27.06.26.pdf",
+          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
+          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:42.040Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
+          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
+          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:37.880Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 09.06.26.pdf",
+          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
+          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:41.309Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 09.06.26.pdf",
+          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
+          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:34.629Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 22.05.26.pdf",
+          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
+          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:51.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Ready to Move 22.05.26.pdf",
+          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
+          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:49.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 22.05.26.pdf",
+          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
+          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
+          "modified_at": "2026-05-23T01:30:00.000Z",
+          "price_date": "22.05.26"
+        }
+      ],
+      "notes": []
+    },
+    "OX10 - Winterbrook Meadows": {
+      "project": "OX10 - Winterbrook Meadows",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / OX10 - Winterbrook Meadows",
+      "folder_id": "18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
+      "folder_url": "https://drive.google.com/drive/folders/18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
+      "price_folder_id": "1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
+      "price_folder_url": "https://drive.google.com/drive/folders/1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
+      "old_price_folder_id": "1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
+      "latest_files": [
+        {
+          "file": "Winterbrook Meadows New Price List 020726.pdf",
+          "file_id": "1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS",
+          "file_url": "https://drive.google.com/file/d/1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:34.186Z",
+          "price_date": "List 0207"
+        },
+        {
+          "file": "WBM - Summerleigh Inserts - The Dickinson.pdf",
+          "file_id": "1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh",
+          "file_url": "https://drive.google.com/file/d/1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:27:43.135Z",
+          "price_date": ""
+        },
+        {
+          "file": "Winterbrook Meadows  Updated price list 14.06. 2026.pdf",
+          "file_id": "1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC",
+          "file_url": "https://drive.google.com/file/d/1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:27:13.746Z",
+          "price_date": ""
+        },
+        {
+          "file": "Winterbrook Meadows Price List 030626.pdf",
+          "file_id": "1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng",
+          "file_url": "https://drive.google.com/file/d/1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:05:08.121Z",
+          "price_date": "List 0306"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "2026-05-28_Winterbrook Meadows Price List 210526.pdf",
+          "file_id": "1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV",
+          "file_url": "https://drive.google.com/file/d/1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:24.011Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
-    "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
-    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-    "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7"
+    "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+    "1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
+    "1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
+    "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+    "1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
+    "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
+    "1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
+    "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+    "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+    "1huj_phV8Nv7q_9e1jCQFFyntQsb2fvL5",
+    "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
+    "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+    "1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
+    "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
+    "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+    "13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
+    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+    "18uQBal-xFj9C2UpQkZ54KSD6myW_13S1"
   ],
   "targeted_projects": [
-    "Bankside Gardens",
-    "Eden Grove",
-    "SE11 - Oval Village",
-    "W2 - Trillium"
+    "E3 - Bow Green",
+    "NW1 - Camden Goods Yard",
+    "RM9 - Eastbrook Village",
+    "Foal Hurst Green",
+    "W6 - Fulham Reach",
+    "B4 - Glasswater Locks",
+    "HA0 - Grand Union",
+    "Hareshill",
+    "Hartland Village",
+    "SG13 - Hertford Locks",
+    "Highcroft",
+    "Leighwood Fields",
+    "E1 - London Dock",
+    "Oakhill",
+    "E2 - Regent's View",
+    "SM1 - Sutton Garden Square",
+    "UB1 - The Green Quarter",
+    "SW18 - Wandsworth Mills",
+    "W12 - White City Living",
+    "OX10 - Winterbrook Meadows"
   ]
 }
