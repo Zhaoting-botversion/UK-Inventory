@@ -1258,6 +1258,9 @@ def render_dashboard(data: dict) -> bytes:
     priority_projects = (core_recent or sorted(core_projects, key=lambda row: row["last_updated_at"] or "", reverse=True))[:6]
 
     def project_link(name: str) -> str:
+        base_name = base_unit_project_name(name)
+        if base_name in project_by_name:
+            return f'<a href="/project/{quote(base_name)}">{e(name)}</a>'
         if name in project_by_name:
             return f'<a href="/project/{quote(name)}">{e(name)}</a>'
         return e(name)
@@ -1628,11 +1631,41 @@ def drive_link(project: dict) -> str:
     return '<span class="muted">缺失</span>'
 
 
+def base_unit_project_name(name: str) -> str:
+    return (name or "").split(" · ", 1)[0].strip()
+
+
+def is_displayable_unit_event(row: dict) -> bool:
+    unit = (row.get("unit") or "").strip()
+    if not unit or not re.search(r"\d", unit):
+        return False
+    if unit.lower() in {"plot", "plot no.", "plot no", "unit area", "unit area sqft"}:
+        return False
+    return True
+
+
 def load_unit_events(limit: int = 200) -> list[dict]:
     if not UNIT_DB_PATH.exists():
         return []
     try:
-        return recent_events(limit)
+        rows = [row for row in recent_events(limit * 3) if is_displayable_unit_event(row)]
+        deduped = []
+        seen = set()
+        for row in rows:
+            key = (
+                row.get("project_name"),
+                row.get("unit"),
+                row.get("change_type"),
+                row.get("old_price"),
+                row.get("new_price"),
+                row.get("old_status"),
+                row.get("new_status"),
+            )
+            if key in seen:
+                continue
+            seen.add(key)
+            deduped.append(row)
+        return deduped[:limit]
     except Exception:
         return []
 
@@ -1719,6 +1752,13 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
     selected_project = query.get("project", [""])[0]
     if selected_project:
         events = [row for row in events if row.get("project_name") == selected_project]
+    project_by_name = {row["name"]: row for row in data["projects"]}
+
+    def unit_project_link(name: str) -> str:
+        base_name = base_unit_project_name(name)
+        if base_name in project_by_name:
+            return f'<a href="/project/{quote(base_name)}">{e(name)}</a>'
+        return e(name)
 
     projects = sorted({row.get("project_name", "") for row in events if row.get("project_name")})
     project_options = '<option value="">全部项目</option>' + "".join(
@@ -1732,7 +1772,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         project_counts[row.get("project_name", "")] += 1
     top_project_rows = "".join(
         f"""<tr>
-          <td><a href="/project/{quote(project)}">{e(project)}</a></td>
+          <td>{unit_project_link(project)}</td>
           <td>{count}</td>
         </tr>"""
         for project, count in sorted(project_counts.items(), key=lambda item: item[1], reverse=True)[:10]
@@ -1740,7 +1780,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
     event_rows = "".join(
         f"""<tr>
           <td>{fmt_time(row.get('created_at', ''))}</td>
-          <td><a href="/project/{quote(row.get('project_name', ''))}">{e(row.get('project_name', ''))}</a></td>
+          <td>{unit_project_link(row.get('project_name', ''))}</td>
           <td>{e(row.get('unit', ''))}</td>
           <td>{change_tag(row.get('change_type', ''))}</td>
           <td>{money_value(row.get('old_price'))}</td>
@@ -1803,7 +1843,10 @@ def render_project(data: dict, name: str) -> bytes:
         f"""<tr><td>{e(row['file'])}</td><td>{e(display_label(row['old_folder']))}</td><td>{fmt_time(row['run_time'])}</td><td class="muted">{e(display_label(row['log']))}</td></tr>"""
         for row in archived
     ) or '<tr><td colspan="4" class="muted">暂无历史价单归档记录。</td></tr>'
-    unit_events = [row for row in load_unit_events(500) if row.get("project_name") == name][:20]
+    unit_events = [
+        row for row in load_unit_events(500)
+        if base_unit_project_name(row.get("project_name", "")) == name
+    ][:20]
     unit_event_rows = "".join(
         f"""<tr>
           <td>{fmt_time(row.get('created_at', ''))}</td>
