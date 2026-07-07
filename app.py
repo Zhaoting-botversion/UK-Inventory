@@ -1282,8 +1282,10 @@ def render_dashboard(data: dict) -> bytes:
             return f'<a href="/project/{quote(name)}">{e(name)}</a>'
         return e(name)
 
+    unit_file_lookup = build_unit_file_lookup(data)
+    source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(500)
-    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=4)
+    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=4, source_link_func=source_link)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1621,7 +1623,42 @@ def drive_link(project: dict) -> str:
 
 
 def base_unit_project_name(name: str) -> str:
-    return (name or "").split(" · ", 1)[0].strip()
+    return re.split(r"\s+[·路]\s+", name or "", maxsplit=1)[0].strip()
+
+
+def build_unit_file_lookup(data: dict) -> dict[tuple[str, str], str]:
+    lookup: dict[tuple[str, str], str] = {}
+    by_file: dict[str, str] = {}
+    drive_projects = data.get("drive_state", {}).get("projects", {})
+    for record in drive_projects.values():
+        project = record.get("project", "")
+        for item in [*record.get("latest_files", []), *record.get("old_files", [])]:
+            filename = item.get("file", "")
+            url = item.get("file_url", "")
+            if filename and url:
+                lookup[(project, filename)] = url
+                by_file.setdefault(filename, url)
+    for project in data.get("projects", []):
+        project_name = project.get("name", "")
+        for item in [*project.get("files", []), *project.get("archived", [])]:
+            filename = item.get("file", "")
+            url = item.get("file_url", "")
+            if filename and url:
+                lookup[(project_name, filename)] = url
+                by_file.setdefault(filename, url)
+    lookup.update({("", filename): url for filename, url in by_file.items()})
+    return lookup
+
+
+def unit_source_link(row: dict, file_lookup: dict[tuple[str, str], str]) -> str:
+    filename = row.get("new_file", "") or row.get("old_file", "")
+    if not filename:
+        return '<span class="muted">来源缺失</span>'
+    project = base_unit_project_name(row.get("project_name", ""))
+    url = file_lookup.get((project, filename)) or file_lookup.get(("", filename))
+    if url:
+        return f'<a href="{e(url)}" target="_blank" rel="noreferrer">来源价单</a>'
+    return f'<span class="muted">{e(filename)}</span>'
 
 
 def is_displayable_unit_event(row: dict) -> bool:
@@ -1793,18 +1830,19 @@ def unit_note_text(row: dict) -> str:
     return " · ".join(bits)
 
 
-def render_unit_rows(rows: list[dict]) -> str:
+def render_unit_rows(rows: list[dict], source_link_func=None) -> str:
+    source_link_func = source_link_func or (lambda row: "")
     return "".join(
         f"""<li>
           <div><span class="unit-name">{e(row.get('unit', ''))}</span><div class="unit-note">{bedroom_text(row.get('bedroom'))}</div></div>
           <div class="unit-price">{unit_price_text(row)}</div>
-          <div class="unit-note">{e(unit_note_text(row))}<br>{fmt_time(row.get('created_at', ''))}</div>
+          <div class="unit-note">{e(unit_note_text(row))}<br>{fmt_time(row.get('created_at', ''))}<br>{source_link_func(row)}</div>
         </li>"""
         for row in rows
     )
 
 
-def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None) -> str:
+def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None, source_link_func=None) -> str:
     focus_events = [row for row in events if unit_focus_category(row)]
     grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for row in focus_events:
@@ -1821,7 +1859,7 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
         cards = []
         for project in projects:
             rows = grouped[project][category]
-            items = render_unit_rows(rows[:8])
+            items = render_unit_rows(rows[:8], source_link_func)
             extra = f'<div class="unit-note">另有 {len(rows) - 8} 套未展开</div>' if len(rows) > 8 else ""
             cards.append(
                 f"""<article class="unit-project-card">
@@ -1877,6 +1915,8 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
             return f'<a href="/project/{quote(base_name)}">{e(name)}</a>'
         return e(name)
 
+    unit_file_lookup = build_unit_file_lookup(data)
+    source_link = lambda row: unit_source_link(row, unit_file_lookup)
     projects = sorted({row.get("project_name", "") for row in events if row.get("project_name")})
     project_options = '<option value="">全部项目</option>' + "".join(
         f'<option value="{e(project)}" {"selected" if project == selected_project else ""}>{e(project)}</option>'
@@ -1905,11 +1945,11 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
           <td>{money_delta(row.get('price_change'))}</td>
           <td>{e(row.get('old_status', ''))}</td>
           <td>{e(row.get('new_status', ''))}</td>
-          <td class="muted">{e(row.get('new_file', ''))}</td>
+          <td>{source_link(row)}</td>
         </tr>"""
         for row in events
     ) or '<tr><td colspan="10" class="muted">暂无房源变化数据。可以先运行 unit_change_engine.py seed-postmark-test 做测试，或导入新旧价单。</td></tr>'
-    focus_cards = render_unit_focus_columns(events, unit_project_link)
+    focus_cards = render_unit_focus_columns(events, unit_project_link, source_link_func=source_link)
     content = f"""
       <h1>房源变化</h1>
       <div class="grid">
@@ -1974,7 +2014,9 @@ def render_project(data: dict, name: str) -> bytes:
         row for row in load_unit_events(500)
         if base_unit_project_name(row.get("project_name", "")) == name
     ][:20]
-    unit_focus_cards = render_unit_focus_columns(unit_events, lambda project_name: e(project_name))
+    unit_file_lookup = build_unit_file_lookup(data)
+    source_link = lambda row: unit_source_link(row, unit_file_lookup)
+    unit_focus_cards = render_unit_focus_columns(unit_events, lambda project_name: e(project_name), source_link_func=source_link)
     unit_event_rows = "".join(
         f"""<tr>
           <td>{fmt_time(row.get('created_at', ''))}</td>
@@ -1985,9 +2027,10 @@ def render_project(data: dict, name: str) -> bytes:
           <td>{money_delta(row.get('price_change'))}</td>
           <td>{e(row.get('old_status', ''))}</td>
           <td>{e(row.get('new_status', ''))}</td>
+          <td>{source_link(row)}</td>
         </tr>"""
         for row in unit_events
-    ) or '<tr><td colspan="8" class="muted">暂无房源级变化记录。</td></tr>'
+    ) or '<tr><td colspan="9" class="muted">暂无房源级变化记录。</td></tr>'
     content = f"""
       <h1>{e(project['name'])}</h1>
       <div class="grid">
@@ -2007,7 +2050,7 @@ def render_project(data: dict, name: str) -> bytes:
       <table><thead><tr><th>文件</th><th>识别到的价单日期</th><th>上传时间</th><th>日志</th></tr></thead><tbody>{file_rows}</tbody></table>
       <h2>房源变化</h2>
       {unit_focus_cards}
-      <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
+      <table><thead><tr><th>时间</th><th>房号</th><th>变化类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th><th>来源</th></tr></thead><tbody>{unit_event_rows}</tbody></table>
       <h2>历史价单归档</h2>
       <table><thead><tr><th>文件</th><th>归档文件夹</th><th>归档时间</th><th>日志</th></tr></thead><tbody>{archived_rows}</tbody></table>
     """
