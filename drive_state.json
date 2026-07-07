@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-06T18:33:46",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-07-07T09:43:19",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -3102,130 +3102,6 @@
       ],
       "notes": []
     },
-    "SE11 - Oval Village": {
-      "project": "SE11 - Oval Village",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / SE11 - Oval Village",
-      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "latest_files": [
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
-          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
-          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:08.007Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
-          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
-          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:05:54.561Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
-          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
-          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:48.506Z",
-          "price_date": "28.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
-          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
-          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:55.898Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
-          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
-          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:33.624Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
-          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
-          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:01.836Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
-          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
-          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:58.363Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
-          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
-          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:59.249Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
-          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
-          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:55.139Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
-          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
-          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:44.628Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
-          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
-          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:42.673Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
-          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
-          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:41.112Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
-          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
-          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:20.694Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
-          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
-          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:19.150Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
-          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
-          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
-          "modified_at": "2026-05-06T12:44:30.000Z",
-          "price_date": "06.05.2026"
-        }
-      ],
-      "notes": []
-    },
     "SE18 - Royal Arsenal Riverside": {
       "project": "SE18 - Royal Arsenal Riverside",
       "city": "London",
@@ -5016,60 +4892,6 @@
           "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
           "modified_at": "2026-05-23T01:30:00.000Z",
           "price_date": "22.05.26"
-        }
-      ],
-      "notes": []
-    },
-    "W2 - Trillium": {
-      "project": "W2 - Trillium",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / W2 - Trillium",
-      "folder_id": "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
-      "folder_url": "https://drive.google.com/drive/folders/1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
-      "price_folder_id": "11fZrlblW_9YCAOSDEWWa9m5iDnw6MIr4",
-      "price_folder_url": "https://drive.google.com/drive/folders/11fZrlblW_9YCAOSDEWWa9m5iDnw6MIr4",
-      "old_price_folder_id": "1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
-      "latest_files": [
-        {
-          "file": "Trillium Price List 05.07.26.pdf",
-          "file_id": "1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895",
-          "file_url": "https://drive.google.com/file/d/1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:07:20.200Z",
-          "price_date": "05.07.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Trillium Price List 28.06.26.pdf",
-          "file_id": "1jMNn0NhVCtkNxpc4WYqz6RpUe1v7QpeX",
-          "file_url": "https://drive.google.com/file/d/1jMNn0NhVCtkNxpc4WYqz6RpUe1v7QpeX/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:22.107Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "Trillium Price List 14.06.26.pdf",
-          "file_id": "1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G",
-          "file_url": "https://drive.google.com/file/d/1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:56.630Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "Trillium Price List 07.06.26.pdf",
-          "file_id": "10gk7An2_eFfahDbqKzf01zgkuh6NSgry",
-          "file_url": "https://drive.google.com/file/d/10gk7An2_eFfahDbqKzf01zgkuh6NSgry/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:27:07.132Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_Trillium Price List 17.05.26.pdf",
-          "file_id": "1Y3DcDlQesSkowrEdPm4I1BA7sy9iwjrf",
-          "file_url": "https://drive.google.com/file/d/1Y3DcDlQesSkowrEdPm4I1BA7sy9iwjrf/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:55.435Z",
-          "price_date": "26-05-28"
         }
       ],
       "notes": []
@@ -7166,7 +6988,277 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "Bankside Gardens": {
+      "project": "Bankside Gardens",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Bankside Gardens",
+      "folder_id": "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
+      "folder_url": "https://drive.google.com/drive/folders/1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
+      "price_folder_id": "1vVIUfDu4Iyv5PpVFscc34FuO4ZaXLCn6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1vVIUfDu4Iyv5PpVFscc34FuO4ZaXLCn6",
+      "old_price_folder_id": "19mmeCqFHqe2hcpxDNNa76a6ej_HKtfha",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/19mmeCqFHqe2hcpxDNNa76a6ej_HKtfha",
+      "latest_files": [
+        {
+          "file": "Bankside Gardens - Customer Pricelist 13.07.2026.pdf",
+          "file_id": "11pWl2DjKuqj9E8M1XkJvTkx0k9TUuN9w",
+          "file_url": "https://drive.google.com/file/d/11pWl2DjKuqj9E8M1XkJvTkx0k9TUuN9w/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:40:00.444Z",
+          "price_date": "13.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bankside Gardens - Customer Pricelist 05.07.2026.pdf",
+          "file_id": "1GD3hcpYADxe2SlGvSd2jPambU1brEV7C",
+          "file_url": "https://drive.google.com/file/d/1GD3hcpYADxe2SlGvSd2jPambU1brEV7C/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:33.884Z",
+          "price_date": "05.07.2026"
+        }
+      ],
+      "notes": []
+    },
+    "Eden Grove": {
+      "project": "Eden Grove",
+      "city": "未分类",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Eden Grove",
+      "folder_id": "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
+      "folder_url": "https://drive.google.com/drive/folders/1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
+      "price_folder_id": "1B03UHD3XKvis-AA-wJPGKISDCpio5XA_",
+      "price_folder_url": "https://drive.google.com/drive/folders/1B03UHD3XKvis-AA-wJPGKISDCpio5XA_",
+      "old_price_folder_id": "1Rj1tOnmXwFB2lQH6edhGq_uQwsqPmH1M",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Rj1tOnmXwFB2lQH6edhGq_uQwsqPmH1M",
+      "latest_files": [
+        {
+          "file": "Eden Grove - 12.07.26  - Customer Price List.pdf",
+          "file_id": "18YPl3rdBikwLkUA4pKw6SKsURhA0LGSe",
+          "file_url": "https://drive.google.com/file/d/18YPl3rdBikwLkUA4pKw6SKsURhA0LGSe/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:40:13.344Z",
+          "price_date": "12.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Eden Grove - 05.07.26  - Customer Price List.pdf",
+          "file_id": "1jKxSpSZPu_52RCMJVx4SuyU7sceDnYH0",
+          "file_url": "https://drive.google.com/file/d/1jKxSpSZPu_52RCMJVx4SuyU7sceDnYH0/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:55.868Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "notes": []
+    },
+    "SE11 - Oval Village": {
+      "project": "SE11 - Oval Village",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / SE11 - Oval Village",
+      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "latest_files": [
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026 updated.pdf",
+          "file_id": "1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV",
+          "file_url": "https://drive.google.com/file/d/1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:40:27.605Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
+          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
+          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:08.007Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
+          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
+          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:05:54.561Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
+          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
+          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:48.506Z",
+          "price_date": "28.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
+          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
+          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:55.898Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
+          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
+          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:33.624Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
+          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
+          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:01.836Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
+          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
+          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:58.363Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
+          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
+          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:59.249Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
+          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
+          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:55.139Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
+          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
+          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:44.628Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
+          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
+          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:42.673Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
+          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
+          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:41.112Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
+          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
+          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:20.694Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
+          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
+          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:19.150Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
+          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
+          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
+          "modified_at": "2026-05-06T12:44:30.000Z",
+          "price_date": "06.05.2026"
+        }
+      ],
+      "notes": []
+    },
+    "W2 - Trillium": {
+      "project": "W2 - Trillium",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / W2 - Trillium",
+      "folder_id": "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
+      "folder_url": "https://drive.google.com/drive/folders/1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
+      "price_folder_id": "11fZrlblW_9YCAOSDEWWa9m5iDnw6MIr4",
+      "price_folder_url": "https://drive.google.com/drive/folders/11fZrlblW_9YCAOSDEWWa9m5iDnw6MIr4",
+      "old_price_folder_id": "1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
+      "latest_files": [
+        {
+          "file": "Trillium Price List 01.07.26.pdf",
+          "file_id": "1dVsNg71UQSZBSRxmLtgSWzzGSsji7UuF",
+          "file_url": "https://drive.google.com/file/d/1dVsNg71UQSZBSRxmLtgSWzzGSsji7UuF/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:41:06.830Z",
+          "price_date": "01.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Trillium Price List 05.07.26.pdf",
+          "file_id": "1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895",
+          "file_url": "https://drive.google.com/file/d/1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:07:20.200Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "Trillium Price List 28.06.26.pdf",
+          "file_id": "1jMNn0NhVCtkNxpc4WYqz6RpUe1v7QpeX",
+          "file_url": "https://drive.google.com/file/d/1jMNn0NhVCtkNxpc4WYqz6RpUe1v7QpeX/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:22.107Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "Trillium Price List 14.06.26.pdf",
+          "file_id": "1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G",
+          "file_url": "https://drive.google.com/file/d/1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:56.630Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "Trillium Price List 07.06.26.pdf",
+          "file_id": "10gk7An2_eFfahDbqKzf01zgkuh6NSgry",
+          "file_url": "https://drive.google.com/file/d/10gk7An2_eFfahDbqKzf01zgkuh6NSgry/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:27:07.132Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_Trillium Price List 17.05.26.pdf",
+          "file_id": "1Y3DcDlQesSkowrEdPm4I1BA7sy9iwjrf",
+          "file_url": "https://drive.google.com/file/d/1Y3DcDlQesSkowrEdPm4I1BA7sy9iwjrf/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:55.435Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
-  "errors": []
+  "errors": [],
+  "targeted_project_ids": [
+    "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
+    "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
+    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+    "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7"
+  ],
+  "targeted_projects": [
+    "Bankside Gardens",
+    "Eden Grove",
+    "SE11 - Oval Village",
+    "W2 - Trillium"
+  ]
 }
