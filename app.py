@@ -1439,7 +1439,7 @@ def render_dashboard(data: dict) -> bytes:
       <div class="grid">
         <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div>{tracked_city_badges}</div>
         <div class="metric wide"><div class="label">有更新项目</div><div class="value">{len(updated_project_rows)}</div>{updated_city_badges}</div>
-        <div class="metric"><div class="label">房源变化事件</div><div class="value">{len(all_unit_events)}</div></div>
+        <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(all_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
