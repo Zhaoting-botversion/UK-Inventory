@@ -577,6 +577,20 @@ def infer_city(project: str) -> str:
     return "London"
 
 
+def infer_city_from_drive_path(path: str) -> str:
+    parts = [part.strip() for part in (path or "").split("/") if part.strip()]
+    for index, part in enumerate(parts):
+        if part.startswith("London"):
+            return "London"
+        if part.startswith("Manchester"):
+            return "Manchester"
+        if part.startswith("Birmingham"):
+            return "Birmingham"
+        if part.startswith("Others") and index + 1 < len(parts):
+            return parts[index + 1].split()[0]
+    return ""
+
+
 def infer_developer(project: str) -> str:
     if project in DEVELOPER_OVERRIDES:
         return DEVELOPER_OVERRIDES[project]
@@ -765,6 +779,9 @@ def build_data() -> dict:
         state_city = state.get("city", "")
         if state_city in {"未分类", "Unclassified", "Unknown", "未记录"}:
             state_city = ""
+        path_city = infer_city_from_drive_path(state.get("path", ""))
+        if path_city:
+            state_city = path_city
         project["data_source"] = "Drive"
         project["city"] = state_city or project.get("city") or infer_city(project_name)
         project["developer"] = state.get("developer") or project.get("developer") or infer_developer(project_name)
@@ -919,6 +936,7 @@ DISPLAY_LABELS = {
     "Birmingham": "伯明翰",
     "Reading": "雷丁",
     "Berkshire": "伯克郡",
+    "Buckinghamshire": "白金汉郡",
     "Reading / Berkshire": "雷丁 / 伯克郡",
     "Berkshire / Slough": "伯克郡 / 斯劳",
     "Hampshire": "汉普郡",
