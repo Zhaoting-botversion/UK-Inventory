@@ -1045,6 +1045,35 @@ def group_rank(name: str) -> tuple[int, str]:
     return (len(MARKET_ORDER), name)
 
 
+POSTCODE_PRIORITY = [
+    "W1",
+    "SW1",
+    "W2",
+    "W8",
+    "SW3",
+    "SW7",
+    "WC1",
+    "WC2",
+    "EC1",
+    "EC2",
+    "EC3",
+    "EC4",
+    "SE1",
+    "E1",
+    "E14",
+    "E16",
+    "N1",
+    "NW1",
+]
+
+
+def postcode_rank(name: str) -> int:
+    district = postcode_district(postcode_prefix(name))
+    if district in POSTCODE_PRIORITY:
+        return POSTCODE_PRIORITY.index(district)
+    return len(POSTCODE_PRIORITY)
+
+
 def followup_signal(project: dict) -> dict:
     score = 0
     reasons = []
@@ -1203,6 +1232,10 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .unit-focus-column.drop h3 {{ color: #b91c1c; }}
     .unit-focus-column.new h3 {{ color: #059669; }}
     .unit-focus-column.sold h3 {{ color: #6b7280; }}
+    .unit-city-group {{ margin-top: 14px; }}
+    .unit-city-group:first-of-type {{ margin-top: 0; }}
+    .unit-city-title {{ display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; color: #344054; font-size: 13px; font-weight: 700; }}
+    .unit-city-title span {{ border: 1px solid var(--line); border-radius: 999px; padding: 3px 8px; background: #f8fafc; color: #475569; font-weight: 600; font-size: 12px; }}
     .unit-project-card {{ background: #fff; border: 1px solid #3f70d8; border-radius: 8px; padding: 12px; margin-top: 12px; }}
     .unit-project-card:first-of-type {{ margin-top: 0; }}
     .unit-project-card h3 {{ margin: 0; font-size: 17px; }}
@@ -1334,7 +1367,7 @@ def render_dashboard(data: dict) -> bytes:
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(500)
-    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=4, source_link_func=source_link)
+    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=6, source_link_func=source_link, project_lookup=project_by_name)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1891,7 +1924,29 @@ def render_unit_rows(rows: list[dict], source_link_func=None) -> str:
     )
 
 
-def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None, source_link_func=None) -> str:
+def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None, source_link_func=None, project_lookup: dict[str, dict] | None = None) -> str:
+    project_lookup = project_lookup or {}
+
+    def project_context(project: str) -> dict:
+        base_name = base_unit_project_name(project)
+        return project_lookup.get(base_name) or project_lookup.get(project) or {
+            "name": base_name or project,
+            "city": infer_city(base_name or project),
+        }
+
+    def project_sort_key(project: str, rows: list[dict]) -> tuple:
+        context = project_context(project)
+        latest = max((row.get("created_at", "") for row in rows), default="")
+        latest_dt = parse_dt(latest)
+        latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
+        return (
+            group_rank(market_group(context)),
+            postcode_rank(context.get("name", project)),
+            -len(rows),
+            latest_sort,
+            project,
+        )
+
     focus_events = [row for row in events if unit_focus_category(row)]
     grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for row in focus_events:
@@ -1902,23 +1957,39 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
             project for project, by_category in grouped.items()
             if by_category.get(category)
         ]
-        projects = sorted(projects, key=lambda project: (-len(grouped[project][category]), project))
+        projects = sorted(projects, key=lambda project: project_sort_key(project, grouped[project][category]))
         if limit_projects:
             projects = projects[:limit_projects]
-        cards = []
+        projects_by_group: dict[str, list[str]] = defaultdict(list)
         for project in projects:
-            rows = grouped[project][category]
-            items = render_unit_rows(rows[:8], source_link_func)
-            extra = f'<div class="unit-note">另有 {len(rows) - 8} 套未展开</div>' if len(rows) > 8 else ""
-            cards.append(
-                f"""<article class="unit-project-card">
-                  <h3>{project_link_func(project)}</h3>
-                  <div class="small-meta">{len(rows)} 套</div>
-                  <ul class="unit-list">{items}</ul>
-                  {extra}
-                </article>"""
+            projects_by_group[market_group(project_context(project))].append(project)
+        group_blocks = []
+        for group_name in sorted(projects_by_group, key=group_rank):
+            cards = []
+            group_projects = sorted(
+                projects_by_group[group_name],
+                key=lambda project: project_sort_key(project, grouped[project][category]),
             )
-        body = "".join(cards) or '<div class="empty">暂无</div>'
+            for project in group_projects:
+                rows = grouped[project][category]
+                rows = sorted(rows, key=lambda row: row.get("created_at", ""), reverse=True)
+                items = render_unit_rows(rows[:8], source_link_func)
+                extra = f'<div class="unit-note">另有 {len(rows) - 8} 套未展开</div>' if len(rows) > 8 else ""
+                cards.append(
+                    f"""<article class="unit-project-card">
+                      <h3>{project_link_func(project)}</h3>
+                      <div class="small-meta">{len(rows)} 套</div>
+                      <ul class="unit-list">{items}</ul>
+                      {extra}
+                    </article>"""
+                )
+            group_blocks.append(
+                f"""<section class="unit-city-group">
+                  <div class="unit-city-title">{e(display_label(group_name))}<span>{sum(len(grouped[project][category]) for project in group_projects)} 套</span></div>
+                  {''.join(cards)}
+                </section>"""
+            )
+        body = "".join(group_blocks) or '<div class="empty">暂无</div>'
         columns.append(
             f"""<section class="unit-focus-column {category}">
               <h3>{unit_focus_title(category)}</h3>
@@ -1952,6 +2023,7 @@ def render_updates(data: dict) -> bytes:
 def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -> bytes:
     events = load_unit_events(500)
     versions = load_unit_version_summary()
+    project_by_name = {row["name"]: row for row in data["projects"]}
     query = query or {}
     selected_project = query.get("project", [""])[0]
     if selected_project:
@@ -1998,7 +2070,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         </tr>"""
         for row in events
     ) or '<tr><td colspan="10" class="muted">暂无房源变化数据。可以先运行 unit_change_engine.py seed-postmark-test 做测试，或导入新旧价单。</td></tr>'
-    focus_cards = render_unit_focus_columns(events, unit_project_link, source_link_func=source_link)
+    focus_cards = render_unit_focus_columns(events, unit_project_link, source_link_func=source_link, project_lookup=project_by_name)
     content = f"""
       <h1>房源变化</h1>
       <div class="grid">
@@ -2065,7 +2137,7 @@ def render_project(data: dict, name: str) -> bytes:
     ][:20]
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
-    unit_focus_cards = render_unit_focus_columns(unit_events, lambda project_name: e(project_name), source_link_func=source_link)
+    unit_focus_cards = render_unit_focus_columns(unit_events, lambda project_name: e(project_name), source_link_func=source_link, project_lookup={name: project})
     unit_event_rows = "".join(
         f"""<tr>
           <td>{fmt_time(row.get('created_at', ''))}</td>
