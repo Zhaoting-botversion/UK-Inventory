@@ -38,11 +38,12 @@ CITY_HINTS = {
     "Birmingham": ["Glasswater Locks"],
     "Berkshire / Slough": ["Horlicks Quarter"],
     "Buckinghamshire": ["Abbey Barn Park", "Highcroft"],
-    "Hampshire": ["Hartland Village"],
+    "Hampshire": ["Hartland Village", "Hareshill"],
     "Hertfordshire": ["Hertford Locks"],
     "Kent": ["Foal Hurst Green", "Oakhill"],
     "Oxfordshire": ["Leighwood Fields", "Winterbrook Meadows"],
     "Reading": ["Reading Riverworks", "Bankside Gardens"],
+    "Surrey": ["Eden Grove"],
     "Watford": ["The Exchange Watford"],
     "Maidenhead": ["Spring Hill"],
 }
@@ -571,7 +572,7 @@ def price_date_from_name(name: str) -> str:
 
 def infer_city(project: str) -> str:
     for city, names in CITY_HINTS.items():
-        if project in names:
+        if any(project == name or name.lower() in project.lower() for name in names):
             return city
     return "London"
 
@@ -761,8 +762,11 @@ def build_data() -> dict:
         project = projects[project_name]
         latest_files = state.get("latest_files", [])
         old_files = state.get("old_files", [])
+        state_city = state.get("city", "")
+        if state_city in {"未分类", "Unclassified", "Unknown", "未记录"}:
+            state_city = ""
         project["data_source"] = "Drive"
-        project["city"] = state.get("city") or project.get("city") or infer_city(project_name)
+        project["city"] = state_city or project.get("city") or infer_city(project_name)
         project["developer"] = state.get("developer") or project.get("developer") or infer_developer(project_name)
         cooperation = infer_cooperation(project_name)
         project["cooperation_level"] = state.get("cooperation_level") or project.get("cooperation_level") or cooperation["cooperation_level"]
@@ -917,6 +921,11 @@ DISPLAY_LABELS = {
     "Berkshire": "伯克郡",
     "Reading / Berkshire": "雷丁 / 伯克郡",
     "Berkshire / Slough": "伯克郡 / 斯劳",
+    "Hampshire": "汉普郡",
+    "Hertfordshire": "赫特福德郡",
+    "Kent": "肯特郡",
+    "Oxfordshire": "牛津郡",
+    "Surrey": "萨里郡",
     "Others": "其他英国区域",
     "London": "伦敦",
     "Prime Central London": "Prime Central London 核心伦敦",
