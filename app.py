@@ -6,7 +6,7 @@ import html
 import json
 import os
 import re
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -942,6 +942,22 @@ def display_label(value: str) -> str:
     return DISPLAY_LABELS.get(value, value)
 
 
+def city_breakdown_badges(projects: list[dict], limit: int = 6) -> str:
+    counts = Counter(display_label(row.get("city", "未分类")) for row in projects)
+    if not counts:
+        return '<div class="metric-breakdown muted">暂无城市数据</div>'
+    ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    visible = ranked[:limit]
+    remaining = sum(count for _, count in ranked[limit:])
+    badges = "".join(
+        f'<span>{e(city)} <strong>{count}</strong></span>'
+        for city, count in visible
+    )
+    if remaining:
+        badges += f'<span>其他 <strong>{remaining}</strong></span>'
+    return f'<div class="metric-breakdown">{badges}</div>'
+
+
 def display_path(value: str) -> str:
     text = value or ""
     replacements = {
@@ -1124,8 +1140,12 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     h2 {{ font-size: 18px; margin: 24px 0 10px; }}
     .grid {{ display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }}
     .metric {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; }}
+    .metric.wide {{ grid-column: span 2; }}
     .metric .label {{ color: var(--muted); font-size: 13px; }}
     .metric .value {{ font-size: 28px; font-weight: 700; margin-top: 8px; }}
+    .metric-breakdown {{ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }}
+    .metric-breakdown span {{ border: 1px solid var(--line); border-radius: 999px; padding: 4px 8px; color: #344054; background: #f8fafc; font-size: 12px; white-space: nowrap; }}
+    .metric-breakdown strong {{ color: #111827; }}
     .toolbar {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }}
     input, select {{ border: 1px solid var(--line); border-radius: 6px; padding: 8px 10px; font-size: 14px; min-height: 36px; }}
     input {{ min-width: 260px; flex: 1; }}
@@ -1197,7 +1217,7 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .update-row:first-of-type {{ border-top: 0; padding-top: 0; margin-top: 12px; }}
     .empty {{ background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 24px; color: var(--muted); }}
     @media (max-width: 1100px) {{ .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} .unit-focus-columns {{ grid-template-columns: 1fr; }} }}
-    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} .unit-list li {{ grid-template-columns: 1fr; gap: 3px; }} }}
+    @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} .metric.wide {{ grid-column: auto; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} .unit-list li {{ grid-template-columns: 1fr; gap: 3px; }} }}
   </style>
 </head>
 <body>
@@ -1249,7 +1269,6 @@ def render_dashboard(data: dict) -> bytes:
     projects = data["projects"]
     updates = data["updates"]
     runs = data["runs"]
-    updated_projects = {row["project"] for row in updates if row["type"] == "uploaded"}
     today_updates = [row for row in updates if is_recent(row["run_time"], 1)]
     recent_projects = sorted(
         [row for row in projects if is_recent(row["last_updated_at"], 7)],
@@ -1262,6 +1281,9 @@ def render_dashboard(data: dict) -> bytes:
     followups = followup_projects(projects)
 
     project_by_name = {row["name"]: row for row in projects}
+    updated_project_rows = [project for project in projects if project.get("last_updated_at")]
+    tracked_city_badges = city_breakdown_badges(projects)
+    updated_city_badges = city_breakdown_badges(updated_project_rows)
     projects_by_group: dict[str, list[dict]] = defaultdict(list)
     updates_by_group: dict[str, list[dict]] = defaultdict(list)
     for project in projects:
@@ -1354,8 +1376,8 @@ def render_dashboard(data: dict) -> bytes:
     content = f"""
       <h1>英国销控看板</h1>
       <div class="grid">
-        <div class="metric"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div></div>
-        <div class="metric"><div class="label">有更新项目</div><div class="value">{len(updated_projects)}</div></div>
+        <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div>{tracked_city_badges}</div>
+        <div class="metric wide"><div class="label">有更新项目</div><div class="value">{len(updated_project_rows)}</div>{updated_city_badges}</div>
         <div class="metric"><div class="label">房源变化事件</div><div class="value">{len(all_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
