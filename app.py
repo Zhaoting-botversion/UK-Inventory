@@ -937,6 +937,7 @@ DISPLAY_LABELS = {
     "Reading": "雷丁",
     "Berkshire": "伯克郡",
     "Buckinghamshire": "白金汉郡",
+    "Cambridgeshire": "剑桥郡",
     "Reading / Berkshire": "雷丁 / 伯克郡",
     "Berkshire / Slough": "伯克郡 / 斯劳",
     "Hampshire": "汉普郡",
