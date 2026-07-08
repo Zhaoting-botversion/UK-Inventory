@@ -145,6 +145,40 @@ def append_table(ws, headers: list[str], rows: list[list[object]]) -> None:
         ws.column_dimensions[column].width = min(max(max_len + 2, 10), 42)
 
 
+EVENT_HEADERS = ["楼盘名", "房号", "楼层", "居室", "朝向", "原售价", "原售价生效日期", "现售价", "现售价生效日期", "变化类型", "原状态", "现状态", "价格变化", "入库时间"]
+
+
+def event_row(row: dict) -> list[object]:
+    return [
+        clean_project_name(row["project_name"]),
+        row["unit"],
+        row["floor"],
+        row["bedroom"],
+        row["aspect"],
+        excel_price(row["old_price"]),
+        version_date(row["old_version_label"], row["old_source_file"]),
+        excel_price(row["new_price"]),
+        version_date(row["new_version_label"], row["new_source_file"]),
+        row["change_type"],
+        row["old_status"],
+        row["new_status"],
+        row["price_change"],
+        row["created_at"],
+    ]
+
+
+def event_bucket(row: dict) -> str:
+    change_type = row.get("change_type", "")
+    status_text = f"{row.get('new_status', '')} {row.get('new_price', '')}".lower()
+    if change_type == "PRICE_DROP":
+        return "降价房源"
+    if change_type in {"NEW_RELEASE", "BACK_ON_MARKET"}:
+        return "新增房源"
+    if change_type == "SOLD" or any(token in status_text for token in ["reserved", "under offer", "on hold", "hold", "reservation"]):
+        return "售出房源"
+    return "其他变化"
+
+
 def main() -> int:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     events, current_units, versions = fetch_rows()
@@ -157,27 +191,17 @@ def main() -> int:
     ws.title = "房源变化"
     append_table(
         ws,
-        ["楼盘名", "房号", "楼层", "居室", "朝向", "原售价", "原售价生效日期", "现售价", "现售价生效日期", "变化类型", "原状态", "现状态", "价格变化", "入库时间"],
-        [
-            [
-                clean_project_name(row["project_name"]),
-                row["unit"],
-                row["floor"],
-                row["bedroom"],
-                row["aspect"],
-                excel_price(row["old_price"]),
-                version_date(row["old_version_label"], row["old_source_file"]),
-                excel_price(row["new_price"]),
-                version_date(row["new_version_label"], row["new_source_file"]),
-                row["change_type"],
-                row["old_status"],
-                row["new_status"],
-                row["price_change"],
-                row["created_at"],
-            ]
-            for row in events
-        ],
+        EVENT_HEADERS,
+        [event_row(row) for row in events],
     )
+
+    for sheet_name in ["降价房源", "新增房源", "售出房源", "其他变化"]:
+        sheet = wb.create_sheet(sheet_name)
+        append_table(
+            sheet,
+            EVENT_HEADERS,
+            [event_row(row) for row in events if event_bucket(row) == sheet_name],
+        )
 
     ws2 = wb.create_sheet("当前房源数据库")
     append_table(
