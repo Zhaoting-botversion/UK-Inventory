@@ -113,7 +113,36 @@ def normalize_record_value(field: str, value: object) -> str:
 
 
 def normalize_unit(value: object) -> str:
-    return re.sub(r"[^a-z0-9]+", "", cell_text(value).lower())
+    key = re.sub(r"[^a-z0-9]+", "", cell_text(value).lower())
+    if key.isdigit():
+        return key.lstrip("0") or "0"
+    return key
+
+
+def bedroom_from_section(value: object) -> str:
+    text = cell_text(value).lower()
+    if len(text) > 60:
+        return ""
+    mapping = {
+        "studio": "Studio",
+        "one": "1",
+        "two": "2",
+        "three": "3",
+        "four": "4",
+        "five": "5",
+        "six": "6",
+    }
+    if "bedroom" not in text and "bed" not in text and "studio" not in text:
+        return ""
+    if "studio" in text:
+        return "Studio"
+    digit = re.search(r"\b(\d+)\s*(?:bed|bedroom)", text)
+    if digit:
+        return digit.group(1)
+    for word, number in mapping.items():
+        if re.search(rf"\b{word}\s+bed(?:room)?", text):
+            return number
+    return ""
 
 
 def status_norm(value: object) -> str:
@@ -153,13 +182,22 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
                 continue
             if field not in mapping:
                 mapping[field] = pos
+        current_bedroom = ""
         for data_row in rows[index + 1 :]:
             if not any(cell_text(cell) for cell in data_row):
+                continue
+            first_cell = cell_text(data_row[0]) if data_row else ""
+            non_empty = [cell_text(cell) for cell in data_row if cell_text(cell)]
+            section_bedroom = bedroom_from_section(first_cell)
+            if section_bedroom and len(non_empty) <= 2:
+                current_bedroom = section_bedroom
                 continue
             record = {"source": source}
             for field in OUTPUT_FIELDS:
                 pos = mapping.get(field)
                 record[field] = normalize_record_value(field, data_row[pos]) if pos is not None and pos < len(data_row) else ""
+            if current_bedroom and not record.get("bedroom"):
+                record["bedroom"] = current_bedroom
             unit_key = normalize_unit(record["unit"])
             if unit_key in {"plotno", "unit", "unitno", "apartment", "apartmentnumber", "property"}:
                 continue

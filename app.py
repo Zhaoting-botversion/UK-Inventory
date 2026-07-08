@@ -1366,7 +1366,7 @@ def render_dashboard(data: dict) -> bytes:
 
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
-    all_unit_events = load_unit_events(500)
+    all_unit_events = load_unit_events(2000)
     unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=6, source_link_func=source_link, project_lookup=project_by_name)
 
     priority_cards = "".join(
@@ -1752,7 +1752,7 @@ def is_displayable_unit_event(row: dict) -> bool:
     return True
 
 
-def load_unit_events(limit: int = 200) -> list[dict]:
+def load_unit_events(limit: int = 2000) -> list[dict]:
     if not UNIT_DB_PATH.exists():
         return []
     try:
@@ -2021,7 +2021,7 @@ def render_updates(data: dict) -> bytes:
 
 
 def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -> bytes:
-    events = load_unit_events(500)
+    events = load_unit_events(2000)
     versions = load_unit_version_summary()
     project_by_name = {row["name"]: row for row in data["projects"]}
     query = query or {}
@@ -2132,7 +2132,7 @@ def render_project(data: dict, name: str) -> bytes:
         for row in archived
     ) or '<tr><td colspan="4" class="muted">暂无历史价单归档记录。</td></tr>'
     unit_events = [
-        row for row in load_unit_events(500)
+        row for row in load_unit_events(2000)
         if base_unit_project_name(row.get("project_name", "")) == name
     ][:20]
     unit_file_lookup = build_unit_file_lookup(data)

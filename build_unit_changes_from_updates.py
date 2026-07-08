@@ -139,6 +139,59 @@ def build_pairs(logs: list[dict], state: dict) -> tuple[list[dict], list[dict]]:
     return pairs, unmatched
 
 
+def parse_modified_at(value: str) -> datetime | None:
+    if not value:
+        return None
+    text = value.replace("Z", "+00:00")
+    try:
+        parsed = datetime.fromisoformat(text)
+        return parsed.replace(tzinfo=None) if parsed.tzinfo else parsed
+    except ValueError:
+        return None
+
+
+def build_state_pairs(state: dict, hours: int, existing_keys: set[tuple[str, str, str]]) -> tuple[list[dict], list[dict]]:
+    cutoff = datetime.utcnow() - timedelta(hours=hours)
+    pairs = []
+    unmatched = []
+    for project in state.get("projects", {}).values():
+        project_name = project.get("project", "")
+        for uploaded in project.get("latest_files", []):
+            file_name = uploaded.get("file", "")
+            if not price_file(file_name):
+                continue
+            modified_at = parse_modified_at(uploaded.get("modified_at", ""))
+            if modified_at and modified_at < cutoff:
+                continue
+            key = normalize_phase(file_name)
+            old_candidates = [
+                item for item in project.get("old_files", [])
+                if price_file(item.get("file", ""))
+                and item.get("file", "") != file_name
+                and (item.get("file_id", "") != uploaded.get("file_id", ""))
+                and normalize_phase(item.get("file", "")) == key
+            ]
+            if not old_candidates:
+                unmatched.append({"project": project_name, "file": file_name, "reason": "old version not found in Drive snapshot", "log": "drive_state"})
+                continue
+            old = sorted(old_candidates, key=lambda row: row.get("modified_at", ""), reverse=True)[0]
+            pair_key = (project_name, uploaded.get("file_id") or uploaded.get("file"), old.get("file_id") or old.get("file"))
+            if pair_key in existing_keys:
+                continue
+            existing_keys.add(pair_key)
+            pairs.append({
+                "project": project_name,
+                "log_project": project_name,
+                "phase_key": key,
+                "new_file": file_name,
+                "new_file_id": uploaded.get("file_id", ""),
+                "old_file": old.get("file", ""),
+                "old_file_id": old.get("file_id", ""),
+                "log": "drive_state",
+            })
+    return pairs, unmatched
+
+
 def safe_part(value: str) -> str:
     return re.sub(r"[^A-Za-z0-9._ -]+", "_", value).strip(" ._") or "item"
 
@@ -239,6 +292,13 @@ def main() -> int:
     state = json.loads(DRIVE_STATE_PATH.read_text(encoding="utf-8"))
     logs = read_recent_logs(args.hours)
     pairs, unmatched = build_pairs(logs, state)
+    existing_keys = {
+        (pair.get("project", ""), pair.get("new_file_id") or pair.get("new_file", ""), pair.get("old_file_id") or pair.get("old_file", ""))
+        for pair in pairs
+    }
+    state_pairs, state_unmatched = build_state_pairs(state, args.hours, existing_keys)
+    pairs.extend(state_pairs)
+    unmatched.extend(state_unmatched)
     if args.limit:
         pairs = pairs[: args.limit]
 
