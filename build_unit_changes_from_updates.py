@@ -1,14 +1,18 @@
 from __future__ import annotations
 
 import argparse
-import importlib.util
+import io
 import json
 import re
 import shutil
 import sqlite3
 import sys
+import time
 from datetime import datetime, timedelta
+from importlib.machinery import SourcelessFileLoader
 from pathlib import Path
+
+from googleapiclient.http import MediaIoBaseDownload
 
 from unit_change_engine import DB_PATH, compare_versions, extract_price_records, insert_version, store_events
 
@@ -19,7 +23,7 @@ WORK_PROJECTS_DIR = BASE_DIR.parent
 LOG_DIR = WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "logs"
 DRIVE_STATE_PATH = SCRIPT_DIR / "drive_state.json"
 DOWNLOAD_DIR = Path(r"C:\tmp\UK_Inventory_Unit_Changes")
-UK_UPDATE_SCRIPT = WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "uk_update_pricelists.py"
+UPDATER_PYC_PATH = WORK_PROJECTS_DIR / "迁移资料到Google Drive" / "__pycache__" / "uk_update_pricelists.cpython-312.pyc"
 PRICE_EXTENSIONS = {".pdf", ".xlsx", ".xlsm", ".xls", ".csv"}
 
 
@@ -32,17 +36,26 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def load_uk_update_module():
-    spec = importlib.util.spec_from_file_location("uk_update_pricelists", UK_UPDATE_SCRIPT)
-    if not spec or not spec.loader:
-        raise RuntimeError(f"Cannot load {UK_UPDATE_SCRIPT}")
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
-    return module
-
-
 def norm(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def load_uk_update_module():
+    if not UPDATER_PYC_PATH.exists():
+        raise FileNotFoundError(f"Missing compiled updater: {UPDATER_PYC_PATH}")
+    loader = SourcelessFileLoader("uk_update_pricelists_cached_for_unit_changes", str(UPDATER_PYC_PATH))
+    return loader.load_module()
+
+
+def normalize_phase(file_name: str) -> str:
+    stem = Path(file_name).stem.lower()
+    stem = re.sub(r"\b(?:cn|agent|customer|distribution|daily|weekly|master|full|availability|price|pricelist|price\s*list|list)\b", " ", stem)
+    stem = re.sub(r"\b\d{1,2}[._-]\d{1,2}[._-]\d{2,4}\b", " ", stem)
+    stem = re.sub(r"\b\d{1,2}(?:st|nd|rd|th)?\s+(?:jan|feb|mar|apr|may|jun|june|jul|july|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{2,4}\b", " ", stem)
+    stem = re.sub(r"\b(?:jan|feb|mar|apr|may|jun|june|jul|july|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{2,4}\b", " ", stem)
+    stem = re.sub(r"\b20\d{2}\b", " ", stem)
+    stem = re.sub(r"\b(?:updated|new|latest|june|july|summer|fete)\b", " ", stem)
+    return re.sub(r"[^a-z0-9]+", " ", stem).strip()
 
 
 def display_project_name(name: str) -> str:
@@ -82,7 +95,7 @@ def price_file(name: str) -> bool:
     return Path(name).suffix.lower() in PRICE_EXTENSIONS
 
 
-def build_pairs(logs: list[dict], state: dict, uk_module) -> tuple[list[dict], list[dict]]:
+def build_pairs(logs: list[dict], state: dict) -> tuple[list[dict], list[dict]]:
     projects = state.get("projects", {})
     pairs = []
     unmatched = []
@@ -97,13 +110,13 @@ def build_pairs(logs: list[dict], state: dict, uk_module) -> tuple[list[dict], l
             if not project:
                 unmatched.append({"project": project_name, "file": file_name, "reason": "project not found", "log": log.get("_log_name")})
                 continue
-            key = uk_module.normalize_phase(file_name).replace(" updated", "").strip()
+            key = normalize_phase(file_name)
             old_candidates = [
                 item for item in project.get("old_files", [])
                 if price_file(item.get("file", ""))
                 and item.get("file", "") != file_name
                 and (item.get("file_id", "") != uploaded.get("id", ""))
-                and uk_module.normalize_phase(item.get("file", "")).replace(" updated", "").strip() == key
+                and normalize_phase(item.get("file", "")) == key
             ]
             if not old_candidates:
                 unmatched.append({"project": project_name, "file": file_name, "reason": "old version not found", "log": log.get("_log_name")})
@@ -135,10 +148,30 @@ def clear_database() -> None:
         DB_PATH.unlink()
 
 
-def download_pair(service, pair: dict, uk_module) -> tuple[Path, Path]:
+def download_drive_file_to(service, file_id: str, name: str, folder: Path, retries: int = 4) -> Path:
+    folder.mkdir(parents=True, exist_ok=True)
+    target = folder / name
+    for attempt in range(1, retries + 1):
+        try:
+            request = service.files().get_media(fileId=file_id, supportsAllDrives=True)
+            buffer = io.BytesIO()
+            downloader = MediaIoBaseDownload(buffer, request, chunksize=512 * 1024)
+            done = False
+            while not done:
+                _, done = downloader.next_chunk()
+            target.write_bytes(buffer.getvalue())
+            return target
+        except Exception:
+            if attempt >= retries:
+                raise
+            time.sleep(min(2 * attempt, 8))
+    return target
+
+
+def download_pair(service, pair: dict) -> tuple[Path, Path]:
     target = DOWNLOAD_DIR / safe_part(pair["project"]) / safe_part(pair["phase_key"])
-    old_path = uk_module.download_drive_file_to(service, pair["old_file_id"], pair["old_file"], target / "old")
-    new_path = uk_module.download_drive_file_to(service, pair["new_file_id"], pair["new_file"], target / "new")
+    old_path = download_drive_file_to(service, pair["old_file_id"], pair["old_file"], target / "old")
+    new_path = download_drive_file_to(service, pair["new_file_id"], pair["new_file"], target / "new")
     return old_path, new_path
 
 
@@ -176,6 +209,28 @@ def import_pair(pair: dict, old_path: Path, new_path: Path) -> dict:
     }
 
 
+def project_key_for_pair(pair: dict) -> str:
+    if pair.get("phase_key"):
+        return f"{pair['project']} · {pair['phase_key']}"
+    return pair["project"]
+
+
+def pair_already_imported(pair: dict) -> bool:
+    if not DB_PATH.exists():
+        return False
+    project_key = project_key_for_pair(pair)
+    with sqlite3.connect(DB_PATH) as conn:
+        old_exists = conn.execute(
+            "select 1 from pricelist_versions where project_name=? and source_file=? limit 1",
+            (project_key, pair["old_file"]),
+        ).fetchone()
+        new_exists = conn.execute(
+            "select 1 from pricelist_versions where project_name=? and source_file=? limit 1",
+            (project_key, pair["new_file"]),
+        ).fetchone()
+    return bool(old_exists and new_exists)
+
+
 def main() -> int:
     args = parse_args()
     if not DRIVE_STATE_PATH.exists():
@@ -183,8 +238,7 @@ def main() -> int:
         return 1
     state = json.loads(DRIVE_STATE_PATH.read_text(encoding="utf-8"))
     logs = read_recent_logs(args.hours)
-    uk_module = load_uk_update_module()
-    pairs, unmatched = build_pairs(logs, state, uk_module)
+    pairs, unmatched = build_pairs(logs, state)
     if args.limit:
         pairs = pairs[: args.limit]
 
@@ -201,6 +255,7 @@ def main() -> int:
     if args.dry_run:
         return 0
 
+    uk_module = load_uk_update_module()
     if args.reset_db:
         clear_database()
     if DOWNLOAD_DIR.exists():
@@ -208,11 +263,14 @@ def main() -> int:
     service = uk_module.auth()
     results = []
     for pair in pairs:
+        if not args.reset_db and pair_already_imported(pair):
+            results.append({**pair, "skipped": "already imported"})
+            continue
         if not pair.get("new_file_id") or not pair.get("old_file_id"):
             results.append({**pair, "error": "missing Drive file id"})
             continue
         try:
-            old_path, new_path = download_pair(service, pair, uk_module)
+            old_path, new_path = download_pair(service, pair)
             results.append(import_pair(pair, old_path, new_path))
         except Exception as exc:
             results.append({**pair, "error": str(exc)})
