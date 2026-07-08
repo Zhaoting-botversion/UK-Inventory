@@ -1159,13 +1159,13 @@ def followup_projects(projects: list[dict]) -> list[dict]:
 def layout(title: str, content: str, active: str = "") -> bytes:
     nav = [
         ("/", "首页"),
-        ("/projects", "项目总览"),
+        ("/projects", "价单搜索"),
         ("/unit-changes", "房源变化"),
         ("/updates", "更新记录"),
     ]
     nav_html = "".join(
-        f'<a class="{"active" if active == href else ""}" href="{href}">{label}</a>'
-        for href, label in nav
+        f'<a class="nav-{index} {"active" if active == href else ""}" href="{href}">{label}</a>'
+        for index, (href, label) in enumerate(nav)
     )
     body = f"""<!doctype html>
 <html lang="zh-CN">
@@ -1189,9 +1189,14 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     body {{ margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); }}
     header {{ background: var(--panel); border-bottom: 1px solid var(--line); padding: 14px 28px; display: flex; justify-content: space-between; align-items: center; gap: 20px; position: sticky; top: 0; z-index: 10; }}
     .brand {{ font-size: 18px; font-weight: 700; white-space: nowrap; }}
-    nav {{ display: flex; gap: 4px; }}
-    nav a {{ color: var(--muted); text-decoration: none; padding: 8px 12px; border-radius: 6px; font-size: 14px; }}
-    nav a.active, nav a:hover {{ color: var(--accent); background: var(--accent-soft); }}
+    nav {{ display: flex; gap: 8px; flex-wrap: wrap; }}
+    nav a {{ color: #344054; text-decoration: none; padding: 8px 12px; border-radius: 6px; font-size: 14px; border: 1px solid transparent; font-weight: 600; }}
+    nav a.nav-0 {{ background: #dff7f2; color: #065f56; }}
+    nav a.nav-1 {{ background: #e7f0ff; color: #1d4ed8; }}
+    nav a.nav-2 {{ background: #fef0f0; color: #b91c1c; }}
+    nav a.nav-3 {{ background: #fff4d6; color: #92400e; }}
+    nav a.active {{ border-color: currentColor; box-shadow: inset 0 0 0 1px currentColor; }}
+    nav a:hover {{ filter: brightness(.97); text-decoration: none; }}
     main {{ padding: 24px 28px 40px; max-width: 1440px; margin: 0 auto; }}
     h1 {{ font-size: 26px; margin: 0 0 18px; }}
     h2 {{ font-size: 18px; margin: 24px 0 10px; }}
@@ -1469,7 +1474,7 @@ def render_dashboard(data: dict) -> bytes:
 
       <div class="section-head">
         <h2>按城市 / 区域查看楼盘</h2>
-        <div class="muted">先看 Prime Central London，再看伦敦核心区、伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进项目总览筛选。</div>
+        <div class="muted">先看 Prime Central London，再看伦敦核心区、伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进价单搜索筛选。</div>
       </div>
       <div class="market-grid">{''.join(market_cards)}</div>
 
@@ -1525,7 +1530,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
         for project in projects
     )
     content = f"""
-      <h1>项目总览</h1>
+      <h1>价单搜索</h1>
       <form class="toolbar" method="get" action="/projects">
         <input name="q" value="{e(q)}" placeholder="搜索项目、城市、开发商">
         <select name="city">{city_options}</select>
@@ -1540,7 +1545,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
         <tbody>{rows}</tbody>
       </table>
     """
-    return layout("项目总览", content, "/projects")
+    return layout("价单搜索", content, "/projects")
 
 
 def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
@@ -1615,7 +1620,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
         )
 
     content = f"""
-      <h1>项目总览</h1>
+      <h1>价单搜索</h1>
       <form class="toolbar" id="projectFilters" action="/projects">
         <input name="q" value="{e(q)}" placeholder="搜索项目、邮编、城市、开发商、合作方、价单文件" data-filter="q" autocomplete="off">
         <select name="city" data-filter="city">{city_options}</select>
@@ -1696,7 +1701,7 @@ def render_projects(data: dict, query: dict[str, list[str]]) -> bytes:
       }})();
       </script>
     """
-    return layout("项目总览", content, "/projects")
+    return layout("价单搜索", content, "/projects")
 
 
 def drive_link(project: dict) -> str:
