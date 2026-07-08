@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-07T19:05:45",
+  "synced_at": "2026-07-08T11:26:50",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -3965,46 +3965,6 @@
       "old_files": [],
       "notes": []
     },
-    "W2 - West End Gate": {
-      "project": "W2 - West End Gate",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / W2 - West End Gate",
-      "folder_id": "1seDPbWJh_CDmtP2609Ec4jIuYtp_sKnc",
-      "folder_url": "https://drive.google.com/drive/folders/1seDPbWJh_CDmtP2609Ec4jIuYtp_sKnc",
-      "price_folder_id": "1Fi6M-nf6FPhBoa-S_xwFH3yWuu_pwRw4",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Fi6M-nf6FPhBoa-S_xwFH3yWuu_pwRw4",
-      "old_price_folder_id": "1yB0gan3uXNS_dKnKotFtTRoPXDc3XEsL",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1yB0gan3uXNS_dKnKotFtTRoPXDc3XEsL",
-      "latest_files": [
-        {
-          "file": "The Residences Price List 29.06.26.pdf",
-          "file_id": "17cpM4kjgsPiA3ejmuiyySDLSP0Ol8U5_",
-          "file_url": "https://drive.google.com/file/d/17cpM4kjgsPiA3ejmuiyySDLSP0Ol8U5_/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:33.366Z",
-          "price_date": "29.06.26"
-        },
-        {
-          "file": "2026-05-28_The Residences Price List 17.05.26.pdf",
-          "file_id": "10kesPuXJx1AslGWBeuFGxHDjcYb6sk6U",
-          "file_url": "https://drive.google.com/file/d/10kesPuXJx1AslGWBeuFGxHDjcYb6sk6U/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:11.364Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Residences Price List 14.06.26.pdf",
-          "file_id": "1PpxumYTlcqN2Z0zqNGNo1BT7lh4b_ejD",
-          "file_url": "https://drive.google.com/file/d/1PpxumYTlcqN2Z0zqNGNo1BT7lh4b_ejD/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:27:36.835Z",
-          "price_date": "14.06.26"
-        }
-      ],
-      "notes": []
-    },
     "KT1 - County Hall Kingston (London Square)": {
       "project": "KT1 - County Hall Kingston (London Square)",
       "city": "London",
@@ -5509,95 +5469,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "WD17 - The Exchange Watford": {
-      "project": "WD17 - The Exchange Watford",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Others 其他 / Hertfordshire 赫特福德郡 / WD17 - The Exchange Watford",
-      "folder_id": "1FWievuNe9xgHyuragDlaOYewXossuvgX",
-      "folder_url": "https://drive.google.com/drive/folders/1FWievuNe9xgHyuragDlaOYewXossuvgX",
-      "price_folder_id": "1bcX72mGZbp8Ij_ucbDEKxP9FWxG8H1SG",
-      "price_folder_url": "https://drive.google.com/drive/folders/1bcX72mGZbp8Ij_ucbDEKxP9FWxG8H1SG",
-      "old_price_folder_id": "1r6QCXafi1eS8_G88fLudQTMIqAS7Vjm7",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1r6QCXafi1eS8_G88fLudQTMIqAS7Vjm7",
-      "latest_files": [
-        {
-          "file": "The Exchange Union Court Pricelist - 05.07.2026.pdf",
-          "file_id": "1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo",
-          "file_url": "https://drive.google.com/file/d/1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:07:07.840Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "The Exchange Dart House Price List  05.07.2026.pdf",
-          "file_id": "1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo",
-          "file_url": "https://drive.google.com/file/d/1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:58.610Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "2026-05-28_The Exchange Dart House Price List  17.05.2026.pdf",
-          "file_id": "1s-yb_Ucwkp6MqnFauqKb2fOM1huWvQea",
-          "file_url": "https://drive.google.com/file/d/1s-yb_Ucwkp6MqnFauqKb2fOM1huWvQea/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:18.333Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Exchange Union Court Pricelist - 17.05.2026.pdf",
-          "file_id": "1sWkTlCS-apSoT9CwxzBOK3RR9j9mpmNe",
-          "file_url": "https://drive.google.com/file/d/1sWkTlCS-apSoT9CwxzBOK3RR9j9mpmNe/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:16.896Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Exchange Union Court Pricelist - 24.05.2026.pdf",
-          "file_id": "1DcQVR3nKZ8f6NmTzUmtVwivIwJl2Pm2D",
-          "file_url": "https://drive.google.com/file/d/1DcQVR3nKZ8f6NmTzUmtVwivIwJl2Pm2D/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:39.416Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Exchange Dart House Price List  24.05.2026.pdf",
-          "file_id": "1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v",
-          "file_url": "https://drive.google.com/file/d/1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:37.431Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Exchange Union Court Pricelist - 28.06.2026.pdf",
-          "file_id": "1cVS4hm2BYeD4lcrL5N0JrB2PD5ItX3Ao",
-          "file_url": "https://drive.google.com/file/d/1cVS4hm2BYeD4lcrL5N0JrB2PD5ItX3Ao/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:18.445Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "The Exchange Dart House Price List  28.06.2026.pdf",
-          "file_id": "1-51yI5S6EAuaCMrRkCXR2i2_MAi5h41Q",
-          "file_url": "https://drive.google.com/file/d/1-51yI5S6EAuaCMrRkCXR2i2_MAi5h41Q/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:06.957Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "The Exchange Union Court Pricelist - 14.06.2026.pdf",
-          "file_id": "1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ",
-          "file_url": "https://drive.google.com/file/d/1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:54:03.080Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "The Exchange Dart House Price List  14.06.2026.pdf",
-          "file_id": "1pQJgA58i7vAecOFkQRF3L0AEtih8yS8l",
-          "file_url": "https://drive.google.com/file/d/1pQJgA58i7vAecOFkQRF3L0AEtih8yS8l/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:54:00.014Z",
-          "price_date": "14.06.2026"
-        }
-      ],
-      "notes": []
-    },
     "Liverpool - Abbey Row": {
       "project": "Liverpool - Abbey Row",
       "city": "Others",
@@ -5834,137 +5705,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SE11 - Oval Village": {
-      "project": "SE11 - Oval Village",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / SE11 - Oval Village",
-      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "latest_files": [
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026 updated.pdf",
-          "file_id": "1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV",
-          "file_url": "https://drive.google.com/file/d/1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV/view?usp=drivesdk",
-          "modified_at": "2026-07-07T01:40:27.605Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
-          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
-          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:08.007Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
-          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
-          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:05:54.561Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
-          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
-          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:48.506Z",
-          "price_date": "28.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
-          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
-          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:55.898Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
-          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
-          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:33.624Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
-          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
-          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:01.836Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
-          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
-          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:58.363Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
-          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
-          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:59.249Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
-          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
-          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:55.139Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
-          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
-          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:44.628Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
-          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
-          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:42.673Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
-          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
-          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:41.112Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
-          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
-          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:20.694Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
-          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
-          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:19.150Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
-          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
-          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
-          "modified_at": "2026-05-06T12:44:30.000Z",
-          "price_date": "06.05.2026"
-        }
-      ],
-      "notes": []
     },
     "W2 - Trillium": {
       "project": "W2 - Trillium",
@@ -6966,233 +6706,6 @@
       ],
       "notes": []
     },
-    "UB1 - The Green Quarter": {
-      "project": "UB1 - The Green Quarter",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / UB1 - The Green Quarter",
-      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "latest_files": [
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 05.07.26_.pdf",
-          "file_id": "1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN",
-          "file_url": "https://drive.google.com/file/d/1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:59.231Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -05.07.26.pdf",
-          "file_id": "1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd",
-          "file_url": "https://drive.google.com/file/d/1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:52.967Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
-          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
-          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:53.955Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
-          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:47.323Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
-          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
-          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:39.662Z",
-          "price_date": "28.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
-          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:32.738Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
-          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
-          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:43.161Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
-          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
-          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:34.089Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
-          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
-          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:04.829Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
-          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
-          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:01.609Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
-          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
-          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:25.504Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
-          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:21.886Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
-          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
-          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:18.249Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
-          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:13.533Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
-          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
-          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:38.496Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
-          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
-          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:37.250Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
-          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
-          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:56.379Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
-          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
-          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:54.662Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "SW18 - Wandsworth Mills": {
-      "project": "SW18 - Wandsworth Mills",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
-      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "latest_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
-          "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
-          "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:05.170Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
-          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:47.463Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
-          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:06.658Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
-          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:04.648Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
-          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:22.031Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
-          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:20.071Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
-          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:58.532Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
-          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
-          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:50.827Z",
-          "price_date": "24.06.26"
-        },
-        {
-          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
-          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
-          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:40:59.966Z",
-          "price_date": "14.06.26"
-        }
-      ],
-      "notes": []
-    },
     "W12 - White City Living": {
       "project": "W12 - White City Living",
       "city": "London",
@@ -7285,60 +6798,6 @@
           "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
           "modified_at": "2026-05-23T01:30:00.000Z",
           "price_date": "22.05.26"
-        }
-      ],
-      "notes": []
-    },
-    "OX10 - Winterbrook Meadows": {
-      "project": "OX10 - Winterbrook Meadows",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / OX10 - Winterbrook Meadows",
-      "folder_id": "18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
-      "folder_url": "https://drive.google.com/drive/folders/18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
-      "price_folder_id": "1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
-      "price_folder_url": "https://drive.google.com/drive/folders/1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
-      "old_price_folder_id": "1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
-      "latest_files": [
-        {
-          "file": "Winterbrook Meadows New Price List 020726.pdf",
-          "file_id": "1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS",
-          "file_url": "https://drive.google.com/file/d/1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:34.186Z",
-          "price_date": "List 0207"
-        },
-        {
-          "file": "WBM - Summerleigh Inserts - The Dickinson.pdf",
-          "file_id": "1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh",
-          "file_url": "https://drive.google.com/file/d/1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:27:43.135Z",
-          "price_date": ""
-        },
-        {
-          "file": "Winterbrook Meadows  Updated price list 14.06. 2026.pdf",
-          "file_id": "1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC",
-          "file_url": "https://drive.google.com/file/d/1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:27:13.746Z",
-          "price_date": ""
-        },
-        {
-          "file": "Winterbrook Meadows Price List 030626.pdf",
-          "file_id": "1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng",
-          "file_url": "https://drive.google.com/file/d/1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:05:08.121Z",
-          "price_date": "List 0306"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "2026-05-28_Winterbrook Meadows Price List 210526.pdf",
-          "file_id": "1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV",
-          "file_url": "https://drive.google.com/file/d/1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:24.011Z",
-          "price_date": "26-05-28"
         }
       ],
       "notes": []
@@ -7648,74 +7107,6 @@
       ],
       "notes": []
     },
-    "Highcroft": {
-      "project": "Highcroft",
-      "city": "Others",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / Highcroft",
-      "folder_id": "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-      "folder_url": "https://drive.google.com/drive/folders/1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-      "price_folder_id": "17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
-      "price_folder_url": "https://drive.google.com/drive/folders/17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
-      "old_price_folder_id": "14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
-      "latest_files": [
-        {
-          "file": "CN-Highcroft - Price List 01.07 2026 .pdf",
-          "file_id": "1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp",
-          "file_url": "https://drive.google.com/file/d/1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:22:33.988Z",
-          "price_date": ""
-        },
-        {
-          "file": "CN-Highcroft - Price List 28.6.26.pdf",
-          "file_id": "1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48",
-          "file_url": "https://drive.google.com/file/d/1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:50:31.409Z",
-          "price_date": "28.6.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN-Highcroft - Price List 14.6.26.pdf",
-          "file_id": "1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM",
-          "file_url": "https://drive.google.com/file/d/1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:24:17.575Z",
-          "price_date": "14.6.26"
-        },
-        {
-          "file": "CN-Highcroft - Price List 10.06 2026.pdf",
-          "file_id": "16iNPDQo-XRihIHrJM16coaAI84e9Tnkz",
-          "file_url": "https://drive.google.com/file/d/16iNPDQo-XRihIHrJM16coaAI84e9Tnkz/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:56:54.984Z",
-          "price_date": ""
-        },
-        {
-          "file": "CN-Highcroft - Price List 07.06 2026.pdf",
-          "file_id": "1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE",
-          "file_url": "https://drive.google.com/file/d/1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:03.817Z",
-          "price_date": ""
-        },
-        {
-          "file": "2026-05-28_CN-Highcroft - Price List 24.5.26.pdf",
-          "file_id": "1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ",
-          "file_url": "https://drive.google.com/file/d/1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ/view?usp=drivesdk",
-          "modified_at": "2026-05-28T07:42:01.163Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-Highcroft - Price List 17.05 2026.pdf",
-          "file_id": "1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD",
-          "file_url": "https://drive.google.com/file/d/1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD/view?usp=drivesdk",
-          "modified_at": "2026-05-28T07:41:59.848Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "Leighwood Fields": {
       "project": "Leighwood Fields",
       "city": "未分类",
@@ -7865,27 +7256,630 @@
         }
       ],
       "notes": []
+    },
+    "UB1 - The Green Quarter": {
+      "project": "UB1 - The Green Quarter",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / UB1 - The Green Quarter",
+      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "latest_files": [
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 05.07.26_.pdf",
+          "file_id": "1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN",
+          "file_url": "https://drive.google.com/file/d/1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:59.231Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -05.07.26.pdf",
+          "file_id": "1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd",
+          "file_url": "https://drive.google.com/file/d/1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:52.967Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
+          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
+          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:53.955Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
+          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:47.323Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
+          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
+          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:39.662Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
+          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:32.738Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
+          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
+          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:43.161Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
+          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
+          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:34.089Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
+          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
+          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:04.829Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
+          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
+          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:01.609Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
+          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
+          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:25.504Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
+          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:21.886Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
+          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
+          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:18.249Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
+          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:13.533Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
+          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
+          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:38.496Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
+          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
+          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:37.250Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
+          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
+          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:56.379Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
+          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
+          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:54.662Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "OX10 - Winterbrook Meadows": {
+      "project": "OX10 - Winterbrook Meadows",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / OX10 - Winterbrook Meadows",
+      "folder_id": "18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
+      "folder_url": "https://drive.google.com/drive/folders/18uQBal-xFj9C2UpQkZ54KSD6myW_13S1",
+      "price_folder_id": "1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
+      "price_folder_url": "https://drive.google.com/drive/folders/1R9jaVnf0j5LIVsutvZrqod2ZfNw59XnC",
+      "old_price_folder_id": "1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1UGgv_btYiow_A9K0XxqH2IPwSWi18Is9",
+      "latest_files": [
+        {
+          "file": "Winterbrook Meadows New Price List 020726.pdf",
+          "file_id": "1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS",
+          "file_url": "https://drive.google.com/file/d/1AD0dRctPZLPLXgzIEj16tmYrRfYDB3WS/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:34.186Z",
+          "price_date": "List 0207"
+        },
+        {
+          "file": "WBM - Summerleigh Inserts - The Dickinson.pdf",
+          "file_id": "1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh",
+          "file_url": "https://drive.google.com/file/d/1FLyP66_MdXQUP69MM4s3c6pLa7a1VcHh/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:27:43.135Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Winterbrook Meadows  Updated price list 14.06. 2026.pdf",
+          "file_id": "1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC",
+          "file_url": "https://drive.google.com/file/d/1PMoILPFqIV7tZA4jl2DeTCRS7tMmkTeC/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:27:13.746Z",
+          "price_date": ""
+        },
+        {
+          "file": "Winterbrook Meadows Price List 030626.pdf",
+          "file_id": "1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng",
+          "file_url": "https://drive.google.com/file/d/1ALrEdeFQaxkrLVfD6YwUVPQwW8v4h_ng/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:05:08.121Z",
+          "price_date": "List 0306"
+        },
+        {
+          "file": "2026-05-28_Winterbrook Meadows Price List 210526.pdf",
+          "file_id": "1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV",
+          "file_url": "https://drive.google.com/file/d/1qa9K3e8v5m6pq8-kLFUZ6Ao2rROyfKnV/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:24.011Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "Highcroft": {
+      "project": "Highcroft",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Oxfordshire 牛津郡 / Highcroft",
+      "folder_id": "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
+      "folder_url": "https://drive.google.com/drive/folders/1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
+      "price_folder_id": "17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
+      "price_folder_url": "https://drive.google.com/drive/folders/17Q9PORrKMMkCeGvNQQBP-kPxYhEDpwxX",
+      "old_price_folder_id": "14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14LFw0gmG8NDT7LoMgl69MniBOZBBedOv",
+      "latest_files": [
+        {
+          "file": "CN-Highcroft - Price List 01.07 2026 .pdf",
+          "file_id": "1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp",
+          "file_url": "https://drive.google.com/file/d/1uh9HAFEtURGc03-w5n5ry2F6cwaoiDQp/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:33.988Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN-Highcroft - Price List 28.6.26.pdf",
+          "file_id": "1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48",
+          "file_url": "https://drive.google.com/file/d/1rQH2XkP55fDk7PUCr_1MC7fQ19ugPF48/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:31.409Z",
+          "price_date": "28.6.26"
+        },
+        {
+          "file": "CN-Highcroft - Price List 14.6.26.pdf",
+          "file_id": "1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM",
+          "file_url": "https://drive.google.com/file/d/1r8XhoaOykMavsm1pnQbLLYXmRO6FaRhM/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:17.575Z",
+          "price_date": "14.6.26"
+        },
+        {
+          "file": "CN-Highcroft - Price List 10.06 2026.pdf",
+          "file_id": "16iNPDQo-XRihIHrJM16coaAI84e9Tnkz",
+          "file_url": "https://drive.google.com/file/d/16iNPDQo-XRihIHrJM16coaAI84e9Tnkz/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:56:54.984Z",
+          "price_date": ""
+        },
+        {
+          "file": "CN-Highcroft - Price List 07.06 2026.pdf",
+          "file_id": "1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE",
+          "file_url": "https://drive.google.com/file/d/1yy-d2DN1P86h0IZnPzjel1a3iSiKQlCE/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:03.817Z",
+          "price_date": ""
+        },
+        {
+          "file": "2026-05-28_CN-Highcroft - Price List 24.5.26.pdf",
+          "file_id": "1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ",
+          "file_url": "https://drive.google.com/file/d/1VtNlPH_aCXP_Hf0A7aq-LfTpi71mWoCJ/view?usp=drivesdk",
+          "modified_at": "2026-05-28T07:42:01.163Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-Highcroft - Price List 17.05 2026.pdf",
+          "file_id": "1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD",
+          "file_url": "https://drive.google.com/file/d/1jCuvK1zb_AwgDDTnfRcSTn3Q8D0-EeQD/view?usp=drivesdk",
+          "modified_at": "2026-05-28T07:41:59.848Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "WD17 - The Exchange Watford": {
+      "project": "WD17 - The Exchange Watford",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Others 其他 / Hertfordshire 赫特福德郡 / WD17 - The Exchange Watford",
+      "folder_id": "1FWievuNe9xgHyuragDlaOYewXossuvgX",
+      "folder_url": "https://drive.google.com/drive/folders/1FWievuNe9xgHyuragDlaOYewXossuvgX",
+      "price_folder_id": "1bcX72mGZbp8Ij_ucbDEKxP9FWxG8H1SG",
+      "price_folder_url": "https://drive.google.com/drive/folders/1bcX72mGZbp8Ij_ucbDEKxP9FWxG8H1SG",
+      "old_price_folder_id": "1r6QCXafi1eS8_G88fLudQTMIqAS7Vjm7",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1r6QCXafi1eS8_G88fLudQTMIqAS7Vjm7",
+      "latest_files": [
+        {
+          "file": "The Exchange Union Court Pricelist - 05.07.2026.pdf",
+          "file_id": "1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo",
+          "file_url": "https://drive.google.com/file/d/1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:07:07.840Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "The Exchange Dart House Price List  05.07.2026.pdf",
+          "file_id": "1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo",
+          "file_url": "https://drive.google.com/file/d/1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:58.610Z",
+          "price_date": "05.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Exchange Union Court Pricelist - 28.06.2026.pdf",
+          "file_id": "1cVS4hm2BYeD4lcrL5N0JrB2PD5ItX3Ao",
+          "file_url": "https://drive.google.com/file/d/1cVS4hm2BYeD4lcrL5N0JrB2PD5ItX3Ao/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:18.445Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "The Exchange Dart House Price List  28.06.2026.pdf",
+          "file_id": "1-51yI5S6EAuaCMrRkCXR2i2_MAi5h41Q",
+          "file_url": "https://drive.google.com/file/d/1-51yI5S6EAuaCMrRkCXR2i2_MAi5h41Q/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:06.957Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "The Exchange Union Court Pricelist - 14.06.2026.pdf",
+          "file_id": "1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ",
+          "file_url": "https://drive.google.com/file/d/1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ/view?usp=drivesdk",
+          "modified_at": "2026-06-17T05:54:03.080Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "The Exchange Dart House Price List  14.06.2026.pdf",
+          "file_id": "1pQJgA58i7vAecOFkQRF3L0AEtih8yS8l",
+          "file_url": "https://drive.google.com/file/d/1pQJgA58i7vAecOFkQRF3L0AEtih8yS8l/view?usp=drivesdk",
+          "modified_at": "2026-06-17T05:54:00.014Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "2026-05-28_The Exchange Dart House Price List  17.05.2026.pdf",
+          "file_id": "1s-yb_Ucwkp6MqnFauqKb2fOM1huWvQea",
+          "file_url": "https://drive.google.com/file/d/1s-yb_Ucwkp6MqnFauqKb2fOM1huWvQea/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:18.333Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Exchange Union Court Pricelist - 17.05.2026.pdf",
+          "file_id": "1sWkTlCS-apSoT9CwxzBOK3RR9j9mpmNe",
+          "file_url": "https://drive.google.com/file/d/1sWkTlCS-apSoT9CwxzBOK3RR9j9mpmNe/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:16.896Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Exchange Union Court Pricelist - 24.05.2026.pdf",
+          "file_id": "1DcQVR3nKZ8f6NmTzUmtVwivIwJl2Pm2D",
+          "file_url": "https://drive.google.com/file/d/1DcQVR3nKZ8f6NmTzUmtVwivIwJl2Pm2D/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:39.416Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Exchange Dart House Price List  24.05.2026.pdf",
+          "file_id": "1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v",
+          "file_url": "https://drive.google.com/file/d/1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:37.431Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "SW18 - Wandsworth Mills": {
+      "project": "SW18 - Wandsworth Mills",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
+      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "latest_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
+          "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
+          "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:05.170Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
+          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:47.463Z",
+          "price_date": "27.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
+          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:58.532Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
+          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
+          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:50.827Z",
+          "price_date": "24.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
+          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
+          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:40:59.966Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
+          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:06.658Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
+          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:04.648Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
+          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:22.031Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
+          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:20.071Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "W2 - West End Gate": {
+      "project": "W2 - West End Gate",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / W2 - West End Gate",
+      "folder_id": "1seDPbWJh_CDmtP2609Ec4jIuYtp_sKnc",
+      "folder_url": "https://drive.google.com/drive/folders/1seDPbWJh_CDmtP2609Ec4jIuYtp_sKnc",
+      "price_folder_id": "1Fi6M-nf6FPhBoa-S_xwFH3yWuu_pwRw4",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Fi6M-nf6FPhBoa-S_xwFH3yWuu_pwRw4",
+      "old_price_folder_id": "1yB0gan3uXNS_dKnKotFtTRoPXDc3XEsL",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1yB0gan3uXNS_dKnKotFtTRoPXDc3XEsL",
+      "latest_files": [
+        {
+          "file": "The Residences Price List 29.06.26.pdf",
+          "file_id": "17cpM4kjgsPiA3ejmuiyySDLSP0Ol8U5_",
+          "file_url": "https://drive.google.com/file/d/17cpM4kjgsPiA3ejmuiyySDLSP0Ol8U5_/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:33.366Z",
+          "price_date": "29.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Residences Price List 14.06.26.pdf",
+          "file_id": "1PpxumYTlcqN2Z0zqNGNo1BT7lh4b_ejD",
+          "file_url": "https://drive.google.com/file/d/1PpxumYTlcqN2Z0zqNGNo1BT7lh4b_ejD/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:27:36.835Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "2026-05-28_The Residences Price List 17.05.26.pdf",
+          "file_id": "10kesPuXJx1AslGWBeuFGxHDjcYb6sk6U",
+          "file_url": "https://drive.google.com/file/d/10kesPuXJx1AslGWBeuFGxHDjcYb6sk6U/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:11.364Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "SE11 - Oval Village": {
+      "project": "SE11 - Oval Village",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / SE11 - Oval Village",
+      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "latest_files": [
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026 updated.pdf",
+          "file_id": "1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV",
+          "file_url": "https://drive.google.com/file/d/1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:40:27.605Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
+          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
+          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:08.007Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
+          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
+          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:48.506Z",
+          "price_date": "28.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
+          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
+          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:05:54.561Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
+          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
+          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:55.898Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
+          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
+          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:33.624Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
+          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
+          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:01.836Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
+          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
+          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:58.363Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
+          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
+          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:59.249Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
+          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
+          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:55.139Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
+          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
+          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:44.628Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
+          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
+          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:42.673Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
+          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
+          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:41.112Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
+          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
+          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:20.694Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
+          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
+          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:19.150Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
+          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
+          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
+          "modified_at": "2026-05-06T12:44:30.000Z",
+          "price_date": "06.05.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
-    "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
-    "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
-    "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
-    "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
     "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-    "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
-    "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg"
+    "1FWievuNe9xgHyuragDlaOYewXossuvgX",
+    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+    "1seDPbWJh_CDmtP2609Ec4jIuYtp_sKnc",
+    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3"
   ],
   "targeted_projects": [
-    "Bankside Gardens",
-    "Eden Grove",
-    "Foal Hurst Green",
-    "Hareshill",
-    "Hartland Village",
     "Highcroft",
-    "Leighwood Fields",
-    "Oakhill"
+    "WD17 - The Exchange Watford",
+    "SW18 - Wandsworth Mills",
+    "W2 - West End Gate",
+    "SE11 - Oval Village"
   ]
 }
