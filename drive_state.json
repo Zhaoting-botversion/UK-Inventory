@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-09T16:57:54",
+  "synced_at": "2026-07-09T17:58:41",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -4484,40 +4484,6 @@
       "old_files": [],
       "notes": []
     },
-    "M15 - Vita Living": {
-      "project": "M15 - Vita Living",
-      "city": "Manchester",
-      "developer": "Select Property",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M15 - Vita Living",
-      "folder_id": "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
-      "folder_url": "https://drive.google.com/drive/folders/1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
-      "price_folder_id": "1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
-      "price_folder_url": "https://drive.google.com/drive/folders/1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "04.20 Vita Living Circle Square Pricelist.pdf",
-          "file_id": "1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI",
-          "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:30.000Z",
-          "price_date": ""
-        },
-        {
-          "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
-          "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
-          "file_url": "https://drive.google.com/file/d/12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:18.000Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "M3 - Vista River Gardens": {
       "project": "M3 - Vista River Gardens",
       "city": "Manchester",
@@ -7967,17 +7933,52 @@
         }
       ],
       "notes": []
+    },
+    "M1 - Vita Living": {
+      "project": "M1 - Vita Living",
+      "city": "Manchester",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M15 - Vita Living",
+      "folder_id": "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
+      "folder_url": "https://drive.google.com/drive/folders/1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
+      "price_folder_id": "1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
+      "price_folder_url": "https://drive.google.com/drive/folders/1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
+      "old_price_folder_id": "1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
+      "latest_files": [
+        {
+          "file": "07.09 Vita Living North Global Launch Pricelist.pdf",
+          "file_id": "1aqIkqdudC67giaxgdjqQtMyDyYzu-grS",
+          "file_url": "https://drive.google.com/file/d/1aqIkqdudC67giaxgdjqQtMyDyYzu-grS/view?usp=drivesdk",
+          "modified_at": "2026-07-09T09:58:39.791Z",
+          "price_date": ""
+        },
+        {
+          "file": "04.20 Vita Living Circle Square Pricelist.pdf",
+          "file_id": "1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI",
+          "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
+          "modified_at": "2026-04-21T08:10:30.000Z",
+          "price_date": ""
+        },
+        {
+          "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
+          "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
+          "file_url": "https://drive.google.com/file/d/12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX/view?usp=drivesdk",
+          "modified_at": "2026-04-21T08:10:18.000Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
-    "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
-    "1KTtVtZum8twySVduSg32i6hgff4DXp5t"
+    "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA"
   ],
   "targeted_projects": [
-    "E14 - South Quay Plaza",
-    "E3 - Twelvetrees Park",
-    "N4 - Woodberry Down"
+    "M1 - Vita Living"
   ]
 }
