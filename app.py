@@ -1253,6 +1253,17 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .unit-name {{ font-weight: 700; }}
     .unit-price {{ font-weight: 700; color: #111827; }}
     .unit-note {{ color: var(--muted); font-size: 12px; }}
+    .unit-project-change-list {{ display: grid; gap: 12px; margin-top: 12px; }}
+    .unit-change-card {{ background: #fff; border: 1px solid #9cc9c1; border-radius: 8px; padding: 14px; }}
+    .unit-change-head {{ display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; flex-wrap: wrap; margin-bottom: 10px; }}
+    .unit-change-head h3 {{ margin: 0; font-size: 18px; }}
+    .unit-change-summary {{ display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }}
+    .summary-pill {{ border: 1px solid var(--line); border-radius: 999px; padding: 4px 8px; background: #f8fafc; color: #344054; font-size: 12px; font-weight: 700; white-space: nowrap; }}
+    .summary-pill.drop {{ background: #fee2e2; color: #991b1b; border-color: #fecaca; }}
+    .summary-pill.new {{ background: #dbeafe; color: #1e40af; border-color: #bfdbfe; }}
+    .summary-pill.sold {{ background: #f1f5f9; color: #334155; border-color: #cbd5e1; }}
+    .summary-pill.other {{ background: #ffedd5; color: #9a3412; border-color: #fed7aa; }}
+    .unit-change-card .unit-list {{ margin-top: 8px; }}
     .section-head {{ display: flex; justify-content: space-between; align-items: end; gap: 16px; margin: 26px 0 12px; }}
     .section-head h2 {{ margin: 0; }}
     .section-head .muted {{ max-width: 680px; line-height: 1.5; }}
@@ -1373,7 +1384,7 @@ def render_dashboard(data: dict) -> bytes:
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(2000)
-    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, limit_projects=6, source_link_func=source_link, project_lookup=project_by_name)
+    unit_focus_cards = render_unit_project_changes(all_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1452,8 +1463,8 @@ def render_dashboard(data: dict) -> bytes:
       <section class="panel unit-highlight" style="margin-top:18px">
         <div class="unit-cta">
           <div>
-            <h2>重点房源变化</h2>
-            <div class="muted">具体到房号的价单变化，比“项目有更新”更值得销售优先跟进。</div>
+            <h2>本周房源变化工作清单</h2>
+            <div class="muted">按项目汇总本周全部房源变化，先看分类数量，再逐套跟进具体房号和来源价单。</div>
           </div>
           <a href="/unit-changes">查看全部房源变化</a>
         </div>
@@ -1867,6 +1878,27 @@ def unit_focus_tag(category: str) -> str:
     return f'<span class="tag {cls}">{e(unit_focus_title(category))}</span>'
 
 
+def unit_change_bucket(row: dict) -> str:
+    category = unit_focus_category(row)
+    if category:
+        return category
+    return "other"
+
+
+def unit_change_summary_label(category: str) -> str:
+    return {
+        "drop": "降价",
+        "new": "新增",
+        "sold": "售出",
+        "other": "其他",
+    }.get(category, "其他")
+
+
+def unit_phase_text(project_name: str) -> str:
+    parts = re.split(r"\s+[·路]\s+", project_name or "", maxsplit=1)
+    return parts[1].strip() if len(parts) > 1 else ""
+
+
 def text_value(value: object) -> str:
     if value is None:
         return ""
@@ -1928,6 +1960,84 @@ def render_unit_rows(rows: list[dict], source_link_func=None) -> str:
         </li>"""
         for row in rows
     )
+
+
+def render_project_change_rows(rows: list[dict], source_link_func=None) -> str:
+    source_link_func = source_link_func or (lambda row: "")
+    category_order = {"drop": 0, "new": 1, "sold": 2, "other": 3}
+    rows = sorted(
+        rows,
+        key=lambda row: (
+            category_order.get(unit_change_bucket(row), 9),
+            row.get("unit", ""),
+            row.get("created_at", ""),
+        ),
+    )
+    items = []
+    for row in rows:
+        category = unit_change_bucket(row)
+        phase = unit_phase_text(row.get("project_name", ""))
+        note_bits = [unit_note_text(row)]
+        if phase:
+            note_bits.append(phase)
+        note = " · ".join(bit for bit in note_bits if bit)
+        items.append(
+            f"""<li>
+              <div><span class="unit-name">{e(row.get('unit', ''))}</span><div class="unit-note">{bedroom_text(row.get('bedroom'))}</div></div>
+              <div><div>{unit_focus_tag(category)}</div><div class="unit-price">{unit_price_text(row)}</div></div>
+              <div class="unit-note">{e(note)}<br>{fmt_time(row.get('created_at', ''))}<br>{source_link_func(row)}</div>
+            </li>"""
+        )
+    return "".join(items)
+
+
+def render_unit_project_changes(events: list[dict], project_link_func, source_link_func=None, project_lookup: dict[str, dict] | None = None) -> str:
+    project_lookup = project_lookup or {}
+    rows = [row for row in events if is_displayable_unit_event(row)]
+    grouped: dict[str, list[dict]] = defaultdict(list)
+    for row in rows:
+        grouped[base_unit_project_name(row.get("project_name", ""))].append(row)
+
+    def project_context(project: str) -> dict:
+        return project_lookup.get(project) or {
+            "name": project,
+            "city": infer_city(project),
+        }
+
+    def sort_key(project: str) -> tuple:
+        project_rows = grouped[project]
+        latest = max((row.get("created_at", "") for row in project_rows), default="")
+        latest_dt = parse_dt(latest)
+        latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
+        return (
+            group_rank(market_group(project_context(project))),
+            postcode_rank(project),
+            latest_sort,
+            -len(project_rows),
+            project,
+        )
+
+    cards = []
+    for project in sorted(grouped, key=sort_key):
+        project_rows = grouped[project]
+        counts = Counter(unit_change_bucket(row) for row in project_rows)
+        summary = [f'<span class="summary-pill">共 {len(project_rows)} 条变化</span>']
+        for category in ("drop", "new", "sold", "other"):
+            if counts.get(category):
+                summary.append(
+                    f'<span class="summary-pill {category}">{unit_change_summary_label(category)} {counts[category]}</span>'
+                )
+        cards.append(
+            f"""<article class="unit-change-card">
+              <div class="unit-change-head">
+                <h3>{project_link_func(project)}</h3>
+                <div class="unit-change-summary">{''.join(summary)}</div>
+              </div>
+              <ul class="unit-list">{render_project_change_rows(project_rows, source_link_func)}</ul>
+            </article>"""
+        )
+    body = "".join(cards) or '<div class="empty">暂无房源变化。</div>'
+    return f'<div class="unit-project-change-list">{body}</div>'
 
 
 def render_unit_focus_columns(events: list[dict], project_link_func, limit_projects: int | None = None, source_link_func=None, project_lookup: dict[str, dict] | None = None) -> str:
