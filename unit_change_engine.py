@@ -7,6 +7,7 @@ import re
 import sqlite3
 import sys
 import zipfile
+from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 from xml.etree import ElementTree as ET
@@ -211,6 +212,86 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
     return list(deduped.values())
 
 
+def records_have_shifted_price_columns(records: list[dict]) -> bool:
+    if not records:
+        return False
+    suspicious = 0
+    for record in records:
+        price = parse_price(record.get("price"))
+        external = cell_text(record.get("external_area"))
+        floor = cell_text(record.get("floor"))
+        if (price is not None and price < 10000 and "£" in external) or re.search(r"\bbed\b", floor, re.I):
+            suspicious += 1
+    return suspicious >= max(1, len(records) // 3)
+
+
+def join_words(words: list[dict]) -> str:
+    return " ".join(word["text"] for word in sorted(words, key=lambda item: item["x0"])).strip()
+
+
+def words_in_band(words: list[dict], x0: float, x1: float) -> str:
+    return join_words([word for word in words if x0 <= word["x0"] < x1])
+
+
+def extract_pdf_position_records(path: Path) -> list[dict]:
+    try:
+        import pdfplumber
+    except ImportError:
+        return []
+    records: list[dict] = []
+    with pdfplumber.open(str(path)) as pdf:
+        for page in pdf.pages:
+            words = page.extract_words(x_tolerance=1, y_tolerance=3, keep_blank_chars=False)
+            if not any(header_key(word["text"]) == "plot" for word in words):
+                continue
+            row_groups: dict[int, list[dict]] = defaultdict(list)
+            for word in words:
+                if word["top"] < 430:
+                    continue
+                row_groups[round(word["top"] / 3)].append(word)
+            for row_words in row_groups.values():
+                plot = words_in_band(row_words, 35, 85)
+                if not re.fullmatch(r"\d+[A-Za-z]?", plot):
+                    continue
+                floor = words_in_band(row_words, 88, 125)
+                bedroom = words_in_band(row_words, 125, 180)
+                aspect = words_in_band(row_words, 180, 225)
+                amenity = words_in_band(row_words, 225, 275)
+                internal_area = words_in_band(row_words, 275, 320)
+                external_area = words_in_band(row_words, 320, 365)
+                price_or_status = words_in_band(row_words, 365, 415)
+                rent_estimate = words_in_band(row_words, 415, 455)
+                estimated_completion = words_in_band(row_words, 455, 520)
+                price = price_or_status if parse_price(price_or_status) and parse_price(price_or_status) >= 10000 else ""
+                status = "" if price else price_or_status
+                record = {
+                    "source": path.name,
+                    "unit": plot,
+                    "bedroom": bedroom,
+                    "internal_area": internal_area,
+                    "external_area": external_area,
+                    "aspect": aspect,
+                    "price": normalize_record_value("price", price),
+                    "floor": floor,
+                    "status": status,
+                    "tenure": "",
+                    "estimated_completion": estimated_completion,
+                    "rent_estimate": rent_estimate,
+                    "service_charge": "",
+                    "ground_rent": "",
+                    "parking": "",
+                    "incentives": amenity,
+                }
+                if record["unit"] and (record["price"] or record["status"]):
+                    records.append(record)
+    deduped: dict[str, dict] = {}
+    for record in records:
+        key = normalize_unit(record["unit"])
+        if key:
+            deduped[key] = record
+    return list(deduped.values())
+
+
 def col_index(cell_ref: str) -> int:
     letters = re.match(r"[A-Z]+", cell_ref.upper())
     if not letters:
@@ -293,6 +374,10 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
     except Exception as exc:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
+    if records_have_shifted_price_columns(records):
+        positioned = extract_pdf_position_records(path)
+        if len(positioned) >= len(records):
+            records = positioned
     return records, None if records else "No recognizable unit table found"
 
 
