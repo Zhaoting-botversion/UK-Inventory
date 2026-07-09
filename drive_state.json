@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-09T09:30:36",
+  "synced_at": "2026-07-09T15:52:09",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2687,158 +2687,6 @@
           "file_url": "https://drive.google.com/file/d/1Mwd3WDiUzb9R1Z_CPd691ClZID-Fdeqi/view?usp=drivesdk",
           "modified_at": "2026-06-22T05:48:11.365Z",
           "price_date": "15.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "SE3 - Kidbrooke Village": {
-      "project": "SE3 - Kidbrooke Village",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / SE3 - Kidbrooke Village",
-      "folder_id": "11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7",
-      "folder_url": "https://drive.google.com/drive/folders/11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7",
-      "price_folder_id": "1BNZDcMh9phD2CVLDAtzdQlkrzwDPvAZ7",
-      "price_folder_url": "https://drive.google.com/drive/folders/1BNZDcMh9phD2CVLDAtzdQlkrzwDPvAZ7",
-      "old_price_folder_id": "13ZUbrSnYcYSvI-CHdh_p13mEsInMrubk",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/13ZUbrSnYcYSvI-CHdh_p13mEsInMrubk",
-      "latest_files": [
-        {
-          "file": "Townhouses Price List - 06.07.2026.pdf",
-          "file_id": "1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6",
-          "file_url": "https://drive.google.com/file/d/1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:04:17.300Z",
-          "price_date": "06.07.2026"
-        },
-        {
-          "file": "Skyview Gardens - Daily Price List 06.07.2026.pdf",
-          "file_id": "1OyVO_PBkBKmdTXTiAy9QeTfyz7GrSXtl",
-          "file_url": "https://drive.google.com/file/d/1OyVO_PBkBKmdTXTiAy9QeTfyz7GrSXtl/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:04:09.289Z",
-          "price_date": "06.07.2026"
-        },
-        {
-          "file": "KV Ready-to-Move-In Price List - Master - 06.07.26.pdf",
-          "file_id": "1XTuTLPXk-akgTSjjg3HOSeHUvasq0crv",
-          "file_url": "https://drive.google.com/file/d/1XTuTLPXk-akgTSjjg3HOSeHUvasq0crv/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:03:57.803Z",
-          "price_date": "06.07.26"
-        },
-        {
-          "file": "KV - Lily Residences Daily Pricelist 06.07.2026.pdf",
-          "file_id": "1V5_O3AP34VKirTdZUln4xzYxOUdO5r16",
-          "file_url": "https://drive.google.com/file/d/1V5_O3AP34VKirTdZUln4xzYxOUdO5r16/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:03:48.481Z",
-          "price_date": "06.07.2026"
-        },
-        {
-          "file": "KV - Lily Residences Daily Pricelist _15.06.2026_.pdf",
-          "file_id": "1p0sIBbMb1Smtynl5gfTojMXkLGRdNIub",
-          "file_url": "https://drive.google.com/file/d/1p0sIBbMb1Smtynl5gfTojMXkLGRdNIub/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:23:48.656Z",
-          "price_date": "15.06.2026"
-        },
-        {
-          "file": "KV Ready-to-Move-In Daily Price List  - 15.06.26.pdf",
-          "file_id": "1lyjWVX2zNENAqu07bph9xNFPjVMQFNF2",
-          "file_url": "https://drive.google.com/file/d/1lyjWVX2zNENAqu07bph9xNFPjVMQFNF2/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:24:24.128Z",
-          "price_date": "15.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Townhouses Price List - 29.06.2026.pdf",
-          "file_id": "1lnBXeFytqB4ddUU3CAAoGx_JEvKLBX5p",
-          "file_url": "https://drive.google.com/file/d/1lnBXeFytqB4ddUU3CAAoGx_JEvKLBX5p/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:51:04.086Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "Skyview Gardens - Daily Price List 29.06.2026.pdf",
-          "file_id": "1rFzBdtAy2YCMr7ttSfrtR-SxDBTwJZ_y",
-          "file_url": "https://drive.google.com/file/d/1rFzBdtAy2YCMr7ttSfrtR-SxDBTwJZ_y/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:50:56.355Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "KV Ready-to-Move-In Price List - Master - 29.06.26.pdf",
-          "file_id": "1C-JEH_eVBVDtEVNhD_ZFi0r1nN9ueM0l",
-          "file_url": "https://drive.google.com/file/d/1C-JEH_eVBVDtEVNhD_ZFi0r1nN9ueM0l/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:50:52.714Z",
-          "price_date": "29.06.26"
-        },
-        {
-          "file": "KV - Lily Residences Daily Pricelist 29.06.2026.pdf",
-          "file_id": "10AizkuQcPrQDm7FviTp7Y7xg4oJhBqE2",
-          "file_url": "https://drive.google.com/file/d/10AizkuQcPrQDm7FviTp7Y7xg4oJhBqE2/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:50:49.318Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "Townhouses Price List - 15.06.2026.pdf",
-          "file_id": "1qiLZnMDTTSmGUpqV9e_3gV35pBH5PChz",
-          "file_url": "https://drive.google.com/file/d/1qiLZnMDTTSmGUpqV9e_3gV35pBH5PChz/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:24:06.246Z",
-          "price_date": "15.06.2026"
-        },
-        {
-          "file": "Skyview Gardens - Daily Price List 15.06.2026.pdf",
-          "file_id": "12pk7cc-cQy_JPP269Uhnj85MLuSGhfVm",
-          "file_url": "https://drive.google.com/file/d/12pk7cc-cQy_JPP269Uhnj85MLuSGhfVm/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:23:58.849Z",
-          "price_date": "15.06.2026"
-        },
-        {
-          "file": "KV Ready-to-Move-In Daily Price List  - 09.06.26.pdf",
-          "file_id": "1_VQDOgj0UDmHEOQVWzy6AHATFb24hJaj",
-          "file_url": "https://drive.google.com/file/d/1_VQDOgj0UDmHEOQVWzy6AHATFb24hJaj/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:11.657Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "Skyview Gardens - Daily Price List 08.06.2026.pdf",
-          "file_id": "16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw",
-          "file_url": "https://drive.google.com/file/d/16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:32.000Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "Townhouses Price List - 08.06.2026.pdf",
-          "file_id": "1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH",
-          "file_url": "https://drive.google.com/file/d/1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:31.000Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "KV Ready-to-Move-In Daily Price List  - 08.06.26.pdf",
-          "file_id": "1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN",
-          "file_url": "https://drive.google.com/file/d/1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:30.000Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "2026-05-28_Townhouses Price List - 18.05.2026.pdf",
-          "file_id": "1gUjnMXFWdi7InYCh-XgsR_Qh2SRa0EfK",
-          "file_url": "https://drive.google.com/file/d/1gUjnMXFWdi7InYCh-XgsR_Qh2SRa0EfK/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:20:53.192Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Skyview Gardens - Daily Price List 18.05.2026.pdf",
-          "file_id": "1gIrRiK1dORshNUYms0W3Ekzg3Qe4esqN",
-          "file_url": "https://drive.google.com/file/d/1gIrRiK1dORshNUYms0W3Ekzg3Qe4esqN/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:20:50.662Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_KV Ready-to-Move-In Daily Price List  - 18.05.26.pdf",
-          "file_id": "1wF1gu8WVMdxZjydmtFzF-R7LYHjil6O4",
-          "file_url": "https://drive.google.com/file/d/1wF1gu8WVMdxZjydmtFzF-R7LYHjil6O4/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:20:47.949Z",
-          "price_date": "26-05-28"
         }
       ],
       "notes": []
@@ -7911,13 +7759,165 @@
         }
       ],
       "notes": []
+    },
+    "SE3 - Kidbrooke Village": {
+      "project": "SE3 - Kidbrooke Village",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / SE3 - Kidbrooke Village",
+      "folder_id": "11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7",
+      "folder_url": "https://drive.google.com/drive/folders/11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7",
+      "price_folder_id": "1BNZDcMh9phD2CVLDAtzdQlkrzwDPvAZ7",
+      "price_folder_url": "https://drive.google.com/drive/folders/1BNZDcMh9phD2CVLDAtzdQlkrzwDPvAZ7",
+      "old_price_folder_id": "13ZUbrSnYcYSvI-CHdh_p13mEsInMrubk",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/13ZUbrSnYcYSvI-CHdh_p13mEsInMrubk",
+      "latest_files": [
+        {
+          "file": "Townhouses Price List - 06.07.2026.pdf",
+          "file_id": "1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6",
+          "file_url": "https://drive.google.com/file/d/1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:04:17.300Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "Skyview Gardens - Daily Price List 06.07.2026.pdf",
+          "file_id": "1OyVO_PBkBKmdTXTiAy9QeTfyz7GrSXtl",
+          "file_url": "https://drive.google.com/file/d/1OyVO_PBkBKmdTXTiAy9QeTfyz7GrSXtl/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:04:09.289Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "KV Ready-to-Move-In Price List - Master - 06.07.26.pdf",
+          "file_id": "1XTuTLPXk-akgTSjjg3HOSeHUvasq0crv",
+          "file_url": "https://drive.google.com/file/d/1XTuTLPXk-akgTSjjg3HOSeHUvasq0crv/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:03:57.803Z",
+          "price_date": "06.07.26"
+        },
+        {
+          "file": "KV - Lily Residences Daily Pricelist 06.07.2026.pdf",
+          "file_id": "1V5_O3AP34VKirTdZUln4xzYxOUdO5r16",
+          "file_url": "https://drive.google.com/file/d/1V5_O3AP34VKirTdZUln4xzYxOUdO5r16/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:03:48.481Z",
+          "price_date": "06.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Townhouses Price List - 29.06.2026.pdf",
+          "file_id": "1lnBXeFytqB4ddUU3CAAoGx_JEvKLBX5p",
+          "file_url": "https://drive.google.com/file/d/1lnBXeFytqB4ddUU3CAAoGx_JEvKLBX5p/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:51:04.086Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "Skyview Gardens - Daily Price List 29.06.2026.pdf",
+          "file_id": "1rFzBdtAy2YCMr7ttSfrtR-SxDBTwJZ_y",
+          "file_url": "https://drive.google.com/file/d/1rFzBdtAy2YCMr7ttSfrtR-SxDBTwJZ_y/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:56.355Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "KV Ready-to-Move-In Price List - Master - 29.06.26.pdf",
+          "file_id": "1C-JEH_eVBVDtEVNhD_ZFi0r1nN9ueM0l",
+          "file_url": "https://drive.google.com/file/d/1C-JEH_eVBVDtEVNhD_ZFi0r1nN9ueM0l/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:52.714Z",
+          "price_date": "29.06.26"
+        },
+        {
+          "file": "KV - Lily Residences Daily Pricelist 29.06.2026.pdf",
+          "file_id": "10AizkuQcPrQDm7FviTp7Y7xg4oJhBqE2",
+          "file_url": "https://drive.google.com/file/d/10AizkuQcPrQDm7FviTp7Y7xg4oJhBqE2/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:49.318Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "Townhouses Price List - 15.06.2026.pdf",
+          "file_id": "1qiLZnMDTTSmGUpqV9e_3gV35pBH5PChz",
+          "file_url": "https://drive.google.com/file/d/1qiLZnMDTTSmGUpqV9e_3gV35pBH5PChz/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:24:06.246Z",
+          "price_date": "15.06.2026"
+        },
+        {
+          "file": "Skyview Gardens - Daily Price List 15.06.2026.pdf",
+          "file_id": "12pk7cc-cQy_JPP269Uhnj85MLuSGhfVm",
+          "file_url": "https://drive.google.com/file/d/12pk7cc-cQy_JPP269Uhnj85MLuSGhfVm/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:23:58.849Z",
+          "price_date": "15.06.2026"
+        },
+        {
+          "file": "KV - Lily Residences Daily Pricelist _15.06.2026_.pdf",
+          "file_id": "1p0sIBbMb1Smtynl5gfTojMXkLGRdNIub",
+          "file_url": "https://drive.google.com/file/d/1p0sIBbMb1Smtynl5gfTojMXkLGRdNIub/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:23:48.656Z",
+          "price_date": "15.06.2026"
+        },
+        {
+          "file": "KV Ready-to-Move-In Daily Price List  - 15.06.26.pdf",
+          "file_id": "1lyjWVX2zNENAqu07bph9xNFPjVMQFNF2",
+          "file_url": "https://drive.google.com/file/d/1lyjWVX2zNENAqu07bph9xNFPjVMQFNF2/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:24.128Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "KV Ready-to-Move-In Daily Price List  - 09.06.26.pdf",
+          "file_id": "1_VQDOgj0UDmHEOQVWzy6AHATFb24hJaj",
+          "file_url": "https://drive.google.com/file/d/1_VQDOgj0UDmHEOQVWzy6AHATFb24hJaj/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:03:11.657Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "Skyview Gardens - Daily Price List 08.06.2026.pdf",
+          "file_id": "16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw",
+          "file_url": "https://drive.google.com/file/d/16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:32.000Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "Townhouses Price List - 08.06.2026.pdf",
+          "file_id": "1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH",
+          "file_url": "https://drive.google.com/file/d/1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:31.000Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "KV Ready-to-Move-In Daily Price List  - 08.06.26.pdf",
+          "file_id": "1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN",
+          "file_url": "https://drive.google.com/file/d/1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:30.000Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "2026-05-28_Townhouses Price List - 18.05.2026.pdf",
+          "file_id": "1gUjnMXFWdi7InYCh-XgsR_Qh2SRa0EfK",
+          "file_url": "https://drive.google.com/file/d/1gUjnMXFWdi7InYCh-XgsR_Qh2SRa0EfK/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:20:53.192Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Skyview Gardens - Daily Price List 18.05.2026.pdf",
+          "file_id": "1gIrRiK1dORshNUYms0W3Ekzg3Qe4esqN",
+          "file_url": "https://drive.google.com/file/d/1gIrRiK1dORshNUYms0W3Ekzg3Qe4esqN/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:20:50.662Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_KV Ready-to-Move-In Daily Price List  - 18.05.26.pdf",
+          "file_id": "1wF1gu8WVMdxZjydmtFzF-R7LYHjil6O4",
+          "file_url": "https://drive.google.com/file/d/1wF1gu8WVMdxZjydmtFzF-R7LYHjil6O4/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:20:47.949Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
+    "11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7"
   ],
   "targeted_projects": [
-    "W12 - White City Living"
+    "SE3 - Kidbrooke Village"
   ]
 }
