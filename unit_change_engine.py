@@ -192,6 +192,11 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
                 if "bed" in key and "bed" not in current_key:
                     mapping[field] = pos
                 continue
+            if field == "unit" and field in mapping:
+                current_key = header_key(row[mapping[field]]) if mapping[field] < len(row) else ""
+                if ("unit" in key or "no" in key) and "unit" not in current_key:
+                    mapping[field] = pos
+                continue
             if field not in mapping:
                 mapping[field] = pos
         current_bedroom = ""

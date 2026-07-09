@@ -2056,10 +2056,10 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
         latest_dt = parse_dt(latest)
         latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
         return (
+            latest_sort,
             group_rank(market_group(context)),
             postcode_rank(context.get("name", project)),
             -len(rows),
-            latest_sort,
             project,
         )
 
@@ -2080,7 +2080,19 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
         for project in projects:
             projects_by_group[market_group(project_context(project))].append(project)
         group_blocks = []
-        for group_name in sorted(projects_by_group, key=group_rank):
+        group_latest = {
+            group_name: max(
+                (
+                    parse_dt(row.get("created_at", "")).timestamp()
+                    for project in group_projects
+                    for row in grouped[project][category]
+                    if parse_dt(row.get("created_at", ""))
+                ),
+                default=0,
+            )
+            for group_name, group_projects in projects_by_group.items()
+        }
+        for group_name in sorted(projects_by_group, key=lambda name: (-group_latest.get(name, 0), group_rank(name), name)):
             cards = []
             group_projects = sorted(
                 projects_by_group[group_name],
