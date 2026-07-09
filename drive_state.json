@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-08T13:58:51",
+  "synced_at": "2026-07-09T09:30:36",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -6706,102 +6706,6 @@
       ],
       "notes": []
     },
-    "W12 - White City Living": {
-      "project": "W12 - White City Living",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / W12 - White City Living",
-      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "latest_files": [
-        {
-          "file": "WCL - Solaris Two 02.07.26.pdf",
-          "file_id": "162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX",
-          "file_url": "https://drive.google.com/file/d/162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:22.809Z",
-          "price_date": "02.07.26"
-        },
-        {
-          "file": "WCL - Cascades Three price list - 02.07.26.pdf",
-          "file_id": "1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6",
-          "file_url": "https://drive.google.com/file/d/1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:16.557Z",
-          "price_date": "02.07.26"
-        },
-        {
-          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
-          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
-          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:40.017Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL Ready to Move 09.06.26.pdf",
-          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
-          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:38.068Z",
-          "price_date": "09.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "WCL - Solaris Two 27.06.26.pdf",
-          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
-          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:42.040Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
-          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
-          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:37.880Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL Solaris Two 09.06.26.pdf",
-          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
-          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:41.309Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 09.06.26.pdf",
-          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
-          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:34.629Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Solaris Two 22.05.26.pdf",
-          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
-          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:51.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Ready to Move 22.05.26.pdf",
-          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
-          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:49.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 22.05.26.pdf",
-          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
-          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
-          "modified_at": "2026-05-23T01:30:00.000Z",
-          "price_date": "22.05.26"
-        }
-      ],
-      "notes": []
-    },
     "Bankside Gardens": {
       "project": "Bankside Gardens",
       "city": "未分类",
@@ -7904,13 +7808,116 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "W12 - White City Living": {
+      "project": "W12 - White City Living",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / W12 - White City Living",
+      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "latest_files": [
+        {
+          "file": "WCL-Ready to Move In- Solaris One 02.07.26.pdf",
+          "file_id": "14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ",
+          "file_url": "https://drive.google.com/file/d/14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:55:40.279Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Solaris Two 02.07.26.pdf",
+          "file_id": "162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX",
+          "file_url": "https://drive.google.com/file/d/162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:22.809Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 02.07.26.pdf",
+          "file_id": "1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6",
+          "file_url": "https://drive.google.com/file/d/1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:16.557Z",
+          "price_date": "02.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "WCL - Solaris Two 27.06.26.pdf",
+          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
+          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:42.040Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
+          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
+          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:40.017Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
+          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
+          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:37.880Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 09.06.26.pdf",
+          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
+          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:41.309Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Ready to Move 09.06.26.pdf",
+          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
+          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:38.068Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 09.06.26.pdf",
+          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
+          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:34.629Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 22.05.26.pdf",
+          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
+          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:51.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Ready to Move 22.05.26.pdf",
+          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
+          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:49.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 22.05.26.pdf",
+          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
+          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
+          "modified_at": "2026-05-23T01:30:00.000Z",
+          "price_date": "22.05.26"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1sndVwGGpdPQYWi_IRMjwIWxZ3WeZPZd4"
+    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
   ],
   "targeted_projects": [
-    "B18 - Spring Hill"
+    "W12 - White City Living"
   ]
 }
