@@ -1384,7 +1384,7 @@ def render_dashboard(data: dict) -> bytes:
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(2000)
-    unit_focus_cards = render_unit_project_changes(all_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
+    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1463,8 +1463,8 @@ def render_dashboard(data: dict) -> bytes:
       <section class="panel unit-highlight" style="margin-top:18px">
         <div class="unit-cta">
           <div>
-            <h2>本周房源变化工作清单</h2>
-            <div class="muted">按项目汇总本周全部房源变化，先看分类数量，再逐套跟进具体房号和来源价单。</div>
+            <h2>按楼盘分组的重点变化</h2>
+            <div class="muted">优先看降价、售出/锁定/下架、新增或新低价机会；同一个楼盘的多套变化放在一起。</div>
           </div>
           <a href="/unit-changes">查看全部房源变化</a>
         </div>
@@ -2089,14 +2089,12 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
             for project in group_projects:
                 rows = grouped[project][category]
                 rows = sorted(rows, key=lambda row: row.get("created_at", ""), reverse=True)
-                items = render_unit_rows(rows[:8], source_link_func)
-                extra = f'<div class="unit-note">另有 {len(rows) - 8} 套未展开</div>' if len(rows) > 8 else ""
+                items = render_unit_rows(rows, source_link_func)
                 cards.append(
                     f"""<article class="unit-project-card">
                       <h3>{project_link_func(project)}</h3>
                       <div class="small-meta">{len(rows)} 套</div>
                       <ul class="unit-list">{items}</ul>
-                      {extra}
                     </article>"""
                 )
             group_blocks.append(
