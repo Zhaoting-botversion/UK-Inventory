@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-09T15:52:09",
+  "synced_at": "2026-07-09T16:57:54",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1750,39 +1750,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "E14 - South Quay Plaza": {
-      "project": "E14 - South Quay Plaza",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / London 伦敦 / E14 - South Quay Plaza",
-      "folder_id": "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
-      "folder_url": "https://drive.google.com/drive/folders/1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
-      "price_folder_id": "1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
-      "price_folder_url": "https://drive.google.com/drive/folders/1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
-      "old_price_folder_id": "1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
-      "latest_files": [
-        {
-          "file": "SQP Daily Price List 25.06.2026.pdf",
-          "file_id": "1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5",
-          "file_url": "https://drive.google.com/file/d/1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5/view?usp=drivesdk",
-          "modified_at": "2026-06-30T02:19:02.568Z",
-          "price_date": "25.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "SQP Daily Price List 06.06.2026.pdf",
-          "file_id": "1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql",
-          "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:30.000Z",
-          "price_date": "06.06.2026"
-        }
-      ],
-      "notes": []
-    },
     "E3 - Heron Wharf": {
       "project": "E3 - Heron Wharf",
       "city": "London",
@@ -1816,116 +1783,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "E3 - Twelvetrees Park": {
-      "project": "E3 - Twelvetrees Park",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / E3 - Twelvetrees Park",
-      "folder_id": "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
-      "folder_url": "https://drive.google.com/drive/folders/1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
-      "price_folder_id": "1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
-      "price_folder_url": "https://drive.google.com/drive/folders/1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
-      "old_price_folder_id": "1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
-      "latest_files": [
-        {
-          "file": "The Redwood Price List 21.6.26.pdf",
-          "file_id": "1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y",
-          "file_url": "https://drive.google.com/file/d/1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:28.479Z",
-          "price_date": "21.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 21.06.2026.pdf",
-          "file_id": "14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG",
-          "file_url": "https://drive.google.com/file/d/14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:15.189Z",
-          "price_date": "21.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 21.06.2026.pdf",
-          "file_id": "1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS",
-          "file_url": "https://drive.google.com/file/d/1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:07.568Z",
-          "price_date": "21.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Redwood Price List 14.6.26.pdf",
-          "file_id": "1NEB8CQNQpRVdh1hnQT337MooJlE02jCq",
-          "file_url": "https://drive.google.com/file/d/1NEB8CQNQpRVdh1hnQT337MooJlE02jCq/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:27:17.483Z",
-          "price_date": "14.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 14.06.2026.pdf",
-          "file_id": "1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X",
-          "file_url": "https://drive.google.com/file/d/1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:26:59.196Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 14.06.2026.pdf",
-          "file_id": "1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS",
-          "file_url": "https://drive.google.com/file/d/1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:26:52.725Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "The Redwood Price List 06.6.26.pdf",
-          "file_id": "1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY",
-          "file_url": "https://drive.google.com/file/d/1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
-          "price_date": "06.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 06.06.2026.pdf",
-          "file_id": "1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv",
-          "file_url": "https://drive.google.com/file/d/1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 06.06.2026.pdf",
-          "file_id": "16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM",
-          "file_url": "https://drive.google.com/file/d/16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:39.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "2026-05-28_Penthouse Collection Price List 17.05.2026.pdf",
-          "file_id": "1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2",
-          "file_url": "https://drive.google.com/file/d/1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:06.273Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Evergreen Point Price List 17.05.26.pdf",
-          "file_id": "1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu",
-          "file_url": "https://drive.google.com/file/d/1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:03.681Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Redwood Price List 17.05.26.pdf",
-          "file_id": "1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3",
-          "file_url": "https://drive.google.com/file/d/1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:01.381Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Skyline Residence Price List 17.05.2026.pdf",
-          "file_id": "1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX",
-          "file_url": "https://drive.google.com/file/d/1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:58.778Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
     },
     "EN4 - Trent Park": {
       "project": "EN4 - Trent Park",
@@ -1994,137 +1851,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "N4 - Woodberry Down": {
-      "project": "N4 - Woodberry Down",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / N4 - Woodberry Down",
-      "folder_id": "1KTtVtZum8twySVduSg32i6hgff4DXp5t",
-      "folder_url": "https://drive.google.com/drive/folders/1KTtVtZum8twySVduSg32i6hgff4DXp5t",
-      "price_folder_id": "1YfsWyGdp4ZwKrCGdQNfwlQiLkAOaI5rF",
-      "price_folder_url": "https://drive.google.com/drive/folders/1YfsWyGdp4ZwKrCGdQNfwlQiLkAOaI5rF",
-      "old_price_folder_id": "1_0envKWp1FWNdmdCnwd8m6HickhnOt7-",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_0envKWp1FWNdmdCnwd8m6HickhnOt7-",
-      "latest_files": [
-        {
-          "file": "Woodberry Down - Editions Price List 22.06.2026.pdf",
-          "file_id": "1fMqJsFXTj4OC5ioIdSosT2SxsOat9xaG",
-          "file_url": "https://drive.google.com/file/d/1fMqJsFXTj4OC5ioIdSosT2SxsOat9xaG/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:57:42.763Z",
-          "price_date": "22.06.2026"
-        },
-        {
-          "file": "WD The Crown Collection Penthouse Price List 22.06.2026.pdf",
-          "file_id": "1bHUhnDdyPhzvuytWeIqZYI3VRVa6wu0T",
-          "file_url": "https://drive.google.com/file/d/1bHUhnDdyPhzvuytWeIqZYI3VRVa6wu0T/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:57:35.965Z",
-          "price_date": "22.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Iris Pricelist 22.06.2026.pdf",
-          "file_id": "1JP5UTAIzQIcLONS_e_S5vpQS6MnVUNua",
-          "file_url": "https://drive.google.com/file/d/1JP5UTAIzQIcLONS_e_S5vpQS6MnVUNua/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:57:24.491Z",
-          "price_date": "22.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Alba Pricelist 22.06.2026.pdf",
-          "file_id": "1jPq0fDS1SYVdZgHxMLnnqus2GPjtVZMC",
-          "file_url": "https://drive.google.com/file/d/1jPq0fDS1SYVdZgHxMLnnqus2GPjtVZMC/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:57:10.425Z",
-          "price_date": "22.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Iris Pricelist 08.06.2026 (1).pdf",
-          "file_id": "1qLlEvjSZBbtbROEkZX9SD4JAH_c-cAZq",
-          "file_url": "https://drive.google.com/file/d/1qLlEvjSZBbtbROEkZX9SD4JAH_c-cAZq/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:18:29.755Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Alba Pricelist 08.06.2026 (1).pdf",
-          "file_id": "1MmG3hvoNecE2mg2dLJBPrs2N5iDTM6fr",
-          "file_url": "https://drive.google.com/file/d/1MmG3hvoNecE2mg2dLJBPrs2N5iDTM6fr/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:18:26.625Z",
-          "price_date": "08.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Woodberry Down - Editions Price List 07.06.2026.pdf",
-          "file_id": "1Nxo-yPRn778vlc7NqqMyUzfHfvoWK_-l",
-          "file_url": "https://drive.google.com/file/d/1Nxo-yPRn778vlc7NqqMyUzfHfvoWK_-l/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:54.802Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "WD The Crown Collection Penthouse Price List 07.06.2026.pdf",
-          "file_id": "1HwWll7eL390N0xGK9RDGj9UTo0JPEiHL",
-          "file_url": "https://drive.google.com/file/d/1HwWll7eL390N0xGK9RDGj9UTo0JPEiHL/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:50.736Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "Woodberry Down - Editions Price List 06.06.2026.pdf",
-          "file_id": "1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI",
-          "file_url": "https://drive.google.com/file/d/1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:43.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "WD The Crown Collection Penthouse Price List 06.06.2026.pdf",
-          "file_id": "1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC",
-          "file_url": "https://drive.google.com/file/d/1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:42.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Alba Pricelist 06.06.2026.pdf",
-          "file_id": "1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-",
-          "file_url": "https://drive.google.com/file/d/1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:41.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "The Grove Collection - The Iris Pricelist 06.06.2026.pdf",
-          "file_id": "1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F",
-          "file_url": "https://drive.google.com/file/d/1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:41.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "2026-05-28_The Grove Collection - The Iris Pricelist 17.05.2026.pdf",
-          "file_id": "1CTaKWrHIU3YCfd8olxtv17519p21_-Oz",
-          "file_url": "https://drive.google.com/file/d/1CTaKWrHIU3YCfd8olxtv17519p21_-Oz/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:41.827Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Grove Collection - The Alba Pricelist 17.05.2026.pdf",
-          "file_id": "1ydq1TYVy4k7oS5ZtrsyYDbY5SfnTtGij",
-          "file_url": "https://drive.google.com/file/d/1ydq1TYVy4k7oS5ZtrsyYDbY5SfnTtGij/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:39.022Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Woodberry Down - Editions Price List 17.05.2026.pdf",
-          "file_id": "1QU2_zfuYpB_XbEg-TFGrjnXSuKsUpNKq",
-          "file_url": "https://drive.google.com/file/d/1QU2_zfuYpB_XbEg-TFGrjnXSuKsUpNKq/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:36.433Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_WD The Crown Collection Penthouse Price List 17.05.2026.pdf",
-          "file_id": "1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB",
-          "file_url": "https://drive.google.com/file/d/1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:33.602Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
     },
     "HA9 - Fulton & Fifth": {
       "project": "HA9 - Fulton & Fifth",
@@ -7911,13 +7637,347 @@
         }
       ],
       "notes": []
+    },
+    "E14 - South Quay Plaza": {
+      "project": "E14 - South Quay Plaza",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / E14 - South Quay Plaza",
+      "folder_id": "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
+      "folder_url": "https://drive.google.com/drive/folders/1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
+      "price_folder_id": "1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
+      "old_price_folder_id": "1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
+      "latest_files": [
+        {
+          "file": "SQP Daily Price List 04.07.2026.pdf",
+          "file_id": "1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8",
+          "file_url": "https://drive.google.com/file/d/1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:46:34.760Z",
+          "price_date": "04.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "SQP Daily Price List 25.06.2026.pdf",
+          "file_id": "1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5",
+          "file_url": "https://drive.google.com/file/d/1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5/view?usp=drivesdk",
+          "modified_at": "2026-06-30T02:19:02.568Z",
+          "price_date": "25.06.2026"
+        },
+        {
+          "file": "SQP Daily Price List 06.06.2026.pdf",
+          "file_id": "1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql",
+          "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:30.000Z",
+          "price_date": "06.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "E3 - Twelvetrees Park": {
+      "project": "E3 - Twelvetrees Park",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / E3 - Twelvetrees Park",
+      "folder_id": "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
+      "folder_url": "https://drive.google.com/drive/folders/1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
+      "price_folder_id": "1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
+      "old_price_folder_id": "1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
+      "latest_files": [
+        {
+          "file": "The Redwood Price List 05.07.26.pdf",
+          "file_id": "1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv",
+          "file_url": "https://drive.google.com/file/d/1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:35.582Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "Skyline Residence Price List 05.07.2026.pdf",
+          "file_id": "1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n",
+          "file_url": "https://drive.google.com/file/d/1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:22.849Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 05.07.2026.pdf",
+          "file_id": "19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO",
+          "file_url": "https://drive.google.com/file/d/19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:15.787Z",
+          "price_date": "05.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Redwood Price List 21.6.26.pdf",
+          "file_id": "1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y",
+          "file_url": "https://drive.google.com/file/d/1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:28.479Z",
+          "price_date": "21.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 21.06.2026.pdf",
+          "file_id": "14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG",
+          "file_url": "https://drive.google.com/file/d/14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:15.189Z",
+          "price_date": "21.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 21.06.2026.pdf",
+          "file_id": "1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS",
+          "file_url": "https://drive.google.com/file/d/1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:07.568Z",
+          "price_date": "21.06.2026"
+        },
+        {
+          "file": "The Redwood Price List 14.6.26.pdf",
+          "file_id": "1NEB8CQNQpRVdh1hnQT337MooJlE02jCq",
+          "file_url": "https://drive.google.com/file/d/1NEB8CQNQpRVdh1hnQT337MooJlE02jCq/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:27:17.483Z",
+          "price_date": "14.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 14.06.2026.pdf",
+          "file_id": "1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X",
+          "file_url": "https://drive.google.com/file/d/1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:26:59.196Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 14.06.2026.pdf",
+          "file_id": "1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS",
+          "file_url": "https://drive.google.com/file/d/1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:26:52.725Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "The Redwood Price List 06.6.26.pdf",
+          "file_id": "1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY",
+          "file_url": "https://drive.google.com/file/d/1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:40.000Z",
+          "price_date": "06.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 06.06.2026.pdf",
+          "file_id": "1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv",
+          "file_url": "https://drive.google.com/file/d/1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:40.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 06.06.2026.pdf",
+          "file_id": "16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM",
+          "file_url": "https://drive.google.com/file/d/16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:39.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "2026-05-28_Penthouse Collection Price List 17.05.2026.pdf",
+          "file_id": "1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2",
+          "file_url": "https://drive.google.com/file/d/1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:06.273Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Evergreen Point Price List 17.05.26.pdf",
+          "file_id": "1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu",
+          "file_url": "https://drive.google.com/file/d/1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:03.681Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Redwood Price List 17.05.26.pdf",
+          "file_id": "1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3",
+          "file_url": "https://drive.google.com/file/d/1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:01.381Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Skyline Residence Price List 17.05.2026.pdf",
+          "file_id": "1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX",
+          "file_url": "https://drive.google.com/file/d/1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:58.778Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "N4 - Woodberry Down": {
+      "project": "N4 - Woodberry Down",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / N4 - Woodberry Down",
+      "folder_id": "1KTtVtZum8twySVduSg32i6hgff4DXp5t",
+      "folder_url": "https://drive.google.com/drive/folders/1KTtVtZum8twySVduSg32i6hgff4DXp5t",
+      "price_folder_id": "1YfsWyGdp4ZwKrCGdQNfwlQiLkAOaI5rF",
+      "price_folder_url": "https://drive.google.com/drive/folders/1YfsWyGdp4ZwKrCGdQNfwlQiLkAOaI5rF",
+      "old_price_folder_id": "1_0envKWp1FWNdmdCnwd8m6HickhnOt7-",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_0envKWp1FWNdmdCnwd8m6HickhnOt7-",
+      "latest_files": [
+        {
+          "file": "Woodberry Down - Editions Price List 04.07.2026.pdf",
+          "file_id": "1SNve2Xp0qbjj-jzWvHmoGszzqAcnwc8n",
+          "file_url": "https://drive.google.com/file/d/1SNve2Xp0qbjj-jzWvHmoGszzqAcnwc8n/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:48:58.790Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "WD The Crown Collection Penthouse Price List 04.07.2026.pdf",
+          "file_id": "1MW_yo2WhAGPzKlnUlAuVjTGrwit2m1N4",
+          "file_url": "https://drive.google.com/file/d/1MW_yo2WhAGPzKlnUlAuVjTGrwit2m1N4/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:48:51.957Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "The Grove Collection - The Iris Pricelist 04.07.2026.pdf",
+          "file_id": "1InxbpltkQf-H7b7WhPfB5kNJYntpkG-Z",
+          "file_url": "https://drive.google.com/file/d/1InxbpltkQf-H7b7WhPfB5kNJYntpkG-Z/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:48:40.840Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "The Grove Collection - The Alba Pricelist 04.07.2026.pdf",
+          "file_id": "125oayA6tdSB_m4AowirK7dWXUM_NUQnU",
+          "file_url": "https://drive.google.com/file/d/125oayA6tdSB_m4AowirK7dWXUM_NUQnU/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:48:23.164Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "The Grove Collection - The Iris Pricelist 08.06.2026 (1).pdf",
+          "file_id": "1qLlEvjSZBbtbROEkZX9SD4JAH_c-cAZq",
+          "file_url": "https://drive.google.com/file/d/1qLlEvjSZBbtbROEkZX9SD4JAH_c-cAZq/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:18:29.755Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "The Grove Collection - The Alba Pricelist 08.06.2026 (1).pdf",
+          "file_id": "1MmG3hvoNecE2mg2dLJBPrs2N5iDTM6fr",
+          "file_url": "https://drive.google.com/file/d/1MmG3hvoNecE2mg2dLJBPrs2N5iDTM6fr/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:18:26.625Z",
+          "price_date": "08.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Woodberry Down - Editions Price List 22.06.2026.pdf",
+          "file_id": "1fMqJsFXTj4OC5ioIdSosT2SxsOat9xaG",
+          "file_url": "https://drive.google.com/file/d/1fMqJsFXTj4OC5ioIdSosT2SxsOat9xaG/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:57:42.763Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "WD The Crown Collection Penthouse Price List 22.06.2026.pdf",
+          "file_id": "1bHUhnDdyPhzvuytWeIqZYI3VRVa6wu0T",
+          "file_url": "https://drive.google.com/file/d/1bHUhnDdyPhzvuytWeIqZYI3VRVa6wu0T/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:57:35.965Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "The Grove Collection - The Iris Pricelist 22.06.2026.pdf",
+          "file_id": "1JP5UTAIzQIcLONS_e_S5vpQS6MnVUNua",
+          "file_url": "https://drive.google.com/file/d/1JP5UTAIzQIcLONS_e_S5vpQS6MnVUNua/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:57:24.491Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "The Grove Collection - The Alba Pricelist 22.06.2026.pdf",
+          "file_id": "1jPq0fDS1SYVdZgHxMLnnqus2GPjtVZMC",
+          "file_url": "https://drive.google.com/file/d/1jPq0fDS1SYVdZgHxMLnnqus2GPjtVZMC/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:57:10.425Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "Woodberry Down - Editions Price List 07.06.2026.pdf",
+          "file_id": "1Nxo-yPRn778vlc7NqqMyUzfHfvoWK_-l",
+          "file_url": "https://drive.google.com/file/d/1Nxo-yPRn778vlc7NqqMyUzfHfvoWK_-l/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:54.802Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "WD The Crown Collection Penthouse Price List 07.06.2026.pdf",
+          "file_id": "1HwWll7eL390N0xGK9RDGj9UTo0JPEiHL",
+          "file_url": "https://drive.google.com/file/d/1HwWll7eL390N0xGK9RDGj9UTo0JPEiHL/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:50.736Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "Woodberry Down - Editions Price List 06.06.2026.pdf",
+          "file_id": "1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI",
+          "file_url": "https://drive.google.com/file/d/1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:43.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "WD The Crown Collection Penthouse Price List 06.06.2026.pdf",
+          "file_id": "1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC",
+          "file_url": "https://drive.google.com/file/d/1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:42.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "The Grove Collection - The Alba Pricelist 06.06.2026.pdf",
+          "file_id": "1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-",
+          "file_url": "https://drive.google.com/file/d/1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:41.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "The Grove Collection - The Iris Pricelist 06.06.2026.pdf",
+          "file_id": "1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F",
+          "file_url": "https://drive.google.com/file/d/1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:41.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "2026-05-28_The Grove Collection - The Iris Pricelist 17.05.2026.pdf",
+          "file_id": "1CTaKWrHIU3YCfd8olxtv17519p21_-Oz",
+          "file_url": "https://drive.google.com/file/d/1CTaKWrHIU3YCfd8olxtv17519p21_-Oz/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:41.827Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Grove Collection - The Alba Pricelist 17.05.2026.pdf",
+          "file_id": "1ydq1TYVy4k7oS5ZtrsyYDbY5SfnTtGij",
+          "file_url": "https://drive.google.com/file/d/1ydq1TYVy4k7oS5ZtrsyYDbY5SfnTtGij/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:39.022Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Woodberry Down - Editions Price List 17.05.2026.pdf",
+          "file_id": "1QU2_zfuYpB_XbEg-TFGrjnXSuKsUpNKq",
+          "file_url": "https://drive.google.com/file/d/1QU2_zfuYpB_XbEg-TFGrjnXSuKsUpNKq/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:36.433Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_WD The Crown Collection Penthouse Price List 17.05.2026.pdf",
+          "file_id": "1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB",
+          "file_url": "https://drive.google.com/file/d/1lMPudDEh22BuUM-nviN2_EeFjjWJnIeB/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:33.602Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7"
+    "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
+    "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
+    "1KTtVtZum8twySVduSg32i6hgff4DXp5t"
   ],
   "targeted_projects": [
-    "SE3 - Kidbrooke Village"
+    "E14 - South Quay Plaza",
+    "E3 - Twelvetrees Park",
+    "N4 - Woodberry Down"
   ]
 }
