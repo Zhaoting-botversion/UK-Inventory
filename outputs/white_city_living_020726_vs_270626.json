@@ -1,0 +1,109 @@
+[
+  {
+    "phase": "Cascades Three",
+    "phase_key": "wcl cascades three",
+    "old_file": "WCL - Cascades Three price list - 27.06.26.pdf",
+    "new_file": "WCL - Cascades Three price list - 02.07.26.pdf",
+    "old_units": 11,
+    "new_units": 11,
+    "old_error": null,
+    "new_error": null,
+    "events": []
+  },
+  {
+    "phase": "Solaris One",
+    "phase_key": "wcl solaris one",
+    "old_file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
+    "new_file": "WCL-Ready to Move In- Solaris One 02.07.26.pdf",
+    "old_units": 14,
+    "new_units": 14,
+    "old_error": null,
+    "new_error": null,
+    "events": [
+      {
+        "change_type": "PRICE_DROP",
+        "unit": "V18.02",
+        "floor": "18",
+        "bedroom": "3+Study",
+        "aspect": "South/West/North",
+        "old_price": 2850000.0,
+        "new_price": 2815000.0,
+        "price_change": -35000.0,
+        "old_status": "",
+        "new_status": ""
+      }
+    ]
+  },
+  {
+    "phase": "Solaris Two",
+    "phase_key": "wcl solaris two",
+    "old_file": "WCL - Solaris Two 27.06.26.pdf",
+    "new_file": "WCL - Solaris Two 02.07.26.pdf",
+    "old_units": 17,
+    "new_units": 16,
+    "old_error": null,
+    "new_error": null,
+    "events": [
+      {
+        "change_type": "SOLD_OR_REMOVED",
+        "unit": "W.08.01",
+        "floor": "8",
+        "bedroom": "1",
+        "aspect": "North/West",
+        "old_price": 775000.0,
+        "new_price": null,
+        "price_change": null,
+        "old_status": "",
+        "new_status": ""
+      },
+      {
+        "change_type": "SOLD_OR_REMOVED",
+        "unit": "W.14.01",
+        "floor": "14",
+        "bedroom": "1",
+        "aspect": "North/West",
+        "old_price": null,
+        "new_price": null,
+        "price_change": null,
+        "old_status": "",
+        "new_status": ""
+      },
+      {
+        "change_type": "NEW_RELEASE",
+        "unit": "W.14.03",
+        "floor": "14",
+        "bedroom": "1",
+        "aspect": "North/East",
+        "old_price": null,
+        "new_price": 775000.0,
+        "price_change": null,
+        "old_status": "",
+        "new_status": ""
+      },
+      {
+        "change_type": "PRICE_DROP",
+        "unit": "W.30.01",
+        "floor": "30/31",
+        "bedroom": "Penthouse",
+        "aspect": "South/West/North",
+        "old_price": 4000000.0,
+        "new_price": 3990000.0,
+        "price_change": -10000.0,
+        "old_status": "",
+        "new_status": ""
+      },
+      {
+        "change_type": "PRICE_DROP",
+        "unit": "W.30.02",
+        "floor": "30/31",
+        "bedroom": "Penthouse",
+        "aspect": "South/East/North",
+        "old_price": 4000000.0,
+        "new_price": 3990000.0,
+        "price_change": -10000.0,
+        "old_status": "",
+        "new_status": ""
+      }
+    ]
+  }
+]

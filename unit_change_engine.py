@@ -76,7 +76,7 @@ def header_to_field(value: str) -> str | None:
         return "rent_estimate"
     if "rental yield" in key:
         return None
-    if key in {"plot no", "plot", "unit", "apartment", "apartment number", "apt"}:
+    if key in {"plot no", "plot", "unit", "apartment", "apart ment", "apartment number", "apt"}:
         return "unit"
     for field, synonyms in FIELD_SYNONYMS.items():
         for synonym in synonyms:

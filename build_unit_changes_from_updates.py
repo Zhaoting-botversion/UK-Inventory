@@ -54,6 +54,7 @@ def normalize_phase(file_name: str) -> str:
     stem = re.sub(r"\b\d{1,2}(?:st|nd|rd|th)?\s+(?:jan|feb|mar|apr|may|jun|june|jul|july|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{2,4}\b", " ", stem)
     stem = re.sub(r"\b(?:jan|feb|mar|apr|may|jun|june|jul|july|aug|sep|sept|oct|nov|dec)[a-z]*\s+\d{2,4}\b", " ", stem)
     stem = re.sub(r"\b20\d{2}\b", " ", stem)
+    stem = re.sub(r"\bready\s+to\s+move(?:\s+in)?\b", " ", stem)
     stem = re.sub(r"\b(?:updated|new|latest|june|july|summer|fete)\b", " ", stem)
     return re.sub(r"[^a-z0-9]+", " ", stem).strip()
 
