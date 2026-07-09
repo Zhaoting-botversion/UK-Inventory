@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-09T18:04:58",
+  "synced_at": "2026-07-09T18:07:53",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7961,7 +7961,9 @@
           "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
           "modified_at": "2026-04-21T08:10:30.000Z",
           "price_date": ""
-        },
+        }
+      ],
+      "old_files": [
         {
           "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
           "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
@@ -7970,7 +7972,6 @@
           "price_date": ""
         }
       ],
-      "old_files": [],
       "notes": []
     }
   },
