@@ -303,6 +303,74 @@ def extract_pdf_position_records(path: Path) -> list[dict]:
     return list(deduped.values())
 
 
+def extract_single_column_pricelist_records(rows: list[list[str]], source: str) -> list[dict]:
+    full_text = "\n".join(cell_text(row[0]) for row in rows if row)
+    if "plot floor status" not in header_key(full_text):
+        return []
+    status_pattern = re.compile(r"\b(AVAILABLE|RESERVED|ON HOLD|SOLD|EXCHANGED|COMPLETED)\b", re.I)
+    records: list[dict] = []
+    for row in rows:
+        cell = "\n".join(cell_text(part) for part in row if cell_text(part))
+        if not cell or not status_pattern.search(cell):
+            continue
+        text = re.sub(r"\s+", " ", cell).strip()
+        unit_matches = list(re.finditer(r"\b\d{1,2}\.\d{2}\b", text))
+        status_match = status_pattern.search(text)
+        if not unit_matches or not status_match:
+            continue
+        status = status_match.group(1).upper()
+        prior_units = [match for match in unit_matches if match.start() < status_match.start()]
+        unit_match = prior_units[0] if prior_units else unit_matches[-1]
+        unit = unit_match.group(0)
+        if unit_match.start() < status_match.start():
+            between = text[unit_match.end():status_match.start()]
+            floor_match = re.search(r"\b(\d{1,2})\b(?=\s*$)", between)
+            if not floor_match:
+                floor_match = re.search(r"\b(\d{1,2})\b", between)
+        else:
+            before_status = text[:status_match.start()]
+            floor_match = re.search(r"\b(\d{1,2})\b\s*$", before_status)
+        floor = floor_match.group(1) if floor_match else ""
+        after_status = text[status_match.end():]
+        price_matches = list(re.finditer(r"£\s*[\d,]+(?:\.\d+)?", after_status))
+        price = price_matches[-1].group(0) if price_matches else ""
+        area_match = re.search(r"\b(?P<area>\d[\d,]*(?:\.\d+)?)\s+(?P<beds>\d(?:\+\d)?(?:\s*Bed)?|Studio)\s+(?P<baths>\d(?:\.\d)?)\b", after_status, re.I)
+        internal_area = area_match.group("area") if area_match else ""
+        bedroom = area_match.group("beds") if area_match else ""
+        if bedroom and "bed" not in bedroom.lower() and bedroom.lower() != "studio":
+            bedroom = f"{bedroom} Bed"
+        aspect = ""
+        aspect_match = re.search(r"\b(North|South|East|West)(?:\s*&\s*(?:North|South|East|West))?\b", after_status, re.I)
+        if aspect_match:
+            aspect = aspect_match.group(0)
+        records.append(
+            {
+                "source": source,
+                "unit": unit,
+                "bedroom": bedroom,
+                "internal_area": internal_area,
+                "external_area": "",
+                "aspect": aspect,
+                "price": normalize_record_value("price", price),
+                "floor": floor,
+                "status": status.title(),
+                "tenure": "",
+                "estimated_completion": "",
+                "rent_estimate": "",
+                "service_charge": "",
+                "ground_rent": "",
+                "parking": "",
+                "incentives": "",
+            }
+        )
+    deduped: dict[str, dict] = {}
+    for record in records:
+        key = normalize_unit(record["unit"])
+        if key:
+            deduped[key] = record
+    return list(deduped.values())
+
+
 def col_index(cell_ref: str) -> int:
     letters = re.match(r"[A-Z]+", cell_ref.upper())
     if not letters:
@@ -389,6 +457,8 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
         positioned = extract_pdf_position_records(path)
         if len(positioned) >= len(records):
             records = positioned
+    if not records:
+        records = extract_single_column_pricelist_records(rows, path.name)
     return records, None if records else "No recognizable unit table found"
 
 
