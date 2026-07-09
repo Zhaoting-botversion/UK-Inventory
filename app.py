@@ -98,7 +98,7 @@ DEVELOPER_OVERRIDES = {
     "Knights Park": "The Hill Group",
     "Liverpool - Abbey Row": "Bentry Capital",
     "Liverpool - The Forge": "Jarron Developments",
-    "M15 - Vita Living": "Select Property",
+    "M1 - Vita Living": "Select Property",
     "M3 - Vista River Gardens": "Renaker",
     "M3 - Waterhouse Gardens": "Salboy",
     "M4 - Victoria Riverside": "L&Q (Laurus Homes)",
