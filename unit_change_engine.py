@@ -165,6 +165,17 @@ def is_available_status(value: object) -> bool:
     return not text or any(token in text for token in ["available", "released", "for sale", "可售"])
 
 
+def is_display_only_status(value: object) -> bool:
+    text = status_norm(value)
+    return any(token in text for token in ["show apartment", "show home", "display apartment", "display home", "sample flat", "样板"])
+
+
+def is_actionable_sale_record(record: dict) -> bool:
+    if parse_price(record.get("price")) is not None:
+        return True
+    return bool(record.get("status")) and not is_display_only_status(record.get("status"))
+
+
 def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
     records: list[dict] = []
     for index, row in enumerate(rows):
@@ -565,6 +576,8 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
             "floor": new.get("floor", ""),
             "aspect": new.get("aspect", ""),
         }
+        if not is_actionable_sale_record(new):
+            continue
         if not old:
             events.append({**base, "change_type": "NEW_RELEASE", "price_change": None, "price_change_pct": None, "reason": "上一版未出现，本版新放出。"})
             continue
