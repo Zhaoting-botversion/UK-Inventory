@@ -1722,7 +1722,7 @@ def drive_link(project: dict) -> str:
 
 
 def base_unit_project_name(name: str) -> str:
-    return re.split(r"\s+[·路]\s+", name or "", maxsplit=1)[0].strip()
+    return re.split(r"\s+[·路?]\s+", name or "", maxsplit=1)[0].strip()
 
 
 def build_unit_file_lookup(data: dict) -> dict[tuple[str, str], str]:
