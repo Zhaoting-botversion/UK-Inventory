@@ -14,6 +14,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 
 from unit_change_engine import DB_PATH as UNIT_DB_PATH
 from unit_change_engine import recent_events, version_summary
+from unit_library import current_units, filter_units, inventory_summary
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -1173,6 +1174,7 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     nav = [
         ("/", "首页"),
         ("/projects", "价单搜索"),
+        ("/units", "房源库"),
         ("/unit-changes", "房源变化"),
         ("/updates", "更新记录"),
     ]
@@ -2138,6 +2140,137 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
     return f'<div class="unit-focus-columns">{"".join(columns)}</div>'
 
 
+def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes:
+    query = query or {}
+    filters = {
+        key: (query.get(key, [""])[0] or "").strip()
+        for key in ("q", "project", "bedroom", "availability", "change_type", "min_price", "max_price")
+    }
+    units = current_units()
+    filtered = filter_units(units, filters)
+    summary = inventory_summary(units)
+    project_map = {project.get("name", ""): project for project in data.get("projects", [])}
+    file_lookup = build_unit_file_lookup(data)
+
+    def selected(value: str, current: str) -> str:
+        return " selected" if value == current else ""
+
+    def display_price(row: dict) -> str:
+        price = row.get("price_number")
+        if price is not None:
+            return f"£{price:,.0f}"
+        return e(row.get("price"))
+
+    project_options = ['<option value="">全部项目</option>']
+    for project_name in sorted({row.get("project_name", "") for row in units if row.get("project_name")}):
+        project_options.append(
+            f'<option value="{e(project_name)}"{selected(project_name, filters["project"])}>{e(project_name)}</option>'
+        )
+
+    bedroom_options = ['<option value="">全部户型</option>']
+    bedrooms = sorted(
+        {str(row.get("bedroom", "")).strip() for row in units if str(row.get("bedroom", "")).strip()},
+        key=lambda value: (len(value), value),
+    )
+    for bedroom in bedrooms:
+        bedroom_options.append(
+            f'<option value="{e(bedroom)}"{selected(bedroom, filters["bedroom"])}>{e(bedroom)}</option>'
+        )
+
+    availability_labels = [
+        ("", "全部状态"),
+        ("available", "可售/未标注"),
+        ("reserved", "预订/保留"),
+        ("sold", "已售/不可售"),
+        ("other", "其他状态"),
+    ]
+    availability_options = "".join(
+        f'<option value="{value}"{selected(value, filters["availability"])}>{label}</option>'
+        for value, label in availability_labels
+    )
+    change_labels = [
+        ("", "全部变化"),
+        ("PRICE_DROP", "价格下降"),
+        ("PRICE_INCREASE", "价格上涨"),
+        ("NEW_RELEASE", "新放出"),
+        ("SOLD", "已售"),
+        ("RESERVED", "变为预订"),
+        ("BACK_ON_MARKET", "重新可售"),
+        ("STATUS_CHANGE", "状态变化"),
+    ]
+    change_options = "".join(
+        f'<option value="{value}"{selected(value, filters["change_type"])}>{label}</option>'
+        for value, label in change_labels
+    )
+
+    def project_link(project_name: str) -> str:
+        if project_name in project_map:
+            return f'<a href="/project/{quote(project_name)}">{e(project_name)}</a>'
+        return e(project_name)
+
+    rows = []
+    for row in filtered[:500]:
+        source_link = unit_source_link(
+            {"project_name": row.get("project_name", ""), "new_file": row.get("source_file", "")},
+            file_lookup,
+        )
+        change_type = row.get("latest_change_type", "")
+        change_text = e(change_type) if change_type else '<span class="muted">无近期变化</span>'
+        rows.append(
+            f"""<tr>
+              <td>{project_link(row.get("project_name", ""))}</td>
+              <td>{e(row.get("unit"))}</td>
+              <td>{e(row.get("bedroom"))}</td>
+              <td>{e(row.get("floor"))}</td>
+              <td>{e(row.get("internal_area"))}</td>
+              <td>{e(row.get("aspect"))}</td>
+              <td>{display_price(row)}</td>
+              <td>{e(row.get("status"))}</td>
+              <td>{change_text}</td>
+              <td>{source_link}</td>
+            </tr>"""
+        )
+    if not rows:
+        rows.append('<tr><td colspan="10" class="muted">没有找到符合条件的房源。</td></tr>')
+
+    limit_note = ""
+    if len(filtered) > 500:
+        limit_note = f'<p class="muted">当前显示前 500 条，共 {len(filtered)} 条；可用筛选条件缩小范围。</p>'
+
+    content = f"""
+      <h1>房源库</h1>
+      <div class="metrics">
+        <div class="metric"><span>房源总数</span><strong>{summary["units"]}</strong></div>
+        <div class="metric"><span>项目数</span><strong>{summary["projects"]}</strong></div>
+        <div class="metric"><span>可售/未标注</span><strong>{summary["available"]}</strong></div>
+        <div class="metric"><span>预订/已售</span><strong>{summary["reserved"] + summary["sold"]}</strong></div>
+      </div>
+      <form class="toolbar" method="get" action="/units">
+        <input name="q" value="{e(filters["q"])}" placeholder="搜索项目、房号、状态、价单文件">
+        <select name="project">{"".join(project_options)}</select>
+        <select name="bedroom">{"".join(bedroom_options)}</select>
+        <select name="availability">{availability_options}</select>
+        <select name="change_type">{change_options}</select>
+        <input name="min_price" value="{e(filters["min_price"])}" placeholder="最低价">
+        <input name="max_price" value="{e(filters["max_price"])}" placeholder="最高价">
+        <button type="submit">筛选</button>
+        <a class="button secondary" href="/units">清空</a>
+      </form>
+      <p class="muted">房源库来自每个项目最新可解析价单，并关联最近一次房源变化；原始文件以 Google Drive 价单为准。</p>
+      <table>
+        <thead>
+          <tr>
+            <th>项目</th><th>房号</th><th>户型</th><th>楼层</th><th>面积</th><th>朝向/景观</th>
+            <th>价格</th><th>状态</th><th>最近变化</th><th>来源价单</th>
+          </tr>
+        </thead>
+        <tbody>{"".join(rows)}</tbody>
+      </table>
+      {limit_note}
+    """
+    return layout("房源库", content, "/units")
+
+
 def render_updates(data: dict) -> bytes:
     rows = "".join(
         f"""<tr>
@@ -2351,6 +2484,8 @@ class Handler(BaseHTTPRequestHandler):
             body = render_dashboard(data)
         elif path == "/projects":
             body = render_projects(data, query)
+        elif path == "/units":
+            body = render_units(data, query)
         elif path == "/unit-changes":
             body = render_unit_changes(data, query)
         elif path == "/updates":
