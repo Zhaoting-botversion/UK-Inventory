@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-09T18:07:53",
+  "synced_at": "2026-07-10T10:03:37",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7057,88 +7057,6 @@
       ],
       "notes": []
     },
-    "SW18 - Wandsworth Mills": {
-      "project": "SW18 - Wandsworth Mills",
-      "city": "London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
-      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
-      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
-      "latest_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
-          "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
-          "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:05.170Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
-          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:47.463Z",
-          "price_date": "27.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
-          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
-          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:58.532Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
-          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
-          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:50.827Z",
-          "price_date": "24.06.26"
-        },
-        {
-          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
-          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
-          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:40:59.966Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
-          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:06.658Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
-          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:04.648Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
-          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
-          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:22.031Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
-          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
-          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:48:20.071Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "W2 - West End Gate": {
       "project": "W2 - West End Gate",
       "city": "London",
@@ -7973,13 +7891,95 @@
         }
       ],
       "notes": []
+    },
+    "SW18 - Wandsworth Mills": {
+      "project": "SW18 - Wandsworth Mills",
+      "city": "London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / London 伦敦 / SW18 - Wandsworth Mills",
+      "folder_id": "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "folder_url": "https://drive.google.com/drive/folders/1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
+      "price_folder_id": "1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wSTBjz_RdsODuzjE19nML5uQNbwLo-Q2",
+      "old_price_folder_id": "1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1fiN88sfJ4aH9Sv9p33kqcgpqo4Suf-aJ",
+      "latest_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
+          "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
+          "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:05.170Z",
+          "price_date": "05.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO",
+          "file_url": "https://drive.google.com/file/d/1Emv0hfYPafHu1-9hUoC1C68hqRYRvRHO/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:58.532Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 24.06.26.pdf",
+          "file_id": "1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY",
+          "file_url": "https://drive.google.com/file/d/1fo1kGduj3RXkSiugj7ihfbo0jiiNE7yY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:50.827Z",
+          "price_date": "24.06.26"
+        },
+        {
+          "file": "EN - WM_ The Artisan Price list 27.06.26.pdf",
+          "file_id": "1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M",
+          "file_url": "https://drive.google.com/file/d/1EkIvR0U9c7KQDtFdqXcQeAPCDZjJnJ0M/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:47.463Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "CN - WM_ The Artisan Price list 14.06.26.pdf",
+          "file_id": "1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC",
+          "file_url": "https://drive.google.com/file/d/1GuPoTPsyirMcd_wu_SSheAEvtfc9ckTC/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:40:59.966Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp",
+          "file_url": "https://drive.google.com/file/d/1zwvps2XwRRq10LTHx2Yl-hKWyjRmhoOp/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:06.658Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc",
+          "file_url": "https://drive.google.com/file/d/1adXcFeRVgjzA-0Ug39K1ukCtTaV1j9Wc/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:59:04.648Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 17.05.26.pdf",
+          "file_id": "1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0",
+          "file_url": "https://drive.google.com/file/d/1YCM_bsqRVYgnM8XR7lXIbOV27WI1-0B0/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:22.031Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN - WM, The Artisan Price list 24.05.26.pdf",
+          "file_id": "1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI",
+          "file_url": "https://drive.google.com/file/d/1ew9EPj7Q9odTC3cPAMp1ybFSYhshMYrI/view?usp=drivesdk",
+          "modified_at": "2026-05-28T05:48:20.071Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA"
+    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo"
   ],
   "targeted_projects": [
-    "M1 - Vita Living"
+    "SW18 - Wandsworth Mills"
   ]
 }
