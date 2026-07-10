@@ -43,7 +43,7 @@ CITY_HINTS = {
     "Kent": ["Foal Hurst Green", "Oakhill"],
     "Oxfordshire": ["Leighwood Fields", "Winterbrook Meadows"],
     "Reading": ["Reading Riverworks", "Bankside Gardens"],
-    "Surrey": ["Eden Grove"],
+    "Surrey": ["Eden Grove", "Sutton Garden Square"],
     "Watford": ["The Exchange Watford"],
     "Maidenhead": ["Spring Hill"],
 }
@@ -577,6 +577,13 @@ def infer_city(project: str) -> str:
     return "London"
 
 
+def city_hint(project: str) -> str:
+    for city, names in CITY_HINTS.items():
+        if any(project == name or name.lower() in project.lower() for name in names):
+            return city
+    return ""
+
+
 def infer_city_from_drive_path(path: str) -> str:
     parts = [part.strip() for part in (path or "").split("/") if part.strip()]
     for index, part in enumerate(parts):
@@ -780,7 +787,10 @@ def build_data() -> dict:
         if state_city in {"未分类", "Unclassified", "Unknown", "未记录"}:
             state_city = ""
         path_city = infer_city_from_drive_path(state.get("path", ""))
-        if path_city:
+        hint_city = city_hint(project_name)
+        if hint_city:
+            state_city = hint_city
+        elif path_city:
             state_city = path_city
         project["data_source"] = "Drive"
         project["city"] = state_city or project.get("city") or infer_city(project_name)
@@ -928,6 +938,7 @@ MARKET_ORDER = [
     "Manchester",
     "Birmingham",
     "Reading / Berkshire",
+    "Surrey",
     "其他英国区域",
 ]
 
@@ -1014,6 +1025,8 @@ def market_group(project: dict | str) -> str:
     district = postcode_district(prefix)
     area = re.match(r"^[A-Z]+", district)
     area_code = area.group(0) if area else district
+    if "Sutton Garden Square" in name:
+        return "Surrey"
     if city == "Manchester":
         return "Manchester"
     if city == "Birmingham":
