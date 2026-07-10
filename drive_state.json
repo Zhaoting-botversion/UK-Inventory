@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-10T13:52:00",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-07-10T18:35:56",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -1486,39 +1486,6 @@
           "file_url": "https://drive.google.com/file/d/1_3d_GLJnKRE_UhcUu1HsE1I6IYK0YB4X/view?usp=drivesdk",
           "modified_at": "2026-06-05T08:34:33.538Z",
           "price_date": "May 2026"
-        }
-      ],
-      "notes": []
-    },
-    "SE1 - Westminster Tower (London Square)": {
-      "project": "SE1 - Westminster Tower (London Square)",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Westminster Tower (London Square)",
-      "folder_id": "13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr",
-      "folder_url": "https://drive.google.com/drive/folders/13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr",
-      "price_folder_id": "1Qhf3UC5T8MxAZhH47YFjAFQpf7tE6iM_",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Qhf3UC5T8MxAZhH47YFjAFQpf7tE6iM_",
-      "old_price_folder_id": "1b9wnV5Vb4paZ1EJ2sFDN4FlXPPvn203T",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1b9wnV5Vb4paZ1EJ2sFDN4FlXPPvn203T",
-      "latest_files": [
-        {
-          "file": "Westminster Tower Price List - 05.07.2026.pdf",
-          "file_id": "1p0dGq1nFQY95ttyIaHMN8yYAco83FGK4",
-          "file_url": "https://drive.google.com/file/d/1p0dGq1nFQY95ttyIaHMN8yYAco83FGK4/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:26:55.201Z",
-          "price_date": "05.07.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Westminster Tower Price List - 15.06.2026.pdf",
-          "file_id": "1G9kjP6O5UTfFk6_MqMfb5gZkfUuDIfPm",
-          "file_url": "https://drive.google.com/file/d/1G9kjP6O5UTfFk6_MqMfb5gZkfUuDIfPm/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:32.802Z",
-          "price_date": "15.06.2026"
         }
       ],
       "notes": []
@@ -7433,7 +7400,46 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "SE1 - Westminster Tower (London Square)": {
+      "project": "SE1 - Westminster Tower (London Square)",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Westminster Tower (London Square)",
+      "folder_id": "13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr",
+      "folder_url": "https://drive.google.com/drive/folders/13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr",
+      "price_folder_id": "1Qhf3UC5T8MxAZhH47YFjAFQpf7tE6iM_",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Qhf3UC5T8MxAZhH47YFjAFQpf7tE6iM_",
+      "old_price_folder_id": "1b9wnV5Vb4paZ1EJ2sFDN4FlXPPvn203T",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1b9wnV5Vb4paZ1EJ2sFDN4FlXPPvn203T",
+      "latest_files": [
+        {
+          "file": "Westminster Tower Price List - 06.07.2026.pdf",
+          "file_id": "1DnXoNblacs-_PZ_tCXUXPcdTX-vZMQJ_",
+          "file_url": "https://drive.google.com/file/d/1DnXoNblacs-_PZ_tCXUXPcdTX-vZMQJ_/view?usp=drivesdk",
+          "modified_at": "2026-07-10T10:35:12.122Z",
+          "price_date": "06.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Westminster Tower Price List - 15.06.2026.pdf",
+          "file_id": "1G9kjP6O5UTfFk6_MqMfb5gZkfUuDIfPm",
+          "file_url": "https://drive.google.com/file/d/1G9kjP6O5UTfFk6_MqMfb5gZkfUuDIfPm/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:32.802Z",
+          "price_date": "15.06.2026"
+        }
+      ],
+      "notes": []
     }
   },
-  "errors": []
+  "errors": [],
+  "targeted_project_ids": [
+    "13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr"
+  ],
+  "targeted_projects": [
+    "SE1 - Westminster Tower (London Square)"
+  ]
 }
