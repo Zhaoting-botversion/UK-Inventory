@@ -222,6 +222,44 @@ DEVELOPER_OVERRIDES = {
     "West Gate": "Renaker"
 }
 
+PROJECT_LOCATION_OVERRIDES = {
+    "E1 - London Dock": "Wapping",
+    "E14 - 25 Cuba Street": "Canary Wharf",
+    "E14 - 8 Harbord Square": "Canary Wharf",
+    "E14 - Aspen": "Canary Wharf",
+    "E14 - Goodluck Hope": "Leamouth",
+    "E14 - Landmark Pinnacle": "Canary Wharf",
+    "E14 - One Park Drive": "Canary Wharf",
+    "E14 - One Thames Quay": "Canary Wharf",
+    "E16 - Queens Cross": "Royal Docks",
+    "E16 - Riverscape": "Royal Docks",
+    "E2 - Regent's View": "Bethnal Green",
+    "E3 - Bow Green": "Bow",
+    "E3 - Twelvetrees Park": "Stratford",
+    "HA0 - Grand Union": "Wembley",
+    "N2 - Bishops Avenue Gardens": "East Finchley",
+    "N4 - Woodberry Down": "Finsbury Park",
+    "NW8 - The Broadley": "Marylebone",
+    "SE1 - Bermondsey Place": "Bermondsey",
+    "SE1 - SEVEN Southbank Place": "South Bank",
+    "SE10 - Greenwich Peninsula": "Greenwich Peninsula",
+    "SE18 - Royal Arsenal Riverside": "Woolwich",
+    "SE3 - Kidbrooke Village": "Kidbrooke",
+    "SE11 - Oval Village": "Oval",
+    "SW6 - King's Road Park": "Fulham",
+    "SW8 - Key Bridge": "Nine Elms",
+    "SW8 - Nine Elms (London Square)": "Nine Elms",
+    "SW11 - Ransomes Wharf (London Square)": "Battersea",
+    "SW18 - Wandsworth Mills": "Wandsworth",
+    "UB1 - The Green Quarter": "Southall",
+    "W12 - The Verdean": "Acton",
+    "W12 - White City Living": "White City",
+    "W1U - 100 George Street": "Marylebone",
+    "W1U - Marylebone Square": "Marylebone",
+    "W2 - Vabel Townhouse": "Bayswater",
+    "WC1X - Postmark, Farringdon": "Farringdon",
+}
+
 COOPERATION_OVERRIDES = {
     "CR0 - Croydon (London Square)": {
         "cooperation_level": "开发商合作",
@@ -2197,26 +2235,16 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
         return display_label(project.get("city", "")) or "缺失"
 
     def project_location(project: dict) -> str:
-        return display_label(market_group(project)) or "缺失"
-
-    def project_neighborhood(project: dict) -> str:
         name = project.get("name", "")
-        clean_name = re.sub(r"^[A-Z]{1,2}\d[A-Z]?\s*-\s*", "", name).strip()
-        if "," in clean_name:
-            return clean_name.rsplit(",", 1)[-1].strip() or "缺失"
-        parts = [part.strip() for part in project.get("path", "").split("/") if part.strip()]
-        generic = {"UK 英国", "London 伦敦", "Inner London 内伦敦", "Outer London 外伦敦"}
-        if len(parts) >= 2:
-            parent = parts[-2]
-            if parent not in generic and not parent.startswith(("West &", "North &", "City,", "Central London", "Super Prime")):
-                return display_label(parent)
-        return clean_name or "缺失"
+        for key, value in PROJECT_LOCATION_OVERRIDES.items():
+            if name == key or key.lower() in name.lower():
+                return value
+        return display_label(market_group(project)) or "缺失"
 
     for row in units:
         project = row_project(row)
         row["project_city"] = project_city(project)
         row["project_location"] = project_location(project)
-        row["project_neighborhood"] = project_neighborhood(project)
 
     filtered = filter_units(units, filters)
     summary = inventory_summary(filtered)
@@ -2274,7 +2302,6 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
               <td>{project_link(row.get("project_name", ""))}</td>
               <td>{e(project_city(project))}</td>
               <td>{e(project_location(project))}</td>
-              <td>{e(project_neighborhood(project))}</td>
               <td>{e(row.get("unit"))}</td>
               <td>{e(row.get("bedroom"))}</td>
               <td>{e(row.get("floor"))}</td>
@@ -2289,7 +2316,7 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
             </tr>"""
         )
     if not rows:
-        rows.append('<tr><td colspan="15" class="muted">没有找到符合条件的可售房源。</td></tr>')
+        rows.append('<tr><td colspan="14" class="muted">没有找到符合条件的可售房源。</td></tr>')
 
     limit_note = ""
     if len(filtered) > 500:
@@ -2304,7 +2331,7 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
         <div class="metric"><span>可计算租金回报</span><strong>{sum(1 for row in filtered if row.get("rental_yield") is not None)}</strong></div>
       </div>
       <form class="toolbar" method="get" action="/units">
-        <input name="q" value="{e(filters["q"])}" placeholder="搜索项目、城市、街区、房号、价单文件">
+        <input name="q" value="{e(filters["q"])}" placeholder="搜索项目、城市、位置、房号、价单文件">
         <select name="project">{"".join(project_options)}</select>
         <select name="bedroom">{"".join(bedroom_options)}</select>
         <select name="change_type">{change_options}</select>
@@ -2317,7 +2344,7 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
       <table>
         <thead>
           <tr>
-            <th>项目</th><th>城市</th><th>位置</th><th>街区</th><th>房号</th><th>户型</th><th>楼层</th>
+            <th>项目</th><th>城市</th><th>位置</th><th>房号</th><th>户型</th><th>楼层</th>
             <th>面积</th><th>朝向/景观</th><th>价格</th><th>£/sq ft</th><th>预估租金/月</th><th>预估租金回报</th>
             <th>最近变化</th><th>来源价单</th>
           </tr>

@@ -11,7 +11,6 @@ TEXT_FIELDS = (
     "project_name",
     "project_city",
     "project_location",
-    "project_neighborhood",
     "unit",
     "bedroom",
     "floor",
