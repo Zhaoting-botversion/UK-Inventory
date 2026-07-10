@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-10T11:06:12",
+  "synced_at": "2026-07-10T11:30:48",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -937,164 +937,6 @@
           "file_url": "https://drive.google.com/file/d/1DB-bQXfnz39z_qguKolFevorWjoXf06O/view?usp=drivesdk",
           "modified_at": "2026-05-27T03:40:11.000Z",
           "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "E3 - Oxbow": {
-      "project": "E3 - Oxbow",
-      "city": "Inner London",
-      "developer": "EcoWorld London",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / E3 - Oxbow",
-      "folder_id": "1HP9EahLeirMIbLxJk45pSqwp973e76mo",
-      "folder_url": "https://drive.google.com/drive/folders/1HP9EahLeirMIbLxJk45pSqwp973e76mo",
-      "price_folder_id": "1wlefaxdnFRdDoYn-bZTm8f-edxBVK7jE",
-      "price_folder_url": "https://drive.google.com/drive/folders/1wlefaxdnFRdDoYn-bZTm8f-edxBVK7jE",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Kantha Quarter pricelist May 2026.pdf",
-          "file_id": "1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5",
-          "file_url": "https://drive.google.com/file/d/1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5/view?usp=drivesdk",
-          "modified_at": "2026-06-04T06:32:16.000Z",
-          "price_date": "May 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "E3 - Twelvetrees Park": {
-      "project": "E3 - Twelvetrees Park",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Inner London 内伦敦 / E3 - Twelvetrees Park",
-      "folder_id": "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
-      "folder_url": "https://drive.google.com/drive/folders/1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
-      "price_folder_id": "1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
-      "price_folder_url": "https://drive.google.com/drive/folders/1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
-      "old_price_folder_id": "1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
-      "latest_files": [
-        {
-          "file": "The Redwood Price List 05.07.26.pdf",
-          "file_id": "1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv",
-          "file_url": "https://drive.google.com/file/d/1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:47:35.582Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "Skyline Residence Price List 05.07.2026.pdf",
-          "file_id": "1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n",
-          "file_url": "https://drive.google.com/file/d/1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:47:22.849Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 05.07.2026.pdf",
-          "file_id": "19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO",
-          "file_url": "https://drive.google.com/file/d/19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:47:15.787Z",
-          "price_date": "05.07.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Redwood Price List 21.6.26.pdf",
-          "file_id": "1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y",
-          "file_url": "https://drive.google.com/file/d/1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:28.479Z",
-          "price_date": "21.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 21.06.2026.pdf",
-          "file_id": "14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG",
-          "file_url": "https://drive.google.com/file/d/14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:15.189Z",
-          "price_date": "21.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 21.06.2026.pdf",
-          "file_id": "1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS",
-          "file_url": "https://drive.google.com/file/d/1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:56:07.568Z",
-          "price_date": "21.06.2026"
-        },
-        {
-          "file": "The Redwood Price List 14.6.26.pdf",
-          "file_id": "1NEB8CQNQpRVdh1hnQT337MooJlE02jCq",
-          "file_url": "https://drive.google.com/file/d/1NEB8CQNQpRVdh1hnQT337MooJlE02jCq/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:27:17.483Z",
-          "price_date": "14.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 14.06.2026.pdf",
-          "file_id": "1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X",
-          "file_url": "https://drive.google.com/file/d/1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:26:59.196Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 14.06.2026.pdf",
-          "file_id": "1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS",
-          "file_url": "https://drive.google.com/file/d/1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:26:52.725Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "The Redwood Price List 06.6.26.pdf",
-          "file_id": "1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY",
-          "file_url": "https://drive.google.com/file/d/1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
-          "price_date": "06.6.26"
-        },
-        {
-          "file": "Skyline Residence Price List 06.06.2026.pdf",
-          "file_id": "1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv",
-          "file_url": "https://drive.google.com/file/d/1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "Penthouse Collection Price List 06.06.2026.pdf",
-          "file_id": "16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM",
-          "file_url": "https://drive.google.com/file/d/16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:39.000Z",
-          "price_date": "06.06.2026"
-        },
-        {
-          "file": "2026-05-28_Penthouse Collection Price List 17.05.2026.pdf",
-          "file_id": "1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2",
-          "file_url": "https://drive.google.com/file/d/1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:06.273Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Evergreen Point Price List 17.05.26.pdf",
-          "file_id": "1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu",
-          "file_url": "https://drive.google.com/file/d/1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:03.681Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Redwood Price List 17.05.26.pdf",
-          "file_id": "1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3",
-          "file_url": "https://drive.google.com/file/d/1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:01.381Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Skyline Residence Price List 17.05.2026.pdf",
-          "file_id": "1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX",
-          "file_url": "https://drive.google.com/file/d/1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:58.778Z",
-          "price_date": "26-05-28"
         }
       ],
       "notes": []
@@ -2571,6 +2413,33 @@
         }
       ],
       "notes": []
+    },
+    "SE26 - Dylon Riverside - Completed": {
+      "project": "SE26 - Dylon Riverside - Completed",
+      "city": "Inner London",
+      "developer": "Weston Homes",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / SE26 - Dylon Riverside - Completed",
+      "folder_id": "1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
+      "folder_url": "https://drive.google.com/drive/folders/1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
+      "price_folder_id": "1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
+      "price_folder_url": "https://drive.google.com/drive/folders/1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "Dylon Riverside Price List December 2025.pdf",
+          "file_id": "1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0",
+          "file_url": "https://drive.google.com/file/d/1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:07:43.934Z",
+          "price_date": "December 2025"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
     },
     "SE3 - Kidbrooke Village": {
       "project": "SE3 - Kidbrooke Village",
@@ -6304,6 +6173,164 @@
       "old_files": [],
       "notes": []
     },
+    "E3 - Oxbow": {
+      "project": "E3 - Oxbow",
+      "city": "Outer London",
+      "developer": "EcoWorld London",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / E3 - Oxbow",
+      "folder_id": "1HP9EahLeirMIbLxJk45pSqwp973e76mo",
+      "folder_url": "https://drive.google.com/drive/folders/1HP9EahLeirMIbLxJk45pSqwp973e76mo",
+      "price_folder_id": "1wlefaxdnFRdDoYn-bZTm8f-edxBVK7jE",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wlefaxdnFRdDoYn-bZTm8f-edxBVK7jE",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "Kantha Quarter pricelist May 2026.pdf",
+          "file_id": "1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5",
+          "file_url": "https://drive.google.com/file/d/1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5/view?usp=drivesdk",
+          "modified_at": "2026-06-04T06:32:16.000Z",
+          "price_date": "May 2026"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "E3 - Twelvetrees Park": {
+      "project": "E3 - Twelvetrees Park",
+      "city": "Outer London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Outer London 外伦敦 / E3 - Twelvetrees Park",
+      "folder_id": "1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
+      "folder_url": "https://drive.google.com/drive/folders/1xX2GXmEaTqMPxqV3dcjf910boU008xMF",
+      "price_folder_id": "1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ba4IOymYfOxFnwJsQLhkMFBhrivQEoXN",
+      "old_price_folder_id": "1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1G2g5nurO2Q2K57aNvjXQKeafudVc93mg",
+      "latest_files": [
+        {
+          "file": "The Redwood Price List 05.07.26.pdf",
+          "file_id": "1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv",
+          "file_url": "https://drive.google.com/file/d/1L7ShXU5XBqHSKNzEr4Tdrwn3uhSisHlv/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:35.582Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "Skyline Residence Price List 05.07.2026.pdf",
+          "file_id": "1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n",
+          "file_url": "https://drive.google.com/file/d/1PFCWDT6HgsDBBBkDyfH80EIpMgmyAk3n/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:22.849Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 05.07.2026.pdf",
+          "file_id": "19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO",
+          "file_url": "https://drive.google.com/file/d/19iIqluMg_YJ7Vaam_oc4ojbAl16nGEbO/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:47:15.787Z",
+          "price_date": "05.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Redwood Price List 21.6.26.pdf",
+          "file_id": "1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y",
+          "file_url": "https://drive.google.com/file/d/1HkG89dRVYtMPIxwVubSBtSx2QhToT_7Y/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:28.479Z",
+          "price_date": "21.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 21.06.2026.pdf",
+          "file_id": "14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG",
+          "file_url": "https://drive.google.com/file/d/14dr-MkRvkGj2s9ebfa-XVqKkL0Yn2THG/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:15.189Z",
+          "price_date": "21.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 21.06.2026.pdf",
+          "file_id": "1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS",
+          "file_url": "https://drive.google.com/file/d/1-onYoIX17HYIQD6oyZJVvPWkMQaZQCBS/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:56:07.568Z",
+          "price_date": "21.06.2026"
+        },
+        {
+          "file": "The Redwood Price List 14.6.26.pdf",
+          "file_id": "1NEB8CQNQpRVdh1hnQT337MooJlE02jCq",
+          "file_url": "https://drive.google.com/file/d/1NEB8CQNQpRVdh1hnQT337MooJlE02jCq/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:27:17.483Z",
+          "price_date": "14.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 14.06.2026.pdf",
+          "file_id": "1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X",
+          "file_url": "https://drive.google.com/file/d/1lGkxsywkQD-qKAKOx-EwRyexRZ5akQ4X/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:26:59.196Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 14.06.2026.pdf",
+          "file_id": "1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS",
+          "file_url": "https://drive.google.com/file/d/1TStdry0q-OVIMzeuAfAqfsbaOB_llIWS/view?usp=drivesdk",
+          "modified_at": "2026-06-17T06:26:52.725Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "The Redwood Price List 06.6.26.pdf",
+          "file_id": "1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY",
+          "file_url": "https://drive.google.com/file/d/1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:40.000Z",
+          "price_date": "06.6.26"
+        },
+        {
+          "file": "Skyline Residence Price List 06.06.2026.pdf",
+          "file_id": "1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv",
+          "file_url": "https://drive.google.com/file/d/1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:40.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "Penthouse Collection Price List 06.06.2026.pdf",
+          "file_id": "16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM",
+          "file_url": "https://drive.google.com/file/d/16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:39.000Z",
+          "price_date": "06.06.2026"
+        },
+        {
+          "file": "2026-05-28_Penthouse Collection Price List 17.05.2026.pdf",
+          "file_id": "1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2",
+          "file_url": "https://drive.google.com/file/d/1sYqcpbS95tORZQ53En8YUqn9R6sL3qr2/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:06.273Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Evergreen Point Price List 17.05.26.pdf",
+          "file_id": "1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu",
+          "file_url": "https://drive.google.com/file/d/1zWfMNXS4V6hY0-QTDqsmW8u8W3Wmm8Wu/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:03.681Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Redwood Price List 17.05.26.pdf",
+          "file_id": "1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3",
+          "file_url": "https://drive.google.com/file/d/1aEkSre3uaCxSdWaPdlxR1cdVvhWxNAU3/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:22:01.381Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Skyline Residence Price List 17.05.2026.pdf",
+          "file_id": "1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX",
+          "file_url": "https://drive.google.com/file/d/1DW8z2B2iSPFHSoEj3Syu7w85gB-3JdeX/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:58.778Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
     "EN4 - Trent Park": {
       "project": "EN4 - Trent Park",
       "city": "Outer London",
@@ -6759,33 +6786,6 @@
       ],
       "old_files": [],
       "notes": []
-    },
-    "SE26 - Dylon Riverside - Completed": {
-      "project": "SE26 - Dylon Riverside - Completed",
-      "city": "Outer London",
-      "developer": "Weston Homes",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / SE26 - Dylon Riverside - Completed",
-      "folder_id": "1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
-      "folder_url": "https://drive.google.com/drive/folders/1_VMlapFhDV4BgK4mAWkrWu4rynbe5nLC",
-      "price_folder_id": "1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
-      "price_folder_url": "https://drive.google.com/drive/folders/1jajL7r8wyASf4P3eq_OzOmaDeVYQ9iFC",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Dylon Riverside Price List December 2025.pdf",
-          "file_id": "1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0",
-          "file_url": "https://drive.google.com/file/d/1mg_pVbgUD9nYtK6yZXjS248ZsnhC-pT0/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:07:43.934Z",
-          "price_date": "December 2025"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "SM1 - Sutton Garden Square": {
       "project": "SM1 - Sutton Garden Square",
