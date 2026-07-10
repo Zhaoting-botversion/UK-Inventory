@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-10T18:35:56",
+  "synced_at": "2026-07-10T19:14:46",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1228,39 +1228,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "SE1 - Bermondsey (London Square)": {
-      "project": "SE1 - Bermondsey (London Square)",
-      "city": "Inner London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Bermondsey (London Square)",
-      "folder_id": "1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
-      "folder_url": "https://drive.google.com/drive/folders/1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
-      "price_folder_id": "1uBGTbS1ewPGEGQSRehZXObtZXxTDyrpO",
-      "price_folder_url": "https://drive.google.com/drive/folders/1uBGTbS1ewPGEGQSRehZXObtZXxTDyrpO",
-      "old_price_folder_id": "1d6mePawslnj9DyIWEy2hG8zXU9t2LDYW",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1d6mePawslnj9DyIWEy2hG8zXU9t2LDYW",
-      "latest_files": [
-        {
-          "file": "Bermondsey Price List 29.06.26.pdf",
-          "file_id": "1yaI4EhQb_ROuORNqOhlWrmFVKw5NO03D",
-          "file_url": "https://drive.google.com/file/d/1yaI4EhQb_ROuORNqOhlWrmFVKw5NO03D/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:27:05.285Z",
-          "price_date": "29.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Bermondsey Price List 16.06.26.pdf",
-          "file_id": "1w0_YsHSYCQMJUxM_572sMKmRjCbCxzde",
-          "file_url": "https://drive.google.com/file/d/1w0_YsHSYCQMJUxM_572sMKmRjCbCxzde/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:08.718Z",
-          "price_date": "16.06.26"
-        }
-      ],
-      "notes": []
-    },
     "SE1 - Bermondsey Place": {
       "project": "SE1 - Bermondsey Place",
       "city": "Inner London",
@@ -1915,39 +1882,6 @@
           "file_url": "https://drive.google.com/file/d/1Z3loY2NMo9mUo_0IoNv4kPIgSDQz8yV8/view?usp=drivesdk",
           "modified_at": "2026-05-28T02:21:46.065Z",
           "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "SE18 - Woolwich (London Square)": {
-      "project": "SE18 - Woolwich (London Square)",
-      "city": "Inner London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE18 - Woolwich (London Square)",
-      "folder_id": "1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu",
-      "folder_url": "https://drive.google.com/drive/folders/1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu",
-      "price_folder_id": "1TbLOvxv40RtaD6bJ43glFyYDXkeXXTpE",
-      "price_folder_url": "https://drive.google.com/drive/folders/1TbLOvxv40RtaD6bJ43glFyYDXkeXXTpE",
-      "old_price_folder_id": "1zdUBvH5MemBGTeI2wOLGY-FBEP7jLQEt",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1zdUBvH5MemBGTeI2wOLGY-FBEP7jLQEt",
-      "latest_files": [
-        {
-          "file": "Woolwich Price List 29.06.2026.pdf",
-          "file_id": "10NF_mdeNTGHnB0MOQsfwsbrDjoQjAE69",
-          "file_url": "https://drive.google.com/file/d/10NF_mdeNTGHnB0MOQsfwsbrDjoQjAE69/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:32:50.739Z",
-          "price_date": "29.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Woolwich Price List 15.06.2026.pdf",
-          "file_id": "1Mwd3WDiUzb9R1Z_CPd691ClZID-Fdeqi",
-          "file_url": "https://drive.google.com/file/d/1Mwd3WDiUzb9R1Z_CPd691ClZID-Fdeqi/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:48:11.365Z",
-          "price_date": "15.06.2026"
         }
       ],
       "notes": []
@@ -3559,46 +3493,6 @@
       "old_files": [],
       "notes": []
     },
-    "SW11 - Ransomes Wharf (London Square)": {
-      "project": "SW11 - Ransomes Wharf (London Square)",
-      "city": "Inner London",
-      "developer": "London Square",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "London Square",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW11 - Ransomes Wharf (London Square)",
-      "folder_id": "11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
-      "folder_url": "https://drive.google.com/drive/folders/11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
-      "price_folder_id": "1vYPBmg-0IszhUmdTocgfi78Oxlrv5kr7",
-      "price_folder_url": "https://drive.google.com/drive/folders/1vYPBmg-0IszhUmdTocgfi78Oxlrv5kr7",
-      "old_price_folder_id": "1nuPhDmTSkN-gejOjeeaEZ61gSmuximaS",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1nuPhDmTSkN-gejOjeeaEZ61gSmuximaS",
-      "latest_files": [
-        {
-          "file": "Ransomes Wharf - Customer Price List - 27.06.2026.pdf",
-          "file_id": "1cwdpWBylAhWFHDKXdfW0-MRtZSSFrhjN",
-          "file_url": "https://drive.google.com/file/d/1cwdpWBylAhWFHDKXdfW0-MRtZSSFrhjN/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:31:23.495Z",
-          "price_date": "27.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Ransomes Wharf - Customer Price List - 15.06.2026.pdf",
-          "file_id": "1Qan0OZxv7m-_BsTZZzRdjX0IzcupXYdc",
-          "file_url": "https://drive.google.com/file/d/1Qan0OZxv7m-_BsTZZzRdjX0IzcupXYdc/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:56.743Z",
-          "price_date": "15.06.2026"
-        },
-        {
-          "file": "Ransomes Wharf - Customer Price List - 01.05.2026 (1).pdf",
-          "file_id": "1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek",
-          "file_url": "https://drive.google.com/file/d/1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek/view?usp=drivesdk",
-          "modified_at": "2026-05-11T07:21:42.000Z",
-          "price_date": "01.05.2026"
-        }
-      ],
-      "notes": []
-    },
     "SW11 - The HiLight - Est Completion Q2 2026": {
       "project": "SW11 - The HiLight - Est Completion Q2 2026",
       "city": "Inner London",
@@ -3632,67 +3526,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SW17 - Wandsworth Common (London Square)": {
-      "project": "SW17 - Wandsworth Common (London Square)",
-      "city": "Inner London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW17 - Wandsworth Common (London Square)",
-      "folder_id": "116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
-      "folder_url": "https://drive.google.com/drive/folders/116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
-      "price_folder_id": "1upuwqMcOM7f_Bc7uNiKh1DeDA06tuH0F",
-      "price_folder_url": "https://drive.google.com/drive/folders/1upuwqMcOM7f_Bc7uNiKh1DeDA06tuH0F",
-      "old_price_folder_id": "1s46hwlUY7mHmwwCFqxE1bNLfMfWTaIEl",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1s46hwlUY7mHmwwCFqxE1bNLfMfWTaIEl",
-      "latest_files": [
-        {
-          "file": "Wandsworth Common Price List - Willow Collection 22.6.pdf",
-          "file_id": "1ZCfpUiVmZ4sSupQQcHk2l7WLzlip-M9v",
-          "file_url": "https://drive.google.com/file/d/1ZCfpUiVmZ4sSupQQcHk2l7WLzlip-M9v/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:31:14.723Z",
-          "price_date": ""
-        },
-        {
-          "file": "Wandsworth Common Price List - The Residences 22.6.pdf",
-          "file_id": "1wIeVngGPWKo_8g7LHtPsohjYUPiR4-p0",
-          "file_url": "https://drive.google.com/file/d/1wIeVngGPWKo_8g7LHtPsohjYUPiR4-p0/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:31:11.905Z",
-          "price_date": ""
-        },
-        {
-          "file": "Wandsworth Common Price List - Hawthorn 22.6.pdf",
-          "file_id": "1FPEbT-C3IYNvDEQQ9tXtfcCnv0XSTFAu",
-          "file_url": "https://drive.google.com/file/d/1FPEbT-C3IYNvDEQQ9tXtfcCnv0XSTFAu/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:31:09.002Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Wandsworth Common Price List - Willow Collection 15.6.pdf",
-          "file_id": "1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3",
-          "file_url": "https://drive.google.com/file/d/1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:40.830Z",
-          "price_date": ""
-        },
-        {
-          "file": "Wandsworth Common Price List - The Residences 15.6.pdf",
-          "file_id": "1kGpokaF-T9QasNCWgti47jOOdiQcfFt3",
-          "file_url": "https://drive.google.com/file/d/1kGpokaF-T9QasNCWgti47jOOdiQcfFt3/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:36.554Z",
-          "price_date": ""
-        },
-        {
-          "file": "Wandsworth Common Price List - Hawthorn 15.6.pdf",
-          "file_id": "1aV_LlVPF8mhJx1LTMrieVYTjTV7w5p_y",
-          "file_url": "https://drive.google.com/file/d/1aV_LlVPF8mhJx1LTMrieVYTjTV7w5p_y/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:32.042Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
     },
     "SW18 - King George's Gate": {
       "project": "SW18 - King George's Gate",
@@ -4530,46 +4363,6 @@
           "file_url": "https://drive.google.com/file/d/17dOZNW3Wre-y5kO1igSuQf_eF4xLf_DW/view?usp=drivesdk",
           "modified_at": "2026-06-05T09:23:57.555Z",
           "price_date": "May 2026"
-        }
-      ],
-      "notes": []
-    },
-    "W14 - 50 Brook Green (London Square)": {
-      "project": "W14 - 50 Brook Green (London Square)",
-      "city": "Inner London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W14 - 50 Brook Green (London Square)",
-      "folder_id": "16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
-      "folder_url": "https://drive.google.com/drive/folders/16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
-      "price_folder_id": "1I2XCI-CQcZF8m3eR1AjX1Y-ZcdfbFKVt",
-      "price_folder_url": "https://drive.google.com/drive/folders/1I2XCI-CQcZF8m3eR1AjX1Y-ZcdfbFKVt",
-      "old_price_folder_id": "1Gfe7MSacfxIvCv5_E8izRSAiWpQkpOzg",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1Gfe7MSacfxIvCv5_E8izRSAiWpQkpOzg",
-      "latest_files": [
-        {
-          "file": "Fifty Brook Green - Price List - 29.06.2026.pdf",
-          "file_id": "1kxaoPFcV8OgDUoaQ14LACCMFI86KiuHV",
-          "file_url": "https://drive.google.com/file/d/1kxaoPFcV8OgDUoaQ14LACCMFI86KiuHV/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:28:41.975Z",
-          "price_date": "29.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Fifty Brook Green - Price List - 15.06.2026.pdf",
-          "file_id": "1cctvV9EO8X4NV7_wvRUqYbDpgzaNA753",
-          "file_url": "https://drive.google.com/file/d/1cctvV9EO8X4NV7_wvRUqYbDpgzaNA753/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:26.741Z",
-          "price_date": "15.06.2026"
-        },
-        {
-          "file": "Fifty Brook Green - Price List - 28.04.2026 (2)(1).pdf",
-          "file_id": "1cJB3W8_K3_2BHv6le405IczFY9QGT4QX",
-          "file_url": "https://drive.google.com/file/d/1cJB3W8_K3_2BHv6le405IczFY9QGT4QX/view?usp=drivesdk",
-          "modified_at": "2026-05-07T10:52:04.000Z",
-          "price_date": "28.04.2026"
         }
       ],
       "notes": []
@@ -6730,53 +6523,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "KT1 - County Hall Kingston (London Square)": {
-      "project": "KT1 - County Hall Kingston (London Square)",
-      "city": "Outer London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Kingston upon Thames 金斯顿 / KT1 - County Hall Kingston (London Square)",
-      "folder_id": "1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
-      "folder_url": "https://drive.google.com/drive/folders/1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
-      "price_folder_id": "1ND0J1q4eYjda7fOu5qWnRO2V9xvFpcnl",
-      "price_folder_url": "https://drive.google.com/drive/folders/1ND0J1q4eYjda7fOu5qWnRO2V9xvFpcnl",
-      "old_price_folder_id": "1oOIgPzcLQ4QZnP-wVVx8VtyWOtDM1uOd",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1oOIgPzcLQ4QZnP-wVVx8VtyWOtDM1uOd",
-      "latest_files": [
-        {
-          "file": "County Hall Kingston - New Build - Customer Price List 22.06.2026.pdf",
-          "file_id": "1JjPsXk-s_HjY6Aguov2o_UkyS39wG4qe",
-          "file_url": "https://drive.google.com/file/d/1JjPsXk-s_HjY6Aguov2o_UkyS39wG4qe/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:30:33.460Z",
-          "price_date": "22.06.2026"
-        },
-        {
-          "file": "County Hall Kingston - Heritage Collection - Customer Price List 22.06.2026.pdf",
-          "file_id": "13CQP_HptctAoLE6-LP7Azjdf9ElqNYMC",
-          "file_url": "https://drive.google.com/file/d/13CQP_HptctAoLE6-LP7Azjdf9ElqNYMC/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:30:30.869Z",
-          "price_date": "22.06.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "County Hall Kingston - New Build - Customer Price List 02.06.2026.pdf",
-          "file_id": "1vyPN5hVcyKBW-xId-PZC_RSMJdQpvdul",
-          "file_url": "https://drive.google.com/file/d/1vyPN5hVcyKBW-xId-PZC_RSMJdQpvdul/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:18.649Z",
-          "price_date": "02.06.2026"
-        },
-        {
-          "file": "County Hall Kingston - Heritage Collection - Customer Price List 10.06.2026.pdf",
-          "file_id": "14L-5Z4er-FeTuvk13zhy6zkXRExAuMGj",
-          "file_url": "https://drive.google.com/file/d/14L-5Z4er-FeTuvk13zhy6zkXRExAuMGj/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:15.628Z",
-          "price_date": "10.06.2026"
-        }
-      ],
-      "notes": []
-    },
     "SW19 - Lombard Square": {
       "project": "SW19 - Lombard Square",
       "city": "Outer London",
@@ -6904,39 +6650,6 @@
           "file_url": "https://drive.google.com/file/d/1I80ORCtNs0OcFQ6sO0jLRhKT2iQRGm15/view?usp=drivesdk",
           "modified_at": "2026-06-08T09:24:34.000Z",
           "price_date": "08.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "SW19 - Wimbledon Bridge House (London Square)": {
-      "project": "SW19 - Wimbledon Bridge House (London Square)",
-      "city": "Outer London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Merton 默顿 / SW19 - Wimbledon Bridge House (London Square)",
-      "folder_id": "1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
-      "folder_url": "https://drive.google.com/drive/folders/1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
-      "price_folder_id": "1TAmPv2pI-RWyOwDK3rE4hKP9FEC2Ca13",
-      "price_folder_url": "https://drive.google.com/drive/folders/1TAmPv2pI-RWyOwDK3rE4hKP9FEC2Ca13",
-      "old_price_folder_id": "1C6u6ju24OP1GvdK1YR62tlp0un1cjvoh",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1C6u6ju24OP1GvdK1YR62tlp0un1cjvoh",
-      "latest_files": [
-        {
-          "file": "Wimbledon Bridge House - Price List - 29.06.26.pdf",
-          "file_id": "1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P",
-          "file_url": "https://drive.google.com/file/d/1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:32:09.000Z",
-          "price_date": "29.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Wimbledon Bridge House - Price List - 15.06.26.pdf",
-          "file_id": "1LZoqEZNs6lR4rsoNwc0MgMcJaIqDHWuo",
-          "file_url": "https://drive.google.com/file/d/1LZoqEZNs6lR4rsoNwc0MgMcJaIqDHWuo/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:53.998Z",
-          "price_date": "15.06.26"
         }
       ],
       "notes": []
@@ -7433,13 +7146,395 @@
         }
       ],
       "notes": []
+    },
+    "W14 - 50 Brook Green (London Square)": {
+      "project": "W14 - 50 Brook Green (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W14 - 50 Brook Green (London Square)",
+      "folder_id": "16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
+      "folder_url": "https://drive.google.com/drive/folders/16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
+      "price_folder_id": "1I2XCI-CQcZF8m3eR1AjX1Y-ZcdfbFKVt",
+      "price_folder_url": "https://drive.google.com/drive/folders/1I2XCI-CQcZF8m3eR1AjX1Y-ZcdfbFKVt",
+      "old_price_folder_id": "1Gfe7MSacfxIvCv5_E8izRSAiWpQkpOzg",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Gfe7MSacfxIvCv5_E8izRSAiWpQkpOzg",
+      "latest_files": [
+        {
+          "file": "Fifty Brook Green - Price List - 07.07.2026.pdf",
+          "file_id": "1QbiKZB58MtcXwA8XWvISd6ui9UhZj5Xj",
+          "file_url": "https://drive.google.com/file/d/1QbiKZB58MtcXwA8XWvISd6ui9UhZj5Xj/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:09:52.721Z",
+          "price_date": "07.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Fifty Brook Green - Price List - 15.06.2026.pdf",
+          "file_id": "1cctvV9EO8X4NV7_wvRUqYbDpgzaNA753",
+          "file_url": "https://drive.google.com/file/d/1cctvV9EO8X4NV7_wvRUqYbDpgzaNA753/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:26.741Z",
+          "price_date": "15.06.2026"
+        },
+        {
+          "file": "Fifty Brook Green - Price List - 28.04.2026 (2)(1).pdf",
+          "file_id": "1cJB3W8_K3_2BHv6le405IczFY9QGT4QX",
+          "file_url": "https://drive.google.com/file/d/1cJB3W8_K3_2BHv6le405IczFY9QGT4QX/view?usp=drivesdk",
+          "modified_at": "2026-05-07T10:52:04.000Z",
+          "price_date": "28.04.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SE1 - Bermondsey (London Square)": {
+      "project": "SE1 - Bermondsey (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Bermondsey (London Square)",
+      "folder_id": "1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
+      "folder_url": "https://drive.google.com/drive/folders/1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
+      "price_folder_id": "1uBGTbS1ewPGEGQSRehZXObtZXxTDyrpO",
+      "price_folder_url": "https://drive.google.com/drive/folders/1uBGTbS1ewPGEGQSRehZXObtZXxTDyrpO",
+      "old_price_folder_id": "1d6mePawslnj9DyIWEy2hG8zXU9t2LDYW",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1d6mePawslnj9DyIWEy2hG8zXU9t2LDYW",
+      "latest_files": [
+        {
+          "file": "Bermondsey Price List 06.07.26 (1).pdf",
+          "file_id": "1SGdQCL7BQdp9C1pIDWfNOjqVGAuU_u_z",
+          "file_url": "https://drive.google.com/file/d/1SGdQCL7BQdp9C1pIDWfNOjqVGAuU_u_z/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:05.809Z",
+          "price_date": "06.07.26"
+        },
+        {
+          "file": "Bermondsey Price List 29.06.26.pdf",
+          "file_id": "1yaI4EhQb_ROuORNqOhlWrmFVKw5NO03D",
+          "file_url": "https://drive.google.com/file/d/1yaI4EhQb_ROuORNqOhlWrmFVKw5NO03D/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:27:05.285Z",
+          "price_date": "29.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bermondsey Price List 16.06.26.pdf",
+          "file_id": "1w0_YsHSYCQMJUxM_572sMKmRjCbCxzde",
+          "file_url": "https://drive.google.com/file/d/1w0_YsHSYCQMJUxM_572sMKmRjCbCxzde/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:08.718Z",
+          "price_date": "16.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "KT1 - County Hall Kingston (London Square)": {
+      "project": "KT1 - County Hall Kingston (London Square)",
+      "city": "Outer London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Kingston upon Thames 金斯顿 / KT1 - County Hall Kingston (London Square)",
+      "folder_id": "1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
+      "folder_url": "https://drive.google.com/drive/folders/1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
+      "price_folder_id": "1ND0J1q4eYjda7fOu5qWnRO2V9xvFpcnl",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ND0J1q4eYjda7fOu5qWnRO2V9xvFpcnl",
+      "old_price_folder_id": "1oOIgPzcLQ4QZnP-wVVx8VtyWOtDM1uOd",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1oOIgPzcLQ4QZnP-wVVx8VtyWOtDM1uOd",
+      "latest_files": [
+        {
+          "file": "County Hall Kingston - Heritage Collection - Customer Price List 22.06.2026 (1).pdf",
+          "file_id": "1YyXKr6Sxr_e9EdfqKi0XHghGB6y-TpyB",
+          "file_url": "https://drive.google.com/file/d/1YyXKr6Sxr_e9EdfqKi0XHghGB6y-TpyB/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:11.913Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "County Hall Kingston - New Build - Customer Price List 22.06.2026.pdf",
+          "file_id": "1JjPsXk-s_HjY6Aguov2o_UkyS39wG4qe",
+          "file_url": "https://drive.google.com/file/d/1JjPsXk-s_HjY6Aguov2o_UkyS39wG4qe/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:30:33.460Z",
+          "price_date": "22.06.2026"
+        },
+        {
+          "file": "County Hall Kingston - Heritage Collection - Customer Price List 22.06.2026.pdf",
+          "file_id": "13CQP_HptctAoLE6-LP7Azjdf9ElqNYMC",
+          "file_url": "https://drive.google.com/file/d/13CQP_HptctAoLE6-LP7Azjdf9ElqNYMC/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:30:30.869Z",
+          "price_date": "22.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "County Hall Kingston - New Build - Customer Price List 02.06.2026.pdf",
+          "file_id": "1vyPN5hVcyKBW-xId-PZC_RSMJdQpvdul",
+          "file_url": "https://drive.google.com/file/d/1vyPN5hVcyKBW-xId-PZC_RSMJdQpvdul/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:18.649Z",
+          "price_date": "02.06.2026"
+        },
+        {
+          "file": "County Hall Kingston - Heritage Collection - Customer Price List 10.06.2026.pdf",
+          "file_id": "14L-5Z4er-FeTuvk13zhy6zkXRExAuMGj",
+          "file_url": "https://drive.google.com/file/d/14L-5Z4er-FeTuvk13zhy6zkXRExAuMGj/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:15.628Z",
+          "price_date": "10.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "CR0 - Pearson Building (London Square)": {
+      "project": "CR0 - Pearson Building (London Square)",
+      "city": "London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "CR0 - Pearson Building (London Square)",
+      "folder_id": "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
+      "folder_url": "https://drive.google.com/drive/folders/1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
+      "price_folder_id": "1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
+      "old_price_folder_id": "1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
+      "latest_files": [
+        {
+          "file": "LSQ - Pearson Price List - 7 July 26.pdf",
+          "file_id": "1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX",
+          "file_url": "https://drive.google.com/file/d/1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:21.792Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "SW11 - Ransomes Wharf (London Square)": {
+      "project": "SW11 - Ransomes Wharf (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "London Square",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW11 - Ransomes Wharf (London Square)",
+      "folder_id": "11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
+      "folder_url": "https://drive.google.com/drive/folders/11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
+      "price_folder_id": "1vYPBmg-0IszhUmdTocgfi78Oxlrv5kr7",
+      "price_folder_url": "https://drive.google.com/drive/folders/1vYPBmg-0IszhUmdTocgfi78Oxlrv5kr7",
+      "old_price_folder_id": "1nuPhDmTSkN-gejOjeeaEZ61gSmuximaS",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1nuPhDmTSkN-gejOjeeaEZ61gSmuximaS",
+      "latest_files": [
+        {
+          "file": "Ransomes Wharf - Customer Price List - 06.07.2026 (1).pdf",
+          "file_id": "1c6ilblNJDGEdOvL37fGuJtEXbXjm_6JI",
+          "file_url": "https://drive.google.com/file/d/1c6ilblNJDGEdOvL37fGuJtEXbXjm_6JI/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:27.508Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "Ransomes Wharf - Customer Price List - 27.06.2026.pdf",
+          "file_id": "1cwdpWBylAhWFHDKXdfW0-MRtZSSFrhjN",
+          "file_url": "https://drive.google.com/file/d/1cwdpWBylAhWFHDKXdfW0-MRtZSSFrhjN/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:31:23.495Z",
+          "price_date": "27.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Ransomes Wharf - Customer Price List - 15.06.2026.pdf",
+          "file_id": "1Qan0OZxv7m-_BsTZZzRdjX0IzcupXYdc",
+          "file_url": "https://drive.google.com/file/d/1Qan0OZxv7m-_BsTZZzRdjX0IzcupXYdc/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:56.743Z",
+          "price_date": "15.06.2026"
+        },
+        {
+          "file": "Ransomes Wharf - Customer Price List - 01.05.2026 (1).pdf",
+          "file_id": "1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek",
+          "file_url": "https://drive.google.com/file/d/1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek/view?usp=drivesdk",
+          "modified_at": "2026-05-11T07:21:42.000Z",
+          "price_date": "01.05.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SW17 - Wandsworth Common (London Square)": {
+      "project": "SW17 - Wandsworth Common (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW17 - Wandsworth Common (London Square)",
+      "folder_id": "116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
+      "folder_url": "https://drive.google.com/drive/folders/116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
+      "price_folder_id": "1upuwqMcOM7f_Bc7uNiKh1DeDA06tuH0F",
+      "price_folder_url": "https://drive.google.com/drive/folders/1upuwqMcOM7f_Bc7uNiKh1DeDA06tuH0F",
+      "old_price_folder_id": "1s46hwlUY7mHmwwCFqxE1bNLfMfWTaIEl",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1s46hwlUY7mHmwwCFqxE1bNLfMfWTaIEl",
+      "latest_files": [
+        {
+          "file": "Wandsworth Common Price List - Willow Collection 06.07.pdf",
+          "file_id": "1D-725mPRWNy76eyyDsPFU9Ow55NHElTH",
+          "file_url": "https://drive.google.com/file/d/1D-725mPRWNy76eyyDsPFU9Ow55NHElTH/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:11:24.162Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - The Residences 06.07.pdf",
+          "file_id": "1qi8IhNG9n07sLpGN_HONpf7ZPtFvsx3L",
+          "file_url": "https://drive.google.com/file/d/1qi8IhNG9n07sLpGN_HONpf7ZPtFvsx3L/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:11:08.199Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - Hawthorn 06.07.pdf",
+          "file_id": "1rmBmAxLhNHnuQ3Ri8VF2VNZ7apylkG_X",
+          "file_url": "https://drive.google.com/file/d/1rmBmAxLhNHnuQ3Ri8VF2VNZ7apylkG_X/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:52.563Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Wandsworth Common Price List - Willow Collection 22.6.pdf",
+          "file_id": "1ZCfpUiVmZ4sSupQQcHk2l7WLzlip-M9v",
+          "file_url": "https://drive.google.com/file/d/1ZCfpUiVmZ4sSupQQcHk2l7WLzlip-M9v/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:31:14.723Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - The Residences 22.6.pdf",
+          "file_id": "1wIeVngGPWKo_8g7LHtPsohjYUPiR4-p0",
+          "file_url": "https://drive.google.com/file/d/1wIeVngGPWKo_8g7LHtPsohjYUPiR4-p0/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:31:11.905Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - Hawthorn 22.6.pdf",
+          "file_id": "1FPEbT-C3IYNvDEQQ9tXtfcCnv0XSTFAu",
+          "file_url": "https://drive.google.com/file/d/1FPEbT-C3IYNvDEQQ9tXtfcCnv0XSTFAu/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:31:09.002Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - Willow Collection 15.6.pdf",
+          "file_id": "1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3",
+          "file_url": "https://drive.google.com/file/d/1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:47:40.830Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - The Residences 15.6.pdf",
+          "file_id": "1kGpokaF-T9QasNCWgti47jOOdiQcfFt3",
+          "file_url": "https://drive.google.com/file/d/1kGpokaF-T9QasNCWgti47jOOdiQcfFt3/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:47:36.554Z",
+          "price_date": ""
+        },
+        {
+          "file": "Wandsworth Common Price List - Hawthorn 15.6.pdf",
+          "file_id": "1aV_LlVPF8mhJx1LTMrieVYTjTV7w5p_y",
+          "file_url": "https://drive.google.com/file/d/1aV_LlVPF8mhJx1LTMrieVYTjTV7w5p_y/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:47:32.042Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "SW19 - Wimbledon Bridge House (London Square)": {
+      "project": "SW19 - Wimbledon Bridge House (London Square)",
+      "city": "Outer London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Merton 默顿 / SW19 - Wimbledon Bridge House (London Square)",
+      "folder_id": "1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
+      "folder_url": "https://drive.google.com/drive/folders/1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
+      "price_folder_id": "1TAmPv2pI-RWyOwDK3rE4hKP9FEC2Ca13",
+      "price_folder_url": "https://drive.google.com/drive/folders/1TAmPv2pI-RWyOwDK3rE4hKP9FEC2Ca13",
+      "old_price_folder_id": "1C6u6ju24OP1GvdK1YR62tlp0un1cjvoh",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1C6u6ju24OP1GvdK1YR62tlp0un1cjvoh",
+      "latest_files": [
+        {
+          "file": "Wimbledon Bridge House - Price List - 06.07.26.pdf",
+          "file_id": "1C6DNZ6GBBsfQUIIpv9JBi-zZ5kYxLFy8",
+          "file_url": "https://drive.google.com/file/d/1C6DNZ6GBBsfQUIIpv9JBi-zZ5kYxLFy8/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:11:57.447Z",
+          "price_date": "06.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Wimbledon Bridge House - Price List - 29.06.26.pdf",
+          "file_id": "1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P",
+          "file_url": "https://drive.google.com/file/d/1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:32:09.000Z",
+          "price_date": "29.06.26"
+        },
+        {
+          "file": "Wimbledon Bridge House - Price List - 15.06.26.pdf",
+          "file_id": "1LZoqEZNs6lR4rsoNwc0MgMcJaIqDHWuo",
+          "file_url": "https://drive.google.com/file/d/1LZoqEZNs6lR4rsoNwc0MgMcJaIqDHWuo/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:47:53.998Z",
+          "price_date": "15.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "SE18 - Woolwich (London Square)": {
+      "project": "SE18 - Woolwich (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE18 - Woolwich (London Square)",
+      "folder_id": "1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu",
+      "folder_url": "https://drive.google.com/drive/folders/1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu",
+      "price_folder_id": "1TbLOvxv40RtaD6bJ43glFyYDXkeXXTpE",
+      "price_folder_url": "https://drive.google.com/drive/folders/1TbLOvxv40RtaD6bJ43glFyYDXkeXXTpE",
+      "old_price_folder_id": "1zdUBvH5MemBGTeI2wOLGY-FBEP7jLQEt",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1zdUBvH5MemBGTeI2wOLGY-FBEP7jLQEt",
+      "latest_files": [
+        {
+          "file": "LSQ - Woolwich Price List 07.07.2026.pdf",
+          "file_id": "1RoqSaChFOVNVnIthw_wzwdlt-BO6QTaV",
+          "file_url": "https://drive.google.com/file/d/1RoqSaChFOVNVnIthw_wzwdlt-BO6QTaV/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:12:13.396Z",
+          "price_date": "07.07.2026"
+        },
+        {
+          "file": "Woolwich Price List 29.06.2026.pdf",
+          "file_id": "10NF_mdeNTGHnB0MOQsfwsbrDjoQjAE69",
+          "file_url": "https://drive.google.com/file/d/10NF_mdeNTGHnB0MOQsfwsbrDjoQjAE69/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:32:50.739Z",
+          "price_date": "29.06.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Woolwich Price List 15.06.2026.pdf",
+          "file_id": "1Mwd3WDiUzb9R1Z_CPd691ClZID-Fdeqi",
+          "file_url": "https://drive.google.com/file/d/1Mwd3WDiUzb9R1Z_CPd691ClZID-Fdeqi/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:48:11.365Z",
+          "price_date": "15.06.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr"
+    "16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
+    "1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
+    "1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
+    "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
+    "11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
+    "116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
+    "1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
+    "1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu"
   ],
   "targeted_projects": [
-    "SE1 - Westminster Tower (London Square)"
+    "W14 - 50 Brook Green (London Square)",
+    "SE1 - Bermondsey (London Square)",
+    "KT1 - County Hall Kingston (London Square)",
+    "CR0 - Pearson Building (London Square)",
+    "SW11 - Ransomes Wharf (London Square)",
+    "SW17 - Wandsworth Common (London Square)",
+    "SW19 - Wimbledon Bridge House (London Square)",
+    "SE18 - Woolwich (London Square)"
   ]
 }
