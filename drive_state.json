@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-10T19:14:46",
+  "synced_at": "2026-07-10T19:20:17",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7281,31 +7281,6 @@
       ],
       "notes": []
     },
-    "CR0 - Pearson Building (London Square)": {
-      "project": "CR0 - Pearson Building (London Square)",
-      "city": "London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "CR0 - Pearson Building (London Square)",
-      "folder_id": "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-      "folder_url": "https://drive.google.com/drive/folders/1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-      "price_folder_id": "1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
-      "old_price_folder_id": "1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
-      "latest_files": [
-        {
-          "file": "LSQ - Pearson Price List - 7 July 26.pdf",
-          "file_id": "1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX",
-          "file_url": "https://drive.google.com/file/d/1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX/view?usp=drivesdk",
-          "modified_at": "2026-07-10T11:10:21.792Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "SW11 - Ransomes Wharf (London Square)": {
       "project": "SW11 - Ransomes Wharf (London Square)",
       "city": "Inner London",
@@ -7514,27 +7489,38 @@
         }
       ],
       "notes": []
+    },
+    "CR0 - Pearson Building (London Square)": {
+      "project": "CR0 - Pearson Building (London Square)",
+      "city": "London",
+      "developer": "London Square",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "CR0 - Pearson Building (London Square)",
+      "folder_id": "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
+      "folder_url": "https://drive.google.com/drive/folders/1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
+      "price_folder_id": "1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
+      "old_price_folder_id": "1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
+      "latest_files": [
+        {
+          "file": "LSQ - Pearson Price List - 7 July 26.pdf",
+          "file_id": "1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX",
+          "file_url": "https://drive.google.com/file/d/1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX/view?usp=drivesdk",
+          "modified_at": "2026-07-10T11:10:21.792Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
-    "1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
-    "1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
-    "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-    "11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
-    "116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
-    "1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
-    "1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu"
+    "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC"
   ],
   "targeted_projects": [
-    "W14 - 50 Brook Green (London Square)",
-    "SE1 - Bermondsey (London Square)",
-    "KT1 - County Hall Kingston (London Square)",
-    "CR0 - Pearson Building (London Square)",
-    "SW11 - Ransomes Wharf (London Square)",
-    "SW17 - Wandsworth Common (London Square)",
-    "SW19 - Wimbledon Bridge House (London Square)",
-    "SE18 - Woolwich (London Square)"
+    "CR0 - Pearson Building (London Square)"
   ]
 }
