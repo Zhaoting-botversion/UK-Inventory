@@ -1,14 +1,14 @@
 [
   {
     "project": "E14 - South Quay Plaza",
-    "project_key": "E14 - South Quay Plaza · sqp",
-    "old_file": "SQP Daily Price List 25.06.2026.pdf",
+    "log_project": "South Quay Plaza",
+    "phase_key": "sqp",
     "new_file": "SQP Daily Price List 04.07.2026.pdf",
-    "old_units": 31,
-    "new_units": 29,
-    "events": 4,
-    "old_error": null,
-    "new_error": null
+    "new_file_id": "1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8",
+    "old_file": "SQP Daily Price List 25.06.2026.pdf",
+    "old_file_id": "1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5",
+    "log": "uk_update_20260709_165748.json",
+    "skipped": "already imported"
   },
   {
     "project": "E3 - Twelvetrees Park",
