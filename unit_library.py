@@ -98,13 +98,15 @@ def normalize_status(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "").strip().lower())
 
 
-def availability_bucket(*values: object) -> str:
-    status = normalize_status(" ".join(str(value or "") for value in values))
+def availability_bucket(status_value: object = "", unit_value: object = "", price_value: object = "") -> str:
+    status = normalize_status(" ".join(str(value or "") for value in (status_value, unit_value, price_value)))
     if any(token in status for token in UNAVAILABLE_TOKENS):
         return "sold"
     if any(token in status for token in RESERVED_TOKENS):
         return "reserved"
     if not status or any(token in status for token in ("available", "released", "for sale")):
+        return "available"
+    if parse_money(price_value) is not None:
         return "available"
     return "other"
 
@@ -165,8 +167,8 @@ def current_units(path: Path = DB_PATH) -> list[dict]:
         }
     for row in units:
         event = events.get((row.get("project_name"), row.get("unit_key")), {})
-        row["availability"] = availability_bucket(row.get("status"), row.get("unit"), row.get("price"))
         row["price_number"] = parse_money(row.get("price"))
+        row["availability"] = availability_bucket(row.get("status"), row.get("unit"), row.get("price"))
         row["rent_number"] = parse_money(row.get("rent_estimate"))
         row["area_sqft"] = parse_area_sqft(row.get("internal_area"))
         row["price_per_sqft"] = (
