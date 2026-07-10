@@ -9,6 +9,9 @@ from unit_change_engine import DB_PATH
 
 TEXT_FIELDS = (
     "project_name",
+    "project_city",
+    "project_location",
+    "project_neighborhood",
     "unit",
     "bedroom",
     "floor",
@@ -28,6 +31,22 @@ TEXT_FIELDS = (
 )
 
 
+UNAVAILABLE_TOKENS = (
+    "sold",
+    "exchanged",
+    "completed",
+    "unavailable",
+    "withdrawn",
+)
+
+RESERVED_TOKENS = (
+    "reserved",
+    "reservation",
+    "under offer",
+    "hold",
+)
+
+
 def parse_money(value: object) -> float | None:
     text = str(value or "")
     if not text or re.search(r"\bpoa\b|application|tbc|n/a", text, re.I):
@@ -41,15 +60,50 @@ def parse_money(value: object) -> float | None:
         return None
 
 
+def parse_area_sqft(value: object) -> float | None:
+    text = str(value or "").replace("\u00a0", " ").strip().lower()
+    if not text or any(token in text for token in ("internal", "area", "sq m", "sqm", "sqft")) and not re.search(r"\d", text):
+        return None
+    match = re.search(r"[\d,]+(?:\.\d+)?", text)
+    if not match:
+        return None
+    try:
+        area = float(match.group(0).replace(",", ""))
+    except ValueError:
+        return None
+    if area <= 0:
+        return None
+    if "sqm" in text or "sq m" in text or area < 250:
+        return area * 10.7639
+    return area
+
+
+def is_displayable_unit(value: object) -> bool:
+    text = str(value or "").strip()
+    if not text or not re.search(r"\d", text):
+        return False
+    return text.lower() not in {
+        "plot",
+        "plot no.",
+        "plot no",
+        "unit",
+        "unit no",
+        "unit area",
+        "unit area sqft",
+        "apartment no.",
+        "apart- ment no.",
+    }
+
+
 def normalize_status(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "").strip().lower())
 
 
-def availability_bucket(value: object) -> str:
-    status = normalize_status(value)
-    if any(token in status for token in ("sold", "exchanged", "completed", "unavailable", "withdrawn")):
+def availability_bucket(*values: object) -> str:
+    status = normalize_status(" ".join(str(value or "") for value in values))
+    if any(token in status for token in UNAVAILABLE_TOKENS):
         return "sold"
-    if any(token in status for token in ("reserved", "reservation", "under offer", "hold")):
+    if any(token in status for token in RESERVED_TOKENS):
         return "reserved"
     if not status or any(token in status for token in ("available", "released", "for sale")):
         return "available"
@@ -112,8 +166,21 @@ def current_units(path: Path = DB_PATH) -> list[dict]:
         }
     for row in units:
         event = events.get((row.get("project_name"), row.get("unit_key")), {})
-        row["availability"] = availability_bucket(row.get("status"))
+        row["availability"] = availability_bucket(row.get("status"), row.get("unit"), row.get("price"))
         row["price_number"] = parse_money(row.get("price"))
+        row["rent_number"] = parse_money(row.get("rent_estimate"))
+        row["area_sqft"] = parse_area_sqft(row.get("internal_area"))
+        row["price_per_sqft"] = (
+            row["price_number"] / row["area_sqft"]
+            if row.get("price_number") is not None and row.get("area_sqft")
+            else None
+        )
+        row["rental_yield"] = (
+            row["rent_number"] * 12 / row["price_number"] * 100
+            if row.get("rent_number") is not None and row.get("price_number")
+            else None
+        )
+        row["is_displayable_unit"] = is_displayable_unit(row.get("unit"))
         row["latest_change_type"] = event.get("change_type", "")
         row["latest_price_change"] = event.get("price_change")
         row["latest_change_at"] = event.get("created_at", "")
@@ -131,6 +198,10 @@ def filter_units(units: list[dict], filters: dict[str, str]) -> list[dict]:
     min_price = parse_money(filters.get("min_price"))
     rows = []
     for row in units:
+        if filters.get("only_available") == "1" and row.get("availability") != "available":
+            continue
+        if filters.get("displayable_only") == "1" and not row.get("is_displayable_unit"):
+            continue
         haystack = " ".join(str(row.get(field, "")) for field in TEXT_FIELDS).lower()
         if search and search not in haystack:
             continue
