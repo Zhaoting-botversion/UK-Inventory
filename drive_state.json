@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-10T12:08:44",
+  "synced_at": "2026-07-10T13:52:00",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -4016,40 +4016,6 @@
       ],
       "notes": []
     },
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2025": {
-      "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2025",
-      "city": "Inner London",
-      "developer": "Rockwell Property",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Hurlingham Waterfront - Est. Completion Q3 2025",
-      "folder_id": "11NoH9bdLuk6Odiq6-4kXg1CsvNVkhqGU",
-      "folder_url": "https://drive.google.com/drive/folders/11NoH9bdLuk6Odiq6-4kXg1CsvNVkhqGU",
-      "price_folder_id": "1cqKoLfinxhlOWIC2XDRrIGBj9zLmr_m5",
-      "price_folder_url": "https://drive.google.com/drive/folders/1cqKoLfinxhlOWIC2XDRrIGBj9zLmr_m5",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Herland Gardens Availability List April 26.pdf",
-          "file_id": "1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM",
-          "file_url": "https://drive.google.com/file/d/1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:27.307Z",
-          "price_date": ""
-        },
-        {
-          "file": "Herland Gardens Availability List May 26.pdf",
-          "file_id": "1w9j4ck3pbpmD5g1MP1vpJ-tVt_KU4e4w",
-          "file_url": "https://drive.google.com/file/d/1w9j4ck3pbpmD5g1MP1vpJ-tVt_KU4e4w/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:16:14.722Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
       "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
       "city": "Inner London",
@@ -4079,7 +4045,22 @@
           "price_date": ""
         }
       ],
-      "old_files": [],
+      "old_files": [
+        {
+          "file": "Herland Gardens Availability List May 26.pdf",
+          "file_id": "1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw",
+          "file_url": "https://drive.google.com/file/d/1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:38.947Z",
+          "price_date": ""
+        },
+        {
+          "file": "Herland Gardens Availability List April 26.pdf",
+          "file_id": "1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM",
+          "file_url": "https://drive.google.com/file/d/1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:27.307Z",
+          "price_date": ""
+        }
+      ],
       "notes": []
     },
     "SW6 - King's Road Park": {
