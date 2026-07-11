@@ -1279,6 +1279,33 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .tag.increase {{ background: #ffedd5; color: #9a3412; }}
     .tag.sold {{ background: #f1f5f9; color: #334155; }}
     .tag.release {{ background: #dbeafe; color: #1e40af; }}
+    .inventory-table-wrap {{ border: 1px solid var(--line); border-radius: 8px; background: var(--panel); overflow-x: auto; }}
+    .inventory-table {{ min-width: 1560px; border: 0; border-radius: 0; table-layout: fixed; }}
+    .inventory-table th, .inventory-table td {{ vertical-align: top; }}
+    .inventory-table .project-col {{ width: 190px; }}
+    .inventory-table .city-col {{ width: 110px; }}
+    .inventory-table .location-col {{ width: 125px; }}
+    .inventory-table .unit-col {{ width: 90px; }}
+    .inventory-table .beds-col {{ width: 70px; }}
+    .inventory-table .floor-col {{ width: 75px; }}
+    .inventory-table .area-col {{ width: 95px; }}
+    .inventory-table .aspect-col {{ width: 165px; }}
+    .inventory-table .price-col {{ width: 125px; }}
+    .inventory-table .psf-col {{ width: 85px; }}
+    .inventory-table .rent-col {{ width: 115px; }}
+    .inventory-table .yield-col {{ width: 105px; }}
+    .inventory-table .change-col {{ width: 180px; min-width: 180px; }}
+    .inventory-table .source-col {{ width: 110px; }}
+    .inventory-table .num {{ text-align: right; white-space: nowrap; }}
+    .inventory-table td {{ overflow-wrap: anywhere; }}
+    .change-pill {{ display: inline-flex; align-items: center; max-width: 100%; border-radius: 999px; padding: 4px 9px; font-size: 12px; font-weight: 700; line-height: 1.2; white-space: nowrap; }}
+    .change-pill.none {{ background: #f8fafc; color: #64748b; border: 1px solid #e2e8f0; }}
+    .change-pill.drop {{ background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }}
+    .change-pill.increase {{ background: #ffedd5; color: #9a3412; border: 1px solid #fed7aa; }}
+    .change-pill.sold {{ background: #f1f5f9; color: #334155; border: 1px solid #cbd5e1; }}
+    .change-pill.release {{ background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }}
+    .change-pill.reserved {{ background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }}
+    .change-pill.other {{ background: #eef2ff; color: #3730a3; border: 1px solid #c7d2fe; }}
     .split {{ display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; }}
     .panel {{ background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 14px; }}
     .unit-highlight {{ border-color: #b7d7d2; background: #f5fffd; }}
@@ -2288,6 +2315,20 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
             return f'<a href="/project/{quote(base_name)}">{e(project_name)}</a>'
         return e(project_name)
 
+    def inventory_change_tag(change_type: str) -> str:
+        if not change_type:
+            return '<span class="change-pill none">无近期变化</span>'
+        cls = {
+            "PRICE_DROP": "drop",
+            "PRICE_INCREASE": "increase",
+            "SOLD": "sold",
+            "NEW_RELEASE": "release",
+            "BACK_ON_MARKET": "release",
+            "RESERVED": "reserved",
+            "STATUS_CHANGE": "other",
+        }.get(change_type, "other")
+        return f'<span class="change-pill {cls}">{e(change_label(change_type))}</span>'
+
     rows = []
     for row in filtered[:500]:
         project = row_project(row)
@@ -2296,23 +2337,22 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
             file_lookup,
         )
         change_type = row.get("latest_change_type", "")
-        change_text = e(change_type) if change_type else '<span class="muted">无近期变化</span>'
         rows.append(
             f"""<tr>
-              <td>{project_link(row.get("project_name", ""))}</td>
-              <td>{e(project_city(project))}</td>
-              <td>{e(project_location(project))}</td>
-              <td>{e(row.get("unit"))}</td>
-              <td>{e(row.get("bedroom"))}</td>
-              <td>{e(row.get("floor"))}</td>
-              <td>{display_area(row)}</td>
-              <td>{e(row.get("aspect"))}</td>
-              <td>{display_price(row)}</td>
-              <td>{display_money_number(row.get("price_per_sqft"))}</td>
-              <td>{display_money_number(row.get("rent_number"))}</td>
-              <td>{display_percent(row.get("rental_yield"))}</td>
-              <td>{change_text}</td>
-              <td>{source_link}</td>
+              <td class="project-col">{project_link(row.get("project_name", ""))}</td>
+              <td class="city-col">{e(project_city(project))}</td>
+              <td class="location-col">{e(project_location(project))}</td>
+              <td class="unit-col">{e(row.get("unit"))}</td>
+              <td class="beds-col">{e(row.get("bedroom"))}</td>
+              <td class="floor-col">{e(row.get("floor"))}</td>
+              <td class="area-col">{display_area(row)}</td>
+              <td class="aspect-col">{e(row.get("aspect"))}</td>
+              <td class="price-col num">{display_price(row)}</td>
+              <td class="psf-col num">{display_money_number(row.get("price_per_sqft"))}</td>
+              <td class="rent-col num">{display_money_number(row.get("rent_number"))}</td>
+              <td class="yield-col num">{display_percent(row.get("rental_yield"))}</td>
+              <td class="change-col">{inventory_change_tag(change_type)}</td>
+              <td class="source-col">{source_link}</td>
             </tr>"""
         )
     if not rows:
@@ -2341,16 +2381,18 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
         <a class="button secondary" href="/units">清空</a>
       </form>
       <p class="muted">仅显示当前判断为可售的房源；预订、已售、不可售和表头行已隐藏。面积小于 250 的数值会按 sqm 自动换算为 sq ft，租金回报率按月租金 × 12 ÷ 房价估算。</p>
-      <table>
+      <div class="inventory-table-wrap">
+      <table class="inventory-table">
         <thead>
           <tr>
-            <th>项目</th><th>城市</th><th>位置</th><th>房号</th><th>户型</th><th>楼层</th>
-            <th>面积</th><th>朝向/景观</th><th>价格</th><th>£/sq ft</th><th>预估租金/月</th><th>预估租金回报</th>
-            <th>最近变化</th><th>来源价单</th>
+            <th class="project-col">项目</th><th class="city-col">城市</th><th class="location-col">位置</th><th class="unit-col">房号</th><th class="beds-col">户型</th><th class="floor-col">楼层</th>
+            <th class="area-col">面积</th><th class="aspect-col">朝向/景观</th><th class="price-col">价格</th><th class="psf-col">£/sq ft</th><th class="rent-col">预估租金/月</th><th class="yield-col">预估租金回报</th>
+            <th class="change-col">最近变化</th><th class="source-col">来源价单</th>
           </tr>
         </thead>
         <tbody>{"".join(rows)}</tbody>
       </table>
+      </div>
       {limit_note}
     """
     return layout("房源库", content, "/units")
