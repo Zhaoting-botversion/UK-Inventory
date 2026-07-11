@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import argparse
 import csv
@@ -17,21 +17,21 @@ DB_PATH = SCRIPT_DIR / "inventory_units.sqlite"
 
 PRICE_FILE_EXTENSIONS = {".pdf", ".xlsx", ".xlsm", ".xls", ".csv"}
 FIELD_SYNONYMS = {
-    "unit": ["unit", "plot", "apartment", "apt", "apartment number", "property", "home", "home no", "房号"],
-    "bedroom": ["bed", "beds", "bedroom", "bedrooms", "type", "unit type", "户型"],
-    "internal_area": ["internal area", "internal", "net internal", "nia", "sq ft", "sqft", "area", "面积"],
-    "external_area": ["external area", "external", "balcony", "terrace", "outside space", "室外"],
-    "aspect": ["aspect", "orientation", "view", "views", "facing", "朝向", "景观"],
-    "price": ["price", "asking price", "list price", "purchase price", "total price", "价格"],
-    "floor": ["floor", "level", "storey", "楼层"],
-    "status": ["status", "availability", "available", "reservation", "状态"],
+    "unit": ["unit", "plot", "apartment", "apt", "apartment number", "property", "home", "home no", "鎴垮彿"],
+    "bedroom": ["bed", "beds", "bedroom", "bedrooms", "type", "unit type", "鎴峰瀷"],
+    "internal_area": ["internal area", "internal", "net internal", "nia", "sq ft", "sqft", "area", "闈㈢Н"],
+    "external_area": ["external area", "external", "balcony", "terrace", "outside space", "瀹ゅ"],
+    "aspect": ["aspect", "orientation", "view", "views", "facing", "鏈濆悜", "鏅"],
+    "price": ["price", "asking price", "list price", "purchase price", "total price", "浠锋牸"],
+    "floor": ["floor", "level", "storey", "妤煎眰"],
+    "status": ["status", "availability", "available", "reservation"],
     "tenure": ["tenure", "lease", "leasehold"],
-    "estimated_completion": ["estimated completion", "completion", "build complete", "completion date", "交付"],
-    "rent_estimate": ["rent estimate", "estimated rent", "rental estimate", "rent", "pcm", "pw", "租金"],
-    "service_charge": ["service charge", "service charges", "物业费"],
-    "ground_rent": ["ground rent", "地租"],
-    "parking": ["parking", "car parking", "车位"],
-    "incentives": ["incentive", "incentives", "discount", "furniture package", "furniture", "stamp duty", "优惠"],
+    "estimated_completion": ["estimated completion", "completion", "build complete", "completion date", "浜や粯"],
+    "rent_estimate": ["rent estimate", "estimated rent", "rental estimate", "rent", "pcm", "pw", "绉熼噾"],
+    "service_charge": ["service charge", "service charges"],
+    "ground_rent": ["ground rent", "鍦扮"],
+    "parking": ["parking", "car parking", "杞︿綅"],
+    "incentives": ["incentive", "incentives", "discount", "furniture package", "furniture", "stamp duty", "浼樻儬"],
 }
 OUTPUT_FIELDS = [
     "unit",
@@ -158,7 +158,7 @@ def record_is_plausible(record: dict) -> bool:
         "name",
     }:
         return False
-    if len(unit_text) > 30 or "•" in unit_text:
+    if len(unit_text) > 30 or "�" in unit_text:
         return False
     if not unit_key or not any(char.isdigit() for char in unit_key):
         return False
@@ -234,11 +234,16 @@ def parse_price(value: object) -> float | None:
         return None
     if re.search(r"\bpoa\b|application|tbc|n/a", text, re.I):
         return None
-    match = re.search(r"[\d,]+(?:\.\d+)?", text.replace("£", ""))
+    cleaned = text.replace("拢", "").replace("£", "")
+    cleaned = re.sub(r"(?<=\d)\s+(?=\d)", "", cleaned)
+    match = re.search(r"[\d,]+(?:\.\d+)?", cleaned)
     if not match:
         return None
     try:
-        return float(match.group(0).replace(",", ""))
+        value = float(match.group(0).replace(",", ""))
+        if re.search(r"(?<=\d)\s*m\b|million", cleaned, re.IGNORECASE):
+            value *= 1_000_000
+        return value
     except ValueError:
         return None
 
@@ -264,21 +269,26 @@ def status_norm(value: object) -> str:
 
 def is_sold_status(value: object) -> bool:
     text = status_norm(value)
-    return any(token in text for token in ["sold", "exchanged", "completed", "unavailable", "withdrawn", "已售"])
+    return any(token in text for token in ["sold", "exchanged", "completed", "unavailable", "withdrawn", "宸插敭"])
 
 
 def is_reserved_status(value: object) -> bool:
     text = status_norm(value)
-    return any(token in text for token in ["reserved", "reservation", "under offer", "hold", "预订"])
+    return any(token in text for token in ["reserved", "reservation", "under offer", "hold", "棰勮"])
 
 
 def is_available_status(value: object) -> bool:
     text = status_norm(value)
-    return not text or any(token in text for token in ["available", "released", "for sale", "可售"])
+    return not text or any(token in text for token in ["available", "released", "for sale", "鍙敭"])
 
 
 def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
     records: list[dict] = []
+    for row in rows:
+        joined = " ".join(cell_text(cell) for cell in row if cell_text(cell))
+        record = parse_text_line_record(joined, source)
+        if record and record_is_plausible(record):
+            records.append(record)
     for index, row in enumerate(rows):
         mapping, header_rows = header_mapping_from_rows(rows, index)
         if "unit" not in mapping or ("price" not in mapping and "status" not in mapping):
@@ -307,8 +317,77 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
     text = cell_text(line)
     if not text:
         return None
-    money_or_status = r"(?:£\s?[\d,]+|RESERVED|SOLD|ON HOLD|POA|TBC)"
+    money = r"(?:[£拢]\s?[\d,\s]+(?:\.\d+)?(?:m|M)?)"
+    money_or_status = rf"(?:{money}|RESERVED|SOLD|ON HOLD|POA|TBC)"
     status = r"(?:Available|On Hold|Reserved|Sold|Exchanged|Unavailable)"
+    match = re.match(
+        rf"^(?:[•\-\u2022]\s*)?(?P<label>ONE|TWO|THREE|FOUR|FIVE|\d+)\s+BEDROOM(?:\s+APARTMENTS?)?\s+[-–]\s+"
+        rf"(?P<note>PRICES?\s+FROM|PRICE\s+FROM|ASKING\s+PRICE)\s+(?P<price>{money})",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        label = (groups.get("label") or "").upper()
+        bedroom_map = {"ONE": "1", "TWO": "2", "THREE": "3", "FOUR": "4", "FIVE": "5"}
+        beds = bedroom_map.get(label, label)
+        return finalize_record({
+            "source": source,
+            "unit": f"{beds} Bedroom Guide",
+            "bedroom": beds,
+            "internal_area": "",
+            "external_area": "",
+            "aspect": "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": "",
+            "status": "Price Guide",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "Project-level guide price; detailed unit pricing by one-to-one enquiry",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z0-9][A-Za-z0-9.\-\/]*\*{{0,2}})\s+"
+        rf"(?P<status>{status})\s+"
+        rf"(?P<floor>[A-Za-z]|\d{{1,2}}|Ground|Lower Ground|LG|UG)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<baths>\d+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<aspect>[A-Z]{{1,3}}(?:/[A-Z]{{1,3}})?)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+(?P<service>{money}))?"
+        rf"(?:\s+(?P<rent>{money}))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = groups.get("status") or ""
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            row_status = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": (groups.get("unit") or "").replace("*", ""),
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": groups.get("service") or "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
     match = re.match(
         rf"^(?P<unit>[A-Za-z0-9][A-Za-z0-9.\-\/]*\*{{0,2}})\s+"
         rf"(?P<status>{status})\s+"
@@ -317,8 +396,8 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
         rf"(?P<baths>\d+)\s+"
         rf"(?P<sqft>[\d,]+)\s+"
         rf"(?P<price>{money_or_status})"
-        rf"(?:\s+(?P<service>£\s?[\d,]+))?"
-        rf"(?:\s+(?P<rent>£\s?[\d,]+))?$",
+        rf"(?:\s+(?P<service>拢\s?[\d,]+))?"
+        rf"(?:\s+(?P<rent>拢\s?[\d,]+))?$",
         text,
         flags=re.IGNORECASE,
     )
@@ -353,9 +432,9 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
         rf"(?P<beds>\d+)\s+"
         rf"(?P<sqft>[\d,]+)\s+"
         rf"(?P<price>{money_or_status})"
-        rf"(?:\s+(?P<rent>£\s?[\d,]+))?"
+        rf"(?:\s+(?P<rent>拢\s?[\d,]+))?"
         rf"(?:\s+(?P<yield>\d+(?:\.\d+)?%))?"
-        rf"(?:\s+(?P<estate>£\s?[\d,]+))?"
+        rf"(?:\s+(?P<estate>拢\s?[\d,]+))?"
         rf"(?:\s+(?P<completion>.+))?$",
         text,
         flags=re.IGNORECASE,
@@ -432,7 +511,7 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
         rf"(?P<beds>\d+(?:\.\d+)?)(?:\s*Bed)?\s+"
         rf"(?P<baths>\d+(?:\.\d+)?)\s+"
         rf"(?P<spec>[A-Za-z][A-Za-z ]+|-)\s+"
-        rf"(?P<price>£\s?[\d,]+|-)$",
+        rf"(?P<price>拢\s?[\d,]+|-)$",
         text,
         flags=re.IGNORECASE,
     )
@@ -500,7 +579,7 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
         rf"(?:(?P<amenity>Terrace|Balcony|Winter Garden)\s+)?"
         rf"(?P<sqft>[\d,]+)\s+"
         rf"(?P<price>{money_or_status})"
-        rf"(?:\s+£\s?[\d,]+)?$",
+        rf"(?:\s+拢\s?[\d,]+)?$",
         text,
         flags=re.IGNORECASE,
     )
@@ -537,7 +616,7 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
         rf"(?P<internal>[\d,]+)\s+"
         rf"(?P<external>[\d,]+|n/a)\s+"
         rf"(?P<status>Available(?:\s*\\([^)]+\\))?|Reserved|Sold)\s+"
-        rf"(?P<view>.+?)\s+£\s?"
+        rf"(?P<view>.+?)\s+拢\s?"
         rf"(?P<price>[\d,]+(?:\.\d+)?)",
         text,
         flags=re.IGNORECASE,
@@ -554,6 +633,732 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
             "price": normalize_record_value("price", groups.get("price") or ""),
             "floor": groups.get("floor") or "",
             "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z]\d{{3,4}})\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<aspect>[A-Z]{{1,3}}(?:/[A-Z]{{1,3}})?)\s+"
+        rf"(?P<beds>\d+)\s+Bed\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)(?:\s+sq\s*ft)?\s+"
+        rf"(?P<price>{money_or_status})",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            row_status = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z]?\d{{1,3}}(?:\.\d{{2}})?)\s+"
+        rf"(?P<floor>Mezz|Ground|Lower Ground|Upper Ground|LG|UG|G|[A-Za-z]|\d{{1,2}}(?:st|nd|rd|th)?)\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<aspect>[A-Za-z/ &-]+?)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+(?P<furniture>Yes|No))?"
+        rf"(?:\s+(?P<rent>{money}))?"
+        rf"(?:\s+(?P<yield>\d+(?:\.\d+)?%))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            row_status = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "Furniture pack included" if (groups.get("furniture") or "").lower() == "yes" else "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z]?\d+(?:\.\d+)?)\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<aspect>[A-Z]{{1,3}}(?:/[A-Z]{{1,3}})?)\s+"
+        rf"(?P<type>[A-Za-z0-9]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+{money})?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("type") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]?\d+)\s+"
+        rf"(?P<building>[A-Za-z ]+?)\s+"
+        rf"(?P<floor>Ground|Lower Ground|Upper Ground|LG|UG|G|[A-Za-z]|\d{{1,2}}(?:st|nd|rd|th)?)\s+"
+        rf"(?P<area>[\d,]+)\s*/\s*(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<aspect>[A-Za-z/ &-]+?)\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": groups.get("area") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("building") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]\d+)\s+"
+        rf"(?P<floor>[A-Z/]+|\d{{1,2}})\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<outside>Patio|Balcony|Terrace|Winter Garden|-)\s+"
+        rf"(?P<price>{money_or_status})\s+"
+        rf"(?P<rent>{money}|RESERVED|SOLD|ON HOLD)\s+"
+        rf"(?P<status>{status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = groups.get("status") or "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "" if groups.get("outside") == "-" else groups.get("outside") or "",
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]\d+(?:\.\d+)?)\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<beds>Suite|\d+\s*Bed)\s+"
+        rf"(?P<aspect>[A-Za-z &-]+?)\s+"
+        rf"(?P<area>[\d,]+)\s*/\s*(?P<sqm>[\d,.]+)"
+        rf"(?:\s+(?P<external_type>Balcony|Terrace|Winter Garden)\s+(?P<external>[\d,]+)\s*/\s*[\d,.]+)?\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        bed_text = groups.get("beds") or ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "0" if bed_text.lower() == "suite" else re.sub(r"\D+", "", bed_text),
+            "internal_area": groups.get("area") or "",
+            "external_area": f"{groups.get('external_type') or ''} {groups.get('external') or ''}".strip(),
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d{{2}}-\d{{2}})\s+"
+        rf"(?P<floor>-|\d{{1,2}})\s+"
+        rf"(?P<area>[\d,]+)sqft/[\d,.]+sqm\s+"
+        rf"(?P<external>[\d,]+)sqft/[\d,.]+sqm\s+"
+        rf"(?P<aspect>[A-Za-z]+)\s+"
+        rf"(?P<price>{money_or_status})\s+"
+        rf"(?P<yield>\d+(?:\.\d+)?%)\s+"
+        rf"(?P<rent>{money})\s+"
+        rf"(?P<spec>[A-Za-z ]+)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": groups.get("area") or "",
+            "external_area": groups.get("external") or "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": "" if groups.get("floor") == "-" else groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": f"{groups.get('yield') or ''} {groups.get('spec') or ''}".strip(),
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[A-Za-z]?)\s+"
+        rf"(?P<collection>[A-Za-z][A-Za-z ]+?)\s+"
+        rf"(?P<type>Terrace|Apartment|House|Duplex|Flat)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<baths>\d+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<aspect>[A-Za-z/ -]+?)\s+"
+        rf"(?P<completion>Q\d\s+\d{{4}}|Ready|Complete|Completed)\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": groups.get("completion") or "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": f"{groups.get('collection') or ''} {groups.get('type') or ''}".strip(),
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]\d(?:\.\d{{2}}){{2}})\s+"
+        rf"(?P<type>\d{{3}})\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<finish>[A-Za-z]+)\s+"
+        rf"(?P<aspect>[NSEW](?:\s*/\s*[NSEW])*)\s+"
+        rf"(?P<view>.+?)\s+"
+        rf"(?P<rent>{money})\s+"
+        rf"(?P<yield>\d+(?:\.\d+)?%)\s+"
+        rf"(?P<price>{money_or_status})",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": "",
+            "external_area": "",
+            "aspect": f"{groups.get('aspect') or ''} {groups.get('view') or ''}".strip(),
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("finish") or "",
+        })
+    match = re.match(
+        rf"^(?:Apartment\s+)?(?P<unit>[A-Z]?\d+(?:\.\d+)?|M\.\d{{2}})\s+"
+        rf"(?P<floor>Mezz|Ground|Lower Ground|Upper Ground|LG|UG|G|[A-Za-z]|\d{{1,2}})\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<tail>.+)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match and "Apartment" in text:
+        groups = match.groupdict()
+        tail = groups.get("tail") or ""
+        prices = re.findall(money, tail, flags=re.IGNORECASE)
+        price = prices[-1] if prices else ""
+        status_value = "Reserved" if re.search(r"\breserved\b", tail, re.I) and not price else "Available"
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": re.sub(money_or_status, "", tail, flags=re.IGNORECASE).strip(),
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", prices[0] if len(prices) > 1 else ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d{{3,4}})\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<type>Apartment|Penthouse)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?:(?P<outside>No|N/A)\s+N/A|(?P<outside_type>Balcony|Terrace|Winter Garden)\s+(?P<external_sqm>[\d,.]+)\s+(?P<external_sqft>[\d,]+))\s+"
+        rf"(?P<aspect>.+?)\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": f"{groups.get('outside_type') or ''} {groups.get('external_sqft') or ''}".strip(),
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("type") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d{{3,4}})\s+"
+        rf"(?P<floor>[‘']?\d{{1,2}})\s+"
+        rf"(?P<type>[A-Za-z0-9]+)\s+"
+        rf"(?P<beds>Studio|\d+)\s+"
+        rf"(?P<sqft>[\d,.]+)\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<external>[\d,.]+)\s+"
+        rf"(?P<price>{money_or_status})\s+"
+        rf"(?P<aspect>.+)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        beds = groups.get("beds") or ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "0" if beds.lower() == "studio" else beds,
+            "internal_area": groups.get("sqft") or "",
+            "external_area": groups.get("external") or "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": (groups.get("floor") or "").replace("‘", ""),
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("type") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]?\d+[A-Z]?)\s+"
+        rf"(?P<floor>Ground|Lower Ground|Upper Ground|LG|UG|G|[A-Za-z]|\d{{1,2}}(?:st|nd|rd|th)?)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<internal>[\d,]+)\s+[\d,.]+\s+"
+        rf"(?P<outside_type>Garden|Balcony|Terrace|Winter Garden)\s+"
+        rf"(?P<external>[\d,]+)\s+[\d,.]+\s+"
+        rf"(?P<view>.+?)\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": f"{groups.get('outside_type') or ''} {groups.get('external') or ''}".strip(),
+            "aspect": groups.get("view") or "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": groups.get("floor") or "",
+            "status": "Available",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]\d+\.\d{{2}}|P\d+\.\d+\*?)\s+"
+        rf"(?:(?P<type>[a-z]\.\d+(?:\.m)?)\s+)?"
+        rf"(?P<spec>Classic|Prime)\s+"
+        rf"(?P<floor>Ground|First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|Tenth|[A-Za-z]|\d{{1,2}})\s+"
+        rf"(?P<aspect>[A-Z]{{1,2}}(?:/[A-Z]{{1,2}})?|North|South|East|West)\s+"
+        rf"(?P<view>.+?)\s+"
+        rf"(?P<internal>[\d,]+)\s+"
+        rf"(?P<external>NA|[\d,]+)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+(?P<rent>{money}))?"
+        rf"(?:\s+(?P<yield>\d+(?:\.\d+)?%))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": (groups.get("unit") or "").replace("*", ""),
+            "bedroom": "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": "" if (groups.get("external") or "").upper() == "NA" else groups.get("external") or "",
+            "aspect": f"{groups.get('aspect') or ''} {groups.get('view') or ''}".strip(),
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("spec") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[A-Za-z]?)\s+"
+        rf"(?P<status>{status})\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<beds>Studio|[A-Za-z0-9]+)\s+"
+        rf"(?P<aspect>[A-Z]{{1,2}})\s+"
+        rf"(?P<balcony>Y|N)\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        beds = groups.get("beds") or ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "0" if beds.lower() == "studio" else re.sub(r"\D+", "", beds),
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "Balcony" if (groups.get("balcony") or "").upper() == "Y" else "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": groups.get("floor") or "",
+            "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[A-Za-z]?)\s+"
+        rf"(?P<core>[A-Za-z]+)\s+"
+        rf"(?P<beds>\d+)\s+bedrooms?\s+"
+        rf"(?P<sqft>[\d,]+)\s+sqft\s+"
+        rf"(?P<price>{money})\s+"
+        rf"(?P<status>{status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("core") or "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": "",
+            "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]\.\d\.\d{{1,2}}\.\d)\s+"
+        rf"(?P<floor>\d{{1,2}})\s+"
+        rf"(?P<beds>-|\d+)\s+"
+        rf"(?P<aspect>.+?)\s+"
+        rf"(?P<terrace_sqft>[\d,]+)\s+"
+        rf"(?P<terrace_sqm>[\d,.]+)\s+"
+        rf"(?P<internal>[\d,]+)\s+"
+        rf"(?P<internal_sqm>[\d,.]+)\s+"
+        rf"(?P<price>{money})\s+"
+        rf"(?P<status>{status})"
+        rf"(?:\s+(?P<rent>{money}|-))?"
+        rf"(?:\s+(?P<yield>\d+(?:\.\d+)?%|-))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "" if groups.get("beds") == "-" else groups.get("beds") or "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": groups.get("terrace_sqft") or "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": groups.get("floor") or "",
+            "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", "" if groups.get("rent") == "-" else groups.get("rent") or ""),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("yield") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z]?\d+[A-Z]?)\s+"
+        rf"(?P<floor>Ground|Lower Ground|Upper Ground|LG|UG|G|[A-Za-z]|\d{{1,2}}(?:st|nd|rd|th)?)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<internal>[\d,]+)\s+[\d,.]+\s+"
+        rf"(?P<outside_type>Garden|Balcony|Terrace|Winter Garden)\s+"
+        rf"(?P<external>[\d,]+)\s+[\d,.]+\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": f"{groups.get('outside_type') or ''} {groups.get('external') or ''}".strip(),
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[A-Za-z]?)\s+"
+        rf"(?P<floor>House|G/LG|LG|UG|G|[A-Za-z]|\d{{1,2}})\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<outside>Garden/Roof Terrace|Garden/Patio|Balcony|Terrace|Winter Garden)\s+"
+        rf"(?P<sqm>[\d,.]+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money}|[\d,]{{6,}})\s+"
+        rf"(?:{money})?"
+        rf"(?:\s+LINK)?\s*$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        if not re.search(r"[£拢]", price):
+            price = f"£{price}"
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": groups.get("outside") or "",
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": "Available",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+\.\d{{2}}\*?)\s+"
+        rf"(?P<primary>[A-Za-z ]+?)\s+"
+        rf"(?P<secondary>-|[A-Za-z ]+?)\s+"
+        rf"(?P<floor>\d{{1,2}}(?:-\d{{1,2}})?)\s+"
+        rf"(?P<internal>[\d,]+)\s+"
+        rf"(?P<sqm>[\d,]+)"
+        rf"(?:\s+(?P<terrace>[\d,]+)\s+(?P<terrace_sqm>[\d,]+))?\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+{money})?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"poa|reserved|sold|on hold", price, re.I):
+            status_value = price.upper() if re.search(r"poa", price, re.I) else price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": (groups.get("unit") or "").replace("*", ""),
+            "bedroom": "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": groups.get("terrace") or "",
+            "aspect": f"{groups.get('primary') or ''} {groups.get('secondary') or ''}".strip(),
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
             "tenure": "",
             "estimated_completion": "",
             "rent_estimate": "",
@@ -657,14 +1462,31 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
     try:
         with pdfplumber.open(str(path)) as pdf:
             for page in pdf.pages:
-                text_lines.extend((page.extract_text() or "").splitlines())
-                for table in page.extract_tables() or []:
+                try:
+                    page_text = page.extract_text() or ""
+                except Exception:
+                    try:
+                        page_text = page.extract_text_simple() or ""
+                    except Exception:
+                        page_text = ""
+                text_lines.extend(page_text.splitlines())
+                try:
+                    page_tables = page.extract_tables() or []
+                except Exception:
+                    page_tables = []
+                for table in page_tables:
                     rows.extend([[cell_text(cell) for cell in row] for row in table if row])
     except Exception as exc:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
-    if not records:
-        records = text_lines_to_records(text_lines, path.name)
+    text_records = text_lines_to_records(text_lines, path.name)
+    for record in text_records:
+        key = normalize_unit(record["unit"])
+        existing = next((item for item in records if normalize_unit(item["unit"]) == key), None)
+        if existing is None:
+            records.append(record)
+        elif not cell_text(existing.get("price")) and cell_text(record.get("price")):
+            existing.update(record)
     return records, None if records else "No recognizable unit table found"
 
 
@@ -853,7 +1675,7 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
             "aspect": new.get("aspect", ""),
         }
         if not old:
-            events.append({**base, "change_type": "NEW_RELEASE", "price_change": None, "price_change_pct": None, "reason": "上一版未出现，本版新放出。"})
+            events.append({**base, "change_type": "NEW_RELEASE", "price_change": None, "price_change_pct": None, "reason": "Appears in the new version but not in the previous version."})
             continue
         old_price = parse_price(old.get("price"))
         new_price = parse_price(new.get("price"))
@@ -865,12 +1687,12 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
                     "change_type": "PRICE_DROP" if delta < 0 else "PRICE_INCREASE",
                     "price_change": delta,
                     "price_change_pct": delta / old_price if old_price else None,
-                    "reason": "价格下降，适合优先复核和跟进。" if delta < 0 else "价格上调，需提醒销售使用新价格。",
+                    "reason": "Price decreased; review as a priority." if delta < 0 else "Price increased; use updated pricing.",
                 }
             )
         if status_norm(old.get("status")) != status_norm(new.get("status")):
             change_type = event_type_for_status(old.get("status", ""), new.get("status", ""))
-            events.append({**base, "change_type": change_type, "price_change": None, "price_change_pct": None, "reason": "房源状态发生变化。"})
+            events.append({**base, "change_type": change_type, "price_change": None, "price_change_pct": None, "reason": "Unit status changed."})
     for unit_key, old in sorted(old_by_unit.items()):
         if unit_key not in new_by_unit:
             events.append(
@@ -888,12 +1710,12 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
                     "price_change": None,
                     "price_change_pct": None,
                     "old_status": old.get("status", ""),
-                    "new_status": "缺失",
+                    "new_status": "Missing",
                     "bedroom": old.get("bedroom", ""),
                     "internal_area": old.get("internal_area", ""),
                     "floor": old.get("floor", ""),
                     "aspect": old.get("aspect", ""),
-                    "reason": "上一版可见，本版消失；先标记为已售/下架，需以开发商确认为准。",
+                    "reason": "Visible in the previous version but missing in the new version; marked as sold/withdrawn pending developer confirmation.",
                 }
             )
     return events
