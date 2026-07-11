@@ -7,8 +7,7 @@ import re
 import sqlite3
 import sys
 import zipfile
-from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -67,7 +66,15 @@ def header_to_field(value: str) -> str | None:
     key = header_key(value)
     if not key:
         return None
+    if key == "house type":
+        return "aspect"
+    if key in {"apart ment", "apartment ment"}:
+        return "unit"
     if "unit area" in key or key in {"area", "sq ft", "sqft", "unit ea q", "u ar s m"}:
+        return "internal_area"
+    if "internal" in key and ("sqft" in key or "sq ft" in key or "size" in key):
+        return "internal_area"
+    if "net" in key and ("sqft" in key or "sq ft" in key or "sqm" in key):
         return "internal_area"
     if "balcony" in key or "terrace" in key or "external" in key:
         return "external_area"
@@ -77,7 +84,9 @@ def header_to_field(value: str) -> str | None:
         return "rent_estimate"
     if "rental yield" in key:
         return None
-    if key in {"plot no", "plot", "unit", "apartment", "apart ment", "apartment number", "apt"}:
+    if key in {"plot no", "plot", "unit", "apartment", "apartment number", "apt", "apt no", "flat", "flat no", "residence no", "postal number", "name", "no", "number"}:
+        return "unit"
+    if key == "address":
         return "unit"
     for field, synonyms in FIELD_SYNONYMS.items():
         for synonym in synonyms:
@@ -85,6 +94,138 @@ def header_to_field(value: str) -> str | None:
             if key == syn or syn in key:
                 return field
     return None
+
+
+def prefer_header_field(field: str, new_header: str, current_header: str) -> bool:
+    new_key = header_key(new_header)
+    current_key = header_key(current_header)
+    if field == "internal_area":
+        if ("sqft" in new_key or "sq ft" in new_key) and not ("sqft" in current_key or "sq ft" in current_key):
+            return True
+        if ("sqm" in current_key or "sq m" in current_key) and "sqm" not in new_key and "sq m" not in new_key:
+            return True
+    if field == "unit":
+        preferred = ["postal number", "plot", "name", "apartment", "unit", "address"]
+
+        def rank(key: str) -> int:
+            for idx, token in enumerate(preferred):
+                if token in key:
+                    return idx
+            return len(preferred)
+
+        return rank(new_key) < rank(current_key)
+    if field == "bedroom":
+        return "bed" in new_key and "bed" not in current_key
+    if field == "price":
+        return "asking" in new_key and "asking" not in current_key
+    return False
+
+
+def finalize_record(record: dict) -> dict:
+    price = cell_text(record.get("price", ""))
+    status = cell_text(record.get("status", ""))
+    if price in {"-"}:
+        record["price"] = ""
+    elif re.fullmatch(r"(reserved|sold|on hold|unavailable|exchanged)", price, flags=re.IGNORECASE):
+        record["status"] = status or price
+        record["price"] = ""
+    elif price and parse_price(price) is None:
+        record["price"] = ""
+    elif parse_price(price) is not None and parse_price(price) < 50000:
+        record["price"] = ""
+    elif price and not status:
+        record["status"] = "Available"
+    if cell_text(record.get("bedroom", "")).lower() in {"available", "reserved", "sold", "on hold", "balcony", "terrace"}:
+        record["bedroom"] = ""
+    return record
+
+
+def record_is_plausible(record: dict) -> bool:
+    unit_key = normalize_unit(record.get("unit", ""))
+    unit_text = cell_text(record.get("unit", ""))
+    if unit_key in {
+        "plotno",
+        "unit",
+        "unitno",
+        "apartment",
+        "apartmentnumber",
+        "property",
+        "homeno",
+        "home",
+        "flat",
+        "aptno",
+        "residenceno",
+        "name",
+    }:
+        return False
+    if len(unit_text) > 30 or "•" in unit_text:
+        return False
+    if not unit_key or not any(char.isdigit() for char in unit_key):
+        return False
+    if normalize_unit(record.get("status", "")) == unit_key:
+        return False
+    if cell_text(record.get("internal_area", "")).lower() in {"available", "reserved", "sold", "on hold"}:
+        return False
+    if not (cell_text(record.get("price", "")) or cell_text(record.get("status", ""))):
+        return False
+    return True
+
+
+def header_mapping_from_rows(rows: list[list[str]], start: int, max_header_rows: int = 3) -> tuple[dict[str, int], int]:
+    best_mapping: dict[str, int] = {}
+    best_headers: dict[str, str] = {}
+    best_rows_used = 1
+    best_score = 0
+    for rows_used in range(1, max_header_rows + 1):
+        subset = rows[start : start + rows_used]
+        if len(subset) < rows_used:
+            continue
+        width = max((len(row) for row in subset), default=0)
+        mapping: dict[str, int] = {}
+        headers: dict[str, str] = {}
+        for pos in range(width):
+            parts = []
+            for row in subset:
+                if pos < len(row):
+                    text = cell_text(row[pos])
+                    if text:
+                        parts.append(text)
+            header = " ".join(parts)
+            field = header_to_field(header)
+            if not field:
+                continue
+            if field not in mapping or prefer_header_field(field, header, headers.get(field, "")):
+                mapping[field] = pos
+                headers[field] = header
+        score = len(mapping) + (2 if "unit" in mapping else 0) + (2 if "price" in mapping else 0)
+        if "unit" in mapping and ("price" in mapping or "status" in mapping) and score > best_score:
+            best_mapping = mapping
+            best_headers = headers
+            best_rows_used = rows_used
+            best_score = score
+    return best_mapping, best_rows_used
+
+
+def row_looks_like_section(row: list[str]) -> bool:
+    values = [cell_text(cell) for cell in row if cell_text(cell)]
+    if not values:
+        return True
+    text = " ".join(values).lower()
+    return len(values) <= 2 and any(token in text for token in ["bedroom", "apartments", "collection", "information", "price list"])
+
+
+def value_from_row(data_row: list[str], pos: int | None, field: str) -> str:
+    if pos is None:
+        return ""
+    candidates = [pos]
+    if field in {"unit", "floor", "bedroom", "price", "internal_area"}:
+        candidates.extend([pos - 1, pos + 1, pos + 2, pos - 2])
+    for idx in candidates:
+        if 0 <= idx < len(data_row):
+            value = cell_text(data_row[idx])
+            if value:
+                return value
+    return ""
 
 
 def parse_price(value: object) -> float | None:
@@ -114,36 +255,7 @@ def normalize_record_value(field: str, value: object) -> str:
 
 
 def normalize_unit(value: object) -> str:
-    key = re.sub(r"[^a-z0-9]+", "", cell_text(value).lower())
-    if key.isdigit():
-        return key.lstrip("0") or "0"
-    return key
-
-
-def bedroom_from_section(value: object) -> str:
-    text = cell_text(value).lower()
-    if len(text) > 60:
-        return ""
-    mapping = {
-        "studio": "Studio",
-        "one": "1",
-        "two": "2",
-        "three": "3",
-        "four": "4",
-        "five": "5",
-        "six": "6",
-    }
-    if "bedroom" not in text and "bed" not in text and "studio" not in text:
-        return ""
-    if "studio" in text:
-        return "Studio"
-    digit = re.search(r"\b(\d+)\s*(?:bed|bedroom)", text)
-    if digit:
-        return digit.group(1)
-    for word, number in mapping.items():
-        if re.search(rf"\b{word}\s+bed(?:room)?", text):
-            return number
-    return ""
+    return re.sub(r"[^a-z0-9]+", "", cell_text(value).lower())
 
 
 def status_norm(value: object) -> str:
@@ -165,60 +277,23 @@ def is_available_status(value: object) -> bool:
     return not text or any(token in text for token in ["available", "released", "for sale", "可售"])
 
 
-def is_display_only_status(value: object) -> bool:
-    text = status_norm(value)
-    return any(token in text for token in ["show apartment", "show home", "display apartment", "display home", "sample flat", "样板"])
-
-
-def is_actionable_sale_record(record: dict) -> bool:
-    if parse_price(record.get("price")) is not None:
-        return True
-    return bool(record.get("status")) and not is_display_only_status(record.get("status"))
-
-
 def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
     records: list[dict] = []
     for index, row in enumerate(rows):
-        fields = [header_to_field(cell) for cell in row]
-        if "unit" not in fields or ("price" not in fields and "status" not in fields):
+        mapping, header_rows = header_mapping_from_rows(rows, index)
+        if "unit" not in mapping or ("price" not in mapping and "status" not in mapping):
             continue
-        mapping = {}
-        for pos, field in enumerate(fields):
-            if not field:
-                continue
-            key = header_key(row[pos]) if pos < len(row) else ""
-            if field == "bedroom" and field in mapping:
-                current_key = header_key(row[mapping[field]]) if mapping[field] < len(row) else ""
-                if "bed" in key and "bed" not in current_key:
-                    mapping[field] = pos
-                continue
-            if field == "unit" and field in mapping:
-                current_key = header_key(row[mapping[field]]) if mapping[field] < len(row) else ""
-                if ("unit" in key or "no" in key) and "unit" not in current_key:
-                    mapping[field] = pos
-                continue
-            if field not in mapping:
-                mapping[field] = pos
-        current_bedroom = ""
-        for data_row in rows[index + 1 :]:
+        for data_row in rows[index + header_rows :]:
             if not any(cell_text(cell) for cell in data_row):
                 continue
-            first_cell = cell_text(data_row[0]) if data_row else ""
-            non_empty = [cell_text(cell) for cell in data_row if cell_text(cell)]
-            section_bedroom = bedroom_from_section(first_cell)
-            if section_bedroom and len(non_empty) <= 2:
-                current_bedroom = section_bedroom
+            if row_looks_like_section(data_row):
                 continue
             record = {"source": source}
             for field in OUTPUT_FIELDS:
                 pos = mapping.get(field)
-                record[field] = normalize_record_value(field, data_row[pos]) if pos is not None and pos < len(data_row) else ""
-            if current_bedroom and not record.get("bedroom"):
-                record["bedroom"] = current_bedroom
-            unit_key = normalize_unit(record["unit"])
-            if unit_key in {"plotno", "unit", "unitno", "apartment", "apartmentnumber", "property"}:
-                continue
-            if record["unit"] and (record["price"] or record["status"]):
+                record[field] = normalize_record_value(field, value_from_row(data_row, pos, field))
+            record = finalize_record(record)
+            if record_is_plausible(record):
                 records.append(record)
     deduped: dict[str, dict] = {}
     for record in records:
@@ -228,146 +303,274 @@ def rows_to_records(rows: list[list[str]], source: str) -> list[dict]:
     return list(deduped.values())
 
 
-def records_have_shifted_price_columns(records: list[dict]) -> bool:
-    if not records:
-        return False
-    suspicious = 0
-    for record in records:
-        price = parse_price(record.get("price"))
-        external = cell_text(record.get("external_area"))
-        floor = cell_text(record.get("floor"))
-        if (price is not None and price < 10000 and "£" in external) or re.search(r"\bbed\b", floor, re.I):
-            suspicious += 1
-    return suspicious >= max(1, len(records) // 3)
+def parse_text_line_record(line: str, source: str) -> dict | None:
+    text = cell_text(line)
+    if not text:
+        return None
+    money_or_status = r"(?:£\s?[\d,]+|RESERVED|SOLD|ON HOLD|POA|TBC)"
+    status = r"(?:Available|On Hold|Reserved|Sold|Exchanged|Unavailable)"
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z0-9][A-Za-z0-9.\-\/]*\*{{0,2}})\s+"
+        rf"(?P<status>{status})\s+"
+        rf"(?P<floor>[A-Za-z]|\d{{1,2}}|Ground|Lower Ground)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<baths>\d+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+(?P<service>£\s?[\d,]+))?"
+        rf"(?:\s+(?P<rent>£\s?[\d,]+))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = groups.get("status") or ""
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            row_status = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": (groups.get("unit") or "").replace("*", ""),
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": groups.get("service") or "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[A-Za-z]?)\s+"
+        rf"(?P<type>[A-Za-z][A-Za-z ]+?)\s+"
+        rf"(?P<beds>\d+)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+(?P<rent>£\s?[\d,]+))?"
+        rf"(?:\s+(?P<yield>\d+(?:\.\d+)?%))?"
+        rf"(?:\s+(?P<estate>£\s?[\d,]+))?"
+        rf"(?:\s+(?P<completion>.+))?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match and not re.search(r"\b(no|house type|price|rental|gross|collection)\b", text, re.I):
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            row_status = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("type") or "",
+            "price": normalize_record_value("price", price),
+            "floor": "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": groups.get("completion") or "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups.get("rent") or ""),
+            "service_charge": groups.get("estate") or "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Za-z]?\d+[A-Za-z]?(?:\.\d+)?)\s+"
+        rf"(?P<floor>Ground|Lower Ground|Upper Ground|LG&G|UG|G|[A-Za-z]|\d{{1,2}}(?:st|nd|rd|th)?)\s+"
+        rf"(?P<beds>\d+\s*(?:bed|penthouse)?|\d+Penthouse)\s+"
+        rf"(?P<aspect>[A-Z]{{1,2}}(?:/[A-Z]{{1,2}})?)\s+"
+        rf"(?P<area>[\d,]+)\s+"
+        rf"(?P<sqm>[\d,]+)\s+"
+        rf"(?P<balcony>[\d,\-]+)\s+"
+        rf"(?P<parking>Yes|No|-)\s+"
+        rf"(?P<price>{money_or_status}|U/O)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        row_status = "Available"
+        if re.search(r"reserved|sold|on hold|u/o", price, re.I):
+            row_status = "Under Offer" if re.search(r"u/o", price, re.I) else price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": re.sub(r"\D+", "", groups.get("beds") or ""),
+            "internal_area": groups.get("area") or "",
+            "external_area": "" if groups.get("balcony") == "-" else groups.get("balcony") or "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": row_status,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": groups.get("parking") or "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d{{1,2}}\.\d{{2}})\s+"
+        rf"(?P<floor>[A-Z]|\d{{1,2}})\s+"
+        rf"(?P<status>AVAILABLE|RESERVED|SOLD|ON HOLD)\s+"
+        rf"(?P<middle>.+?)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<beds>\d+(?:\.\d+)?)(?:\s*Bed)?\s+"
+        rf"(?P<baths>\d+(?:\.\d+)?)\s+"
+        rf"(?P<spec>[A-Za-z][A-Za-z ]+|-)\s+"
+        rf"(?P<price>£\s?[\d,]+|-)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("middle") or "",
+            "price": normalize_record_value("price", "" if groups.get("price") == "-" else groups.get("price")),
+            "floor": groups.get("floor") or "",
+            "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("spec") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[A-Z](?:\.[A-Z])?\.[A-Z]\.\d\.\d{{2}})\s+"
+        rf"(?P<level>\d{{1,2}})\s+"
+        rf"(?P<view>.+?)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<outside>Balcony|Inset Terrace|Terrace|Winter Garden|N/A)\s+"
+        rf"(?P<external>[\d,\-]+)\s+"
+        rf"(?P<plan>Link|PDF|-)\s+"
+        rf"(?P<price>{money_or_status})$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": f"{groups.get('outside') or ''} {groups.get('external') or ''}".strip(),
+            "aspect": groups.get("view") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("level") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("plan") or "",
+        })
+    match = re.match(
+        rf"^(?P<unit>[EW]\d{{3}})\s+"
+        rf"(?P<level>[A-Z]|\d{{1,2}})\s+"
+        rf"(?P<beds>\d)\s+"
+        rf"(?:(?P<amenity>Terrace|Balcony|Winter Garden)\s+)?"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>{money_or_status})"
+        rf"(?:\s+£\s?[\d,]+)?$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": groups.get("amenity") or "",
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("level") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    match = re.match(
+        rf"^(?P<unit>\d+[a-z]?)\s+"
+        rf"(?P<building>[IVX& ]+)\s+"
+        rf"(?P<floor>LG&G|UG|G|[A-Za-z]|\d{{1,2}})\s+"
+        rf"(?P<beds>\d)\s+"
+        rf"(?P<internal>[\d,]+)\s+"
+        rf"(?P<external>[\d,]+|n/a)\s+"
+        rf"(?P<status>Available(?:\s*\\([^)]+\\))?|Reserved|Sold)\s+"
+        rf"(?P<view>.+?)\s+£\s?"
+        rf"(?P<price>[\d,]+(?:\.\d+)?)",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        return finalize_record({
+            "source": source,
+            "unit": groups.get("unit") or "",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("internal") or "",
+            "external_area": "" if (groups.get("external") or "").lower() == "n/a" else groups.get("external") or "",
+            "aspect": groups.get("view") or "",
+            "price": normalize_record_value("price", groups.get("price") or ""),
+            "floor": groups.get("floor") or "",
+            "status": groups.get("status") or "",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+    return None
 
 
-def join_words(words: list[dict]) -> str:
-    return " ".join(word["text"] for word in sorted(words, key=lambda item: item["x0"])).strip()
-
-
-def words_in_band(words: list[dict], x0: float, x1: float) -> str:
-    return join_words([word for word in words if x0 <= word["x0"] < x1])
-
-
-def extract_pdf_position_records(path: Path) -> list[dict]:
-    try:
-        import pdfplumber
-    except ImportError:
-        return []
-    records: list[dict] = []
-    with pdfplumber.open(str(path)) as pdf:
-        for page in pdf.pages:
-            words = page.extract_words(x_tolerance=1, y_tolerance=3, keep_blank_chars=False)
-            if not any(header_key(word["text"]) == "plot" for word in words):
-                continue
-            row_groups: dict[int, list[dict]] = defaultdict(list)
-            for word in words:
-                if word["top"] < 430:
-                    continue
-                row_groups[round(word["top"] / 3)].append(word)
-            for row_words in row_groups.values():
-                plot = words_in_band(row_words, 35, 85)
-                if not re.fullmatch(r"\d+[A-Za-z]?", plot):
-                    continue
-                floor = words_in_band(row_words, 88, 125)
-                bedroom = words_in_band(row_words, 125, 180)
-                aspect = words_in_band(row_words, 180, 225)
-                amenity = words_in_band(row_words, 225, 275)
-                internal_area = words_in_band(row_words, 275, 320)
-                external_area = words_in_band(row_words, 320, 365)
-                price_or_status = words_in_band(row_words, 365, 415)
-                rent_estimate = words_in_band(row_words, 415, 455)
-                estimated_completion = words_in_band(row_words, 455, 520)
-                price = price_or_status if parse_price(price_or_status) and parse_price(price_or_status) >= 10000 else ""
-                status = "" if price else price_or_status
-                record = {
-                    "source": path.name,
-                    "unit": plot,
-                    "bedroom": bedroom,
-                    "internal_area": internal_area,
-                    "external_area": external_area,
-                    "aspect": aspect,
-                    "price": normalize_record_value("price", price),
-                    "floor": floor,
-                    "status": status,
-                    "tenure": "",
-                    "estimated_completion": estimated_completion,
-                    "rent_estimate": rent_estimate,
-                    "service_charge": "",
-                    "ground_rent": "",
-                    "parking": "",
-                    "incentives": amenity,
-                }
-                if record["unit"] and (record["price"] or record["status"]):
-                    records.append(record)
-    deduped: dict[str, dict] = {}
-    for record in records:
-        key = normalize_unit(record["unit"])
-        if key:
-            deduped[key] = record
-    return list(deduped.values())
-
-
-def extract_single_column_pricelist_records(rows: list[list[str]], source: str) -> list[dict]:
-    full_text = "\n".join(cell_text(row[0]) for row in rows if row)
-    if "plot floor status" not in header_key(full_text):
-        return []
-    status_pattern = re.compile(r"\b(AVAILABLE|RESERVED|ON HOLD|SOLD|EXCHANGED|COMPLETED)\b", re.I)
-    records: list[dict] = []
-    for row in rows:
-        cell = "\n".join(cell_text(part) for part in row if cell_text(part))
-        if not cell or not status_pattern.search(cell):
-            continue
-        text = re.sub(r"\s+", " ", cell).strip()
-        unit_matches = list(re.finditer(r"\b\d{1,2}\.\d{2}\b", text))
-        status_match = status_pattern.search(text)
-        if not unit_matches or not status_match:
-            continue
-        status = status_match.group(1).upper()
-        prior_units = [match for match in unit_matches if match.start() < status_match.start()]
-        unit_match = prior_units[0] if prior_units else unit_matches[-1]
-        unit = unit_match.group(0)
-        if unit_match.start() < status_match.start():
-            between = text[unit_match.end():status_match.start()]
-            floor_match = re.search(r"\b(\d{1,2})\b(?=\s*$)", between)
-            if not floor_match:
-                floor_match = re.search(r"\b(\d{1,2})\b", between)
-        else:
-            before_status = text[:status_match.start()]
-            floor_match = re.search(r"\b(\d{1,2})\b\s*$", before_status)
-        floor = floor_match.group(1) if floor_match else ""
-        after_status = text[status_match.end():]
-        price_matches = list(re.finditer(r"£\s*[\d,]+(?:\.\d+)?", after_status))
-        price = price_matches[-1].group(0) if price_matches else ""
-        area_match = re.search(r"\b(?P<area>\d[\d,]*(?:\.\d+)?)\s+(?P<beds>\d(?:\+\d)?(?:\s*Bed)?|Studio)\s+(?P<baths>\d(?:\.\d)?)\b", after_status, re.I)
-        internal_area = area_match.group("area") if area_match else ""
-        bedroom = area_match.group("beds") if area_match else ""
-        if bedroom and "bed" not in bedroom.lower() and bedroom.lower() != "studio":
-            bedroom = f"{bedroom} Bed"
-        aspect = ""
-        aspect_match = re.search(r"\b(North|South|East|West)(?:\s*&\s*(?:North|South|East|West))?\b", after_status, re.I)
-        if aspect_match:
-            aspect = aspect_match.group(0)
-        records.append(
-            {
-                "source": source,
-                "unit": unit,
-                "bedroom": bedroom,
-                "internal_area": internal_area,
-                "external_area": "",
-                "aspect": aspect,
-                "price": normalize_record_value("price", price),
-                "floor": floor,
-                "status": status.title(),
-                "tenure": "",
-                "estimated_completion": "",
-                "rent_estimate": "",
-                "service_charge": "",
-                "ground_rent": "",
-                "parking": "",
-                "incentives": "",
-            }
-        )
+def text_lines_to_records(lines: list[str], source: str) -> list[dict]:
+    records = []
+    for line in lines:
+        record = parse_text_line_record(line, source)
+        if record and record_is_plausible(record):
+            records.append(record)
     deduped: dict[str, dict] = {}
     for record in records:
         key = normalize_unit(record["unit"])
@@ -450,20 +653,18 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
     except Exception as exc:
         return [], f"pdfplumber unavailable: {exc}"
     rows = []
+    text_lines = []
     try:
         with pdfplumber.open(str(path)) as pdf:
             for page in pdf.pages:
+                text_lines.extend((page.extract_text() or "").splitlines())
                 for table in page.extract_tables() or []:
                     rows.extend([[cell_text(cell) for cell in row] for row in table if row])
     except Exception as exc:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
-    if records_have_shifted_price_columns(records):
-        positioned = extract_pdf_position_records(path)
-        if len(positioned) >= len(records):
-            records = positioned
     if not records:
-        records = extract_single_column_pricelist_records(rows, path.name)
+        records = text_lines_to_records(text_lines, path.name)
     return records, None if records else "No recognizable unit table found"
 
 
@@ -651,8 +852,6 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
             "floor": new.get("floor", ""),
             "aspect": new.get("aspect", ""),
         }
-        if not is_actionable_sale_record(new):
-            continue
         if not old:
             events.append({**base, "change_type": "NEW_RELEASE", "price_change": None, "price_change_pct": None, "reason": "上一版未出现，本版新放出。"})
             continue
@@ -751,22 +950,28 @@ def ingest_file(project: str, file_path: Path, version_label: str = "", db_path:
     return version_id, events, parse_note
 
 
-def recent_events(limit: int = 200, path: Path = DB_PATH) -> list[dict]:
+def recent_events(limit: int = 200, path: Path = DB_PATH, days: int | None = None) -> list[dict]:
     init_db(path)
+    query = """
+        SELECT e.*, v.extracted_at
+        FROM unit_change_events e
+        LEFT JOIN pricelist_versions v ON v.id = e.new_version_id
+    """
+    params: list[object] = []
+    if days is not None:
+        cutoff = (datetime.now() - timedelta(days=days)).isoformat(timespec="seconds")
+        query += " WHERE e.created_at >= ?"
+        params.append(cutoff)
+    query += """
+        ORDER BY e.created_at DESC, e.id DESC
+        LIMIT ?
+    """
+    params.append(limit)
     with sqlite3.connect(path) as conn:
         conn.row_factory = sqlite3.Row
         return [
             dict(row)
-            for row in conn.execute(
-                """
-                SELECT e.*, v.extracted_at
-                FROM unit_change_events e
-                LEFT JOIN pricelist_versions v ON v.id = e.new_version_id
-                ORDER BY e.created_at DESC, e.id DESC
-                LIMIT ?
-                """,
-                (limit,),
-            )
+            for row in conn.execute(query, params)
         ]
 
 
