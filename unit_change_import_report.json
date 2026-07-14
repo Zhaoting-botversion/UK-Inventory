@@ -1230,5 +1230,63 @@
     "events": 0,
     "old_error": null,
     "new_error": null
+  },
+  {
+    "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
+    "project_key": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026 · herland gardens",
+    "old_file": "Herland Gardens Availability List June 26.pdf",
+    "new_file": "Herland Gardens Availablity price list - June 2026.pdf",
+    "old_units": 3,
+    "new_units": 3,
+    "events": 0,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SE1 - Opus",
+    "project_key": "SE1 - Opus · opus",
+    "old_file": "Opus - Availability List May 2026.pdf",
+    "new_file": "Opus - Availability List June 2026.pdf",
+    "old_units": 29,
+    "new_units": 29,
+    "events": 6,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SW10 - Chelsea Finery",
+    "project_key": "SW10 - Chelsea Finery · the atelier",
+    "old_file": "",
+    "new_file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
+    "old_units": 0,
+    "new_units": 13,
+    "events": 0,
+    "old_error": "baseline import; no prior version",
+    "new_error": null,
+    "baseline": true
+  },
+  {
+    "project": "N7 - Holloway Park",
+    "project_key": "N7 - Holloway Park · holloway park",
+    "old_file": "",
+    "new_file": "Holloway Price List 19.06 .pdf",
+    "old_units": 0,
+    "new_units": 12,
+    "events": 0,
+    "old_error": "baseline import; no prior version",
+    "new_error": null,
+    "baseline": true
+  },
+  {
+    "project": "E14 - One Park Drive &10 Park Drive- - Completed",
+    "project_key": "E14 - One Park Drive &10 Park Drive- - Completed · one park drive penthouses",
+    "old_file": "",
+    "new_file": "One Park Drive - One Park Drive - The Penthouses Price List.pdf",
+    "old_units": 0,
+    "new_units": 5,
+    "events": 0,
+    "old_error": "baseline import; no prior version",
+    "new_error": null,
+    "baseline": true
   }
 ]
