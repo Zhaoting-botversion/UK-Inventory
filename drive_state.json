@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T18:26:37",
+  "synced_at": "2026-07-14T18:51:30",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2281,39 +2281,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SW1 - The Broadway-Completed": {
-      "project": "SW1 - The Broadway-Completed",
-      "city": "Inner London",
-      "developer": "Canary Wharf Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW1 - The Broadway-Completed",
-      "folder_id": "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
-      "folder_url": "https://drive.google.com/drive/folders/1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
-      "price_folder_id": "1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
-      "old_price_folder_id": "1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
-      "latest_files": [
-        {
-          "file": "The Broadway SW1 Price List 090626.pdf",
-          "file_id": "1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N",
-          "file_url": "https://drive.google.com/file/d/1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:01:59.840Z",
-          "price_date": "List 0906"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Broadway SW1 Price List 060526.pdf",
-          "file_id": "1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh",
-          "file_url": "https://drive.google.com/file/d/1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:44:49.673Z",
-          "price_date": "List 0605"
-        }
-      ],
-      "notes": []
     },
     "SW11 - Battersea Power Station": {
       "project": "SW11 - Battersea Power Station",
@@ -8616,21 +8583,53 @@
         }
       ],
       "notes": []
+    },
+    "SW1 - The Broadway-Completed": {
+      "project": "SW1 - The Broadway-Completed",
+      "city": "Inner London",
+      "developer": "Canary Wharf Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW1 - The Broadway-Completed",
+      "folder_id": "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
+      "folder_url": "https://drive.google.com/drive/folders/1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
+      "price_folder_id": "1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
+      "old_price_folder_id": "1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
+      "latest_files": [
+        {
+          "file": "The Broadway - Customer Pricelist - 1st July 2026.pdf",
+          "file_id": "12k4eEw2-LghZB_15guiSpIOdNXCk8EUC",
+          "file_url": "https://drive.google.com/file/d/12k4eEw2-LghZB_15guiSpIOdNXCk8EUC/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:51:11.079Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Broadway SW1 Price List 090626.pdf",
+          "file_id": "1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N",
+          "file_url": "https://drive.google.com/file/d/1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:01:59.840Z",
+          "price_date": "List 0906"
+        },
+        {
+          "file": "The Broadway SW1 Price List 060526.pdf",
+          "file_id": "1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh",
+          "file_url": "https://drive.google.com/file/d/1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:44:49.673Z",
+          "price_date": "List 0605"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-    "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
-    "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
-    "197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
-    "1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ"
+    "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J"
   ],
   "targeted_projects": [
-    "SW10 - Chelsea Finery",
-    "N7 - Holloway Park",
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
-    "E14 - One Park Drive &10 Park Drive- - Completed",
-    "SE1 - Opus"
+    "SW1 - The Broadway-Completed"
   ]
 }
