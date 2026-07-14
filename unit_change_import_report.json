@@ -1288,5 +1288,16 @@
     "old_error": "baseline import; no prior version",
     "new_error": null,
     "baseline": true
+  },
+  {
+    "project": "SW1 - The Broadway-Completed",
+    "project_key": "SW1 - The Broadway-Completed · the broadway",
+    "old_file": "The Broadway SW1 Price List 090626.pdf",
+    "new_file": "The Broadway - Customer Pricelist - 1st July 2026.pdf",
+    "old_units": 21,
+    "new_units": 20,
+    "events": 2,
+    "old_error": null,
+    "new_error": null
   }
 ]

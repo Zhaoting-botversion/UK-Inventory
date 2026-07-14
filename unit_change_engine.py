@@ -1367,6 +1367,43 @@ def parse_text_line_record(line: str, source: str) -> dict | None:
             "parking": "",
             "incentives": "",
         })
+    # The Broadway (JLL) customer list: apartment, building, floor,
+    # accommodation, sqm, sqft, aspect, price/status.
+    match = re.match(
+        r"^(?P<unit>[A-Z]{2}\.\d{2}\.\d{2}\*{0,2})\s+"
+        r"(?P<building>[A-Za-z]+\s+(?:East|West))\s+"
+        r"(?P<floor>\d{1,2})\s+"
+        r"(?P<beds>\d+)\s+bed\s*/\s*(?P<baths>\d+)\s+bath\s+"
+        r"(?P<sqm>[\d,.]+)\s+(?P<sqft>[\d,]+)\s+"
+        r"(?P<aspect>.+?)\s+(?P<price>£\s?[\d,]+|SOLD|RESERVED|ON HOLD)$",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        groups = match.groupdict()
+        price = groups.get("price") or ""
+        status_value = "Available"
+        if re.search(r"sold|reserved|on hold", price, re.I):
+            status_value = price
+            price = ""
+        return finalize_record({
+            "source": source,
+            "unit": (groups.get("unit") or "").replace("*", ""),
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("sqft") or "",
+            "external_area": "",
+            "aspect": groups.get("aspect") or "",
+            "price": normalize_record_value("price", price),
+            "floor": groups.get("floor") or "",
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups.get("building") or "",
+        })
     return None
 
 
