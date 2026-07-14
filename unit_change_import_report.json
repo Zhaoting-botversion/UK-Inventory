@@ -1175,5 +1175,60 @@
     "events": 2,
     "old_error": null,
     "new_error": null
+  },
+  {
+    "project": "SW6 - Chelsea Waterfront Tower East",
+    "project_key": "SW6 - Chelsea Waterfront Tower East · powerhouse penthouse",
+    "old_file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
+    "new_file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
+    "old_units": 10,
+    "new_units": 10,
+    "events": 0,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SW6 - Chelsea Waterfront Tower East",
+    "project_key": "SW6 - Chelsea Waterfront Tower East · powerhouse",
+    "old_file": "Powerhouse Pricelist  29th June 2026.pdf",
+    "new_file": "Powerhouse Pricelist  13th July 2026.pdf",
+    "old_units": 20,
+    "new_units": 19,
+    "events": 1,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SW6 - Chelsea Waterfront Tower East",
+    "project_key": "SW6 - Chelsea Waterfront Tower East · tower west",
+    "old_file": "Tower West Pricelist  29th June 2026.pdf",
+    "new_file": "Tower West Pricelist 13th July 2026.pdf",
+    "old_units": 9,
+    "new_units": 9,
+    "events": 0,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SW6 - Chelsea Waterfront Tower East",
+    "project_key": "SW6 - Chelsea Waterfront Tower East · water gardens",
+    "old_file": "Water Gardens Pricelist  29th June 2026.pdf",
+    "new_file": "Water Gardens Pricelist  13th July 2026.pdf",
+    "old_units": 3,
+    "new_units": 3,
+    "events": 0,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "SW6 - Chelsea Waterfront Tower East",
+    "project_key": "SW6 - Chelsea Waterfront Tower East · tower east",
+    "old_file": "Tower East  Pricelist  29th June 2026.pdf",
+    "new_file": "Tower East  Pricelist  13th July 2026.pdf",
+    "old_units": 11,
+    "new_units": 11,
+    "events": 0,
+    "old_error": null,
+    "new_error": null
   }
 ]
