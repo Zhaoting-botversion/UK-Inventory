@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T14:38:03",
+  "synced_at": "2026-07-14T18:26:37",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -246,25 +246,6 @@
       ],
       "old_files": [],
       "notes": []
-    },
-    "E14 - One Park Drive &10 Park Drive- - Completed": {
-      "project": "E14 - One Park Drive &10 Park Drive- - Completed",
-      "city": "Inner London",
-      "developer": "Canary Wharf Group",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - One Park Drive &10 Park Drive- - Completed",
-      "folder_id": "197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
-      "folder_url": "https://drive.google.com/drive/folders/197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
-      "price_folder_id": "12ge_5WUFL1KkkkbKzJ5xgiFrZagbX4WI",
-      "price_folder_url": "https://drive.google.com/drive/folders/12ge_5WUFL1KkkkbKzJ5xgiFrZagbX4WI",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "E14 - One Thames Quay": {
       "project": "E14 - One Thames Quay",
@@ -939,33 +920,6 @@
       ],
       "old_files": [],
       "notes": []
-    },
-    "SE1 - Opus": {
-      "project": "SE1 - Opus",
-      "city": "Inner London",
-      "developer": "Qatari Diar",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊/JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Opus",
-      "folder_id": "1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ",
-      "folder_url": "https://drive.google.com/drive/folders/1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ",
-      "price_folder_id": "1YCQGsHULfeuHPqjv6N9dxOfTeON8nrh2",
-      "price_folder_url": "https://drive.google.com/drive/folders/1YCQGsHULfeuHPqjv6N9dxOfTeON8nrh2",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Opus - Availability List May 2026.pdf",
-          "file_id": "1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ",
-          "file_url": "https://drive.google.com/file/d/1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:52:15.000Z",
-          "price_date": "May 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "SE1 - Pinks Mews": {
       "project": "SE1 - Pinks Mews",
@@ -2361,25 +2315,6 @@
       ],
       "notes": []
     },
-    "SW10 - Chelsea Finery": {
-      "project": "SW10 - Chelsea Finery",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Mount Anvil",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
-      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "SW11 - Battersea Power Station": {
       "project": "SW11 - Battersea Power Station",
       "city": "Inner London",
@@ -2664,53 +2599,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
-      "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
-      "city": "Inner London",
-      "developer": "Rockwell Property",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
-      "folder_id": "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
-      "folder_url": "https://drive.google.com/drive/folders/1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
-      "price_folder_id": "1FE_oH13TQVrWWT91NtyajzJWO0-epelE",
-      "price_folder_url": "https://drive.google.com/drive/folders/1FE_oH13TQVrWWT91NtyajzJWO0-epelE",
-      "old_price_folder_id": "12e-0frM5uKUTmjvAcp_PY_lu9QF_A-fr",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/12e-0frM5uKUTmjvAcp_PY_lu9QF_A-fr",
-      "latest_files": [
-        {
-          "file": "Hurlingham Waterfront Price List June 2026.pdf",
-          "file_id": "1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU",
-          "file_url": "https://drive.google.com/file/d/1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:03:20.839Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Herland Gardens Availability List June 26.pdf",
-          "file_id": "1msBjSsFbaEGG-Y79bVPQFFYGL1r4YcZB",
-          "file_url": "https://drive.google.com/file/d/1msBjSsFbaEGG-Y79bVPQFFYGL1r4YcZB/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:16:04.383Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Herland Gardens Availability List May 26.pdf",
-          "file_id": "1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw",
-          "file_url": "https://drive.google.com/file/d/1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:38.947Z",
-          "price_date": ""
-        },
-        {
-          "file": "Herland Gardens Availability List April 26.pdf",
-          "file_id": "1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM",
-          "file_url": "https://drive.google.com/file/d/1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:27.307Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
     },
     "SW8 - Key Bridge": {
       "project": "SW8 - Key Bridge",
@@ -8566,13 +8454,183 @@
         }
       ],
       "notes": []
+    },
+    "SW10 - Chelsea Finery": {
+      "project": "SW10 - Chelsea Finery",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Mount Anvil",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
+      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "latest_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
+          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
+          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:09.241Z",
+          "price_date": "12.06.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "N7 - Holloway Park": {
+      "project": "N7 - Holloway Park",
+      "city": "未分类",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "N7 - Holloway Park",
+      "folder_id": "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "folder_url": "https://drive.google.com/drive/folders/1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "price_folder_id": "1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "old_price_folder_id": "1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "latest_files": [
+        {
+          "file": "Holloway Price List 19.06 .pdf",
+          "file_id": "1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn",
+          "file_url": "https://drive.google.com/file/d/1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:18.713Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
+      "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
+      "city": "Inner London",
+      "developer": "Rockwell Property",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
+      "folder_id": "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
+      "folder_url": "https://drive.google.com/drive/folders/1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
+      "price_folder_id": "1FE_oH13TQVrWWT91NtyajzJWO0-epelE",
+      "price_folder_url": "https://drive.google.com/drive/folders/1FE_oH13TQVrWWT91NtyajzJWO0-epelE",
+      "old_price_folder_id": "12e-0frM5uKUTmjvAcp_PY_lu9QF_A-fr",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/12e-0frM5uKUTmjvAcp_PY_lu9QF_A-fr",
+      "latest_files": [
+        {
+          "file": "Herland Gardens Availablity price list - June 2026.pdf",
+          "file_id": "1jpZQrVdv0yuAv2hBnxWu3_SoETFebMe3",
+          "file_url": "https://drive.google.com/file/d/1jpZQrVdv0yuAv2hBnxWu3_SoETFebMe3/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:25.612Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Hurlingham Waterfront Price List June 2026.pdf",
+          "file_id": "1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU",
+          "file_url": "https://drive.google.com/file/d/1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:03:20.839Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Herland Gardens Availability List June 26.pdf",
+          "file_id": "1msBjSsFbaEGG-Y79bVPQFFYGL1r4YcZB",
+          "file_url": "https://drive.google.com/file/d/1msBjSsFbaEGG-Y79bVPQFFYGL1r4YcZB/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:16:04.383Z",
+          "price_date": ""
+        },
+        {
+          "file": "Herland Gardens Availability List May 26.pdf",
+          "file_id": "1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw",
+          "file_url": "https://drive.google.com/file/d/1UwEm1TRBxYtyVSqfclArbVZ_S3RARbXw/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:38.947Z",
+          "price_date": ""
+        },
+        {
+          "file": "Herland Gardens Availability List April 26.pdf",
+          "file_id": "1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM",
+          "file_url": "https://drive.google.com/file/d/1WxP2mKlBraE1hzrxiDFGc7uzDh52RPaM/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:27.307Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "E14 - One Park Drive &10 Park Drive- - Completed": {
+      "project": "E14 - One Park Drive &10 Park Drive- - Completed",
+      "city": "Inner London",
+      "developer": "Canary Wharf Group",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - One Park Drive &10 Park Drive- - Completed",
+      "folder_id": "197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
+      "folder_url": "https://drive.google.com/drive/folders/197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
+      "price_folder_id": "12ge_5WUFL1KkkkbKzJ5xgiFrZagbX4WI",
+      "price_folder_url": "https://drive.google.com/drive/folders/12ge_5WUFL1KkkkbKzJ5xgiFrZagbX4WI",
+      "old_price_folder_id": "1vW7qNuufxu_IS9kwuFV5IxlHJDXBECl5",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1vW7qNuufxu_IS9kwuFV5IxlHJDXBECl5",
+      "latest_files": [
+        {
+          "file": "One Park Drive - One Park Drive - The Penthouses Price List.pdf",
+          "file_id": "1xncSyJq_aH-gF9gVkY1fuxS_RJ0jV7FQ",
+          "file_url": "https://drive.google.com/file/d/1xncSyJq_aH-gF9gVkY1fuxS_RJ0jV7FQ/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:39.706Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "SE1 - Opus": {
+      "project": "SE1 - Opus",
+      "city": "Inner London",
+      "developer": "Qatari Diar",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊/JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - Opus",
+      "folder_id": "1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ",
+      "folder_url": "https://drive.google.com/drive/folders/1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ",
+      "price_folder_id": "1YCQGsHULfeuHPqjv6N9dxOfTeON8nrh2",
+      "price_folder_url": "https://drive.google.com/drive/folders/1YCQGsHULfeuHPqjv6N9dxOfTeON8nrh2",
+      "old_price_folder_id": "1DmTjFCYjYu2Lmb2W-KXTT9lV85SOCZtw",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1DmTjFCYjYu2Lmb2W-KXTT9lV85SOCZtw",
+      "latest_files": [
+        {
+          "file": "Opus - Availability List June 2026.pdf",
+          "file_id": "1HqKHLv2ddDeQfmqRVyMaxvXjm52LGOtl",
+          "file_url": "https://drive.google.com/file/d/1HqKHLv2ddDeQfmqRVyMaxvXjm52LGOtl/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:48.531Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Opus - Availability List May 2026.pdf",
+          "file_id": "1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ",
+          "file_url": "https://drive.google.com/file/d/1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:52:15.000Z",
+          "price_date": "May 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk"
+    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+    "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+    "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
+    "197dM6OFNjma1-ef_cudJVfSeOcpkKq_E",
+    "1MYMU9Tbj0p-hRKJLA-hPrPZY2yFUV8BJ"
   ],
   "targeted_projects": [
-    "SW6 - Chelsea Waterfront Tower East"
+    "SW10 - Chelsea Finery",
+    "N7 - Holloway Park",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
+    "E14 - One Park Drive &10 Park Drive- - Completed",
+    "SE1 - Opus"
   ]
 }
