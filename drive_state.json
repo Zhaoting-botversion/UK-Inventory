@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T10:20:19",
+  "synced_at": "2026-07-14T14:33:45",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2664,102 +2664,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SW6 - Chelsea Waterfront Tower East": {
-      "project": "SW6 - Chelsea Waterfront Tower East",
-      "city": "Inner London",
-      "developer": "长江实业",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "长江实业",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
-      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "latest_files": [
-        {
-          "file": "Tower West Pricelist  29th June 2026.pdf",
-          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
-          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist  29th June 2026.pdf",
-          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
-          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:57.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist  29th June 2026.pdf",
-          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
-          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:56.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  29th June 2026.pdf",
-          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
-          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:54.000Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Savills Tower East Price List 15th June 2026.pdf",
-          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
-          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:03:40.381Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
-          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
-          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:59.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist 8th June 2026.pdf",
-          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
-          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower West Pricelist 8th June 2026.pdf",
-          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
-          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:47.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist 8th June 2026.pdf",
-          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
-          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:45.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist 8th June 2026.pdf",
-          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
-          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:43.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Savills Tower East Price List June 2026.pdf",
-          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
-          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:47:18.178Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "notes": []
     },
     "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
       "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
@@ -8531,17 +8435,137 @@
         }
       ],
       "notes": []
+    },
+    "SW6 - Chelsea Waterfront Tower East": {
+      "project": "SW6 - Chelsea Waterfront Tower East",
+      "city": "Inner London",
+      "developer": "长江实业",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "长江实业",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
+      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "latest_files": [
+        {
+          "file": "Water Gardens Pricelist  13th July 2026.pdf",
+          "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
+          "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:48.991Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Tower West Pricelist 13th July 2026.pdf",
+          "file_id": "1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-",
+          "file_url": "https://drive.google.com/file/d/1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:36.549Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  13th July 2026.pdf",
+          "file_id": "14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-",
+          "file_url": "https://drive.google.com/file/d/14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:22.728Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
+          "file_id": "1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS",
+          "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:11.572Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  29th June 2026.pdf",
+          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
+          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:54.000Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Tower West Pricelist  29th June 2026.pdf",
+          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
+          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  29th June 2026.pdf",
+          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
+          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:57.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  29th June 2026.pdf",
+          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
+          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:56.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 15th June 2026.pdf",
+          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
+          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:03:40.381Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
+          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
+          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:59.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist 8th June 2026.pdf",
+          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
+          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower West Pricelist 8th June 2026.pdf",
+          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
+          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:47.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist 8th June 2026.pdf",
+          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
+          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:45.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 8th June 2026.pdf",
+          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
+          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:43.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List June 2026.pdf",
+          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
+          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:47:18.178Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
-    "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
-    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg"
+    "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk"
   ],
   "targeted_projects": [
-    "Arch & Bloom",
-    "SE18 - Royal Arsenal Riverside",
-    "UB1 - The Green Quarter"
+    "SW6 - Chelsea Waterfront Tower East"
   ]
 }
