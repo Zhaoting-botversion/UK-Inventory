@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T14:33:45",
+  "synced_at": "2026-07-14T14:38:03",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -8451,6 +8451,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
       "latest_files": [
         {
+          "file": "Tower East  Pricelist  13th July 2026.pdf",
+          "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
+          "file_url": "https://drive.google.com/file/d/1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:34:55.423Z",
+          "price_date": "July 2026"
+        },
+        {
           "file": "Water Gardens Pricelist  13th July 2026.pdf",
           "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
           "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
@@ -8477,13 +8484,6 @@
           "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
           "modified_at": "2026-07-14T06:30:11.572Z",
           "price_date": "July 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  29th June 2026.pdf",
-          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
-          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:54.000Z",
-          "price_date": "June 2026"
         }
       ],
       "old_files": [
@@ -8506,6 +8506,13 @@
           "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
           "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
           "modified_at": "2026-07-02T06:17:56.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  29th June 2026.pdf",
+          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
+          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:54.000Z",
           "price_date": "June 2026"
         },
         {
