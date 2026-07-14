@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T10:14:37",
+  "synced_at": "2026-07-14T10:20:19",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7840,172 +7840,6 @@
       ],
       "notes": []
     },
-    "SE18 - Royal Arsenal Riverside": {
-      "project": "SE18 - Royal Arsenal Riverside",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE18 - Royal Arsenal Riverside",
-      "folder_id": "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
-      "folder_url": "https://drive.google.com/drive/folders/17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
-      "price_folder_id": "1uQdJhQTL_diRp0PsVYDGR1mtJHehoO95",
-      "price_folder_url": "https://drive.google.com/drive/folders/1uQdJhQTL_diRp0PsVYDGR1mtJHehoO95",
-      "old_price_folder_id": "16bwwDLJZTFepxs4I1kIQ6_WrYG0Fn5De",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/16bwwDLJZTFepxs4I1kIQ6_WrYG0Fn5De",
-      "latest_files": [
-        {
-          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 13.07.26.pdf",
-          "file_id": "1hKCSQeAJpS578B5Y0_Jl5I0a8vwA_Zx3",
-          "file_url": "https://drive.google.com/file/d/1hKCSQeAJpS578B5Y0_Jl5I0a8vwA_Zx3/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:59:37.646Z",
-          "price_date": "13.07.26"
-        },
-        {
-          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 13.07.26.pdf",
-          "file_id": "1nolTa1FBEl3HJ8FK8pxKRGD4_mAUEpfr",
-          "file_url": "https://drive.google.com/file/d/1nolTa1FBEl3HJ8FK8pxKRGD4_mAUEpfr/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:59:30.327Z",
-          "price_date": "13.07.26"
-        },
-        {
-          "file": "RAR Lantern Wharf - Daily Price List - 13.07.26.pdf",
-          "file_id": "10QIjOKV5Ik2Le4FTlYWHYpRrg8gCgE1q",
-          "file_url": "https://drive.google.com/file/d/10QIjOKV5Ik2Le4FTlYWHYpRrg8gCgE1q/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:59:23.851Z",
-          "price_date": "13.07.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 06.07.26.pdf",
-          "file_id": "1x4KRWmKkvIe6821szmshvNP32jOSlvAd",
-          "file_url": "https://drive.google.com/file/d/1x4KRWmKkvIe6821szmshvNP32jOSlvAd/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:36.146Z",
-          "price_date": "06.07.26"
-        },
-        {
-          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 06.07.26.pdf",
-          "file_id": "1xSffQPkuj9bNIxAipbwtqjfM4DdjwIY-",
-          "file_url": "https://drive.google.com/file/d/1xSffQPkuj9bNIxAipbwtqjfM4DdjwIY-/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:28.557Z",
-          "price_date": "06.07.26"
-        },
-        {
-          "file": "RAR Lantern Wharf - Daily Price List - 06.07.26.pdf",
-          "file_id": "1KhryYeOt2wfmt5mjuty9ae5ukZJa2Tcq",
-          "file_url": "https://drive.google.com/file/d/1KhryYeOt2wfmt5mjuty9ae5ukZJa2Tcq/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:21.961Z",
-          "price_date": "06.07.26"
-        },
-        {
-          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 29.06.26.pdf",
-          "file_id": "1_5eywwcB24L1b8VnfvUDc_nbpr5-6vij",
-          "file_url": "https://drive.google.com/file/d/1_5eywwcB24L1b8VnfvUDc_nbpr5-6vij/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:54:28.575Z",
-          "price_date": "29.06.26"
-        },
-        {
-          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 29.06.26.pdf",
-          "file_id": "1TeCxmwDWqeZIFhamE6eKMBeAtMkPuBJ3",
-          "file_url": "https://drive.google.com/file/d/1TeCxmwDWqeZIFhamE6eKMBeAtMkPuBJ3/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:54:20.068Z",
-          "price_date": "29.06.26"
-        },
-        {
-          "file": "RAR Lantern Wharf - Daily Price List - 29.06.26.pdf",
-          "file_id": "1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx",
-          "file_url": "https://drive.google.com/file/d/1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:54:13.230Z",
-          "price_date": "29.06.26"
-        },
-        {
-          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 15.06.26.pdf",
-          "file_id": "1uD6KabDZSYFAMekaDTc34jEOIbUACm74",
-          "file_url": "https://drive.google.com/file/d/1uD6KabDZSYFAMekaDTc34jEOIbUACm74/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:53:18.390Z",
-          "price_date": "15.06.26"
-        },
-        {
-          "file": "RAR Lantern Wharf - Daily Price List - 15.06.26.pdf",
-          "file_id": "1IqRRJiM3WCOoOFg2PNK1axEQ3p66moa8",
-          "file_url": "https://drive.google.com/file/d/1IqRRJiM3WCOoOFg2PNK1axEQ3p66moa8/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:53:12.288Z",
-          "price_date": "15.06.26"
-        },
-        {
-          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 15.06.26.pdf",
-          "file_id": "1i5_KiEA3KkIfTjajxrZbPUb1tXFWKY5i",
-          "file_url": "https://drive.google.com/file/d/1i5_KiEA3KkIfTjajxrZbPUb1tXFWKY5i/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:12.008Z",
-          "price_date": "15.06.26"
-        },
-        {
-          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 08.06.26.pdf",
-          "file_id": "16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H",
-          "file_url": "https://drive.google.com/file/d/16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:38.000Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "RAR Lantern Wharf - Daily Price List - 08.06.26.pdf",
-          "file_id": "1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS",
-          "file_url": "https://drive.google.com/file/d/1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:38.000Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "RAR – Ready‑to‑Move‑In Homes - Daily Price List - 08.06.26.pdf",
-          "file_id": "1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N",
-          "file_url": "https://drive.google.com/file/d/1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:37.000Z",
-          "price_date": "08.06.26"
-        },
-        {
-          "file": "2026-05-28_RAR – Ready‑to‑Move‑In Homes - Daily Price List - 24.05.26.pdf",
-          "file_id": "1xYz_j2FrbyCLpEAsscf1-yo6_oR5oVS0",
-          "file_url": "https://drive.google.com/file/d/1xYz_j2FrbyCLpEAsscf1-yo6_oR5oVS0/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:23:14.348Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_RAR Lantern Wharf - Daily Price List - 24.05.26.pdf",
-          "file_id": "1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k",
-          "file_url": "https://drive.google.com/file/d/1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:23:12.090Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Maribor at Royal Arsenal Riverside - Daily Price List - 24.05.26.pdf",
-          "file_id": "1qoCx7FTBoXBeWh7zmVzq_as0-d4pW1r6",
-          "file_url": "https://drive.google.com/file/d/1qoCx7FTBoXBeWh7zmVzq_as0-d4pW1r6/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:23:09.744Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_RAR – Ready‑to‑Move‑In Homes - Daily Price List - 18.05.26.pdf",
-          "file_id": "1l4xw8FeJZNBkvLzSzMqb6TJGOqUX8qHA",
-          "file_url": "https://drive.google.com/file/d/1l4xw8FeJZNBkvLzSzMqb6TJGOqUX8qHA/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:51.256Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_RAR Lantern Wharf - Daily Price List - 18.05.26.pdf",
-          "file_id": "1EFItxumUYpPbwIFXg6boYZ0xzXExfq2h",
-          "file_url": "https://drive.google.com/file/d/1EFItxumUYpPbwIFXg6boYZ0xzXExfq2h/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:48.698Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_The Maribor at Royal Arsenal Riverside - Daily Price List - 18.05.26.pdf",
-          "file_id": "1Z3loY2NMo9mUo_0IoNv4kPIgSDQz8yV8",
-          "file_url": "https://drive.google.com/file/d/1Z3loY2NMo9mUo_0IoNv4kPIgSDQz8yV8/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:21:46.065Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
     "B18 - Spring Hill": {
       "project": "B18 - Spring Hill",
       "city": "Others",
@@ -8151,179 +7985,6 @@
           "file_id": "1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v",
           "file_url": "https://drive.google.com/file/d/1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v/view?usp=drivesdk",
           "modified_at": "2026-05-28T03:53:37.431Z",
-          "price_date": "26-05-28"
-        }
-      ],
-      "notes": []
-    },
-    "UB1 - The Green Quarter": {
-      "project": "UB1 - The Green Quarter",
-      "city": "Outer London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Outer London 外伦敦 / Ealing 伊灵 / UB1 - The Green Quarter",
-      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
-      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
-      "latest_files": [
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist - 12.07.2026.pdf",
-          "file_id": "1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY",
-          "file_url": "https://drive.google.com/file/d/1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:00:49.607Z",
-          "price_date": "12.07.2026"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -12.07.26.pdf",
-          "file_id": "1zXF_GrPTDhYH7oboALk11CmR6Opa49pH",
-          "file_url": "https://drive.google.com/file/d/1zXF_GrPTDhYH7oboALk11CmR6Opa49pH/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:00:43.667Z",
-          "price_date": "12.07.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 12.07.26.pdf",
-          "file_id": "1ayeWm5ZkXAs1_cIoepGhKZ4ExSqaNdBW",
-          "file_url": "https://drive.google.com/file/d/1ayeWm5ZkXAs1_cIoepGhKZ4ExSqaNdBW/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:00:35.525Z",
-          "price_date": "12.07.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -12.07.26.pdf",
-          "file_id": "1kMaXNN1PTMwnGJfjw3ReBlFXUBPPRSbu",
-          "file_url": "https://drive.google.com/file/d/1kMaXNN1PTMwnGJfjw3ReBlFXUBPPRSbu/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:00:29.463Z",
-          "price_date": "12.07.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 05.07.26_.pdf",
-          "file_id": "1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN",
-          "file_url": "https://drive.google.com/file/d/1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:59.231Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -05.07.26.pdf",
-          "file_id": "1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd",
-          "file_url": "https://drive.google.com/file/d/1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:52.967Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
-          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
-          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:53.955Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
-          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:47.323Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
-          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
-          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:39.662Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
-          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
-          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:55:32.738Z",
-          "price_date": "28.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
-          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
-          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:43.161Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
-          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
-          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:34.089Z",
-          "price_date": "14.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
-          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
-          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:04.829Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
-          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
-          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:01.609Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
-          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
-          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:25.504Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
-          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:21.886Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
-          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
-          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:18.249Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
-          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
-          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:13.533Z",
-          "price_date": "07.06.26"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
-          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
-          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:38.496Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
-          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
-          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:37.250Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
-          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
-          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:56.379Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
-          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
-          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:54.662Z",
           "price_date": "26-05-28"
         }
       ],
@@ -8485,69 +8146,402 @@
         }
       ],
       "notes": []
+    },
+    "Arch & Bloom": {
+      "project": "Arch & Bloom",
+      "city": "未分类",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "Arch & Bloom",
+      "folder_id": "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "folder_url": "https://drive.google.com/drive/folders/1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "price_folder_id": "1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "price_folder_url": "https://drive.google.com/drive/folders/1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "old_price_folder_id": "1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "latest_files": [
+        {
+          "file": "A_B Customer Price List 12th July 2026.pdf",
+          "file_id": "1HYyzmjadLdK3FObrjiszbmpA2VqMEuBN",
+          "file_url": "https://drive.google.com/file/d/1HYyzmjadLdK3FObrjiszbmpA2VqMEuBN/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:19:58.006Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "SE18 - Royal Arsenal Riverside": {
+      "project": "SE18 - Royal Arsenal Riverside",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE18 - Royal Arsenal Riverside",
+      "folder_id": "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
+      "folder_url": "https://drive.google.com/drive/folders/17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
+      "price_folder_id": "1uQdJhQTL_diRp0PsVYDGR1mtJHehoO95",
+      "price_folder_url": "https://drive.google.com/drive/folders/1uQdJhQTL_diRp0PsVYDGR1mtJHehoO95",
+      "old_price_folder_id": "16bwwDLJZTFepxs4I1kIQ6_WrYG0Fn5De",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/16bwwDLJZTFepxs4I1kIQ6_WrYG0Fn5De",
+      "latest_files": [
+        {
+          "file": "The Apsley Daily Price List - 13.07.2026.pdf",
+          "file_id": "11iOKh8X11j3oDUMv2LJPNk75Yzc6hk5R",
+          "file_url": "https://drive.google.com/file/d/11iOKh8X11j3oDUMv2LJPNk75Yzc6hk5R/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:20:04.563Z",
+          "price_date": "13.07.2026"
+        },
+        {
+          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 13.07.26.pdf",
+          "file_id": "1hKCSQeAJpS578B5Y0_Jl5I0a8vwA_Zx3",
+          "file_url": "https://drive.google.com/file/d/1hKCSQeAJpS578B5Y0_Jl5I0a8vwA_Zx3/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:59:37.646Z",
+          "price_date": "13.07.26"
+        },
+        {
+          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 13.07.26.pdf",
+          "file_id": "1nolTa1FBEl3HJ8FK8pxKRGD4_mAUEpfr",
+          "file_url": "https://drive.google.com/file/d/1nolTa1FBEl3HJ8FK8pxKRGD4_mAUEpfr/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:59:30.327Z",
+          "price_date": "13.07.26"
+        },
+        {
+          "file": "RAR Lantern Wharf - Daily Price List - 13.07.26.pdf",
+          "file_id": "10QIjOKV5Ik2Le4FTlYWHYpRrg8gCgE1q",
+          "file_url": "https://drive.google.com/file/d/10QIjOKV5Ik2Le4FTlYWHYpRrg8gCgE1q/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:59:23.851Z",
+          "price_date": "13.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 06.07.26.pdf",
+          "file_id": "1x4KRWmKkvIe6821szmshvNP32jOSlvAd",
+          "file_url": "https://drive.google.com/file/d/1x4KRWmKkvIe6821szmshvNP32jOSlvAd/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:36.146Z",
+          "price_date": "06.07.26"
+        },
+        {
+          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 06.07.26.pdf",
+          "file_id": "1xSffQPkuj9bNIxAipbwtqjfM4DdjwIY-",
+          "file_url": "https://drive.google.com/file/d/1xSffQPkuj9bNIxAipbwtqjfM4DdjwIY-/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:28.557Z",
+          "price_date": "06.07.26"
+        },
+        {
+          "file": "RAR Lantern Wharf - Daily Price List - 06.07.26.pdf",
+          "file_id": "1KhryYeOt2wfmt5mjuty9ae5ukZJa2Tcq",
+          "file_url": "https://drive.google.com/file/d/1KhryYeOt2wfmt5mjuty9ae5ukZJa2Tcq/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:21.961Z",
+          "price_date": "06.07.26"
+        },
+        {
+          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 29.06.26.pdf",
+          "file_id": "1_5eywwcB24L1b8VnfvUDc_nbpr5-6vij",
+          "file_url": "https://drive.google.com/file/d/1_5eywwcB24L1b8VnfvUDc_nbpr5-6vij/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:54:28.575Z",
+          "price_date": "29.06.26"
+        },
+        {
+          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 29.06.26.pdf",
+          "file_id": "1TeCxmwDWqeZIFhamE6eKMBeAtMkPuBJ3",
+          "file_url": "https://drive.google.com/file/d/1TeCxmwDWqeZIFhamE6eKMBeAtMkPuBJ3/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:54:20.068Z",
+          "price_date": "29.06.26"
+        },
+        {
+          "file": "RAR Lantern Wharf - Daily Price List - 29.06.26.pdf",
+          "file_id": "1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx",
+          "file_url": "https://drive.google.com/file/d/1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:54:13.230Z",
+          "price_date": "29.06.26"
+        },
+        {
+          "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 15.06.26.pdf",
+          "file_id": "1uD6KabDZSYFAMekaDTc34jEOIbUACm74",
+          "file_url": "https://drive.google.com/file/d/1uD6KabDZSYFAMekaDTc34jEOIbUACm74/view?usp=drivesdk",
+          "modified_at": "2026-06-17T05:53:18.390Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "RAR Lantern Wharf - Daily Price List - 15.06.26.pdf",
+          "file_id": "1IqRRJiM3WCOoOFg2PNK1axEQ3p66moa8",
+          "file_url": "https://drive.google.com/file/d/1IqRRJiM3WCOoOFg2PNK1axEQ3p66moa8/view?usp=drivesdk",
+          "modified_at": "2026-06-17T05:53:12.288Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 15.06.26.pdf",
+          "file_id": "1i5_KiEA3KkIfTjajxrZbPUb1tXFWKY5i",
+          "file_url": "https://drive.google.com/file/d/1i5_KiEA3KkIfTjajxrZbPUb1tXFWKY5i/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:12.008Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 08.06.26.pdf",
+          "file_id": "16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H",
+          "file_url": "https://drive.google.com/file/d/16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:38.000Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "RAR Lantern Wharf - Daily Price List - 08.06.26.pdf",
+          "file_id": "1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS",
+          "file_url": "https://drive.google.com/file/d/1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:38.000Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "RAR – Ready‑to‑Move‑In Homes - Daily Price List - 08.06.26.pdf",
+          "file_id": "1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N",
+          "file_url": "https://drive.google.com/file/d/1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:37.000Z",
+          "price_date": "08.06.26"
+        },
+        {
+          "file": "2026-05-28_RAR – Ready‑to‑Move‑In Homes - Daily Price List - 24.05.26.pdf",
+          "file_id": "1xYz_j2FrbyCLpEAsscf1-yo6_oR5oVS0",
+          "file_url": "https://drive.google.com/file/d/1xYz_j2FrbyCLpEAsscf1-yo6_oR5oVS0/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:23:14.348Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_RAR Lantern Wharf - Daily Price List - 24.05.26.pdf",
+          "file_id": "1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k",
+          "file_url": "https://drive.google.com/file/d/1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:23:12.090Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Maribor at Royal Arsenal Riverside - Daily Price List - 24.05.26.pdf",
+          "file_id": "1qoCx7FTBoXBeWh7zmVzq_as0-d4pW1r6",
+          "file_url": "https://drive.google.com/file/d/1qoCx7FTBoXBeWh7zmVzq_as0-d4pW1r6/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:23:09.744Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_RAR – Ready‑to‑Move‑In Homes - Daily Price List - 18.05.26.pdf",
+          "file_id": "1l4xw8FeJZNBkvLzSzMqb6TJGOqUX8qHA",
+          "file_url": "https://drive.google.com/file/d/1l4xw8FeJZNBkvLzSzMqb6TJGOqUX8qHA/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:51.256Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_RAR Lantern Wharf - Daily Price List - 18.05.26.pdf",
+          "file_id": "1EFItxumUYpPbwIFXg6boYZ0xzXExfq2h",
+          "file_url": "https://drive.google.com/file/d/1EFItxumUYpPbwIFXg6boYZ0xzXExfq2h/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:48.698Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_The Maribor at Royal Arsenal Riverside - Daily Price List - 18.05.26.pdf",
+          "file_id": "1Z3loY2NMo9mUo_0IoNv4kPIgSDQz8yV8",
+          "file_url": "https://drive.google.com/file/d/1Z3loY2NMo9mUo_0IoNv4kPIgSDQz8yV8/view?usp=drivesdk",
+          "modified_at": "2026-05-28T02:21:46.065Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
+    },
+    "UB1 - The Green Quarter": {
+      "project": "UB1 - The Green Quarter",
+      "city": "Outer London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Outer London 外伦敦 / Ealing 伊灵 / UB1 - The Green Quarter",
+      "folder_id": "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "folder_url": "https://drive.google.com/drive/folders/1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
+      "price_folder_id": "1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "price_folder_url": "https://drive.google.com/drive/folders/1KSTtMH4G_OFBzeW-9fTmzJcpsZQIK3--",
+      "old_price_folder_id": "1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
+      "latest_files": [
+        {
+          "file": "TGQ - Internal Availability - Orien Pricelist - Level 2 and 4 Only -Staff use Only - Do Not Send - 12.07.26.pdf",
+          "file_id": "1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP",
+          "file_url": "https://drive.google.com/file/d/1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:20:14.269Z",
+          "price_date": "12.07.26"
+        },
+        {
+          "file": "TGQ - Internal Availability - Brickfields - Staff use Only - Do Not Send 12.07.26.pdf",
+          "file_id": "1SCxnU6y9dH7zmwGwyfujatW0emWlqa74",
+          "file_url": "https://drive.google.com/file/d/1SCxnU6y9dH7zmwGwyfujatW0emWlqa74/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:20:11.125Z",
+          "price_date": "12.07.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist - 12.07.2026.pdf",
+          "file_id": "1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY",
+          "file_url": "https://drive.google.com/file/d/1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:00:49.607Z",
+          "price_date": "12.07.2026"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -12.07.26.pdf",
+          "file_id": "1zXF_GrPTDhYH7oboALk11CmR6Opa49pH",
+          "file_url": "https://drive.google.com/file/d/1zXF_GrPTDhYH7oboALk11CmR6Opa49pH/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:00:43.667Z",
+          "price_date": "12.07.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 12.07.26.pdf",
+          "file_id": "1ayeWm5ZkXAs1_cIoepGhKZ4ExSqaNdBW",
+          "file_url": "https://drive.google.com/file/d/1ayeWm5ZkXAs1_cIoepGhKZ4ExSqaNdBW/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:00:35.525Z",
+          "price_date": "12.07.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -12.07.26.pdf",
+          "file_id": "1kMaXNN1PTMwnGJfjw3ReBlFXUBPPRSbu",
+          "file_url": "https://drive.google.com/file/d/1kMaXNN1PTMwnGJfjw3ReBlFXUBPPRSbu/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:00:29.463Z",
+          "price_date": "12.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 05.07.26_.pdf",
+          "file_id": "1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN",
+          "file_url": "https://drive.google.com/file/d/1k5quH30XKYt1skaPoYzrT8ZBPEvaAMxN/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:59.231Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -05.07.26.pdf",
+          "file_id": "1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd",
+          "file_url": "https://drive.google.com/file/d/1afHDobH0vnT8eOv2ITn1-9jB0RQa6hfd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:52.967Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -28.06.26.pdf",
+          "file_id": "1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY",
+          "file_url": "https://drive.google.com/file/d/1EQgZSDVhAxvYWuw4IjZuak-rUBmbXBOY/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:53.955Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB",
+          "file_url": "https://drive.google.com/file/d/17rggNjrLpuzRTRdCPEJp2R83TvjF8ETB/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:47.323Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 28.06.26.pdf",
+          "file_id": "1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI",
+          "file_url": "https://drive.google.com/file/d/1dztmBxD5E4tOv7vdip4w8sQ0mfetAVCI/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:39.662Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -28.06.26.pdf",
+          "file_id": "1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM",
+          "file_url": "https://drive.google.com/file/d/1Rv0tc7xyrPYKyPr-EMrhqZEf68ZrdlzM/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:55:32.738Z",
+          "price_date": "28.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 14.06.26.pdf",
+          "file_id": "1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV",
+          "file_url": "https://drive.google.com/file/d/1oWhLrb78HkPWRMAAWlO9W3sEYuh8SLuV/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:43.161Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -14.06.26.pdf",
+          "file_id": "1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ",
+          "file_url": "https://drive.google.com/file/d/1b0fOY-O6UBBuctOyhFrFZROsLfx4ROfQ/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:34.089Z",
+          "price_date": "14.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 10.06.26.pdf",
+          "file_id": "1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW",
+          "file_url": "https://drive.google.com/file/d/1k0nGj0GEwAQ7ruWbIk0_CffWdKmk0nLW/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:04.829Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -10.06.26.pdf",
+          "file_id": "1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA",
+          "file_url": "https://drive.google.com/file/d/1oldyblVPhnbsdf3Z7kW1eqv9Iyd5szzA/view?usp=drivesdk",
+          "modified_at": "2026-06-11T05:57:01.609Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "The Green Quarter - Orien Customer Pricelist -07.06.26.pdf",
+          "file_id": "1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW",
+          "file_url": "https://drive.google.com/file/d/1KZJ0_jfNhtuYRxoAzJ5LCezWhM0qMSlW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:25.504Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo",
+          "file_url": "https://drive.google.com/file/d/1lGOQ0hjRC8HcDyis0477WHBqGSK5R_jo/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:21.886Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Orien Customer Pricelist - 07.06.26.pdf",
+          "file_id": "1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk",
+          "file_url": "https://drive.google.com/file/d/1AK0wetMAZ8OhTzwUR-dMRjPdEWKhP9Fk/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:18.249Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "CN-The Green Quarter - Brickfields Customer Pricelist -07.06.26.pdf",
+          "file_id": "1JA2892q1pblS880Xb0JvqaJJgTbUeCxP",
+          "file_url": "https://drive.google.com/file/d/1JA2892q1pblS880Xb0JvqaJJgTbUeCxP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:02:13.533Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 24.05.26.pdf",
+          "file_id": "1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN",
+          "file_url": "https://drive.google.com/file/d/1MWr3NG42-hDcrX-O5c2-HByoEq7lyUsN/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:38.496Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
+          "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
+          "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:54:37.250Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Orien Customer Pricelist - 17.05.26.pdf",
+          "file_id": "1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_",
+          "file_url": "https://drive.google.com/file/d/1h-dny5DYnYwsO3e-cKMtaIMpu3CMTIg_/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:56.379Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -17.05.26.pdf",
+          "file_id": "1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2",
+          "file_url": "https://drive.google.com/file/d/1yxDJqQbSUs0Y-hnRSOCqm0jsc8JN6PR2/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:54.662Z",
+          "price_date": "26-05-28"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1AuL316U0ZQBABktya1P0worAqVs4vq5m",
-    "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
-    "1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
-    "1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
-    "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
-    "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
-    "1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
-    "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
-    "1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
-    "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
-    "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
-    "1huj_phV8Nv7q_9e1jCQFFyntQsb2fvL5",
-    "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-    "1Ux4ZxBnW0zsCaR-whDMLWeVTEmtrgU5H",
-    "11p4iNa4oBQMI0QtKMqMLbT5LryOEsgo7",
-    "10x0pDQuFe7kXyx87260VXkdyfwYHvJ8x",
-    "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
-    "1VXlL0r04Exp1m4HGiU59NEbs3L8eDD_Y",
-    "1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
-    "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
-    "1hLXCSPHszYJbeYqzoJpob1teLDTxzpWH",
-    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-    "1npjbyf4UnRUGm4tC3TscM8wHbubiwjXo",
+    "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
     "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
-    "1sndVwGGpdPQYWi_IRMjwIWxZ3WeZPZd4",
-    "1FWievuNe9xgHyuragDlaOYewXossuvgX",
-    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-    "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
-    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo"
+    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg"
   ],
   "targeted_projects": [
-    "HP10 - Abbey Barn Park",
-    "Bankside Gardens",
-    "NW1 - Camden Goods Yard",
-    "RM9 - Eastbrook Village",
-    "Eden Grove",
-    "Foal Hurst Green",
-    "W6 - Fulham Reach",
-    "B4 - Glasswater Locks",
-    "HA0 - Grand Union",
-    "Hareshill",
-    "Hartland Village",
-    "SG13 - Hertford Locks",
-    "Highcroft",
-    "SL1 - Horlicks Quarter",
-    "SE3 - Kidbrooke Village",
-    "SW6 - King's Road Park",
-    "Leighwood Fields",
-    "SW19 - Lombard Square",
-    "E1 - London Dock",
-    "Oakhill",
-    "One Waterside",
-    "SE11 - Oval Village",
-    "Reading Riverworks",
+    "Arch & Bloom",
     "SE18 - Royal Arsenal Riverside",
-    "B18 - Spring Hill",
-    "WD17 - The Exchange Watford",
-    "UB1 - The Green Quarter",
-    "W2 - Trillium",
-    "SW18 - Wandsworth Mills"
+    "UB1 - The Green Quarter"
   ]
 }
