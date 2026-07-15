@@ -1489,6 +1489,96 @@ def extract_csv_records(path: Path) -> tuple[list[dict], str | None]:
     return [], "CSV encoding not recognized"
 
 
+def extract_white_city_coordinate_records(page, source: str) -> list[dict]:
+    """Read WCL tables whose current price/status overlays an older PDF text layer."""
+    lowered = source.lower()
+    if "white city living" not in lowered and not lowered.startswith("wcl"):
+        return []
+    if "cascade" in lowered:
+        unit_pattern = re.compile(r"^(P)\.?(\d{1,2})\.(\d{2})$", re.I)
+        if lowered.startswith("wcl"):
+            columns = {"floor": (190, 250), "bedroom": (145, 190), "aspect": (250, 370), "sqft": (420, 480)}
+        else:
+            columns = {"floor": (145, 200), "bedroom": (200, 250), "aspect": (250, 360), "sqft": (420, 480)}
+        price_x = 490
+    elif "solaris two" in lowered:
+        unit_pattern = re.compile(r"^(W)\.?(\d{1,2})\.(\d{2})$", re.I)
+        columns = {"floor": (120, 180), "bedroom": (180, 225), "aspect": (225, 330), "sqft": (400, 465)}
+        price_x = 470
+    elif "solaris one" in lowered:
+        unit_pattern = re.compile(r"^(V)\.?(\d{1,2})\.(\d{2})$", re.I)
+        columns = {"floor": (145, 190), "bedroom": (190, 235), "aspect": (235, 285), "sqft": (330, 375)}
+        price_x = 490
+    else:
+        return []
+
+    try:
+        words = page.extract_words(extra_attrs=["non_stroking_color"])
+    except Exception:
+        return []
+    records = []
+    for unit_word in words:
+        unit_match = unit_pattern.fullmatch(cell_text(unit_word.get("text")))
+        if not unit_match:
+            continue
+        cy = (float(unit_word["top"]) + float(unit_word["bottom"])) / 2
+        row_words = [
+            word for word in words
+            if abs(((float(word["top"]) + float(word["bottom"])) / 2) - cy) < 10
+        ]
+
+        def column_text(field: str) -> str:
+            left, right = columns[field]
+            selected = sorted((word for word in row_words if left <= float(word["x0"]) < right), key=lambda word: float(word["x0"]))
+            return " ".join(cell_text(word.get("text")) for word in selected).strip()
+
+        price_groups: list[str] = []
+        current: list[str] | None = None
+        for char in page.chars:
+            char_cy = (float(char["top"]) + float(char["bottom"])) / 2
+            if float(char["x0"]) < price_x or abs(char_cy - cy) >= 10:
+                continue
+            value = cell_text(char.get("text"))
+            if value == "£":
+                if current:
+                    price_groups.append("".join(current))
+                current = ["£"]
+            elif current is not None and (value.isdigit() or value in {",", "."}):
+                current.append(value)
+        if current:
+            price_groups.append("".join(current))
+
+        color = unit_word.get("non_stroking_color")
+        is_red = isinstance(color, (list, tuple)) and len(color) >= 3 and float(color[0]) >= 0.7 and float(color[1]) <= 0.15
+        price = price_groups[-1] if price_groups else ""
+        if not is_red and parse_price(price) is None:
+            continue
+        beds = column_text("bedroom")
+        if not re.search(r"\d", beds) and "penthouse" not in beds.lower():
+            beds = ""
+        record = finalize_record({
+            "source": source,
+            "unit": f"{unit_match.group(1).upper()}{int(unit_match.group(2))}.{unit_match.group(3)}",
+            "bedroom": re.sub(r"\s+", " ", beds),
+            "internal_area": column_text("sqft"),
+            "external_area": "",
+            "aspect": column_text("aspect"),
+            "price": "" if is_red else normalize_record_value("price", price),
+            "floor": column_text("floor"),
+            "status": "Reserved" if is_red else "Available",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+        if record_is_plausible(record):
+            records.append(record)
+    return records
+
+
 def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
     try:
         import pdfplumber
@@ -1496,6 +1586,7 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
         return [], f"pdfplumber unavailable: {exc}"
     rows = []
     text_lines = []
+    coordinate_records = []
     try:
         with pdfplumber.open(str(path)) as pdf:
             for page in pdf.pages:
@@ -1513,16 +1604,27 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
                     page_tables = []
                 for table in page_tables:
                     rows.extend([[cell_text(cell) for cell in row] for row in table if row])
+                coordinate_records.extend(extract_white_city_coordinate_records(page, path.name))
     except Exception as exc:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
     text_records = text_lines_to_records(text_lines, path.name)
+    if coordinate_records:
+        deduped = {normalize_unit(record["unit"]): record for record in coordinate_records}
+        return list(deduped.values()), None
     for record in text_records:
         key = normalize_unit(record["unit"])
         existing = next((item for item in records if normalize_unit(item["unit"]) == key), None)
         if existing is None:
             records.append(record)
         elif not cell_text(existing.get("price")) and cell_text(record.get("price")):
+            existing.update(record)
+    for record in coordinate_records:
+        key = normalize_unit(record["unit"])
+        existing = next((item for item in records if normalize_unit(item["unit"]) == key), None)
+        if existing is None:
+            records.append(record)
+        else:
             existing.update(record)
     return records, None if records else "No recognizable unit table found"
 

@@ -1321,5 +1321,82 @@
     "events": 0,
     "old_error": null,
     "new_error": null
+  },
+  {
+    "project": "E3 - Bow Green",
+    "project_key": "E3 - Bow Green · bow green core c",
+    "old_file": "Bow View Ready to Move In _Core C Pricelist.pdf",
+    "new_file": "BG-Ready to move in- Core C Pricelist.pdf",
+    "old_units": 5,
+    "new_units": 6,
+    "events": 3,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "E3 - Bow Green",
+    "project_key": "E3 - Bow Green · bow green core b",
+    "old_file": "Bow Green Ready to Move In_Core B Pricelist.pdf",
+    "new_file": "BG-Ready to move in-Core B Pricelist.pdf",
+    "old_units": 7,
+    "new_units": 14,
+    "events": 11,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "E2 - Regent's View",
+    "project_key": "E2 - Regent's View · regents view westwood",
+    "old_file": "RV-Ready to Move in-Westwood Building 06.07.2026.pdf",
+    "new_file": "RV-Westwood Building 13.07.2026.pdf",
+    "old_units": 15,
+    "new_units": 15,
+    "events": 2,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "E2 - Regent's View",
+    "project_key": "E2 - Regent's View · regents view wright",
+    "old_file": "RV-Ready to Move in-Wright Building 06.07.2026.pdf",
+    "new_file": "RV-Wright Building 13.07.2026.pdf",
+    "old_units": 14,
+    "new_units": 14,
+    "events": 4,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "W12 - White City Living",
+    "project_key": "W12 - White City Living · white city living cascade three",
+    "old_file": "WCL - Cascades Three price list - 02.07.26.pdf",
+    "new_file": "White City Living Cascade Three 09.07.26.pdf",
+    "old_units": 11,
+    "new_units": 13,
+    "events": 10,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "W12 - White City Living",
+    "project_key": "W12 - White City Living · white city living solaris two",
+    "old_file": "WCL - Solaris Two 02.07.26.pdf",
+    "new_file": "White City Living Solaris Two 09.07.26.pdf",
+    "old_units": 15,
+    "new_units": 16,
+    "events": 3,
+    "old_error": null,
+    "new_error": null
+  },
+  {
+    "project": "W12 - White City Living",
+    "project_key": "W12 - White City Living · white city living solaris one",
+    "old_file": "WCL-Ready to Move In- Solaris One 02.07.26.pdf",
+    "new_file": "White City Living_Ready to Move In_ Solaris One 09.07.26.pdf",
+    "old_units": 14,
+    "new_units": 14,
+    "events": 1,
+    "old_error": null,
+    "new_error": null
   }
 ]
