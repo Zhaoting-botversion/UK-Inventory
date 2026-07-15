@@ -1421,6 +1421,40 @@ def text_lines_to_records(lines: list[str], source: str) -> list[dict]:
     return list(deduped.values())
 
 
+def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str, str]:
+    """Map Regent's View units to the bedroom section heading above each row."""
+    source_name = Path(source).name
+    if not source_name.lower().startswith("rv-") or not re.search(r"\b(?:Westwood|Wright)\b", source_name, re.IGNORECASE):
+        return {}
+    bedroom_numbers = {
+        "ONE": "1",
+        "TWO": "2",
+        "THREE": "3",
+        "FOUR": "4",
+        "FIVE": "5",
+    }
+    current_bedroom = ""
+    bedrooms_by_unit: dict[str, str] = {}
+    for raw_line in lines:
+        line = cell_text(raw_line)
+        heading = re.search(r"\b(ONE|TWO|THREE|FOUR|FIVE)\s+BEDROOMS?\b", line, re.IGNORECASE)
+        if heading:
+            current_bedroom = bedroom_numbers[heading.group(1).upper()]
+        unit_match = re.match(r"^([A-Z]\.\d{2}\.\d{2})\b", line, re.IGNORECASE)
+        if current_bedroom and unit_match:
+            bedrooms_by_unit[normalize_unit(unit_match.group(1))] = current_bedroom
+    return bedrooms_by_unit
+
+
+def apply_section_bedrooms(records: list[dict], bedrooms_by_unit: dict[str, str]) -> None:
+    for record in records:
+        if cell_text(record.get("bedroom")):
+            continue
+        bedroom = bedrooms_by_unit.get(normalize_unit(record.get("unit", "")))
+        if bedroom:
+            record["bedroom"] = bedroom
+
+
 def col_index(cell_ref: str) -> int:
     letters = re.match(r"[A-Z]+", cell_ref.upper())
     if not letters:
@@ -1609,6 +1643,9 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
     text_records = text_lines_to_records(text_lines, path.name)
+    bedrooms_by_unit = section_bedrooms_from_text_lines(text_lines, path.name)
+    apply_section_bedrooms(records, bedrooms_by_unit)
+    apply_section_bedrooms(text_records, bedrooms_by_unit)
     if coordinate_records:
         deduped = {normalize_unit(record["unit"]): record for record in coordinate_records}
         return list(deduped.values()), None
