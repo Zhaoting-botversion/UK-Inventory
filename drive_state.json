@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-14T18:51:30",
+  "synced_at": "2026-07-15T09:38:07",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -4339,38 +4339,6 @@
       "old_files": [],
       "notes": []
     },
-    "TW8 - The Brentford Project": {
-      "project": "TW8 - The Brentford Project",
-      "city": "Outer London",
-      "developer": "Ballymore",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Ballymore",
-      "path": "UK 英国 / Outer London 外伦敦 / Hounslow 豪恩斯洛 / TW8 - The Brentford Project",
-      "folder_id": "1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T",
-      "folder_url": "https://drive.google.com/drive/folders/1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T",
-      "price_folder_id": "1VqwEOAys1464_XRVC7QgJ7uXW_6YUaps",
-      "price_folder_url": "https://drive.google.com/drive/folders/1VqwEOAys1464_XRVC7QgJ7uXW_6YUaps",
-      "old_price_folder_id": "1agKGVW-vQ0v5WANBbv5Q-wpamUaZSdOy",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1agKGVW-vQ0v5WANBbv5Q-wpamUaZSdOy",
-      "latest_files": [
-        {
-          "file": "The Brentford Project Price List - Quincy House.pdf",
-          "file_id": "15S3z3xDaWYhzC5mwqvk0w7oDh03TvUiI",
-          "file_url": "https://drive.google.com/file/d/15S3z3xDaWYhzC5mwqvk0w7oDh03TvUiI/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:15:33.232Z",
-          "price_date": ""
-        },
-        {
-          "file": "The Brentford Project Price List - Final Completed Homes.pdf",
-          "file_id": "1Pww5SpL9zqE4K_4qhVWY0EO0VSmPLgyz",
-          "file_url": "https://drive.google.com/file/d/1Pww5SpL9zqE4K_4qhVWY0EO0VSmPLgyz/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:15:23.096Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "W4 - Chiswick Green": {
       "project": "W4 - Chiswick Green",
       "city": "Outer London",
@@ -8623,13 +8591,60 @@
         }
       ],
       "notes": []
+    },
+    "TW8 - The Brentford Project": {
+      "project": "TW8 - The Brentford Project",
+      "city": "Outer London",
+      "developer": "Ballymore",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Ballymore",
+      "path": "UK 英国 / Outer London 外伦敦 / Hounslow 豪恩斯洛 / TW8 - The Brentford Project",
+      "folder_id": "1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T",
+      "folder_url": "https://drive.google.com/drive/folders/1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T",
+      "price_folder_id": "1VqwEOAys1464_XRVC7QgJ7uXW_6YUaps",
+      "price_folder_url": "https://drive.google.com/drive/folders/1VqwEOAys1464_XRVC7QgJ7uXW_6YUaps",
+      "old_price_folder_id": "1agKGVW-vQ0v5WANBbv5Q-wpamUaZSdOy",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1agKGVW-vQ0v5WANBbv5Q-wpamUaZSdOy",
+      "latest_files": [
+        {
+          "file": "TBP Price List - Quincy House.pdf",
+          "file_id": "1Rfb4uyh5UqGNqFaVm4lIE3NK6DfUjGQ8",
+          "file_url": "https://drive.google.com/file/d/1Rfb4uyh5UqGNqFaVm4lIE3NK6DfUjGQ8/view?usp=drivesdk",
+          "modified_at": "2026-07-15T01:33:50.477Z",
+          "price_date": ""
+        },
+        {
+          "file": "TBP Price List - Final Completed Homes.pdf",
+          "file_id": "1P2Mz88h2TV77Vgzv4-rqQWZGkDs3zlct",
+          "file_url": "https://drive.google.com/file/d/1P2Mz88h2TV77Vgzv4-rqQWZGkDs3zlct/view?usp=drivesdk",
+          "modified_at": "2026-07-15T01:33:39.261Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Brentford Project Price List - Quincy House.pdf",
+          "file_id": "15S3z3xDaWYhzC5mwqvk0w7oDh03TvUiI",
+          "file_url": "https://drive.google.com/file/d/15S3z3xDaWYhzC5mwqvk0w7oDh03TvUiI/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:15:33.232Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Brentford Project Price List - Final Completed Homes.pdf",
+          "file_id": "1Pww5SpL9zqE4K_4qhVWY0EO0VSmPLgyz",
+          "file_url": "https://drive.google.com/file/d/1Pww5SpL9zqE4K_4qhVWY0EO0VSmPLgyz/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:15:23.096Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J"
+    "1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T"
   ],
   "targeted_projects": [
-    "SW1 - The Broadway-Completed"
+    "TW8 - The Brentford Project"
   ]
 }
