@@ -29,6 +29,126 @@ UK_UPDATE_SCRIPT_CANDIDATES = [
 UK_UPDATE_SCRIPT = next((path for path in UK_UPDATE_SCRIPT_CANDIDATES if path.exists()), UK_UPDATE_SCRIPT_CANDIDATES[0])
 DRIVE_STATE_PATH = Path(__file__).resolve().parent / "drive_state.json"
 APP_TITLE = "英国销控看板"
+GA_MEASUREMENT_ID = "G-2T2YFBRBPE"
+ANALYTICS_CONSENT_HTML = f"""
+  <div id="analyticsConsent" class="analytics-consent" hidden>
+    <div>
+      <strong>网站使用统计</strong>
+      <p>我们使用 Google Analytics 了解访问人数、大致地区和功能使用情况，不收集姓名或精确地址。</p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button type="button" id="analyticsDecline" class="secondary">拒绝</button>
+      <button type="button" id="analyticsAccept">同意</button>
+    </div>
+  </div>
+  <button type="button" id="analyticsSettings" class="analytics-settings">统计设置</button>
+  <script>
+  (() => {{
+    const measurementId = {json.dumps(GA_MEASUREMENT_ID)};
+    const consentKey = "uk_inventory_analytics_consent";
+    const banner = document.getElementById("analyticsConsent");
+    const settings = document.getElementById("analyticsSettings");
+    let analyticsReady = false;
+    let searchTimer = null;
+
+    const loadAnalytics = () => {{
+      if (analyticsReady) return;
+      analyticsReady = true;
+      window.dataLayer = window.dataLayer || [];
+      window.gtag = window.gtag || function() {{ window.dataLayer.push(arguments); }};
+      window.gtag("consent", "default", {{
+        analytics_storage: "granted",
+        ad_storage: "denied",
+        ad_user_data: "denied",
+        ad_personalization: "denied",
+      }});
+      window.gtag("js", new Date());
+      window.gtag("config", measurementId);
+      const script = document.createElement("script");
+      script.async = true;
+      script.src = `https://www.googletagmanager.com/gtag/js?id=${{encodeURIComponent(measurementId)}}`;
+      document.head.appendChild(script);
+    }};
+
+    window.trackUKInventoryEvent = (eventName, parameters = {{}}) => {{
+      if (localStorage.getItem(consentKey) !== "granted") return;
+      loadAnalytics();
+      window.gtag("event", eventName, parameters);
+    }};
+
+    const setConsent = (value) => {{
+      localStorage.setItem(consentKey, value);
+      banner.hidden = true;
+      if (value === "granted") {{
+        loadAnalytics();
+        window.trackUKInventoryEvent("analytics_consent_granted", {{ page_path: location.pathname }});
+      }} else if (window.gtag) {{
+        window.gtag("consent", "update", {{ analytics_storage: "denied" }});
+      }};
+    }};
+
+    const savedConsent = localStorage.getItem(consentKey);
+    if (savedConsent === "granted") loadAnalytics();
+    if (!savedConsent) banner.hidden = false;
+    document.getElementById("analyticsAccept").addEventListener("click", () => setConsent("granted"));
+    document.getElementById("analyticsDecline").addEventListener("click", () => setConsent("denied"));
+    settings.addEventListener("click", () => {{ banner.hidden = false; }});
+
+    document.addEventListener("click", (event) => {{
+      const link = event.target.closest("a");
+      if (!link) return;
+      const href = link.getAttribute("href") || "";
+      const label = (link.textContent || "").trim();
+      if (href.includes("/project/")) {{
+        const encodedName = href.split("/project/")[1].split(/[?#]/)[0];
+        window.trackUKInventoryEvent("view_project", {{
+          project_name: decodeURIComponent(encodedName),
+          page_path: location.pathname,
+        }});
+      }} else if (label.includes("来源价单")) {{
+        window.trackUKInventoryEvent("source_pricelist_click", {{ page_path: location.pathname }});
+      }} else if (link.closest("nav")) {{
+        window.trackUKInventoryEvent("navigation_click", {{ destination: href }});
+      }}
+    }});
+
+    document.addEventListener("submit", (event) => {{
+      const form = event.target.closest("form.toolbar");
+      if (!form) return;
+      const activeFilters = Array.from(new FormData(form).values()).filter((value) => String(value).trim()).length;
+      window.trackUKInventoryEvent("filter_submit", {{
+        page_path: location.pathname,
+        active_filter_count: activeFilters,
+      }});
+    }});
+
+    document.addEventListener("change", (event) => {{
+      const field = event.target.closest("form.toolbar select, form.toolbar input");
+      if (!field) return;
+      window.trackUKInventoryEvent("filter_change", {{
+        page_path: location.pathname,
+        filter_name: field.name || field.dataset.filter || "unknown",
+        has_value: field.value ? "yes" : "no",
+      }});
+    }});
+
+    document.addEventListener("input", (event) => {{
+      const field = event.target.closest('form.toolbar input[name="q"], form.toolbar input[data-filter="q"]');
+      if (!field) return;
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {{
+        const searchLength = field.value.trim().length;
+        if (searchLength >= 2) {{
+          window.trackUKInventoryEvent("site_search", {{
+            page_path: location.pathname,
+            search_length: searchLength,
+          }});
+        }}
+      }}, 800);
+    }});
+  }})();
+  </script>
+"""
 HOST = os.environ.get("HOST") or ("0.0.0.0" if "PORT" in os.environ else "127.0.0.1")
 PORT = int(os.environ.get("PORT", "8765"))
 DASHBOARD_USER = os.environ.get("DASHBOARD_USER", "")
@@ -1373,6 +1493,13 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     .update-row {{ display: grid; gap: 4px; border-top: 1px solid #eef1f5; padding-top: 10px; margin-top: 10px; }}
     .update-row:first-of-type {{ border-top: 0; padding-top: 0; margin-top: 12px; }}
     .empty {{ background: var(--panel); border: 1px dashed var(--line); border-radius: 8px; padding: 24px; color: var(--muted); }}
+    .analytics-consent {{ position: fixed; left: 20px; right: 20px; bottom: 20px; z-index: 100; max-width: 760px; margin: 0 auto; padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: #fff; box-shadow: 0 14px 40px rgba(15, 23, 42, .22); display: flex; align-items: center; justify-content: space-between; gap: 16px; }}
+    .analytics-consent[hidden] {{ display: none; }}
+    .analytics-consent p {{ margin: 5px 0 0; color: var(--muted); font-size: 13px; line-height: 1.45; }}
+    .analytics-consent-actions {{ display: flex; gap: 8px; flex-shrink: 0; }}
+    .analytics-consent button, .analytics-settings {{ border: 1px solid var(--blue); border-radius: 6px; padding: 8px 12px; color: #fff; background: var(--blue); cursor: pointer; font-weight: 600; }}
+    .analytics-consent button.secondary {{ color: #344054; border-color: var(--line); background: #fff; }}
+    .analytics-settings {{ position: fixed; left: 10px; bottom: 8px; z-index: 50; padding: 4px 7px; border-color: var(--line); color: #667085; background: rgba(255,255,255,.92); font-size: 11px; font-weight: 400; }}
     @media (max-width: 1100px) {{ .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: repeat(2, minmax(0, 1fr)); }} .unit-focus-columns {{ grid-template-columns: 1fr; }} }}
     @media (max-width: 900px) {{ .grid, .split, .priority-grid, .followup-grid, .market-grid, .updates-grid {{ grid-template-columns: 1fr; }} .metric.wide {{ grid-column: auto; }} header {{ align-items: flex-start; flex-direction: column; }} input {{ min-width: 100%; }} .section-head {{ display: block; }} .unit-list li {{ grid-template-columns: 1fr; gap: 3px; }} }}
   </style>
@@ -1383,6 +1510,7 @@ def layout(title: str, content: str, active: str = "") -> bytes:
     <nav>{nav_html}</nav>
   </header>
   <main>{content}</main>
+  {ANALYTICS_CONSENT_HTML}
 </body>
 </html>"""
     return body.encode("utf-8")
