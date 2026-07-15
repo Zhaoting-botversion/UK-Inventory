@@ -2225,7 +2225,29 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
             project,
         )
 
-    focus_events = [row for row in events if unit_focus_category(row)]
+    latest_version_by_project: dict[str, int] = {}
+    for row in events:
+        project = row.get("project_name", "")
+        try:
+            version_id = int(row.get("new_version_id"))
+        except (TypeError, ValueError):
+            continue
+        latest_version_by_project[project] = max(latest_version_by_project.get(project, 0), version_id)
+
+    def is_latest_focus_version(row: dict) -> bool:
+        latest_version = latest_version_by_project.get(row.get("project_name", ""))
+        if latest_version is None:
+            return True
+        try:
+            return int(row.get("new_version_id")) == latest_version
+        except (TypeError, ValueError):
+            return False
+
+    focus_events = [
+        row for row in events
+        if unit_focus_category(row)
+        and is_latest_focus_version(row)
+    ]
     grouped: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for row in focus_events:
         grouped[base_unit_project_name(row.get("project_name", ""))][unit_focus_category(row)].append(row)
