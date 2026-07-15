@@ -1422,9 +1422,13 @@ def text_lines_to_records(lines: list[str], source: str) -> list[dict]:
 
 
 def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str, str]:
-    """Map Regent's View units to the bedroom section heading above each row."""
+    """Map units to bedroom section headings used by selected Berkeley price lists."""
     source_name = Path(source).name
-    if not source_name.lower().startswith("rv-") or not re.search(r"\b(?:Westwood|Wright)\b", source_name, re.IGNORECASE):
+    is_regents_view = source_name.lower().startswith("rv-") and bool(
+        re.search(r"\b(?:Westwood|Wright)\b", source_name, re.IGNORECASE)
+    )
+    is_london_dock = "london dock" in source_name.lower()
+    if not is_regents_view and not is_london_dock:
         return {}
     bedroom_numbers = {
         "ONE": "1",
@@ -1437,12 +1441,35 @@ def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str,
     bedrooms_by_unit: dict[str, str] = {}
     for raw_line in lines:
         line = cell_text(raw_line)
-        heading = re.search(r"\b(ONE|TWO|THREE|FOUR|FIVE)\s+BEDROOMS?\b", line, re.IGNORECASE)
-        if heading:
-            current_bedroom = bedroom_numbers[heading.group(1).upper()]
-        unit_match = re.match(r"^([A-Z]\.\d{2}\.\d{2})\b", line, re.IGNORECASE)
+        if is_regents_view:
+            heading = re.search(r"\b(ONE|TWO|THREE|FOUR|FIVE)\s+BEDROOMS?\b", line, re.IGNORECASE)
+            if heading:
+                current_bedroom = bedroom_numbers[heading.group(1).upper()]
+            unit_match = re.match(r"^([A-Z]\.\d{2}\.\d{2})\b", line, re.IGNORECASE)
+        else:
+            heading = re.search(r"\b(Manhattan|Studio|[1-9])(?:\s+Bedroom)?\s+Homes\b", line, re.IGNORECASE)
+            if heading:
+                label = heading.group(1)
+                current_bedroom = "Studio" if label.lower() in {"manhattan", "studio"} else label
+            unit_match = re.match(r"^(\d{3,4}(?:\s*-\s*[A-Z]+)?)\b", line, re.IGNORECASE)
         if current_bedroom and unit_match:
             bedrooms_by_unit[normalize_unit(unit_match.group(1))] = current_bedroom
+    return bedrooms_by_unit
+
+
+def inline_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str, str]:
+    """Read Saffron bedroom values that appear inline near the end of each row."""
+    if "saffron" not in Path(source).name.lower():
+        return {}
+    bedrooms_by_unit: dict[str, str] = {}
+    for raw_line in lines:
+        match = re.match(
+            r"^(?P<unit>\d{3,4}(?:\s*-\s*[A-Z]+)?)\b.*?\b(?P<beds>\d+)\s+Bedrooms?\b",
+            cell_text(raw_line),
+            re.IGNORECASE,
+        )
+        if match:
+            bedrooms_by_unit[normalize_unit(match.group("unit"))] = match.group("beds")
     return bedrooms_by_unit
 
 
@@ -1644,6 +1671,7 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
     records = rows_to_records(rows, path.name)
     text_records = text_lines_to_records(text_lines, path.name)
     bedrooms_by_unit = section_bedrooms_from_text_lines(text_lines, path.name)
+    bedrooms_by_unit.update(inline_bedrooms_from_text_lines(text_lines, path.name))
     apply_section_bedrooms(records, bedrooms_by_unit)
     apply_section_bedrooms(text_records, bedrooms_by_unit)
     if coordinate_records:
