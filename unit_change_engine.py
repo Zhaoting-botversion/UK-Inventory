@@ -218,7 +218,7 @@ def value_from_row(data_row: list[str], pos: int | None, field: str) -> str:
     if pos is None:
         return ""
     candidates = [pos]
-    if field in {"unit", "floor", "bedroom", "price", "internal_area"}:
+    if field in {"unit", "floor", "bedroom", "price", "internal_area", "external_area", "aspect"}:
         candidates.extend([pos - 1, pos + 1, pos + 2, pos - 2])
     for idx in candidates:
         if 0 <= idx < len(data_row):
@@ -235,6 +235,7 @@ def parse_price(value: object) -> float | None:
     if re.search(r"\bpoa\b|application|tbc|n/a", text, re.I):
         return None
     cleaned = text.replace("拢", "").replace("£", "")
+    cleaned = re.sub(r"\s*,\s*", ",", cleaned)
     cleaned = re.sub(r"(?<=\d)\s+(?=\d)", "", cleaned)
     match = re.search(r"[\d,]+(?:\.\d+)?", cleaned)
     if not match:
@@ -1421,6 +1422,169 @@ def text_lines_to_records(lines: list[str], source: str) -> list[dict]:
     return list(deduped.values())
 
 
+def cerulean_records_from_text_lines(lines: list[str], source: str) -> list[dict]:
+    """Parse Cerulean Quarter tables whose PDF columns are split into narrow fragments."""
+    if "cerulean quarter" not in Path(source).name.lower():
+        return []
+    bedroom_numbers = {"ONE": "1", "TWO": "2", "THREE": "3", "FOUR": "4", "FIVE": "5"}
+    current_bedroom = ""
+    records = []
+    pattern = re.compile(
+        r"^\**(?P<unit>A\.\d{2}\.\d{2})\s+"
+        r"(?P<type>A\d{2})\s+"
+        r"(?P<floor>\d{1,2})\s+"
+        r"(?P<aspect>[NSEW]{1,3})\s+"
+        r"(?P<external_type>Balcony|Terrace|Patio)\s*/\s*"
+        r"(?P<external>[\d,.]+)\s*sq\.?m\s+"
+        r"(?P<sqm>[\d,.]+)\s+"
+        r"(?P<sqft>[\d,]+)\s+"
+        r"(?P<price>£\s?[\d,]+|RESERVED|SOLD|ON HOLD)\s+"
+        r"(?P<rent>£\s?[\d,]+|RESERVED|SOLD|ON HOLD)$",
+        re.IGNORECASE,
+    )
+    for raw_line in lines:
+        line = cell_text(raw_line)
+        heading = re.search(r"\b(ONE|TWO|THREE|FOUR|FIVE)\s+BEDROOM\s+APARTMENTS?\b", line, re.IGNORECASE)
+        if heading:
+            current_bedroom = bedroom_numbers[heading.group(1).upper()]
+            continue
+        match = pattern.match(line)
+        if not match:
+            continue
+        groups = match.groupdict()
+        price = groups["price"]
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.IGNORECASE):
+            status_value = price
+            price = ""
+        record = finalize_record({
+            "source": source,
+            "unit": groups["unit"],
+            "bedroom": current_bedroom,
+            "internal_area": groups["sqft"],
+            "external_area": f"{groups['external_type']} / {groups['external']} sq.m",
+            "aspect": groups["aspect"],
+            "price": normalize_record_value("price", price),
+            "floor": groups["floor"],
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": normalize_record_value("rent_estimate", groups["rent"]),
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups["type"],
+        })
+        if record_is_plausible(record):
+            records.append(record)
+    return records
+
+
+def parkhaus_records_from_text_lines(lines: list[str], source: str) -> list[dict]:
+    """Parse Parkhaus rows that use block codes and dotted apartment numbers."""
+    if "parkhaus" not in Path(source).name.lower():
+        return []
+    bedroom_numbers = {"1": "1", "2": "2", "3": "3", "4": "4", "5": "5"}
+    current_bedroom = ""
+    records = []
+    pattern = re.compile(
+        r"^(?P<unit>[A-Z]\d?\.\d{2}\.\d{2})\s+"
+        r"(?P<flat>\d+)\s+(?P<block>[A-Z]\d?)\s+"
+        r"(?P<floor>G(?:/\d+)*|\d+(?:/\d+)*)\s+"
+        r"(?P<amenity>Balcony|Terrace|Large terrace|Patio|-|N/A)\s+"
+        r"(?P<sqft>[\d,]+)\s+"
+        r"(?P<price>£\s?[\d,]+|RESERVED|SOLD|ON HOLD)$",
+        re.IGNORECASE,
+    )
+    for raw_line in lines:
+        line = cell_text(raw_line)
+        heading = re.search(r"\b([1-5])\s+BEDROOM\s+APARTMENTS?\b", line, re.IGNORECASE)
+        if heading:
+            current_bedroom = bedroom_numbers[heading.group(1)]
+            continue
+        match = pattern.match(line)
+        if not match:
+            continue
+        groups = match.groupdict()
+        price = groups["price"]
+        status_value = "Available"
+        if re.search(r"reserved|sold|on hold", price, re.IGNORECASE):
+            status_value = price
+            price = ""
+        record = finalize_record({
+            "source": source,
+            "unit": groups["unit"],
+            "bedroom": current_bedroom,
+            "internal_area": groups["sqft"],
+            "external_area": "" if groups["amenity"] in {"-", "N/A"} else groups["amenity"],
+            "aspect": "",
+            "price": normalize_record_value("price", price),
+            "floor": groups["floor"],
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": f"Block {groups['block']} / Flat {groups['flat']}",
+        })
+        if record_is_plausible(record):
+            records.append(record)
+    return records
+
+
+def one_bishopsgate_records_from_text_lines(lines: list[str], source: str) -> list[dict]:
+    """Parse One Bishopsgate Plaza rows whose PDF inserts spaces inside prices."""
+    if "one bishopsgate plaza" not in Path(source).name.lower():
+        return []
+    direction = r"North(?:east|west)?|South(?:east|west)?|East|West"
+    pattern = re.compile(
+        rf"^\**(?P<unit>\d{{2}}\.\d{{2}})\s+"
+        rf"(?P<type>[A-Z]\d{{1,2}})\s+"
+        rf"(?P<floor>\d{{2}})\s+"
+        rf"(?P<beds>[1-5])\s+(?:bed|ded)\s+"
+        rf"(?P<aspect>(?:{direction})(?:\s*/\s*(?:{direction}))*)\s+"
+        rf"(?P<views>.+?)\s+"
+        rf"(?P<sqm>\d+(?:\.\d+)?)\s+"
+        rf"(?P<sqft>[\d,]+)\s+"
+        rf"(?P<price>£\s*[\d\s,]+|UNDER OFFER|RESERVED|SOLD|ON HOLD)$",
+        re.IGNORECASE,
+    )
+    records = []
+    for raw_line in lines:
+        match = pattern.match(cell_text(raw_line))
+        if not match:
+            continue
+        groups = match.groupdict()
+        price = groups["price"]
+        status_value = "Available"
+        if re.search(r"reserved|sold|under offer|on hold", price, re.IGNORECASE):
+            status_value = price
+            price = ""
+        record = finalize_record({
+            "source": source,
+            "unit": groups["unit"],
+            "bedroom": groups["beds"],
+            "internal_area": groups["sqft"],
+            "external_area": "",
+            "aspect": f"{groups['aspect']} / {groups['views']}",
+            "price": normalize_record_value("price", price),
+            "floor": groups["floor"],
+            "status": status_value,
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": groups["type"],
+        })
+        if record_is_plausible(record):
+            records.append(record)
+    return records
+
+
 def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str, str]:
     """Map units to bedroom section headings used by selected Berkeley price lists."""
     source_name = Path(source).name
@@ -1428,8 +1592,14 @@ def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str,
         re.search(r"\b(?:Westwood|Wright)\b", source_name, re.IGNORECASE)
     )
     is_london_dock = "london dock" in source_name.lower()
-    is_the_lucan = "the lucan" in source_name.lower()
-    if not is_regents_view and not is_london_dock and not is_the_lucan:
+    is_sectioned_pricelist = any(
+        token in source_name.lower()
+        for token in ("the stage", "shoreditch parkside", "the grove collection", "woodberry down - editions", "the lucan")
+    ) or any(
+        re.search(r"\b(?:STUDIO|ONE|TWO|THREE|FOUR|FIVE|[1-5])\s+BEDROOMS?\b", cell_text(line), re.IGNORECASE)
+        for line in lines
+    )
+    if not is_regents_view and not is_london_dock and not is_sectioned_pricelist:
         return {}
     bedroom_numbers = {
         "ONE": "1",
@@ -1454,16 +1624,16 @@ def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str,
                 current_bedroom = "Studio" if label.lower() in {"manhattan", "studio"} else label
             unit_match = re.match(r"^(\d{3,4}(?:\s*-\s*[A-Z]+)?)\b", line, re.IGNORECASE)
         else:
+            heading = re.search(r"\bSTUDIOS?(?:\s+APARTMENTS?)?\b", line, re.IGNORECASE)
             penthouse_heading = re.search(r"\bTHE\s+PENTHOUSE\b", line, re.IGNORECASE)
             bedroom_heading = re.search(
                 r"\b(ONE|TWO|THREE|FOUR|FIVE|[1-5])\s+BEDROOMS?(?:\s+APARTMENTS?)?\b",
-                line,
-                re.IGNORECASE,
+                line, re.IGNORECASE,
             )
-            if penthouse_heading or bedroom_heading:
-                label = "PENTHOUSE" if penthouse_heading else bedroom_heading.group(1).upper()
-                current_bedroom = "Penthouse" if label == "PENTHOUSE" else bedroom_numbers.get(label, label)
-            unit_match = re.match(r"^(\d{3,4})\b", line, re.IGNORECASE)
+            if heading or penthouse_heading or bedroom_heading:
+                label = "STUDIO" if heading else "PENTHOUSE" if penthouse_heading else bedroom_heading.group(1).upper()
+                current_bedroom = "Studio" if label == "STUDIO" else "Penthouse" if label == "PENTHOUSE" else bedroom_numbers.get(label, label)
+            unit_match = re.match(r"^([A-Z]{0,3}\d+(?:\.\d+){0,2})\b", line, re.IGNORECASE)
         if current_bedroom and unit_match:
             bedrooms_by_unit[normalize_unit(unit_match.group(1))] = current_bedroom
     return bedrooms_by_unit
@@ -1483,6 +1653,54 @@ def inline_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str, 
         if match:
             bedrooms_by_unit[normalize_unit(match.group("unit"))] = match.group("beds")
     return bedrooms_by_unit
+
+
+def newton_records_from_text_lines(lines: list[str], source: str) -> list[dict]:
+    """Parse The Newton rows whose apartment label and street address span two lines."""
+    if "the newton" not in Path(source).name.lower():
+        return []
+    records = []
+    pattern = re.compile(
+        r"^(?P<unit>The Garden Apt|Apartment\s+\d+),\s*"
+        r"(?P<floor>R\s*aised Ground|Raised Ground|First|Second)\s+"
+        r"(?P<beds>\d+)\s+(?P<area>[\d,]+)"
+        r"(?:\s+(?P<outside>[\d,]+))?\s+"
+        r"(?P<price>£\s?[\d,]+|Unreleased)$",
+        re.IGNORECASE,
+    )
+    for index, raw_line in enumerate(lines):
+        match = pattern.match(cell_text(raw_line))
+        if not match:
+            continue
+        groups = match.groupdict()
+        address = cell_text(lines[index + 1]) if index + 1 < len(lines) else ""
+        if "newton road" not in address.lower():
+            address = ""
+        price = groups.get("price") or ""
+        unit_label = groups.get("unit") or ""
+        if unit_label.lower().startswith("the garden"):
+            unit_label = "Garden Apt"
+        record = finalize_record({
+            "source": source,
+            "unit": f"{unit_label}{' - ' + address if address else ''}",
+            "bedroom": groups.get("beds") or "",
+            "internal_area": groups.get("area") or "",
+            "external_area": groups.get("outside") or "",
+            "aspect": "",
+            "price": "" if price.lower() == "unreleased" else normalize_record_value("price", price),
+            "floor": "Raised Ground" if re.search(r"r\s*aised", groups.get("floor") or "", re.IGNORECASE) else groups.get("floor") or "",
+            "status": "Unreleased" if price.lower() == "unreleased" else "Available",
+            "tenure": "",
+            "estimated_completion": "",
+            "rent_estimate": "",
+            "service_charge": "",
+            "ground_rent": "",
+            "parking": "",
+            "incentives": "",
+        })
+        if record_is_plausible(record):
+            records.append(record)
+    return records
 
 
 def apply_section_bedrooms(records: list[dict], bedrooms_by_unit: dict[str, str]) -> None:
@@ -1682,6 +1900,10 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
         return [], f"PDF parse failed: {exc}"
     records = rows_to_records(rows, path.name)
     text_records = text_lines_to_records(text_lines, path.name)
+    text_records.extend(cerulean_records_from_text_lines(text_lines, path.name))
+    text_records.extend(parkhaus_records_from_text_lines(text_lines, path.name))
+    text_records.extend(one_bishopsgate_records_from_text_lines(text_lines, path.name))
+    text_records.extend(newton_records_from_text_lines(text_lines, path.name))
     bedrooms_by_unit = section_bedrooms_from_text_lines(text_lines, path.name)
     bedrooms_by_unit.update(inline_bedrooms_from_text_lines(text_lines, path.name))
     apply_section_bedrooms(records, bedrooms_by_unit)
@@ -1694,8 +1916,10 @@ def extract_pdf_records(path: Path) -> tuple[list[dict], str | None]:
         existing = next((item for item in records if normalize_unit(item["unit"]) == key), None)
         if existing is None:
             records.append(record)
-        elif not cell_text(existing.get("price")) and cell_text(record.get("price")):
-            existing.update(record)
+        else:
+            for field in OUTPUT_FIELDS:
+                if not cell_text(existing.get(field)) and cell_text(record.get(field)):
+                    existing[field] = record[field]
     for record in coordinate_records:
         key = normalize_unit(record["unit"])
         existing = next((item for item in records if normalize_unit(item["unit"]) == key), None)
@@ -1832,6 +2056,38 @@ def insert_version(project: str, source_file: str, source_path: str, version_lab
                 ),
             )
     return version_id
+
+
+def replace_version_records(version_id: int, records: list[dict], parse_note: str | None, path: Path = DB_PATH) -> None:
+    """Reparse a stored source without creating a false new price-list version."""
+    init_db(path)
+    with sqlite3.connect(path) as conn:
+        row = conn.execute("SELECT project_name FROM pricelist_versions WHERE id = ?", (version_id,)).fetchone()
+        if not row:
+            raise ValueError(f"Unknown price-list version: {version_id}")
+        project = row[0]
+        conn.execute("DELETE FROM unit_snapshots WHERE version_id = ?", (version_id,))
+        for record in records:
+            unit = cell_text(record.get("unit", ""))
+            conn.execute(
+                """INSERT INTO unit_snapshots (
+                    version_id, project_name, unit_key, unit, bedroom, internal_area, external_area, aspect,
+                    price, floor, status, tenure, estimated_completion, rent_estimate, service_charge,
+                    ground_rent, parking, incentives, raw_json
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                (
+                    version_id, project, normalize_unit(unit), unit, record.get("bedroom", ""),
+                    record.get("internal_area", ""), record.get("external_area", ""), record.get("aspect", ""),
+                    record.get("price", ""), record.get("floor", ""), record.get("status", ""),
+                    record.get("tenure", ""), record.get("estimated_completion", ""), record.get("rent_estimate", ""),
+                    record.get("service_charge", ""), record.get("ground_rent", ""), record.get("parking", ""),
+                    record.get("incentives", ""), json.dumps(record, ensure_ascii=False),
+                ),
+            )
+        conn.execute(
+            "UPDATE pricelist_versions SET unit_count = ?, parse_note = ? WHERE id = ?",
+            (len(records), parse_note or "", version_id),
+        )
 
 
 def latest_version(project: str, before_id: int | None = None, path: Path = DB_PATH) -> dict | None:

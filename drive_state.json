@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-15T10:09:38",
+  "synced_at": "2026-07-15T18:00:28",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -171,14 +171,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1gakf3W99t1G2rKSbzxN7y9lkPObK9Him",
       "latest_files": [
         {
+          "file": "Aspen pricelist- 23-06-2026.pdf",
+          "file_id": "1s_3OX7uCB_8nSv5mkUR26fVhnki_WXWS",
+          "file_url": "https://drive.google.com/file/d/1s_3OX7uCB_8nSv5mkUR26fVhnki_WXWS/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:25.433Z",
+          "price_date": "23-06-2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Aspen pricelist - 05-05-2026.pdf",
           "file_id": "1-OHgR4lMHXgofENXcpOan72sYyvlaD_p",
           "file_url": "https://drive.google.com/file/d/1-OHgR4lMHXgofENXcpOan72sYyvlaD_p/view?usp=drivesdk",
           "modified_at": "2026-06-05T08:36:29.976Z",
           "price_date": "05-05-2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "202306019Aspen Price List[38].pdf",
           "file_id": "1ug-Qigcxt8L3tG0ewrp8aUfDeDx6BDdq",
@@ -430,9 +437,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1J8jKmSgILhVVSJGF1NDJ8iNlB_MT9yJ-",
       "price_folder_id": "1owjFdiF5FEWvfsV190BBhPAoEi02f0Zk",
       "price_folder_url": "https://drive.google.com/drive/folders/1owjFdiF5FEWvfsV190BBhPAoEi02f0Zk",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1xAkrqGun1FEjILItDCDcX9CKYP4GnCD8",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1xAkrqGun1FEjILItDCDcX9CKYP4GnCD8",
       "latest_files": [
+        {
+          "file": "Parkhaus Price List.pdf",
+          "file_id": "1JDFxdDjqcFnVdZNQejnVKVu_JS0hhZWO",
+          "file_url": "https://drive.google.com/file/d/1JDFxdDjqcFnVdZNQejnVKVu_JS0hhZWO/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:14.605Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
         {
           "file": "Parkhaus Price List.pdf",
           "file_id": "1jfG47NTfmWYLlxgUMKtqugaDzO2Pct8C",
@@ -441,10 +457,7 @@
           "price_date": ""
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "E8 - Smokehaus": {
       "project": "E8 - Smokehaus",
@@ -522,14 +535,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
       "latest_files": [
         {
+          "file": "Angel Village - Price List - 8th of July 2026.pdf",
+          "file_id": "195xmY2bi9IOg82iHVMYO6no0L7EQoqhj",
+          "file_url": "https://drive.google.com/file/d/195xmY2bi9IOg82iHVMYO6no0L7EQoqhj/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:58.251Z",
+          "price_date": "8th of July 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Angel Village Price List June 2026.pdf",
           "file_id": "1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9",
           "file_url": "https://drive.google.com/file/d/1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9/view?usp=drivesdk",
           "modified_at": "2026-06-26T10:02:26.969Z",
           "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Angel Village Price List  June 2026.pdf",
           "file_id": "1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo",
@@ -663,9 +683,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1VxWs5v8zogUlAlE7_gQJWPZk_Vjzt-40",
       "price_folder_id": "1gtnhPWbienQY8FvUzKjOMX3QyhtvdNZW",
       "price_folder_url": "https://drive.google.com/drive/folders/1gtnhPWbienQY8FvUzKjOMX3QyhtvdNZW",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1Q055HS_ELxXXHxszib4iXPE-AAtyVfQq",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Q055HS_ELxXXHxszib4iXPE-AAtyVfQq",
       "latest_files": [
+        {
+          "file": "One Bishopsgate Plaza Savills Price List June 2026.pdf",
+          "file_id": "1r5rwIAujZVWmUDWniwIx2oj4tlInN73O",
+          "file_url": "https://drive.google.com/file/d/1r5rwIAujZVWmUDWniwIx2oj4tlInN73O/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:22.213Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "One Bishopsgate Plaza Savills Price List May 2026.pdf",
           "file_id": "1MQb77H0ANXviNNqgGP6wgk_KNHCferjz",
@@ -674,10 +703,7 @@
           "price_date": "May 2026"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "EC3 - The Haydon - Completed": {
       "project": "EC3 - The Haydon - Completed",
@@ -825,14 +851,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1SZs9dJA2CaSJNRMRg40RSW1JLG6JCiHq",
       "latest_files": [
         {
+          "file": "New Seven Southbank Place -Pricelist New July 2026.pdf",
+          "file_id": "1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB",
+          "file_url": "https://drive.google.com/file/d/1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:51.786Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Seven Southbank Place -Pricelist New May 2026.pdf",
           "file_id": "1MN3DcCifycwzIEJ_J5G06rq0q351LQSe",
           "file_url": "https://drive.google.com/file/d/1MN3DcCifycwzIEJ_J5G06rq0q351LQSe/view?usp=drivesdk",
           "modified_at": "2026-06-06T10:13:43.238Z",
           "price_date": "May 2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "SEVEN Southbank Place Price List April 2026.pdf",
           "file_id": "1pKk1HWIeubHCQf1ZrVL142xSspeZfLhR",
@@ -923,27 +956,41 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
       "latest_files": [
         {
+          "file": "Prime Point - Pricelist - 9th July 2026.pdf",
+          "file_id": "15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw",
+          "file_url": "https://drive.google.com/file/d/15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:05.753Z",
+          "price_date": "9th July 2026"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 9th July 2026.pdf",
+          "file_id": "1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu",
+          "file_url": "https://drive.google.com/file/d/1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:02.557Z",
+          "price_date": "9th July 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Prime Point - Pricelist - 1st June 2026.pdf",
           "file_id": "1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm",
           "file_url": "https://drive.google.com/file/d/1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm/view?usp=drivesdk",
           "modified_at": "2026-06-26T10:02:42.928Z",
-          "price_date": "June 2026"
+          "price_date": "1st June 2026"
         },
         {
           "file": "Peninsula Riverfront Agents Pricelist - 1st June 2026.pdf",
           "file_id": "1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2",
           "file_url": "https://drive.google.com/file/d/1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2/view?usp=drivesdk",
           "modified_at": "2026-06-06T10:14:58.524Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
+          "price_date": "1st June 2026"
+        },
         {
           "file": "Prime Point -  Pricelist - 1st June 2026.pdf",
           "file_id": "1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7",
           "file_url": "https://drive.google.com/file/d/1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7/view?usp=drivesdk",
           "modified_at": "2026-06-06T10:14:46.694Z",
-          "price_date": "June 2026"
+          "price_date": "1st June 2026"
         }
       ],
       "notes": []
@@ -996,14 +1043,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/18oi9-7cykh6dottaWeYUUSe-Y6UJK5iV",
       "latest_files": [
         {
+          "file": "The Founding Pricelist.pdf",
+          "file_id": "1-PGpiJ1qaWIR1fmGf1PQa1PUqQ8V0ORE",
+          "file_url": "https://drive.google.com/file/d/1-PGpiJ1qaWIR1fmGf1PQa1PUqQ8V0ORE/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:10.358Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
           "file": "The Founding Pricelist 01.06.2026 (1).pdf",
           "file_id": "1qF9jrGtjkGYb4qWKxRhs47iRILx8_RGp",
           "file_url": "https://drive.google.com/file/d/1qF9jrGtjkGYb4qWKxRhs47iRILx8_RGp/view?usp=drivesdk",
           "modified_at": "2026-06-17T03:57:54.000Z",
           "price_date": "01.06.2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "The Founding Pricelist May.pdf",
           "file_id": "14THcmuaSnbmlzkLM_NphlUhkRd1gS1pV",
@@ -2052,9 +2106,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
       "price_folder_id": "12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
       "price_folder_url": "https://drive.google.com/drive/folders/12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
       "latest_files": [
+        {
+          "file": "Allen House Price List - June 2026.pdf",
+          "file_id": "1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO",
+          "file_url": "https://drive.google.com/file/d/1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:48.434Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "Allen House Price List - May 2026.pdf",
           "file_id": "1E7PmL2DMqiuvpvceClWtVfoFN7ex5fhM",
@@ -2063,10 +2126,7 @@
           "price_date": "May 2026"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "W8 - Holland Park Gate - completed": {
       "project": "W8 - Holland Park Gate - completed",
@@ -2366,14 +2426,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
       "latest_files": [
         {
+          "file": "Riverside Quarter Price list - 1.7.26.pdf",
+          "file_id": "1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz",
+          "file_url": "https://drive.google.com/file/d/1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:31.897Z",
+          "price_date": "1.7.26"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Riverside Quarter Price list 17.6.26.pdf",
           "file_id": "1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI",
           "file_url": "https://drive.google.com/file/d/1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI/view?usp=drivesdk",
           "modified_at": "2026-06-26T10:03:30.326Z",
           "price_date": "17.6.26"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Riverside Quarter Price list 02.06.pdf",
           "file_id": "1w-V12Pw9UoOY2aRd_nwtFOOmmQmaa5FO",
@@ -2557,20 +2624,27 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1ir4wOyk75ShLZ2ZL_tPJfheNfJpZWMh-",
       "latest_files": [
         {
+          "file": "W1 Place Pricelist JULY 2026.pdf",
+          "file_id": "1ITFwxrU7fMssplNeY_1tcR0bhmEg967t",
+          "file_url": "https://drive.google.com/file/d/1ITFwxrU7fMssplNeY_1tcR0bhmEg967t/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:54.896Z",
+          "price_date": "JULY 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "W1 Place Pricelist JUNE 2026.pdf",
           "file_id": "1Y8_yIoeDS9v1M2muV-eKXUwZWM8IpUFd",
           "file_url": "https://drive.google.com/file/d/1Y8_yIoeDS9v1M2muV-eKXUwZWM8IpUFd/view?usp=drivesdk",
           "modified_at": "2026-06-26T07:57:37.379Z",
           "price_date": "JUNE 2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "W1 Place Pricelist_MAY 2026.pdf",
           "file_id": "1yknZaE8_scBQ-jp8IEgpY-20Pkp4Dsml",
           "file_url": "https://drive.google.com/file/d/1yknZaE8_scBQ-jp8IEgpY-20Pkp4Dsml/view?usp=drivesdk",
           "modified_at": "2026-06-05T08:34:12.743Z",
-          "price_date": "MAY 2026"
+          "price_date": ""
         },
         {
           "file": "The Penthouse_W1 Place Pricelist MAY 2026.pdf",
@@ -2584,7 +2658,7 @@
           "file_id": "1eUzqshWb7bvBRKdsuS3hJAeOr4b9cOy8",
           "file_url": "https://drive.google.com/file/d/1eUzqshWb7bvBRKdsuS3hJAeOr4b9cOy8/view?usp=drivesdk",
           "modified_at": "2026-05-26T10:04:06.432Z",
-          "price_date": "APR 2026"
+          "price_date": ""
         }
       ],
       "notes": []
@@ -3778,9 +3852,32 @@
       "folder_url": "https://drive.google.com/drive/folders/1bzeQUKE1rD4NFNsSQ1ipdIYDaf6Ov8T1",
       "price_folder_id": "1U70B0_V80yGHuMjYLKDCNGHyYVTBAgaf",
       "price_folder_url": "https://drive.google.com/drive/folders/1U70B0_V80yGHuMjYLKDCNGHyYVTBAgaf",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1c2dsfLqyeCIvUnTvMK2C8-l3l3dTPK2i",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1c2dsfLqyeCIvUnTvMK2C8-l3l3dTPK2i",
       "latest_files": [
+        {
+          "file": "THE PAGES 3-BED PRICE LIST - June 2026.pdf",
+          "file_id": "1_a7tf6WU5xqTkJEQvHc6RjuwbGiPxYas",
+          "file_url": "https://drive.google.com/file/d/1_a7tf6WU5xqTkJEQvHc6RjuwbGiPxYas/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:52.036Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Olson Price List (The Pages) - June 2026.pdf",
+          "file_id": "1zVZrk1W1AIPqf6ycX7qoyupl7QpZt_WE",
+          "file_url": "https://drive.google.com/file/d/1zVZrk1W1AIPqf6ycX7qoyupl7QpZt_WE/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:48.781Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Coachman Price List (The Pages) - June 2026.pdf",
+          "file_id": "10SRuh53EZHabxC9ZRqKSE77a51CkpDi_",
+          "file_url": "https://drive.google.com/file/d/10SRuh53EZHabxC9ZRqKSE77a51CkpDi_/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:45.498Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "THE PAGES 3-BED PRICE LIST - May 2026.pdf",
           "file_id": "1IrmOPtu84XNs-Vir8ZDHB9RDUT5sp-4c",
@@ -3796,10 +3893,7 @@
           "price_date": "May 2026"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "NW2 - Brent Cross Town - Completed": {
       "project": "NW2 - Brent Cross Town - Completed",
@@ -3816,6 +3910,22 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
       "latest_files": [
         {
+          "file": "Ashbee Price list 01.07.2026.pdf",
+          "file_id": "1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC",
+          "file_url": "https://drive.google.com/file/d/1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:42.120Z",
+          "price_date": "01.07.2026"
+        },
+        {
+          "file": "Delamarre Pricelist 01.07.26.pdf",
+          "file_id": "1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP",
+          "file_url": "https://drive.google.com/file/d/1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:35.164Z",
+          "price_date": "01.07.26"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Delamarre Pricelist 02.06.2026.pdf",
           "file_id": "1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E",
           "file_url": "https://drive.google.com/file/d/1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E/view?usp=drivesdk",
@@ -3828,22 +3938,20 @@
           "file_url": "https://drive.google.com/file/d/1UhjbyUdLspHtPAfy8A7YiBKUdtAsUC0b/view?usp=drivesdk",
           "modified_at": "2026-06-05T10:47:27.814Z",
           "price_date": "02.06.2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Ashbee Pricelist 270426.pdf",
           "file_id": "17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE",
           "file_url": "https://drive.google.com/file/d/17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE/view?usp=drivesdk",
           "modified_at": "2026-05-27T03:21:05.513Z",
-          "price_date": "Pricelist 2704"
+          "price_date": ""
         },
         {
           "file": "Delamarre Pricelist 270426.pdf",
           "file_id": "18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-",
           "file_url": "https://drive.google.com/file/d/18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-/view?usp=drivesdk",
           "modified_at": "2026-05-26T10:20:11.400Z",
-          "price_date": "Pricelist 2704"
+          "price_date": ""
         }
       ],
       "notes": []
@@ -4175,14 +4283,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
       "latest_files": [
         {
+          "file": "Cerulean Quarter - Price List - 09.07.2026.pdf",
+          "file_id": "1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_",
+          "file_url": "https://drive.google.com/file/d/1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:18.947Z",
+          "price_date": "09.07.2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Cerulean Quarter - Price List - 18.06.2026.pdf",
           "file_id": "1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV",
           "file_url": "https://drive.google.com/file/d/1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV/view?usp=drivesdk",
           "modified_at": "2026-06-26T10:02:52.482Z",
           "price_date": "18.06.2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Cerulean Quarter - Price List - 02.06.2026.pdf",
           "file_id": "1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI",
@@ -8222,21 +8337,28 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/12e-0frM5uKUTmjvAcp_PY_lu9QF_A-fr",
       "latest_files": [
         {
+          "file": "Hurlingham Waterfront Price List July 2026.pdf",
+          "file_id": "1-_vwDCSHvQjjTfV2n8x63lKQphzvIRMO",
+          "file_url": "https://drive.google.com/file/d/1-_vwDCSHvQjjTfV2n8x63lKQphzvIRMO/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:28.505Z",
+          "price_date": "July 2026"
+        },
+        {
           "file": "Herland Gardens Availablity price list - June 2026.pdf",
           "file_id": "1jpZQrVdv0yuAv2hBnxWu3_SoETFebMe3",
           "file_url": "https://drive.google.com/file/d/1jpZQrVdv0yuAv2hBnxWu3_SoETFebMe3/view?usp=drivesdk",
           "modified_at": "2026-07-14T10:25:25.612Z",
           "price_date": "June 2026"
-        },
+        }
+      ],
+      "old_files": [
         {
           "file": "Hurlingham Waterfront Price List June 2026.pdf",
           "file_id": "1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU",
           "file_url": "https://drive.google.com/file/d/1fYYqK2i8JMlviMVqCNVGeMn5_NpE-BIU/view?usp=drivesdk",
           "modified_at": "2026-06-26T10:03:20.839Z",
           "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Herland Gardens Availability List June 26.pdf",
           "file_id": "1msBjSsFbaEGG-Y79bVPQFFYGL1r4YcZB",
@@ -8697,13 +8819,35 @@
   },
   "errors": [],
   "targeted_project_ids": [
-    "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-    "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
+    "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
+    "10uZve0izL35FERKKAMeDUcyqHsC5sCid",
+    "1n_LRRWVOFtKvlb_73OzZNUhNHqTVc7c3",
+    "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
+    "1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
+    "1oyWde_hGjcuemWY3pP4MpJytI7_t9yVa",
+    "1J8jKmSgILhVVSJGF1NDJ8iNlB_MT9yJ-",
+    "1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
+    "1VxWs5v8zogUlAlE7_gQJWPZk_Vjzt-40",
+    "1D3s9uZWpZFfoH8iRTGu1xx5IL1nmCSiX",
+    "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
+    "1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
+    "1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
+    "1bzeQUKE1rD4NFNsSQ1ipdIYDaf6Ov8T1"
   ],
   "targeted_projects": [
-    "E3 - Bow Green",
-    "E2 - Regent's View",
-    "W12 - White City Living"
+    "W8 - Allen House-completed",
+    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
+    "W1 - W1 Place-Completion Q1 2024",
+    "EC1V - Angel Village - Est. complete from Q4 2026",
+    "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
+    "SE16 - The Founding, Canada Water - Est.completion mid 2025",
+    "E5 - Parkhaus -Completed",
+    "E16 - Cerulean Quarter - Completed",
+    "EC3 - One Bishopsgate Plaza - Completed",
+    "E14 - Aspen",
+    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
+    "SW18-Riverside Quarter Development",
+    "NW2 - Brent Cross Town - Completed",
+    "HA9 - The Pages - Est Complete Sep 2026"
   ]
 }
