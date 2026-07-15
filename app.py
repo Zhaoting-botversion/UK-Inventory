@@ -2016,7 +2016,10 @@ def money_delta(value: object) -> str:
 def unit_focus_category(row: dict) -> str:
     change_type = row.get("change_type", "")
     status_text = f"{row.get('new_status', '')} {row.get('new_price', '')}".lower()
-    if any(token in status_text for token in ["reserved", "under offer", "on hold", "hold", "reservation"]):
+    if any(token in status_text for token in [
+        "sold", "exchanged", "unavailable", "withdrawn",
+        "reserved", "under offer", "on hold", "hold", "reservation",
+    ]):
         return "sold"
     if change_type == "PRICE_DROP":
         return "drop"
@@ -2087,9 +2090,10 @@ def unit_price_text(row: dict) -> str:
     if category == "drop":
         return f"{old_price} → {new_price} ({delta})"
     if category == "sold":
-        if row.get("change_type") == "SOLD":
+        new_status = text_value(row.get("new_status"))
+        if row.get("change_type") == "SOLD" and (not new_status or new_status.lower() == "missing"):
             return f"{old_price or row.get('old_status') or '旧价单有记录'} → 已消失"
-        return row.get("new_status") or row.get("new_price") or "已锁定"
+        return new_status or row.get("new_price") or "已锁定"
     if category == "new":
         return f"新价 {new_price or row.get('new_status') or '缺失'}"
     return new_price or old_price or delta

@@ -2147,7 +2147,16 @@ def compare_versions(project: str, old_version: dict | None, new_version: dict, 
             "aspect": new.get("aspect", ""),
         }
         if not old:
-            events.append({**base, "change_type": "NEW_RELEASE", "price_change": None, "price_change_pct": None, "reason": "Appears in the new version but not in the previous version."})
+            if is_sold_status(new.get("status")):
+                change_type = "SOLD"
+                reason = "First observed in the current price list as sold or unavailable."
+            elif is_reserved_status(new.get("status")):
+                change_type = "RESERVED"
+                reason = "First observed in the current price list as reserved or under offer."
+            else:
+                change_type = "NEW_RELEASE"
+                reason = "Appears in the new version but not in the previous version."
+            events.append({**base, "change_type": change_type, "price_change": None, "price_change_pct": None, "reason": reason})
             continue
         old_price = parse_price(old.get("price"))
         new_price = parse_price(new.get("price"))
