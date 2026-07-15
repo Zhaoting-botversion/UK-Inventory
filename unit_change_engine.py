@@ -126,7 +126,7 @@ def finalize_record(record: dict) -> dict:
     status = cell_text(record.get("status", ""))
     if price in {"-"}:
         record["price"] = ""
-    elif re.fullmatch(r"(reserved|sold|on hold|unavailable|exchanged)", price, flags=re.IGNORECASE):
+    elif re.fullmatch(r"(reserved|sold|under offer|on hold|unavailable|exchanged)", price, flags=re.IGNORECASE):
         record["status"] = status or price
         record["price"] = ""
     elif price and parse_price(price) is None:
@@ -1428,7 +1428,8 @@ def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str,
         re.search(r"\b(?:Westwood|Wright)\b", source_name, re.IGNORECASE)
     )
     is_london_dock = "london dock" in source_name.lower()
-    if not is_regents_view and not is_london_dock:
+    is_the_lucan = "the lucan" in source_name.lower()
+    if not is_regents_view and not is_london_dock and not is_the_lucan:
         return {}
     bedroom_numbers = {
         "ONE": "1",
@@ -1446,12 +1447,23 @@ def section_bedrooms_from_text_lines(lines: list[str], source: str) -> dict[str,
             if heading:
                 current_bedroom = bedroom_numbers[heading.group(1).upper()]
             unit_match = re.match(r"^([A-Z]\.\d{2}\.\d{2})\b", line, re.IGNORECASE)
-        else:
+        elif is_london_dock:
             heading = re.search(r"\b(Manhattan|Studio|[1-9])(?:\s+Bedroom)?\s+Homes\b", line, re.IGNORECASE)
             if heading:
                 label = heading.group(1)
                 current_bedroom = "Studio" if label.lower() in {"manhattan", "studio"} else label
             unit_match = re.match(r"^(\d{3,4}(?:\s*-\s*[A-Z]+)?)\b", line, re.IGNORECASE)
+        else:
+            penthouse_heading = re.search(r"\bTHE\s+PENTHOUSE\b", line, re.IGNORECASE)
+            bedroom_heading = re.search(
+                r"\b(ONE|TWO|THREE|FOUR|FIVE|[1-5])\s+BEDROOMS?(?:\s+APARTMENTS?)?\b",
+                line,
+                re.IGNORECASE,
+            )
+            if penthouse_heading or bedroom_heading:
+                label = "PENTHOUSE" if penthouse_heading else bedroom_heading.group(1).upper()
+                current_bedroom = "Penthouse" if label == "PENTHOUSE" else bedroom_numbers.get(label, label)
+            unit_match = re.match(r"^(\d{3,4})\b", line, re.IGNORECASE)
         if current_bedroom and unit_match:
             bedrooms_by_unit[normalize_unit(unit_match.group(1))] = current_bedroom
     return bedrooms_by_unit

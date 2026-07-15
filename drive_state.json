@@ -1664,9 +1664,18 @@
       "folder_url": "https://drive.google.com/drive/folders/119abNPIOwqPgzg_bqCh7qk3Feq-Qqdap",
       "price_folder_id": "1Vw1x3_MFWBzUzmu8P0j5sHCw8KeM3l7K",
       "price_folder_url": "https://drive.google.com/drive/folders/1Vw1x3_MFWBzUzmu8P0j5sHCw8KeM3l7K",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1GpUs7Xs_5TYpmwcw85XYnbJ45ATpeR47",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1GpUs7Xs_5TYpmwcw85XYnbJ45ATpeR47",
       "latest_files": [
+        {
+          "file": "The Lucan Prices June 2026.pdf",
+          "file_id": "1F-2dh0qNT4Q4YvaMIA4OZYZ8Ozud20OM",
+          "file_url": "https://drive.google.com/file/d/1F-2dh0qNT4Q4YvaMIA4OZYZ8Ozud20OM/view?usp=drivesdk",
+          "modified_at": "2026-07-15T08:39:51.735Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "The Lucan Prices Jan 2026.pdf",
           "file_id": "13IPBqmHJIFB1vdiU5PDJQrbezI8btQiz",
@@ -1675,10 +1684,7 @@
           "price_date": "Jan 2026"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "W1 - 60 Curzon, Mayfair- Completed-Price on application": {
       "project": "W1 - 60 Curzon, Mayfair- Completed-Price on application",
