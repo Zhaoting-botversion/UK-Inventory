@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-15T09:38:07",
+  "synced_at": "2026-07-15T10:09:38",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -341,142 +341,6 @@
           "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
           "modified_at": "2026-06-08T09:24:30.000Z",
           "price_date": "06.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "E2 - Regent's View": {
-      "project": "E2 - Regent's View",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E2 - Regent's View",
-      "folder_id": "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-      "folder_url": "https://drive.google.com/drive/folders/1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-      "price_folder_id": "1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
-      "price_folder_url": "https://drive.google.com/drive/folders/1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
-      "old_price_folder_id": "1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
-      "latest_files": [
-        {
-          "file": "RV-Ready to Move in-Wright Building 06.07.2026.pdf",
-          "file_id": "1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5",
-          "file_url": "https://drive.google.com/file/d/1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:23.482Z",
-          "price_date": "06.07.2026"
-        },
-        {
-          "file": "RV-Ready to Move in-Westwood Building 06.07.2026.pdf",
-          "file_id": "1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu",
-          "file_url": "https://drive.google.com/file/d/1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:24:20.324Z",
-          "price_date": "06.07.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "RV-Ready to move in - Wright Building 29.06.2026.pdf",
-          "file_id": "1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS",
-          "file_url": "https://drive.google.com/file/d/1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:06.025Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "RV-Ready to move in - Westwood 29.06.2026.pdf",
-          "file_id": "1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun",
-          "file_url": "https://drive.google.com/file/d/1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:04.018Z",
-          "price_date": "29.06.2026"
-        },
-        {
-          "file": "RV-Wright Building- ready to move in 08.06.2026.pdf",
-          "file_id": "1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h",
-          "file_url": "https://drive.google.com/file/d/1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:11.101Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "RV-Westwood Building- ready to move in 08.06.2026.pdf",
-          "file_id": "1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7",
-          "file_url": "https://drive.google.com/file/d/1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:07.540Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "RV-Westwood- ready to move in 25.05.2026.pdf",
-          "file_id": "1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e",
-          "file_url": "https://drive.google.com/file/d/1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:53.000Z",
-          "price_date": "25.05.2026"
-        },
-        {
-          "file": "RV-Wright-ready to move in 25.05.2026.pdf",
-          "file_id": "1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy",
-          "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:52.000Z",
-          "price_date": "25.05.2026"
-        }
-      ],
-      "notes": []
-    },
-    "E3 - Bow Green": {
-      "project": "E3 - Bow Green",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Bow Green",
-      "folder_id": "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-      "folder_url": "https://drive.google.com/drive/folders/1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-      "price_folder_id": "1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
-      "price_folder_url": "https://drive.google.com/drive/folders/1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
-      "old_price_folder_id": "1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
-      "latest_files": [
-        {
-          "file": "Bow View Ready to Move In _Core C Pricelist.pdf",
-          "file_id": "1NYA0q3aejJYmaBYVXjovsHvdTMx2K-Ij",
-          "file_url": "https://drive.google.com/file/d/1NYA0q3aejJYmaBYVXjovsHvdTMx2K-Ij/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:50:55.645Z",
-          "price_date": ""
-        },
-        {
-          "file": "Bow Green Ready to Move In_Core B Pricelist.pdf",
-          "file_id": "1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a",
-          "file_url": "https://drive.google.com/file/d/1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:19:12.067Z",
-          "price_date": ""
-        },
-        {
-          "file": "Bow Green - ready to move in Core C Pricelist.pdf",
-          "file_id": "1quptATS3AjVMnauCKwEq54oaRfSuVb5d",
-          "file_url": "https://drive.google.com/file/d/1quptATS3AjVMnauCKwEq54oaRfSuVb5d/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:22:43.246Z",
-          "price_date": ""
-        },
-        {
-          "file": "Bow View Core C-Ready to move in- Pricelist 15.06.26.pdf",
-          "file_id": "1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs",
-          "file_url": "https://drive.google.com/file/d/1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
-          "price_date": "15.06.26"
-        },
-        {
-          "file": "Bow Green Core B-Ready to move in- Pricelist 15.06.26 1.pdf",
-          "file_id": "1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM",
-          "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
-          "price_date": "15.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Bow Green - ready to move in Core B Pricelist.pdf",
-          "file_id": "17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa",
-          "file_url": "https://drive.google.com/file/d/17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:22:41.295Z",
-          "price_date": ""
         }
       ],
       "notes": []
@@ -2821,109 +2685,6 @@
           "file_url": "https://drive.google.com/file/d/1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ/view?usp=drivesdk",
           "modified_at": "2026-06-05T08:37:16.872Z",
           "price_date": "12.05.2026"
-        }
-      ],
-      "notes": []
-    },
-    "W12 - White City Living": {
-      "project": "W12 - White City Living",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "伯克利",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W12 - White City Living",
-      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
-      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
-      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
-      "latest_files": [
-        {
-          "file": "WCL-Ready to Move In- Solaris One 02.07.26.pdf",
-          "file_id": "14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ",
-          "file_url": "https://drive.google.com/file/d/14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:55:40.279Z",
-          "price_date": "02.07.26"
-        },
-        {
-          "file": "WCL - Solaris Two 02.07.26.pdf",
-          "file_id": "162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX",
-          "file_url": "https://drive.google.com/file/d/162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:22.809Z",
-          "price_date": "02.07.26"
-        },
-        {
-          "file": "WCL - Cascades Three price list - 02.07.26.pdf",
-          "file_id": "1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6",
-          "file_url": "https://drive.google.com/file/d/1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:16.557Z",
-          "price_date": "02.07.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "WCL - Solaris Two 27.06.26.pdf",
-          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
-          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:42.040Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
-          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
-          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:40.017Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
-          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
-          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:37.880Z",
-          "price_date": "27.06.26"
-        },
-        {
-          "file": "WCL Solaris Two 09.06.26.pdf",
-          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
-          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:41.309Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Ready to Move 09.06.26.pdf",
-          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
-          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:38.068Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 09.06.26.pdf",
-          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
-          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:34.629Z",
-          "price_date": "09.06.26"
-        },
-        {
-          "file": "WCL Solaris Two 22.05.26.pdf",
-          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
-          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:51.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Ready to Move 22.05.26.pdf",
-          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
-          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:49.000Z",
-          "price_date": "22.05.26"
-        },
-        {
-          "file": "WCL Cascades Three price list - 22.05.26.pdf",
-          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
-          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
-          "modified_at": "2026-05-23T01:30:00.000Z",
-          "price_date": "22.05.26"
         }
       ],
       "notes": []
@@ -8638,13 +8399,305 @@
         }
       ],
       "notes": []
+    },
+    "E3 - Bow Green": {
+      "project": "E3 - Bow Green",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Bow Green",
+      "folder_id": "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+      "folder_url": "https://drive.google.com/drive/folders/1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+      "price_folder_id": "1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ikYl363lWHhp_8qsaStAbkwFmQ8HrupZ",
+      "old_price_folder_id": "1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
+      "latest_files": [
+        {
+          "file": "BG-Ready to move in-Core B Pricelist.pdf",
+          "file_id": "1ISWtfG8oUl8RUe9Beeb7AbxIXRvdZEla",
+          "file_url": "https://drive.google.com/file/d/1ISWtfG8oUl8RUe9Beeb7AbxIXRvdZEla/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:03:42.957Z",
+          "price_date": ""
+        },
+        {
+          "file": "BG-Ready to move in- Core C Pricelist.pdf",
+          "file_id": "1L7lJAPisZ7OhNVWPnHFyKaxweXuDovw_",
+          "file_url": "https://drive.google.com/file/d/1L7lJAPisZ7OhNVWPnHFyKaxweXuDovw_/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:03:35.098Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bow View Ready to Move In _Core C Pricelist.pdf",
+          "file_id": "1NYA0q3aejJYmaBYVXjovsHvdTMx2K-Ij",
+          "file_url": "https://drive.google.com/file/d/1NYA0q3aejJYmaBYVXjovsHvdTMx2K-Ij/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:50:55.645Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green Ready to Move In_Core B Pricelist.pdf",
+          "file_id": "1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a",
+          "file_url": "https://drive.google.com/file/d/1e0T13_0UYVAtcHbuOpykci9SVTP9gR7a/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:19:12.067Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green - ready to move in Core C Pricelist.pdf",
+          "file_id": "1quptATS3AjVMnauCKwEq54oaRfSuVb5d",
+          "file_url": "https://drive.google.com/file/d/1quptATS3AjVMnauCKwEq54oaRfSuVb5d/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:43.246Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green - ready to move in Core B Pricelist.pdf",
+          "file_id": "17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa",
+          "file_url": "https://drive.google.com/file/d/17xK5vSH90ft5pA2C9ns8Tv0ThTcaFtEa/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:22:41.295Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow View Core C-Ready to move in- Pricelist 15.06.26.pdf",
+          "file_id": "1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs",
+          "file_url": "https://drive.google.com/file/d/1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:50:43.000Z",
+          "price_date": "15.06.26"
+        },
+        {
+          "file": "Bow Green Core B-Ready to move in- Pricelist 15.06.26 1.pdf",
+          "file_id": "1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM",
+          "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
+          "modified_at": "2026-06-27T09:50:43.000Z",
+          "price_date": "15.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "E2 - Regent's View": {
+      "project": "E2 - Regent's View",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E2 - Regent's View",
+      "folder_id": "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+      "folder_url": "https://drive.google.com/drive/folders/1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+      "price_folder_id": "1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
+      "price_folder_url": "https://drive.google.com/drive/folders/1YG0BdHJUY-FGHKcSZGx8SlXg-xkPwgws",
+      "old_price_folder_id": "1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
+      "latest_files": [
+        {
+          "file": "RV-Wright Building 13.07.2026.pdf",
+          "file_id": "1yUVHRfU29UP1jyqlOFujRDMfcYJLE40U",
+          "file_url": "https://drive.google.com/file/d/1yUVHRfU29UP1jyqlOFujRDMfcYJLE40U/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:04:29.986Z",
+          "price_date": "13.07.2026"
+        },
+        {
+          "file": "RV-Westwood Building 13.07.2026.pdf",
+          "file_id": "1DgiT4o8fMnbx1oMUxsBlLEZl4dDKrz4b",
+          "file_url": "https://drive.google.com/file/d/1DgiT4o8fMnbx1oMUxsBlLEZl4dDKrz4b/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:04:21.492Z",
+          "price_date": "13.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "RV-Ready to Move in-Wright Building 06.07.2026.pdf",
+          "file_id": "1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5",
+          "file_url": "https://drive.google.com/file/d/1z9-dnw6wzgcde3a26o_bmViHtIpjnwl5/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:23.482Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "RV-Ready to Move in-Westwood Building 06.07.2026.pdf",
+          "file_id": "1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu",
+          "file_url": "https://drive.google.com/file/d/1LW7BLeAlfNmlU3rTuI8gK6i9-YPshbDu/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:20.324Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "RV-Ready to move in - Wright Building 29.06.2026.pdf",
+          "file_id": "1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS",
+          "file_url": "https://drive.google.com/file/d/1Igaw0Pf_9RoZGWtyK1ZmcMGI4I1fiqeS/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:06.025Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "RV-Ready to move in - Westwood 29.06.2026.pdf",
+          "file_id": "1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun",
+          "file_url": "https://drive.google.com/file/d/1ETpsBsFDDRyIvDvsYDVSbmqUpe8Vjcun/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:04.018Z",
+          "price_date": "29.06.2026"
+        },
+        {
+          "file": "RV-Wright Building- ready to move in 08.06.2026.pdf",
+          "file_id": "1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h",
+          "file_url": "https://drive.google.com/file/d/1HC8AGJ_LZHa7a5c7RY-1GKUt9sZt-J7h/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:11.101Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "RV-Westwood Building- ready to move in 08.06.2026.pdf",
+          "file_id": "1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7",
+          "file_url": "https://drive.google.com/file/d/1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:07.540Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "RV-Westwood- ready to move in 25.05.2026.pdf",
+          "file_id": "1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e",
+          "file_url": "https://drive.google.com/file/d/1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:53.000Z",
+          "price_date": "25.05.2026"
+        },
+        {
+          "file": "RV-Wright-ready to move in 25.05.2026.pdf",
+          "file_id": "1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy",
+          "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:52.000Z",
+          "price_date": "25.05.2026"
+        }
+      ],
+      "notes": []
+    },
+    "W12 - White City Living": {
+      "project": "W12 - White City Living",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "伯克利",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W12 - White City Living",
+      "folder_id": "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "folder_url": "https://drive.google.com/drive/folders/1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2",
+      "price_folder_id": "1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "price_folder_url": "https://drive.google.com/drive/folders/1bUKkci2MWzi-xhOZPWb652gbMMgNcpBx",
+      "old_price_folder_id": "1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
+      "latest_files": [
+        {
+          "file": "White City Living_Ready to Move In_ Solaris One 09.07.26.pdf",
+          "file_id": "1AI50Mu9SmLLQ1_7tYT-EE13IF14eovYH",
+          "file_url": "https://drive.google.com/file/d/1AI50Mu9SmLLQ1_7tYT-EE13IF14eovYH/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:05:43.564Z",
+          "price_date": "09.07.26"
+        },
+        {
+          "file": "White City Living Solaris Two 09.07.26.pdf",
+          "file_id": "1UQ4DwWKAzQxsE66hrsdeYAgDZVebYciJ",
+          "file_url": "https://drive.google.com/file/d/1UQ4DwWKAzQxsE66hrsdeYAgDZVebYciJ/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:04:53.919Z",
+          "price_date": "09.07.26"
+        },
+        {
+          "file": "White City Living Cascade Three 09.07.26.pdf",
+          "file_id": "1nFn6qaxu0ULshwVHjnQWYaac7ikShBRx",
+          "file_url": "https://drive.google.com/file/d/1nFn6qaxu0ULshwVHjnQWYaac7ikShBRx/view?usp=drivesdk",
+          "modified_at": "2026-07-15T02:04:45.907Z",
+          "price_date": "09.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "WCL-Ready to Move In- Solaris One 02.07.26.pdf",
+          "file_id": "14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ",
+          "file_url": "https://drive.google.com/file/d/14Di7jlkzfo88jID9hsqi4XLldJe_uqGQ/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:55:40.279Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Solaris Two 02.07.26.pdf",
+          "file_id": "162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX",
+          "file_url": "https://drive.google.com/file/d/162-LN4u1hkf3b1HkjBnf5U_izqhtrmbX/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:22.809Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 02.07.26.pdf",
+          "file_id": "1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6",
+          "file_url": "https://drive.google.com/file/d/1k0iRLFD1LkAo_DrgLF71uE6Jz00aUeQ6/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:25:16.557Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "WCL - Solaris Two 27.06.26.pdf",
+          "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
+          "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:42.040Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL - Ready to move - Solaris One 27.06.26.pdf",
+          "file_id": "1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p",
+          "file_url": "https://drive.google.com/file/d/1oBwmbtaGnVhF6oZij-yPZFn7P7R5Br-p/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:40.017Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL - Cascades Three price list - 27.06.26.pdf",
+          "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
+          "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
+          "modified_at": "2026-06-30T06:24:37.880Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 09.06.26.pdf",
+          "file_id": "1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp",
+          "file_url": "https://drive.google.com/file/d/1Tx5inmJpt9_ChV1m04P4Uz-yUrM6_GGp/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:41.309Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Ready to Move 09.06.26.pdf",
+          "file_id": "17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs",
+          "file_url": "https://drive.google.com/file/d/17AVizGfUDVOMU1h9QF6NRz9sMuMm_fSs/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:38.068Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 09.06.26.pdf",
+          "file_id": "1PqFzniTblH1POOOqQMr07KpnKv-7clK8",
+          "file_url": "https://drive.google.com/file/d/1PqFzniTblH1POOOqQMr07KpnKv-7clK8/view?usp=drivesdk",
+          "modified_at": "2026-06-09T07:04:34.629Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "WCL Solaris Two 22.05.26.pdf",
+          "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
+          "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:51.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Ready to Move 22.05.26.pdf",
+          "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
+          "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
+          "modified_at": "2026-06-08T08:14:49.000Z",
+          "price_date": "22.05.26"
+        },
+        {
+          "file": "WCL Cascades Three price list - 22.05.26.pdf",
+          "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
+          "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
+          "modified_at": "2026-05-23T01:30:00.000Z",
+          "price_date": "22.05.26"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1hEvtFtoZrAq9Y9y7QMHMsRvrBvh0-w1T"
+    "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
+    "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
+    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
   ],
   "targeted_projects": [
-    "TW8 - The Brentford Project"
+    "E3 - Bow Green",
+    "E2 - Regent's View",
+    "W12 - White City Living"
   ]
 }
