@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-15T18:00:28",
+  "synced_at": "2026-07-16T14:04:20",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2275,14 +2275,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/14qO1f8nTnBiqv3Thr6Pl390Oz0Ca4dKs",
       "latest_files": [
         {
+          "file": "The Capston Pricelist.pdf",
+          "file_id": "1bcpRKPXEMHId99AyT-roBko20XdocO25",
+          "file_url": "https://drive.google.com/file/d/1bcpRKPXEMHId99AyT-roBko20XdocO25/view?usp=drivesdk",
+          "modified_at": "2026-07-16T05:52:13.531Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
           "file": "The Capston Price List - 2nd June 2026.pdf",
           "file_id": "1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm",
           "file_url": "https://drive.google.com/file/d/1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm/view?usp=drivesdk",
           "modified_at": "2026-06-05T10:46:32.136Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
+          "price_date": "2nd June 2026"
+        },
         {
           "file": "The Capston Pricelist.pdf",
           "file_id": "1FnnLJw_MMIrRANTbth5n5i1UvAtlCBk-",
@@ -2295,7 +2302,7 @@
           "file_id": "1o42frQ2feswxV0fyscjlugZVXz1L-q7z",
           "file_url": "https://drive.google.com/file/d/1o42frQ2feswxV0fyscjlugZVXz1L-q7z/view?usp=drivesdk",
           "modified_at": "2026-05-26T10:18:17.409Z",
-          "price_date": "May 2026"
+          "price_date": "13th May 2026"
         }
       ],
       "notes": []
@@ -8819,35 +8826,9 @@
   },
   "errors": [],
   "targeted_project_ids": [
-    "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
-    "10uZve0izL35FERKKAMeDUcyqHsC5sCid",
-    "1n_LRRWVOFtKvlb_73OzZNUhNHqTVc7c3",
-    "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
-    "1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
-    "1oyWde_hGjcuemWY3pP4MpJytI7_t9yVa",
-    "1J8jKmSgILhVVSJGF1NDJ8iNlB_MT9yJ-",
-    "1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
-    "1VxWs5v8zogUlAlE7_gQJWPZk_Vjzt-40",
-    "1D3s9uZWpZFfoH8iRTGu1xx5IL1nmCSiX",
-    "1OCZZOgcLPiBibeJ6PvDGxOE_Luqs7qXT",
-    "1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
-    "1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
-    "1bzeQUKE1rD4NFNsSQ1ipdIYDaf6Ov8T1"
+    "1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4"
   ],
   "targeted_projects": [
-    "W8 - Allen House-completed",
-    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
-    "W1 - W1 Place-Completion Q1 2024",
-    "EC1V - Angel Village - Est. complete from Q4 2026",
-    "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
-    "SE16 - The Founding, Canada Water - Est.completion mid 2025",
-    "E5 - Parkhaus -Completed",
-    "E16 - Cerulean Quarter - Completed",
-    "EC3 - One Bishopsgate Plaza - Completed",
-    "E14 - Aspen",
-    "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
-    "SW18-Riverside Quarter Development",
-    "NW2 - Brent Cross Town - Completed",
-    "HA9 - The Pages - Est Complete Sep 2026"
+    "SW11 - Embassy Gardens - The Capston"
   ]
 }
