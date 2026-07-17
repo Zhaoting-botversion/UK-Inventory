@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-07-16T12:00:26",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-07-17T18:26:38",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -1699,39 +1699,6 @@
       ],
       "notes": []
     },
-    "SE11 - Graphite Square": {
-      "project": "SE11 - Graphite Square",
-      "city": "Inner London",
-      "developer": "Third.i",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE11 - Graphite Square",
-      "folder_id": "10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y",
-      "folder_url": "https://drive.google.com/drive/folders/10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y",
-      "price_folder_id": "1jlwIJ1MaSkAnBIeo8g0swy-qGLvCir16",
-      "price_folder_url": "https://drive.google.com/drive/folders/1jlwIJ1MaSkAnBIeo8g0swy-qGLvCir16",
-      "old_price_folder_id": "16lPqd57QFkyLenuWUFSyWOci3qTQHP4p",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/16lPqd57QFkyLenuWUFSyWOci3qTQHP4p",
-      "latest_files": [
-        {
-          "file": "Graphite Square Price List - April 2026.pdf",
-          "file_id": "1LNAuzP0I6wEjQUZJePXIIXcozTGdpnmC",
-          "file_url": "https://drive.google.com/file/d/1LNAuzP0I6wEjQUZJePXIIXcozTGdpnmC/view?usp=drivesdk",
-          "modified_at": "2026-06-25T03:46:34.753Z",
-          "price_date": "April 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Graphite Square Price List June 2023.pdf",
-          "file_id": "1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9",
-          "file_url": "https://drive.google.com/file/d/1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:20:29.000Z",
-          "price_date": "June 2023"
-        }
-      ],
-      "notes": []
-    },
     "SE11 - Oval Village": {
       "project": "SE11 - Oval Village",
       "city": "Inner London",
@@ -3248,25 +3215,6 @@
           "price_date": "November 2024"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "W1K - Three Kings Yard": {
-      "project": "W1K - Three Kings Yard",
-      "city": "Inner London",
-      "developer": "EcoWorld London",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "CBRE",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1K - Three Kings Yard",
-      "folder_id": "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "folder_url": "https://drive.google.com/drive/folders/16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "price_folder_id": "1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "price_folder_url": "https://drive.google.com/drive/folders/1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -8151,7 +8099,82 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "W1K - Three Kings Yard": {
+      "project": "W1K - Three Kings Yard",
+      "city": "Inner London",
+      "developer": "EcoWorld London",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "CBRE",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1K - Three Kings Yard",
+      "folder_id": "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
+      "folder_url": "https://drive.google.com/drive/folders/16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
+      "price_folder_id": "1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
+      "price_folder_url": "https://drive.google.com/drive/folders/1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "INTERNAL USE ONLY Three Kings - Mayfair, W1K.pdf",
+          "file_id": "1xrFvtGuaGVz2qrh5bCcbx-7UWNmHJX0g",
+          "file_url": "https://drive.google.com/file/d/1xrFvtGuaGVz2qrh5bCcbx-7UWNmHJX0g/view?usp=drivesdk",
+          "modified_at": "2026-07-17T10:24:51.604Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "SE11 - Graphite Square": {
+      "project": "SE11 - Graphite Square",
+      "city": "Inner London",
+      "developer": "Third.i",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE11 - Graphite Square",
+      "folder_id": "10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y",
+      "folder_url": "https://drive.google.com/drive/folders/10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y",
+      "price_folder_id": "1jlwIJ1MaSkAnBIeo8g0swy-qGLvCir16",
+      "price_folder_url": "https://drive.google.com/drive/folders/1jlwIJ1MaSkAnBIeo8g0swy-qGLvCir16",
+      "old_price_folder_id": "16lPqd57QFkyLenuWUFSyWOci3qTQHP4p",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/16lPqd57QFkyLenuWUFSyWOci3qTQHP4p",
+      "latest_files": [
+        {
+          "file": "GSQ Price List - June 2026.pdf",
+          "file_id": "1DSnWG44iHc16rAQuKRRq5DgrY1FpX-dS",
+          "file_url": "https://drive.google.com/file/d/1DSnWG44iHc16rAQuKRRq5DgrY1FpX-dS/view?usp=drivesdk",
+          "modified_at": "2026-07-17T10:25:00.153Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Graphite Square Price List - April 2026.pdf",
+          "file_id": "1LNAuzP0I6wEjQUZJePXIIXcozTGdpnmC",
+          "file_url": "https://drive.google.com/file/d/1LNAuzP0I6wEjQUZJePXIIXcozTGdpnmC/view?usp=drivesdk",
+          "modified_at": "2026-06-25T03:46:34.753Z",
+          "price_date": "April 2026"
+        },
+        {
+          "file": "Graphite Square Price List June 2023.pdf",
+          "file_id": "1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9",
+          "file_url": "https://drive.google.com/file/d/1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9/view?usp=drivesdk",
+          "modified_at": "2026-05-29T07:20:29.000Z",
+          "price_date": "June 2023"
+        }
+      ],
+      "notes": []
     }
   },
-  "errors": []
+  "errors": [],
+  "targeted_project_ids": [
+    "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
+    "10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y"
+  ],
+  "targeted_projects": [
+    "W1K - Three Kings Yard",
+    "SE11 - Graphite Square"
+  ]
 }
