@@ -3147,33 +3147,6 @@
         "Missing old pricelist folder"
       ]
     },
-    "W1J - 36 & 37 Hertfort Street": {
-      "project": "W1J - 36 & 37 Hertfort Street",
-      "city": "Inner London",
-      "developer": "CIT",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "CIT",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1J - 36 & 37 Hertfort Street",
-      "folder_id": "17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
-      "folder_url": "https://drive.google.com/drive/folders/17xo3GpwtsHN9q1GuNE642zmFs6pibwdY",
-      "price_folder_id": "1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1e_4UivbQTf92fcfFoXvZOdRBZtYqUEMq",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "36 & 37 Hertftord Street Price List - 10.02.2026  - INTERNAL ONLY.xlsx",
-          "file_id": "1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY",
-          "file_url": "https://docs.google.com/spreadsheets/d/1cZ9iyt5F3zDpcxkayzeSMWyoCVmIlibY/edit?usp=drivesdk&ouid=100818136449455990698&rtpof=true&sd=true",
-          "modified_at": "2026-04-11T10:43:06.000Z",
-          "price_date": "10.02.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "W1J - 6 Charles Street": {
       "project": "W1J - 6 Charles Street",
       "city": "Inner London",
@@ -3304,33 +3277,6 @@
         }
       ],
       "notes": []
-    },
-    "W2 - 18 Porchester Garden-Completed": {
-      "project": "W2 - 18 Porchester Garden-Completed",
-      "city": "Inner London",
-      "developer": "Taylor Wimpey Central London",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "CIT",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W2 - 18 Porchester Garden-Completed",
-      "folder_id": "1CkH0FgWf2AQ6j2_ZmQk51gbk8UJgG5BU",
-      "folder_url": "https://drive.google.com/drive/folders/1CkH0FgWf2AQ6j2_ZmQk51gbk8UJgG5BU",
-      "price_folder_id": "11AIz7z2-r5_o_XVji0j5i6xAmGyRgunm",
-      "price_folder_url": "https://drive.google.com/drive/folders/11AIz7z2-r5_o_XVji0j5i6xAmGyRgunm",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "(DO NOT SEND OUT - INTERNAL USE ONLY) Porchester Gardens - Master Pricing May 2023.pdf",
-          "file_id": "1jncCzYew_gJMURRj6v7fDBwBZuKIBBtq",
-          "file_url": "https://drive.google.com/file/d/1jncCzYew_gJMURRj6v7fDBwBZuKIBBtq/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:20:23.587Z",
-          "price_date": "May 2023"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "W2 - Park Modern-completed": {
       "project": "W2 - Park Modern-completed",
@@ -6901,20 +6847,6 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1sornhI7pmJwHbOdwNQeMhIxBJU-PEd5i",
       "latest_files": [
         {
-          "file": "TGQ - Internal Availability - Orien Pricelist - Level 2 and 4 Only -Staff use Only - Do Not Send - 12.07.26.pdf",
-          "file_id": "1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP",
-          "file_url": "https://drive.google.com/file/d/1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:20:14.269Z",
-          "price_date": "12.07.26"
-        },
-        {
-          "file": "TGQ - Internal Availability - Brickfields - Staff use Only - Do Not Send 12.07.26.pdf",
-          "file_id": "1SCxnU6y9dH7zmwGwyfujatW0emWlqa74",
-          "file_url": "https://drive.google.com/file/d/1SCxnU6y9dH7zmwGwyfujatW0emWlqa74/view?usp=drivesdk",
-          "modified_at": "2026-07-14T02:20:11.125Z",
-          "price_date": "12.07.26"
-        },
-        {
           "file": "The Green Quarter - Orien Customer Pricelist - 12.07.2026.pdf",
           "file_id": "1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY",
           "file_url": "https://drive.google.com/file/d/1CT6POqkeNNwAzU9YBTSKEvmFOS6m8XFY/view?usp=drivesdk",
@@ -8100,33 +8032,6 @@
       "old_files": [],
       "notes": []
     },
-    "W1K - Three Kings Yard": {
-      "project": "W1K - Three Kings Yard",
-      "city": "Inner London",
-      "developer": "EcoWorld London",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "CBRE",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1K - Three Kings Yard",
-      "folder_id": "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "folder_url": "https://drive.google.com/drive/folders/16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
-      "price_folder_id": "1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "price_folder_url": "https://drive.google.com/drive/folders/1zfsF9W7AzDvxrvoqxQtHvnb4h5muZID0",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "INTERNAL USE ONLY Three Kings - Mayfair, W1K.pdf",
-          "file_id": "1xrFvtGuaGVz2qrh5bCcbx-7UWNmHJX0g",
-          "file_url": "https://drive.google.com/file/d/1xrFvtGuaGVz2qrh5bCcbx-7UWNmHJX0g/view?usp=drivesdk",
-          "modified_at": "2026-07-17T10:24:51.604Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
     "SE11 - Graphite Square": {
       "project": "SE11 - Graphite Square",
       "city": "Inner London",
@@ -8170,11 +8075,9 @@
   },
   "errors": [],
   "targeted_project_ids": [
-    "16SBanf4GLdw5WCLa7wzUkm90uUnn2QZN",
     "10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y"
   ],
   "targeted_projects": [
-    "W1K - Three Kings Yard",
     "SE11 - Graphite Square"
   ]
 }
