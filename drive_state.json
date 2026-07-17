@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-17T18:26:38",
+  "synced_at": "2026-07-17T18:56:45",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -8071,13 +8071,38 @@
         }
       ],
       "notes": []
+    },
+    "NW10 - Twyford Park": {
+      "project": "NW10 - Twyford Park",
+      "city": "Outer London",
+      "developer": "Latimer Homes (Clarion Housing Group)",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Ealing 伊灵 / NW10 - Twyford Park",
+      "folder_id": "1AfxJUBTkWWATW8151VMYfYIbmNk0UePH",
+      "folder_url": "https://drive.google.com/drive/folders/1AfxJUBTkWWATW8151VMYfYIbmNk0UePH",
+      "price_folder_id": "1WmQakxP9aILgpK7PTMxBBeXQ6FOx280B",
+      "price_folder_url": "https://drive.google.com/drive/folders/1WmQakxP9aILgpK7PTMxBBeXQ6FOx280B",
+      "old_price_folder_id": "1jzTbByTTYxnnj3nKoMK8sFeX_7hK7y94",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1jzTbByTTYxnnj3nKoMK8sFeX_7hK7y94",
+      "latest_files": [
+        {
+          "file": "Twyford Park Price List.pdf",
+          "file_id": "1s-uKiP2ao2IOUoF3FV1V_adsV-_LRfvt",
+          "file_url": "https://drive.google.com/file/d/1s-uKiP2ao2IOUoF3FV1V_adsV-_LRfvt/view?usp=drivesdk",
+          "modified_at": "2026-07-17T10:51:01.388Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "10pp2x2XLb3UFMF3KBEg4dQeX22b6VN-y"
+    "1AfxJUBTkWWATW8151VMYfYIbmNk0UePH"
   ],
   "targeted_projects": [
-    "SE11 - Graphite Square"
+    "NW10 - Twyford Park"
   ]
 }
