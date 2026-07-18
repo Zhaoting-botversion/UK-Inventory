@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-17T18:56:45",
+  "synced_at": "2026-07-18T09:55:42",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -601,39 +601,6 @@
           "file_url": "https://drive.google.com/file/d/1ug-Qigcxt8L3tG0ewrp8aUfDeDx6BDdq/view?usp=drivesdk",
           "modified_at": "2026-05-29T07:36:31.000Z",
           "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "E14 - Goodluck Hope": {
-      "project": "E14 - Goodluck Hope",
-      "city": "Inner London",
-      "developer": "Ballymore",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Ballymore",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - Goodluck Hope",
-      "folder_id": "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
-      "folder_url": "https://drive.google.com/drive/folders/1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
-      "price_folder_id": "1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
-      "price_folder_url": "https://drive.google.com/drive/folders/1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
-      "old_price_folder_id": "14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
-      "latest_files": [
-        {
-          "file": "Goodluck Hope Price List 30th June 2026.pdf",
-          "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
-          "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
-          "modified_at": "2026-07-01T09:44:09.000Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Goodluck Hope Price List 12th June 2026.pdf",
-          "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
-          "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
-          "modified_at": "2026-06-26T03:31:36.949Z",
-          "price_date": "June 2026"
         }
       ],
       "notes": []
@@ -8096,13 +8063,53 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "E14 - Goodluck Hope": {
+      "project": "E14 - Goodluck Hope",
+      "city": "Inner London",
+      "developer": "Ballymore",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Ballymore",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - Goodluck Hope",
+      "folder_id": "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
+      "folder_url": "https://drive.google.com/drive/folders/1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
+      "price_folder_id": "1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
+      "price_folder_url": "https://drive.google.com/drive/folders/1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
+      "old_price_folder_id": "14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
+      "latest_files": [
+        {
+          "file": "Goodluck Hope Price List 16th July 2026.pdf",
+          "file_id": "1VAsqQtYp6bqovkO5atpnueutggwqnItG",
+          "file_url": "https://drive.google.com/file/d/1VAsqQtYp6bqovkO5atpnueutggwqnItG/view?usp=drivesdk",
+          "modified_at": "2026-07-18T01:48:43.555Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Goodluck Hope Price List 30th June 2026.pdf",
+          "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
+          "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
+          "modified_at": "2026-07-01T09:44:09.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Goodluck Hope Price List 12th June 2026.pdf",
+          "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
+          "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
+          "modified_at": "2026-06-26T03:31:36.949Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1AfxJUBTkWWATW8151VMYfYIbmNk0UePH"
+    "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ"
   ],
   "targeted_projects": [
-    "NW10 - Twyford Park"
+    "E14 - Goodluck Hope"
   ]
 }
