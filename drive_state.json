@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-20T17:11:26",
+  "synced_at": "2026-07-20T17:50:24",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7960,31 +7960,6 @@
       ],
       "notes": []
     },
-    "E9 - Copper Yard": {
-      "project": "E9 - Copper Yard",
-      "city": "Inner London",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E9 - Copper Yard",
-      "folder_id": "1Muux2TlqSBFLUaoWN33kaSiPtBUq7Rvo",
-      "folder_url": "https://drive.google.com/drive/folders/1Muux2TlqSBFLUaoWN33kaSiPtBUq7Rvo",
-      "price_folder_id": "19jfJdgMp5gt2ObLmx76NOrj5hi4k4uxd",
-      "price_folder_url": "https://drive.google.com/drive/folders/19jfJdgMp5gt2ObLmx76NOrj5hi4k4uxd",
-      "old_price_folder_id": "1A-wE8OsXUaK2ONMfas16Jl5J7XHUHlPG",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1A-wE8OsXUaK2ONMfas16Jl5J7XHUHlPG",
-      "latest_files": [
-        {
-          "file": "COPPER YARD PRICE LIST.pdf",
-          "file_id": "1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW",
-          "file_url": "https://drive.google.com/file/d/1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:21.992Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "SL6 - Harvest Hill": {
       "project": "SL6 - Harvest Hill",
       "city": "Others",
@@ -8070,6 +8045,13 @@
           "file_url": "https://drive.google.com/file/d/1NnlDEr-sRsWIh4h3B5fCf3I6hKTwml-p/view?usp=drivesdk",
           "modified_at": "2026-07-20T09:00:42.694Z",
           "price_date": "05.07.26"
+        },
+        {
+          "file": "COPPER YARD PRICE LIST.pdf",
+          "file_id": "1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW",
+          "file_url": "https://drive.google.com/file/d/1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:21.992Z",
+          "price_date": ""
         },
         {
           "file": "1 BEDROOM PRICE LIST - HM 12.06.26.pdf",
