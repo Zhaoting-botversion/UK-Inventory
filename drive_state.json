@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-20T14:11:43",
+  "synced_at": "2026-07-20T14:19:17",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7981,6 +7981,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/16bwwDLJZTFepxs4I1kIQ6_WrYG0Fn5De",
       "latest_files": [
         {
+          "file": "The Apsley Daily Price List - 20.07.2026.pdf",
+          "file_id": "1a6GnglzK2zVcd08oF2WufAno3de5q3zL",
+          "file_url": "https://drive.google.com/file/d/1a6GnglzK2zVcd08oF2WufAno3de5q3zL/view?usp=drivesdk",
+          "modified_at": "2026-07-20T06:18:16.227Z",
+          "price_date": "20.07.2026"
+        },
+        {
           "file": "202026022306_UID998_The Maribor at Royal Arsenal Riverside - Daily Price List -__ 20.07.26.pdf",
           "file_id": "1zHHewCDZnY4RbBF49OSEzEGfVMcUSGbc",
           "file_url": "https://drive.google.com/file/d/1zHHewCDZnY4RbBF49OSEzEGfVMcUSGbc/view?usp=drivesdk",
@@ -8163,13 +8170,9 @@
   },
   "errors": [],
   "targeted_project_ids": [
-    "1VXlL0r04Exp1m4HGiU59NEbs3L8eDD_Y",
-    "1npjbyf4UnRUGm4tC3TscM8wHbubiwjXo",
     "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6"
   ],
   "targeted_projects": [
-    "SW19 - Lombard Square",
-    "Reading Riverworks",
     "SE18 - Royal Arsenal Riverside"
   ]
 }
