@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-20T17:02:02",
+  "synced_at": "2026-07-20T17:11:26",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7427,31 +7427,6 @@
       ],
       "notes": []
     },
-    "E10 - Coronation Square": {
-      "project": "E10 - Coronation Square",
-      "city": "Outer London",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Waltham Forest 沃尔瑟姆森林 / E10 - Coronation Square",
-      "folder_id": "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
-      "folder_url": "https://drive.google.com/drive/folders/1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
-      "price_folder_id": "1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
-      "old_price_folder_id": "1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
-      "latest_files": [
-        {
-          "file": "CORONATION_SQUARE_BLOCK_D4_1_BEDROOM_PRICE_LIST.pdf",
-          "file_id": "1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-",
-          "file_url": "https://drive.google.com/file/d/1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:53:00.836Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "SE11 - Graphite Square": {
       "project": "SE11 - Graphite Square",
       "city": "Inner London",
@@ -8258,27 +8233,45 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "E10 - Coronation Square": {
+      "project": "E10 - Coronation Square",
+      "city": "Outer London",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Waltham Forest 沃尔瑟姆森林 / E10 - Coronation Square",
+      "folder_id": "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
+      "folder_url": "https://drive.google.com/drive/folders/1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
+      "price_folder_id": "1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
+      "old_price_folder_id": "1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
+      "latest_files": [
+        {
+          "file": "CORONATION SQUARE BLOCK D4 1 BEDROOM PRICE LIST.pdf",
+          "file_id": "1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7",
+          "file_url": "https://drive.google.com/file/d/1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:06:26.743Z",
+          "price_date": ""
+        },
+        {
+          "file": "CORONATION_SQUARE_BLOCK_D4_1_BEDROOM_PRICE_LIST.pdf",
+          "file_id": "1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-",
+          "file_url": "https://drive.google.com/file/d/1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:53:00.836Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1Muux2TlqSBFLUaoWN33kaSiPtBUq7Rvo",
-    "1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
-    "1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
-    "1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
-    "1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
-    "117FGlvJGrzFI6LkDo2bmS9IR-Qmqx7XS",
-    "1MuGP4fqtYPweVTk1TJLpPsuVSTlTQLXt",
-    "1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm"
+    "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX"
   ],
   "targeted_projects": [
-    "E9 - Copper Yard",
-    "SL6 - Harvest Hill",
-    "SL5 - Heatherwood Royal",
-    "E3 - Hertford Mill",
-    "SW18 - King George's Gate",
-    "WC1X - Postmark, Farringdon",
-    "E14 - Rivermark",
-    "N12 - The Tramworks"
+    "E10 - Coronation Square"
   ]
 }
