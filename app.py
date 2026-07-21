@@ -1153,7 +1153,9 @@ def market_group(project: dict | str) -> str:
         return "Birmingham"
     if city in {"Reading", "Berkshire / Slough"} or prefix.startswith(("RG", "SL")):
         return "Reading / Berkshire"
-    if city and city not in {"London", "Others"}:
+    if city == "Outer London":
+        return "大伦敦"
+    if city and city not in {"London", "Inner London", "Others"}:
         return city
 
     if district in PRIME_CENTRAL_LONDON_DISTRICTS:
@@ -1168,8 +1170,8 @@ def market_group(project: dict | str) -> str:
         return "伦敦北区 / 西北区"
     if area_code in GREATER_LONDON_DISTRICTS:
         return "大伦敦"
-    if city == "London":
-        return "大伦敦"
+    if city in {"London", "Inner London"}:
+        return "伦敦核心区"
     return "其他英国区域"
 
 
@@ -1177,6 +1179,34 @@ def group_rank(name: str) -> tuple[int, str]:
     if name in MARKET_ORDER:
         return (MARKET_ORDER.index(name), name)
     return (len(MARKET_ORDER), name)
+
+
+CORE_LONDON_GROUPS = {
+    "Prime Central London",
+    "伦敦核心区",
+    "伦敦东区 / 金丝雀码头 / Royal Docks",
+    "伦敦西区 / 西南区",
+    "伦敦北区 / 西北区",
+}
+
+
+def is_core_london_group(name: str) -> bool:
+    return name in CORE_LONDON_GROUPS
+
+
+def is_core_london_project(project: dict) -> bool:
+    return is_core_london_group(market_group(project))
+
+
+def homepage_project_sort_key(project: dict) -> tuple:
+    updated_at = parse_dt(project.get("last_updated_at", ""))
+    updated_sort = -(updated_at.timestamp()) if updated_at else 0
+    return (
+        group_rank(market_group(project)),
+        postcode_rank(project.get("name", "")),
+        updated_sort,
+        project.get("name", ""),
+    )
 
 
 POSTCODE_PRIORITY = [
@@ -1517,9 +1547,18 @@ def render_dashboard(data: dict) -> bytes:
     latest_run = runs[0] if runs else {}
     latest_run_time = latest_run.get("finished_at") or latest_run.get("started_at") or latest_run.get("_mtime", "")
     drive_synced_at = data.get("drive_state", {}).get("synced_at", "")
-    followups = followup_projects(projects)
+    followups = sorted(
+        [project for project in followup_projects(projects) if is_core_london_project(project)],
+        key=homepage_project_sort_key,
+    )
 
     project_by_name = {row["name"]: row for row in projects}
+    core_today_updates = [
+        row for row in today_updates
+        if project_by_name.get(row["project"])
+        and is_core_london_project(project_by_name[row["project"]])
+    ]
+    projects = [project for project in projects if is_core_london_project(project)]
     updated_project_rows = [project for project in projects if project.get("last_updated_at")]
     tracked_city_badges = city_breakdown_badges(projects)
     updated_city_badges = city_breakdown_badges(updated_project_rows)
@@ -1529,11 +1568,12 @@ def render_dashboard(data: dict) -> bytes:
         projects_by_group[market_group(project)].append(project)
     for row in updates:
         project = project_by_name.get(row["project"])
-        updates_by_group[market_group(project or row["project"])].append(row)
+        if project and is_core_london_project(project):
+            updates_by_group[market_group(project)].append(row)
 
-    core_projects = projects_by_group.get("Prime Central London", [])
-    core_recent = [row for row in recent_projects if market_group(row) == "Prime Central London"]
-    priority_projects = (core_recent or sorted(core_projects, key=lambda row: row["last_updated_at"] or "", reverse=True))[:6]
+    core_projects = [row for row in projects if is_core_london_project(row)]
+    core_recent = [row for row in recent_projects if is_core_london_project(row)]
+    priority_projects = sorted(core_recent or core_projects, key=homepage_project_sort_key)[:6]
 
     def project_link(name: str) -> str:
         base_name = base_unit_project_name(name)
@@ -1546,7 +1586,12 @@ def render_dashboard(data: dict) -> bytes:
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(2000)
-    unit_focus_cards = render_unit_focus_columns(all_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
+    core_unit_events = []
+    for row in all_unit_events:
+        project = project_by_name.get(base_unit_project_name(row.get("project_name", "")))
+        if project and is_core_london_project(project):
+            core_unit_events.append(row)
+    unit_focus_cards = render_unit_focus_columns(core_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1559,7 +1604,7 @@ def render_dashboard(data: dict) -> bytes:
           </div>
         </article>"""
         for project in priority_projects
-    ) or '<div class="empty">暂无 Prime Central London 近期更新。</div>'
+    ) or '<div class="empty">暂无核心伦敦近期更新。</div>'
 
     followup_cards = "".join(
         f"""<article class="followup-card {'high' if project['followup_score'] >= 75 else ''}">
@@ -1578,7 +1623,7 @@ def render_dashboard(data: dict) -> bytes:
 
     market_cards = []
     for group_name in sorted(projects_by_group, key=group_rank):
-        group_projects = sorted(projects_by_group[group_name], key=lambda row: row["last_updated_at"] or "", reverse=True)
+        group_projects = sorted(projects_by_group[group_name], key=homepage_project_sort_key)
         group_recent = [row for row in group_projects if row["last_updated_at"]][:5] or group_projects[:5]
         items = "".join(
             f"""<li>
@@ -1617,8 +1662,8 @@ def render_dashboard(data: dict) -> bytes:
       <div class="grid">
         <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div>{tracked_city_badges}</div>
         <div class="metric wide"><div class="label">有更新项目</div><div class="value">{len(updated_project_rows)}</div>{updated_city_badges}</div>
-        <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(all_unit_events)}</div></div>
-        <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(today_updates)}</div></div>
+        <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(core_unit_events)}</div></div>
+        <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(core_today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
 
@@ -1640,14 +1685,14 @@ def render_dashboard(data: dict) -> bytes:
       <div class="followup-grid">{followup_cards}</div>
 
       <div class="section-head">
-        <h2>Prime Central London 优先关注</h2>
-        <div class="muted">优先显示 W1/W2/W8/SW1/SW3/WC1/WC2 等核心邮编项目。EC、SE1、NW 等仍保留在伦敦核心区，但不再和 PCL 混在同一组。</div>
+        <h2>核心伦敦优先关注</h2>
+        <div class="muted">以伦敦一区为中心，优先显示 W1/SW1/W2/W8/SW3/WC1/WC2 等核心邮编，再显示邻近的 Inner London 项目；Outer London 和外地项目不在首页展示。</div>
       </div>
       <div class="priority-grid">{priority_cards}</div>
 
       <div class="section-head">
-        <h2>按城市 / 区域查看楼盘</h2>
-        <div class="muted">先看 Prime Central London，再看伦敦核心区、伦敦东区、其他伦敦板块和外地城市。每个区域只露出最近有动作的项目，完整清单可进价单搜索筛选。</div>
+        <h2>按核心伦敦区域查看楼盘</h2>
+        <div class="muted">按距离伦敦一区的优先级展示 Inner London 项目，每个区域只露出前五个；完整清单仍可进入价单搜索查看。</div>
       </div>
       <div class="market-grid">{''.join(market_cards)}</div>
 
@@ -2222,9 +2267,9 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
         latest_dt = parse_dt(latest)
         latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
         return (
-            latest_sort,
             group_rank(market_group(context)),
             postcode_rank(context.get("name", project)),
+            latest_sort,
             -len(rows),
             project,
         )
