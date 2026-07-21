@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-21T13:31:35",
+  "synced_at": "2026-07-21T15:00:07",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -8703,57 +8703,46 @@
         }
       ],
       "notes": []
+    },
+    "Arch & Bloom": {
+      "project": "Arch & Bloom",
+      "city": "Others",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Surrey 萨里郡 / Arch & Bloom",
+      "folder_id": "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "folder_url": "https://drive.google.com/drive/folders/1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "price_folder_id": "1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "price_folder_url": "https://drive.google.com/drive/folders/1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "old_price_folder_id": "1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "latest_files": [
+        {
+          "file": "A&B Customer Price List 18th July 2026.pdf",
+          "file_id": "1QObe_Jxbqny-Gwp0tJtLSNY3qYqUV4dy",
+          "file_url": "https://drive.google.com/file/d/1QObe_Jxbqny-Gwp0tJtLSNY3qYqUV4dy/view?usp=drivesdk",
+          "modified_at": "2026-07-21T06:51:12.385Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "A_B Customer Price List 12th July 2026.pdf",
+          "file_id": "1HYyzmjadLdK3FObrjiszbmpA2VqMEuBN",
+          "file_url": "https://drive.google.com/file/d/1HYyzmjadLdK3FObrjiszbmpA2VqMEuBN/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:19:58.006Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
-    "1Ff0NKIeUPwPNStjkwRQbv3lrm3itXdES",
-    "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-    "1IyOIAN-V6xYK0EPPN4hT8tV-4OcptSQH",
-    "1dkDzTJVsgd_MBUdePv4VzWFe3n2nhnkY",
-    "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
-    "1sgUo4FzY6LYcjhsXfg_g8QxmfHpqyMZ2",
-    "1VmZ9dpN2qXFmAExFvGatSN-dDUDB_a-o",
-    "1dBBGq_lpVzyek1VIftQJX0154LSYdOpm",
-    "1huj_phV8Nv7q_9e1jCQFFyntQsb2fvL5",
-    "1lxs_SLwr8BILnIekIebPh-VnFZWbQugq",
-    "1Ux4ZxBnW0zsCaR-whDMLWeVTEmtrgU5H",
-    "10x0pDQuFe7kXyx87260VXkdyfwYHvJ8x",
-    "1fqaKyHEK0-ExIq5p5RMRlxVvpJHWhynu",
-    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-    "1qwYVMBbawjR8OG8CW3KTPTmk028lsya2",
-    "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-    "13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
-    "1FWievuNe9xgHyuragDlaOYewXossuvgX",
-    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-    "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
-    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
+    "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg"
   ],
   "targeted_projects": [
-    "Bankside Gardens",
-    "SE1 - Bermondsey Place",
-    "E3 - Bow Green",
-    "NW1 - Camden Goods Yard",
-    "RM9 - Eastbrook Village",
-    "Eden Grove",
-    "W6 - Fulham Reach",
-    "B4 - Glasswater Locks",
-    "HA0 - Grand Union",
-    "SG13 - Hertford Locks",
-    "Highcroft",
-    "SL1 - Horlicks Quarter",
-    "SW6 - King's Road Park",
-    "E1 - London Dock",
-    "SE11 - Oval Village",
-    "SW11 - Parkside Collection at Chelsea Bridge Wharf",
-    "E2 - Regent's View",
-    "SM1 - Sutton Garden Square",
-    "WD17 - The Exchange Watford",
-    "UB1 - The Green Quarter",
-    "W2 - Trillium",
-    "SW18 - Wandsworth Mills",
-    "W12 - White City Living"
+    "Arch & Bloom"
   ]
 }
