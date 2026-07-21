@@ -1101,13 +1101,13 @@ def display_label(value: str) -> str:
     return DISPLAY_LABELS.get(value, value)
 
 
-def city_breakdown_badges(projects: list[dict], limit: int = 6) -> str:
+def city_breakdown_badges(projects: list[dict], limit: int | None = None) -> str:
     counts = Counter(display_label(row.get("city", "未分类")) for row in projects)
     if not counts:
         return '<div class="metric-breakdown muted">暂无城市数据</div>'
     ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
-    visible = ranked[:limit]
-    remaining = sum(count for _, count in ranked[limit:])
+    visible = ranked if limit is None else ranked[:limit]
+    remaining = 0 if limit is None else sum(count for _, count in ranked[limit:])
     badges = "".join(
         f'<span>{e(city)} <strong>{count}</strong></span>'
         for city, count in visible
@@ -1535,7 +1535,8 @@ def project_status(project: dict) -> str:
 
 
 def render_dashboard(data: dict) -> bytes:
-    projects = data["projects"]
+    all_projects = data["projects"]
+    projects = all_projects
     updates = data["updates"]
     runs = data["runs"]
     today_updates = [row for row in updates if is_recent(row["run_time"], 1)]
@@ -1552,16 +1553,16 @@ def render_dashboard(data: dict) -> bytes:
         key=homepage_project_sort_key,
     )
 
-    project_by_name = {row["name"]: row for row in projects}
+    project_by_name = {row["name"]: row for row in all_projects}
     core_today_updates = [
         row for row in today_updates
         if project_by_name.get(row["project"])
         and is_core_london_project(project_by_name[row["project"]])
     ]
-    projects = [project for project in projects if is_core_london_project(project)]
-    updated_project_rows = [project for project in projects if project.get("last_updated_at")]
-    tracked_city_badges = city_breakdown_badges(projects)
+    updated_project_rows = [project for project in all_projects if project.get("last_updated_at")]
+    tracked_city_badges = city_breakdown_badges(all_projects)
     updated_city_badges = city_breakdown_badges(updated_project_rows)
+    projects = [project for project in all_projects if is_core_london_project(project)]
     projects_by_group: dict[str, list[dict]] = defaultdict(list)
     updates_by_group: dict[str, list[dict]] = defaultdict(list)
     for project in projects:
@@ -1660,7 +1661,7 @@ def render_dashboard(data: dict) -> bytes:
     content = f"""
       <h1>英国销控看板</h1>
       <div class="grid">
-        <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(projects)}</div>{tracked_city_badges}</div>
+        <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(all_projects)}</div>{tracked_city_badges}</div>
         <div class="metric wide"><div class="label">有更新项目</div><div class="value">{len(updated_project_rows)}</div>{updated_city_badges}</div>
         <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(core_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(core_today_updates)}</div></div>
