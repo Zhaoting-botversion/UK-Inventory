@@ -1202,9 +1202,9 @@ def homepage_project_sort_key(project: dict) -> tuple:
     updated_at = parse_dt(project.get("last_updated_at", ""))
     updated_sort = -(updated_at.timestamp()) if updated_at else 0
     return (
+        updated_sort,
         group_rank(market_group(project)),
         postcode_rank(project.get("name", "")),
-        updated_sort,
         project.get("name", ""),
     )
 
@@ -2222,9 +2222,9 @@ def render_unit_project_changes(events: list[dict], project_link_func, source_li
         latest_dt = parse_dt(latest)
         latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
         return (
+            latest_sort,
             group_rank(market_group(project_context(project))),
             postcode_rank(project),
-            latest_sort,
             -len(project_rows),
             project,
         )
@@ -2268,9 +2268,9 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
         latest_dt = parse_dt(latest)
         latest_sort = -(latest_dt.timestamp()) if latest_dt else 0
         return (
+            latest_sort,
             group_rank(market_group(context)),
             postcode_rank(context.get("name", project)),
-            latest_sort,
             -len(rows),
             project,
         )
