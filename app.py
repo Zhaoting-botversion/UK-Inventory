@@ -2336,8 +2336,21 @@ def render_unit_focus_columns(events: list[dict], project_link_func, limit_proje
                 rows = grouped[project][category]
                 rows = sorted(rows, key=lambda row: row.get("created_at", ""), reverse=True)
                 items = render_unit_rows(rows, source_link_func)
+                search_text = " ".join(
+                    [project]
+                    + [
+                        " ".join(
+                            text_value(row.get(field, ""))
+                            for field in (
+                                "project_name", "unit", "bedroom", "floor",
+                                "old_file", "new_file", "old_status", "new_status",
+                            )
+                        )
+                        for row in rows
+                    ]
+                ).casefold()
                 cards.append(
-                    f"""<article class="unit-project-card">
+                    f"""<article class="unit-project-card" data-search="{e(search_text)}">
                       <h3>{project_link_func(project)}</h3>
                       <div class="small-meta">{len(rows)} 套</div>
                       <ul class="unit-list">{items}</ul>
@@ -2578,10 +2591,24 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
     versions = load_unit_version_summary()
     project_by_name = {row["name"]: row for row in data["projects"]}
     query = query or {}
-    selected_project = query.get("project", [""])[0]
-    if selected_project:
-        events = [row for row in events if row.get("project_name") == selected_project]
-    project_by_name = {row["name"]: row for row in data["projects"]}
+    search_query = query.get("q", [""])[0].strip()
+
+    def event_search_text(row: dict) -> str:
+        return " ".join(
+            text_value(row.get(field, ""))
+            for field in (
+                "project_name", "unit", "bedroom", "floor", "aspect",
+                "old_file", "new_file", "old_status", "new_status",
+                "change_type", "reason",
+            )
+        ).casefold()
+
+    if search_query:
+        search_terms = [term for term in search_query.casefold().split() if term]
+        events = [
+            row for row in events
+            if all(term in event_search_text(row) for term in search_terms)
+        ]
 
     def unit_project_link(name: str) -> str:
         base_name = base_unit_project_name(name)
@@ -2591,6 +2618,7 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
 
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
+    selected_project = ""
     projects = sorted({row.get("project_name", "") for row in events if row.get("project_name")})
     project_options = '<option value="">全部项目</option>' + "".join(
         f'<option value="{e(project)}" {"selected" if project == selected_project else ""}>{e(project)}</option>'
@@ -2602,14 +2630,14 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         counts[row.get("change_type", "")] += 1
         project_counts[base_unit_project_name(row.get("project_name", ""))] += 1
     top_project_rows = "".join(
-        f"""<tr>
+        f"""<tr data-search="{e(project.casefold())}">
           <td>{unit_project_link(project)}</td>
           <td>{count}</td>
         </tr>"""
         for project, count in sorted(project_counts.items(), key=lambda item: item[1], reverse=True)[:10]
     ) or '<tr><td colspan="2" class="muted">暂无房源变化数据。</td></tr>'
     event_rows = "".join(
-        f"""<tr>
+        f"""<tr data-search="{e(event_search_text(row))}" data-change="{e(row.get('change_type', ''))}">
           <td>{fmt_time(row.get('created_at', ''))}</td>
           <td>{unit_project_link(row.get('project_name', ''))}</td>
           <td>{e(row.get('unit', ''))}</td>
@@ -2636,12 +2664,14 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
         <strong>数据库：</strong> {e(str(UNIT_DB_PATH))}
         <span class="muted" style="margin-left:18px">已入库项目：{len(versions)}</span>
       </div>
-      <form class="toolbar" method="get" action="/unit-changes" style="margin-top:16px">
-        <select name="project">{project_options}</select>
-        <button type="submit">筛选</button>
+      <form class="toolbar" id="unitChangeSearch" method="get" action="/unit-changes" style="margin-top:16px">
+        <input name="q" value="{e(search_query)}" placeholder="自由搜索项目、邮编、房号或价单文件" data-filter="q" autocomplete="off">
+        <button type="submit">搜索</button>
         <a href="/unit-changes">重置</a>
       </form>
-      <section class="panel unit-highlight" style="margin-top:16px">
+      <p class="muted" id="unitChangeSearchCount"></p>
+      <div id="unitChangeNoResults" class="empty" style="display:none">没有找到匹配的房源变化。</div>
+      <section class="panel unit-highlight" id="unitChangeHighlights" style="margin-top:16px">
         <div class="unit-cta">
           <div>
             <h2>按楼盘分组的重点变化</h2>
@@ -2655,17 +2685,88 @@ def render_unit_changes(data: dict, query: dict[str, list[str]] | None = None) -
           <h2>房源变化明细</h2>
           <table>
             <thead><tr><th>时间</th><th>项目</th><th>房号</th><th>类型</th><th>原价 (£)</th><th>新价 (£)</th><th>变化 (£)</th><th>原状态</th><th>新状态</th><th>来源文件</th></tr></thead>
-            <tbody>{event_rows}</tbody>
+            <tbody id="unitChangeRows">{event_rows}</tbody>
           </table>
         </section>
         <section>
           <h2>项目变化排行</h2>
           <table>
             <thead><tr><th>项目</th><th>变化数</th></tr></thead>
-            <tbody>{top_project_rows}</tbody>
+            <tbody id="unitChangeProjectRows">{top_project_rows}</tbody>
           </table>
         </section>
       </div>
+      <script>
+      (() => {{
+        const form = document.getElementById("unitChangeSearch");
+        const input = form.querySelector('input[name="q"]');
+        const eventRows = Array.from(document.querySelectorAll("#unitChangeRows tr[data-search]"));
+        const projectRows = Array.from(document.querySelectorAll("#unitChangeProjectRows tr[data-search]"));
+        const cards = Array.from(document.querySelectorAll("#unitChangeHighlights .unit-project-card[data-search]"));
+        const groups = Array.from(document.querySelectorAll("#unitChangeHighlights .unit-city-group"));
+        const metricValues = Array.from(document.querySelectorAll("main > .grid .metric .value")).slice(0, 4);
+        const count = document.getElementById("unitChangeSearchCount");
+        const noResults = document.getElementById("unitChangeNoResults");
+        const normalize = (value) => (value || "").toString().normalize("NFKC").trim().toLocaleLowerCase();
+        const matches = (value, terms) => terms.every((term) => normalize(value).includes(term));
+
+        const applySearch = () => {{
+          const terms = normalize(input.value).split(/\\s+/).filter(Boolean);
+          let visibleEvents = 0;
+          const changeCounts = {{ PRICE_DROP: 0, NEW_RELEASE: 0, SOLD: 0 }};
+          eventRows.forEach((row) => {{
+            const visible = matches(row.dataset.search, terms);
+            row.style.display = visible ? "" : "none";
+            if (visible) {{
+              visibleEvents += 1;
+              if (row.dataset.change in changeCounts) changeCounts[row.dataset.change] += 1;
+            }}
+          }});
+          cards.forEach((card) => {{
+            card.style.display = matches(card.dataset.search, terms) ? "" : "none";
+          }});
+          groups.forEach((group) => {{
+            const visibleCards = Array.from(group.querySelectorAll(".unit-project-card"))
+              .some((card) => card.style.display !== "none");
+            group.style.display = visibleCards ? "" : "none";
+          }});
+          projectRows.forEach((row) => {{
+            row.style.display = matches(row.dataset.search, terms) ? "" : "none";
+          }});
+          if (metricValues.length === 4) {{
+            metricValues[0].textContent = visibleEvents;
+            metricValues[1].textContent = changeCounts.PRICE_DROP;
+            metricValues[2].textContent = changeCounts.NEW_RELEASE;
+            metricValues[3].textContent = changeCounts.SOLD;
+          }}
+          count.textContent = terms.length
+            ? `找到 ${{visibleEvents}} 条匹配的房源变化`
+            : `当前显示 ${{visibleEvents}} 条房源变化`;
+          noResults.style.display = visibleEvents ? "none" : "";
+          const params = new URLSearchParams(location.search);
+          if (input.value.trim()) params.set("q", input.value.trim());
+          else params.delete("q");
+          const queryString = params.toString();
+          history.replaceState(null, "", queryString ? `${{location.pathname}}?${{queryString}}` : location.pathname);
+        }};
+
+        const params = new URLSearchParams(location.search);
+        if (params.has("q")) input.value = params.get("q") || "";
+        form.addEventListener("submit", (event) => {{
+          event.preventDefault();
+          applySearch();
+        }});
+        input.addEventListener("input", applySearch);
+        const reset = form.querySelector('a[href$="/unit-changes"]');
+        if (reset) reset.addEventListener("click", (event) => {{
+          event.preventDefault();
+          input.value = "";
+          applySearch();
+          input.focus();
+        }});
+        applySearch();
+      }})();
+      </script>
     """
     return layout("房源变化", content, "/unit-changes")
 
