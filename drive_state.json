@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-28T10:36:38",
+  "synced_at": "2026-07-29T09:43:50",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -246,39 +246,6 @@
       "old_files": [],
       "notes": []
     },
-    "E14 - One Thames Quay": {
-      "project": "E14 - One Thames Quay",
-      "city": "Inner London",
-      "developer": "Chalegrove Properties",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - One Thames Quay",
-      "folder_id": "1HB4SS-iCCVJWnnpEWh9Jm1x8lBb3GI9r",
-      "folder_url": "https://drive.google.com/drive/folders/1HB4SS-iCCVJWnnpEWh9Jm1x8lBb3GI9r",
-      "price_folder_id": "1jxitnn4UzLTbox5RhJ3z4VR82wiDw968",
-      "price_folder_url": "https://drive.google.com/drive/folders/1jxitnn4UzLTbox5RhJ3z4VR82wiDw968",
-      "old_price_folder_id": "15WkH6UDf157JxrQNDv3nChOlt5gMz409",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/15WkH6UDf157JxrQNDv3nChOlt5gMz409",
-      "latest_files": [
-        {
-          "file": "One Thames Quay Price List - June 2026 v1.pdf",
-          "file_id": "1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek",
-          "file_url": "https://drive.google.com/file/d/1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek/view?usp=drivesdk",
-          "modified_at": "2026-07-03T03:04:49.000Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "One Thames Quay Price List - April 2026 v3.pdf",
-          "file_id": "1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi",
-          "file_url": "https://drive.google.com/file/d/1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi/view?usp=drivesdk",
-          "modified_at": "2026-06-25T03:46:52.111Z",
-          "price_date": "April 2026"
-        }
-      ],
-      "notes": []
-    },
     "E14 - South Quay Plaza": {
       "project": "E14 - South Quay Plaza",
       "city": "Inner London",
@@ -318,40 +285,6 @@
         }
       ],
       "notes": []
-    },
-    "E3 - Heron Wharf": {
-      "project": "E3 - Heron Wharf",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Heron Wharf",
-      "folder_id": "1QNqorH3I0nIOV5XxrtDvr7oLFkh15C_1",
-      "folder_url": "https://drive.google.com/drive/folders/1QNqorH3I0nIOV5XxrtDvr7oLFkh15C_1",
-      "price_folder_id": "1rK6hJZ9XCM0AtBoMVpivv2OfnGNrBXBc",
-      "price_folder_url": "https://drive.google.com/drive/folders/1rK6hJZ9XCM0AtBoMVpivv2OfnGNrBXBc",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Heron Wharf - Price List Snapshot 08.06.2026.pdf",
-          "file_id": "1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518",
-          "file_url": "https://drive.google.com/file/d/1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:33.000Z",
-          "price_date": "08.06.2026"
-        },
-        {
-          "file": "Heron Wharf - The Millhouse Snapshot Price List 08.06.2026.pdf",
-          "file_id": "1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG",
-          "file_url": "https://drive.google.com/file/d/1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:33.000Z",
-          "price_date": "08.06.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "E5 - Parkhaus -Completed": {
       "project": "E5 - Parkhaus -Completed",
@@ -916,60 +849,6 @@
           "file_url": "https://drive.google.com/file/d/1G9kjP6O5UTfFk6_MqMfb5gZkfUuDIfPm/view?usp=drivesdk",
           "modified_at": "2026-06-22T05:46:32.802Z",
           "price_date": "15.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025": {
-      "project": "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
-      "city": "Inner London",
-      "developer": "Knight Dragon",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
-      "folder_id": "1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
-      "folder_url": "https://drive.google.com/drive/folders/1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
-      "price_folder_id": "1vJFuxscGdOqpetWFAAgYasLEdotNWM8r",
-      "price_folder_url": "https://drive.google.com/drive/folders/1vJFuxscGdOqpetWFAAgYasLEdotNWM8r",
-      "old_price_folder_id": "1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
-      "latest_files": [
-        {
-          "file": "Prime Point - Pricelist - 9th July 2026.pdf",
-          "file_id": "15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw",
-          "file_url": "https://drive.google.com/file/d/15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:05.753Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Peninsula Riverfront Agents Pricelist - 9th July 2026.pdf",
-          "file_id": "1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu",
-          "file_url": "https://drive.google.com/file/d/1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:02.557Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Prime Point - Pricelist - 1st June 2026.pdf",
-          "file_id": "1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm",
-          "file_url": "https://drive.google.com/file/d/1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:02:42.928Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Peninsula Riverfront Agents Pricelist - 1st June 2026.pdf",
-          "file_id": "1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2",
-          "file_url": "https://drive.google.com/file/d/1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:58.524Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Prime Point -  Pricelist - 1st June 2026.pdf",
-          "file_id": "1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7",
-          "file_url": "https://drive.google.com/file/d/1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:46.694Z",
-          "price_date": "June 2026"
         }
       ],
       "notes": []
@@ -8925,33 +8804,175 @@
         }
       ],
       "notes": []
+    },
+    "E14 - One Thames Quay": {
+      "project": "E14 - One Thames Quay",
+      "city": "Inner London",
+      "developer": "Chalegrove Properties",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - One Thames Quay",
+      "folder_id": "1HB4SS-iCCVJWnnpEWh9Jm1x8lBb3GI9r",
+      "folder_url": "https://drive.google.com/drive/folders/1HB4SS-iCCVJWnnpEWh9Jm1x8lBb3GI9r",
+      "price_folder_id": "1jxitnn4UzLTbox5RhJ3z4VR82wiDw968",
+      "price_folder_url": "https://drive.google.com/drive/folders/1jxitnn4UzLTbox5RhJ3z4VR82wiDw968",
+      "old_price_folder_id": "15WkH6UDf157JxrQNDv3nChOlt5gMz409",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/15WkH6UDf157JxrQNDv3nChOlt5gMz409",
+      "latest_files": [
+        {
+          "file": "One Thames Quay Price List - July 2026 v1.pdf",
+          "file_id": "13ofFICsBA0n9sOm2gkKMTwJORe3_KAQt",
+          "file_url": "https://drive.google.com/file/d/13ofFICsBA0n9sOm2gkKMTwJORe3_KAQt/view?usp=drivesdk",
+          "modified_at": "2026-07-28T05:31:50.228Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "One Thames Quay Price List - June 2026 v1.pdf",
+          "file_id": "1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek",
+          "file_url": "https://drive.google.com/file/d/1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek/view?usp=drivesdk",
+          "modified_at": "2026-07-03T03:04:49.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "One Thames Quay Price List - April 2026 v3.pdf",
+          "file_id": "1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi",
+          "file_url": "https://drive.google.com/file/d/1_6mNsduc1jNr6-1AonwkZUEW2ysXXaMi/view?usp=drivesdk",
+          "modified_at": "2026-06-25T03:46:52.111Z",
+          "price_date": "April 2026"
+        }
+      ],
+      "notes": []
+    },
+    "E3 - Heron Wharf": {
+      "project": "E3 - Heron Wharf",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Heron Wharf",
+      "folder_id": "1QNqorH3I0nIOV5XxrtDvr7oLFkh15C_1",
+      "folder_url": "https://drive.google.com/drive/folders/1QNqorH3I0nIOV5XxrtDvr7oLFkh15C_1",
+      "price_folder_id": "1rK6hJZ9XCM0AtBoMVpivv2OfnGNrBXBc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1rK6hJZ9XCM0AtBoMVpivv2OfnGNrBXBc",
+      "old_price_folder_id": "11TaT_CEC-tlPD6q-kmzv0dJvuyYLWWWT",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/11TaT_CEC-tlPD6q-kmzv0dJvuyYLWWWT",
+      "latest_files": [
+        {
+          "file": "The Millhouse - Master Price List 25.07.2026.pdf",
+          "file_id": "1F0IIU2u9Cewc6PmYMIZ1y0uFP517VcQP",
+          "file_url": "https://drive.google.com/file/d/1F0IIU2u9Cewc6PmYMIZ1y0uFP517VcQP/view?usp=drivesdk",
+          "modified_at": "2026-07-28T11:11:55.118Z",
+          "price_date": "25.07.2026"
+        },
+        {
+          "file": "The Heron Collection - Master Price List 25.07.26.pdf",
+          "file_id": "1QguxqALkOdLOT4CnuyFr_4cNbzqyy2Gd",
+          "file_url": "https://drive.google.com/file/d/1QguxqALkOdLOT4CnuyFr_4cNbzqyy2Gd/view?usp=drivesdk",
+          "modified_at": "2026-07-28T11:11:35.558Z",
+          "price_date": "25.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Heron Wharf - Price List Snapshot 08.06.2026.pdf",
+          "file_id": "1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518",
+          "file_url": "https://drive.google.com/file/d/1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:33.000Z",
+          "price_date": "08.06.2026"
+        },
+        {
+          "file": "Heron Wharf - The Millhouse Snapshot Price List 08.06.2026.pdf",
+          "file_id": "1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG",
+          "file_url": "https://drive.google.com/file/d/1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:33.000Z",
+          "price_date": "08.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025": {
+      "project": "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
+      "city": "Inner London",
+      "developer": "Knight Dragon",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025",
+      "folder_id": "1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
+      "folder_url": "https://drive.google.com/drive/folders/1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P",
+      "price_folder_id": "1vJFuxscGdOqpetWFAAgYasLEdotNWM8r",
+      "price_folder_url": "https://drive.google.com/drive/folders/1vJFuxscGdOqpetWFAAgYasLEdotNWM8r",
+      "old_price_folder_id": "1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
+      "latest_files": [
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 27th July 2026.pdf",
+          "file_id": "1_pIAOP0zJZKvZGnjjKj7T0sqxEly-hg8",
+          "file_url": "https://drive.google.com/file/d/1_pIAOP0zJZKvZGnjjKj7T0sqxEly-hg8/view?usp=drivesdk",
+          "modified_at": "2026-07-29T01:43:18.186Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Hub Peninsula Gardens - Pricelist - 27th July 2026.pdf",
+          "file_id": "1jYrPUjdDhQCGERR124hBb57hTHisXNgD",
+          "file_url": "https://drive.google.com/file/d/1jYrPUjdDhQCGERR124hBb57hTHisXNgD/view?usp=drivesdk",
+          "modified_at": "2026-07-29T01:43:05.131Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Prime Point - Pricelist - 27th July 2026.pdf",
+          "file_id": "1s4AB68a3H9sqMDLOhKU1lqjRVTyxxP7R",
+          "file_url": "https://drive.google.com/file/d/1s4AB68a3H9sqMDLOhKU1lqjRVTyxxP7R/view?usp=drivesdk",
+          "modified_at": "2026-07-29T01:42:50.948Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Prime Point - Pricelist - 9th July 2026.pdf",
+          "file_id": "15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw",
+          "file_url": "https://drive.google.com/file/d/15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:05.753Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 9th July 2026.pdf",
+          "file_id": "1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu",
+          "file_url": "https://drive.google.com/file/d/1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:02.557Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Prime Point - Pricelist - 1st June 2026.pdf",
+          "file_id": "1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm",
+          "file_url": "https://drive.google.com/file/d/1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:02:42.928Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 1st June 2026.pdf",
+          "file_id": "1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2",
+          "file_url": "https://drive.google.com/file/d/1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:58.524Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Prime Point -  Pricelist - 1st June 2026.pdf",
+          "file_id": "1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7",
+          "file_url": "https://drive.google.com/file/d/1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:46.694Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1s98fE8_QakeWJVXHUlRU6JcfoacnFG7u",
-    "10x0pDQuFe7kXyx87260VXkdyfwYHvJ8x",
-    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-    "1nZbkGF4E_Q8S5vVpIApYTBvT81yJLT3P",
-    "17ifmP4nuMDQ5geHUyE_84kGgdTOfD_W6",
-    "13GGx6H7LxD225QB7L0qE1G1HBZIYvwyY",
-    "1FWievuNe9xgHyuragDlaOYewXossuvgX",
-    "1KxqcvRarlR6zvrgBax4N-kIlPOFIJuWg",
-    "1nyw_Zra4qfwIjbH-KMzH9IdwXV7PqMV7",
-    "1NIEh0eDhtVXKGKbk5SvelHdBIn1xhsLo",
-    "1xi5-VAN4svaTjm0y_2Sn3lb5cCGxzDZ2"
+    "1isVrI59T9TKgFDnomWIeC1Q42_OuWi8P"
   ],
   "targeted_projects": [
-    "E3 - Bow Green",
-    "SW6 - King's Road Park",
-    "SE11 - Oval Village",
-    "E2 - Regent's View",
-    "SE18 - Royal Arsenal Riverside",
-    "SM1 - Sutton Garden Square",
-    "WD17 - The Exchange Watford",
-    "UB1 - The Green Quarter",
-    "W2 - Trillium",
-    "SW18 - Wandsworth Mills",
-    "W12 - White City Living"
+    "SE10 - Greenwich Peninsula -Est. Completion Q3-Q4 2025"
   ]
 }
