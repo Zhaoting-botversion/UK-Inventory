@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-29T10:43:49",
+  "synced_at": "2026-07-29T11:03:45",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2917,46 +2917,6 @@
           "file_id": "1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q",
           "file_url": "https://drive.google.com/file/d/1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q/view?usp=drivesdk",
           "modified_at": "2026-05-29T07:17:36.000Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "M1 - Vita Living": {
-      "project": "M1 - Vita Living",
-      "city": "Manchester",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M1 - Vita Living",
-      "folder_id": "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
-      "folder_url": "https://drive.google.com/drive/folders/1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
-      "price_folder_id": "1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
-      "price_folder_url": "https://drive.google.com/drive/folders/1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
-      "old_price_folder_id": "1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
-      "latest_files": [
-        {
-          "file": "07.09 Vita Living North Global Launch Pricelist.pdf",
-          "file_id": "1aqIkqdudC67giaxgdjqQtMyDyYzu-grS",
-          "file_url": "https://drive.google.com/file/d/1aqIkqdudC67giaxgdjqQtMyDyYzu-grS/view?usp=drivesdk",
-          "modified_at": "2026-07-09T09:58:39.791Z",
-          "price_date": ""
-        },
-        {
-          "file": "04.20 Vita Living Circle Square Pricelist.pdf",
-          "file_id": "1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI",
-          "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:30.000Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
-          "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
-          "file_url": "https://drive.google.com/file/d/12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:18.000Z",
           "price_date": ""
         }
       ],
@@ -9054,35 +9014,67 @@
         }
       ],
       "notes": []
+    },
+    "M1 - Vita Living": {
+      "project": "M1 - Vita Living",
+      "city": "Manchester",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M1 - Vita Living",
+      "folder_id": "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
+      "folder_url": "https://drive.google.com/drive/folders/1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA",
+      "price_folder_id": "1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
+      "price_folder_url": "https://drive.google.com/drive/folders/1iPUzZEn2SwY8G84VFnQtIleqQ40tepf1",
+      "old_price_folder_id": "1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
+      "latest_files": [
+        {
+          "file": "2026.07.27 Vita Living North Global Launch Pricelist.pdf",
+          "file_id": "1OcNRIUwGB3YfPrvKOSyq8zMzj3DHhcr0",
+          "file_url": "https://drive.google.com/file/d/1OcNRIUwGB3YfPrvKOSyq8zMzj3DHhcr0/view?usp=drivesdk",
+          "modified_at": "2026-07-29T03:00:38.825Z",
+          "price_date": "26.07.27"
+        },
+        {
+          "file": "07.27 Vita Living Circle Square Pricelist.pdf",
+          "file_id": "120ooqrH8lLHZGANXvt0bpJ9Sk10Dx-G1",
+          "file_url": "https://drive.google.com/file/d/120ooqrH8lLHZGANXvt0bpJ9Sk10Dx-G1/view?usp=drivesdk",
+          "modified_at": "2026-07-29T03:00:31.857Z",
+          "price_date": ""
+        },
+        {
+          "file": "07.09 Vita Living North Global Launch Pricelist.pdf",
+          "file_id": "1aqIkqdudC67giaxgdjqQtMyDyYzu-grS",
+          "file_url": "https://drive.google.com/file/d/1aqIkqdudC67giaxgdjqQtMyDyYzu-grS/view?usp=drivesdk",
+          "modified_at": "2026-07-09T09:58:39.791Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "04.20 Vita Living Circle Square Pricelist.pdf",
+          "file_id": "1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI",
+          "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
+          "modified_at": "2026-04-21T08:10:30.000Z",
+          "price_date": ""
+        },
+        {
+          "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
+          "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
+          "file_url": "https://drive.google.com/file/d/12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX/view?usp=drivesdk",
+          "modified_at": "2026-04-21T08:10:18.000Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "16JAO8SL8UD6nRT5yamK7HEULZRjFtQay",
-    "1YN6Sc3mrkXzxXQ_OV5turXjtN48-1EOV",
-    "1PQ1l9yCys2yiwkhhcIKx4c5YOYDnscVP",
-    "1N2i1jE2PIpPq6cV1jVN-wt8uvTYW6Rbu",
-    "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-    "11yuoGJ1A0_aj-e5MJcZ_5TUEZtOlzIhi",
-    "1Nr5I25TMHHP3pQ9BU8Vd5-L05leQpsTL",
-    "1d1PV3EpPimw7FPlix52KBEuOZrDqaSmq",
-    "116dl1-3cktmO2zXaXBepn_a4Q6ZAaIPB",
-    "13IYDVGpteUTlJHlrnjYs53Eb5WWtcsdr",
-    "1M2InnI-RweKrFX-FiXTngLeUxz_eMIez",
-    "1vGp3ZlHFf0MH__ZDWlty_O6ZOYySXkPu"
+    "1_pRqEB5Q9SyCta51dqqRT-gbnODUvAgA"
   ],
   "targeted_projects": [
-    "W14 - 50 Brook Green (London Square)",
-    "SE1 - Bermondsey (London Square)",
-    "KT1 - County Hall Kingston (London Square)",
-    "SW6 - Lillie Square (London Square)",
-    "CR0 - Pearson Building (London Square)",
-    "SW11 - Ransomes Wharf (London Square)",
-    "TW2 - Twickenham Green (London Square)",
-    "TW1 - Twickenham Square (London Square)",
-    "SW17 - Wandsworth Common (London Square)",
-    "SE1 - Westminster Tower (London Square)",
-    "SW19 - Wimbledon Bridge House (London Square)",
-    "SE18 - Woolwich (London Square)"
+    "M1 - Vita Living"
   ]
 }
