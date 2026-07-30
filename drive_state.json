@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-30T18:02:29",
+  "synced_at": "2026-07-30T18:30:29",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2029,31 +2029,6 @@
           "price_date": "List 0605"
         }
       ],
-      "notes": []
-    },
-    "SW10 - Chelsea Finery": {
-      "project": "SW10 - Chelsea Finery",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Mount Anvil",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
-      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "latest_files": [
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
-          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
-          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
-          "modified_at": "2026-07-14T10:25:09.241Z",
-          "price_date": "12.06.2026"
-        }
-      ],
-      "old_files": [],
       "notes": []
     },
     "SW11 - Battersea Power Station": {
@@ -9278,13 +9253,46 @@
         }
       ],
       "notes": []
+    },
+    "SW10 - Chelsea Finery": {
+      "project": "SW10 - Chelsea Finery",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Mount Anvil",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
+      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "latest_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 27.07.2026.pdf",
+          "file_id": "1v18DlxayoS2i422B8cQim_CYfUN26SPz",
+          "file_url": "https://drive.google.com/file/d/1v18DlxayoS2i422B8cQim_CYfUN26SPz/view?usp=drivesdk",
+          "modified_at": "2026-07-30T10:23:48.763Z",
+          "price_date": "27.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
+          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
+          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:09.241Z",
+          "price_date": "12.06.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0"
+    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs"
   ],
   "targeted_projects": [
-    "SE17 - The Wilderly"
+    "SW10 - Chelsea Finery"
   ]
 }
