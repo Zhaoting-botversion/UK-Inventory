@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-30T18:30:29",
+  "synced_at": "2026-07-30T20:05:29",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -2897,81 +2897,6 @@
       ],
       "notes": []
     },
-    "M15 - Contour": {
-      "project": "M15 - Contour",
-      "city": "Manchester",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M15 - Contour",
-      "folder_id": "1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
-      "folder_url": "https://drive.google.com/drive/folders/1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
-      "price_folder_id": "1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
-      "price_folder_url": "https://drive.google.com/drive/folders/1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
-      "old_price_folder_id": "1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
-      "latest_files": [
-        {
-          "file": "Contour Availability List 26.06.2026.pdf",
-          "file_id": "1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH",
-          "file_url": "https://drive.google.com/file/d/1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH/view?usp=drivesdk",
-          "modified_at": "2026-07-02T08:20:19.292Z",
-          "price_date": "26.06.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "M3 - Bankside": {
-      "project": "M3 - Bankside",
-      "city": "Manchester",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - Bankside",
-      "folder_id": "16s9znCO9KzHktmANDGWzVIANsjaT25fs",
-      "folder_url": "https://drive.google.com/drive/folders/16s9znCO9KzHktmANDGWzVIANsjaT25fs",
-      "price_folder_id": "1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
-      "price_folder_url": "https://drive.google.com/drive/folders/1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
-      "old_price_folder_id": "1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
-      "latest_files": [
-        {
-          "file": "Bankside Availability List 26.06.2026.pdf",
-          "file_id": "1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX",
-          "file_url": "https://drive.google.com/file/d/1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX/view?usp=drivesdk",
-          "modified_at": "2026-07-02T08:18:50.460Z",
-          "price_date": "26.06.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "M3 - Vista River Gardens": {
-      "project": "M3 - Vista River Gardens",
-      "city": "Manchester",
-      "developer": "Renaker",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - Vista River Gardens",
-      "folder_id": "1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo",
-      "folder_url": "https://drive.google.com/drive/folders/1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo",
-      "price_folder_id": "1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
-      "old_price_folder_id": "11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
-      "latest_files": [
-        {
-          "file": "Vista River Gardens Availability 26.06.2026.pdf",
-          "file_id": "1680xS0MX8ger9keurp0qhOOWO8jyHQ5-",
-          "file_url": "https://drive.google.com/file/d/1680xS0MX8ger9keurp0qhOOWO8jyHQ5-/view?usp=drivesdk",
-          "modified_at": "2026-07-02T07:39:33.000Z",
-          "price_date": "26.06.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "M3 - Waterhouse Gardens": {
       "project": "M3 - Waterhouse Gardens",
       "city": "Manchester",
@@ -2990,31 +2915,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "M3 - West Gate": {
-      "project": "M3 - West Gate",
-      "city": "Manchester",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - West Gate",
-      "folder_id": "1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
-      "folder_url": "https://drive.google.com/drive/folders/1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
-      "price_folder_id": "1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
-      "price_folder_url": "https://drive.google.com/drive/folders/1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
-      "old_price_folder_id": "18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
-      "latest_files": [
-        {
-          "file": "West Gate Price List 26.06.2026.pdf",
-          "file_id": "1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC",
-          "file_url": "https://drive.google.com/file/d/1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC/view?usp=drivesdk",
-          "modified_at": "2026-07-02T08:24:22.437Z",
-          "price_date": "26.06.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
     },
     "M4 - Victoria Riverside": {
       "project": "M4 - Victoria Riverside",
@@ -9286,13 +9186,151 @@
         }
       ],
       "notes": []
+    },
+    "M3 - Bankside": {
+      "project": "M3 - Bankside",
+      "city": "Manchester",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - Bankside",
+      "folder_id": "16s9znCO9KzHktmANDGWzVIANsjaT25fs",
+      "folder_url": "https://drive.google.com/drive/folders/16s9znCO9KzHktmANDGWzVIANsjaT25fs",
+      "price_folder_id": "1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
+      "price_folder_url": "https://drive.google.com/drive/folders/1a5GAqPvxHeOMawz0RXYaXryyOWUaZtCY",
+      "old_price_folder_id": "1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
+      "latest_files": [
+        {
+          "file": "Bankside Availability List 17.07.2026.pdf",
+          "file_id": "1SM4m22eWM-4Ge684ne0fDnt9DT8rO9rU",
+          "file_url": "https://drive.google.com/file/d/1SM4m22eWM-4Ge684ne0fDnt9DT8rO9rU/view?usp=drivesdk",
+          "modified_at": "2026-07-30T11:56:44.639Z",
+          "price_date": "17.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bankside Availability List 26.06.2026.pdf",
+          "file_id": "1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX",
+          "file_url": "https://drive.google.com/file/d/1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:18:50.460Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "M15 - Contour": {
+      "project": "M15 - Contour",
+      "city": "Manchester",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M15 - Contour",
+      "folder_id": "1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
+      "folder_url": "https://drive.google.com/drive/folders/1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
+      "price_folder_id": "1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
+      "price_folder_url": "https://drive.google.com/drive/folders/1sqZShmgm9EWMouNxMIrb36HHHDB6jZWK",
+      "old_price_folder_id": "1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
+      "latest_files": [
+        {
+          "file": "Contour Availability List 17.07.2026.pdf",
+          "file_id": "1oQ7etV3uOEGvpgErWwqg5stuhQao5pGP",
+          "file_url": "https://drive.google.com/file/d/1oQ7etV3uOEGvpgErWwqg5stuhQao5pGP/view?usp=drivesdk",
+          "modified_at": "2026-07-30T11:58:30.322Z",
+          "price_date": "17.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Contour Availability List 26.06.2026.pdf",
+          "file_id": "1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH",
+          "file_url": "https://drive.google.com/file/d/1fRXBUZxyck_hmcpNf1o7uiW8vBAxxxNH/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:20:19.292Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "M3 - West Gate": {
+      "project": "M3 - West Gate",
+      "city": "Manchester",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - West Gate",
+      "folder_id": "1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
+      "folder_url": "https://drive.google.com/drive/folders/1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
+      "price_folder_id": "1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
+      "price_folder_url": "https://drive.google.com/drive/folders/1xZQANXbxVUAs0X9jjCIPqS3zTN3xFICU",
+      "old_price_folder_id": "18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/18FHO49BmSXJoMEdO_sfDB53L4g4eesoc",
+      "latest_files": [
+        {
+          "file": "West Gate Price List 17.07.2026.pdf",
+          "file_id": "19rx_GnBEZG31GQqGhd9BhLG8VJZwfk2B",
+          "file_url": "https://drive.google.com/file/d/19rx_GnBEZG31GQqGhd9BhLG8VJZwfk2B/view?usp=drivesdk",
+          "modified_at": "2026-07-30T11:58:51.901Z",
+          "price_date": "17.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "West Gate Price List 26.06.2026.pdf",
+          "file_id": "1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC",
+          "file_url": "https://drive.google.com/file/d/1eldULB3Cyhfzcz10Zl2OJXxgh4d6fMeC/view?usp=drivesdk",
+          "modified_at": "2026-07-02T08:24:22.437Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "M3 - Vista River Gardens": {
+      "project": "M3 - Vista River Gardens",
+      "city": "Manchester",
+      "developer": "Renaker",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Manchester 曼彻斯特 / M3 - Vista River Gardens",
+      "folder_id": "1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo",
+      "folder_url": "https://drive.google.com/drive/folders/1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo",
+      "price_folder_id": "1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_tIbTE5u3mmvA7Uc4eacHMTH9n5n6DmS",
+      "old_price_folder_id": "11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
+      "latest_files": [
+        {
+          "file": "Vista River Gardens Availability 17.07.2026.pdf",
+          "file_id": "1zP5J4N-vcgVhksA-tIYvbQhEaffh__A8",
+          "file_url": "https://drive.google.com/file/d/1zP5J4N-vcgVhksA-tIYvbQhEaffh__A8/view?usp=drivesdk",
+          "modified_at": "2026-07-30T11:58:41.134Z",
+          "price_date": "17.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Vista River Gardens Availability 26.06.2026.pdf",
+          "file_id": "1680xS0MX8ger9keurp0qhOOWO8jyHQ5-",
+          "file_url": "https://drive.google.com/file/d/1680xS0MX8ger9keurp0qhOOWO8jyHQ5-/view?usp=drivesdk",
+          "modified_at": "2026-07-02T07:39:33.000Z",
+          "price_date": "26.06.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs"
+    "16s9znCO9KzHktmANDGWzVIANsjaT25fs",
+    "1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
+    "1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
+    "1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo"
   ],
   "targeted_projects": [
-    "SW10 - Chelsea Finery"
+    "M3 - Bankside",
+    "M15 - Contour",
+    "M3 - West Gate",
+    "M3 - Vista River Gardens"
   ]
 }
