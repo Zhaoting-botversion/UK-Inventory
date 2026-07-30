@@ -1587,12 +1587,25 @@ def render_dashboard(data: dict) -> bytes:
     unit_file_lookup = build_unit_file_lookup(data)
     source_link = lambda row: unit_source_link(row, unit_file_lookup)
     all_unit_events = load_unit_events(2000)
+    latest_batch_day = max((row.get("created_at", "")[:10] for row in all_unit_events if row.get("created_at")), default="")
+    latest_batch_events = [
+        row for row in all_unit_events
+        if latest_batch_day and row.get("created_at", "").startswith(latest_batch_day)
+    ]
+    latest_batch_counts = Counter(row.get("change_type", "") for row in latest_batch_events)
     core_unit_events = []
     for row in all_unit_events:
         project = project_by_name.get(base_unit_project_name(row.get("project_name", "")))
         if project and is_core_london_project(project):
             core_unit_events.append(row)
     unit_focus_cards = render_unit_focus_columns(core_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
+    latest_batch_focus_cards = render_unit_focus_columns(
+        latest_batch_events,
+        project_link,
+        limit_projects=2,
+        source_link_func=source_link,
+        project_lookup=project_by_name,
+    )
 
     priority_cards = "".join(
         f"""<article class="priority-card">
@@ -1667,6 +1680,24 @@ def render_dashboard(data: dict) -> bytes:
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(core_today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
+
+      <section class="panel unit-highlight" style="margin-top:18px">
+        <div class="unit-cta">
+          <div>
+            <h2>本轮价单比较</h2>
+            <div class="muted">覆盖全部市场，不受首页核心伦敦筛选限制。比较日期：{e(latest_batch_day) or "暂无"}。</div>
+          </div>
+          <a href="/unit-changes">查看全部房源变化</a>
+        </div>
+        <div class="unit-change-summary">
+          <span class="summary-pill">共 {len(latest_batch_events)} 条变化</span>
+          <span class="summary-pill new">新增 {latest_batch_counts.get("NEW_RELEASE", 0)}</span>
+          <span class="summary-pill sold">已售/下架 {latest_batch_counts.get("SOLD", 0)}</span>
+          <span class="summary-pill other">已预订 {latest_batch_counts.get("RESERVED", 0)}</span>
+          <span class="summary-pill other">价格上调 {latest_batch_counts.get("PRICE_INCREASE", 0)}</span>
+        </div>
+        {latest_batch_focus_cards}
+      </section>
 
       <section class="panel unit-highlight" style="margin-top:18px">
         <div class="unit-cta">
