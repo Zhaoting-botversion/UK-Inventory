@@ -2473,6 +2473,13 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
 
     filtered = filter_units(units, filters)
     summary = inventory_summary(filtered)
+    summary["projects"] = len(
+        {
+            base_unit_project_name(row.get("project_name", ""))
+            for row in filtered
+            if base_unit_project_name(row.get("project_name", ""))
+        }
+    )
 
     project_options = ['<option value="">全部项目</option>']
     for project_name in sorted({row.get("project_name", "") for row in filtered if row.get("project_name")}):
