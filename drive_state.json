@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-30T20:05:29",
+  "synced_at": "2026-07-31T16:11:17",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -8830,6 +8830,20 @@
           "file_url": "https://drive.google.com/file/d/1Kk1gUVQzBeZ14dl_eqFW8YBXm78n7hSj/view?usp=drivesdk",
           "modified_at": "2026-07-28T02:17:30.317Z",
           "price_date": "26.07.26"
+        },
+        {
+          "file": "TGQ - Internal Availability - Orien Pricelist - Level 2 and 4 Only -Staff use Only - Do Not Send - 12.07.26.pdf",
+          "file_id": "1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP",
+          "file_url": "https://drive.google.com/file/d/1xxf4MuY0lUqjaBMpEiG-rZ4IwpLbGXbP/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:20:14.269Z",
+          "price_date": "12.07.26"
+        },
+        {
+          "file": "TGQ - Internal Availability - Brickfields - Staff use Only - Do Not Send 12.07.26.pdf",
+          "file_id": "1SCxnU6y9dH7zmwGwyfujatW0emWlqa74",
+          "file_url": "https://drive.google.com/file/d/1SCxnU6y9dH7zmwGwyfujatW0emWlqa74/view?usp=drivesdk",
+          "modified_at": "2026-07-14T02:20:11.125Z",
+          "price_date": "12.07.26"
         }
       ],
       "old_files": [
@@ -9318,19 +9332,507 @@
         }
       ],
       "notes": []
+    },
+    "Foal Hurst Green": {
+      "project": "Foal Hurst Green",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Kent 肯特郡 / Foal Hurst Green",
+      "folder_id": "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+      "folder_url": "https://drive.google.com/drive/folders/1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+      "price_folder_id": "1fTVVC15JtPfMZUVdmSeoK5cQ1FLK6inc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1fTVVC15JtPfMZUVdmSeoK5cQ1FLK6inc",
+      "old_price_folder_id": "18toJsT89TEmP71u77p7th5W2jBcLY3_4",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/18toJsT89TEmP71u77p7th5W2jBcLY3_4",
+      "latest_files": [
+        {
+          "file": "Foal Hurst Green - Phase 2.1 _ 2.2 Meadow Rise 10.07.2026.pdf",
+          "file_id": "1Dw7z2yogtoHP-NVjwg3A0q6PwtgbniTm",
+          "file_url": "https://drive.google.com/file/d/1Dw7z2yogtoHP-NVjwg3A0q6PwtgbniTm/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:52:53.978Z",
+          "price_date": "10.07.2026"
+        },
+        {
+          "file": "Foal Hurst Green - Phase 2 & 2.2 Meadow Rise 05.06.26.pdf",
+          "file_id": "17qVBg8rdDBfNnWPfxaNzbNcM25wylqkd",
+          "file_url": "https://drive.google.com/file/d/17qVBg8rdDBfNnWPfxaNzbNcM25wylqkd/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:25:52.888Z",
+          "price_date": "05.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Foal Hurst Green - Phase 2.1 _ 2.2 Meadow Rise 06.07.2026.pdf",
+          "file_id": "1dcTadYK8Vctnd9LRhNHW-dCV4r2rAWyc",
+          "file_url": "https://drive.google.com/file/d/1dcTadYK8Vctnd9LRhNHW-dCV4r2rAWyc/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:20:12.739Z",
+          "price_date": "06.07.2026"
+        },
+        {
+          "file": "Foal Hurst Green - Phase 2.1 _ 2.2 Meadow Rise 25.06.2026.pdf",
+          "file_id": "10TQIkDr8ZGjuhySrifWIof67OEpsBGMm",
+          "file_url": "https://drive.google.com/file/d/10TQIkDr8ZGjuhySrifWIof67OEpsBGMm/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:48:23.625Z",
+          "price_date": "25.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "Hareshill": {
+      "project": "Hareshill",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Hampshire 汉普郡 / Hareshill",
+      "folder_id": "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+      "folder_url": "https://drive.google.com/drive/folders/1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+      "price_folder_id": "1PHZ8poPrGI6G_OwizR8QeoWwAysoaHQg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1PHZ8poPrGI6G_OwizR8QeoWwAysoaHQg",
+      "old_price_folder_id": "1oXRqbGrpe-padlL9BRYTik6GG7Xsg01L",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1oXRqbGrpe-padlL9BRYTik6GG7Xsg01L",
+      "latest_files": [
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 08.07.26.pdf",
+          "file_id": "1FIWqCAcA5Ulcblq3lTzGcn5t4GRhrC5N",
+          "file_url": "https://drive.google.com/file/d/1FIWqCAcA5Ulcblq3lTzGcn5t4GRhrC5N/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:54:02.552Z",
+          "price_date": "08.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 08.07.26.pdf",
+          "file_id": "1hiucN2lV4a-nySFSWk08k0O6aUe-32nX",
+          "file_url": "https://drive.google.com/file/d/1hiucN2lV4a-nySFSWk08k0O6aUe-32nX/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:53:55.167Z",
+          "price_date": "08.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 23.06.26.pdf",
+          "file_id": "1_nFynEybjIpgWeBbsgokCkfSYQ7Gll7c",
+          "file_url": "https://drive.google.com/file/d/1_nFynEybjIpgWeBbsgokCkfSYQ7Gll7c/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:23.723Z",
+          "price_date": "23.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 01.07.26.pdf",
+          "file_id": "1j2vxXRm035UV9qGZJkQFAHZdtn6L0I6y",
+          "file_url": "https://drive.google.com/file/d/1j2vxXRm035UV9qGZJkQFAHZdtn6L0I6y/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:36.336Z",
+          "price_date": "01.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 01.07.26.pdf",
+          "file_id": "1jvy1AjzVDuQSZnA0JMtLslMrjPU4gR1w",
+          "file_url": "https://drive.google.com/file/d/1jvy1AjzVDuQSZnA0JMtLslMrjPU4gR1w/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:28.471Z",
+          "price_date": "01.07.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 23.06.26.pdf",
+          "file_id": "1xuUDyBH1gXFGkJReZaFHIjwJOEuUHrHa",
+          "file_url": "https://drive.google.com/file/d/1xuUDyBH1gXFGkJReZaFHIjwJOEuUHrHa/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:38.089Z",
+          "price_date": "23.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 23.06.26.pdf",
+          "file_id": "1LbDgd1uImcLERsyNi3gXo7q1VE8KUy4C",
+          "file_url": "https://drive.google.com/file/d/1LbDgd1uImcLERsyNi3gXo7q1VE8KUy4C/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:31.230Z",
+          "price_date": "23.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 10.06.26.pdf",
+          "file_id": "1B17LMZlL4FXL6JizfQfAwIAghDpFjPJx",
+          "file_url": "https://drive.google.com/file/d/1B17LMZlL4FXL6JizfQfAwIAghDpFjPJx/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:25.281Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 10.06.26.pdf",
+          "file_id": "1Btjp0B3hvVRHy-tX63XftyOYAukU0SDk",
+          "file_url": "https://drive.google.com/file/d/1Btjp0B3hvVRHy-tX63XftyOYAukU0SDk/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:16.771Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 10.06.26.pdf",
+          "file_id": "10Lmzpop752YD8R-gvA_f6vdwqN6ZHOW2",
+          "file_url": "https://drive.google.com/file/d/10Lmzpop752YD8R-gvA_f6vdwqN6ZHOW2/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:09.564Z",
+          "price_date": "10.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.3 Grove Collection 03.06.26.pdf",
+          "file_id": "1F40_ucRkwRcTpqqNL_6VNeiixt4i6gz7",
+          "file_url": "https://drive.google.com/file/d/1F40_ucRkwRcTpqqNL_6VNeiixt4i6gz7/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:11.138Z",
+          "price_date": "03.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.2 Bloom Collection 03.06.26.pdf",
+          "file_id": "19jqfAHbd8PD8CDPWSDM9rcqieiybr_An",
+          "file_url": "https://drive.google.com/file/d/19jqfAHbd8PD8CDPWSDM9rcqieiybr_An/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:07.463Z",
+          "price_date": "03.06.26"
+        },
+        {
+          "file": "Hareshill - Phase 3.1 Woodland Collection 03.06.26.pdf",
+          "file_id": "16FG4QEuAQlM54FqkAynKufZO81H-zhm_",
+          "file_url": "https://drive.google.com/file/d/16FG4QEuAQlM54FqkAynKufZO81H-zhm_/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:03.681Z",
+          "price_date": "03.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "Hartland Village": {
+      "project": "Hartland Village",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Hampshire 汉普郡 / Hartland Village",
+      "folder_id": "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+      "folder_url": "https://drive.google.com/drive/folders/1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+      "price_folder_id": "1P6tbjg7BOa-QPGX9ij48iquH7SFbMGa9",
+      "price_folder_url": "https://drive.google.com/drive/folders/1P6tbjg7BOa-QPGX9ij48iquH7SFbMGa9",
+      "old_price_folder_id": "14_CjPgE7P0cCzoRvEzx1N4MPuQG5DU6-",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14_CjPgE7P0cCzoRvEzx1N4MPuQG5DU6-",
+      "latest_files": [
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 09.07.26.pdf",
+          "file_id": "1D701wqcuE0YYj12tdHIVKKRMS24ZlbGN",
+          "file_url": "https://drive.google.com/file/d/1D701wqcuE0YYj12tdHIVKKRMS24ZlbGN/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:54:34.544Z",
+          "price_date": "09.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 09.07.26.pdf",
+          "file_id": "1jhC3LNyUxN76b6ga7HrAVFif_cctUTyT",
+          "file_url": "https://drive.google.com/file/d/1jhC3LNyUxN76b6ga7HrAVFif_cctUTyT/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:54:26.824Z",
+          "price_date": "09.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 09.07.26.pdf",
+          "file_id": "146Z_gGfGkM8b62k72th_OCSGjpB0vlJ-",
+          "file_url": "https://drive.google.com/file/d/146Z_gGfGkM8b62k72th_OCSGjpB0vlJ-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:54:19.867Z",
+          "price_date": "09.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 02.07.26.pdf",
+          "file_id": "1gAERl5Hb5Ex4AiwPIGYf7Sn4q8lRXCa4",
+          "file_url": "https://drive.google.com/file/d/1gAERl5Hb5Ex4AiwPIGYf7Sn4q8lRXCa4/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:22:03.311Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 02.07.26.pdf",
+          "file_id": "18L9XTiWmyYWb3yiHfX29_UzmwHKq_-Ff",
+          "file_url": "https://drive.google.com/file/d/18L9XTiWmyYWb3yiHfX29_UzmwHKq_-Ff/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:54.663Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 02.07.26.pdf",
+          "file_id": "1qWOLx-TUU_jVLsYJtUfxQ7W55R1RM3PU",
+          "file_url": "https://drive.google.com/file/d/1qWOLx-TUU_jVLsYJtUfxQ7W55R1RM3PU/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:21:47.327Z",
+          "price_date": "02.07.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 27.06.26.pdf",
+          "file_id": "1SHplAZMiLCxCO07kkeeuHjmP85VRP8Yc",
+          "file_url": "https://drive.google.com/file/d/1SHplAZMiLCxCO07kkeeuHjmP85VRP8Yc/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:50:05.938Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 27.06.26.pdf",
+          "file_id": "1kpfURWA3e4PqoDSwdo7X5MzgXBzFWfEL",
+          "file_url": "https://drive.google.com/file/d/1kpfURWA3e4PqoDSwdo7X5MzgXBzFWfEL/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:59.262Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 27.06.26.pdf",
+          "file_id": "1_TQif1mcUH3C8KeB1Zm5tXmOAzEeQgGF",
+          "file_url": "https://drive.google.com/file/d/1_TQif1mcUH3C8KeB1Zm5tXmOAzEeQgGF/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:49:53.216Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 09.06.26.pdf",
+          "file_id": "18THUJ1jeqFaapR7G_fJ7Xm28B_CJxENx",
+          "file_url": "https://drive.google.com/file/d/18THUJ1jeqFaapR7G_fJ7Xm28B_CJxENx/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:59.728Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 09.06.26.pdf",
+          "file_id": "1YRv4UqcTtYfBfgXP6dbcjsoU9Ze46IPz",
+          "file_url": "https://drive.google.com/file/d/1YRv4UqcTtYfBfgXP6dbcjsoU9Ze46IPz/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:48.354Z",
+          "price_date": "09.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 07.06.26.pdf",
+          "file_id": "1UiVx1_q671inKy2IhLmeSXBdMKNIaBj0",
+          "file_url": "https://drive.google.com/file/d/1UiVx1_q671inKy2IhLmeSXBdMKNIaBj0/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:23:41.062Z",
+          "price_date": "07.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.2 Pinewood Green West 04.06.26.pdf",
+          "file_id": "1e9UEWGu8D6UJmD-pEqa265X_8o7hX2zW",
+          "file_url": "https://drive.google.com/file/d/1e9UEWGu8D6UJmD-pEqa265X_8o7hX2zW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:26.689Z",
+          "price_date": "04.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Pinewood Green East 04.06.26.pdf",
+          "file_id": "1Vuc1J2MKMwtD-8YAIIS-45uSElXV0_ds",
+          "file_url": "https://drive.google.com/file/d/1Vuc1J2MKMwtD-8YAIIS-45uSElXV0_ds/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:23.298Z",
+          "price_date": "04.06.26"
+        },
+        {
+          "file": "Hartland Village - Phase 3.1 Apartment - Camellia Court 04.06.26.pdf",
+          "file_id": "1h_h9eddjgrZzhSVQQbzlmEoh879V0nNW",
+          "file_url": "https://drive.google.com/file/d/1h_h9eddjgrZzhSVQQbzlmEoh879V0nNW/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:19.564Z",
+          "price_date": "04.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "Leighwood Fields": {
+      "project": "Leighwood Fields",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Surrey 萨里郡 / Leighwood Fields",
+      "folder_id": "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+      "folder_url": "https://drive.google.com/drive/folders/1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+      "price_folder_id": "1ad90pWki-ngVR6shQhp7J3S7XqxRsAiL",
+      "price_folder_url": "https://drive.google.com/drive/folders/1ad90pWki-ngVR6shQhp7J3S7XqxRsAiL",
+      "old_price_folder_id": "1AvV0Gc9pDwEo4OriZchFUEI9yv4NLQas",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1AvV0Gc9pDwEo4OriZchFUEI9yv4NLQas",
+      "latest_files": [
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 11.07.26.pdf",
+          "file_id": "1Ld2sElStxSF0_wct0lofZyH_qHJBIzSC",
+          "file_url": "https://drive.google.com/file/d/1Ld2sElStxSF0_wct0lofZyH_qHJBIzSC/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:56:38.213Z",
+          "price_date": "11.07.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 11.07.26.pdf",
+          "file_id": "1eqqQCwHP8gXF7cV_K2B3x6RIVaaARn-8",
+          "file_url": "https://drive.google.com/file/d/1eqqQCwHP8gXF7cV_K2B3x6RIVaaARn-8/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:56:32.043Z",
+          "price_date": "11.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 04.07.26.pdf",
+          "file_id": "1xRCKUDQnPSgMBPxnP0LEzQHjbZDT792F",
+          "file_url": "https://drive.google.com/file/d/1xRCKUDQnPSgMBPxnP0LEzQHjbZDT792F/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:09.211Z",
+          "price_date": "04.07.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 04.07.26.pdf",
+          "file_id": "1um-dIoNF5oFvPQCzCdUQAYsbMjmmpRel",
+          "file_url": "https://drive.google.com/file/d/1um-dIoNF5oFvPQCzCdUQAYsbMjmmpRel/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:23:00.531Z",
+          "price_date": "04.07.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 27.06.26.pdf",
+          "file_id": "1YUT4qbAx3NUPQ_5QRWW5qGHP9nE9K5ww",
+          "file_url": "https://drive.google.com/file/d/1YUT4qbAx3NUPQ_5QRWW5qGHP9nE9K5ww/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:51:24.793Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 27.06.26.pdf",
+          "file_id": "18pDvC-_kfCXYnXR7HELImng8layu4nMn",
+          "file_url": "https://drive.google.com/file/d/18pDvC-_kfCXYnXR7HELImng8layu4nMn/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:51:17.771Z",
+          "price_date": "27.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 13.06.26.pdf",
+          "file_id": "1FdGrdqxGri9LrSQzHfuMDR1XwQiyizTT",
+          "file_url": "https://drive.google.com/file/d/1FdGrdqxGri9LrSQzHfuMDR1XwQiyizTT/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:47.068Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 13.06.26.pdf",
+          "file_id": "1dWT-1hbndrb76hohB-R3nCwb30_tlPBy",
+          "file_url": "https://drive.google.com/file/d/1dWT-1hbndrb76hohB-R3nCwb30_tlPBy/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:24:38.770Z",
+          "price_date": "13.06.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 The Orchards 30.05.26.pdf",
+          "file_id": "1SMnkTAjAAiMVe-ujIkcqfU1-A5-jbyz-",
+          "file_url": "https://drive.google.com/file/d/1SMnkTAjAAiMVe-ujIkcqfU1-A5-jbyz-/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:37.727Z",
+          "price_date": "30.05.26"
+        },
+        {
+          "file": "Leighwood Fields - Phase 3.2 Luxury Apartment - Leighwood Manor 30.05.26.pdf",
+          "file_id": "1LZX8uB1-YKOGLmRo_cYZuJHR2vOFPcGa",
+          "file_url": "https://drive.google.com/file/d/1LZX8uB1-YKOGLmRo_cYZuJHR2vOFPcGa/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:34.550Z",
+          "price_date": "30.05.26"
+        }
+      ],
+      "notes": []
+    },
+    "N7 - Holloway Park": {
+      "project": "N7 - Holloway Park",
+      "city": "Inner London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / North & North West 北和西北伦敦 / N7 - Holloway Park",
+      "folder_id": "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "folder_url": "https://drive.google.com/drive/folders/1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "price_folder_id": "1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "old_price_folder_id": "1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "latest_files": [
+        {
+          "file": "Holloway Price List 19.06 .pdf",
+          "file_id": "1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn",
+          "file_url": "https://drive.google.com/file/d/1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:18.713Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "Oakhill": {
+      "project": "Oakhill",
+      "city": "Others",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Kent 肯特郡 / Oakhill",
+      "folder_id": "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
+      "folder_url": "https://drive.google.com/drive/folders/1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg",
+      "price_folder_id": "1dK15BBDZvRSpela64JzdYs7-x8ApOGWh",
+      "price_folder_url": "https://drive.google.com/drive/folders/1dK15BBDZvRSpela64JzdYs7-x8ApOGWh",
+      "old_price_folder_id": "1BvaZ7p-s_HTnFwV4PHrtCjFFF8tZK9ex",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1BvaZ7p-s_HTnFwV4PHrtCjFFF8tZK9ex",
+      "latest_files": [
+        {
+          "file": "Oakhill - House 08.07.2026.pdf",
+          "file_id": "1LJWPYO8T1H6907Vy7laug2Rk6T5C6kgN",
+          "file_url": "https://drive.google.com/file/d/1LJWPYO8T1H6907Vy7laug2Rk6T5C6kgN/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:58:17.178Z",
+          "price_date": "08.07.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 08.07.2026.pdf",
+          "file_id": "15ADXKWLaCP5I6KexsxJJjbGDIqabGl4g",
+          "file_url": "https://drive.google.com/file/d/15ADXKWLaCP5I6KexsxJJjbGDIqabGl4g/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:58:10.712Z",
+          "price_date": "08.07.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Oakhill - House 04.07.2026.pdf",
+          "file_id": "1g1I7gy5OlNYKfrBzeYNCVz2tHJKiMqIF",
+          "file_url": "https://drive.google.com/file/d/1g1I7gy5OlNYKfrBzeYNCVz2tHJKiMqIF/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:10.793Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 04.07.2026.pdf",
+          "file_id": "15V9ClZe8lZiC64vdKqf4RUrh4yiXQyXd",
+          "file_url": "https://drive.google.com/file/d/15V9ClZe8lZiC64vdKqf4RUrh4yiXQyXd/view?usp=drivesdk",
+          "modified_at": "2026-07-07T09:24:03.257Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "Oakhill - House 26.06.2026.pdf",
+          "file_id": "1rBjLHm0kVwI1I5nHPPTPZMSmGQQgQLpe",
+          "file_url": "https://drive.google.com/file/d/1rBjLHm0kVwI1I5nHPPTPZMSmGQQgQLpe/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:16.485Z",
+          "price_date": "26.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 26.06.2026.pdf",
+          "file_id": "1I-uwXuRw1zmFEKtB2JkMNJ9M_PcQHB-M",
+          "file_url": "https://drive.google.com/file/d/1I-uwXuRw1zmFEKtB2JkMNJ9M_PcQHB-M/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:08.468Z",
+          "price_date": "26.06.2026"
+        },
+        {
+          "file": "Oakhill - House 12.06.2026.pdf",
+          "file_id": "1DjZpl_yS8Ocx0C7aPbRbNP9Uk2_Hqums",
+          "file_url": "https://drive.google.com/file/d/1DjZpl_yS8Ocx0C7aPbRbNP9Uk2_Hqums/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:42.065Z",
+          "price_date": "12.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 12.06.2026.pdf",
+          "file_id": "18_d5GP9770m1U6fGAVHAr3fNK0U3Cajv",
+          "file_url": "https://drive.google.com/file/d/18_d5GP9770m1U6fGAVHAr3fNK0U3Cajv/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:36.276Z",
+          "price_date": "12.06.2026"
+        },
+        {
+          "file": "Oakhill - House 01.06.2026.pdf",
+          "file_id": "15TgpCxGY7zKZZ-7gO5poTL1tkm24iNOG",
+          "file_url": "https://drive.google.com/file/d/15TgpCxGY7zKZZ-7gO5poTL1tkm24iNOG/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:49.869Z",
+          "price_date": "01.06.2026"
+        },
+        {
+          "file": "Oakhill - Apartments 03.06.2026.pdf",
+          "file_id": "1MzoSRIZViqeSTunpEn4VHyNHXjZHkOvP",
+          "file_url": "https://drive.google.com/file/d/1MzoSRIZViqeSTunpEn4VHyNHXjZHkOvP/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:46.032Z",
+          "price_date": "03.06.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "16s9znCO9KzHktmANDGWzVIANsjaT25fs",
-    "1XDkcrQKv698T7DCRvlZZ8plFj91vfhiL",
-    "1Tj7xRx1_NmBMSOYGCU23mEa7sBt77CrL",
-    "1Ta8-V21-8ou9dvZ394S_gefbjF7AfFoo"
+    "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
+    "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
+    "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
+    "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
+    "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+    "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg"
   ],
   "targeted_projects": [
-    "M3 - Bankside",
-    "M15 - Contour",
-    "M3 - West Gate",
-    "M3 - Vista River Gardens"
+    "Foal Hurst Green",
+    "Hareshill",
+    "Hartland Village",
+    "Leighwood Fields",
+    "N7 - Holloway Park",
+    "Oakhill"
   ]
 }

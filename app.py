@@ -1559,8 +1559,31 @@ def render_dashboard(data: dict) -> bytes:
         if project_by_name.get(row["project"])
         and is_core_london_project(project_by_name[row["project"]])
     ]
-    updated_project_rows = [project for project in all_projects if project.get("last_updated_at")]
-    tracked_city_badges = city_breakdown_badges(all_projects)
+    canonical_projects: dict[str, dict] = {}
+    for project in all_projects:
+        canonical_name = canonical_unit_project_name(project.get("name", ""))
+        if canonical_name not in canonical_projects or project.get("name") == canonical_name:
+            canonical_projects[canonical_name] = project
+    tracked_project_rows = list(canonical_projects.values())
+    updated_project_names = {
+        canonical_unit_project_name(project.get("name", ""))
+        for project in all_projects
+        if project.get("last_updated_at")
+    }
+    updated_project_rows = [
+        canonical_projects[name]
+        for name in updated_project_names
+        if name in canonical_projects
+    ]
+    available_project_names = {
+        canonical_unit_project_name(row.get("project_name", ""))
+        for row in filter_units(
+            current_units(),
+            {"only_available": "1", "displayable_only": "1"},
+        )
+        if canonical_unit_project_name(row.get("project_name", ""))
+    }
+    tracked_city_badges = city_breakdown_badges(tracked_project_rows)
     updated_city_badges = city_breakdown_badges(updated_project_rows)
     projects = [project for project in all_projects if is_core_london_project(project)]
     projects_by_group: dict[str, list[dict]] = defaultdict(list)
@@ -1674,8 +1697,9 @@ def render_dashboard(data: dict) -> bytes:
     content = f"""
       <h1>英国销控看板</h1>
       <div class="grid">
-        <div class="metric wide"><div class="label">已追踪项目</div><div class="value">{len(all_projects)}</div>{tracked_city_badges}</div>
-        <div class="metric wide"><div class="label">有更新项目</div><div class="value">{len(updated_project_rows)}</div>{updated_city_badges}</div>
+        <div class="metric wide"><div class="label">Drive 项目池</div><div class="value">{len(tracked_project_rows)}</div>{tracked_city_badges}</div>
+        <div class="metric wide"><div class="label">有当前价单</div><div class="value">{len(updated_project_names)}</div>{updated_city_badges}</div>
+        <div class="metric"><div class="label">当前可售项目</div><div class="value">{len(available_project_names)}</div></div>
         <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(core_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(core_today_updates)}</div></div>
         <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
@@ -1962,6 +1986,16 @@ def drive_link(project: dict) -> str:
 
 def base_unit_project_name(name: str) -> str:
     return re.split(r"\s+[·路?]\s+", name or "", maxsplit=1)[0].strip()
+
+
+UNIT_PROJECT_ALIASES = {
+    "The ICON": "Knights Park",
+}
+
+
+def canonical_unit_project_name(name: str) -> str:
+    base_name = base_unit_project_name(name)
+    return UNIT_PROJECT_ALIASES.get(base_name, base_name)
 
 
 def build_unit_file_lookup(data: dict) -> dict[tuple[str, str], str]:
@@ -2475,9 +2509,9 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
     summary = inventory_summary(filtered)
     summary["projects"] = len(
         {
-            base_unit_project_name(row.get("project_name", ""))
+            canonical_unit_project_name(row.get("project_name", ""))
             for row in filtered
-            if base_unit_project_name(row.get("project_name", ""))
+            if canonical_unit_project_name(row.get("project_name", ""))
         }
     )
 
