@@ -1,0 +1,33 @@
+{
+  "overrides": [
+    {"project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026", "alias": "herland gardens", "canonical": "main", "reason": "Confirmed as the same physical inventory."},
+    {"project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026", "alias": "herland gardens availablity", "canonical": "main", "reason": "Availability source is not a separate phase."},
+
+    {"project": "NW1 - Camden Goods Yard", "alias": "camden goods yard the gallery", "canonical": "the gallery", "reason": "Dated Gallery lists are revisions of one phase."},
+    {"project": "NW1 - Camden Goods Yard", "alias": "camden goods yard cn the gallery", "canonical": "the gallery", "reason": "CN is a language/distribution wrapper, not a phase."},
+    {"project": "NW1 - Camden Goods Yard", "alias": "the gallery", "canonical": "the gallery", "reason": "Canonical fingerprint used for future ingestion."},
+
+    {"project": "SL1 - Horlicks Quarter", "alias": "hq combined", "canonical": "main", "reason": "Combined lists on different dates update the same inventory."},
+    {"project": "SL1 - Horlicks Quarter", "alias": "hq combined 28th", "canonical": "main", "reason": "Legacy phase label containing a date fragment."},
+    {"project": "SL1 - Horlicks Quarter", "alias": "hq 19th of", "canonical": "main", "reason": "Legacy phase label containing a date fragment."},
+
+    {"project": "E1 - London Dock", "alias": "saffron private", "canonical": "saffron private", "reason": "Dated Saffron lists update one phase."},
+    {"project": "E1 - London Dock", "alias": "saffron private june", "canonical": "saffron private", "reason": "June is a legacy date wrapper."},
+
+    {"project": "SW11 - Battersea Power Station", "alias": "koa", "canonical": "koa", "reason": "KOA revisions share one physical inventory."},
+    {"project": "SW11 - Battersea Power Station", "alias": "new koa", "canonical": "koa", "reason": "NEW denotes a revision, not a separate phase."},
+    {"project": "SW11 - Battersea Power Station", "alias": "battersea power station", "canonical": "p2", "reason": "The base and P2 lists contain the same penthouse inventory."},
+    {"project": "SW11 - Battersea Power Station", "alias": "p2", "canonical": "p2", "reason": "Canonical penthouse inventory."},
+    {"project": "SW11 - Battersea Power Station", "alias": "main", "canonical": "p2", "reason": "Future base-list fingerprint for the penthouse inventory."},
+
+    {"project": "HP10 - Abbey Barn Park", "alias": "abp lists", "canonical": "main", "reason": "Availability and priced lists are complementary sources for one inventory."},
+    {"project": "HP10 - Abbey Barn Park", "alias": "abp all new price lists", "canonical": "main", "reason": "Availability and priced lists are complementary sources for one inventory."},
+
+    {"project": "E3 - Bow Green", "alias": "bg ready to move in core b", "canonical": "core b", "reason": "Marketing wrapper around Core B."},
+    {"project": "E3 - Bow Green", "alias": "bow green core b", "canonical": "core b", "reason": "Canonical Core B inventory."},
+    {"project": "E3 - Bow Green", "alias": "core b", "canonical": "core b", "reason": "Future ingestion fingerprint."},
+    {"project": "E3 - Bow Green", "alias": "bg ready to move in core c", "canonical": "core c", "reason": "Marketing wrapper around Core C."},
+    {"project": "E3 - Bow Green", "alias": "bow green core c", "canonical": "core c", "reason": "Canonical Core C inventory."},
+    {"project": "E3 - Bow Green", "alias": "core c", "canonical": "core c", "reason": "Future ingestion fingerprint."}
+  ]
+}
