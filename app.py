@@ -1625,10 +1625,10 @@ def render_dashboard(data: dict) -> bytes:
         row for row in latest_unit_version_events([
             row for row in all_unit_events if id(row) in homepage_event_ids
         ])
-        if is_displayable_unit_event(row)
+        if is_displayable_unit_event(row) and unit_focus_category(row)
     ]
     homepage_event_counts = Counter(unit_change_bucket(row) for row in homepage_events)
-    homepage_change_cards = render_unit_project_changes(
+    homepage_change_cards = render_unit_focus_columns(
         homepage_events,
         project_link,
         source_link_func=source_link,
@@ -1714,7 +1714,7 @@ def render_dashboard(data: dict) -> bytes:
         <div class="unit-cta">
           <div>
             <h2>重点房源变化</h2>
-            <div class="muted">已合并本轮比较与楼盘重点变化。同一项目只展示一次；更新时间越新越靠前，时间相同时离伦敦中心越近越靠前。最近比较日期：{e(latest_batch_day) or "暂无"}。</div>
+            <div class="muted">已合并本轮比较与楼盘重点变化，仍按降价、新放出、售出三栏展示；每栏内更新时间越新越靠前，时间相同时离伦敦中心越近越靠前。售出栏包含锁定和下架。最近比较日期：{e(latest_batch_day) or "暂无"}。</div>
           </div>
           <a href="/unit-changes">查看全部房源变化</a>
         </div>
@@ -1723,7 +1723,6 @@ def render_dashboard(data: dict) -> bytes:
           <span class="summary-pill drop">降价 {homepage_event_counts.get("drop", 0)}</span>
           <span class="summary-pill new">新增 {homepage_event_counts.get("new", 0)}</span>
           <span class="summary-pill sold">售出/锁定/下架 {homepage_event_counts.get("sold", 0)}</span>
-          <span class="summary-pill other">其他 {homepage_event_counts.get("other", 0)}</span>
         </div>
         {homepage_change_cards}
       </section>
@@ -2138,8 +2137,8 @@ def unit_focus_category(row: dict) -> str:
 def unit_focus_title(category: str) -> str:
     return {
         "drop": "降价",
-        "sold": "售出 / 锁定 / 下架",
-        "new": "新释出 / 新低价机会",
+        "sold": "售出",
+        "new": "新放出",
     }.get(category, "其他变化")
 
 
