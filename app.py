@@ -1615,17 +1615,22 @@ def render_dashboard(data: dict) -> bytes:
         row for row in all_unit_events
         if latest_batch_day and row.get("created_at", "").startswith(latest_batch_day)
     ]
-    latest_batch_counts = Counter(row.get("change_type", "") for row in latest_batch_events)
     core_unit_events = []
     for row in all_unit_events:
         project = project_by_name.get(base_unit_project_name(row.get("project_name", "")))
         if project and is_core_london_project(project):
             core_unit_events.append(row)
-    unit_focus_cards = render_unit_focus_columns(core_unit_events, project_link, source_link_func=source_link, project_lookup=project_by_name)
-    latest_batch_focus_cards = render_unit_focus_columns(
-        latest_batch_events,
+    homepage_event_ids = {id(row) for row in latest_batch_events + core_unit_events}
+    homepage_events = [
+        row for row in latest_unit_version_events([
+            row for row in all_unit_events if id(row) in homepage_event_ids
+        ])
+        if is_displayable_unit_event(row)
+    ]
+    homepage_event_counts = Counter(unit_change_bucket(row) for row in homepage_events)
+    homepage_change_cards = render_unit_project_changes(
+        homepage_events,
         project_link,
-        limit_projects=2,
         source_link_func=source_link,
         project_lookup=project_by_name,
     )
@@ -1708,30 +1713,19 @@ def render_dashboard(data: dict) -> bytes:
       <section class="panel unit-highlight" style="margin-top:18px">
         <div class="unit-cta">
           <div>
-            <h2>本轮价单比较</h2>
-            <div class="muted">覆盖全部市场，不受首页核心伦敦筛选限制。比较日期：{e(latest_batch_day) or "暂无"}。</div>
+            <h2>重点房源变化</h2>
+            <div class="muted">已合并本轮比较与楼盘重点变化。同一项目只展示一次；更新时间越新越靠前，时间相同时离伦敦中心越近越靠前。最近比较日期：{e(latest_batch_day) or "暂无"}。</div>
           </div>
           <a href="/unit-changes">查看全部房源变化</a>
         </div>
         <div class="unit-change-summary">
-          <span class="summary-pill">共 {len(latest_batch_events)} 条变化</span>
-          <span class="summary-pill new">新增 {latest_batch_counts.get("NEW_RELEASE", 0)}</span>
-          <span class="summary-pill sold">已售/下架 {latest_batch_counts.get("SOLD", 0)}</span>
-          <span class="summary-pill other">已预订 {latest_batch_counts.get("RESERVED", 0)}</span>
-          <span class="summary-pill other">价格上调 {latest_batch_counts.get("PRICE_INCREASE", 0)}</span>
+          <span class="summary-pill">共 {len(homepage_events)} 条变化</span>
+          <span class="summary-pill drop">降价 {homepage_event_counts.get("drop", 0)}</span>
+          <span class="summary-pill new">新增 {homepage_event_counts.get("new", 0)}</span>
+          <span class="summary-pill sold">售出/锁定/下架 {homepage_event_counts.get("sold", 0)}</span>
+          <span class="summary-pill other">其他 {homepage_event_counts.get("other", 0)}</span>
         </div>
-        {latest_batch_focus_cards}
-      </section>
-
-      <section class="panel unit-highlight" style="margin-top:18px">
-        <div class="unit-cta">
-          <div>
-            <h2>按楼盘分组的重点变化</h2>
-            <div class="muted">优先看降价、售出/锁定/下架、新增或新低价机会；同一个楼盘的多套变化放在一起。</div>
-          </div>
-          <a href="/unit-changes">查看全部房源变化</a>
-        </div>
-        {unit_focus_cards}
+        {homepage_change_cards}
       </section>
 
       <div class="section-head">
@@ -2266,6 +2260,31 @@ def render_project_change_rows(rows: list[dict], source_link_func=None) -> str:
             </li>"""
         )
     return "".join(items)
+
+
+def latest_unit_version_events(events: list[dict]) -> list[dict]:
+    """Keep only each project's newest comparison while preserving all changes in it."""
+    latest_version_by_project: dict[str, int] = {}
+    for row in events:
+        project = row.get("project_name", "")
+        try:
+            version_id = int(row.get("new_version_id"))
+        except (TypeError, ValueError):
+            continue
+        latest_version_by_project[project] = max(latest_version_by_project.get(project, 0), version_id)
+
+    filtered = []
+    for row in events:
+        latest_version = latest_version_by_project.get(row.get("project_name", ""))
+        if latest_version is None:
+            filtered.append(row)
+            continue
+        try:
+            if int(row.get("new_version_id")) == latest_version:
+                filtered.append(row)
+        except (TypeError, ValueError):
+            continue
+    return filtered
 
 
 def render_unit_project_changes(events: list[dict], project_link_func, source_link_func=None, project_lookup: dict[str, dict] | None = None) -> str:
