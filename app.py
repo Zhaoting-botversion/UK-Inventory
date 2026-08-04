@@ -2587,15 +2587,36 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
         return f'<span class="change-pill {cls}">{e(change_label(change_type))}</span>'
 
     rows = []
-    for row in filtered[:500]:
+    for row in filtered:
         project = row_project(row)
         source_link = unit_source_link(
             {"project_name": row.get("project_name", ""), "new_file": row.get("source_file", "")},
             file_lookup,
         )
         change_type = row.get("latest_change_type", "")
+        project_name = row.get("project_name", "")
+        canonical_project = canonical_unit_project_name(project_name)
+        search_text = " ".join(
+            text_value(value)
+            for value in (
+                project_name,
+                canonical_project,
+                project_city(project),
+                project_location(project),
+                row.get("unit", ""),
+                row.get("bedroom", ""),
+                row.get("floor", ""),
+                row.get("aspect", ""),
+                row.get("source_file", ""),
+                row.get("status", ""),
+            )
+        ).casefold()
         rows.append(
-            f"""<tr>
+            f"""<tr data-search="{e(search_text)}" data-project="{e(project_name)}"
+              data-project-key="{e(canonical_project)}" data-bedroom="{e(row.get('bedroom', ''))}"
+              data-change="{e(change_type)}" data-price="{e(row.get('price_number', ''))}"
+              data-has-price="{'1' if row.get('price_number') is not None else '0'}"
+              data-has-yield="{'1' if row.get('rental_yield') is not None else '0'}">
               <td class="project-col">{project_link(row.get("project_name", ""))}</td>
               <td class="city-col">{e(project_city(project))}</td>
               <td class="location-col">{e(project_location(project))}</td>
@@ -2615,20 +2636,16 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
     if not rows:
         rows.append('<tr><td colspan="14" class="muted">没有找到符合条件的可售房源。</td></tr>')
 
-    limit_note = ""
-    if len(filtered) > 500:
-        limit_note = f'<p class="muted">当前显示前 500 条，共 {len(filtered)} 条；可用筛选条件缩小范围。</p>'
-
     content = f"""
       <h1>房源库</h1>
       <div class="metrics">
-        <div class="metric"><span>可售房源</span><strong>{summary["units"]}</strong></div>
-        <div class="metric"><span>项目数</span><strong>{summary["projects"]}</strong></div>
-        <div class="metric"><span>有价格</span><strong>{summary["with_price"]}</strong></div>
-        <div class="metric"><span>可计算租金回报</span><strong>{sum(1 for row in filtered if row.get("rental_yield") is not None)}</strong></div>
+        <div class="metric"><span>可售房源</span><strong id="inventoryUnitCount">{summary["units"]}</strong></div>
+        <div class="metric"><span>项目数</span><strong id="inventoryProjectCount">{summary["projects"]}</strong></div>
+        <div class="metric"><span>有价格</span><strong id="inventoryPriceCount">{summary["with_price"]}</strong></div>
+        <div class="metric"><span>可计算租金回报</span><strong id="inventoryYieldCount">{sum(1 for row in filtered if row.get("rental_yield") is not None)}</strong></div>
       </div>
-      <form class="toolbar" method="get" action="/units">
-        <input name="q" value="{e(filters["q"])}" placeholder="搜索项目、城市、位置、房号、价单文件">
+      <form class="toolbar" id="inventoryFilters" method="get" action="/units">
+        <input name="q" value="{e(filters["q"])}" placeholder="搜索项目、城市、位置、房号、价单文件" autocomplete="off">
         <select name="project">{"".join(project_options)}</select>
         <select name="bedroom">{"".join(bedroom_options)}</select>
         <select name="change_type">{change_options}</select>
@@ -2647,10 +2664,95 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
             <th class="change-col">最近变化</th><th class="source-col">来源价单</th>
           </tr>
         </thead>
-        <tbody>{"".join(rows)}</tbody>
+        <tbody id="inventoryRows">{"".join(rows)}<tr id="inventoryNoResults" style="display:none"><td colspan="14" class="muted">没有找到符合条件的可售房源。</td></tr></tbody>
       </table>
       </div>
-      {limit_note}
+      <p class="muted" id="inventoryResultNote"></p>
+      <script>
+      (() => {{
+        const form = document.getElementById("inventoryFilters");
+        const rows = Array.from(document.querySelectorAll("#inventoryRows tr[data-search]"));
+        const noResults = document.getElementById("inventoryNoResults");
+        const resultNote = document.getElementById("inventoryResultNote");
+        const unitCount = document.getElementById("inventoryUnitCount");
+        const projectCount = document.getElementById("inventoryProjectCount");
+        const priceCount = document.getElementById("inventoryPriceCount");
+        const yieldCount = document.getElementById("inventoryYieldCount");
+        const controls = Object.fromEntries(
+          Array.from(form.elements)
+            .filter((item) => item.name)
+            .map((item) => [item.name, item])
+        );
+        const normalize = (value) => (value || "").toString().normalize("NFKC").trim().toLocaleLowerCase();
+        const numberValue = (value) => {{
+          const cleaned = (value || "").toString().replace(/[^0-9.]/g, "");
+          if (!cleaned) return null;
+          const parsed = Number(cleaned);
+          return Number.isFinite(parsed) ? parsed : null;
+        }};
+
+        const applyFilters = () => {{
+          const terms = normalize(controls.q.value).split(/\\s+/).filter(Boolean);
+          const selectedProject = normalize(controls.project.value);
+          const selectedBedroom = normalize(controls.bedroom.value);
+          const selectedChange = normalize(controls.change_type.value);
+          const minPrice = numberValue(controls.min_price.value);
+          const maxPrice = numberValue(controls.max_price.value);
+          const matches = rows.filter((row) => {{
+            const searchMatches = terms.every((term) => normalize(row.dataset.search).includes(term));
+            const projectMatches = !selectedProject || normalize(row.dataset.project) === selectedProject;
+            const bedroomMatches = !selectedBedroom || normalize(row.dataset.bedroom) === selectedBedroom;
+            const changeMatches = !selectedChange || normalize(row.dataset.change) === selectedChange;
+            const price = numberValue(row.dataset.price);
+            const minMatches = minPrice === null || (price !== null && price >= minPrice);
+            const maxMatches = maxPrice === null || (price !== null && price <= maxPrice);
+            return searchMatches && projectMatches && bedroomMatches && changeMatches && minMatches && maxMatches;
+          }});
+          const matchSet = new Set(matches);
+          let shown = 0;
+          rows.forEach((row) => {{
+            const visible = matchSet.has(row) && shown < 500;
+            row.style.display = visible ? "" : "none";
+            if (visible) shown += 1;
+          }});
+          unitCount.textContent = matches.length;
+          projectCount.textContent = new Set(matches.map((row) => row.dataset.projectKey)).size;
+          priceCount.textContent = matches.filter((row) => row.dataset.hasPrice === "1").length;
+          yieldCount.textContent = matches.filter((row) => row.dataset.hasYield === "1").length;
+          noResults.style.display = matches.length ? "none" : "";
+          resultNote.textContent = matches.length > 500
+            ? `找到 ${{matches.length}} 套，当前显示前 500 套；可继续增加筛选条件。`
+            : `当前显示 ${{matches.length}} 套可售房源。`;
+
+          const params = new URLSearchParams();
+          Object.entries(controls).forEach(([name, control]) => {{
+            if (control.value.trim()) params.set(name, control.value.trim());
+          }});
+          const queryString = params.toString();
+          history.replaceState(null, "", queryString ? `${{location.pathname}}?${{queryString}}` : location.pathname);
+        }};
+
+        const params = new URLSearchParams(location.search);
+        Object.entries(controls).forEach(([name, control]) => {{
+          if (params.has(name)) control.value = params.get(name) || "";
+        }});
+        form.addEventListener("submit", (event) => {{
+          event.preventDefault();
+          applyFilters();
+        }});
+        form.addEventListener("input", applyFilters);
+        form.addEventListener("change", applyFilters);
+        const reset = form.querySelector("a.secondary");
+        if (reset) reset.addEventListener("click", (event) => {{
+          event.preventDefault();
+          form.reset();
+          Object.values(controls).forEach((control) => {{ control.value = ""; }});
+          applyFilters();
+          controls.q.focus();
+        }});
+        applyFilters();
+      }})();
+      </script>
     """
     return layout("房源库", content, "/units")
 
