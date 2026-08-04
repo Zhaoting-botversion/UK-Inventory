@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-07-31T16:11:17",
+  "synced_at": "2026-08-04T15:48:56",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -9802,23 +9802,69 @@
         }
       ],
       "notes": []
+    },
+    "SW8 - DAMAC Tower Nine Elms": {
+      "project": "SW8 - DAMAC Tower Nine Elms",
+      "city": "Inner London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW8 - DAMAC Tower Nine Elms",
+      "folder_id": "1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
+      "folder_url": "https://drive.google.com/drive/folders/1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
+      "price_folder_id": "1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
+          "file_id": "1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk",
+          "file_url": "https://drive.google.com/file/d/1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk/view?usp=drivesdk",
+          "modified_at": "2026-08-04T07:48:00.897Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
+    },
+    "W2 - Paddington Gardens": {
+      "project": "W2 - Paddington Gardens",
+      "city": "Inner London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W2 - Paddington Gardens",
+      "folder_id": "1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
+      "folder_url": "https://drive.google.com/drive/folders/1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
+      "price_folder_id": "1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
+      "price_folder_url": "https://drive.google.com/drive/folders/1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
+      "old_price_folder_id": "",
+      "old_price_folder_url": "",
+      "latest_files": [
+        {
+          "file": "Paddington Gardens_PriceList_16 Jul 2026(1).pdf",
+          "file_id": "1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB",
+          "file_url": "https://drive.google.com/file/d/1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB/view?usp=drivesdk",
+          "modified_at": "2026-07-17T08:07:42.475Z",
+          "price_date": "16 Jul 2026"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Missing old pricelist folder"
+      ]
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1Tc6sTwWW3cagAqhZVnshdrUtrdwaDkyb",
-    "1qLay7uK13pyCsIVOzcLQ37MCYZUhbWdn",
-    "1alNyUVZIGNMZWs90QF6o5RE06Av03RhN",
-    "1ufHDuyghoqVBs3MeO71qakGuCIR1MdcZ",
-    "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
-    "1h2rZgzPRjuy_ROf28bkqmPQWwjNZBzLg"
+    "1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
+    "1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3"
   ],
   "targeted_projects": [
-    "Foal Hurst Green",
-    "Hareshill",
-    "Hartland Village",
-    "Leighwood Fields",
-    "N7 - Holloway Park",
-    "Oakhill"
+    "SW8 - DAMAC Tower Nine Elms",
+    "W2 - Paddington Gardens"
   ]
 }
