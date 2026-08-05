@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-05T14:07:35",
+  "synced_at": "2026-08-05T14:35:23",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -722,31 +722,6 @@
       ],
       "notes": []
     },
-    "SE1 - The Edit": {
-      "project": "SE1 - The Edit",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - The Edit",
-      "folder_id": "1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG",
-      "folder_url": "https://drive.google.com/drive/folders/1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG",
-      "price_folder_id": "1Lf_msloD4AxBczGEzYivttC86vnUstk0",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Lf_msloD4AxBczGEzYivttC86vnUstk0",
-      "old_price_folder_id": "1SXTpwiQIKfWLoK5eeycKRJ2aMjHR1e2J",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1SXTpwiQIKfWLoK5eeycKRJ2aMjHR1e2J",
-      "latest_files": [
-        {
-          "file": "The Edit Price List - 05.05.2026.pdf",
-          "file_id": "1KRiUQ9Zf4EhN676zb8SFZyobnOmnP8gi",
-          "file_url": "https://drive.google.com/file/d/1KRiUQ9Zf4EhN676zb8SFZyobnOmnP8gi/view?usp=drivesdk",
-          "modified_at": "2026-06-27T07:44:27.538Z",
-          "price_date": "05.05.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "SE1 - Triptych Bankside - Completion Q3 2023": {
       "project": "SE1 - Triptych Bankside - Completion Q3 2023",
       "city": "Inner London",
@@ -1159,67 +1134,6 @@
         }
       ],
       "old_files": [],
-      "notes": []
-    },
-    "NW8 - The Broadley - Est Complete Q2 2030": {
-      "project": "NW8 - The Broadley - Est Complete Q2 2030",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / NW8 - The Broadley - Est Complete Q2 2030",
-      "folder_id": "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
-      "folder_url": "https://drive.google.com/drive/folders/1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
-      "price_folder_id": "1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
-      "old_price_folder_id": "1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
-      "latest_files": [
-        {
-          "file": "The Broadley Price List - The Eliot - 01.06.26.pdf",
-          "file_id": "1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ",
-          "file_url": "https://drive.google.com/file/d/1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:05.365Z",
-          "price_date": "01.06.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 01.06.26.pdf",
-          "file_id": "1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm",
-          "file_url": "https://drive.google.com/file/d/1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:13:54.522Z",
-          "price_date": "01.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Broadley Price List - The Eliot - 08.04.26.pdf",
-          "file_id": "1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX",
-          "file_url": "https://drive.google.com/file/d/1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:34:04.239Z",
-          "price_date": "08.04.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 05.05.26.pdf",
-          "file_id": "1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo",
-          "file_url": "https://drive.google.com/file/d/1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:54.027Z",
-          "price_date": "05.05.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 05.05.26.pdf",
-          "file_id": "16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq",
-          "file_url": "https://drive.google.com/file/d/16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:53.381Z",
-          "price_date": "05.05.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 08.04.26.pdf",
-          "file_id": "1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP",
-          "file_url": "https://drive.google.com/file/d/1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:03:25.822Z",
-          "price_date": "08.04.26"
-        }
-      ],
       "notes": []
     },
     "Regents Crescent": {
@@ -2443,40 +2357,6 @@
         }
       ],
       "notes": []
-    },
-    "W10 - Portobello Square - Completed": {
-      "project": "W10 - Portobello Square - Completed",
-      "city": "Inner London",
-      "developer": "Peabody",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W10 - Portobello Square - Completed",
-      "folder_id": "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
-      "folder_url": "https://drive.google.com/drive/folders/1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
-      "price_folder_id": "1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
-      "price_folder_url": "https://drive.google.com/drive/folders/1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "The Auria Price List - 03 June 2026.pdf",
-          "file_id": "1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It",
-          "file_url": "https://drive.google.com/file/d/1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:15:57.151Z",
-          "price_date": "03 June 2026"
-        },
-        {
-          "file": "The Auria Price List - 11 May 2026.pdf",
-          "file_id": "1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ",
-          "file_url": "https://drive.google.com/file/d/1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:29.799Z",
-          "price_date": "11 May 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "W11 - The Pembridge": {
       "project": "W11 - The Pembridge",
@@ -5595,39 +5475,6 @@
           "file_url": "https://drive.google.com/file/d/1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn/view?usp=drivesdk",
           "modified_at": "2026-07-29T02:26:08.837Z",
           "price_date": "8 July 2026"
-        }
-      ],
-      "notes": []
-    },
-    "SW10 - Chelsea Finery": {
-      "project": "SW10 - Chelsea Finery",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Mount Anvil",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
-      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "latest_files": [
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 27.07.2026.pdf",
-          "file_id": "1v18DlxayoS2i422B8cQim_CYfUN26SPz",
-          "file_url": "https://drive.google.com/file/d/1v18DlxayoS2i422B8cQim_CYfUN26SPz/view?usp=drivesdk",
-          "modified_at": "2026-07-30T10:23:48.763Z",
-          "price_date": "27.07.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
-          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
-          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
-          "modified_at": "2026-07-14T10:25:09.241Z",
-          "price_date": "12.06.2026"
         }
       ],
       "notes": []
@@ -10431,17 +10278,206 @@
         }
       ],
       "notes": []
+    },
+    "SW10 - Chelsea Finery": {
+      "project": "SW10 - Chelsea Finery",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Mount Anvil",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
+      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "latest_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 04.08.2026.pdf",
+          "file_id": "147AE05Mw9wZXyco28iTGy4WmzhuRM-2m",
+          "file_url": "https://drive.google.com/file/d/147AE05Mw9wZXyco28iTGy4WmzhuRM-2m/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:19.942Z",
+          "price_date": "04.08.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 27.07.2026.pdf",
+          "file_id": "1v18DlxayoS2i422B8cQim_CYfUN26SPz",
+          "file_url": "https://drive.google.com/file/d/1v18DlxayoS2i422B8cQim_CYfUN26SPz/view?usp=drivesdk",
+          "modified_at": "2026-07-30T10:23:48.763Z",
+          "price_date": "27.07.2026"
+        },
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
+          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
+          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:09.241Z",
+          "price_date": "12.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "W10 - Portobello Square - Completed": {
+      "project": "W10 - Portobello Square - Completed",
+      "city": "Inner London",
+      "developer": "Peabody",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W10 - Portobello Square - Completed",
+      "folder_id": "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
+      "folder_url": "https://drive.google.com/drive/folders/1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
+      "price_folder_id": "1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
+      "price_folder_url": "https://drive.google.com/drive/folders/1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
+      "old_price_folder_id": "16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
+      "latest_files": [
+        {
+          "file": "Auria_Price List_Final.pdf",
+          "file_id": "1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F",
+          "file_url": "https://drive.google.com/file/d/1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:33.459Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Auria Price List - 03 June 2026.pdf",
+          "file_id": "1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It",
+          "file_url": "https://drive.google.com/file/d/1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:15:57.151Z",
+          "price_date": "03 June 2026"
+        },
+        {
+          "file": "The Auria Price List - 11 May 2026.pdf",
+          "file_id": "1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ",
+          "file_url": "https://drive.google.com/file/d/1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:29.799Z",
+          "price_date": "11 May 2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "NW8 - The Broadley - Est Complete Q2 2030": {
+      "project": "NW8 - The Broadley - Est Complete Q2 2030",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / NW8 - The Broadley - Est Complete Q2 2030",
+      "folder_id": "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
+      "folder_url": "https://drive.google.com/drive/folders/1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
+      "price_folder_id": "1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
+      "old_price_folder_id": "1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
+      "latest_files": [
+        {
+          "file": "The Broadley Price List - The Watling - 04.08.26.pdf",
+          "file_id": "1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl",
+          "file_url": "https://drive.google.com/file/d/1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:47.308Z",
+          "price_date": "04.08.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 04.08.26.pdf",
+          "file_id": "1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g",
+          "file_url": "https://drive.google.com/file/d/1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:39.033Z",
+          "price_date": "04.08.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Broadley Price List - The Eliot - 01.06.26.pdf",
+          "file_id": "1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ",
+          "file_url": "https://drive.google.com/file/d/1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:05.365Z",
+          "price_date": "01.06.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 01.06.26.pdf",
+          "file_id": "1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm",
+          "file_url": "https://drive.google.com/file/d/1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:13:54.522Z",
+          "price_date": "01.06.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 08.04.26.pdf",
+          "file_id": "1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX",
+          "file_url": "https://drive.google.com/file/d/1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:34:04.239Z",
+          "price_date": "08.04.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 05.05.26.pdf",
+          "file_id": "1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo",
+          "file_url": "https://drive.google.com/file/d/1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:54.027Z",
+          "price_date": "05.05.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 05.05.26.pdf",
+          "file_id": "16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq",
+          "file_url": "https://drive.google.com/file/d/16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:53.381Z",
+          "price_date": "05.05.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 08.04.26.pdf",
+          "file_id": "1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP",
+          "file_url": "https://drive.google.com/file/d/1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:03:25.822Z",
+          "price_date": "08.04.26"
+        }
+      ],
+      "notes": []
+    },
+    "SE1 - The Edit": {
+      "project": "SE1 - The Edit",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - The Edit",
+      "folder_id": "1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG",
+      "folder_url": "https://drive.google.com/drive/folders/1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG",
+      "price_folder_id": "1Lf_msloD4AxBczGEzYivttC86vnUstk0",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Lf_msloD4AxBczGEzYivttC86vnUstk0",
+      "old_price_folder_id": "1SXTpwiQIKfWLoK5eeycKRJ2aMjHR1e2J",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1SXTpwiQIKfWLoK5eeycKRJ2aMjHR1e2J",
+      "latest_files": [
+        {
+          "file": "The Edit price list 04.08.pdf",
+          "file_id": "1YR2y4UQY5PUr9coZ73al0YrEE1tX5Sxe",
+          "file_url": "https://drive.google.com/file/d/1YR2y4UQY5PUr9coZ73al0YrEE1tX5Sxe/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:59.297Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Edit Price List - 05.05.2026.pdf",
+          "file_id": "1KRiUQ9Zf4EhN676zb8SFZyobnOmnP8gi",
+          "file_url": "https://drive.google.com/file/d/1KRiUQ9Zf4EhN676zb8SFZyobnOmnP8gi/view?usp=drivesdk",
+          "modified_at": "2026-06-27T07:44:27.538Z",
+          "price_date": "05.05.2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
-    "1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
-    "117FGlvJGrzFI6LkDo2bmS9IR-Qmqx7XS"
+    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+    "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
+    "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
+    "1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG"
   ],
   "targeted_projects": [
-    "SL5 - Heatherwood Royal",
-    "E3 - Hertford Mill",
-    "WC1X - Postmark, Farringdon"
+    "SW10 - Chelsea Finery",
+    "W10 - Portobello Square - Completed",
+    "NW8 - The Broadley - Est Complete Q2 2030",
+    "SE1 - The Edit"
   ]
 }
