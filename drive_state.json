@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-05T14:35:23",
+  "synced_at": "2026-08-05T14:45:47",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -10319,45 +10319,6 @@
       ],
       "notes": []
     },
-    "W10 - Portobello Square - Completed": {
-      "project": "W10 - Portobello Square - Completed",
-      "city": "Inner London",
-      "developer": "Peabody",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W10 - Portobello Square - Completed",
-      "folder_id": "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
-      "folder_url": "https://drive.google.com/drive/folders/1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
-      "price_folder_id": "1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
-      "price_folder_url": "https://drive.google.com/drive/folders/1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
-      "old_price_folder_id": "16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
-      "latest_files": [
-        {
-          "file": "Auria_Price List_Final.pdf",
-          "file_id": "1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F",
-          "file_url": "https://drive.google.com/file/d/1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:34:33.459Z",
-          "price_date": ""
-        },
-        {
-          "file": "The Auria Price List - 03 June 2026.pdf",
-          "file_id": "1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It",
-          "file_url": "https://drive.google.com/file/d/1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:15:57.151Z",
-          "price_date": "03 June 2026"
-        },
-        {
-          "file": "The Auria Price List - 11 May 2026.pdf",
-          "file_id": "1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ",
-          "file_url": "https://drive.google.com/file/d/1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:29.799Z",
-          "price_date": "11 May 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "NW8 - The Broadley - Est Complete Q2 2030": {
       "project": "NW8 - The Broadley - Est Complete Q2 2030",
       "city": "Inner London",
@@ -10465,19 +10426,53 @@
         }
       ],
       "notes": []
+    },
+    "W10 - Portobello Square - Completed": {
+      "project": "W10 - Portobello Square - Completed",
+      "city": "Inner London",
+      "developer": "Peabody",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W10 - Portobello Square - Completed",
+      "folder_id": "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
+      "folder_url": "https://drive.google.com/drive/folders/1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
+      "price_folder_id": "1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
+      "price_folder_url": "https://drive.google.com/drive/folders/1UcD4MH4XK15rG4Br-dI8yaiyUWsqPD-z",
+      "old_price_folder_id": "16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
+      "latest_files": [
+        {
+          "file": "Auria_Price List_Final.pdf",
+          "file_id": "1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F",
+          "file_url": "https://drive.google.com/file/d/1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:33.459Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Auria Price List - 03 June 2026.pdf",
+          "file_id": "1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It",
+          "file_url": "https://drive.google.com/file/d/1H_VKoCaG0upFUw2RmaI3UMklPgzcc3It/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:15:57.151Z",
+          "price_date": "03 June 2026"
+        },
+        {
+          "file": "The Auria Price List - 11 May 2026.pdf",
+          "file_id": "1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ",
+          "file_url": "https://drive.google.com/file/d/1DzYj3wCDWg4u851zj6d0_zlzftDwY0kJ/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:29.799Z",
+          "price_date": "11 May 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-    "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P",
-    "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
-    "1O5kbAWuxx3HY4e5uzvN5TpQIuy6dPMcG"
+    "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P"
   ],
   "targeted_projects": [
-    "SW10 - Chelsea Finery",
-    "W10 - Portobello Square - Completed",
-    "NW8 - The Broadley - Est Complete Q2 2030",
-    "SE1 - The Edit"
+    "W10 - Portobello Square - Completed"
   ]
 }
