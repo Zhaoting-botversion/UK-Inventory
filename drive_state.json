@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-05T14:45:47",
+  "synced_at": "2026-08-05T15:14:10",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -3301,47 +3301,6 @@
           "file_id": "1rR16U9BUGeuON0e1osjB1P07rYTuND41",
           "file_url": "https://drive.google.com/file/d/1rR16U9BUGeuON0e1osjB1P07rYTuND41/view?usp=drivesdk",
           "modified_at": "2026-05-26T10:12:09.214Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
-    },
-    "HA9 - Fulton & Fifth": {
-      "project": "HA9 - Fulton & Fifth",
-      "city": "Outer London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "GAL",
-      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / HA9 - Fulton & Fifth",
-      "folder_id": "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
-      "folder_url": "https://drive.google.com/drive/folders/13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
-      "price_folder_id": "1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Fulton & Fifth - Brookline Price List - 20.05.26.pdf",
-          "file_id": "1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY",
-          "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
-          "modified_at": "2026-05-25T01:14:41.000Z",
-          "price_date": "20.05.26"
-        },
-        {
-          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
-          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
-          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
-          "price_date": "14.04.26"
-        },
-        {
-          "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
-          "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
-          "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
           "price_date": ""
         }
       ],
@@ -10466,13 +10425,67 @@
         }
       ],
       "notes": []
+    },
+    "HA9 - Fulton & Fifth": {
+      "project": "HA9 - Fulton & Fifth",
+      "city": "Outer London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "GAL",
+      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / HA9 - Fulton & Fifth",
+      "folder_id": "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
+      "folder_url": "https://drive.google.com/drive/folders/13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
+      "price_folder_id": "1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
+      "old_price_folder_id": "1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
+      "latest_files": [
+        {
+          "file": "Fulton & Fifth - Parkside Price List - 03.08.26.pdf",
+          "file_id": "1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz",
+          "file_url": "https://drive.google.com/file/d/1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz/view?usp=drivesdk",
+          "modified_at": "2026-08-05T07:14:04.088Z",
+          "price_date": "03.08.26"
+        },
+        {
+          "file": "Fulton & Fifth - Brookline Price List - 03.08.26.pdf",
+          "file_id": "1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t",
+          "file_url": "https://drive.google.com/file/d/1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t/view?usp=drivesdk",
+          "modified_at": "2026-08-05T07:13:59.530Z",
+          "price_date": "03.08.26"
+        },
+        {
+          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
+          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
+          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:32:01.000Z",
+          "price_date": "14.04.26"
+        },
+        {
+          "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
+          "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
+          "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:32:01.000Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Fulton & Fifth - Brookline Price List - 20.05.26.pdf",
+          "file_id": "1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY",
+          "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
+          "modified_at": "2026-05-25T01:14:41.000Z",
+          "price_date": "20.05.26"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1iWTOrZDn3rpxodLXD7Cshzd3KGaFmZ8P"
+    "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad"
   ],
   "targeted_projects": [
-    "W10 - Portobello Square - Completed"
+    "HA9 - Fulton & Fifth"
   ]
 }
