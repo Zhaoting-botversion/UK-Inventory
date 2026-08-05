@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-05T15:14:10",
+  "synced_at": "2026-08-05T15:38:29",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -10455,13 +10455,6 @@
           "price_date": "03.08.26"
         },
         {
-          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
-          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
-          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
-          "price_date": "14.04.26"
-        },
-        {
           "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
           "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
           "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
@@ -10476,6 +10469,13 @@
           "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
           "modified_at": "2026-05-25T01:14:41.000Z",
           "price_date": "20.05.26"
+        },
+        {
+          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
+          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
+          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:32:01.000Z",
+          "price_date": "14.04.26"
         }
       ],
       "notes": []
