@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-07T15:51:38",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-08-07T15:54:29",
+  "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -1003,6 +1003,53 @@
         }
       ],
       "old_files": [],
+      "notes": []
+    },
+    "E14 - South Quay Plaza": {
+      "project": "E14 - South Quay Plaza",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - South Quay Plaza",
+      "folder_id": "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
+      "folder_url": "https://drive.google.com/drive/folders/1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
+      "price_folder_id": "1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
+      "price_folder_url": "https://drive.google.com/drive/folders/1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
+      "old_price_folder_id": "1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
+      "latest_files": [
+        {
+          "file": "SQP Daily Price List 02.08.2026(1).pdf",
+          "file_id": "1suT8kybVHRAzTFtijynNhAEPaWmCoShp",
+          "file_url": "https://drive.google.com/file/d/1suT8kybVHRAzTFtijynNhAEPaWmCoShp/view?usp=drivesdk",
+          "modified_at": "2026-08-07T07:50:45.084Z",
+          "price_date": "02.08.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "SQP Daily Price List 04.07.2026.pdf",
+          "file_id": "1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8",
+          "file_url": "https://drive.google.com/file/d/1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8/view?usp=drivesdk",
+          "modified_at": "2026-07-09T08:46:34.760Z",
+          "price_date": "04.07.2026"
+        },
+        {
+          "file": "SQP Daily Price List 25.06.2026.pdf",
+          "file_id": "1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5",
+          "file_url": "https://drive.google.com/file/d/1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5/view?usp=drivesdk",
+          "modified_at": "2026-06-30T02:19:02.568Z",
+          "price_date": "25.06.2026"
+        },
+        {
+          "file": "SQP Daily Price List 06.06.2026.pdf",
+          "file_id": "1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql",
+          "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
+          "modified_at": "2026-06-08T09:24:30.000Z",
+          "price_date": "06.06.2026"
+        }
+      ],
       "notes": []
     },
     "E2 - Regent's View": {
@@ -9743,60 +9790,8 @@
       ],
       "old_files": [],
       "notes": []
-    },
-    "E14 - South Quay Plaza": {
-      "project": "E14 - South Quay Plaza",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - South Quay Plaza",
-      "folder_id": "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
-      "folder_url": "https://drive.google.com/drive/folders/1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp",
-      "price_folder_id": "1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
-      "price_folder_url": "https://drive.google.com/drive/folders/1j7S0GD1HbgNA71SW3cT6jLokkUonh-Wg",
-      "old_price_folder_id": "1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1m8UomLWk8tBLzsTfmHLmuk9LEbjHQ9Ys",
-      "latest_files": [
-        {
-          "file": "SQP Daily Price List 02.08.2026(1).pdf",
-          "file_id": "1suT8kybVHRAzTFtijynNhAEPaWmCoShp",
-          "file_url": "https://drive.google.com/file/d/1suT8kybVHRAzTFtijynNhAEPaWmCoShp/view?usp=drivesdk",
-          "modified_at": "2026-08-07T07:50:45.084Z",
-          "price_date": "02.08.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "SQP Daily Price List 04.07.2026.pdf",
-          "file_id": "1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8",
-          "file_url": "https://drive.google.com/file/d/1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:46:34.760Z",
-          "price_date": "04.07.2026"
-        },
-        {
-          "file": "SQP Daily Price List 25.06.2026.pdf",
-          "file_id": "1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5",
-          "file_url": "https://drive.google.com/file/d/1Z2Ql7PV8MlOsUuMcIj5iX3e1tn72i_M5/view?usp=drivesdk",
-          "modified_at": "2026-06-30T02:19:02.568Z",
-          "price_date": "25.06.2026"
-        },
-        {
-          "file": "SQP Daily Price List 06.06.2026.pdf",
-          "file_id": "1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql",
-          "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:30.000Z",
-          "price_date": "06.06.2026"
-        }
-      ],
-      "notes": []
     }
   },
   "errors": [],
-  "targeted_project_ids": [
-    "1Sp-3JSpt1plxG5zjzAJdqmDpjyfEY9sp"
-  ],
-  "targeted_projects": [
-    "E14 - South Quay Plaza"
-  ]
+  "published_at": "2026-08-07T16:13:27"
 }
