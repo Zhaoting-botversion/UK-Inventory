@@ -1548,6 +1548,7 @@ def render_dashboard(data: dict) -> bytes:
     latest_run = runs[0] if runs else {}
     latest_run_time = latest_run.get("finished_at") or latest_run.get("started_at") or latest_run.get("_mtime", "")
     drive_synced_at = data.get("drive_state", {}).get("synced_at", "")
+    published_at = data.get("drive_state", {}).get("published_at", "")
     followups = sorted(
         [project for project in followup_projects(projects) if is_core_london_project(project)],
         key=homepage_project_sort_key,
@@ -1707,7 +1708,7 @@ def render_dashboard(data: dict) -> bytes:
         <div class="metric"><div class="label">当前可售项目</div><div class="value">{len(available_project_names)}</div></div>
         <div class="metric"><div class="label">本周房源变化</div><div class="value">{len(core_unit_events)}</div></div>
         <div class="metric"><div class="label">近24小时动态</div><div class="value">{len(core_today_updates)}</div></div>
-        <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
+        <div class="metric"><div class="label">最近同步时间</div><div class="value" style="font-size:18px">{fmt_time(published_at) or fmt_time(drive_synced_at) or fmt_time(latest_run_time) or "暂无同步记录"}</div></div>
       </div>
 
       <section class="panel unit-highlight" style="margin-top:18px">
