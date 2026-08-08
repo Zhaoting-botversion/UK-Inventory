@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-08-08T16:27:40",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-08-08T16:30:18",
+  "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -1501,6 +1501,67 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "EC1V - Angel Village - Est. complete from Q4 2026": {
+      "project": "EC1V - Angel Village - Est. complete from Q4 2026",
+      "city": "Inner London",
+      "developer": "Bentry Capital",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "CBRE",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / EC1V - Angel Village - Est. complete from Q4 2026",
+      "folder_id": "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
+      "folder_url": "https://drive.google.com/drive/folders/1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
+      "price_folder_id": "1VtnaUSXu7dJIhcgAdfGcgCQyqYYmqJQq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1VtnaUSXu7dJIhcgAdfGcgCQyqYYmqJQq",
+      "old_price_folder_id": "1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
+      "latest_files": [
+        {
+          "file": "Angel Village Price List - August 2026.pdf",
+          "file_id": "12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0",
+          "file_url": "https://drive.google.com/file/d/12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:22:55.690Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Angel Village - Price List - 8th of July 2026.pdf",
+          "file_id": "195xmY2bi9IOg82iHVMYO6no0L7EQoqhj",
+          "file_url": "https://drive.google.com/file/d/195xmY2bi9IOg82iHVMYO6no0L7EQoqhj/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:58.251Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Angel Village Price List June 2026.pdf",
+          "file_id": "1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9",
+          "file_url": "https://drive.google.com/file/d/1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:02:26.969Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Angel Village Price List  June 2026.pdf",
+          "file_id": "1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo",
+          "file_url": "https://drive.google.com/file/d/1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:32.350Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Angel Village Price List – (April 2026).pdf",
+          "file_id": "1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N",
+          "file_url": "https://drive.google.com/file/d/1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:34:41.550Z",
+          "price_date": "April 2026"
+        },
+        {
+          "file": "Angel Village Price List  May 2026(1).pdf",
+          "file_id": "1KaQe4MVP9L5pxPkdtTH8MmliFK4QFDxs",
+          "file_url": "https://drive.google.com/file/d/1KaQe4MVP9L5pxPkdtTH8MmliFK4QFDxs/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:20:04.762Z",
+          "price_date": "May 2026"
+        }
+      ],
+      "notes": []
     },
     "EC2 - One Crown Place": {
       "project": "EC2 - One Crown Place",
@@ -4305,6 +4366,46 @@
         "Missing old pricelist folder"
       ]
     },
+    "W8 - Allen House-completed": {
+      "project": "W8 - Allen House-completed",
+      "city": "Inner London",
+      "developer": "Topland Group",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "Knight Frank 莱坊",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W8 - Allen House-completed",
+      "folder_id": "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
+      "folder_url": "https://drive.google.com/drive/folders/1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
+      "price_folder_id": "12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
+      "price_folder_url": "https://drive.google.com/drive/folders/12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
+      "old_price_folder_id": "1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
+      "latest_files": [
+        {
+          "file": "Allen House Price List - July 2026.pdf",
+          "file_id": "12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf",
+          "file_url": "https://drive.google.com/file/d/12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:22:47.490Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Allen House Price List - June 2026.pdf",
+          "file_id": "1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO",
+          "file_url": "https://drive.google.com/file/d/1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:48.434Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Allen House Price List - May 2026.pdf",
+          "file_id": "1E7PmL2DMqiuvpvceClWtVfoFN7ex5fhM",
+          "file_url": "https://drive.google.com/file/d/1E7PmL2DMqiuvpvceClWtVfoFN7ex5fhM/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:33:36.427Z",
+          "price_date": "May 2026"
+        }
+      ],
+      "notes": []
+    },
     "W8 - Holland Park Gate - completed": {
       "project": "W8 - Holland Park Gate - completed",
       "city": "Inner London",
@@ -4978,6 +5079,60 @@
       ],
       "notes": []
     },
+    "SW18-Riverside Quarter Development": {
+      "project": "SW18-Riverside Quarter Development",
+      "city": "Inner London",
+      "developer": "Frasers Property",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW18-Riverside Quarter Development",
+      "folder_id": "1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
+      "folder_url": "https://drive.google.com/drive/folders/1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
+      "price_folder_id": "1JTvHMWsYcmFko6VspC3GqX5v4ufM1err",
+      "price_folder_url": "https://drive.google.com/drive/folders/1JTvHMWsYcmFko6VspC3GqX5v4ufM1err",
+      "old_price_folder_id": "1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
+      "latest_files": [
+        {
+          "file": "Riverside Quarter Price list - 06.08.26.pdf",
+          "file_id": "1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn",
+          "file_url": "https://drive.google.com/file/d/1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:50.710Z",
+          "price_date": "06.08.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Riverside Quarter Price list - 1.7.26.pdf",
+          "file_id": "1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz",
+          "file_url": "https://drive.google.com/file/d/1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:31.897Z",
+          "price_date": "1.7.26"
+        },
+        {
+          "file": "Riverside Quarter Price list 17.6.26.pdf",
+          "file_id": "1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI",
+          "file_url": "https://drive.google.com/file/d/1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:03:30.326Z",
+          "price_date": "17.6.26"
+        },
+        {
+          "file": "Riverside Quarter Price list 02.06.pdf",
+          "file_id": "1w-V12Pw9UoOY2aRd_nwtFOOmmQmaa5FO",
+          "file_url": "https://drive.google.com/file/d/1w-V12Pw9UoOY2aRd_nwtFOOmmQmaa5FO/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:46:46.312Z",
+          "price_date": ""
+        },
+        {
+          "file": "Riverside Quarter Price list 7.5.26.pdf",
+          "file_id": "1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi",
+          "file_url": "https://drive.google.com/file/d/1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:18:36.820Z",
+          "price_date": "7.5.26"
+        }
+      ],
+      "notes": []
+    },
     "SW1P - Chimes": {
       "project": "SW1P - Chimes",
       "city": "Inner London",
@@ -5023,6 +5178,144 @@
       "notes": [
         "Missing old pricelist folder"
       ]
+    },
+    "SW6 - Chelsea Waterfront Tower East": {
+      "project": "SW6 - Chelsea Waterfront Tower East",
+      "city": "Inner London",
+      "developer": "长江实业",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "长江实业",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
+      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "latest_files": [
+        {
+          "file": "Savills Tower East Price List 3rd August 2026.pdf",
+          "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
+          "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:31.000Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  13th July 2026.pdf",
+          "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
+          "file_url": "https://drive.google.com/file/d/1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:34:55.423Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  13th July 2026.pdf",
+          "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
+          "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:48.991Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Tower West Pricelist 13th July 2026.pdf",
+          "file_id": "1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-",
+          "file_url": "https://drive.google.com/file/d/1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:36.549Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  13th July 2026.pdf",
+          "file_id": "14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-",
+          "file_url": "https://drive.google.com/file/d/14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:22.728Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
+          "file_id": "1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS",
+          "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:11.572Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Tower West Pricelist  29th June 2026.pdf",
+          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
+          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  29th June 2026.pdf",
+          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
+          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:57.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  29th June 2026.pdf",
+          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
+          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:56.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  29th June 2026.pdf",
+          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
+          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:54.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 15th June 2026.pdf",
+          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
+          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:03:40.381Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
+          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
+          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:59.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist 8th June 2026.pdf",
+          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
+          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower West Pricelist 8th June 2026.pdf",
+          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
+          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:47.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist 8th June 2026.pdf",
+          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
+          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:45.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 8th June 2026.pdf",
+          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
+          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:43.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List June 2026.pdf",
+          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
+          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:47:18.178Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
     },
     "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
       "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
@@ -5521,6 +5814,67 @@
         }
       ],
       "old_files": [],
+      "notes": []
+    },
+    "W12 - Television Centre - Est. Completion Q2 2027": {
+      "project": "W12 - Television Centre - Est. Completion Q2 2027",
+      "city": "Inner London",
+      "developer": "Stanhope + Mitsui Fudosan",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W12 - Television Centre - Est. Completion Q2 2027",
+      "folder_id": "1MKRAeilyRDTDaK3pJUmi5t-yN-nAVcuG",
+      "folder_url": "https://drive.google.com/drive/folders/1MKRAeilyRDTDaK3pJUmi5t-yN-nAVcuG",
+      "price_folder_id": "1-y0a6ZhOOYA1H7Sh2hVrbztE5U5v3Xnh",
+      "price_folder_url": "https://drive.google.com/drive/folders/1-y0a6ZhOOYA1H7Sh2hVrbztE5U5v3Xnh",
+      "old_price_folder_id": "1EGHNTyzeAbXwxTSPKBz-6GwVD3vpPZN_",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1EGHNTyzeAbXwxTSPKBz-6GwVD3vpPZN_",
+      "latest_files": [
+        {
+          "file": "TVC The Ariel Price List 29.07.2026.pdf",
+          "file_id": "1fDaqeSF1JzlJe_MSrJQUFOaJPjLZjDz3",
+          "file_url": "https://drive.google.com/file/d/1fDaqeSF1JzlJe_MSrJQUFOaJPjLZjDz3/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:24:10.397Z",
+          "price_date": "29.07.2026"
+        },
+        {
+          "file": "TVC Scenery House Price List 29.07.26.pdf",
+          "file_id": "1C1d4htZPRM0m9G0qwm_Jnb9Wqum9fvBh",
+          "file_url": "https://drive.google.com/file/d/1C1d4htZPRM0m9G0qwm_Jnb9Wqum9fvBh/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:24:00.204Z",
+          "price_date": "29.07.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "TVC The Ariel Price List 04.06.2026.pdf",
+          "file_id": "1w8up2c0E79b6nUB8YL_EgSdoK5CSazwj",
+          "file_url": "https://drive.google.com/file/d/1w8up2c0E79b6nUB8YL_EgSdoK5CSazwj/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:15:48.299Z",
+          "price_date": "04.06.2026"
+        },
+        {
+          "file": "TVC Scenery House Price List 04.06.26.pdf",
+          "file_id": "1gWwJFqOpamInnXsVjhwWk637NkCGK8jT",
+          "file_url": "https://drive.google.com/file/d/1gWwJFqOpamInnXsVjhwWk637NkCGK8jT/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:15:38.657Z",
+          "price_date": "04.06.26"
+        },
+        {
+          "file": "TVC Scenery House Price List 12.05.26.pdf",
+          "file_id": "1R8DzHsWq0HtrzRkDiz4el7C-fJx5YbeS",
+          "file_url": "https://drive.google.com/file/d/1R8DzHsWq0HtrzRkDiz4el7C-fJx5YbeS/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:21.716Z",
+          "price_date": "12.05.26"
+        },
+        {
+          "file": "TVC The Ariel Price List 12.05.2026.pdf",
+          "file_id": "1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ",
+          "file_url": "https://drive.google.com/file/d/1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:16.872Z",
+          "price_date": "12.05.2026"
+        }
+      ],
       "notes": []
     },
     "W12 - White City Living": {
@@ -7892,6 +8246,81 @@
       ],
       "notes": []
     },
+    "NW2 - Brent Cross Town - Completed": {
+      "project": "NW2 - Brent Cross Town - Completed",
+      "city": "Outer London",
+      "developer": "Related Argent",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / NW2 - Brent Cross Town - Completed",
+      "folder_id": "1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
+      "folder_url": "https://drive.google.com/drive/folders/1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
+      "price_folder_id": "1slXZq6mKp_XrUeIxpwPG4rluLeS5g3k7",
+      "price_folder_url": "https://drive.google.com/drive/folders/1slXZq6mKp_XrUeIxpwPG4rluLeS5g3k7",
+      "old_price_folder_id": "1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
+      "latest_files": [
+        {
+          "file": "Delamarre Pricelist 01.08.2026.pdf",
+          "file_id": "1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw",
+          "file_url": "https://drive.google.com/file/d/1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:08.760Z",
+          "price_date": "01.08.2026"
+        },
+        {
+          "file": "Ashbee Price list 01.08.2026.pdf",
+          "file_id": "1vDu3oslEwwM61UyVDW7ow27DeI7GZl2c",
+          "file_url": "https://drive.google.com/file/d/1vDu3oslEwwM61UyVDW7ow27DeI7GZl2c/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:01.006Z",
+          "price_date": "01.08.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Ashbee Price list 01.07.2026.pdf",
+          "file_id": "1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC",
+          "file_url": "https://drive.google.com/file/d/1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:42.120Z",
+          "price_date": "01.07.2026"
+        },
+        {
+          "file": "Delamarre Pricelist 01.07.26.pdf",
+          "file_id": "1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP",
+          "file_url": "https://drive.google.com/file/d/1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:35.164Z",
+          "price_date": "01.07.26"
+        },
+        {
+          "file": "Delamarre Pricelist 02.06.2026.pdf",
+          "file_id": "1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E",
+          "file_url": "https://drive.google.com/file/d/1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:47:31.689Z",
+          "price_date": "02.06.2026"
+        },
+        {
+          "file": "Ashbee Pricelist 02.06.2026.pdf",
+          "file_id": "1UhjbyUdLspHtPAfy8A7YiBKUdtAsUC0b",
+          "file_url": "https://drive.google.com/file/d/1UhjbyUdLspHtPAfy8A7YiBKUdtAsUC0b/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:47:27.814Z",
+          "price_date": "02.06.2026"
+        },
+        {
+          "file": "Ashbee Pricelist 270426.pdf",
+          "file_id": "17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE",
+          "file_url": "https://drive.google.com/file/d/17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:21:05.513Z",
+          "price_date": "Pricelist 2704"
+        },
+        {
+          "file": "Delamarre Pricelist 270426.pdf",
+          "file_id": "18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-",
+          "file_url": "https://drive.google.com/file/d/18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:20:11.400Z",
+          "price_date": "Pricelist 2704"
+        }
+      ],
+      "notes": []
+    },
     "NW6 - The Clay Yard": {
       "project": "NW6 - The Clay Yard",
       "city": "Outer London",
@@ -8909,6 +9338,53 @@
       ],
       "notes": []
     },
+    "E16 - Cerulean Quarter - Completed": {
+      "project": "E16 - Cerulean Quarter - Completed",
+      "city": "Outer London",
+      "developer": "English Cities Fund (Muse/LCR)",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Newham 纽汉 / E16 - Cerulean Quarter - Completed",
+      "folder_id": "1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
+      "folder_url": "https://drive.google.com/drive/folders/1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
+      "price_folder_id": "1mtvo56u1oKFRXdJnMGPBaP_OflOonUaM",
+      "price_folder_url": "https://drive.google.com/drive/folders/1mtvo56u1oKFRXdJnMGPBaP_OflOonUaM",
+      "old_price_folder_id": "1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
+      "latest_files": [
+        {
+          "file": "Cerulean Quarter - Price List - 06.08.2026.pdf",
+          "file_id": "1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My",
+          "file_url": "https://drive.google.com/file/d/1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:19.680Z",
+          "price_date": "06.08.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Cerulean Quarter - Price List - 09.07.2026.pdf",
+          "file_id": "1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_",
+          "file_url": "https://drive.google.com/file/d/1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:18.947Z",
+          "price_date": "09.07.2026"
+        },
+        {
+          "file": "Cerulean Quarter - Price List - 18.06.2026.pdf",
+          "file_id": "1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV",
+          "file_url": "https://drive.google.com/file/d/1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:02:52.482Z",
+          "price_date": "18.06.2026"
+        },
+        {
+          "file": "Cerulean Quarter - Price List - 02.06.2026.pdf",
+          "file_id": "1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI",
+          "file_url": "https://drive.google.com/file/d/1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:45:45.376Z",
+          "price_date": "02.06.2026"
+        }
+      ],
+      "notes": []
+    },
     "E16 - Queens Cross": {
       "project": "E16 - Queens Cross",
       "city": "Outer London",
@@ -9216,6 +9692,59 @@
       ],
       "notes": []
     },
+    "TW9 - Richmond Square": {
+      "project": "TW9 - Richmond Square",
+      "city": "Outer London",
+      "developer": "RER London",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Richmond upon Thames 里士满 / TW9 - Richmond Square",
+      "folder_id": "156kryoFDsAoK7WRCzmNA146os8eOaDKl",
+      "folder_url": "https://drive.google.com/drive/folders/156kryoFDsAoK7WRCzmNA146os8eOaDKl",
+      "price_folder_id": "1FnTqMVxJ1AWDPh7wOcMaZPBHIkucVXlA",
+      "price_folder_url": "https://drive.google.com/drive/folders/1FnTqMVxJ1AWDPh7wOcMaZPBHIkucVXlA",
+      "old_price_folder_id": "1H4RL1pbp8pT17XxsCeFiwZwAUvs0XlT7",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1H4RL1pbp8pT17XxsCeFiwZwAUvs0XlT7",
+      "latest_files": [
+        {
+          "file": "Rossdale Court Richmond Square - 2 3 Bedroom Price List (July 2026).pdf",
+          "file_id": "1sAfSs1DwDrr-ihZInn_wICK9WE41mA8g",
+          "file_url": "https://drive.google.com/file/d/1sAfSs1DwDrr-ihZInn_wICK9WE41mA8g/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:45.829Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Rossdale Court Richmond Square - 1 Bedroom Price List (July 2026).pdf",
+          "file_id": "1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf",
+          "file_url": "https://drive.google.com/file/d/1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:42.930Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Richmond-Square-Evelyn-House-Price-List_28-05-26.pdf",
+          "file_id": "15cBw9BMLxEWVIoQUDIxI3k1FYxjMAVs0",
+          "file_url": "https://drive.google.com/file/d/15cBw9BMLxEWVIoQUDIxI3k1FYxjMAVs0/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:15:31.513Z",
+          "price_date": "28-05-26"
+        },
+        {
+          "file": "Richmond-Square-Shaftesbury-House-Price-List_11-05-26.pdf",
+          "file_id": "1m82qvUO-fs12ByzkWfzzFeJNNI4b9q5o",
+          "file_url": "https://drive.google.com/file/d/1m82qvUO-fs12ByzkWfzzFeJNNI4b9q5o/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:08.912Z",
+          "price_date": "11-05-26"
+        },
+        {
+          "file": "Richmond-Square-Evelyn-House-Price-List_11-05-26.pdf",
+          "file_id": "1Wy1dhOqxB34Fb0XQoyUCU-XuwK4d2w4_",
+          "file_url": "https://drive.google.com/file/d/1Wy1dhOqxB34Fb0XQoyUCU-XuwK4d2w4_/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:37:01.189Z",
+          "price_date": "11-05-26"
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
     "SM1 - Sutton Garden Square": {
       "project": "SM1 - Sutton Garden Square",
       "city": "Outer London",
@@ -9336,556 +9865,8 @@
       ],
       "old_files": [],
       "notes": []
-    },
-    "W8 - Allen House-completed": {
-      "project": "W8 - Allen House-completed",
-      "city": "Inner London",
-      "developer": "Topland Group",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "Knight Frank 莱坊",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W8 - Allen House-completed",
-      "folder_id": "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
-      "folder_url": "https://drive.google.com/drive/folders/1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
-      "price_folder_id": "12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
-      "price_folder_url": "https://drive.google.com/drive/folders/12F8zhL1M2Pe9sii3nXANJiaiS_wg-yKZ",
-      "old_price_folder_id": "1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1T-db7OlstLS6vlM1_UL3mTyvAfxqZC2P",
-      "latest_files": [
-        {
-          "file": "Allen House Price List - July 2026.pdf",
-          "file_id": "12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf",
-          "file_url": "https://drive.google.com/file/d/12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:22:47.490Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Allen House Price List - June 2026.pdf",
-          "file_id": "1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO",
-          "file_url": "https://drive.google.com/file/d/1igiJYmNCIsBsFh5bvA7Cbqc5J17LmixO/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:56:48.434Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Allen House Price List - May 2026.pdf",
-          "file_id": "1E7PmL2DMqiuvpvceClWtVfoFN7ex5fhM",
-          "file_url": "https://drive.google.com/file/d/1E7PmL2DMqiuvpvceClWtVfoFN7ex5fhM/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:33:36.427Z",
-          "price_date": "May 2026"
-        }
-      ],
-      "notes": []
-    },
-    "EC1V - Angel Village - Est. complete from Q4 2026": {
-      "project": "EC1V - Angel Village - Est. complete from Q4 2026",
-      "city": "Inner London",
-      "developer": "Bentry Capital",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "CBRE",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / EC1V - Angel Village - Est. complete from Q4 2026",
-      "folder_id": "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
-      "folder_url": "https://drive.google.com/drive/folders/1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
-      "price_folder_id": "1VtnaUSXu7dJIhcgAdfGcgCQyqYYmqJQq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1VtnaUSXu7dJIhcgAdfGcgCQyqYYmqJQq",
-      "old_price_folder_id": "1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
-      "latest_files": [
-        {
-          "file": "Angel Village Price List - August 2026.pdf",
-          "file_id": "12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0",
-          "file_url": "https://drive.google.com/file/d/12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:22:55.690Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Angel Village - Price List - 8th of July 2026.pdf",
-          "file_id": "195xmY2bi9IOg82iHVMYO6no0L7EQoqhj",
-          "file_url": "https://drive.google.com/file/d/195xmY2bi9IOg82iHVMYO6no0L7EQoqhj/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:56:58.251Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Angel Village Price List June 2026.pdf",
-          "file_id": "1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9",
-          "file_url": "https://drive.google.com/file/d/1XRuNQVUUQY9aWeZmd4zXd9aMC-Bf8cM9/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:02:26.969Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Angel Village Price List  June 2026.pdf",
-          "file_id": "1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo",
-          "file_url": "https://drive.google.com/file/d/1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:32.350Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Angel Village Price List – (April 2026).pdf",
-          "file_id": "1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N",
-          "file_url": "https://drive.google.com/file/d/1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:34:41.550Z",
-          "price_date": "April 2026"
-        },
-        {
-          "file": "Angel Village Price List  May 2026(1).pdf",
-          "file_id": "1KaQe4MVP9L5pxPkdtTH8MmliFK4QFDxs",
-          "file_url": "https://drive.google.com/file/d/1KaQe4MVP9L5pxPkdtTH8MmliFK4QFDxs/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:20:04.762Z",
-          "price_date": "May 2026"
-        }
-      ],
-      "notes": []
-    },
-    "NW2 - Brent Cross Town - Completed": {
-      "project": "NW2 - Brent Cross Town - Completed",
-      "city": "Outer London",
-      "developer": "Related Argent",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / NW2 - Brent Cross Town - Completed",
-      "folder_id": "1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
-      "folder_url": "https://drive.google.com/drive/folders/1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
-      "price_folder_id": "1slXZq6mKp_XrUeIxpwPG4rluLeS5g3k7",
-      "price_folder_url": "https://drive.google.com/drive/folders/1slXZq6mKp_XrUeIxpwPG4rluLeS5g3k7",
-      "old_price_folder_id": "1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
-      "latest_files": [
-        {
-          "file": "Delamarre Pricelist 01.08.2026.pdf",
-          "file_id": "1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw",
-          "file_url": "https://drive.google.com/file/d/1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:08.760Z",
-          "price_date": "01.08.2026"
-        },
-        {
-          "file": "Ashbee Price list 01.08.2026.pdf",
-          "file_id": "1vDu3oslEwwM61UyVDW7ow27DeI7GZl2c",
-          "file_url": "https://drive.google.com/file/d/1vDu3oslEwwM61UyVDW7ow27DeI7GZl2c/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:01.006Z",
-          "price_date": "01.08.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Ashbee Price list 01.07.2026.pdf",
-          "file_id": "1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC",
-          "file_url": "https://drive.google.com/file/d/1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:42.120Z",
-          "price_date": "01.07.2026"
-        },
-        {
-          "file": "Delamarre Pricelist 01.07.26.pdf",
-          "file_id": "1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP",
-          "file_url": "https://drive.google.com/file/d/1n2tBA3x8wNVqpsOgoaiP2VuwoH2F2viP/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:35.164Z",
-          "price_date": "01.07.26"
-        },
-        {
-          "file": "Delamarre Pricelist 02.06.2026.pdf",
-          "file_id": "1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E",
-          "file_url": "https://drive.google.com/file/d/1kRL4SjIwkgKByQ-gBVEgIk84jisaYL_E/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:47:31.689Z",
-          "price_date": "02.06.2026"
-        },
-        {
-          "file": "Ashbee Pricelist 02.06.2026.pdf",
-          "file_id": "1UhjbyUdLspHtPAfy8A7YiBKUdtAsUC0b",
-          "file_url": "https://drive.google.com/file/d/1UhjbyUdLspHtPAfy8A7YiBKUdtAsUC0b/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:47:27.814Z",
-          "price_date": "02.06.2026"
-        },
-        {
-          "file": "Ashbee Pricelist 270426.pdf",
-          "file_id": "17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE",
-          "file_url": "https://drive.google.com/file/d/17Zz-mwqM4XwOtx-2puNn4AjbS7zDjLnE/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:21:05.513Z",
-          "price_date": "Pricelist 2704"
-        },
-        {
-          "file": "Delamarre Pricelist 270426.pdf",
-          "file_id": "18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-",
-          "file_url": "https://drive.google.com/file/d/18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:20:11.400Z",
-          "price_date": "Pricelist 2704"
-        }
-      ],
-      "notes": []
-    },
-    "E16 - Cerulean Quarter - Completed": {
-      "project": "E16 - Cerulean Quarter - Completed",
-      "city": "Outer London",
-      "developer": "English Cities Fund (Muse/LCR)",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Newham 纽汉 / E16 - Cerulean Quarter - Completed",
-      "folder_id": "1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
-      "folder_url": "https://drive.google.com/drive/folders/1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
-      "price_folder_id": "1mtvo56u1oKFRXdJnMGPBaP_OflOonUaM",
-      "price_folder_url": "https://drive.google.com/drive/folders/1mtvo56u1oKFRXdJnMGPBaP_OflOonUaM",
-      "old_price_folder_id": "1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
-      "latest_files": [
-        {
-          "file": "Cerulean Quarter - Price List - 06.08.2026.pdf",
-          "file_id": "1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My",
-          "file_url": "https://drive.google.com/file/d/1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:19.680Z",
-          "price_date": "06.08.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Cerulean Quarter - Price List - 09.07.2026.pdf",
-          "file_id": "1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_",
-          "file_url": "https://drive.google.com/file/d/1Pmtt3Nf_dLCg-StmZ7FJcq7I4JIiAc8_/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:18.947Z",
-          "price_date": "09.07.2026"
-        },
-        {
-          "file": "Cerulean Quarter - Price List - 18.06.2026.pdf",
-          "file_id": "1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV",
-          "file_url": "https://drive.google.com/file/d/1Xu77E2yZ22NZEMLAY4mqHpka0YI34nWV/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:02:52.482Z",
-          "price_date": "18.06.2026"
-        },
-        {
-          "file": "Cerulean Quarter - Price List - 02.06.2026.pdf",
-          "file_id": "1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI",
-          "file_url": "https://drive.google.com/file/d/1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:45:45.376Z",
-          "price_date": "02.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "SW6 - Chelsea Waterfront Tower East": {
-      "project": "SW6 - Chelsea Waterfront Tower East",
-      "city": "Inner London",
-      "developer": "长江实业",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "长江实业",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
-      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "latest_files": [
-        {
-          "file": "Savills Tower East Price List 3rd August 2026.pdf",
-          "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
-          "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:31.000Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  13th July 2026.pdf",
-          "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
-          "file_url": "https://drive.google.com/file/d/1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:34:55.423Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist  13th July 2026.pdf",
-          "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
-          "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:48.991Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Tower West Pricelist 13th July 2026.pdf",
-          "file_id": "1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-",
-          "file_url": "https://drive.google.com/file/d/1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:36.549Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist  13th July 2026.pdf",
-          "file_id": "14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-",
-          "file_url": "https://drive.google.com/file/d/14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:22.728Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
-          "file_id": "1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS",
-          "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:11.572Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Tower West Pricelist  29th June 2026.pdf",
-          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
-          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist  29th June 2026.pdf",
-          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
-          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:57.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist  29th June 2026.pdf",
-          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
-          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:56.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  29th June 2026.pdf",
-          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
-          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:54.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Savills Tower East Price List 15th June 2026.pdf",
-          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
-          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:03:40.381Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
-          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
-          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:59.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist 8th June 2026.pdf",
-          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
-          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower West Pricelist 8th June 2026.pdf",
-          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
-          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:47.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist 8th June 2026.pdf",
-          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
-          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:45.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist 8th June 2026.pdf",
-          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
-          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:43.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Savills Tower East Price List June 2026.pdf",
-          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
-          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:47:18.178Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "notes": []
-    },
-    "TW9 - Richmond Square": {
-      "project": "TW9 - Richmond Square",
-      "city": "Outer London",
-      "developer": "RER London",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Richmond upon Thames 里士满 / TW9 - Richmond Square",
-      "folder_id": "156kryoFDsAoK7WRCzmNA146os8eOaDKl",
-      "folder_url": "https://drive.google.com/drive/folders/156kryoFDsAoK7WRCzmNA146os8eOaDKl",
-      "price_folder_id": "1FnTqMVxJ1AWDPh7wOcMaZPBHIkucVXlA",
-      "price_folder_url": "https://drive.google.com/drive/folders/1FnTqMVxJ1AWDPh7wOcMaZPBHIkucVXlA",
-      "old_price_folder_id": "1H4RL1pbp8pT17XxsCeFiwZwAUvs0XlT7",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1H4RL1pbp8pT17XxsCeFiwZwAUvs0XlT7",
-      "latest_files": [
-        {
-          "file": "Rossdale Court Richmond Square - 2 3 Bedroom Price List (July 2026).pdf",
-          "file_id": "1sAfSs1DwDrr-ihZInn_wICK9WE41mA8g",
-          "file_url": "https://drive.google.com/file/d/1sAfSs1DwDrr-ihZInn_wICK9WE41mA8g/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:45.829Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Rossdale Court Richmond Square - 1 Bedroom Price List (July 2026).pdf",
-          "file_id": "1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf",
-          "file_url": "https://drive.google.com/file/d/1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:42.930Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Richmond-Square-Evelyn-House-Price-List_28-05-26.pdf",
-          "file_id": "15cBw9BMLxEWVIoQUDIxI3k1FYxjMAVs0",
-          "file_url": "https://drive.google.com/file/d/15cBw9BMLxEWVIoQUDIxI3k1FYxjMAVs0/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:15:31.513Z",
-          "price_date": "28-05-26"
-        },
-        {
-          "file": "Richmond-Square-Shaftesbury-House-Price-List_11-05-26.pdf",
-          "file_id": "1m82qvUO-fs12ByzkWfzzFeJNNI4b9q5o",
-          "file_url": "https://drive.google.com/file/d/1m82qvUO-fs12ByzkWfzzFeJNNI4b9q5o/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:08.912Z",
-          "price_date": "11-05-26"
-        },
-        {
-          "file": "Richmond-Square-Evelyn-House-Price-List_11-05-26.pdf",
-          "file_id": "1Wy1dhOqxB34Fb0XQoyUCU-XuwK4d2w4_",
-          "file_url": "https://drive.google.com/file/d/1Wy1dhOqxB34Fb0XQoyUCU-XuwK4d2w4_/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:01.189Z",
-          "price_date": "11-05-26"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "SW18-Riverside Quarter Development": {
-      "project": "SW18-Riverside Quarter Development",
-      "city": "Inner London",
-      "developer": "Frasers Property",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW18-Riverside Quarter Development",
-      "folder_id": "1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
-      "folder_url": "https://drive.google.com/drive/folders/1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
-      "price_folder_id": "1JTvHMWsYcmFko6VspC3GqX5v4ufM1err",
-      "price_folder_url": "https://drive.google.com/drive/folders/1JTvHMWsYcmFko6VspC3GqX5v4ufM1err",
-      "old_price_folder_id": "1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
-      "latest_files": [
-        {
-          "file": "Riverside Quarter Price list - 06.08.26.pdf",
-          "file_id": "1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn",
-          "file_url": "https://drive.google.com/file/d/1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:50.710Z",
-          "price_date": "06.08.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Riverside Quarter Price list - 1.7.26.pdf",
-          "file_id": "1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz",
-          "file_url": "https://drive.google.com/file/d/1ky8WmWY2F0HARNdhupvdWUnqUviXxsyz/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:31.897Z",
-          "price_date": "1.7.26"
-        },
-        {
-          "file": "Riverside Quarter Price list 17.6.26.pdf",
-          "file_id": "1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI",
-          "file_url": "https://drive.google.com/file/d/1B95CfjOx_7Y2Xov_hMNN4d8gj6rDIZkI/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:03:30.326Z",
-          "price_date": "17.6.26"
-        },
-        {
-          "file": "Riverside Quarter Price list 02.06.pdf",
-          "file_id": "1w-V12Pw9UoOY2aRd_nwtFOOmmQmaa5FO",
-          "file_url": "https://drive.google.com/file/d/1w-V12Pw9UoOY2aRd_nwtFOOmmQmaa5FO/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:46:46.312Z",
-          "price_date": ""
-        },
-        {
-          "file": "Riverside Quarter Price list 7.5.26.pdf",
-          "file_id": "1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi",
-          "file_url": "https://drive.google.com/file/d/1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:18:36.820Z",
-          "price_date": "7.5.26"
-        }
-      ],
-      "notes": []
-    },
-    "W12 - Television Centre - Est. Completion Q2 2027": {
-      "project": "W12 - Television Centre - Est. Completion Q2 2027",
-      "city": "Inner London",
-      "developer": "Stanhope + Mitsui Fudosan",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / W12 - Television Centre - Est. Completion Q2 2027",
-      "folder_id": "1MKRAeilyRDTDaK3pJUmi5t-yN-nAVcuG",
-      "folder_url": "https://drive.google.com/drive/folders/1MKRAeilyRDTDaK3pJUmi5t-yN-nAVcuG",
-      "price_folder_id": "1-y0a6ZhOOYA1H7Sh2hVrbztE5U5v3Xnh",
-      "price_folder_url": "https://drive.google.com/drive/folders/1-y0a6ZhOOYA1H7Sh2hVrbztE5U5v3Xnh",
-      "old_price_folder_id": "1EGHNTyzeAbXwxTSPKBz-6GwVD3vpPZN_",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1EGHNTyzeAbXwxTSPKBz-6GwVD3vpPZN_",
-      "latest_files": [
-        {
-          "file": "TVC The Ariel Price List 29.07.2026.pdf",
-          "file_id": "1fDaqeSF1JzlJe_MSrJQUFOaJPjLZjDz3",
-          "file_url": "https://drive.google.com/file/d/1fDaqeSF1JzlJe_MSrJQUFOaJPjLZjDz3/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:24:10.397Z",
-          "price_date": "29.07.2026"
-        },
-        {
-          "file": "TVC Scenery House Price List 29.07.26.pdf",
-          "file_id": "1C1d4htZPRM0m9G0qwm_Jnb9Wqum9fvBh",
-          "file_url": "https://drive.google.com/file/d/1C1d4htZPRM0m9G0qwm_Jnb9Wqum9fvBh/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:24:00.204Z",
-          "price_date": "29.07.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "TVC The Ariel Price List 04.06.2026.pdf",
-          "file_id": "1w8up2c0E79b6nUB8YL_EgSdoK5CSazwj",
-          "file_url": "https://drive.google.com/file/d/1w8up2c0E79b6nUB8YL_EgSdoK5CSazwj/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:15:48.299Z",
-          "price_date": "04.06.2026"
-        },
-        {
-          "file": "TVC Scenery House Price List 04.06.26.pdf",
-          "file_id": "1gWwJFqOpamInnXsVjhwWk637NkCGK8jT",
-          "file_url": "https://drive.google.com/file/d/1gWwJFqOpamInnXsVjhwWk637NkCGK8jT/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:15:38.657Z",
-          "price_date": "04.06.26"
-        },
-        {
-          "file": "TVC Scenery House Price List 12.05.26.pdf",
-          "file_id": "1R8DzHsWq0HtrzRkDiz4el7C-fJx5YbeS",
-          "file_url": "https://drive.google.com/file/d/1R8DzHsWq0HtrzRkDiz4el7C-fJx5YbeS/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:21.716Z",
-          "price_date": "12.05.26"
-        },
-        {
-          "file": "TVC The Ariel Price List 12.05.2026.pdf",
-          "file_id": "1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ",
-          "file_url": "https://drive.google.com/file/d/1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:37:16.872Z",
-          "price_date": "12.05.2026"
-        }
-      ],
-      "notes": []
     }
   },
   "errors": [],
-  "targeted_project_ids": [
-    "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
-    "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
-    "1qx1rd_Y7R8XSRltI6N-sqEErOmL6B8iB",
-    "1rqqTnfJcyTd0jTMfhcynfumkhlcIL0HS",
-    "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-    "156kryoFDsAoK7WRCzmNA146os8eOaDKl",
-    "1l-jLVwNtBCqVHTKtejQ99FKl4MEH3Yx3",
-    "1MKRAeilyRDTDaK3pJUmi5t-yN-nAVcuG"
-  ],
-  "targeted_projects": [
-    "W8 - Allen House-completed",
-    "EC1V - Angel Village - Est. complete from Q4 2026",
-    "NW2 - Brent Cross Town - Completed",
-    "E16 - Cerulean Quarter - Completed",
-    "SW6 - Chelsea Waterfront Tower East",
-    "TW9 - Richmond Square",
-    "SW18-Riverside Quarter Development",
-    "W12 - Television Centre - Est. Completion Q2 2027"
-  ]
+  "published_at": "2026-08-08T16:32:39"
 }
