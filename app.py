@@ -733,6 +733,34 @@ def infer_cooperation(project: str) -> dict[str, str]:
     })
 
 
+DIRECT_DEVELOPER_COOPERATION = (
+    (("berkeley group",), "Berkeley Group"),
+    (("taylor wimpey",), "Taylor Wimpey"),
+    (("mount anvil",), "Mount Anvil"),
+    (("the hill group", "the hill"), "The Hill"),
+    (("arada",), "Arada"),
+    (("london square",), "London Square"),
+    (("ballymore",), "Ballymore"),
+    (("salboy",), "Salboy"),
+    (("renaker",), "Renaker"),
+    (("select property", "selected property"), "Selected Property"),
+    (("rockwell property", "rockwell"), "Rockwell"),
+    (("富力集团", "富力"), "富力集团"),
+    (("fenton whelan",), "Fenton Whelan"),
+)
+
+
+def infer_direct_developer_cooperation(developer: str) -> dict[str, str] | None:
+    normalized = (developer or "").strip().casefold()
+    for aliases, partner in DIRECT_DEVELOPER_COOPERATION:
+        if any(alias.casefold() in normalized for alias in aliases):
+            return {
+                "cooperation_level": "开发商直接合作",
+                "cooperation_partner": partner,
+            }
+    return None
+
+
 def normalize_project_for_file(project: str, file_name: str) -> str:
     low = file_name.lower()
     if low.startswith("rv-ready") or low.startswith("rv-westwood") or low.startswith("rv-wright"):
@@ -914,10 +942,17 @@ def build_data() -> dict:
             state_city = path_city
         project["data_source"] = "Drive"
         project["city"] = state_city or project.get("city") or infer_city(project_name)
-        project["developer"] = state.get("developer") or project.get("developer") or infer_developer(project_name)
+        state_developer = state.get("developer", "")
+        if state_developer in {"未分类", "Unclassified", "Unknown", "未记录"}:
+            state_developer = ""
+        project["developer"] = state_developer or project.get("developer") or infer_developer(project_name)
         cooperation = infer_cooperation(project_name)
-        project["cooperation_level"] = state.get("cooperation_level") or project.get("cooperation_level") or cooperation["cooperation_level"]
-        project["cooperation_partner"] = state.get("cooperation_partner") or project.get("cooperation_partner") or cooperation["cooperation_partner"]
+        direct_cooperation = infer_direct_developer_cooperation(project["developer"])
+        if direct_cooperation:
+            project.update(direct_cooperation)
+        else:
+            project["cooperation_level"] = state.get("cooperation_level") or project.get("cooperation_level") or cooperation["cooperation_level"]
+            project["cooperation_partner"] = state.get("cooperation_partner") or project.get("cooperation_partner") or cooperation["cooperation_partner"]
         project["path"] = state.get("path", "")
         project["folder_url"] = state.get("folder_url") or project.get("folder_url", "")
         project["price_folder_url"] = state.get("price_folder_url", "")
