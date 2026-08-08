@@ -765,6 +765,14 @@ RENAKER_PROJECTS = {
     "M15 - Contour",
     "M3 - Bankside",
     "M3 - Vista River Gardens",
+    "M3 - West Gate",
+}
+
+SAVILLS_WEBSITE_PROJECTS = {
+    "E16 - Cerulean Quarter - Completed",
+    "NW2 - Brent Cross Town - Completed",
+    "SW18-Riverside Quarter Development",
+    "TW9 - Richmond Square",
 }
 
 
@@ -959,6 +967,11 @@ def build_data() -> dict:
         direct_cooperation = infer_direct_developer_cooperation(project["developer"])
         if direct_cooperation:
             project.update(direct_cooperation)
+        elif project_name in SAVILLS_WEBSITE_PROJECTS:
+            project.update({
+                "cooperation_level": "独代合作",
+                "cooperation_partner": "SAVILLS",
+            })
         else:
             project["cooperation_level"] = state.get("cooperation_level") or project.get("cooperation_level") or cooperation["cooperation_level"]
             project["cooperation_partner"] = state.get("cooperation_partner") or project.get("cooperation_partner") or cooperation["cooperation_partner"]
