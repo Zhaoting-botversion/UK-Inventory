@@ -749,9 +749,21 @@ DIRECT_DEVELOPER_COOPERATION = (
     (("fenton whelan",), "Fenton Whelan"),
 )
 
+DEVELOPER_COOPERATION = (
+    (("knight dragon",), "Knight Dragon"),
+    (("third.i",), "Third.i"),
+    (("concord london",), "Concord London"),
+)
+
 
 def infer_direct_developer_cooperation(developer: str) -> dict[str, str] | None:
     normalized = (developer or "").strip().casefold()
+    for aliases, partner in DEVELOPER_COOPERATION:
+        if any(alias.casefold() in normalized for alias in aliases):
+            return {
+                "cooperation_level": "开发商合作",
+                "cooperation_partner": partner,
+            }
     for aliases, partner in DIRECT_DEVELOPER_COOPERATION:
         if any(alias.casefold() in normalized for alias in aliases):
             return {
@@ -773,6 +785,27 @@ SAVILLS_WEBSITE_PROJECTS = {
     "NW2 - Brent Cross Town - Completed",
     "SW18-Riverside Quarter Development",
     "TW9 - Richmond Square",
+}
+
+PROJECT_COOPERATION_RULE_OVERRIDES = {
+    "SW1E - No.1 Palace Street": ("独代合作", "莱坊"),
+    "W10 - Portobello Square - Completed": ("独代合作", "莱坊"),
+    "W11 - The Pembridge": ("独代合作", "莱坊"),
+    "E3 - Oxbow": ("独代合作", "莱坊"),
+    "W4 - Chiswick Green": ("独代合作", "莱坊"),
+    "SW3 - The Lucan-completed": ("独代合作", "SAVILLS"),
+    "W1W - 19 Bolsover Street": ("独代合作", "SAVILLS"),
+    "W1W - The Bolsover": ("独代合作", "SAVILLS"),
+    "W2 - Vabel Townhouse": ("独代合作", "SAVILLS"),
+    "Liverpool - Abbey Row": ("独代合作", "SAVILLS"),
+    "Liverpool - The Forge": ("独代合作", "SAVILLS"),
+    "HA9 - The Pages - Est Complete Sep 2026": ("独代合作", "SAVILLS"),
+    "SW8 - DAMAC Tower Nine Elms": ("开发商合作", "DAMAC"),
+    "W1T - Fitzroy Walk": ("独代合作", "CBRE"),
+    "W1U - Marylebone Mansions": ("独代合作", "CBRE"),
+    "WC2B - Chapter House": ("独代合作", "CBRE"),
+    "WC2R - Strand Chamber": ("独代合作", "CBRE"),
+    "W2 - Paddington Gardens": ("独代合作", "JLL"),
 }
 
 
@@ -963,9 +996,17 @@ def build_data() -> dict:
         project["developer"] = state_developer or project.get("developer") or infer_developer(project_name)
         if project_name in RENAKER_PROJECTS:
             project["developer"] = "Renaker"
+        elif project_name == "SW8 - DAMAC Tower Nine Elms":
+            project["developer"] = "DAMAC"
         cooperation = infer_cooperation(project_name)
         direct_cooperation = infer_direct_developer_cooperation(project["developer"])
-        if direct_cooperation:
+        rule_override = PROJECT_COOPERATION_RULE_OVERRIDES.get(project_name)
+        if rule_override:
+            project.update({
+                "cooperation_level": rule_override[0],
+                "cooperation_partner": rule_override[1],
+            })
+        elif direct_cooperation:
             project.update(direct_cooperation)
         elif project_name in SAVILLS_WEBSITE_PROJECTS:
             project.update({
