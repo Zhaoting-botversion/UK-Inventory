@@ -743,7 +743,7 @@ DIRECT_DEVELOPER_COOPERATION = (
     (("ballymore",), "Ballymore"),
     (("salboy",), "Salboy"),
     (("renaker",), "Renaker"),
-    (("select property", "selected property"), "Selected Property"),
+    (("select property", "selected property"), "Select Property"),
     (("rockwell property", "rockwell"), "Rockwell"),
     (("富力集团", "富力"), "富力集团"),
     (("fenton whelan",), "Fenton Whelan"),
@@ -759,6 +759,13 @@ def infer_direct_developer_cooperation(developer: str) -> dict[str, str] | None:
                 "cooperation_partner": partner,
             }
     return None
+
+
+RENAKER_PROJECTS = {
+    "M15 - Contour",
+    "M3 - Bankside",
+    "M3 - Vista River Gardens",
+}
 
 
 def normalize_project_for_file(project: str, file_name: str) -> str:
@@ -946,6 +953,8 @@ def build_data() -> dict:
         if state_developer in {"未分类", "Unclassified", "Unknown", "未记录"}:
             state_developer = ""
         project["developer"] = state_developer or project.get("developer") or infer_developer(project_name)
+        if project_name in RENAKER_PROJECTS:
+            project["developer"] = "Renaker"
         cooperation = infer_cooperation(project_name)
         direct_cooperation = infer_direct_developer_cooperation(project["developer"])
         if direct_cooperation:
