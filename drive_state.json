@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-08T16:35:24",
+  "synced_at": "2026-08-11T09:47:23",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1343,67 +1343,6 @@
           "file_url": "https://drive.google.com/file/d/1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG/view?usp=drivesdk",
           "modified_at": "2026-06-08T09:24:33.000Z",
           "price_date": "08.06.2026"
-        }
-      ],
-      "notes": []
-    },
-    "E3 - Hertford Mill": {
-      "project": "E3 - Hertford Mill",
-      "city": "Inner London",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Hertford Mill",
-      "folder_id": "1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
-      "folder_url": "https://drive.google.com/drive/folders/1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
-      "price_folder_id": "1GEdHsH-UIWFCQeX7Jp_JvytszvNPTjPD",
-      "price_folder_url": "https://drive.google.com/drive/folders/1GEdHsH-UIWFCQeX7Jp_JvytszvNPTjPD",
-      "old_price_folder_id": "1aWDtSuuAYl3Ggww9prfSlE8XzPoEj4OO",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1aWDtSuuAYl3Ggww9prfSlE8XzPoEj4OO",
-      "latest_files": [
-        {
-          "file": "HERTFORD MILL BLOCK C 1 BEDROOM PRICE LIST 26.07.26.pdf",
-          "file_id": "1P-ENjy_2vYpPYfECmg4jgj4l5FgJmoPw",
-          "file_url": "https://drive.google.com/file/d/1P-ENjy_2vYpPYfECmg4jgj4l5FgJmoPw/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:04:48.796Z",
-          "price_date": "26.07.26"
-        },
-        {
-          "file": "COPPER YARD PRICE LIST.pdf",
-          "file_id": "1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW",
-          "file_url": "https://drive.google.com/file/d/1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:21.992Z",
-          "price_date": ""
-        },
-        {
-          "file": "1 BEDROOM PRICE LIST - HM 12.06.26.pdf",
-          "file_id": "1yEuN8HAIXuq19OExp6_K5yWRSZBVAmps",
-          "file_url": "https://drive.google.com/file/d/1yEuN8HAIXuq19OExp6_K5yWRSZBVAmps/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:52:50.088Z",
-          "price_date": "12.06.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "HERTFORD MILL BLOCK C 1 BEDROOM PRICE LIST 05.07.26.pdf",
-          "file_id": "1NnlDEr-sRsWIh4h3B5fCf3I6hKTwml-p",
-          "file_url": "https://drive.google.com/file/d/1NnlDEr-sRsWIh4h3B5fCf3I6hKTwml-p/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:42.694Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "HERTFORD MILL - BLOCK C PRICE LIST.pdf",
-          "file_id": "1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x",
-          "file_url": "https://drive.google.com/file/d/1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:40:11.000Z",
-          "price_date": ""
-        },
-        {
-          "file": "HERTFORD MILL BLOCK C - 3 BEDROOM PRICE LIST.pdf",
-          "file_id": "1DB-bQXfnz39z_qguKolFevorWjoXf06O",
-          "file_url": "https://drive.google.com/file/d/1DB-bQXfnz39z_qguKolFevorWjoXf06O/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:40:11.000Z",
-          "price_date": ""
         }
       ],
       "notes": []
@@ -4814,39 +4753,6 @@
       ],
       "notes": []
     },
-    "SW18 - King George's Gate": {
-      "project": "SW18 - King George's Gate",
-      "city": "Inner London",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW18 - King George's Gate",
-      "folder_id": "1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
-      "folder_url": "https://drive.google.com/drive/folders/1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
-      "price_folder_id": "1_-bdrORXLn7OC6sQETgI1eBWFQLCrDrb",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_-bdrORXLn7OC6sQETgI1eBWFQLCrDrb",
-      "old_price_folder_id": "1m1xZmupnlIky4ZEGC3n3v0JzouIEDfyw",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1m1xZmupnlIky4ZEGC3n3v0JzouIEDfyw",
-      "latest_files": [
-        {
-          "file": "KGG Price list - 6-7-26.pdf",
-          "file_id": "1ok9tXIerTBSzgUJlohR-_FGob_-Pp5C5",
-          "file_url": "https://drive.google.com/file/d/1ok9tXIerTBSzgUJlohR-_FGob_-Pp5C5/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:48.883Z",
-          "price_date": "6-7-26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "KGG.pdf",
-          "file_id": "1lz9xOl2bAqlsCiPB3e6W3_ZWGQKoXkHt",
-          "file_url": "https://drive.google.com/file/d/1lz9xOl2bAqlsCiPB3e6W3_ZWGQKoXkHt/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:53:10.689Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
     "SW18 - Wandsworth Mills": {
       "project": "SW18 - Wandsworth Mills",
       "city": "Inner London",
@@ -6437,79 +6343,6 @@
       ],
       "notes": []
     },
-    "SL5 - Heatherwood Royal": {
-      "project": "SL5 - Heatherwood Royal",
-      "city": "Others",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Berkshire 伯克郡 / SL5 - Heatherwood Royal",
-      "folder_id": "1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
-      "folder_url": "https://drive.google.com/drive/folders/1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
-      "price_folder_id": "1u0u9p9LMdcEH3rr5DSfw0dtH5hCy6IEO",
-      "price_folder_url": "https://drive.google.com/drive/folders/1u0u9p9LMdcEH3rr5DSfw0dtH5hCy6IEO",
-      "old_price_folder_id": "1-UIdax1zCW7q4Rax_3jlNrM4Y2WHhoaF",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1-UIdax1zCW7q4Rax_3jlNrM4Y2WHhoaF",
-      "latest_files": [
-        {
-          "file": "Heatherwood Royal - Week 30.pdf",
-          "file_id": "1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw",
-          "file_url": "https://drive.google.com/file/d/1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:04:32.250Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Heatherwood Royal - 30.06.26.pdf",
-          "file_id": "1HK3rClAllvLoILOOORSJVqnoxH90X_cZ",
-          "file_url": "https://drive.google.com/file/d/1HK3rClAllvLoILOOORSJVqnoxH90X_cZ/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:36.166Z",
-          "price_date": "30.06.26"
-        }
-      ],
-      "notes": []
-    },
-    "SL6 - Harvest Hill": {
-      "project": "SL6 - Harvest Hill",
-      "city": "Others",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Others 其他 / Berkshire 伯克郡 / SL6 - Harvest Hill",
-      "folder_id": "1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
-      "folder_url": "https://drive.google.com/drive/folders/1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
-      "price_folder_id": "1coKuvVlXLS-dxywR7ASsxClouxLYzpEH",
-      "price_folder_url": "https://drive.google.com/drive/folders/1coKuvVlXLS-dxywR7ASsxClouxLYzpEH",
-      "old_price_folder_id": "1ZzGaJEQLt7pyHUEIy0EeP0En0jzXAObX",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1ZzGaJEQLt7pyHUEIy0EeP0En0jzXAObX",
-      "latest_files": [
-        {
-          "file": "2026-W28 - Harvest Hill - Price List.pdf",
-          "file_id": "1HeWzBwgUGtqOlOOYzw2mk8BACRXo7utH",
-          "file_url": "https://drive.google.com/file/d/1HeWzBwgUGtqOlOOYzw2mk8BACRXo7utH/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:28.342Z",
-          "price_date": ""
-        },
-        {
-          "file": "Harvest Hill - Week 24.pdf",
-          "file_id": "1tkhok6ZzElPYXeUpZPqZLS50fE37IUQQ",
-          "file_url": "https://drive.google.com/file/d/1tkhok6ZzElPYXeUpZPqZLS50fE37IUQQ/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:53:38.677Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Harvesst Hill price.pdf",
-          "file_id": "1CgIVfzAj3Uzn0GOgI2WcmTsyopqXtsU6",
-          "file_url": "https://drive.google.com/file/d/1CgIVfzAj3Uzn0GOgI2WcmTsyopqXtsU6/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:53:36.615Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
     "SL1 - Horlicks Quarter": {
       "project": "SL1 - Horlicks Quarter",
       "city": "Others",
@@ -7686,31 +7519,6 @@
           "file_url": "https://drive.google.com/file/d/1rsMneB5MtPedtlBnSC9wxhcqIp6hZthN/view?usp=drivesdk",
           "modified_at": "2026-07-03T01:41:31.351Z",
           "price_date": "01.07.2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
-    "N12 - The Tramworks": {
-      "project": "N12 - The Tramworks",
-      "city": "Outer London",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Barnet 巴尼特 / N12 - The Tramworks",
-      "folder_id": "1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm",
-      "folder_url": "https://drive.google.com/drive/folders/1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm",
-      "price_folder_id": "1cH30k2pKxLZgo3ooHfiQqIsJWvhe3-37",
-      "price_folder_url": "https://drive.google.com/drive/folders/1cH30k2pKxLZgo3ooHfiQqIsJWvhe3-37",
-      "old_price_folder_id": "1lmDGXf4vPBzpT0BFMKRPq1CrDEQ09tEv",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1lmDGXf4vPBzpT0BFMKRPq1CrDEQ09tEv",
-      "latest_files": [
-        {
-          "file": "Tramworks Houses Price List 13.07.2026.pdf",
-          "file_id": "1-S383CFBZpvVdzhlZwwrpliU96dyRfdh",
-          "file_url": "https://drive.google.com/file/d/1-S383CFBZpvVdzhlZwwrpliU96dyRfdh/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:01:17.113Z",
-          "price_date": "13.07.2026"
         }
       ],
       "old_files": [],
@@ -9542,38 +9350,6 @@
       ],
       "notes": []
     },
-    "E10 - Coronation Square": {
-      "project": "E10 - Coronation Square",
-      "city": "Outer London",
-      "developer": "Taylor Wimpey",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Waltham Forest 沃尔瑟姆森林 / E10 - Coronation Square",
-      "folder_id": "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
-      "folder_url": "https://drive.google.com/drive/folders/1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
-      "price_folder_id": "1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
-      "old_price_folder_id": "1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
-      "latest_files": [
-        {
-          "file": "CORONATION SQUARE BLOCK D4 1 BEDROOM PRICE LIST.pdf",
-          "file_id": "1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7",
-          "file_url": "https://drive.google.com/file/d/1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:06:26.743Z",
-          "price_date": ""
-        },
-        {
-          "file": "CORONATION_SQUARE_BLOCK_D4_1_BEDROOM_PRICE_LIST.pdf",
-          "file_id": "1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-",
-          "file_url": "https://drive.google.com/file/d/1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-/view?usp=drivesdk",
-          "modified_at": "2026-06-23T10:53:00.836Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": []
-    },
     "W8 - Allen House-completed": {
       "project": "W8 - Allen House-completed",
       "city": "Inner London",
@@ -9866,20 +9642,296 @@
         }
       ],
       "notes": []
+    },
+    "E10 - Coronation Square": {
+      "project": "E10 - Coronation Square",
+      "city": "Outer London",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Waltham Forest 沃尔瑟姆森林 / E10 - Coronation Square",
+      "folder_id": "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
+      "folder_url": "https://drive.google.com/drive/folders/1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
+      "price_folder_id": "1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1kJygPUVnrNzj-JEmOYICxvarvpzczVbq",
+      "old_price_folder_id": "1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_1mRAxTAOQobhjGwt6J90KY1yosv61kt",
+      "latest_files": [
+        {
+          "file": "2026-08-10 - Development 6 - Coronation Square - Price List.pdf",
+          "file_id": "1_fczqkeiE5mI_luJy91DlPlnPBc3FhDm",
+          "file_url": "https://drive.google.com/file/d/1_fczqkeiE5mI_luJy91DlPlnPBc3FhDm/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:46:45.346Z",
+          "price_date": "26-08-10"
+        },
+        {
+          "file": "CORONATION SQUARE BLOCK D4 1 BEDROOM PRICE LIST.pdf",
+          "file_id": "1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7",
+          "file_url": "https://drive.google.com/file/d/1SKE36YwsVsloVw3YpgIeqmR8Nz7BbXn7/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:06:26.743Z",
+          "price_date": ""
+        },
+        {
+          "file": "CORONATION_SQUARE_BLOCK_D4_1_BEDROOM_PRICE_LIST.pdf",
+          "file_id": "1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-",
+          "file_url": "https://drive.google.com/file/d/1MNG2mmTsIBWixEkWzcCpp4fiWDJUFaj-/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:53:00.836Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [],
+      "notes": []
+    },
+    "SL6 - Harvest Hill": {
+      "project": "SL6 - Harvest Hill",
+      "city": "Others",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Berkshire 伯克郡 / SL6 - Harvest Hill",
+      "folder_id": "1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
+      "folder_url": "https://drive.google.com/drive/folders/1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
+      "price_folder_id": "1coKuvVlXLS-dxywR7ASsxClouxLYzpEH",
+      "price_folder_url": "https://drive.google.com/drive/folders/1coKuvVlXLS-dxywR7ASsxClouxLYzpEH",
+      "old_price_folder_id": "1ZzGaJEQLt7pyHUEIy0EeP0En0jzXAObX",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1ZzGaJEQLt7pyHUEIy0EeP0En0jzXAObX",
+      "latest_files": [
+        {
+          "file": "2026-08-03 - Scheme 8 - Harvest Hill - Price List.pdf",
+          "file_id": "1WFNAIoHMQqnABXCsLyj_souCmj3pRaQu",
+          "file_url": "https://drive.google.com/file/d/1WFNAIoHMQqnABXCsLyj_souCmj3pRaQu/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:46:51.603Z",
+          "price_date": "26-08-03"
+        },
+        {
+          "file": "2026-W28 - Harvest Hill - Price List.pdf",
+          "file_id": "1HeWzBwgUGtqOlOOYzw2mk8BACRXo7utH",
+          "file_url": "https://drive.google.com/file/d/1HeWzBwgUGtqOlOOYzw2mk8BACRXo7utH/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:28.342Z",
+          "price_date": ""
+        },
+        {
+          "file": "Harvest Hill - Week 24.pdf",
+          "file_id": "1tkhok6ZzElPYXeUpZPqZLS50fE37IUQQ",
+          "file_url": "https://drive.google.com/file/d/1tkhok6ZzElPYXeUpZPqZLS50fE37IUQQ/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:53:38.677Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Harvesst Hill price.pdf",
+          "file_id": "1CgIVfzAj3Uzn0GOgI2WcmTsyopqXtsU6",
+          "file_url": "https://drive.google.com/file/d/1CgIVfzAj3Uzn0GOgI2WcmTsyopqXtsU6/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:53:36.615Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "SL5 - Heatherwood Royal": {
+      "project": "SL5 - Heatherwood Royal",
+      "city": "Others",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Others 其他 / Berkshire 伯克郡 / SL5 - Heatherwood Royal",
+      "folder_id": "1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
+      "folder_url": "https://drive.google.com/drive/folders/1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
+      "price_folder_id": "1u0u9p9LMdcEH3rr5DSfw0dtH5hCy6IEO",
+      "price_folder_url": "https://drive.google.com/drive/folders/1u0u9p9LMdcEH3rr5DSfw0dtH5hCy6IEO",
+      "old_price_folder_id": "1-UIdax1zCW7q4Rax_3jlNrM4Y2WHhoaF",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1-UIdax1zCW7q4Rax_3jlNrM4Y2WHhoaF",
+      "latest_files": [
+        {
+          "file": "2026-W30 - Scheme 9 - Heatherwood Royal - Price List.pdf",
+          "file_id": "1E6Bbrpl-D1Fuu3FBZoPR0UJpMtuYy4GP",
+          "file_url": "https://drive.google.com/file/d/1E6Bbrpl-D1Fuu3FBZoPR0UJpMtuYy4GP/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:46:57.708Z",
+          "price_date": ""
+        },
+        {
+          "file": "Heatherwood Royal - Week 30.pdf",
+          "file_id": "1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw",
+          "file_url": "https://drive.google.com/file/d/1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:04:32.250Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Heatherwood Royal - 30.06.26.pdf",
+          "file_id": "1HK3rClAllvLoILOOORSJVqnoxH90X_cZ",
+          "file_url": "https://drive.google.com/file/d/1HK3rClAllvLoILOOORSJVqnoxH90X_cZ/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:36.166Z",
+          "price_date": "30.06.26"
+        }
+      ],
+      "notes": []
+    },
+    "E3 - Hertford Mill": {
+      "project": "E3 - Hertford Mill",
+      "city": "Inner London",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E3 - Hertford Mill",
+      "folder_id": "1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
+      "folder_url": "https://drive.google.com/drive/folders/1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
+      "price_folder_id": "1GEdHsH-UIWFCQeX7Jp_JvytszvNPTjPD",
+      "price_folder_url": "https://drive.google.com/drive/folders/1GEdHsH-UIWFCQeX7Jp_JvytszvNPTjPD",
+      "old_price_folder_id": "1aWDtSuuAYl3Ggww9prfSlE8XzPoEj4OO",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1aWDtSuuAYl3Ggww9prfSlE8XzPoEj4OO",
+      "latest_files": [
+        {
+          "file": "2026-08-09 - Development 4 - Copper Yard - Price List.pdf",
+          "file_id": "1HlK07RC6NajgGcLENMK3WX8wqtNU341E",
+          "file_url": "https://drive.google.com/file/d/1HlK07RC6NajgGcLENMK3WX8wqtNU341E/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:47:08.505Z",
+          "price_date": "26-08-09"
+        },
+        {
+          "file": "2026-08-09 - Development 3 - Hertford Mill - Price List.pdf",
+          "file_id": "1pli5d6fbeI9wOL6Ytrc6ZcKTfnu-_4-X",
+          "file_url": "https://drive.google.com/file/d/1pli5d6fbeI9wOL6Ytrc6ZcKTfnu-_4-X/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:47:03.199Z",
+          "price_date": "26-08-09"
+        },
+        {
+          "file": "HERTFORD MILL BLOCK C 1 BEDROOM PRICE LIST 26.07.26.pdf",
+          "file_id": "1P-ENjy_2vYpPYfECmg4jgj4l5FgJmoPw",
+          "file_url": "https://drive.google.com/file/d/1P-ENjy_2vYpPYfECmg4jgj4l5FgJmoPw/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:04:48.796Z",
+          "price_date": "26.07.26"
+        },
+        {
+          "file": "COPPER YARD PRICE LIST.pdf",
+          "file_id": "1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW",
+          "file_url": "https://drive.google.com/file/d/1PjO3t0H8JRXyJ7ZCr4n7CmxfV9a-GXYW/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:21.992Z",
+          "price_date": ""
+        },
+        {
+          "file": "1 BEDROOM PRICE LIST - HM 12.06.26.pdf",
+          "file_id": "1yEuN8HAIXuq19OExp6_K5yWRSZBVAmps",
+          "file_url": "https://drive.google.com/file/d/1yEuN8HAIXuq19OExp6_K5yWRSZBVAmps/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:52:50.088Z",
+          "price_date": "12.06.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "HERTFORD MILL BLOCK C 1 BEDROOM PRICE LIST 05.07.26.pdf",
+          "file_id": "1NnlDEr-sRsWIh4h3B5fCf3I6hKTwml-p",
+          "file_url": "https://drive.google.com/file/d/1NnlDEr-sRsWIh4h3B5fCf3I6hKTwml-p/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:42.694Z",
+          "price_date": "05.07.26"
+        },
+        {
+          "file": "HERTFORD MILL - BLOCK C PRICE LIST.pdf",
+          "file_id": "1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x",
+          "file_url": "https://drive.google.com/file/d/1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:40:11.000Z",
+          "price_date": ""
+        },
+        {
+          "file": "HERTFORD MILL BLOCK C - 3 BEDROOM PRICE LIST.pdf",
+          "file_id": "1DB-bQXfnz39z_qguKolFevorWjoXf06O",
+          "file_url": "https://drive.google.com/file/d/1DB-bQXfnz39z_qguKolFevorWjoXf06O/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:40:11.000Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "SW18 - King George's Gate": {
+      "project": "SW18 - King George's Gate",
+      "city": "Inner London",
+      "developer": "Taylor Wimpey",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW18 - King George's Gate",
+      "folder_id": "1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
+      "folder_url": "https://drive.google.com/drive/folders/1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
+      "price_folder_id": "1_-bdrORXLn7OC6sQETgI1eBWFQLCrDrb",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_-bdrORXLn7OC6sQETgI1eBWFQLCrDrb",
+      "old_price_folder_id": "1m1xZmupnlIky4ZEGC3n3v0JzouIEDfyw",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1m1xZmupnlIky4ZEGC3n3v0JzouIEDfyw",
+      "latest_files": [
+        {
+          "file": "2026-W26 - Scheme 5 - King George's Gate - Price List.pdf",
+          "file_id": "13NXDERgsKhaSw_lPUS9ELRcMi1aSNiX1",
+          "file_url": "https://drive.google.com/file/d/13NXDERgsKhaSw_lPUS9ELRcMi1aSNiX1/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:47:13.690Z",
+          "price_date": ""
+        },
+        {
+          "file": "KGG Price list - 6-7-26.pdf",
+          "file_id": "1ok9tXIerTBSzgUJlohR-_FGob_-Pp5C5",
+          "file_url": "https://drive.google.com/file/d/1ok9tXIerTBSzgUJlohR-_FGob_-Pp5C5/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:00:48.883Z",
+          "price_date": "6-7-26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "KGG.pdf",
+          "file_id": "1lz9xOl2bAqlsCiPB3e6W3_ZWGQKoXkHt",
+          "file_url": "https://drive.google.com/file/d/1lz9xOl2bAqlsCiPB3e6W3_ZWGQKoXkHt/view?usp=drivesdk",
+          "modified_at": "2026-06-23T10:53:10.689Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
+    "N12 - The Tramworks": {
+      "project": "N12 - The Tramworks",
+      "city": "Outer London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Outer London 外伦敦 / Barnet 巴尼特 / N12 - The Tramworks",
+      "folder_id": "1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm",
+      "folder_url": "https://drive.google.com/drive/folders/1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm",
+      "price_folder_id": "1cH30k2pKxLZgo3ooHfiQqIsJWvhe3-37",
+      "price_folder_url": "https://drive.google.com/drive/folders/1cH30k2pKxLZgo3ooHfiQqIsJWvhe3-37",
+      "old_price_folder_id": "1lmDGXf4vPBzpT0BFMKRPq1CrDEQ09tEv",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1lmDGXf4vPBzpT0BFMKRPq1CrDEQ09tEv",
+      "latest_files": [
+        {
+          "file": "2026-08-07 - Development 7 - The Tramworks - Price List.pdf",
+          "file_id": "1EmlG5Aoh_PZUt5Sz7ORSrj-j0bi9wr_l",
+          "file_url": "https://drive.google.com/file/d/1EmlG5Aoh_PZUt5Sz7ORSrj-j0bi9wr_l/view?usp=drivesdk",
+          "modified_at": "2026-08-11T01:47:18.825Z",
+          "price_date": "26-08-07"
+        },
+        {
+          "file": "Tramworks Houses Price List 13.07.2026.pdf",
+          "file_id": "1-S383CFBZpvVdzhlZwwrpliU96dyRfdh",
+          "file_url": "https://drive.google.com/file/d/1-S383CFBZpvVdzhlZwwrpliU96dyRfdh/view?usp=drivesdk",
+          "modified_at": "2026-07-20T09:01:17.113Z",
+          "price_date": "13.07.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "1PXEEVpmJkyYnkoDdAv0zh8ed2vSq2wM-",
-    "1mAUhyvxLOQpnxEsaTKuje6L5UiDbye4J",
-    "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-    "156kryoFDsAoK7WRCzmNA146os8eOaDKl"
+    "1gkIgZTq6plW4w7i41ZUqXigLxIZC7hcX",
+    "1Ernh75eBv4JE-rWZiL4Cgt8QucZRX0BX",
+    "1ht2Xjduwk6d8Gnoh3sgZzS48JIcMrlK1",
+    "1xIm0gcbiy3HdCiblgUk4Ljrb90Z7piC0",
+    "1ncpkBb-ujFk_N0Cm5_9MvV4Nf9FvTl7x",
+    "1hviSk-gWYIvZcLBkrJ-DNQFEM5azAHsm"
   ],
   "targeted_projects": [
-    "W8 - Allen House-completed",
-    "EC1V - Angel Village - Est. complete from Q4 2026",
-    "SW6 - Chelsea Waterfront Tower East",
-    "TW9 - Richmond Square"
-  ],
-  "published_at": "2026-08-08T16:37:30"
+    "E10 - Coronation Square",
+    "SL6 - Harvest Hill",
+    "SL5 - Heatherwood Royal",
+    "E3 - Hertford Mill",
+    "SW18 - King George's Gate",
+    "N12 - The Tramworks"
+  ]
 }
