@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-11T10:27:27",
+  "synced_at": "2026-08-11T10:29:06",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -9835,16 +9835,16 @@
           "file_url": "https://drive.google.com/file/d/1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54/view?usp=drivesdk",
           "modified_at": "2026-08-11T02:18:35.240Z",
           "price_date": "August 2026"
-        },
+        }
+      ],
+      "old_files": [
         {
           "file": "Savills Tower East Price List 3rd August 2026.pdf",
           "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
           "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
           "modified_at": "2026-08-08T08:23:31.000Z",
           "price_date": "August 2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Tower East  Pricelist  13th July 2026.pdf",
           "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
@@ -9967,5 +9967,6 @@
   ],
   "targeted_projects": [
     "SW6 - Chelsea Waterfront Tower East"
-  ]
+  ],
+  "published_at": "2026-08-11T10:32:22"
 }
