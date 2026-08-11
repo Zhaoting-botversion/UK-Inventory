@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-11T10:20:46",
+  "synced_at": "2026-08-11T10:27:27",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -9801,6 +9801,13 @@
       "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
       "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
       "latest_files": [
+        {
+          "file": "Tower East  Pricelist 10th August 2026.pdf",
+          "file_id": "1V3_I4735-bNR8REBdshZjnlr7Muq23_O",
+          "file_url": "https://drive.google.com/file/d/1V3_I4735-bNR8REBdshZjnlr7Muq23_O/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:26:09.971Z",
+          "price_date": "August 2026"
+        },
         {
           "file": "Water Gardens Pricelist 10th August 2026.pdf",
           "file_id": "1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX",
