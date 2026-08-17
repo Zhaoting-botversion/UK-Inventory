@@ -10356,8 +10356,33 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "SW6 - Lillie Square (London Square)": {
+      "project": "SW6 - Lillie Square (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "开发商直接合作",
+      "cooperation_partner": "London Square",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Lillie Square (London Square)",
+      "folder_id": "1N2i1jE2PIpPq6cV1jVN-wt8uvTYW6Rbu",
+      "folder_url": "https://drive.google.com/drive/folders/1N2i1jE2PIpPq6cV1jVN-wt8uvTYW6Rbu",
+      "price_folder_id": "13N1qMrnAXOMPCE7XHEj4_aoaLEU11ZQs",
+      "price_folder_url": "https://drive.google.com/drive/folders/13N1qMrnAXOMPCE7XHEj4_aoaLEU11ZQs",
+      "old_price_folder_id": "1uqFgs6NslWpFy5d7Xl2sSfITzavkuie2",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1uqFgs6NslWpFy5d7Xl2sSfITzavkuie2",
+      "latest_files": [
+        {
+          "file": "Lillie Square - Price List - 27.07.2026.pdf",
+          "file_id": "1Wqbm6tlhM-6GK6tQZa5s14_Dnt3xjPEF",
+          "file_url": "https://drive.google.com/file/d/1Wqbm6tlhM-6GK6tQZa5s14_Dnt3xjPEF/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:40:48.183Z",
+          "price_date": "27.07.2026"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-08-17T11:52:11"
+  "published_at": "2026-08-17T11:56:01"
 }
