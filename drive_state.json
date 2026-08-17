@@ -8738,7 +8738,7 @@
       "project": "CR0 - Croydon (London Square)",
       "city": "Outer London",
       "developer": "London Square",
-      "cooperation_level": "开发商合作",
+      "cooperation_level": "开发商直接合作",
       "cooperation_partner": "London Square",
       "path": "UK 英国 / Outer London 外伦敦 / Croydon 克罗伊登 / CR0 - Croydon (London Square)",
       "folder_id": "1MTNIyhO69MsZ5zPdpKYw3_Gp0Xisz4zf",
@@ -8749,55 +8749,39 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1iqhxkWeUGaIW9QXHtlaMLbmB4XXrTSCI",
       "latest_files": [
         {
-          "file": "Croydon Price List - 29 June 26.pdf",
-          "file_id": "1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-",
-          "file_url": "https://drive.google.com/file/d/1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:30:36.600Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Croydon Price List - 15 June 26.pdf",
-          "file_id": "1YVXuU4dd_MdhsevNv2HJzILgnZV6eT_d",
-          "file_url": "https://drive.google.com/file/d/1YVXuU4dd_MdhsevNv2HJzILgnZV6eT_d/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:46:45.072Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "CR0 - Pearson Building (London Square)": {
-      "project": "CR0 - Pearson Building (London Square)",
-      "city": "Outer London",
-      "developer": "London Square",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Croydon 克罗伊登 / CR0 - Pearson Building (London Square)",
-      "folder_id": "1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-      "folder_url": "https://drive.google.com/drive/folders/1KysiNWHjTHSUmFWddpwchMqLpWLsSVGC",
-      "price_folder_id": "1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Z9nPTtJ6jYpeFGsKKfrjpRB4DiX0xyOg",
-      "old_price_folder_id": "1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1h4ZIK69VFZ1SdYlamSTiwz4d0LbkAnx2",
-      "latest_files": [
-        {
           "file": "LSQ - Pearson Price List - 23 July 26.pdf",
           "file_id": "1YIITk0lUmgAUv1St8ZnSdDglQJLvXYHw",
           "file_url": "https://drive.google.com/file/d/1YIITk0lUmgAUv1St8ZnSdDglQJLvXYHw/view?usp=drivesdk",
           "modified_at": "2026-07-29T02:40:54.538Z",
-          "price_date": ""
-        },
+          "price_date": "23 July 2026"
+        }
+      ],
+      "old_files": [
         {
           "file": "LSQ - Pearson Price List - 7 July 26.pdf",
           "file_id": "1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX",
           "file_url": "https://drive.google.com/file/d/1GmB9BrBP5CXbk0G3k1LSsHF57Pfr8PGX/view?usp=drivesdk",
           "modified_at": "2026-07-10T11:10:21.792Z",
-          "price_date": ""
+          "price_date": "7 July 2026"
+        },
+        {
+          "file": "Croydon Price List - 29 June 26.pdf",
+          "file_id": "1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-",
+          "file_url": "https://drive.google.com/file/d/1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:30:36.600Z",
+          "price_date": "29 June 2026"
+        },
+        {
+          "file": "Croydon Price List - 15 June 26.pdf",
+          "file_id": "1YVXuU4dd_MdhsevNv2HJzILgnZV6eT_d",
+          "file_url": "https://drive.google.com/file/d/1YVXuU4dd_MdhsevNv2HJzILgnZV6eT_d/view?usp=drivesdk",
+          "modified_at": "2026-06-22T05:46:45.072Z",
+          "price_date": "15 June 2026"
         }
       ],
-      "old_files": [],
-      "notes": []
+      "notes": [
+        "Pearson Building confirmed as the same Croydon project and inventory; merged 2026-08-17."
+      ]
     },
     "NW10 - Twyford Park": {
       "project": "NW10 - Twyford Park",
@@ -10384,5 +10368,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-08-17T11:56:01"
+  "published_at": "2026-08-17T13:57:02"
 }
