@@ -5912,7 +5912,15 @@
       "price_folder_url": "https://drive.google.com/drive/folders/1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
       "old_price_folder_id": "",
       "old_price_folder_url": "",
-      "latest_files": [],
+      "latest_files": [
+        {
+          "file": "RPT Price list 04082026.pdf",
+          "file_id": "1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD",
+          "file_url": "https://drive.google.com/file/d/1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD/view?usp=drivesdk",
+          "modified_at": "2026-08-13T10:01:06Z",
+          "price_date": "04.08.2026"
+        }
+      ],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -10323,8 +10331,33 @@
         }
       ],
       "notes": []
+    },
+    "N7 - Holloway Park": {
+      "project": "N7 - Holloway Park",
+      "city": "London",
+      "developer": "Peabody",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / North & North West 北和西北伦敦 / N7 - Holloway Park",
+      "folder_id": "1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "folder_url": "https://drive.google.com/drive/folders/1kc6fq8QdW1lKsJQFeQYd8ikRKd-BeqUD",
+      "price_folder_id": "1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1wouLQNSjoObY8Y1UaDI6TRL2Tfd_cNE6",
+      "old_price_folder_id": "1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1FxUkp_hczuKBDtnu7VHTGcRVlchQ4p33",
+      "latest_files": [
+        {
+          "file": "Holloway Price List 19.06 .pdf",
+          "file_id": "1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn",
+          "file_url": "https://drive.google.com/file/d/1shCB1kmaGy6p8EM5FcIMTovdtwxBFZjn/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:18.713Z",
+          "price_date": "19.06"
+        }
+      ],
+      "old_files": [],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-08-13T18:53:00"
+  "published_at": "2026-08-17T11:52:11"
 }
