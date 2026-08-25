@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-25T10:28:09",
+  "synced_at": "2026-08-25T10:50:33",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -7281,6 +7281,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1YzuOsUWgVACuKGGtBIONLWZOtLwMQ3oD",
       "latest_files": [
         {
+          "file": "Contour Availability List 21.08.2026.pdf",
+          "file_id": "1jj8tNArZJ8npuFDZVSSmoe-23nH3bvoa",
+          "file_url": "https://drive.google.com/file/d/1jj8tNArZJ8npuFDZVSSmoe-23nH3bvoa/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:45:29.009Z",
+          "price_date": "21.08.2026"
+        },
+        {
           "file": "Contour Availability List 17.07.2026.pdf",
           "file_id": "1oQ7etV3uOEGvpgErWwqg5stuhQao5pGP",
           "file_url": "https://drive.google.com/file/d/1oQ7etV3uOEGvpgErWwqg5stuhQao5pGP/view?usp=drivesdk",
@@ -7314,14 +7321,21 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1hF6yFQuTSqeH7AEa80oJydW6YhJkTj5q",
       "latest_files": [
         {
+          "file": "Bankside Availability List 21.08.2026.pdf",
+          "file_id": "1NlJCW39jYWisY13EyCxz5GfucWdMjB-E",
+          "file_url": "https://drive.google.com/file/d/1NlJCW39jYWisY13EyCxz5GfucWdMjB-E/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:45:47.149Z",
+          "price_date": "21.08.2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Bankside Availability List 17.07.2026.pdf",
           "file_id": "1SM4m22eWM-4Ge684ne0fDnt9DT8rO9rU",
           "file_url": "https://drive.google.com/file/d/1SM4m22eWM-4Ge684ne0fDnt9DT8rO9rU/view?usp=drivesdk",
           "modified_at": "2026-07-30T11:56:44.639Z",
           "price_date": "17.07.2026"
-        }
-      ],
-      "old_files": [
+        },
         {
           "file": "Bankside Availability List 26.06.2026.pdf",
           "file_id": "1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX",
@@ -7346,6 +7360,13 @@
       "old_price_folder_id": "11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
       "old_price_folder_url": "https://drive.google.com/drive/folders/11U93uBTad-2R0BnDSMfKGwmCGDO3hmYO",
       "latest_files": [
+        {
+          "file": "Vista River Gardens Availability 21.08.2026.pdf",
+          "file_id": "1Tzh8O7MquH3eZfGakxG6m4H75dT4eLCd",
+          "file_url": "https://drive.google.com/file/d/1Tzh8O7MquH3eZfGakxG6m4H75dT4eLCd/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:45:37.002Z",
+          "price_date": "21.08.2026"
+        },
         {
           "file": "Vista River Gardens Availability 17.07.2026.pdf",
           "file_id": "1zP5J4N-vcgVhksA-tIYvbQhEaffh__A8",
@@ -11147,5 +11168,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-08-25T10:30:26"
+  "published_at": "2026-08-25T10:53:44"
 }
