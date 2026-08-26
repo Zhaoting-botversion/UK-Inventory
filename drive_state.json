@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-25T10:50:33",
+  "synced_at": "2026-08-26T11:45:04",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1174,6 +1174,13 @@
           "file_url": "https://drive.google.com/file/d/1suT8kybVHRAzTFtijynNhAEPaWmCoShp/view?usp=drivesdk",
           "modified_at": "2026-08-07T07:50:45.084Z",
           "price_date": "02.08.2026"
+        },
+        {
+          "file": "SQP Daily Price List 12.07.2026.pdf",
+          "file_id": "1DSQNU4f7RQVjJIfm82QApzeKXGCQZk8G",
+          "file_url": "https://drive.google.com/file/d/1DSQNU4f7RQVjJIfm82QApzeKXGCQZk8G/view?usp=drivesdk",
+          "modified_at": "2026-07-15T03:03:47.000Z",
+          "price_date": "12.07.2026"
         },
         {
           "file": "SQP Daily Price List 04.07.2026.pdf",
@@ -4461,6 +4468,13 @@
           "file_url": "https://drive.google.com/file/d/1M6Mbby0MvhLIp_nHtupA6xIrPQCY2KYL/view?usp=drivesdk",
           "modified_at": "2026-06-27T10:13:05.000Z",
           "price_date": ""
+        },
+        {
+          "file": "One Five Fields Square - 9Sept25.pdf",
+          "file_id": "1rA7Of_uVnP_uYJHse-tGLcIovph_YuAa",
+          "file_url": "https://drive.google.com/file/d/1rA7Of_uVnP_uYJHse-tGLcIovph_YuAa/view?usp=drivesdk",
+          "modified_at": "2026-03-15T09:14:46.000Z",
+          "price_date": ""
         }
       ],
       "old_files": [],
@@ -4543,6 +4557,13 @@
           "file_url": "https://drive.google.com/file/d/13IPBqmHJIFB1vdiU5PDJQrbezI8btQiz/view?usp=drivesdk",
           "modified_at": "2026-04-13T09:42:08.000Z",
           "price_date": "Jan 2026"
+        },
+        {
+          "file": "The Lucan Prices December 2025.pdf",
+          "file_id": "1F5mr9R4DugNyvHWEwIYdFNybv46UfJit",
+          "file_url": "https://drive.google.com/file/d/1F5mr9R4DugNyvHWEwIYdFNybv46UfJit/view?usp=drivesdk",
+          "modified_at": "2025-11-29T01:22:55.000Z",
+          "price_date": "December 2025"
         }
       ],
       "notes": []
@@ -5119,6 +5140,13 @@
       "old_price_folder_url": "",
       "latest_files": [
         {
+          "file": "Ebury 202608.pdf",
+          "file_id": "1V6fCp1GjqMO7PUfzK94z1lGbFUWgXf_s",
+          "file_url": "https://drive.google.com/file/d/1V6fCp1GjqMO7PUfzK94z1lGbFUWgXf_s/view?usp=drivesdk",
+          "modified_at": "2026-08-25T07:58:43.000Z",
+          "price_date": "Ebury 2026"
+        },
+        {
           "file": "Ebury Price List 14.05.26.pdf",
           "file_id": "1aoPy6qXhPofJVNL-ux5CPsq8KnpOl42F",
           "file_url": "https://drive.google.com/file/d/1aoPy6qXhPofJVNL-ux5CPsq8KnpOl42F/view?usp=drivesdk",
@@ -5174,6 +5202,13 @@
           "file_url": "https://drive.google.com/file/d/1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh/view?usp=drivesdk",
           "modified_at": "2026-06-05T10:44:49.673Z",
           "price_date": "List 0605"
+        },
+        {
+          "file": "The Broadway - Customer Pricelist 28th October 2025.pdf",
+          "file_id": "1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl",
+          "file_url": "https://drive.google.com/file/d/1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl/view?usp=drivesdk",
+          "modified_at": "2025-11-04T07:26:03.000Z",
+          "price_date": "October 2025"
         }
       ],
       "notes": []
@@ -5316,6 +5351,13 @@
           "file_url": "https://drive.google.com/file/d/1o42frQ2feswxV0fyscjlugZVXz1L-q7z/view?usp=drivesdk",
           "modified_at": "2026-05-26T10:18:17.409Z",
           "price_date": "May 2026"
+        },
+        {
+          "file": "The Capston Pricelist_25.11(1).pdf",
+          "file_id": "1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ",
+          "file_url": "https://drive.google.com/file/d/1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ/view?usp=drivesdk",
+          "modified_at": "2025-11-29T01:12:11.000Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -7207,6 +7249,13 @@
           "file_id": "1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q",
           "file_url": "https://drive.google.com/file/d/1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q/view?usp=drivesdk",
           "modified_at": "2026-05-29T07:17:36.000Z",
+          "price_date": ""
+        },
+        {
+          "file": "Strand Chambers - September 25 Price List.pdf",
+          "file_id": "1StQO1XESAqZ-eAW_N_2zBUY360FWM4cA",
+          "file_url": "https://drive.google.com/file/d/1StQO1XESAqZ-eAW_N_2zBUY360FWM4cA/view?usp=drivesdk",
+          "modified_at": "2025-12-01T07:02:37.000Z",
           "price_date": ""
         }
       ],
@@ -10674,6 +10723,15 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
       "latest_files": [
         {
+          "file": "The Rivercape Price List - 25th August 2026.pdf",
+          "file_id": "1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J",
+          "file_url": "https://drive.google.com/file/d/1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J/view?usp=drivesdk",
+          "modified_at": "2026-08-26T03:38:54.625Z",
+          "price_date": "August 2026"
+        }
+      ],
+      "old_files": [
+        {
           "file": "Riverscape Price List - Summer Fete 2026.pdf",
           "file_id": "1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i",
           "file_url": "https://drive.google.com/file/d/1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i/view?usp=drivesdk",
@@ -10681,7 +10739,6 @@
           "price_date": "Fete 2026"
         }
       ],
-      "old_files": [],
       "notes": []
     },
     "E3 - Oxbow": {
@@ -11168,5 +11225,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-08-25T10:53:44"
+  "published_at": "2026-08-26T11:54:53"
 }
