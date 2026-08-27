@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-08-26T11:45:04",
+  "synced_at": "2026-08-27T09:08:22",
   "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1857,6 +1857,13 @@
       "old_price_folder_id": "1L6rdOfDA7xYHmYfGPKffInnnpzP8fqDI",
       "old_price_folder_url": "https://drive.google.com/drive/folders/1L6rdOfDA7xYHmYfGPKffInnnpzP8fqDI",
       "latest_files": [
+        {
+          "file": "OCP Price List Aug 2026.pdf",
+          "file_id": "1IajRzbSgBy8h1qSBqXjkW-kVufRRD8QR",
+          "file_url": "https://drive.google.com/file/d/1IajRzbSgBy8h1qSBqXjkW-kVufRRD8QR/view?usp=drivesdk",
+          "modified_at": "2026-08-27T01:06:08.153Z",
+          "price_date": "Aug 2026"
+        },
         {
           "file": "One Crown Place Price List March 2026.pdf",
           "file_id": "1iNNX753JHocaHT5JmI8oXO2DQ7plV1_d",
@@ -11225,5 +11232,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-08-26T11:54:53"
+  "published_at": "2026-08-27T09:11:55"
 }
