@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-01T18:49:29",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-09-01T18:51:26",
+  "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -2914,6 +2914,46 @@
           "file_url": "https://drive.google.com/file/d/19RhawBLgqK2jTHpvtxNVT07z8VilxQc7/view?usp=drivesdk",
           "modified_at": "2026-05-27T03:18:32.341Z",
           "price_date": "30.04.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SE17 - The Wilderly": {
+      "project": "SE17 - The Wilderly",
+      "city": "Inner London",
+      "developer": "Lendlease",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊/JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE17 - The Wilderly",
+      "folder_id": "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
+      "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
+      "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
+      "price_folder_url": "https://drive.google.com/drive/folders/1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
+      "old_price_folder_id": "1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
+      "latest_files": [
+        {
+          "file": "The Wilderly Tower Availability List September-2026(1).pdf",
+          "file_id": "1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g",
+          "file_url": "https://drive.google.com/file/d/1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g/view?usp=drivesdk",
+          "modified_at": "2026-09-01T10:23:26.496Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Wilderly Tower Availability List - 28 July 2026.pdf",
+          "file_id": "1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV",
+          "file_url": "https://drive.google.com/file/d/1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV/view?usp=drivesdk",
+          "modified_at": "2026-07-30T10:01:59.974Z",
+          "price_date": "28 July 2026"
+        },
+        {
+          "file": "The Wilderly Tower Availability List - 8 July 2026.pdf",
+          "file_id": "1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn",
+          "file_url": "https://drive.google.com/file/d/1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:26:08.837Z",
+          "price_date": "8 July 2026"
         }
       ],
       "notes": []
@@ -9510,6 +9550,67 @@
       ],
       "notes": []
     },
+    "HA9 - Fulton & Fifth": {
+      "project": "HA9 - Fulton & Fifth",
+      "city": "Outer London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "GAL",
+      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / HA9 - Fulton & Fifth",
+      "folder_id": "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
+      "folder_url": "https://drive.google.com/drive/folders/13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
+      "price_folder_id": "1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
+      "old_price_folder_id": "1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
+      "latest_files": [
+        {
+          "file": "Fulton & Fifth (Parkside)  Price List 10.08.26.pdf",
+          "file_id": "1Ff0mCMaXtqlMr_jMYDTMfEwGLTGI0jZm",
+          "file_url": "https://drive.google.com/file/d/1Ff0mCMaXtqlMr_jMYDTMfEwGLTGI0jZm/view?usp=drivesdk",
+          "modified_at": "2026-09-01T10:49:19.926Z",
+          "price_date": "10.08.26"
+        },
+        {
+          "file": "Fulton & Fifth - Brookline Price List - 03.08.26.pdf",
+          "file_id": "1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t",
+          "file_url": "https://drive.google.com/file/d/1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t/view?usp=drivesdk",
+          "modified_at": "2026-08-05T07:13:59.530Z",
+          "price_date": "03.08.26"
+        },
+        {
+          "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
+          "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
+          "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:32:01.000Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Fulton & Fifth - Parkside Price List - 03.08.26.pdf",
+          "file_id": "1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz",
+          "file_url": "https://drive.google.com/file/d/1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz/view?usp=drivesdk",
+          "modified_at": "2026-08-05T07:14:04.088Z",
+          "price_date": "03.08.26"
+        },
+        {
+          "file": "Fulton & Fifth - Brookline Price List - 20.05.26.pdf",
+          "file_id": "1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY",
+          "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
+          "modified_at": "2026-05-25T01:14:41.000Z",
+          "price_date": "20.05.26"
+        },
+        {
+          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
+          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
+          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
+          "modified_at": "2026-05-08T09:32:01.000Z",
+          "price_date": "14.04.26"
+        }
+      ],
+      "notes": []
+    },
     "HA9 - The Pages - Est Complete Sep 2026": {
       "project": "HA9 - The Pages - Est Complete Sep 2026",
       "city": "Outer London",
@@ -11427,114 +11528,8 @@
         }
       ],
       "notes": []
-    },
-    "SE17 - The Wilderly": {
-      "project": "SE17 - The Wilderly",
-      "city": "Inner London",
-      "developer": "Lendlease",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊/JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE17 - The Wilderly",
-      "folder_id": "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
-      "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
-      "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
-      "price_folder_url": "https://drive.google.com/drive/folders/1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
-      "old_price_folder_id": "1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
-      "latest_files": [
-        {
-          "file": "The Wilderly Tower Availability List September-2026(1).pdf",
-          "file_id": "1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g",
-          "file_url": "https://drive.google.com/file/d/1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g/view?usp=drivesdk",
-          "modified_at": "2026-09-01T10:23:26.496Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Wilderly Tower Availability List - 28 July 2026.pdf",
-          "file_id": "1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV",
-          "file_url": "https://drive.google.com/file/d/1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV/view?usp=drivesdk",
-          "modified_at": "2026-07-30T10:01:59.974Z",
-          "price_date": "28 July 2026"
-        },
-        {
-          "file": "The Wilderly Tower Availability List - 8 July 2026.pdf",
-          "file_id": "1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn",
-          "file_url": "https://drive.google.com/file/d/1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn/view?usp=drivesdk",
-          "modified_at": "2026-07-29T02:26:08.837Z",
-          "price_date": "8 July 2026"
-        }
-      ],
-      "notes": []
-    },
-    "HA9 - Fulton & Fifth": {
-      "project": "HA9 - Fulton & Fifth",
-      "city": "Outer London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "GAL",
-      "path": "UK 英国 / Outer London 外伦敦 / Brent 布伦特 / HA9 - Fulton & Fifth",
-      "folder_id": "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
-      "folder_url": "https://drive.google.com/drive/folders/13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad",
-      "price_folder_id": "1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_odokZUEPpmY_hsianl_JuzuPlbvzrMw",
-      "old_price_folder_id": "1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1rO0MWJVEbuF_IM61n2FqpT37loW4ljtI",
-      "latest_files": [
-        {
-          "file": "Fulton & Fifth (Parkside)  Price List 10.08.26.pdf",
-          "file_id": "1Ff0mCMaXtqlMr_jMYDTMfEwGLTGI0jZm",
-          "file_url": "https://drive.google.com/file/d/1Ff0mCMaXtqlMr_jMYDTMfEwGLTGI0jZm/view?usp=drivesdk",
-          "modified_at": "2026-09-01T10:49:19.926Z",
-          "price_date": "10.08.26"
-        },
-        {
-          "file": "Fulton & Fifth - Brookline Price List - 03.08.26.pdf",
-          "file_id": "1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t",
-          "file_url": "https://drive.google.com/file/d/1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t/view?usp=drivesdk",
-          "modified_at": "2026-08-05T07:13:59.530Z",
-          "price_date": "03.08.26"
-        },
-        {
-          "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
-          "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
-          "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Fulton & Fifth - Parkside Price List - 03.08.26.pdf",
-          "file_id": "1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz",
-          "file_url": "https://drive.google.com/file/d/1w7RYiq4xuoPNh3bFW3De9j42SX0IKaWz/view?usp=drivesdk",
-          "modified_at": "2026-08-05T07:14:04.088Z",
-          "price_date": "03.08.26"
-        },
-        {
-          "file": "Fulton & Fifth - Brookline Price List - 20.05.26.pdf",
-          "file_id": "1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY",
-          "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
-          "modified_at": "2026-05-25T01:14:41.000Z",
-          "price_date": "20.05.26"
-        },
-        {
-          "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
-          "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
-          "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
-          "price_date": "14.04.26"
-        }
-      ],
-      "notes": []
     }
   },
   "errors": [],
-  "targeted_project_ids": [
-    "13gttgcsyYsG7kKnZ2lPe1gYirCo1rKad"
-  ],
-  "targeted_projects": [
-    "HA9 - Fulton & Fifth"
-  ]
+  "published_at": "2026-09-01T18:54:02"
 }
