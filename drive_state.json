@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-01T19:39:24",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-09-01T19:48:42",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -2302,53 +2302,6 @@
         }
       ],
       "old_files": [],
-      "notes": []
-    },
-    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026": {
-      "project": "SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
-      "city": "Inner London",
-      "developer": "Qatari Diar",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊/JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
-      "folder_id": "10uZve0izL35FERKKAMeDUcyqHsC5sCid",
-      "folder_url": "https://drive.google.com/drive/folders/10uZve0izL35FERKKAMeDUcyqHsC5sCid",
-      "price_folder_id": "1BG5CKufSgXNUSIUFFCBIbOLQ0CTB69yL",
-      "price_folder_url": "https://drive.google.com/drive/folders/1BG5CKufSgXNUSIUFFCBIbOLQ0CTB69yL",
-      "old_price_folder_id": "1SZs9dJA2CaSJNRMRg40RSW1JLG6JCiHq",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1SZs9dJA2CaSJNRMRg40RSW1JLG6JCiHq",
-      "latest_files": [
-        {
-          "file": "New Seven Southbank Place -Pricelist New July 2026.pdf",
-          "file_id": "1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB",
-          "file_url": "https://drive.google.com/file/d/1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:56:51.786Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Seven Southbank Place -Pricelist New May 2026.pdf",
-          "file_id": "1MN3DcCifycwzIEJ_J5G06rq0q351LQSe",
-          "file_url": "https://drive.google.com/file/d/1MN3DcCifycwzIEJ_J5G06rq0q351LQSe/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:13:43.238Z",
-          "price_date": "May 2026"
-        },
-        {
-          "file": "SEVEN Southbank Place Price List April 2026.pdf",
-          "file_id": "1pKk1HWIeubHCQf1ZrVL142xSspeZfLhR",
-          "file_url": "https://drive.google.com/file/d/1pKk1HWIeubHCQf1ZrVL142xSspeZfLhR/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:44:29.731Z",
-          "price_date": "April 2026"
-        },
-        {
-          "file": "SEVEN price list April 2026.pdf",
-          "file_id": "1nl3Q_7Gw-m60epVfDiESIVH7k385oMgp",
-          "file_url": "https://drive.google.com/file/d/1nl3Q_7Gw-m60epVfDiESIVH7k385oMgp/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:02:22.598Z",
-          "price_date": "April 2026"
-        }
-      ],
       "notes": []
     },
     "SE1 - The Edit": {
@@ -11562,8 +11515,67 @@
         }
       ],
       "notes": []
+    },
+    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026": {
+      "project": "SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
+      "city": "Inner London",
+      "developer": "Qatari Diar",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊/JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE1 - SEVEN Southbank Place - Est Complete Jan 2026",
+      "folder_id": "10uZve0izL35FERKKAMeDUcyqHsC5sCid",
+      "folder_url": "https://drive.google.com/drive/folders/10uZve0izL35FERKKAMeDUcyqHsC5sCid",
+      "price_folder_id": "1BG5CKufSgXNUSIUFFCBIbOLQ0CTB69yL",
+      "price_folder_url": "https://drive.google.com/drive/folders/1BG5CKufSgXNUSIUFFCBIbOLQ0CTB69yL",
+      "old_price_folder_id": "1SZs9dJA2CaSJNRMRg40RSW1JLG6JCiHq",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1SZs9dJA2CaSJNRMRg40RSW1JLG6JCiHq",
+      "latest_files": [
+        {
+          "file": "Seven Southbank Place - Customer Pricelist August 2026.pdf",
+          "file_id": "1R6hUknsikZXevSd_B69HMB9T3lXbRpEw",
+          "file_url": "https://drive.google.com/file/d/1R6hUknsikZXevSd_B69HMB9T3lXbRpEw/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:48:40.698Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "New Seven Southbank Place -Pricelist New July 2026.pdf",
+          "file_id": "1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB",
+          "file_url": "https://drive.google.com/file/d/1Y2IrgLKGdBC37uvLpqOqQfd3KacGZ7YB/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:56:51.786Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Seven Southbank Place -Pricelist New May 2026.pdf",
+          "file_id": "1MN3DcCifycwzIEJ_J5G06rq0q351LQSe",
+          "file_url": "https://drive.google.com/file/d/1MN3DcCifycwzIEJ_J5G06rq0q351LQSe/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:13:43.238Z",
+          "price_date": "May 2026"
+        },
+        {
+          "file": "SEVEN Southbank Place Price List April 2026.pdf",
+          "file_id": "1pKk1HWIeubHCQf1ZrVL142xSspeZfLhR",
+          "file_url": "https://drive.google.com/file/d/1pKk1HWIeubHCQf1ZrVL142xSspeZfLhR/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:44:29.731Z",
+          "price_date": "April 2026"
+        },
+        {
+          "file": "SEVEN price list April 2026.pdf",
+          "file_id": "1nl3Q_7Gw-m60epVfDiESIVH7k385oMgp",
+          "file_url": "https://drive.google.com/file/d/1nl3Q_7Gw-m60epVfDiESIVH7k385oMgp/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:02:22.598Z",
+          "price_date": "April 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-09-01T19:41:57"
+  "targeted_project_ids": [
+    "10uZve0izL35FERKKAMeDUcyqHsC5sCid"
+  ],
+  "targeted_projects": [
+    "SE1 - SEVEN Southbank Place - Est Complete Jan 2026"
+  ]
 }
