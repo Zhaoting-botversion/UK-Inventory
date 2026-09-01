@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-01T18:23:28",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-09-01T18:25:23",
+  "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -2914,6 +2914,46 @@
           "file_url": "https://drive.google.com/file/d/19RhawBLgqK2jTHpvtxNVT07z8VilxQc7/view?usp=drivesdk",
           "modified_at": "2026-05-27T03:18:32.341Z",
           "price_date": "30.04.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SE17 - The Wilderly": {
+      "project": "SE17 - The Wilderly",
+      "city": "Inner London",
+      "developer": "Lendlease",
+      "cooperation_level": "独代合作",
+      "cooperation_partner": "莱坊/JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE17 - The Wilderly",
+      "folder_id": "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
+      "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
+      "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
+      "price_folder_url": "https://drive.google.com/drive/folders/1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
+      "old_price_folder_id": "1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
+      "latest_files": [
+        {
+          "file": "The Wilderly Tower Availability List September-2026(1).pdf",
+          "file_id": "1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g",
+          "file_url": "https://drive.google.com/file/d/1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g/view?usp=drivesdk",
+          "modified_at": "2026-09-01T10:23:26.496Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Wilderly Tower Availability List - 28 July 2026.pdf",
+          "file_id": "1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV",
+          "file_url": "https://drive.google.com/file/d/1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV/view?usp=drivesdk",
+          "modified_at": "2026-07-30T10:01:59.974Z",
+          "price_date": "28 July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Wilderly Tower Availability List - 8 July 2026.pdf",
+          "file_id": "1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn",
+          "file_url": "https://drive.google.com/file/d/1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:26:08.837Z",
+          "price_date": "8 July 2026"
         }
       ],
       "notes": []
@@ -11481,53 +11521,8 @@
         }
       ],
       "notes": []
-    },
-    "SE17 - The Wilderly": {
-      "project": "SE17 - The Wilderly",
-      "city": "Inner London",
-      "developer": "Lendlease",
-      "cooperation_level": "独代合作",
-      "cooperation_partner": "莱坊/JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE17 - The Wilderly",
-      "folder_id": "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
-      "folder_url": "https://drive.google.com/drive/folders/1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0",
-      "price_folder_id": "1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
-      "price_folder_url": "https://drive.google.com/drive/folders/1xD8oC5Mhy7pVqpoHV0_jAj5aIhLRtrgb",
-      "old_price_folder_id": "1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1ucvvcZX6f4yhQdtS9pMJUhClnKKu9rnR",
-      "latest_files": [
-        {
-          "file": "The Wilderly Tower Availability List September-2026(1).pdf",
-          "file_id": "1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g",
-          "file_url": "https://drive.google.com/file/d/1Fu0gTUspLyERhIgzAN7iIVINQmv0_u_g/view?usp=drivesdk",
-          "modified_at": "2026-09-01T10:23:26.496Z",
-          "price_date": ""
-        },
-        {
-          "file": "The Wilderly Tower Availability List - 28 July 2026.pdf",
-          "file_id": "1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV",
-          "file_url": "https://drive.google.com/file/d/1ghXfHc78ioPn4tdv0t5bU_EJPJM4tmKV/view?usp=drivesdk",
-          "modified_at": "2026-07-30T10:01:59.974Z",
-          "price_date": "28 July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Wilderly Tower Availability List - 8 July 2026.pdf",
-          "file_id": "1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn",
-          "file_url": "https://drive.google.com/file/d/1HXcVkZ5Dv7gcl3ObX7CvmYek8ihBUIhn/view?usp=drivesdk",
-          "modified_at": "2026-07-29T02:26:08.837Z",
-          "price_date": "8 July 2026"
-        }
-      ],
-      "notes": []
     }
   },
   "errors": [],
-  "targeted_project_ids": [
-    "1VOiBROaaBVIvOKiePYsfg2ADgq7gLgX0"
-  ],
-  "targeted_projects": [
-    "SE17 - The Wilderly"
-  ]
+  "published_at": "2026-09-01T18:28:29"
 }
