@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-01T19:28:53",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-09-01T19:33:19",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -4872,46 +4872,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "W1U - Marylebone Mansions": {
-      "project": "W1U - Marylebone Mansions",
-      "city": "Inner London",
-      "developer": "Elliott House",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1U - Marylebone Mansions",
-      "folder_id": "18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl",
-      "folder_url": "https://drive.google.com/drive/folders/18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl",
-      "price_folder_id": "1VRIlS5Yp_iAvbIb3e-o4aNZjiqynb-y5",
-      "price_folder_url": "https://drive.google.com/drive/folders/1VRIlS5Yp_iAvbIb3e-o4aNZjiqynb-y5",
-      "old_price_folder_id": "19pEhQEJUmDziMnGmBdWa82oM8JVzWOAg",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/19pEhQEJUmDziMnGmBdWa82oM8JVzWOAg",
-      "latest_files": [
-        {
-          "file": "Marylebone Mansions Price List August 2026.pdf",
-          "file_id": "1IGYo5XnVrdB2QpXuqVwprWlKEmeDGi-H",
-          "file_url": "https://drive.google.com/file/d/1IGYo5XnVrdB2QpXuqVwprWlKEmeDGi-H/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:27:01.077Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Marylebone Mansions - 2026 Price List.pdf",
-          "file_id": "1QwJgoGVEhWNWacCmTmolELBQjFxaZ2xW",
-          "file_url": "https://drive.google.com/file/d/1QwJgoGVEhWNWacCmTmolELBQjFxaZ2xW/view?usp=drivesdk",
-          "modified_at": "2026-06-25T03:46:43.996Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Marylebone Mansions Customer Pricelist 1st May 2026.pdf",
-          "file_id": "1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ",
-          "file_url": "https://drive.google.com/file/d/1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ/view?usp=drivesdk",
-          "modified_at": "2026-05-12T07:11:23.000Z",
-          "price_date": "May 2026"
-        }
-      ],
-      "notes": []
     },
     "W1U - Marylebone Square - completed": {
       "project": "W1U - Marylebone Square - completed",
@@ -11555,8 +11515,54 @@
         }
       ],
       "notes": []
+    },
+    "W1U - Marylebone Mansions": {
+      "project": "W1U - Marylebone Mansions",
+      "city": "Inner London",
+      "developer": "Elliott House",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W1U - Marylebone Mansions",
+      "folder_id": "18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl",
+      "folder_url": "https://drive.google.com/drive/folders/18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl",
+      "price_folder_id": "1VRIlS5Yp_iAvbIb3e-o4aNZjiqynb-y5",
+      "price_folder_url": "https://drive.google.com/drive/folders/1VRIlS5Yp_iAvbIb3e-o4aNZjiqynb-y5",
+      "old_price_folder_id": "19pEhQEJUmDziMnGmBdWa82oM8JVzWOAg",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/19pEhQEJUmDziMnGmBdWa82oM8JVzWOAg",
+      "latest_files": [
+        {
+          "file": "Marylebone Mansions Price List August 2026.pdf",
+          "file_id": "1IGYo5XnVrdB2QpXuqVwprWlKEmeDGi-H",
+          "file_url": "https://drive.google.com/file/d/1IGYo5XnVrdB2QpXuqVwprWlKEmeDGi-H/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:27:01.077Z",
+          "price_date": "August 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Marylebone Mansions - 2026 Price List.pdf",
+          "file_id": "1QwJgoGVEhWNWacCmTmolELBQjFxaZ2xW",
+          "file_url": "https://drive.google.com/file/d/1QwJgoGVEhWNWacCmTmolELBQjFxaZ2xW/view?usp=drivesdk",
+          "modified_at": "2026-06-25T03:46:43.996Z",
+          "price_date": ""
+        },
+        {
+          "file": "Marylebone Mansions Customer Pricelist 1st May 2026.pdf",
+          "file_id": "1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ",
+          "file_url": "https://drive.google.com/file/d/1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ/view?usp=drivesdk",
+          "modified_at": "2026-05-12T07:11:23.000Z",
+          "price_date": "May 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-09-01T19:31:26"
+  "targeted_project_ids": [
+    "18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl"
+  ],
+  "targeted_projects": [
+    "W1U - Marylebone Mansions"
+  ],
+  "published_at": "2026-09-01T19:33:38"
 }
