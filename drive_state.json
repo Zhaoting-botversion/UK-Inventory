@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-01T19:12:25",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-09-01T19:14:26",
+  "source": "google_drive_live_all_uk",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -4937,6 +4937,52 @@
           "price_date": ""
         }
       ],
+      "notes": []
+    },
+    "W2 - Paddington Gardens": {
+      "project": "W2 - Paddington Gardens",
+      "city": "Inner London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W2 - Paddington Gardens",
+      "folder_id": "1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
+      "folder_url": "https://drive.google.com/drive/folders/1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
+      "price_folder_id": "1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
+      "price_folder_url": "https://drive.google.com/drive/folders/1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
+      "old_price_folder_id": "10C509pcwozQKCWSr_stcs-co1ppt0bp9",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/10C509pcwozQKCWSr_stcs-co1ppt0bp9",
+      "latest_files": [
+        {
+          "file": "Camellia House - Pricelist - August 2026.pdf",
+          "file_id": "1FYVVNohhW5eSg9eOQFAzkBayrWbOL4zv",
+          "file_url": "https://drive.google.com/file/d/1FYVVNohhW5eSg9eOQFAzkBayrWbOL4zv/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:12:23.717Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Block B & D - Pricelist - August 2026.pdf",
+          "file_id": "1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC",
+          "file_url": "https://drive.google.com/file/d/1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:12:20.770Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Paddington Gardens Combined Price List - August 2026.pdf",
+          "file_id": "1DqW0b4RjrThkzr9QKiYaWFOtawXn_HOo",
+          "file_url": "https://drive.google.com/file/d/1DqW0b4RjrThkzr9QKiYaWFOtawXn_HOo/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:05:15.997Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Paddington Gardens_PriceList_16 Jul 2026(1).pdf",
+          "file_id": "1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB",
+          "file_url": "https://drive.google.com/file/d/1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB/view?usp=drivesdk",
+          "modified_at": "2026-07-17T08:07:42.475Z",
+          "price_date": "16 Jul 2026"
+        }
+      ],
+      "old_files": [],
       "notes": []
     },
     "W2 - Park Modern-completed": {
@@ -11501,59 +11547,8 @@
         }
       ],
       "notes": []
-    },
-    "W2 - Paddington Gardens": {
-      "project": "W2 - Paddington Gardens",
-      "city": "Inner London",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / W2 - Paddington Gardens",
-      "folder_id": "1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
-      "folder_url": "https://drive.google.com/drive/folders/1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3",
-      "price_folder_id": "1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
-      "price_folder_url": "https://drive.google.com/drive/folders/1KKxpNSWEYI1ymUCQSwsLci3dS8u4_YZY",
-      "old_price_folder_id": "10C509pcwozQKCWSr_stcs-co1ppt0bp9",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/10C509pcwozQKCWSr_stcs-co1ppt0bp9",
-      "latest_files": [
-        {
-          "file": "Camellia House - Pricelist - August 2026.pdf",
-          "file_id": "1FYVVNohhW5eSg9eOQFAzkBayrWbOL4zv",
-          "file_url": "https://drive.google.com/file/d/1FYVVNohhW5eSg9eOQFAzkBayrWbOL4zv/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:12:23.717Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Block B & D - Pricelist - August 2026.pdf",
-          "file_id": "1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC",
-          "file_url": "https://drive.google.com/file/d/1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:12:20.770Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Paddington Gardens Combined Price List - August 2026.pdf",
-          "file_id": "1DqW0b4RjrThkzr9QKiYaWFOtawXn_HOo",
-          "file_url": "https://drive.google.com/file/d/1DqW0b4RjrThkzr9QKiYaWFOtawXn_HOo/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:05:15.997Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Paddington Gardens_PriceList_16 Jul 2026(1).pdf",
-          "file_id": "1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB",
-          "file_url": "https://drive.google.com/file/d/1GJcXzqGk1j0EzcR4EwXJkUvVmcHN6YHB/view?usp=drivesdk",
-          "modified_at": "2026-07-17T08:07:42.475Z",
-          "price_date": "16 Jul 2026"
-        }
-      ],
-      "old_files": [],
-      "notes": []
     }
   },
   "errors": [],
-  "targeted_project_ids": [
-    "1bDluQy7XhVqn_SnF_vMGeas4DNc5M0X3"
-  ],
-  "targeted_projects": [
-    "W2 - Paddington Gardens"
-  ]
+  "published_at": "2026-09-01T19:16:38"
 }
