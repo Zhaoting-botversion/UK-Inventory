@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-01T19:33:19",
+  "synced_at": "2026-09-01T19:37:34",
   "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -5323,53 +5323,6 @@
           "file_url": "https://drive.google.com/file/d/1khAp9erBT5ksmGcW5IQeX1nwCz4hX6_l/view?usp=drivesdk",
           "modified_at": "2026-05-27T03:19:48.628Z",
           "price_date": "27.03.26"
-        }
-      ],
-      "notes": []
-    },
-    "SW1 - The Broadway-Completed": {
-      "project": "SW1 - The Broadway-Completed",
-      "city": "Inner London",
-      "developer": "Canary Wharf Group",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "JLL",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW1 - The Broadway-Completed",
-      "folder_id": "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
-      "folder_url": "https://drive.google.com/drive/folders/1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
-      "price_folder_id": "1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
-      "price_folder_url": "https://drive.google.com/drive/folders/1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
-      "old_price_folder_id": "1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
-      "latest_files": [
-        {
-          "file": "The Broadway - Customer Pricelist - 1st July 2026.pdf",
-          "file_id": "12k4eEw2-LghZB_15guiSpIOdNXCk8EUC",
-          "file_url": "https://drive.google.com/file/d/12k4eEw2-LghZB_15guiSpIOdNXCk8EUC/view?usp=drivesdk",
-          "modified_at": "2026-07-14T10:51:11.079Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Broadway SW1 Price List 090626.pdf",
-          "file_id": "1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N",
-          "file_url": "https://drive.google.com/file/d/1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:01:59.840Z",
-          "price_date": "List 0906"
-        },
-        {
-          "file": "The Broadway SW1 Price List 060526.pdf",
-          "file_id": "1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh",
-          "file_url": "https://drive.google.com/file/d/1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:44:49.673Z",
-          "price_date": "List 0605"
-        },
-        {
-          "file": "The Broadway - Customer Pricelist 28th October 2025.pdf",
-          "file_id": "1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl",
-          "file_url": "https://drive.google.com/file/d/1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl/view?usp=drivesdk",
-          "modified_at": "2025-11-04T07:26:03.000Z",
-          "price_date": "October 2025"
         }
       ],
       "notes": []
@@ -11555,14 +11508,67 @@
         }
       ],
       "notes": []
+    },
+    "SW1 - The Broadway-Completed": {
+      "project": "SW1 - The Broadway-Completed",
+      "city": "Inner London",
+      "developer": "Canary Wharf Group",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "JLL",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW1 - The Broadway-Completed",
+      "folder_id": "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
+      "folder_url": "https://drive.google.com/drive/folders/1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J",
+      "price_folder_id": "1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Ys32Y5koFiVuxk8JZZWj4qJhDfBQ60Ha",
+      "old_price_folder_id": "1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1rrEHOfxUinBbSjNFk2pBoIMEmP2zkAoK",
+      "latest_files": [
+        {
+          "file": "The Broadway - Customer Pricelist 1st August 2026.pdf",
+          "file_id": "1dTRJI5_i1I5KrEiN4_a3LBpmPFe5p-oo",
+          "file_url": "https://drive.google.com/file/d/1dTRJI5_i1I5KrEiN4_a3LBpmPFe5p-oo/view?usp=drivesdk",
+          "modified_at": "2026-09-01T11:37:23.940Z",
+          "price_date": "August 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Broadway - Customer Pricelist - 1st July 2026.pdf",
+          "file_id": "12k4eEw2-LghZB_15guiSpIOdNXCk8EUC",
+          "file_url": "https://drive.google.com/file/d/12k4eEw2-LghZB_15guiSpIOdNXCk8EUC/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:51:11.079Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "The Broadway SW1 Price List 090626.pdf",
+          "file_id": "1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N",
+          "file_url": "https://drive.google.com/file/d/1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:01:59.840Z",
+          "price_date": "List 0906"
+        },
+        {
+          "file": "The Broadway SW1 Price List 060526.pdf",
+          "file_id": "1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh",
+          "file_url": "https://drive.google.com/file/d/1Abn1OVHo-eIzByjOZyD4m8kNOd8LDIqh/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:44:49.673Z",
+          "price_date": "List 0605"
+        },
+        {
+          "file": "The Broadway - Customer Pricelist 28th October 2025.pdf",
+          "file_id": "1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl",
+          "file_url": "https://drive.google.com/file/d/1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl/view?usp=drivesdk",
+          "modified_at": "2025-11-04T07:26:03.000Z",
+          "price_date": "October 2025"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
   "targeted_project_ids": [
-    "18t3zBNeB10kUBVCmQ1bpOl2IvoeHk5hl"
+    "1eAhAHaZKQbVbQDGYGoNjEtFn0IhFDR5J"
   ],
   "targeted_projects": [
-    "W1U - Marylebone Mansions"
-  ],
-  "published_at": "2026-09-01T19:33:38"
+    "SW1 - The Broadway-Completed"
+  ]
 }
