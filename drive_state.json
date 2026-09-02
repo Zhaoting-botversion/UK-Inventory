@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-02T14:03:03",
-  "source": "google_drive_live_all_uk",
+  "synced_at": "2026-09-02T17:04:26",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -5522,60 +5522,6 @@
       ],
       "notes": []
     },
-    "SW11 - Embassy Gardens - The Capston": {
-      "project": "SW11 - Embassy Gardens - The Capston",
-      "city": "Inner London",
-      "developer": "Ballymore",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Ballymore",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW11 - Embassy Gardens - The Capston",
-      "folder_id": "1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4",
-      "folder_url": "https://drive.google.com/drive/folders/1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4",
-      "price_folder_id": "1qJnlPDzZxVdT4_jKb5l3I_urhtJq0Zc7",
-      "price_folder_url": "https://drive.google.com/drive/folders/1qJnlPDzZxVdT4_jKb5l3I_urhtJq0Zc7",
-      "old_price_folder_id": "14qO1f8nTnBiqv3Thr6Pl390Oz0Ca4dKs",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/14qO1f8nTnBiqv3Thr6Pl390Oz0Ca4dKs",
-      "latest_files": [
-        {
-          "file": "The Capston Pricelist.pdf",
-          "file_id": "1bcpRKPXEMHId99AyT-roBko20XdocO25",
-          "file_url": "https://drive.google.com/file/d/1bcpRKPXEMHId99AyT-roBko20XdocO25/view?usp=drivesdk",
-          "modified_at": "2026-07-16T05:52:13.531Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Capston Price List - 2nd June 2026.pdf",
-          "file_id": "1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm",
-          "file_url": "https://drive.google.com/file/d/1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:46:32.136Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "The Capston Pricelist.pdf",
-          "file_id": "1FnnLJw_MMIrRANTbth5n5i1UvAtlCBk-",
-          "file_url": "https://drive.google.com/file/d/1FnnLJw_MMIrRANTbth5n5i1UvAtlCBk-/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:43.737Z",
-          "price_date": ""
-        },
-        {
-          "file": "The Capston Price List - 13th May 2026.pdf",
-          "file_id": "1o42frQ2feswxV0fyscjlugZVXz1L-q7z",
-          "file_url": "https://drive.google.com/file/d/1o42frQ2feswxV0fyscjlugZVXz1L-q7z/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:18:17.409Z",
-          "price_date": "May 2026"
-        },
-        {
-          "file": "The Capston Pricelist_25.11(1).pdf",
-          "file_id": "1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ",
-          "file_url": "https://drive.google.com/file/d/1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ/view?usp=drivesdk",
-          "modified_at": "2025-11-29T01:12:11.000Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
     "SW11 - One Clapham Junction - Completion  from Q1-Q3 2025": {
       "project": "SW11 - One Clapham Junction - Completion  from Q1-Q3 2025",
       "city": "Inner London",
@@ -6608,33 +6554,6 @@
         }
       ],
       "notes": []
-    },
-    "SW8 - DAMAC Tower Nine Elms": {
-      "project": "SW8 - DAMAC Tower Nine Elms",
-      "city": "Inner London",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW8 - DAMAC Tower Nine Elms",
-      "folder_id": "1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
-      "folder_url": "https://drive.google.com/drive/folders/1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
-      "price_folder_id": "14hugchLMXiiCDmdMFJhWygQWWYpA9FYp",
-      "price_folder_url": "https://drive.google.com/drive/folders/14hugchLMXiiCDmdMFJhWygQWWYpA9FYp",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
-          "file_id": "1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk",
-          "file_url": "https://drive.google.com/file/d/1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk/view?usp=drivesdk",
-          "modified_at": "2026-08-04T07:48:00.897Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "SW8 - Key Bridge": {
       "project": "SW8 - Key Bridge",
@@ -11569,8 +11488,75 @@
         }
       ],
       "notes": []
+    },
+    "SW11 - Embassy Gardens - The Capston": {
+      "project": "SW11 - Embassy Gardens - The Capston",
+      "city": "Inner London",
+      "developer": "Ballymore",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Ballymore",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW11 - Embassy Gardens - The Capston",
+      "folder_id": "1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4",
+      "folder_url": "https://drive.google.com/drive/folders/1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4",
+      "price_folder_id": "1qJnlPDzZxVdT4_jKb5l3I_urhtJq0Zc7",
+      "price_folder_url": "https://drive.google.com/drive/folders/1qJnlPDzZxVdT4_jKb5l3I_urhtJq0Zc7",
+      "old_price_folder_id": "14qO1f8nTnBiqv3Thr6Pl390Oz0Ca4dKs",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14qO1f8nTnBiqv3Thr6Pl390Oz0Ca4dKs",
+      "latest_files": [
+        {
+          "file": "The Capston Pricelist 26-08-26.pdf",
+          "file_id": "1SKFglQqelXfoE-npCLIvkSEK0Ql6-Q0M",
+          "file_url": "https://drive.google.com/file/d/1SKFglQqelXfoE-npCLIvkSEK0Ql6-Q0M/view?usp=drivesdk",
+          "modified_at": "2026-09-02T09:04:07.775Z",
+          "price_date": "26-08-26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Capston Pricelist.pdf",
+          "file_id": "1bcpRKPXEMHId99AyT-roBko20XdocO25",
+          "file_url": "https://drive.google.com/file/d/1bcpRKPXEMHId99AyT-roBko20XdocO25/view?usp=drivesdk",
+          "modified_at": "2026-07-16T05:52:13.531Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Capston Price List - 2nd June 2026.pdf",
+          "file_id": "1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm",
+          "file_url": "https://drive.google.com/file/d/1rKjIbe-wkI7ILUc6fb3aAgCrVJeoGNTm/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:46:32.136Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "The Capston Pricelist.pdf",
+          "file_id": "1FnnLJw_MMIrRANTbth5n5i1UvAtlCBk-",
+          "file_url": "https://drive.google.com/file/d/1FnnLJw_MMIrRANTbth5n5i1UvAtlCBk-/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:43.737Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Capston Price List - 13th May 2026.pdf",
+          "file_id": "1o42frQ2feswxV0fyscjlugZVXz1L-q7z",
+          "file_url": "https://drive.google.com/file/d/1o42frQ2feswxV0fyscjlugZVXz1L-q7z/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:18:17.409Z",
+          "price_date": "May 2026"
+        },
+        {
+          "file": "The Capston Pricelist_25.11(1).pdf",
+          "file_id": "1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ",
+          "file_url": "https://drive.google.com/file/d/1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ/view?usp=drivesdk",
+          "modified_at": "2025-11-29T01:12:11.000Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-09-02T14:06:10"
+  "targeted_project_ids": [
+    "1By6taVWlJKnzp3f4wo5Xs9ai-Rnj_VF4"
+  ],
+  "targeted_projects": [
+    "SW11 - Embassy Gardens - The Capston"
+  ],
+  "published_at": "2026-09-02T17:07:44"
 }
