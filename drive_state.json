@@ -11497,6 +11497,39 @@
       ],
       "notes": []
     },
+    "SW8 - DAMAC Tower Nine Elms": {
+      "project": "SW8 - DAMAC Tower Nine Elms",
+      "city": "Inner London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW8 - DAMAC Tower Nine Elms",
+      "folder_id": "1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
+      "folder_url": "https://drive.google.com/drive/folders/1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
+      "price_folder_id": "1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
+      "old_price_folder_id": "11ytVJJoif90RVnRyM4oZt7h2r4G9KNeG",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/11ytVJJoif90RVnRyM4oZt7h2r4G9KNeG",
+      "latest_files": [
+        {
+          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
+          "file_id": "1eBfjMhHk5stVxKJ0T8c6oSA5BNxS8RN4",
+          "file_url": "https://drive.google.com/file/d/1eBfjMhHk5stVxKJ0T8c6oSA5BNxS8RN4/view?usp=drivesdk",
+          "modified_at": "2026-09-02T06:00:25.662Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
+          "file_id": "1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk",
+          "file_url": "https://drive.google.com/file/d/1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk/view?usp=drivesdk",
+          "modified_at": "2026-08-04T07:48:00.897Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
+    },
     "SW11 - Embassy Gardens - The Capston": {
       "project": "SW11 - Embassy Gardens - The Capston",
       "city": "Inner London",
@@ -11566,5 +11599,5 @@
   "targeted_projects": [
     "SW11 - Embassy Gardens - The Capston"
   ],
-  "published_at": "2026-09-06T15:51:18"
+  "published_at": "2026-09-06T16:01:54"
 }
