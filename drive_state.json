@@ -960,7 +960,15 @@
       "price_folder_url": "https://drive.google.com/drive/folders/1KrqYxxcklhe5wR8CGGpXYdlt96uZ0uep",
       "old_price_folder_id": "",
       "old_price_folder_url": "",
-      "latest_files": [],
+      "latest_files": [
+        {
+          "file": "Cuba Shanghi Price List(1).pdf",
+          "file_id": "1YvTfNH_j-JJ14khj1H0BdS78VN_DA9Lc",
+          "file_url": "https://drive.google.com/file/d/1YvTfNH_j-JJ14khj1H0BdS78VN_DA9Lc/view?usp=drivesdk",
+          "modified_at": "2026-09-06T07:27:48.034Z",
+          "price_date": "05.09.2026"
+        }
+      ],
       "old_files": [],
       "notes": [
         "Missing old pricelist folder"
@@ -11558,5 +11566,5 @@
   "targeted_projects": [
     "SW11 - Embassy Gardens - The Capston"
   ],
-  "published_at": "2026-09-02T17:07:44"
+  "published_at": "2026-09-06T15:51:18"
 }
