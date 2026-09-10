@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-10T06:19:50.200199+00:00",
+  "synced_at": "2026-09-10T06:52:49.974770+00:00",
   "source": "manual_verified_september_2026_upload",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1279,20 +1279,6 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1CngMEvYFTn9OgQFX-Xk8gWu36YKEFr8B",
       "latest_files": [
         {
-          "file": "RV-Wright Building-Ready to move in 24.08.2026.pdf",
-          "file_id": "1xWqICcy0K9yxiPssYEZV6BPPW1ammV9K",
-          "file_url": "https://drive.google.com/file/d/1xWqICcy0K9yxiPssYEZV6BPPW1ammV9K/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:59:03.612Z",
-          "price_date": "24.08.2026"
-        },
-        {
-          "file": "RV-Westwood Building- Ready to move in 24.08.2026 V2.pdf",
-          "file_id": "1pBCXOcbSFYrYJo99R4gjpODoTU80Mjtw",
-          "file_url": "https://drive.google.com/file/d/1pBCXOcbSFYrYJo99R4gjpODoTU80Mjtw/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:59:00.546Z",
-          "price_date": "24.08.2026"
-        },
-        {
           "file": "RV-Ready to Move In_Wright Building 17.08.2026.pdf",
           "file_id": "18ED1LLP1MQZSkTAKTKPfkwKHb9x4f14o",
           "file_url": "https://drive.google.com/file/d/18ED1LLP1MQZSkTAKTKPfkwKHb9x4f14o/view?usp=drivesdk",
@@ -1333,6 +1319,20 @@
           "file_url": "https://drive.google.com/file/d/1DgiT4o8fMnbx1oMUxsBlLEZl4dDKrz4b/view?usp=drivesdk",
           "modified_at": "2026-07-15T02:04:21.492Z",
           "price_date": "13.07.2026"
+        },
+        {
+          "file": "RV-Westwood Building-Ready to move in 07.09.pdf",
+          "file_id": "18OqQgzeDTjcp9ReO00XN9255-y4otlvo",
+          "file_url": "https://drive.google.com/file/d/18OqQgzeDTjcp9ReO00XN9255-y4otlvo/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:51:58.802Z",
+          "price_date": ""
+        },
+        {
+          "file": "RV-Wright Building-Ready to move in 07.09.pdf",
+          "file_id": "17gPbWSOXQdqZZwxIaFDUxHkQ-3X-cQzN",
+          "file_url": "https://drive.google.com/file/d/17gPbWSOXQdqZZwxIaFDUxHkQ-3X-cQzN/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:06.737Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -1433,6 +1433,20 @@
           "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
           "modified_at": "2026-06-08T08:14:52.000Z",
           "price_date": "25.05.2026"
+        },
+        {
+          "file": "RV-Westwood Building- Ready to move in 24.08.2026 V2.pdf",
+          "file_id": "1pBCXOcbSFYrYJo99R4gjpODoTU80Mjtw",
+          "file_url": "https://drive.google.com/file/d/1pBCXOcbSFYrYJo99R4gjpODoTU80Mjtw/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:59:00.546Z",
+          "price_date": ""
+        },
+        {
+          "file": "RV-Wright Building-Ready to move in 24.08.2026.pdf",
+          "file_id": "1xWqICcy0K9yxiPssYEZV6BPPW1ammV9K",
+          "file_url": "https://drive.google.com/file/d/1xWqICcy0K9yxiPssYEZV6BPPW1ammV9K/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:59:03.612Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -1452,25 +1466,25 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
       "latest_files": [
         {
-          "file": "Bow Green_Ready to Move In_ Core C Pricelist 18.08.26.pdf",
-          "file_id": "1CZT1coDdHf8d0DbWgrtLMTlKnQsSqGkQ",
-          "file_url": "https://drive.google.com/file/d/1CZT1coDdHf8d0DbWgrtLMTlKnQsSqGkQ/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:52:24.912Z",
-          "price_date": "18.08.26"
-        },
-        {
-          "file": "Bow Green_Ready to Move In_ Core B Pricelist 18.08.26.pdf",
-          "file_id": "1ZGOvYM3l80RmXiC7xA4aHdT6CLyQcFRE",
-          "file_url": "https://drive.google.com/file/d/1ZGOvYM3l80RmXiC7xA4aHdT6CLyQcFRE/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:52:18.636Z",
-          "price_date": "18.08.26"
-        },
-        {
           "file": "Bow Green_Ready to Move In_Pricelist 07.08.26.pdf",
           "file_id": "1GYg4yBVxmFEX_dZ2TqHgiLBcx2Cj-JKg",
           "file_url": "https://drive.google.com/file/d/1GYg4yBVxmFEX_dZ2TqHgiLBcx2Cj-JKg/view?usp=drivesdk",
           "modified_at": "2026-08-11T06:16:07.176Z",
           "price_date": "07.08.26"
+        },
+        {
+          "file": "Bow Green Core B ready to move in Pricelist 02.09.26 1.pdf",
+          "file_id": "1KIv_eIjtrC3wwuEeI-rtgYh6UvAJ-Xf_",
+          "file_url": "https://drive.google.com/file/d/1KIv_eIjtrC3wwuEeI-rtgYh6UvAJ-Xf_/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:51:34.057Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green Bow View ready to move in Pricelist 02.09.26 1.pdf",
+          "file_id": "1_66u0Xn_N1QU8yUmcHBEELRyn0G-Lm0H",
+          "file_url": "https://drive.google.com/file/d/1_66u0Xn_N1QU8yUmcHBEELRyn0G-Lm0H/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:37.020Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -1592,6 +1606,20 @@
           "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
           "modified_at": "2026-06-27T09:50:43.000Z",
           "price_date": "15.06.26"
+        },
+        {
+          "file": "Bow Green_Ready to Move In_ Core B Pricelist 18.08.26.pdf",
+          "file_id": "1ZGOvYM3l80RmXiC7xA4aHdT6CLyQcFRE",
+          "file_url": "https://drive.google.com/file/d/1ZGOvYM3l80RmXiC7xA4aHdT6CLyQcFRE/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:52:18.636Z",
+          "price_date": ""
+        },
+        {
+          "file": "Bow Green_Ready to Move In_ Core C Pricelist 18.08.26.pdf",
+          "file_id": "1CZT1coDdHf8d0DbWgrtLMTlKnQsSqGkQ",
+          "file_url": "https://drive.google.com/file/d/1CZT1coDdHf8d0DbWgrtLMTlKnQsSqGkQ/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:52:24.912Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -6328,32 +6356,32 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1znxe0Q7J-C8_ln-QqgwEp9tJ9r6f1SjI",
       "latest_files": [
         {
-          "file": "OKRP- 1 & 2 -  Bed Price List (Hyperlinked) - 23.08.2026.pdf",
-          "file_id": "1QMByvYEGHzYRKg6AE5hI_6XZ3tuOMJ3T",
-          "file_url": "https://drive.google.com/file/d/1QMByvYEGHzYRKg6AE5hI_6XZ3tuOMJ3T/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:56:49.989Z",
-          "price_date": "23.08.2026"
-        },
-        {
-          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  23.08.2026.pdf",
-          "file_id": "1OtqFOoOoJgKR0GfcYlB-nM5QslnqCFUt",
-          "file_url": "https://drive.google.com/file/d/1OtqFOoOoJgKR0GfcYlB-nM5QslnqCFUt/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:56:44.626Z",
-          "price_date": "23.08.2026"
-        },
-        {
-          "file": "KRP - The Charlton - Price List (Hyperlinked) - 23.08.2026.pdf",
-          "file_id": "1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B",
-          "file_url": "https://drive.google.com/file/d/1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:56:39.520Z",
-          "price_date": "23.08.2026"
-        },
-        {
           "file": "King's Road Park - The Charlton - 1 & 2 Bed Price List  -__ 19.07.2026.pdf",
           "file_id": "1WpQrXP5LTeKP0OVgoP95W5X37UG37DpS",
           "file_url": "https://drive.google.com/file/d/1WpQrXP5LTeKP0OVgoP95W5X37UG37DpS/view?usp=drivesdk",
           "modified_at": "2026-07-21T03:54:08.838Z",
           "price_date": "19.07.2026"
+        },
+        {
+          "file": "KRP - The Charlton - Price List (Hyperlinked) - 06.09.2026.pdf",
+          "file_id": "1CNlrmhNiUV67VXKBxCqiJujwxr11hP6G",
+          "file_url": "https://drive.google.com/file/d/1CNlrmhNiUV67VXKBxCqiJujwxr11hP6G/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:14.410Z",
+          "price_date": ""
+        },
+        {
+          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  06.09.2026.pdf",
+          "file_id": "1KlarC9SdlLD7K78v13oms3QTbZfuBaSh",
+          "file_url": "https://drive.google.com/file/d/1KlarC9SdlLD7K78v13oms3QTbZfuBaSh/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:22.373Z",
+          "price_date": ""
+        },
+        {
+          "file": "OKRP- 1 & 2 -  Bed Price List (Hyperlinked) - 06.09.2026.pdf",
+          "file_id": "1WwZA7D1JSHEz4gDBUTIcAUy_Iexj6q91",
+          "file_url": "https://drive.google.com/file/d/1WwZA7D1JSHEz4gDBUTIcAUy_Iexj6q91/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:29.583Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -6559,6 +6587,27 @@
           "file_url": "https://drive.google.com/file/d/113oGHbYM7-5FfdUQeBEAeJfl3r-tml3q/view?usp=drivesdk",
           "modified_at": "2026-05-28T01:56:03.922Z",
           "price_date": "26-05-28"
+        },
+        {
+          "file": "KRP - The Charlton - Price List (Hyperlinked) - 23.08.2026.pdf",
+          "file_id": "1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B",
+          "file_url": "https://drive.google.com/file/d/1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:56:39.520Z",
+          "price_date": ""
+        },
+        {
+          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  23.08.2026.pdf",
+          "file_id": "1OtqFOoOoJgKR0GfcYlB-nM5QslnqCFUt",
+          "file_url": "https://drive.google.com/file/d/1OtqFOoOoJgKR0GfcYlB-nM5QslnqCFUt/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:56:44.626Z",
+          "price_date": ""
+        },
+        {
+          "file": "OKRP- 1 & 2 -  Bed Price List (Hyperlinked) - 23.08.2026.pdf",
+          "file_id": "1QMByvYEGHzYRKg6AE5hI_6XZ3tuOMJ3T",
+          "file_url": "https://drive.google.com/file/d/1QMByvYEGHzYRKg6AE5hI_6XZ3tuOMJ3T/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:56:49.989Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -6871,32 +6920,32 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1bakBWQEwoWkgxHT7G_Jj83rSMXQw8mse",
       "latest_files": [
         {
-          "file": "White City Living_Ready to Move In_ Solaris One 21.08.26.pdf",
-          "file_id": "1ndc4tSczHjlR48Q3IwIIKQkO3euk1cjn",
-          "file_url": "https://drive.google.com/file/d/1ndc4tSczHjlR48Q3IwIIKQkO3euk1cjn/view?usp=drivesdk",
-          "modified_at": "2026-08-25T02:01:46.819Z",
-          "price_date": "21.08.26"
-        },
-        {
-          "file": "White City Living Solaris Two 21.08.26.pdf",
-          "file_id": "1VwAT16X5p18KbGWZJ0zCU_h8_nPJMLgP",
-          "file_url": "https://drive.google.com/file/d/1VwAT16X5p18KbGWZJ0zCU_h8_nPJMLgP/view?usp=drivesdk",
-          "modified_at": "2026-08-25T02:01:41.069Z",
-          "price_date": "21.08.26"
-        },
-        {
-          "file": "White City Living Cascades Three 21.08.26.pdf",
-          "file_id": "1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF",
-          "file_url": "https://drive.google.com/file/d/1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF/view?usp=drivesdk",
-          "modified_at": "2026-08-25T02:01:35.530Z",
-          "price_date": "21.08.26"
-        },
-        {
           "file": "White City Living Cascade Three 22.07.26.pdf",
           "file_id": "17w70ytAIpRACQCt1MAf44yz-lfExlWtE",
           "file_url": "https://drive.google.com/file/d/17w70ytAIpRACQCt1MAf44yz-lfExlWtE/view?usp=drivesdk",
           "modified_at": "2026-07-28T02:18:39.782Z",
           "price_date": "22.07.26"
+        },
+        {
+          "file": "White City Living Cascades Three 04.09.26.pdf",
+          "file_id": "1gXNQlUv1iYYW8UzWKGGPmGPqqgcQktbS",
+          "file_url": "https://drive.google.com/file/d/1gXNQlUv1iYYW8UzWKGGPmGPqqgcQktbS/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:51:42.126Z",
+          "price_date": ""
+        },
+        {
+          "file": "White City Living_Ready to Move In_Solaris One 04.09.26.pdf",
+          "file_id": "1vNqxzx5gG3qFohd2TySScXBUyvXYwEK1",
+          "file_url": "https://drive.google.com/file/d/1vNqxzx5gG3qFohd2TySScXBUyvXYwEK1/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:51:50.849Z",
+          "price_date": ""
+        },
+        {
+          "file": "White City Living Solaris Two 04.09.26.pdf",
+          "file_id": "13kg1x8FpJXdt_so3Fpb9Qi5r8un1XmA8",
+          "file_url": "https://drive.google.com/file/d/13kg1x8FpJXdt_so3Fpb9Qi5r8un1XmA8/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:52:45.121Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -7102,6 +7151,27 @@
           "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
           "modified_at": "2026-05-23T01:30:00.000Z",
           "price_date": "22.05.26"
+        },
+        {
+          "file": "White City Living Cascades Three 21.08.26.pdf",
+          "file_id": "1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF",
+          "file_url": "https://drive.google.com/file/d/1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:01:35.530Z",
+          "price_date": ""
+        },
+        {
+          "file": "White City Living_Ready to Move In_ Solaris One 21.08.26.pdf",
+          "file_id": "1ndc4tSczHjlR48Q3IwIIKQkO3euk1cjn",
+          "file_url": "https://drive.google.com/file/d/1ndc4tSczHjlR48Q3IwIIKQkO3euk1cjn/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:01:46.819Z",
+          "price_date": ""
+        },
+        {
+          "file": "White City Living Solaris Two 21.08.26.pdf",
+          "file_id": "1VwAT16X5p18KbGWZJ0zCU_h8_nPJMLgP",
+          "file_url": "https://drive.google.com/file/d/1VwAT16X5p18KbGWZJ0zCU_h8_nPJMLgP/view?usp=drivesdk",
+          "modified_at": "2026-08-25T02:01:41.069Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -11634,7 +11704,7 @@
           "file_id": "1SKFglQqelXfoE-npCLIvkSEK0Ql6-Q0M",
           "file_url": "https://drive.google.com/file/d/1SKFglQqelXfoE-npCLIvkSEK0Ql6-Q0M/view?usp=drivesdk",
           "modified_at": "2026-09-02T09:04:07.775Z",
-          "price_date": "26-08-26"
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -11717,5 +11787,5 @@
   "targeted_projects": [
     "SW11 - Embassy Gardens - The Capston"
   ],
-  "published_at": "2026-09-10T14:24:56"
+  "published_at": "2026-09-10T15:02:10"
 }
