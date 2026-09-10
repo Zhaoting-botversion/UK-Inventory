@@ -15,6 +15,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 from unit_change_engine import DB_PATH as UNIT_DB_PATH
 from unit_change_engine import recent_events, version_summary
 from unit_library import current_units, filter_units, inventory_summary
+from phase_aliases import canonical_project_name as canonical_project_identity
 
 
 BASE_DIR = Path(__file__).resolve().parents[1]
@@ -838,7 +839,22 @@ def read_drive_state() -> dict:
     if not DRIVE_STATE_PATH.exists():
         return {}
     try:
-        return json.loads(DRIVE_STATE_PATH.read_text(encoding="utf-8"))
+        payload = json.loads(DRIVE_STATE_PATH.read_text(encoding="utf-8"))
+        projects = payload.get("projects")
+        if isinstance(projects, dict):
+            corrected = {}
+            for source_name, project in projects.items():
+                canonical_name = canonical_project_identity(source_name)
+                project = dict(project) if isinstance(project, dict) else project
+                if isinstance(project, dict) and canonical_name != source_name:
+                    project["project"] = canonical_name
+                    project["city"] = "Buckinghamshire"
+                    project["path"] = str(project.get("path") or "").replace(source_name, canonical_name)
+                corrected[canonical_name] = project
+            payload["projects"] = corrected
+        if isinstance(payload.get("targeted_projects"), list):
+            payload["targeted_projects"] = [canonical_project_identity(name) for name in payload["targeted_projects"]]
+        return payload
     except Exception:
         return {}
 
@@ -2082,6 +2098,7 @@ def base_unit_project_name(name: str) -> str:
 
 UNIT_PROJECT_ALIASES = {
     "The ICON": "Knights Park",
+    "RM9 - Eastbrook Village": "MK16 - Eastbrook Village",
 }
 
 

@@ -1,4 +1,7 @@
 {
+  "project_overrides": [
+    {"source": "RM9 - Eastbrook Village", "canonical": "MK16 - Eastbrook Village", "city": "Buckinghamshire", "reason": "Eastbrook Village is in Milton Keynes (MK16), not Dagenham RM9; source history remains append-only."}
+  ],
   "overrides": [
     {"project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026", "alias": "herland gardens", "canonical": "main", "reason": "Confirmed as the same physical inventory."},
     {"project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026", "alias": "herland gardens availablity", "canonical": "main", "reason": "Availability source is not a separate phase."},
@@ -31,3 +34,4 @@
     {"project": "E3 - Bow Green", "alias": "core c", "canonical": "core c", "reason": "Future ingestion fingerprint."}
   ]
 }
+

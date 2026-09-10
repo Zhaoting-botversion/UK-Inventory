@@ -32,6 +32,22 @@ def load_phase_aliases(path: Path = DEFAULT_PATH) -> dict[tuple[str, str], str]:
     return aliases
 
 
+def load_project_aliases(path: Path = DEFAULT_PATH) -> dict[str, str]:
+    """Load presentation-level project identity corrections.
+
+    Source rows keep their original project names for append-only history.  This
+    mapping corrects the canonical identity used by current inventory views.
+    """
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {
+        norm(item.get("source")): str(item.get("canonical") or "").strip()
+        for item in payload.get("project_overrides", [])
+        if norm(item.get("source")) and str(item.get("canonical") or "").strip()
+    }
+
+
 def canonical_phase(project: str, phase: str, aliases: dict[tuple[str, str], str] | None = None) -> str:
     aliases = aliases if aliases is not None else load_phase_aliases()
     return aliases.get((norm(project), norm(phase)), norm(phase))
@@ -39,8 +55,9 @@ def canonical_phase(project: str, phase: str, aliases: dict[tuple[str, str], str
 
 def canonical_project_name(project_name: str, aliases: dict[tuple[str, str], str] | None = None) -> str:
     project, phase = split_project_phase(project_name)
+    project = load_project_aliases().get(norm(project), project)
     if not phase:
-        return project_name
+        return project
     canonical = canonical_phase(project, phase, aliases)
     if canonical == "main":
         return project
