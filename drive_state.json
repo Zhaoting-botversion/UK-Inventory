@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-09-02T17:04:26",
-  "source": "google_drive_targeted_projects",
+  "synced_at": "2026-09-10T06:19:50.200199+00:00",
+  "source": "manual_verified_september_2026_upload",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -7161,11 +7161,11 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1Gfe7MSacfxIvCv5_E8izRSAiWpQkpOzg",
       "latest_files": [
         {
-          "file": "Fifty Brook Green - Price List - 27.07.2026.pdf",
-          "file_id": "1gi9OGmj1hS_9kPizxColctxnlVonNmYA",
-          "file_url": "https://drive.google.com/file/d/1gi9OGmj1hS_9kPizxColctxnlVonNmYA/view?usp=drivesdk",
-          "modified_at": "2026-07-29T02:39:59.694Z",
-          "price_date": "27.07.2026"
+          "file": "Fifty Brook Green - Price List -07.09.2026.pdf",
+          "file_id": "1uQFeAoExeo9V6ZUWx8eQ_jNmGkq35I4c",
+          "file_url": "https://drive.google.com/file/d/1uQFeAoExeo9V6ZUWx8eQ_jNmGkq35I4c/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:18.826Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -7182,6 +7182,13 @@
           "file_url": "https://drive.google.com/file/d/1cJB3W8_K3_2BHv6le405IczFY9QGT4QX/view?usp=drivesdk",
           "modified_at": "2026-05-07T10:52:04.000Z",
           "price_date": "28.04.2026"
+        },
+        {
+          "file": "Fifty Brook Green - Price List - 27.07.2026.pdf",
+          "file_id": "1gi9OGmj1hS_9kPizxColctxnlVonNmYA",
+          "file_url": "https://drive.google.com/file/d/1gi9OGmj1hS_9kPizxColctxnlVonNmYA/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:39:59.694Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -8304,18 +8311,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1s9kKiQUOZ6ozrEF15-NDctYBE_ENER9M",
       "latest_files": [
         {
-          "file": "City Reach Ida Court Price List 01.07.2026.pdf",
-          "file_id": "1Rf0WWI-MCLmdv0dRtmar_q0oQDwk9r6A",
-          "file_url": "https://drive.google.com/file/d/1Rf0WWI-MCLmdv0dRtmar_q0oQDwk9r6A/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:28.708Z",
-          "price_date": "01.07.2026"
+          "file": "City Reach Florence Court Price List 08.09.2026.pdf",
+          "file_id": "1EAR9ZGPKbRz6GFqYCGfNpeqArDTy81qd",
+          "file_url": "https://drive.google.com/file/d/1EAR9ZGPKbRz6GFqYCGfNpeqArDTy81qd/view?usp=drivesdk",
+          "modified_at": "2026-09-10T03:37:42.639Z",
+          "price_date": ""
         },
         {
-          "file": "City Reach Florence Court Price List 01.07.2026.pdf",
-          "file_id": "10KcjkLtj4QHn_avGBeAomS5mZSLevDHr",
-          "file_url": "https://drive.google.com/file/d/10KcjkLtj4QHn_avGBeAomS5mZSLevDHr/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:25.753Z",
-          "price_date": "01.07.2026"
+          "file": "City Reach Ida Court Price List 08.09.2026.pdf",
+          "file_id": "1UXUSi1AU1lW5cV-qUE_11gWjXy2TfznN",
+          "file_url": "https://drive.google.com/file/d/1UXUSi1AU1lW5cV-qUE_11gWjXy2TfznN/view?usp=drivesdk",
+          "modified_at": "2026-09-10T03:37:48.946Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -8332,6 +8339,20 @@
           "file_url": "https://drive.google.com/file/d/1nOxwot1Gs-RiOm5oYi74I_-28r44y1fE/view?usp=drivesdk",
           "modified_at": "2026-05-25T00:58:07.000Z",
           "price_date": "22.05.2026"
+        },
+        {
+          "file": "City Reach Florence Court Price List 01.07.2026.pdf",
+          "file_id": "10KcjkLtj4QHn_avGBeAomS5mZSLevDHr",
+          "file_url": "https://drive.google.com/file/d/10KcjkLtj4QHn_avGBeAomS5mZSLevDHr/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:25.753Z",
+          "price_date": ""
+        },
+        {
+          "file": "City Reach Ida Court Price List 01.07.2026.pdf",
+          "file_id": "1Rf0WWI-MCLmdv0dRtmar_q0oQDwk9r6A",
+          "file_url": "https://drive.google.com/file/d/1Rf0WWI-MCLmdv0dRtmar_q0oQDwk9r6A/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:28.708Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -8351,11 +8372,11 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1xm5h03X614-gPGNIIc5OysFl6mdIWbUY",
       "latest_files": [
         {
-          "file": "Hartmere Price List- Freehold Houses 01.07.2026.pdf",
-          "file_id": "1YOMZYVCFosOV_A23GgWWKv-kCChLig5-",
-          "file_url": "https://drive.google.com/file/d/1YOMZYVCFosOV_A23GgWWKv-kCChLig5-/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:36.845Z",
-          "price_date": "01.07.2026"
+          "file": "Hartmere Freehold Houses Price List 08.09.2026.pdf",
+          "file_id": "1Er6ZuyhqovlknxNoEQLRBBwZtA6QJ-VC",
+          "file_url": "https://drive.google.com/file/d/1Er6ZuyhqovlknxNoEQLRBBwZtA6QJ-VC/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:26.941Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -8365,6 +8386,13 @@
           "file_url": "https://drive.google.com/file/d/18uwD29cxJP9NTZcopJXJWaWIhPnUJW71/view?usp=drivesdk",
           "modified_at": "2026-05-25T00:58:06.000Z",
           "price_date": "22.05.2026"
+        },
+        {
+          "file": "Hartmere Price List- Freehold Houses 01.07.2026.pdf",
+          "file_id": "1YOMZYVCFosOV_A23GgWWKv-kCChLig5-",
+          "file_url": "https://drive.google.com/file/d/1YOMZYVCFosOV_A23GgWWKv-kCChLig5-/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:36.845Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -8384,28 +8412,50 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1FGS1G2AbvjSNC3-3T1TganAgf13kAQ7w",
       "latest_files": [
         {
-          "file": "Knights Park The Icon Price List 01.07.2026.pdf",
-          "file_id": "1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb",
-          "file_url": "https://drive.google.com/file/d/1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:50.680Z",
-          "price_date": "01.07.2026"
+          "file": "Knights Park Fusion Price List 08.09.2026.pdf",
+          "file_id": "1xtNTaHdmV8nlTf2hb6DQZwFoZjC8Qbkh",
+          "file_url": "https://drive.google.com/file/d/1xtNTaHdmV8nlTf2hb6DQZwFoZjC8Qbkh/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:34.013Z",
+          "price_date": ""
+        },
+        {
+          "file": "Knights Park House Price List 08.09.2026.pdf",
+          "file_id": "1pLyoewpzr1CB9Ri86qtQko8Fkp7s_gTM",
+          "file_url": "https://drive.google.com/file/d/1pLyoewpzr1CB9Ri86qtQko8Fkp7s_gTM/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:44.489Z",
+          "price_date": ""
+        },
+        {
+          "file": "Knights Park The Icon Price List 08.09.2026.pdf",
+          "file_id": "1JsIuZ6XRdq7j87c-_JGBYDNs51lrVl9t",
+          "file_url": "https://drive.google.com/file/d/1JsIuZ6XRdq7j87c-_JGBYDNs51lrVl9t/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:52.418Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Knights Park Fusion Apartments Price List 01.07.2026.pdf",
+          "file_id": "1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU",
+          "file_url": "https://drive.google.com/file/d/1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:45.340Z",
+          "price_date": ""
         },
         {
           "file": "Knights Park House Price List 01.07.2026.pdf",
           "file_id": "16pgoK42f8_1u4nj1JcN_Zwknqd8DcNyi",
           "file_url": "https://drive.google.com/file/d/16pgoK42f8_1u4nj1JcN_Zwknqd8DcNyi/view?usp=drivesdk",
           "modified_at": "2026-07-03T01:41:47.789Z",
-          "price_date": "01.07.2026"
+          "price_date": ""
         },
         {
-          "file": "Knights Park Fusion Apartments Price List 01.07.2026.pdf",
-          "file_id": "1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU",
-          "file_url": "https://drive.google.com/file/d/1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:45.340Z",
-          "price_date": "01.07.2026"
+          "file": "Knights Park The Icon Price List 01.07.2026.pdf",
+          "file_id": "1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb",
+          "file_url": "https://drive.google.com/file/d/1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:50.680Z",
+          "price_date": ""
         }
       ],
-      "old_files": [],
       "notes": []
     },
     "Marleigh Park": {
@@ -8423,18 +8473,25 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1hIxg6Z-UT6wP6lImosD9xb4El3bcNhqO",
       "latest_files": [
         {
-          "file": "Marleigh House Kingsley View Price List 01.07.2026.pdf",
-          "file_id": "1LufGIFjDM56X4ZnVhT7AwNPV4Vb1M_7F",
-          "file_url": "https://drive.google.com/file/d/1LufGIFjDM56X4ZnVhT7AwNPV4Vb1M_7F/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:59.443Z",
-          "price_date": "01.07.2026"
+          "file": "Marleigh Apartments Franklin and Kestrel Price List 08.09.2026.pdf",
+          "file_id": "1ZTdDqpyWnGmp9uPVU6ORXuOAsn77vljH",
+          "file_url": "https://drive.google.com/file/d/1ZTdDqpyWnGmp9uPVU6ORXuOAsn77vljH/view?usp=drivesdk",
+          "modified_at": "2026-09-10T03:38:01.469Z",
+          "price_date": ""
         },
         {
-          "file": "Marleigh Apartments Franklin and Kestrel Price List 01.07.2026.pdf",
-          "file_id": "13tMEOkpUQWwt2m8X7N3ZMH2nXM37LIz8",
-          "file_url": "https://drive.google.com/file/d/13tMEOkpUQWwt2m8X7N3ZMH2nXM37LIz8/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:56.492Z",
-          "price_date": "01.07.2026"
+          "file": "Marleigh House Beaumont Gardens Price List 08.09.2026.pdf",
+          "file_id": "1MOgO1YRHjJDkenuK4uwUrjazaIX8FeSr",
+          "file_url": "https://drive.google.com/file/d/1MOgO1YRHjJDkenuK4uwUrjazaIX8FeSr/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:16:48.547Z",
+          "price_date": ""
+        },
+        {
+          "file": "Marleigh House Kingsley View Price List 08.09.2026.pdf",
+          "file_id": "1TNi1pEFjP7DJLPTQ9zgItd0TJ7A75s6j",
+          "file_url": "https://drive.google.com/file/d/1TNi1pEFjP7DJLPTQ9zgItd0TJ7A75s6j/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:16:52.914Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -8458,6 +8515,20 @@
           "file_url": "https://drive.google.com/file/d/1I9eQ45Bw225ZAEA02C-ypRQziH2lvaUp/view?usp=drivesdk",
           "modified_at": "2026-05-25T00:58:06.000Z",
           "price_date": "22.05.2026"
+        },
+        {
+          "file": "Marleigh Apartments Franklin and Kestrel Price List 01.07.2026.pdf",
+          "file_id": "13tMEOkpUQWwt2m8X7N3ZMH2nXM37LIz8",
+          "file_url": "https://drive.google.com/file/d/13tMEOkpUQWwt2m8X7N3ZMH2nXM37LIz8/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:56.492Z",
+          "price_date": ""
+        },
+        {
+          "file": "Marleigh House Kingsley View Price List 01.07.2026.pdf",
+          "file_id": "1LufGIFjDM56X4ZnVhT7AwNPV4Vb1M_7F",
+          "file_url": "https://drive.google.com/file/d/1LufGIFjDM56X4ZnVhT7AwNPV4Vb1M_7F/view?usp=drivesdk",
+          "modified_at": "2026-07-03T01:41:59.443Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -10448,18 +10519,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1oOIgPzcLQ4QZnP-wVVx8VtyWOtDM1uOd",
       "latest_files": [
         {
-          "file": "County Hall Kingston - New Build - Customer Price List 28.07.2026.pdf",
-          "file_id": "1tWBSZhYzqoSEsD4Vout5YNZZ8yl7sXUT",
-          "file_url": "https://drive.google.com/file/d/1tWBSZhYzqoSEsD4Vout5YNZZ8yl7sXUT/view?usp=drivesdk",
-          "modified_at": "2026-07-29T02:40:31.972Z",
-          "price_date": "28.07.2026"
+          "file": "County Hall Kingston - Heritage Collection - Customer Price List 07.09.26.pdf",
+          "file_id": "1eoenGjp2lIzoV8viWfRGVed7biUDjpuo",
+          "file_url": "https://drive.google.com/file/d/1eoenGjp2lIzoV8viWfRGVed7biUDjpuo/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:02.804Z",
+          "price_date": ""
         },
         {
-          "file": "County Hall Kingston - Heritage Collection - Customer Price List 28.07.2026.pdf",
-          "file_id": "1YcQG6wnPrGzO-qs_qeOYt-K0nS9IrP5C",
-          "file_url": "https://drive.google.com/file/d/1YcQG6wnPrGzO-qs_qeOYt-K0nS9IrP5C/view?usp=drivesdk",
-          "modified_at": "2026-07-29T02:40:24.821Z",
-          "price_date": "28.07.2026"
+          "file": "County Hall Kingston - New Build - Customer Price List 07.09.2026.pdf",
+          "file_id": "1G-QqCC4FOMbuZvrDTHJolSA4sc2Qzn_X",
+          "file_url": "https://drive.google.com/file/d/1G-QqCC4FOMbuZvrDTHJolSA4sc2Qzn_X/view?usp=drivesdk",
+          "modified_at": "2026-09-10T06:17:10.011Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -10483,6 +10554,20 @@
           "file_url": "https://drive.google.com/file/d/14L-5Z4er-FeTuvk13zhy6zkXRExAuMGj/view?usp=drivesdk",
           "modified_at": "2026-06-22T05:46:15.628Z",
           "price_date": "10.06.2026"
+        },
+        {
+          "file": "County Hall Kingston - Heritage Collection - Customer Price List 28.07.2026.pdf",
+          "file_id": "1YcQG6wnPrGzO-qs_qeOYt-K0nS9IrP5C",
+          "file_url": "https://drive.google.com/file/d/1YcQG6wnPrGzO-qs_qeOYt-K0nS9IrP5C/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:40:24.821Z",
+          "price_date": ""
+        },
+        {
+          "file": "County Hall Kingston - New Build - Customer Price List 28.07.2026.pdf",
+          "file_id": "1tWBSZhYzqoSEsD4Vout5YNZZ8yl7sXUT",
+          "file_url": "https://drive.google.com/file/d/1tWBSZhYzqoSEsD4Vout5YNZZ8yl7sXUT/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:40:31.972Z",
+          "price_date": ""
         }
       ],
       "notes": []
@@ -11590,6 +11675,39 @@
         }
       ],
       "notes": []
+    },
+    "SW6 - Lillie Square (London Square)": {
+      "project": "SW6 - Lillie Square (London Square)",
+      "city": "Inner London",
+      "developer": "London Square",
+      "cooperation_level": "开发商直接合作",
+      "cooperation_partner": "London Square",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Lillie Square (London Square)",
+      "folder_id": "1N2i1jE2PIpPq6cV1jVN-wt8uvTYW6Rbu",
+      "folder_url": "https://drive.google.com/drive/folders/1N2i1jE2PIpPq6cV1jVN-wt8uvTYW6Rbu",
+      "price_folder_id": "13N1qMrnAXOMPCE7XHEj4_aoaLEU11ZQs",
+      "price_folder_url": "https://drive.google.com/drive/folders/13N1qMrnAXOMPCE7XHEj4_aoaLEU11ZQs",
+      "old_price_folder_id": "1uqFgs6NslWpFy5d7Xl2sSfITzavkuie2",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1uqFgs6NslWpFy5d7Xl2sSfITzavkuie2",
+      "latest_files": [
+        {
+          "file": "Lillie Square - Price List - 07.09.2026.pdf",
+          "file_id": "149zvSEEwxyqbzLsQCxeLzY1kGX7oEt_k",
+          "file_url": "https://drive.google.com/file/d/149zvSEEwxyqbzLsQCxeLzY1kGX7oEt_k/view?usp=drivesdk",
+          "modified_at": "2026-09-10T03:37:55.123Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Lillie Square - Price List - 27.07.2026.pdf",
+          "file_id": "1Wqbm6tlhM-6GK6tQZa5s14_Dnt3xjPEF",
+          "file_url": "https://drive.google.com/file/d/1Wqbm6tlhM-6GK6tQZa5s14_Dnt3xjPEF/view?usp=drivesdk",
+          "modified_at": "2026-07-29T02:40:48.183Z",
+          "price_date": ""
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
@@ -11599,5 +11717,5 @@
   "targeted_projects": [
     "SW11 - Embassy Gardens - The Capston"
   ],
-  "published_at": "2026-09-06T16:09:59"
+  "published_at": "2026-09-10T14:24:56"
 }
