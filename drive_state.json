@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-09-12T14:10:42.872792",
+  "synced_at": "2026-10-06T22:04:13.932014",
   "source": "manual_verified_september_2026_upload",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -1053,6 +1053,13 @@
           "file_url": "https://drive.google.com/file/d/1VAsqQtYp6bqovkO5atpnueutggwqnItG/view?usp=drivesdk",
           "modified_at": "2026-07-18T01:48:43.555Z",
           "price_date": "July 2026"
+        },
+        {
+          "file": "Goodluck Hope Price List October 2026.pdf",
+          "file_id": "1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK",
+          "file_url": "https://drive.google.com/file/d/1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:08.063Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -2625,6 +2632,27 @@
           "file_url": "https://drive.google.com/file/d/1DWjk1rb7jnTBHozjOhM-qOxVvCc8LNw8/view?usp=drivesdk",
           "modified_at": "2026-09-11T04:04:08.542Z",
           "price_date": ""
+        },
+        {
+          "file": "Prime Point -  Pricelist - 6th October 2026.pdf",
+          "file_id": "1BCl_hf-ILkgn82C2LnhbWY0-IKvBucNx",
+          "file_url": "https://drive.google.com/file/d/1BCl_hf-ILkgn82C2LnhbWY0-IKvBucNx/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:01.702Z",
+          "price_date": ""
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 6th October 2026.pdf",
+          "file_id": "1kat1pxtLfwkSBGD9zsDPc0a3T9t2tkEn",
+          "file_url": "https://drive.google.com/file/d/1kat1pxtLfwkSBGD9zsDPc0a3T9t2tkEn/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:03.905Z",
+          "price_date": ""
+        },
+        {
+          "file": "Peninsula Gardens - Pricelist - 6th October 2026.pdf",
+          "file_id": "1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF",
+          "file_url": "https://drive.google.com/file/d/1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:06.112Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -3024,6 +3052,13 @@
           "file_id": "1-PGpiJ1qaWIR1fmGf1PQa1PUqQ8V0ORE",
           "file_url": "https://drive.google.com/file/d/1-PGpiJ1qaWIR1fmGf1PQa1PUqQ8V0ORE/view?usp=drivesdk",
           "modified_at": "2026-07-15T09:57:10.358Z",
+          "price_date": ""
+        },
+        {
+          "file": "The Founding Price List.pdf",
+          "file_id": "1acOPfJttEbsZpWYwe2VhWnp3maLWZ4Wv",
+          "file_url": "https://drive.google.com/file/d/1acOPfJttEbsZpWYwe2VhWnp3maLWZ4Wv/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:10.262Z",
           "price_date": ""
         }
       ],
@@ -11417,6 +11452,13 @@
           "file_url": "https://drive.google.com/file/d/1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J/view?usp=drivesdk",
           "modified_at": "2026-08-26T03:38:54.625Z",
           "price_date": "August 2026"
+        },
+        {
+          "file": "The Riverscape Price List -October  2026.pdf",
+          "file_id": "18rz0dugu3Vaqdm6irK7778rKOqbYtrzd",
+          "file_url": "https://drive.google.com/file/d/18rz0dugu3Vaqdm6irK7778rKOqbYtrzd/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:12.213Z",
+          "price_date": ""
         }
       ],
       "old_files": [
@@ -12103,5 +12145,5 @@
   "targeted_projects": [
     "SW11 - Embassy Gardens - The Capston"
   ],
-  "published_at": "2026-09-12T14:15:46"
+  "published_at": "2026-10-06T22:06:57"
 }
