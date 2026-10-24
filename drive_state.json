@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-06T22:04:13.891963",
-  "source": "manual_verified_september_2026_upload",
+  "synced_at": "2026-10-24T11:25:56",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -2734,305 +2734,6 @@
       ],
       "notes": []
     },
-    "SE11 - Oval Village": {
-      "project": "SE11 - Oval Village",
-      "city": "Inner London",
-      "developer": "Berkeley Group",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE11 - Oval Village",
-      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
-      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
-      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
-      "latest_files": [
-        {
-          "file": "Oval Village The Halo - The Residences - Price list__ 30.08.2026.pdf",
-          "file_id": "1vt8m-oouBa8xoUGyC6enUVLXNUd48zB6",
-          "file_url": "https://drive.google.com/file/d/1vt8m-oouBa8xoUGyC6enUVLXNUd48zB6/view?usp=drivesdk",
-          "modified_at": "2026-08-31T09:05:16.152Z",
-          "price_date": "30.08.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 30.08.2026.pdf",
-          "file_id": "14K7n0bWqOxljD9lRH0vOwnRrgy6ITXRr",
-          "file_url": "https://drive.google.com/file/d/14K7n0bWqOxljD9lRH0vOwnRrgy6ITXRr/view?usp=drivesdk",
-          "modified_at": "2026-08-31T09:05:04.299Z",
-          "price_date": "30.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 15.08.2026.pdf",
-          "file_id": "1FfcSaIjcyQFjWdXj70f0tskQgIj5mn_x",
-          "file_url": "https://drive.google.com/file/d/1FfcSaIjcyQFjWdXj70f0tskQgIj5mn_x/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:34:17.402Z",
-          "price_date": "15.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 05082026.pdf",
-          "file_id": "1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd",
-          "file_url": "https://drive.google.com/file/d/1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:34:14.723Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Oval Village The Halo - The Residences - Price list__ 23.08.2026.pdf",
-          "file_id": "1UP_YEDdXQh_hBZWyPEM9n-950uG9b0R1",
-          "file_url": "https://drive.google.com/file/d/1UP_YEDdXQh_hBZWyPEM9n-950uG9b0R1/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:58:54.526Z",
-          "price_date": "23.08.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 23.08.2026.pdf",
-          "file_id": "1vYO-6kmN9R6KM8dFF7vLXZ0ShNCM4X8H",
-          "file_url": "https://drive.google.com/file/d/1vYO-6kmN9R6KM8dFF7vLXZ0ShNCM4X8H/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:58:35.196Z",
-          "price_date": "23.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list -__ 16.08.2026.pdf",
-          "file_id": "1eNaX_ASNlLCK99eEKm263HEFrRcFjdW2",
-          "file_url": "https://drive.google.com/file/d/1eNaX_ASNlLCK99eEKm263HEFrRcFjdW2/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:34:22.845Z",
-          "price_date": "16.08.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 16.08.2026.pdf",
-          "file_id": "1b0bD3QK_7OCziDAm01iWWJTk2ekmk8Am",
-          "file_url": "https://drive.google.com/file/d/1b0bD3QK_7OCziDAm01iWWJTk2ekmk8Am/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:34:04.947Z",
-          "price_date": "16.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list -__ 09.08.2026.pdf",
-          "file_id": "1hgegnM24CvcDWCXLfPPTsED76vEOXQv3",
-          "file_url": "https://drive.google.com/file/d/1hgegnM24CvcDWCXLfPPTsED76vEOXQv3/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:21:23.477Z",
-          "price_date": "09.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 09.08.2026.pdf",
-          "file_id": "1C3gWt3OqpGrGdT0xfEAfqDe3pHc2rwmq",
-          "file_url": "https://drive.google.com/file/d/1C3gWt3OqpGrGdT0xfEAfqDe3pHc2rwmq/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:21:18.229Z",
-          "price_date": "09.08.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 09.08.2026.pdf",
-          "file_id": "1BpeWu4xKU9pnU7v3ucBvKqNErMY8H0J6",
-          "file_url": "https://drive.google.com/file/d/1BpeWu4xKU9pnU7v3ucBvKqNErMY8H0J6/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:21:08.662Z",
-          "price_date": "09.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list -__ 02.08.2026.pdf",
-          "file_id": "1pXuqoaDX9HTjGX9foNnC9vww8VIIcaft",
-          "file_url": "https://drive.google.com/file/d/1pXuqoaDX9HTjGX9foNnC9vww8VIIcaft/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:51:11.673Z",
-          "price_date": "02.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 26.07.2026.pdf",
-          "file_id": "1PFLKy5CEO2n7nWLNmDAmsjQWz9-6N-RC",
-          "file_url": "https://drive.google.com/file/d/1PFLKy5CEO2n7nWLNmDAmsjQWz9-6N-RC/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:51:05.165Z",
-          "price_date": "26.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 22072026.pdf",
-          "file_id": "1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd",
-          "file_url": "https://drive.google.com/file/d/1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:51:02.871Z",
-          "price_date": ""
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 02.08.2026.pdf",
-          "file_id": "1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6",
-          "file_url": "https://drive.google.com/file/d/1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:50:51.144Z",
-          "price_date": "02.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list -__ 26.07.2026.pdf",
-          "file_id": "1NNFr9uFPgO6mUstyRcM_T3vcwvREgOUs",
-          "file_url": "https://drive.google.com/file/d/1NNFr9uFPgO6mUstyRcM_T3vcwvREgOUs/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:15:48.078Z",
-          "price_date": "26.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 26.07.2026.pdf",
-          "file_id": "1ZPPPtC0nAbXtP30Vp_pVZwRZo_voTxI0",
-          "file_url": "https://drive.google.com/file/d/1ZPPPtC0nAbXtP30Vp_pVZwRZo_voTxI0/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:06:03.351Z",
-          "price_date": "26.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list -__ 19.07.2026.pdf",
-          "file_id": "12ngarRVgGw8oiCwlVhgRrgnElToFe8nA",
-          "file_url": "https://drive.google.com/file/d/12ngarRVgGw8oiCwlVhgRrgnElToFe8nA/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:38.932Z",
-          "price_date": "19.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 19.07.2026.pdf",
-          "file_id": "1aBX7gJKCNGM1U_1EYoGTJxjw5_7oV2Oa",
-          "file_url": "https://drive.google.com/file/d/1aBX7gJKCNGM1U_1EYoGTJxjw5_7oV2Oa/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:32.504Z",
-          "price_date": "19.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 07072026.pdf",
-          "file_id": "13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF",
-          "file_url": "https://drive.google.com/file/d/13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:29.198Z",
-          "price_date": ""
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 19.07.2026.pdf",
-          "file_id": "1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_",
-          "file_url": "https://drive.google.com/file/d/1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:19.260Z",
-          "price_date": "19.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 12.07.2026.pdf",
-          "file_id": "1tMgWHocKMSazUcwgq69WeofWHN9uqbX2",
-          "file_url": "https://drive.google.com/file/d/1tMgWHocKMSazUcwgq69WeofWHN9uqbX2/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:58:50.596Z",
-          "price_date": "12.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 01.07.2026.pdf",
-          "file_id": "1oDYOvCskae0IIwcQTzRfji2d6DKOsu80",
-          "file_url": "https://drive.google.com/file/d/1oDYOvCskae0IIwcQTzRfji2d6DKOsu80/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:58:44.301Z",
-          "price_date": "01.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 12.07.2026.pdf",
-          "file_id": "16OfmLtDnOYrq2yTFuP_IGMT5dO_mPtaU",
-          "file_url": "https://drive.google.com/file/d/16OfmLtDnOYrq2yTFuP_IGMT5dO_mPtaU/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:58:34.154Z",
-          "price_date": "12.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026 updated.pdf",
-          "file_id": "1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV",
-          "file_url": "https://drive.google.com/file/d/1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV/view?usp=drivesdk",
-          "modified_at": "2026-07-07T01:40:27.605Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
-          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
-          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:08.007Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
-          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
-          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:05:54.561Z",
-          "price_date": "05.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
-          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
-          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:55.898Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
-          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
-          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:48.506Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
-          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
-          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:53:33.624Z",
-          "price_date": "28.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
-          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
-          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:01.836Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
-          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
-          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:25:58.363Z",
-          "price_date": "14.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
-          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
-          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:59.249Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
-          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
-          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
-          "modified_at": "2026-06-09T08:26:55.139Z",
-          "price_date": "07.06.2026"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
-          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
-          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:44.628Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
-          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
-          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:42.673Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
-          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
-          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:53:41.112Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
-          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
-          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:20.694Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
-          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
-          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:19.150Z",
-          "price_date": "26-05-28"
-        },
-        {
-          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
-          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
-          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
-          "modified_at": "2026-05-06T12:44:30.000Z",
-          "price_date": "06.05.2026"
-        }
-      ],
-      "notes": []
-    },
     "SE16 - The Founding, Canada Water - Est.completion mid 2025": {
       "project": "SE16 - The Founding, Canada Water - Est.completion mid 2025",
       "city": "Inner London",
@@ -4652,95 +4353,6 @@
       "old_files": [],
       "notes": []
     },
-    "NW8 - The Broadley - Est Complete Q2 2030": {
-      "project": "NW8 - The Broadley - Est Complete Q2 2030",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / NW8 - The Broadley - Est Complete Q2 2030",
-      "folder_id": "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
-      "folder_url": "https://drive.google.com/drive/folders/1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
-      "price_folder_id": "1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
-      "price_folder_url": "https://drive.google.com/drive/folders/1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
-      "old_price_folder_id": "1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
-      "latest_files": [
-        {
-          "file": "The Broadley Price List - The Watling - 17.08.26.pdf",
-          "file_id": "1sR3vPt6_OM6B6l1UCAk9lnksQY-MGtcF",
-          "file_url": "https://drive.google.com/file/d/1sR3vPt6_OM6B6l1UCAk9lnksQY-MGtcF/view?usp=drivesdk",
-          "modified_at": "2026-08-18T03:42:23.866Z",
-          "price_date": "17.08.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 17.08.26.pdf",
-          "file_id": "1ild3gklrPVl8iD_Dxqu6X8QzeMWV98im",
-          "file_url": "https://drive.google.com/file/d/1ild3gklrPVl8iD_Dxqu6X8QzeMWV98im/view?usp=drivesdk",
-          "modified_at": "2026-08-18T03:42:19.323Z",
-          "price_date": "17.08.26"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "The Broadley Price List - The Watling - 04.08.26.pdf",
-          "file_id": "1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl",
-          "file_url": "https://drive.google.com/file/d/1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:34:47.308Z",
-          "price_date": "04.08.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 04.08.26.pdf",
-          "file_id": "1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g",
-          "file_url": "https://drive.google.com/file/d/1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:34:39.033Z",
-          "price_date": "04.08.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 01.06.26.pdf",
-          "file_id": "1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ",
-          "file_url": "https://drive.google.com/file/d/1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:05.365Z",
-          "price_date": "01.06.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 01.06.26.pdf",
-          "file_id": "1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm",
-          "file_url": "https://drive.google.com/file/d/1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:13:54.522Z",
-          "price_date": "01.06.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 08.04.26.pdf",
-          "file_id": "1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX",
-          "file_url": "https://drive.google.com/file/d/1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:34:04.239Z",
-          "price_date": "08.04.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 05.05.26.pdf",
-          "file_id": "1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo",
-          "file_url": "https://drive.google.com/file/d/1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:54.027Z",
-          "price_date": "05.05.26"
-        },
-        {
-          "file": "The Broadley Price List - The Eliot - 05.05.26.pdf",
-          "file_id": "16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq",
-          "file_url": "https://drive.google.com/file/d/16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:19:53.381Z",
-          "price_date": "05.05.26"
-        },
-        {
-          "file": "The Broadley Price List - The Watling - 08.04.26.pdf",
-          "file_id": "1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP",
-          "file_url": "https://drive.google.com/file/d/1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:03:25.822Z",
-          "price_date": "08.04.26"
-        }
-      ],
-      "notes": []
-    },
     "SW1 - 8 Eaton Lane-Est.completion: Q1 2026": {
       "project": "SW1 - 8 Eaton Lane-Est.completion: Q1 2026",
       "city": "Inner London",
@@ -5604,53 +5216,6 @@
       ],
       "notes": []
     },
-    "SW10 - Chelsea Finery": {
-      "project": "SW10 - Chelsea Finery",
-      "city": "Inner London",
-      "developer": "Mount Anvil",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Mount Anvil",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
-      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
-      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
-      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
-      "latest_files": [
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 17.08.2026.pdf",
-          "file_id": "14COUj7oNimLXtLugzfIx7aT1d5GW7Byy",
-          "file_url": "https://drive.google.com/file/d/14COUj7oNimLXtLugzfIx7aT1d5GW7Byy/view?usp=drivesdk",
-          "modified_at": "2026-08-18T03:38:55.410Z",
-          "price_date": "17.08.2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 04.08.2026.pdf",
-          "file_id": "147AE05Mw9wZXyco28iTGy4WmzhuRM-2m",
-          "file_url": "https://drive.google.com/file/d/147AE05Mw9wZXyco28iTGy4WmzhuRM-2m/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:34:19.942Z",
-          "price_date": "04.08.2026"
-        },
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 27.07.2026.pdf",
-          "file_id": "1v18DlxayoS2i422B8cQim_CYfUN26SPz",
-          "file_url": "https://drive.google.com/file/d/1v18DlxayoS2i422B8cQim_CYfUN26SPz/view?usp=drivesdk",
-          "modified_at": "2026-07-30T10:23:48.763Z",
-          "price_date": "27.07.2026"
-        },
-        {
-          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
-          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
-          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
-          "modified_at": "2026-07-14T10:25:09.241Z",
-          "price_date": "12.06.2026"
-        }
-      ],
-      "notes": []
-    },
     "SW11 - Battersea Power Station": {
       "project": "SW11 - Battersea Power Station",
       "city": "Inner London",
@@ -6349,186 +5914,6 @@
       "notes": [
         "Missing old pricelist folder"
       ]
-    },
-    "SW6 - Chelsea Waterfront Tower East": {
-      "project": "SW6 - Chelsea Waterfront Tower East",
-      "city": "Inner London",
-      "developer": "长江实业",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "长江实业",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
-      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
-      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
-      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
-      "latest_files": [
-        {
-          "file": "Tower East  Pricelist 10th August 2026.pdf",
-          "file_id": "1V3_I4735-bNR8REBdshZjnlr7Muq23_O",
-          "file_url": "https://drive.google.com/file/d/1V3_I4735-bNR8REBdshZjnlr7Muq23_O/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:26:09.971Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist 10th August 2026.pdf",
-          "file_id": "1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX",
-          "file_url": "https://drive.google.com/file/d/1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:57.082Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Tower West Pricelist 10th August 2026.pdf",
-          "file_id": "18bsfNEOys1XiueF7kqutrHRgD2oxgyyC",
-          "file_url": "https://drive.google.com/file/d/18bsfNEOys1XiueF7kqutrHRgD2oxgyyC/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:50.344Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist 10th August 2026.pdf",
-          "file_id": "1KRvlBEjyHVktXzk3dlw2KtwW82L-r4Nw",
-          "file_url": "https://drive.google.com/file/d/1KRvlBEjyHVktXzk3dlw2KtwW82L-r4Nw/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:42.856Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 10th August 2026.pdf",
-          "file_id": "1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54",
-          "file_url": "https://drive.google.com/file/d/1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:35.240Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Savills Tower East Price List 24th August 2026.pdf",
-          "file_id": "1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp",
-          "file_url": "https://drive.google.com/file/d/1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:04:29.268Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Savills Tower East Price List 3rd August 2026.pdf",
-          "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
-          "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:31.000Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  13th July 2026.pdf",
-          "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
-          "file_url": "https://drive.google.com/file/d/1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:34:55.423Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist  13th July 2026.pdf",
-          "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
-          "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:48.991Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Tower West Pricelist 13th July 2026.pdf",
-          "file_id": "1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-",
-          "file_url": "https://drive.google.com/file/d/1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:36.549Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist  13th July 2026.pdf",
-          "file_id": "14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-",
-          "file_url": "https://drive.google.com/file/d/14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:22.728Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
-          "file_id": "1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS",
-          "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
-          "modified_at": "2026-07-14T06:30:11.572Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Tower West Pricelist  29th June 2026.pdf",
-          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
-          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist  29th June 2026.pdf",
-          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
-          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:57.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist  29th June 2026.pdf",
-          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
-          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:56.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist  29th June 2026.pdf",
-          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
-          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:54.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Savills Tower East Price List 15th June 2026.pdf",
-          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
-          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:03:40.381Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
-          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
-          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:59.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Powerhouse Pricelist 8th June 2026.pdf",
-          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
-          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:58.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower West Pricelist 8th June 2026.pdf",
-          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
-          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:47.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Tower East  Pricelist 8th June 2026.pdf",
-          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
-          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:45.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist 8th June 2026.pdf",
-          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
-          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:43.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Savills Tower East Price List June 2026.pdf",
-          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
-          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
-          "modified_at": "2026-06-05T10:47:18.178Z",
-          "price_date": "June 2026"
-        }
-      ],
-      "notes": []
     },
     "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026": {
       "project": "SW6 - Hurlingham Waterfront - Est. Completion Q3 2026",
@@ -12143,8 +11528,683 @@
         }
       ],
       "notes": []
+    },
+    "SW10 - Chelsea Finery": {
+      "project": "SW10 - Chelsea Finery",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Mount Anvil",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW10 - Chelsea Finery",
+      "folder_id": "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "folder_url": "https://drive.google.com/drive/folders/1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+      "price_folder_id": "1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "price_folder_url": "https://drive.google.com/drive/folders/1pazm32Pb9Q8pxXC33w7SizvhhNjuWoJr",
+      "old_price_folder_id": "1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1majlnSgWhv5G86lQNnTRjehaS_uGHDPi",
+      "latest_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 19.10.2026.pdf",
+          "file_id": "1q9rB2rG4UegsqCxr0sp4ADPlvjTU8PU2",
+          "file_url": "https://drive.google.com/file/d/1q9rB2rG4UegsqCxr0sp4ADPlvjTU8PU2/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:22:33.838Z",
+          "price_date": "19.10.2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 17.08.2026.pdf",
+          "file_id": "14COUj7oNimLXtLugzfIx7aT1d5GW7Byy",
+          "file_url": "https://drive.google.com/file/d/14COUj7oNimLXtLugzfIx7aT1d5GW7Byy/view?usp=drivesdk",
+          "modified_at": "2026-08-18T03:38:55.410Z",
+          "price_date": "17.08.2026"
+        },
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 04.08.2026.pdf",
+          "file_id": "147AE05Mw9wZXyco28iTGy4WmzhuRM-2m",
+          "file_url": "https://drive.google.com/file/d/147AE05Mw9wZXyco28iTGy4WmzhuRM-2m/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:19.942Z",
+          "price_date": "04.08.2026"
+        },
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 27.07.2026.pdf",
+          "file_id": "1v18DlxayoS2i422B8cQim_CYfUN26SPz",
+          "file_url": "https://drive.google.com/file/d/1v18DlxayoS2i422B8cQim_CYfUN26SPz/view?usp=drivesdk",
+          "modified_at": "2026-07-30T10:23:48.763Z",
+          "price_date": "27.07.2026"
+        },
+        {
+          "file": "Chelsea Finery - The Atelier Price List - 12.06.2026.pdf",
+          "file_id": "1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e",
+          "file_url": "https://drive.google.com/file/d/1N3wlWkWcqEMt8Vapvii6J-tUzWZ8f87e/view?usp=drivesdk",
+          "modified_at": "2026-07-14T10:25:09.241Z",
+          "price_date": "12.06.2026"
+        }
+      ],
+      "notes": []
+    },
+    "SW6 - Chelsea Waterfront Tower East": {
+      "project": "SW6 - Chelsea Waterfront Tower East",
+      "city": "Inner London",
+      "developer": "长江实业",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "长江实业",
+      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW6 - Chelsea Waterfront Tower East",
+      "folder_id": "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "folder_url": "https://drive.google.com/drive/folders/15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+      "price_folder_id": "1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "price_folder_url": "https://drive.google.com/drive/folders/1EvCt3tyAxjzesF_uCB0EC278pAqEy5nc",
+      "old_price_folder_id": "136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
+      "latest_files": [
+        {
+          "file": "Powerhouse Pricelist 12th October 2026.pdf",
+          "file_id": "16v57B6jtXqbFYlxQdqsD988XCm3w69Pk",
+          "file_url": "https://drive.google.com/file/d/16v57B6jtXqbFYlxQdqsD988XCm3w69Pk/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:23:01.284Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 12th October 2026.pdf",
+          "file_id": "12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv",
+          "file_url": "https://drive.google.com/file/d/12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:22:51.277Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 24th August 2026.pdf",
+          "file_id": "1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp",
+          "file_url": "https://drive.google.com/file/d/1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp/view?usp=drivesdk",
+          "modified_at": "2026-09-11T04:04:29.268Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Tower East  Pricelist 10th August 2026.pdf",
+          "file_id": "1V3_I4735-bNR8REBdshZjnlr7Muq23_O",
+          "file_url": "https://drive.google.com/file/d/1V3_I4735-bNR8REBdshZjnlr7Muq23_O/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:26:09.971Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 10th August 2026.pdf",
+          "file_id": "1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX",
+          "file_url": "https://drive.google.com/file/d/1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:57.082Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Tower West Pricelist 10th August 2026.pdf",
+          "file_id": "18bsfNEOys1XiueF7kqutrHRgD2oxgyyC",
+          "file_url": "https://drive.google.com/file/d/18bsfNEOys1XiueF7kqutrHRgD2oxgyyC/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:50.344Z",
+          "price_date": "August 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Powerhouse Pricelist 10th August 2026.pdf",
+          "file_id": "1KRvlBEjyHVktXzk3dlw2KtwW82L-r4Nw",
+          "file_url": "https://drive.google.com/file/d/1KRvlBEjyHVktXzk3dlw2KtwW82L-r4Nw/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:42.856Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 10th August 2026.pdf",
+          "file_id": "1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54",
+          "file_url": "https://drive.google.com/file/d/1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:35.240Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 3rd August 2026.pdf",
+          "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
+          "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
+          "modified_at": "2026-08-08T08:23:31.000Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  13th July 2026.pdf",
+          "file_id": "1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc",
+          "file_url": "https://drive.google.com/file/d/1SPznR5pcaaBzjIwQ41XnHqURHtXBQ2hc/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:34:55.423Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  13th July 2026.pdf",
+          "file_id": "1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8",
+          "file_url": "https://drive.google.com/file/d/1ZgSV4sby4WmvGDXfLqiZLYZ50tZkA7h8/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:48.991Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Tower West Pricelist 13th July 2026.pdf",
+          "file_id": "1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-",
+          "file_url": "https://drive.google.com/file/d/1bleTGcCiDdCw9vXxOrX0OBZXp6jpMOc-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:36.549Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  13th July 2026.pdf",
+          "file_id": "14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-",
+          "file_url": "https://drive.google.com/file/d/14Uc4nsSsVEUF6r4uE6DXKb5FlZI1evZ-/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:22.728Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 13th July 2026.pdf",
+          "file_id": "1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS",
+          "file_url": "https://drive.google.com/file/d/1jsVp5MLd5EfbYvFUJEKhpAfGkgqmVUjS/view?usp=drivesdk",
+          "modified_at": "2026-07-14T06:30:11.572Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Tower West Pricelist  29th June 2026.pdf",
+          "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
+          "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist  29th June 2026.pdf",
+          "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
+          "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:57.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist  29th June 2026.pdf",
+          "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
+          "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:56.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist  29th June 2026.pdf",
+          "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
+          "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
+          "modified_at": "2026-07-02T06:17:54.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 15th June 2026.pdf",
+          "file_id": "1ciNaxiHwqk2d3N_CMbg638p8q572xJ83",
+          "file_url": "https://drive.google.com/file/d/1ciNaxiHwqk2d3N_CMbg638p8q572xJ83/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:03:40.381Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
+          "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
+          "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:59.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist 8th June 2026.pdf",
+          "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
+          "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:58.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower West Pricelist 8th June 2026.pdf",
+          "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
+          "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:47.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Tower East  Pricelist 8th June 2026.pdf",
+          "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
+          "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:45.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 8th June 2026.pdf",
+          "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
+          "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
+          "modified_at": "2026-06-09T02:13:43.000Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Savills Tower East Price List June 2026.pdf",
+          "file_id": "1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9",
+          "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
+          "modified_at": "2026-06-05T10:47:18.178Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
+    },
+    "SE11 - Oval Village": {
+      "project": "SE11 - Oval Village",
+      "city": "Inner London",
+      "developer": "Berkeley Group",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / SE11 - Oval Village",
+      "folder_id": "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "folder_url": "https://drive.google.com/drive/folders/1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+      "price_folder_id": "12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "price_folder_url": "https://drive.google.com/drive/folders/12VozFmySDDNFEDsPtSJ0f2ClOG7nnKcx",
+      "old_price_folder_id": "1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
+      "latest_files": [
+        {
+          "file": "Oval Village The Halo - The Residences - Price list 02.10.2026.pdf",
+          "file_id": "19oWDDKlGq73tbGWosRS0Qn9KSzQrVh-t",
+          "file_url": "https://drive.google.com/file/d/19oWDDKlGq73tbGWosRS0Qn9KSzQrVh-t/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:23:35.196Z",
+          "price_date": "02.10.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 12.10.2026.pdf",
+          "file_id": "1gQlfqDLC7LEEYj8Z9WJSZRb1Ay6EwnpA",
+          "file_url": "https://drive.google.com/file/d/1gQlfqDLC7LEEYj8Z9WJSZRb1Ay6EwnpA/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:23:21.575Z",
+          "price_date": "12.10.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list__ 30.08.2026.pdf",
+          "file_id": "1vt8m-oouBa8xoUGyC6enUVLXNUd48zB6",
+          "file_url": "https://drive.google.com/file/d/1vt8m-oouBa8xoUGyC6enUVLXNUd48zB6/view?usp=drivesdk",
+          "modified_at": "2026-08-31T09:05:16.152Z",
+          "price_date": "30.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 15.08.2026.pdf",
+          "file_id": "1FfcSaIjcyQFjWdXj70f0tskQgIj5mn_x",
+          "file_url": "https://drive.google.com/file/d/1FfcSaIjcyQFjWdXj70f0tskQgIj5mn_x/view?usp=drivesdk",
+          "modified_at": "2026-08-18T02:34:17.402Z",
+          "price_date": "15.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Master price list (Internal use)__ 05082026.pdf",
+          "file_id": "1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd",
+          "file_url": "https://drive.google.com/file/d/1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd/view?usp=drivesdk",
+          "modified_at": "2026-08-18T02:34:14.723Z",
+          "price_date": ""
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 30.08.2026.pdf",
+          "file_id": "14K7n0bWqOxljD9lRH0vOwnRrgy6ITXRr",
+          "file_url": "https://drive.google.com/file/d/14K7n0bWqOxljD9lRH0vOwnRrgy6ITXRr/view?usp=drivesdk",
+          "modified_at": "2026-08-31T09:05:04.299Z",
+          "price_date": "30.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list__ 23.08.2026.pdf",
+          "file_id": "1UP_YEDdXQh_hBZWyPEM9n-950uG9b0R1",
+          "file_url": "https://drive.google.com/file/d/1UP_YEDdXQh_hBZWyPEM9n-950uG9b0R1/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:58:54.526Z",
+          "price_date": "23.08.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 23.08.2026.pdf",
+          "file_id": "1vYO-6kmN9R6KM8dFF7vLXZ0ShNCM4X8H",
+          "file_url": "https://drive.google.com/file/d/1vYO-6kmN9R6KM8dFF7vLXZ0ShNCM4X8H/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:58:35.196Z",
+          "price_date": "23.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list -__ 16.08.2026.pdf",
+          "file_id": "1eNaX_ASNlLCK99eEKm263HEFrRcFjdW2",
+          "file_url": "https://drive.google.com/file/d/1eNaX_ASNlLCK99eEKm263HEFrRcFjdW2/view?usp=drivesdk",
+          "modified_at": "2026-08-18T02:34:22.845Z",
+          "price_date": "16.08.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 16.08.2026.pdf",
+          "file_id": "1b0bD3QK_7OCziDAm01iWWJTk2ekmk8Am",
+          "file_url": "https://drive.google.com/file/d/1b0bD3QK_7OCziDAm01iWWJTk2ekmk8Am/view?usp=drivesdk",
+          "modified_at": "2026-08-18T02:34:04.947Z",
+          "price_date": "16.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list -__ 09.08.2026.pdf",
+          "file_id": "1hgegnM24CvcDWCXLfPPTsED76vEOXQv3",
+          "file_url": "https://drive.google.com/file/d/1hgegnM24CvcDWCXLfPPTsED76vEOXQv3/view?usp=drivesdk",
+          "modified_at": "2026-08-11T06:21:23.477Z",
+          "price_date": "09.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 09.08.2026.pdf",
+          "file_id": "1C3gWt3OqpGrGdT0xfEAfqDe3pHc2rwmq",
+          "file_url": "https://drive.google.com/file/d/1C3gWt3OqpGrGdT0xfEAfqDe3pHc2rwmq/view?usp=drivesdk",
+          "modified_at": "2026-08-11T06:21:18.229Z",
+          "price_date": "09.08.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 09.08.2026.pdf",
+          "file_id": "1BpeWu4xKU9pnU7v3ucBvKqNErMY8H0J6",
+          "file_url": "https://drive.google.com/file/d/1BpeWu4xKU9pnU7v3ucBvKqNErMY8H0J6/view?usp=drivesdk",
+          "modified_at": "2026-08-11T06:21:08.662Z",
+          "price_date": "09.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list -__ 02.08.2026.pdf",
+          "file_id": "1pXuqoaDX9HTjGX9foNnC9vww8VIIcaft",
+          "file_url": "https://drive.google.com/file/d/1pXuqoaDX9HTjGX9foNnC9vww8VIIcaft/view?usp=drivesdk",
+          "modified_at": "2026-08-05T02:51:11.673Z",
+          "price_date": "02.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 26.07.2026.pdf",
+          "file_id": "1PFLKy5CEO2n7nWLNmDAmsjQWz9-6N-RC",
+          "file_url": "https://drive.google.com/file/d/1PFLKy5CEO2n7nWLNmDAmsjQWz9-6N-RC/view?usp=drivesdk",
+          "modified_at": "2026-08-05T02:51:05.165Z",
+          "price_date": "26.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Master price list (Internal use)__ 22072026.pdf",
+          "file_id": "1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd",
+          "file_url": "https://drive.google.com/file/d/1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd/view?usp=drivesdk",
+          "modified_at": "2026-08-05T02:51:02.871Z",
+          "price_date": ""
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 02.08.2026.pdf",
+          "file_id": "1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6",
+          "file_url": "https://drive.google.com/file/d/1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6/view?usp=drivesdk",
+          "modified_at": "2026-08-05T02:50:51.144Z",
+          "price_date": "02.08.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list -__ 26.07.2026.pdf",
+          "file_id": "1NNFr9uFPgO6mUstyRcM_T3vcwvREgOUs",
+          "file_url": "https://drive.google.com/file/d/1NNFr9uFPgO6mUstyRcM_T3vcwvREgOUs/view?usp=drivesdk",
+          "modified_at": "2026-07-28T02:15:48.078Z",
+          "price_date": "26.07.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 26.07.2026.pdf",
+          "file_id": "1ZPPPtC0nAbXtP30Vp_pVZwRZo_voTxI0",
+          "file_url": "https://drive.google.com/file/d/1ZPPPtC0nAbXtP30Vp_pVZwRZo_voTxI0/view?usp=drivesdk",
+          "modified_at": "2026-07-28T02:06:03.351Z",
+          "price_date": "26.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list -__ 19.07.2026.pdf",
+          "file_id": "12ngarRVgGw8oiCwlVhgRrgnElToFe8nA",
+          "file_url": "https://drive.google.com/file/d/12ngarRVgGw8oiCwlVhgRrgnElToFe8nA/view?usp=drivesdk",
+          "modified_at": "2026-07-21T03:55:38.932Z",
+          "price_date": "19.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 19.07.2026.pdf",
+          "file_id": "1aBX7gJKCNGM1U_1EYoGTJxjw5_7oV2Oa",
+          "file_url": "https://drive.google.com/file/d/1aBX7gJKCNGM1U_1EYoGTJxjw5_7oV2Oa/view?usp=drivesdk",
+          "modified_at": "2026-07-21T03:55:32.504Z",
+          "price_date": "19.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Master price list (Internal use)__ 07072026.pdf",
+          "file_id": "13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF",
+          "file_url": "https://drive.google.com/file/d/13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF/view?usp=drivesdk",
+          "modified_at": "2026-07-21T03:55:29.198Z",
+          "price_date": ""
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 19.07.2026.pdf",
+          "file_id": "1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_",
+          "file_url": "https://drive.google.com/file/d/1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_/view?usp=drivesdk",
+          "modified_at": "2026-07-21T03:55:19.260Z",
+          "price_date": "19.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 12.07.2026.pdf",
+          "file_id": "1tMgWHocKMSazUcwgq69WeofWHN9uqbX2",
+          "file_url": "https://drive.google.com/file/d/1tMgWHocKMSazUcwgq69WeofWHN9uqbX2/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:58:50.596Z",
+          "price_date": "12.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 01.07.2026.pdf",
+          "file_id": "1oDYOvCskae0IIwcQTzRfji2d6DKOsu80",
+          "file_url": "https://drive.google.com/file/d/1oDYOvCskae0IIwcQTzRfji2d6DKOsu80/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:58:44.301Z",
+          "price_date": "01.07.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 12.07.2026.pdf",
+          "file_id": "16OfmLtDnOYrq2yTFuP_IGMT5dO_mPtaU",
+          "file_url": "https://drive.google.com/file/d/16OfmLtDnOYrq2yTFuP_IGMT5dO_mPtaU/view?usp=drivesdk",
+          "modified_at": "2026-07-14T01:58:34.154Z",
+          "price_date": "12.07.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026 updated.pdf",
+          "file_id": "1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV",
+          "file_url": "https://drive.google.com/file/d/1Ytx9GnoE-ljXcJ5fmijEGyRrd2W1QVLV/view?usp=drivesdk",
+          "modified_at": "2026-07-07T01:40:27.605Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 05.07.2026.pdf",
+          "file_id": "1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my",
+          "file_url": "https://drive.google.com/file/d/1z3GMKb4G0Zsd_Lysw1KxKo2WgnXRC5my/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:06:08.007Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 05.07.2026.pdf",
+          "file_id": "1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT",
+          "file_url": "https://drive.google.com/file/d/1H2kcrrSHumwUjEegmAdd_g51H-n3aBUT/view?usp=drivesdk",
+          "modified_at": "2026-07-06T10:05:54.561Z",
+          "price_date": "05.07.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 28.06.2026.pdf",
+          "file_id": "1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt",
+          "file_url": "https://drive.google.com/file/d/1Xc1Ts0IYDBFbXtsSDeaY2wO5IKfIKtkt/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:55.898Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 28.06.2026.pdf",
+          "file_id": "15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1",
+          "file_url": "https://drive.google.com/file/d/15rB6si6OZ6jaMWxaaqCbWJD_9mKs0SD1/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:48.506Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 28.06.2026.pdf",
+          "file_id": "1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL",
+          "file_url": "https://drive.google.com/file/d/1RRiXNJBG-5P3_XMWXkRcE2UQMGRG65LL/view?usp=drivesdk",
+          "modified_at": "2026-06-30T01:53:33.624Z",
+          "price_date": "28.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 14.06.2026.pdf",
+          "file_id": "16fjemaGncuhxQlEK2yeKxabAuzk4_eAu",
+          "file_url": "https://drive.google.com/file/d/16fjemaGncuhxQlEK2yeKxabAuzk4_eAu/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:26:01.836Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 14.06.2026.pdf",
+          "file_id": "1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd",
+          "file_url": "https://drive.google.com/file/d/1lXJqDAVVT1Ie73fJLygnFkX5-7z1IOhd/view?usp=drivesdk",
+          "modified_at": "2026-06-17T02:25:58.363Z",
+          "price_date": "14.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list - 07.06.2026.pdf",
+          "file_id": "16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U",
+          "file_url": "https://drive.google.com/file/d/16KEcB5Wu2H1VN8MxCt9lJ9XC_8eZvB6U/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:59.249Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "Oval Village The Halo - Penthouse - Price list - 07.06.2026.pdf",
+          "file_id": "1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl",
+          "file_url": "https://drive.google.com/file/d/1l2xTQTSGJJGxGzC18Az7eUc6aZOWlpSl/view?usp=drivesdk",
+          "modified_at": "2026-06-09T08:26:55.139Z",
+          "price_date": "07.06.2026"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 24.05.2026.pdf",
+          "file_id": "17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ",
+          "file_url": "https://drive.google.com/file/d/17vil1x4CQ0cmsuktzau1QIWdwTELe1CJ/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:44.628Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo Penthouse - Price list 24.05.2026.pdf",
+          "file_id": "1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq",
+          "file_url": "https://drive.google.com/file/d/1Dnav76GBB2pgvgS_fgGuHKXPiggVkHdq/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:42.673Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -24.05. 2026.pdf",
+          "file_id": "1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5",
+          "file_url": "https://drive.google.com/file/d/1cfF9MMoEe3PG9HwlPaE8YhErbhuu7dn5/view?usp=drivesdk",
+          "modified_at": "2026-05-28T03:53:41.112Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village The Halo - Price list 17.05.2026.pdf",
+          "file_id": "1IGi__PzoSKhva7KoqKX2d7yDXuREUumj",
+          "file_url": "https://drive.google.com/file/d/1IGi__PzoSKhva7KoqKX2d7yDXuREUumj/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:20.694Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
+          "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
+          "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
+          "modified_at": "2026-05-28T01:56:19.150Z",
+          "price_date": "26-05-28"
+        },
+        {
+          "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
+          "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
+          "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
+          "modified_at": "2026-05-06T12:44:30.000Z",
+          "price_date": "06.05.2026"
+        }
+      ],
+      "notes": []
+    },
+    "NW8 - The Broadley - Est Complete Q2 2030": {
+      "project": "NW8 - The Broadley - Est Complete Q2 2030",
+      "city": "Inner London",
+      "developer": "Mount Anvil",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Inner London 内伦敦 / Super Prime London 顶豪 / NW8 - The Broadley - Est Complete Q2 2030",
+      "folder_id": "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
+      "folder_url": "https://drive.google.com/drive/folders/1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_",
+      "price_folder_id": "1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
+      "price_folder_url": "https://drive.google.com/drive/folders/1_gqM2ahyR6OEI7JYbWdfyHp7hCaPH3bM",
+      "old_price_folder_id": "1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1OHkeP6Od5Y59sqLQ3CXh9ZG6PJItS8hx",
+      "latest_files": [
+        {
+          "file": "The Broadley Price List - The Watling - 19.10.26.pdf",
+          "file_id": "1fFLN307gyfEk7ZR_OknfmJHcPt4pWJt1",
+          "file_url": "https://drive.google.com/file/d/1fFLN307gyfEk7ZR_OknfmJHcPt4pWJt1/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:24:05.571Z",
+          "price_date": "19.10.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 19.10.26.pdf",
+          "file_id": "1GiyYe7nAGQFdK6ZepGvUCi4C6SeGSOff",
+          "file_url": "https://drive.google.com/file/d/1GiyYe7nAGQFdK6ZepGvUCi4C6SeGSOff/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:23:55.845Z",
+          "price_date": "19.10.26"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Broadley Price List - The Watling - 17.08.26.pdf",
+          "file_id": "1sR3vPt6_OM6B6l1UCAk9lnksQY-MGtcF",
+          "file_url": "https://drive.google.com/file/d/1sR3vPt6_OM6B6l1UCAk9lnksQY-MGtcF/view?usp=drivesdk",
+          "modified_at": "2026-08-18T03:42:23.866Z",
+          "price_date": "17.08.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 17.08.26.pdf",
+          "file_id": "1ild3gklrPVl8iD_Dxqu6X8QzeMWV98im",
+          "file_url": "https://drive.google.com/file/d/1ild3gklrPVl8iD_Dxqu6X8QzeMWV98im/view?usp=drivesdk",
+          "modified_at": "2026-08-18T03:42:19.323Z",
+          "price_date": "17.08.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 04.08.26.pdf",
+          "file_id": "1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl",
+          "file_url": "https://drive.google.com/file/d/1UQbmqFRMYI6x8qZP9WpE_axYZoDEhCXl/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:47.308Z",
+          "price_date": "04.08.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 04.08.26.pdf",
+          "file_id": "1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g",
+          "file_url": "https://drive.google.com/file/d/1F54A2uNMVStvfj5k1B3ZbjNVWLvZzm1g/view?usp=drivesdk",
+          "modified_at": "2026-08-05T06:34:39.033Z",
+          "price_date": "04.08.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 01.06.26.pdf",
+          "file_id": "1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ",
+          "file_url": "https://drive.google.com/file/d/1wUUWEG32MsQbqvC3WqQFKMfC2L8wkLDJ/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:05.365Z",
+          "price_date": "01.06.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 01.06.26.pdf",
+          "file_id": "1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm",
+          "file_url": "https://drive.google.com/file/d/1VoD77l_2958UCj2ZPbjgptjaJHcBdOWm/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:13:54.522Z",
+          "price_date": "01.06.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 08.04.26.pdf",
+          "file_id": "1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX",
+          "file_url": "https://drive.google.com/file/d/1h_z8TtqlBExiR7xB6TqTaOju1BydvdQX/view?usp=drivesdk",
+          "modified_at": "2026-06-05T08:34:04.239Z",
+          "price_date": "08.04.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 05.05.26.pdf",
+          "file_id": "1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo",
+          "file_url": "https://drive.google.com/file/d/1Oy4LJ19i_ObcexOmTTwjvKpDlmqFFsRo/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:54.027Z",
+          "price_date": "05.05.26"
+        },
+        {
+          "file": "The Broadley Price List - The Eliot - 05.05.26.pdf",
+          "file_id": "16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq",
+          "file_url": "https://drive.google.com/file/d/16IpqGwXgqVv-cvqnvLI66jQJtUrUyrxq/view?usp=drivesdk",
+          "modified_at": "2026-05-27T03:19:53.381Z",
+          "price_date": "05.05.26"
+        },
+        {
+          "file": "The Broadley Price List - The Watling - 08.04.26.pdf",
+          "file_id": "1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP",
+          "file_url": "https://drive.google.com/file/d/1N1rcRCuSn_78p3sjQfrJ8r2KtL_iK8DP/view?usp=drivesdk",
+          "modified_at": "2026-05-26T10:03:25.822Z",
+          "price_date": "08.04.26"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-10-23T11:23:06"
+  "targeted_project_ids": [
+    "1pbg8lI1uKU4eEZ4uAuQf4rqyp09OXSvs",
+    "15KcdyXW5fbVYCsag3qtmyComAbbSc2Dk",
+    "1X6WIbv8d4qpvt2iJwLkCb8Bi7zF1oL_3",
+    "1hjbzxWZ8AAmE8PAhlli7dD2FYjGHofW_"
+  ],
+  "targeted_projects": [
+    "SW10 - Chelsea Finery",
+    "SW6 - Chelsea Waterfront Tower East",
+    "SE11 - Oval Village",
+    "NW8 - The Broadley - Est Complete Q2 2030"
+  ]
 }
