@@ -1,5 +1,5 @@
 {
-  "synced_at": "2026-10-30T02:33:03+00:00",
+  "synced_at": "2026-10-30T06:53:59+00:00",
   "source": "savills_authenticated_october_2026",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
@@ -9209,6 +9209,20 @@
           "file_url": "https://drive.google.com/file/d/1EAR9ZGPKbRz6GFqYCGfNpeqArDTy81qd/view?usp=drivesdk",
           "modified_at": "2026-09-10T03:37:42.639Z",
           "price_date": "08.09.2026"
+        },
+        {
+          "file": "City Reach Price List - Florence Court 18.10.26.pdf",
+          "file_id": "1LborilO1Dd5As8uOpt9yTvtd39IsZHTc",
+          "file_url": "https://drive.google.com/file/d/1LborilO1Dd5As8uOpt9yTvtd39IsZHTc/view?usp=drivesdk",
+          "modified_at": "2026-10-30T06:53:59+00:00",
+          "price_date": "18.10.2026"
+        },
+        {
+          "file": "City Reach Price List - IDA Court - 18.10.26.pdf",
+          "file_id": "109699N9JrQowYxweV-fSGIlkpBI4JH5h",
+          "file_url": "https://drive.google.com/file/d/109699N9JrQowYxweV-fSGIlkpBI4JH5h/view?usp=drivesdk",
+          "modified_at": "2026-10-30T06:53:59+00:00",
+          "price_date": "18.10.2026"
         }
       ],
       "old_files": [
@@ -12721,5 +12735,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-10-30T10:38:03"
+  "published_at": "2026-10-30T14:55:28"
 }
