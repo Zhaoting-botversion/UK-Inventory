@@ -1,6 +1,6 @@
 {
-  "synced_at": "2026-10-30T06:53:59+00:00",
-  "source": "savills_authenticated_october_2026",
+  "synced_at": "2026-11-03T19:04:48",
+  "source": "google_drive_targeted_projects",
   "root_folder_id": "1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "root_folder_url": "https://drive.google.com/drive/folders/1N6AyuqZwdXY8MA14W_F4i-iP0COvFzCR",
   "projects": {
@@ -102,14 +102,14 @@
           "file": "(CN Agent) Glasswater Locks Brindley Collection  - 26.08.26.pdf",
           "file_id": "1B_HOIFLU0hyc49zj9gM82FUCXobW6QJf",
           "file_url": "https://drive.google.com/file/d/1B_HOIFLU0hyc49zj9gM82FUCXobW6QJf/view?usp=drivesdk",
-          "modified_at": "2026-08-31T03:10:14.960Z",
+          "modified_at": "2026-08-31T03:10:14.96Z",
           "price_date": "26.08.26"
         },
         {
           "file": "(CN Agent) Glasswater Locks Phase 1 Price List - 22.08.26.pdf",
           "file_id": "1TW8-VtM-t5N5UEsN5zirn-aQytrH5izD",
           "file_url": "https://drive.google.com/file/d/1TW8-VtM-t5N5UEsN5zirn-aQytrH5izD/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:54:00.210Z",
+          "modified_at": "2026-08-25T01:54:00.21Z",
           "price_date": "22.08.26"
         },
         {
@@ -221,14 +221,14 @@
           "file": "Glasswater Locks Phase 1 Price List - 04.07.26.pdf",
           "file_id": "1XHRUcs0UWkg0h25SuwT9d5Do3IgwFqOo",
           "file_url": "https://drive.google.com/file/d/1XHRUcs0UWkg0h25SuwT9d5Do3IgwFqOo/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:20:57.710Z",
+          "modified_at": "2026-07-07T09:20:57.71Z",
           "price_date": "04.07.26"
         },
         {
           "file": "Glasswater Locks Brindley Collection- 04.07.26.pdf",
           "file_id": "1AolenheZ0cQmQzUf5eoGMHRTZIVDnUID",
           "file_url": "https://drive.google.com/file/d/1AolenheZ0cQmQzUf5eoGMHRTZIVDnUID/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:20:46.550Z",
+          "modified_at": "2026-07-07T09:20:46.55Z",
           "price_date": "04.07.26"
         },
         {
@@ -263,7 +263,7 @@
           "file": "CN Agent_ Glasswater Locks Brindley Collection  - 13.06.26.pdf",
           "file_id": "1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG",
           "file_url": "https://drive.google.com/file/d/1TX-kxfezMnrBfF-84uK-bNF4Tp0fS-UG/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:21:57.510Z",
+          "modified_at": "2026-06-17T02:21:57.51Z",
           "price_date": "13.06.26"
         },
         {
@@ -514,7 +514,7 @@
           "file": "London Dock G1 - Tranquillity Place - 16.08.26.pdf",
           "file_id": "19cDz5P5FHk9Cwo7KZz0_bf0MwpOaHa5Y",
           "file_url": "https://drive.google.com/file/d/19cDz5P5FHk9Cwo7KZz0_bf0MwpOaHa5Y/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:33:10.270Z",
+          "modified_at": "2026-08-18T02:33:10.27Z",
           "price_date": "16.08.26"
         },
         {
@@ -738,21 +738,21 @@
           "file": "London Dock G3 - Imperial Tower - 12.07.26.pdf",
           "file_id": "1hgyWd9JvvVutrAw6JY3B_3-uXKmZ4ReE",
           "file_url": "https://drive.google.com/file/d/1hgyWd9JvvVutrAw6JY3B_3-uXKmZ4ReE/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:57:45.360Z",
+          "modified_at": "2026-07-14T01:57:45.36Z",
           "price_date": "12.07.26"
         },
         {
           "file": "London Dock G2 - Kingfisher Court - 12.07.26.pdf",
           "file_id": "1L-hacVLmW_GoKOAfB-bhIwtDBeT2PFWT",
           "file_url": "https://drive.google.com/file/d/1L-hacVLmW_GoKOAfB-bhIwtDBeT2PFWT/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:57:38.310Z",
+          "modified_at": "2026-07-14T01:57:38.31Z",
           "price_date": "12.07.26"
         },
         {
           "file": "London Dock G1 - Tranquillity Place - 12.07.26.pdf",
           "file_id": "1XW6mQjW7gSm3M986bL2wrGHCrZvgUuBG",
           "file_url": "https://drive.google.com/file/d/1XW6mQjW7gSm3M986bL2wrGHCrZvgUuBG/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:57:31.990Z",
+          "modified_at": "2026-07-14T01:57:31.99Z",
           "price_date": "12.07.26"
         },
         {
@@ -955,14 +955,14 @@
           "file": "2026-05-28_London Dock G3 - Imperial Tower 17.05.26.pdf",
           "file_id": "1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u",
           "file_url": "https://drive.google.com/file/d/1Jue85NmuGnDJ9j1vlpEFX_Eki2OYNY5u/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:36.930Z",
+          "modified_at": "2026-05-28T01:55:36.93Z",
           "price_date": "26-05-28"
         },
         {
           "file": "2026-05-28_London Dock G2 - Kingfisher Court - 17.05.26.pdf",
           "file_id": "1hw-FfcVqL_sduNx7S0SnalACysOQKi53",
           "file_url": "https://drive.google.com/file/d/1hw-FfcVqL_sduNx7S0SnalACysOQKi53/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:55:35.160Z",
+          "modified_at": "2026-05-28T01:55:35.16Z",
           "price_date": "26-05-28"
         },
         {
@@ -976,14 +976,14 @@
           "file": "London Dock G1 - Tranquillity Place - 03.05.26.pdf",
           "file_id": "1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk",
           "file_url": "https://drive.google.com/file/d/1MZAkZllwWhll1oySV1OXY1jYNVKFX2pk/view?usp=drivesdk",
-          "modified_at": "2026-05-09T03:13:34.000Z",
+          "modified_at": "2026-05-09T03:13:34Z",
           "price_date": "03.05.26"
         },
         {
           "file": "London Dock G2 - Kingfisher Court - 06.05.26.pdf",
           "file_id": "14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif",
           "file_url": "https://drive.google.com/file/d/14lN5K7wie45UJsd_Ugc9Ig88fjJC7wif/view?usp=drivesdk",
-          "modified_at": "2026-05-07T02:22:35.000Z",
+          "modified_at": "2026-05-07T02:22:35Z",
           "price_date": "06.05.26"
         }
       ],
@@ -1069,55 +1069,8 @@
           "file": "202306019Aspen Price List[38].pdf",
           "file_id": "1ug-Qigcxt8L3tG0ewrp8aUfDeDx6BDdq",
           "file_url": "https://drive.google.com/file/d/1ug-Qigcxt8L3tG0ewrp8aUfDeDx6BDdq/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:36:31.000Z",
+          "modified_at": "2026-05-29T07:36:31Z",
           "price_date": ""
-        }
-      ],
-      "notes": []
-    },
-    "E14 - Goodluck Hope": {
-      "project": "E14 - Goodluck Hope",
-      "city": "Inner London",
-      "developer": "Ballymore",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Ballymore",
-      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - Goodluck Hope",
-      "folder_id": "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
-      "folder_url": "https://drive.google.com/drive/folders/1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
-      "price_folder_id": "1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
-      "price_folder_url": "https://drive.google.com/drive/folders/1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
-      "old_price_folder_id": "14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
-      "latest_files": [
-        {
-          "file": "Goodluck Hope Price List October 2026.pdf",
-          "file_id": "1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK",
-          "file_url": "https://drive.google.com/file/d/1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK/view?usp=drivesdk",
-          "modified_at": "2026-10-06T21:04:08.063Z",
-          "price_date": "October 2026"
-        },
-        {
-          "file": "Goodluck Hope Price List 16th July 2026.pdf",
-          "file_id": "1VAsqQtYp6bqovkO5atpnueutggwqnItG",
-          "file_url": "https://drive.google.com/file/d/1VAsqQtYp6bqovkO5atpnueutggwqnItG/view?usp=drivesdk",
-          "modified_at": "2026-07-18T01:48:43.555Z",
-          "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Goodluck Hope Price List 30th June 2026.pdf",
-          "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
-          "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
-          "modified_at": "2026-07-01T09:44:09.000Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Goodluck Hope Price List 12th June 2026.pdf",
-          "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
-          "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
-          "modified_at": "2026-06-26T03:31:36.949Z",
-          "price_date": "June 2026"
         }
       ],
       "notes": []
@@ -1190,7 +1143,7 @@
           "file": "One Thames Quay Pricelist - Aug 2026.pdf",
           "file_id": "1mt0Ckqv7SqbaGMCXpLacfQiEISjSyVA0",
           "file_url": "https://drive.google.com/file/d/1mt0Ckqv7SqbaGMCXpLacfQiEISjSyVA0/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:03:57.750Z",
+          "modified_at": "2026-09-11T04:03:57.75Z",
           "price_date": "Aug 2026"
         },
         {
@@ -1206,7 +1159,7 @@
           "file": "One Thames Quay Price List - June 2026 v1.pdf",
           "file_id": "1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek",
           "file_url": "https://drive.google.com/file/d/1RRkHW81YeHLp7jTQIVkierwH8QPYL4ek/view?usp=drivesdk",
-          "modified_at": "2026-07-03T03:04:49.000Z",
+          "modified_at": "2026-07-03T03:04:49Z",
           "price_date": "June 2026"
         },
         {
@@ -1307,14 +1260,14 @@
           "file": "SQP Daily Price List 12.07.2026.pdf",
           "file_id": "1DSQNU4f7RQVjJIfm82QApzeKXGCQZk8G",
           "file_url": "https://drive.google.com/file/d/1DSQNU4f7RQVjJIfm82QApzeKXGCQZk8G/view?usp=drivesdk",
-          "modified_at": "2026-07-15T03:03:47.000Z",
+          "modified_at": "2026-07-15T03:03:47Z",
           "price_date": "12.07.2026"
         },
         {
           "file": "SQP Daily Price List 04.07.2026.pdf",
           "file_id": "1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8",
           "file_url": "https://drive.google.com/file/d/1P3Hb7yV9glzRkUiE6UdAdGGC3ymw9cN8/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:46:34.760Z",
+          "modified_at": "2026-07-09T08:46:34.76Z",
           "price_date": "04.07.2026"
         },
         {
@@ -1328,7 +1281,7 @@
           "file": "SQP Daily Price List 06.06.2026.pdf",
           "file_id": "1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql",
           "file_url": "https://drive.google.com/file/d/1OPgxhrfMI51_ARDd1_PpoUtHxwjhszql/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:30.000Z",
+          "modified_at": "2026-06-08T09:24:30Z",
           "price_date": "06.06.2026"
         }
       ],
@@ -1529,21 +1482,21 @@
           "file": "RV-Westwood Building- ready to move in 08.06.2026.pdf",
           "file_id": "1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7",
           "file_url": "https://drive.google.com/file/d/1EWaUOoAMnpB0vMqmX7IFueGv15LXBnU7/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:04:07.540Z",
+          "modified_at": "2026-06-09T07:04:07.54Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "RV-Westwood- ready to move in 25.05.2026.pdf",
           "file_id": "1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e",
           "file_url": "https://drive.google.com/file/d/1eQVtxqS60qE6kw9WMEqLDDP6kS6UwX5e/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:53.000Z",
+          "modified_at": "2026-06-08T08:14:53Z",
           "price_date": "25.05.2026"
         },
         {
           "file": "RV-Wright-ready to move in 25.05.2026.pdf",
           "file_id": "1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy",
           "file_url": "https://drive.google.com/file/d/1qbRoXcpv6OOlxJnRA_Ix98oyVCmTFzoy/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:52.000Z",
+          "modified_at": "2026-06-08T08:14:52Z",
           "price_date": "25.05.2026"
         }
       ],
@@ -1581,7 +1534,7 @@
           "file": "BG-ready to move in-Core B Pricelist 13.10.26.pdf",
           "file_id": "1bLSIvhxTHy926pQWqktlagqzDidC3mpN",
           "file_url": "https://drive.google.com/file/d/1bLSIvhxTHy926pQWqktlagqzDidC3mpN/view?usp=drivesdk",
-          "modified_at": "2026-10-28T01:31:45.560Z",
+          "modified_at": "2026-10-28T01:31:45.56Z",
           "price_date": "13.10.26"
         },
         {
@@ -1597,7 +1550,7 @@
           "file": "Bow Green Bow View ready to move in Pricelist 02.09.26 1.pdf",
           "file_id": "1_66u0Xn_N1QU8yUmcHBEELRyn0G-Lm0H",
           "file_url": "https://drive.google.com/file/d/1_66u0Xn_N1QU8yUmcHBEELRyn0G-Lm0H/view?usp=drivesdk",
-          "modified_at": "2026-09-10T06:52:37.020Z",
+          "modified_at": "2026-09-10T06:52:37.02Z",
           "price_date": "02.09.26"
         },
         {
@@ -1667,7 +1620,7 @@
           "file": "Bow Green_Ready to Move In_Core C 23.07.26.pdf",
           "file_id": "1udpXpH3PBMHCphgAGwLMjnPYAUJT6DHM",
           "file_url": "https://drive.google.com/file/d/1udpXpH3PBMHCphgAGwLMjnPYAUJT6DHM/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:12:53.280Z",
+          "modified_at": "2026-07-28T02:12:53.28Z",
           "price_date": "23.07.26"
         },
         {
@@ -1688,7 +1641,7 @@
           "file": "Bow Green_Ready to Move In_ Pricelist 15.07.pdf",
           "file_id": "1YjkNlc8e6FEyLHM0faZrTQVC9wDJtpT4",
           "file_url": "https://drive.google.com/file/d/1YjkNlc8e6FEyLHM0faZrTQVC9wDJtpT4/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:51:41.990Z",
+          "modified_at": "2026-07-21T03:51:41.99Z",
           "price_date": ""
         },
         {
@@ -1737,14 +1690,14 @@
           "file": "Bow View Core C-Ready to move in- Pricelist 15.06.26.pdf",
           "file_id": "1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs",
           "file_url": "https://drive.google.com/file/d/1zQsb42jRMRaZ8ZWWE21dG0kqMn9u1GUs/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
+          "modified_at": "2026-06-27T09:50:43Z",
           "price_date": "15.06.26"
         },
         {
           "file": "Bow Green Core B-Ready to move in- Pricelist 15.06.26 1.pdf",
           "file_id": "1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM",
           "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
-          "modified_at": "2026-06-27T09:50:43.000Z",
+          "modified_at": "2026-06-27T09:50:43Z",
           "price_date": "15.06.26"
         }
       ],
@@ -1833,14 +1786,14 @@
           "file": "Heron Wharf - Price List Snapshot 08.06.2026.pdf",
           "file_id": "1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518",
           "file_url": "https://drive.google.com/file/d/1DV3QRYaBj3mwQUaNtLUlLsNXqSVuD518/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:33.000Z",
+          "modified_at": "2026-06-08T09:24:33Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "Heron Wharf - The Millhouse Snapshot Price List 08.06.2026.pdf",
           "file_id": "1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG",
           "file_url": "https://drive.google.com/file/d/1Ndn34p9hyorHUmuU18MIIFN9HTCHQzlG/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:33.000Z",
+          "modified_at": "2026-06-08T09:24:33Z",
           "price_date": "08.06.2026"
         }
       ],
@@ -1929,14 +1882,14 @@
           "file": "HERTFORD MILL - BLOCK C PRICE LIST.pdf",
           "file_id": "1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x",
           "file_url": "https://drive.google.com/file/d/1QfOhm1Hkw2tWaFnQLYRWA931r69GvT9x/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:40:11.000Z",
+          "modified_at": "2026-05-27T03:40:11Z",
           "price_date": ""
         },
         {
           "file": "HERTFORD MILL BLOCK C - 3 BEDROOM PRICE LIST.pdf",
           "file_id": "1DB-bQXfnz39z_qguKolFevorWjoXf06O",
           "file_url": "https://drive.google.com/file/d/1DB-bQXfnz39z_qguKolFevorWjoXf06O/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:40:11.000Z",
+          "modified_at": "2026-05-27T03:40:11Z",
           "price_date": ""
         }
       ],
@@ -1993,14 +1946,14 @@
           "file": "Smokehaus Price List .pdf",
           "file_id": "1-EnCHXOGuQCCibo2CR_9jgru4qq7Jwtp",
           "file_url": "https://drive.google.com/file/d/1-EnCHXOGuQCCibo2CR_9jgru4qq7Jwtp/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:04:39.420Z",
+          "modified_at": "2026-09-11T04:04:39.42Z",
           "price_date": ""
         },
         {
           "file": "Smokehaus Price List - March.pdf",
           "file_id": "1ryK5HnkVQmpE_0mlaMh3PorUpqUQnP9v",
           "file_url": "https://drive.google.com/file/d/1ryK5HnkVQmpE_0mlaMh3PorUpqUQnP9v/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:35:28.030Z",
+          "modified_at": "2026-06-05T08:35:28.03Z",
           "price_date": ""
         }
       ],
@@ -2036,7 +1989,7 @@
           "file": "The Arc Price List Dec 2025.pdf",
           "file_id": "1IaBEMQkKu6SkaMK__Tn6fSKoI29h4LiI",
           "file_url": "https://drive.google.com/file/d/1IaBEMQkKu6SkaMK__Tn6fSKoI29h4LiI/view?usp=drivesdk",
-          "modified_at": "2026-05-27T03:18:50.440Z",
+          "modified_at": "2026-05-27T03:18:50.44Z",
           "price_date": "Dec 2025"
         }
       ],
@@ -2067,7 +2020,7 @@
           "file": "Angel Village Price List - August 2026.pdf",
           "file_id": "12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0",
           "file_url": "https://drive.google.com/file/d/12VOzdAHpYlpuWDpbeXrv8SP2L977MUw0/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:22:55.690Z",
+          "modified_at": "2026-08-08T08:22:55.69Z",
           "price_date": "August 2026"
         }
       ],
@@ -2090,14 +2043,14 @@
           "file": "Angel Village Price List  June 2026.pdf",
           "file_id": "1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo",
           "file_url": "https://drive.google.com/file/d/1xkyk_bPGFVnWKgHGXYCMlIcUvXz-Nlxo/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:32.350Z",
+          "modified_at": "2026-06-06T10:14:32.35Z",
           "price_date": "June 2026"
         },
         {
           "file": "Angel Village Price List – (April 2026).pdf",
           "file_id": "1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N",
           "file_url": "https://drive.google.com/file/d/1UCQd7hO4n1e5Pp97jnr9mKofoEJ11V2N/view?usp=drivesdk",
-          "modified_at": "2026-06-05T08:34:41.550Z",
+          "modified_at": "2026-06-05T08:34:41.55Z",
           "price_date": "April 2026"
         },
         {
@@ -2144,7 +2097,7 @@
           "file": "One Crown Place Price List - 18.05.2023[20].pdf",
           "file_id": "1B2GOOtDtli7OaC-fqWtB118JDjo_7BJS",
           "file_url": "https://drive.google.com/file/d/1B2GOOtDtli7OaC-fqWtB118JDjo_7BJS/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:18:54.000Z",
+          "modified_at": "2026-05-29T07:18:54Z",
           "price_date": "18.05.2023"
         }
       ],
@@ -2193,7 +2146,7 @@
           "file": "The Stage - Customer Price List -  24.08.2026.pdf",
           "file_id": "1qBArTXcsAGpShcmfkyLZtGPAEmCqq8pe",
           "file_url": "https://drive.google.com/file/d/1qBArTXcsAGpShcmfkyLZtGPAEmCqq8pe/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:04:49.150Z",
+          "modified_at": "2026-09-11T04:04:49.15Z",
           "price_date": "24.08.2026"
         },
         {
@@ -2207,7 +2160,7 @@
           "file": "The Stage - Customer Price List - 29.09.2026.pdf",
           "file_id": "1z86SfteWtF4n0BevFw812LnLfsdFuG0j",
           "file_url": "https://drive.google.com/file/d/1z86SfteWtF4n0BevFw812LnLfsdFuG0j/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-09-29"
         }
       ],
@@ -2261,7 +2214,7 @@
           "file": "One Bishopsgate Plaza Savills Price List Oct 2026.pdf",
           "file_id": "1y-8L8RAnOfSRH9KrCHULIeAW_3f9JqiL",
           "file_url": "https://drive.google.com/file/d/1y-8L8RAnOfSRH9KrCHULIeAW_3f9JqiL/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -2447,7 +2400,7 @@
           "file": "06.06.2026 Bermondsey Place Distribution Price List.pdf",
           "file_id": "1Lh-79mw8TUbG3znEbLIpmHgXHLtJCqfK",
           "file_url": "https://drive.google.com/file/d/1Lh-79mw8TUbG3znEbLIpmHgXHLtJCqfK/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:26.000Z",
+          "modified_at": "2026-06-08T09:24:26Z",
           "price_date": "06.06.2026"
         },
         {
@@ -2512,7 +2465,7 @@
           "file": "Opus - Availability List May 2026.pdf",
           "file_id": "1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ",
           "file_url": "https://drive.google.com/file/d/1JSeiVdlnG_QVPYzzz3eL8l2poo0JkfwZ/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:52:15.000Z",
+          "modified_at": "2026-05-08T09:52:15Z",
           "price_date": "May 2026"
         }
       ],
@@ -2536,7 +2489,7 @@
           "file": "Pinks Mews 2026 Price List.pdf",
           "file_id": "1EYNu7IIKYrTobqE8HTs0cE_anCdIMgdY",
           "file_url": "https://drive.google.com/file/d/1EYNu7IIKYrTobqE8HTs0cE_anCdIMgdY/view?usp=drivesdk",
-          "modified_at": "2026-06-25T03:46:55.850Z",
+          "modified_at": "2026-06-25T03:46:55.85Z",
           "price_date": "Mews 2026"
         }
       ],
@@ -2662,7 +2615,7 @@
           "file": "Triptych Price List - August 2026.pdf",
           "file_id": "1lHsVd0kd5qJllOAe10q3YMH0Q_piP6CX",
           "file_url": "https://drive.google.com/file/d/1lHsVd0kd5qJllOAe10q3YMH0Q_piP6CX/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:04:54.220Z",
+          "modified_at": "2026-09-11T04:04:54.22Z",
           "price_date": "August 2026"
         },
         {
@@ -2676,7 +2629,7 @@
           "file": "Triptych Bankside Price List.png",
           "file_id": "1np9tX42dcU_7YKElvlI1UjuVEgwXwyXI",
           "file_url": "https://drive.google.com/file/d/1np9tX42dcU_7YKElvlI1UjuVEgwXwyXI/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -2709,7 +2662,7 @@
           "file": "Westminster Tower Price List - 07.09.2026.pdf",
           "file_id": "1yiWYW4LY176bJ-SPxsOyPbbdeHgBNLDC",
           "file_url": "https://drive.google.com/file/d/1yiWYW4LY176bJ-SPxsOyPbbdeHgBNLDC/view?usp=drivesdk",
-          "modified_at": "2026-09-11T07:34:32.530Z",
+          "modified_at": "2026-09-11T07:34:32.53Z",
           "price_date": "07.09.2026"
         },
         {
@@ -2875,7 +2828,7 @@
           "file": "Graphite Square Price List June 2023.pdf",
           "file_id": "1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9",
           "file_url": "https://drive.google.com/file/d/1hCRRO1QChpNjYaME-iUNb-YEaXaWo3O9/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:20:29.000Z",
+          "modified_at": "2026-05-29T07:20:29Z",
           "price_date": "June 2023"
         }
       ],
@@ -3069,7 +3022,7 @@
           "file": "Oval Village - The Pinnacle Pricelist  - 19.07.2026.pdf",
           "file_id": "1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_",
           "file_url": "https://drive.google.com/file/d/1H59yEo19Fm_RsEsiAznKYtF-c_4QU4Z_/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:19.260Z",
+          "modified_at": "2026-07-21T03:55:19.26Z",
           "price_date": "19.07.2026"
         },
         {
@@ -3195,14 +3148,14 @@
           "file": "2026-05-28_Oval Village_The Pinnacle_Pricelist -17.05. 2026.pdf",
           "file_id": "1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6",
           "file_url": "https://drive.google.com/file/d/1fwzKbCJ3cTRVthpUIZtfsYJ-kj4AmCN6/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:19.150Z",
+          "modified_at": "2026-05-28T01:56:19.15Z",
           "price_date": "26-05-28"
         },
         {
           "file": "Oval Village_The Pinnacle_Pricelist -06.05.2026.pdf",
           "file_id": "1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx",
           "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
-          "modified_at": "2026-05-06T12:44:30.000Z",
+          "modified_at": "2026-05-06T12:44:30Z",
           "price_date": "06.05.2026"
         }
       ],
@@ -3240,7 +3193,7 @@
           "file": "The Founding Price List Oct 2026.pdf",
           "file_id": "1pztWhQZYjr6s7j-oF3YcGh-YBSEA8593",
           "file_url": "https://drive.google.com/file/d/1pztWhQZYjr6s7j-oF3YcGh-YBSEA8593/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -3249,7 +3202,7 @@
           "file": "The Founding Pricelist 01.06.2026 (1).pdf",
           "file_id": "1qF9jrGtjkGYb4qWKxRhs47iRILx8_RGp",
           "file_url": "https://drive.google.com/file/d/1qF9jrGtjkGYb4qWKxRhs47iRILx8_RGp/view?usp=drivesdk",
-          "modified_at": "2026-06-17T03:57:54.000Z",
+          "modified_at": "2026-06-17T03:57:54Z",
           "price_date": "01.06.2026"
         },
         {
@@ -3341,7 +3294,7 @@
           "file": "RAR Lantern Wharf - Daily Price List - 29.10.26.pdf",
           "file_id": "1L9Rx-m3fjBn6QBjLNlZiondZQBaXFX2N",
           "file_url": "https://drive.google.com/file/d/1L9Rx-m3fjBn6QBjLNlZiondZQBaXFX2N/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:43:16.930Z",
+          "modified_at": "2026-10-29T08:43:16.93Z",
           "price_date": "29.10.26"
         },
         {
@@ -3427,7 +3380,7 @@
           "file": "RAR Lantern Wharf - Daily Price List - 17.08.26.pdf",
           "file_id": "1DIJqaIZs0kGHX3g6jA_9SExJBls_RM6_",
           "file_url": "https://drive.google.com/file/d/1DIJqaIZs0kGHX3g6jA_9SExJBls_RM6_/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:35:04.930Z",
+          "modified_at": "2026-08-18T02:35:04.93Z",
           "price_date": "17.08.26"
         },
         {
@@ -3609,14 +3562,14 @@
           "file": "RAR Lantern Wharf - Daily Price List - 29.06.26.pdf",
           "file_id": "1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx",
           "file_url": "https://drive.google.com/file/d/1XKKA1Bg0anPePqGcPjPkJfkwHEKnCDVx/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:54:13.230Z",
+          "modified_at": "2026-06-30T01:54:13.23Z",
           "price_date": "29.06.26"
         },
         {
           "file": "RAR _ Ready_to_Move_In Homes - Daily Price List - 15.06.26.pdf",
           "file_id": "1uD6KabDZSYFAMekaDTc34jEOIbUACm74",
           "file_url": "https://drive.google.com/file/d/1uD6KabDZSYFAMekaDTc34jEOIbUACm74/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:53:18.390Z",
+          "modified_at": "2026-06-17T05:53:18.39Z",
           "price_date": "15.06.26"
         },
         {
@@ -3637,21 +3590,21 @@
           "file": "The Maribor at Royal Arsenal Riverside - Daily Price List - 08.06.26.pdf",
           "file_id": "16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H",
           "file_url": "https://drive.google.com/file/d/16D1VRCh5d5Ib4Q0F0igZ8Qi40h2F3i_H/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:38.000Z",
+          "modified_at": "2026-06-08T09:24:38Z",
           "price_date": "08.06.26"
         },
         {
           "file": "RAR Lantern Wharf - Daily Price List - 08.06.26.pdf",
           "file_id": "1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS",
           "file_url": "https://drive.google.com/file/d/1DI852vRukEZPjfaKbJS8H2Yi-_ZxTDZS/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:38.000Z",
+          "modified_at": "2026-06-08T09:24:38Z",
           "price_date": "08.06.26"
         },
         {
           "file": "RAR – Ready‑to‑Move‑In Homes - Daily Price List - 08.06.26.pdf",
           "file_id": "1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N",
           "file_url": "https://drive.google.com/file/d/1o3PMyGcgmaL6l845zQbKAEI4Ghpknw3N/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:37.000Z",
+          "modified_at": "2026-06-08T09:24:37Z",
           "price_date": "08.06.26"
         },
         {
@@ -3665,7 +3618,7 @@
           "file": "2026-05-28_RAR Lantern Wharf - Daily Price List - 24.05.26.pdf",
           "file_id": "1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k",
           "file_url": "https://drive.google.com/file/d/1xtaitf1ZwRdH2rCGya2l0Byw8WWSgY8k/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:23:12.090Z",
+          "modified_at": "2026-05-28T02:23:12.09Z",
           "price_date": "26-05-28"
         },
         {
@@ -3828,7 +3781,7 @@
           "file": "Skyview Gardens - Master Price List 31.08.2026.pdf",
           "file_id": "1YyJacPPIk7YoFmChe4yV45dfQCS-J2Oc",
           "file_url": "https://drive.google.com/file/d/1YyJacPPIk7YoFmChe4yV45dfQCS-J2Oc/view?usp=drivesdk",
-          "modified_at": "2026-08-31T09:03:24.990Z",
+          "modified_at": "2026-08-31T09:03:24.99Z",
           "price_date": "31.08.2026"
         },
         {
@@ -3849,7 +3802,7 @@
           "file": "Skyview Gardens - Master Price List 24.08.2026.pdf",
           "file_id": "1OLwZdOKPO0b8wVU8luvxsXqLu60VZJeX",
           "file_url": "https://drive.google.com/file/d/1OLwZdOKPO0b8wVU8luvxsXqLu60VZJeX/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:56:09.430Z",
+          "modified_at": "2026-08-25T01:56:09.43Z",
           "price_date": "24.08.2026"
         },
         {
@@ -3919,7 +3872,7 @@
           "file": "KV - Lily Residences Master Price list 11.08.2026.pdf",
           "file_id": "1YKXjburazBoWgPgGjE4T3Gmv-E90r-8b",
           "file_url": "https://drive.google.com/file/d/1YKXjburazBoWgPgGjE4T3Gmv-E90r-8b/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:18:30.150Z",
+          "modified_at": "2026-08-11T06:18:30.15Z",
           "price_date": "11.08.2026"
         },
         {
@@ -3975,7 +3928,7 @@
           "file": "KV - Lily Residences Master Price list 27.07.2026.pdf",
           "file_id": "1aEmRU4AAYuHGapley9FjPdhXdzhboF4g",
           "file_url": "https://drive.google.com/file/d/1aEmRU4AAYuHGapley9FjPdhXdzhboF4g/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:02:07.520Z",
+          "modified_at": "2026-07-28T02:02:07.52Z",
           "price_date": "27.07.2026"
         },
         {
@@ -4038,7 +3991,7 @@
           "file": "Townhouses Price List - 06.07.2026.pdf",
           "file_id": "1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6",
           "file_url": "https://drive.google.com/file/d/1CDn7WKUoeBiKMj2FA61eJSB31j7FBmE6/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:04:17.300Z",
+          "modified_at": "2026-07-06T10:04:17.3Z",
           "price_date": "06.07.2026"
         },
         {
@@ -4129,21 +4082,21 @@
           "file": "Skyview Gardens - Daily Price List 08.06.2026.pdf",
           "file_id": "16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw",
           "file_url": "https://drive.google.com/file/d/16QSPhtIew5SpvkXRCpnxeVs3fvaSb3Hw/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:32.000Z",
+          "modified_at": "2026-06-08T09:24:32Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "Townhouses Price List - 08.06.2026.pdf",
           "file_id": "1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH",
           "file_url": "https://drive.google.com/file/d/1Gw4ysBiyvSutrTK_M_8T7pMQD_zvEwaH/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:31.000Z",
+          "modified_at": "2026-06-08T09:24:31Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "KV Ready-to-Move-In Daily Price List  - 08.06.26.pdf",
           "file_id": "1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN",
           "file_url": "https://drive.google.com/file/d/1AEwCzwEOa7WrgdUw9rSjH5H-RiT7zmCN/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:30.000Z",
+          "modified_at": "2026-06-08T09:24:30Z",
           "price_date": "08.06.26"
         },
         {
@@ -4266,7 +4219,7 @@
           "file": "Woodberry Down - Editions Price List 04.07.2026.pdf",
           "file_id": "1SNve2Xp0qbjj-jzWvHmoGszzqAcnwc8n",
           "file_url": "https://drive.google.com/file/d/1SNve2Xp0qbjj-jzWvHmoGszzqAcnwc8n/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:48:58.790Z",
+          "modified_at": "2026-07-09T08:48:58.79Z",
           "price_date": "04.07.2026"
         },
         {
@@ -4280,7 +4233,7 @@
           "file": "The Grove Collection - The Iris Pricelist 04.07.2026.pdf",
           "file_id": "1InxbpltkQf-H7b7WhPfB5kNJYntpkG-Z",
           "file_url": "https://drive.google.com/file/d/1InxbpltkQf-H7b7WhPfB5kNJYntpkG-Z/view?usp=drivesdk",
-          "modified_at": "2026-07-09T08:48:40.840Z",
+          "modified_at": "2026-07-09T08:48:40.84Z",
           "price_date": "04.07.2026"
         },
         {
@@ -4350,28 +4303,28 @@
           "file": "Woodberry Down - Editions Price List 06.06.2026.pdf",
           "file_id": "1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI",
           "file_url": "https://drive.google.com/file/d/1OTXPLFs1cZMo75HUfYZEh7KI5elNBjDI/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:43.000Z",
+          "modified_at": "2026-06-08T09:24:43Z",
           "price_date": "06.06.2026"
         },
         {
           "file": "WD The Crown Collection Penthouse Price List 06.06.2026.pdf",
           "file_id": "1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC",
           "file_url": "https://drive.google.com/file/d/1Xu05Bi9uqoNx6rnUJQdOSo1cfNtlLJlC/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:42.000Z",
+          "modified_at": "2026-06-08T09:24:42Z",
           "price_date": "06.06.2026"
         },
         {
           "file": "The Grove Collection - The Alba Pricelist 06.06.2026.pdf",
           "file_id": "1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-",
           "file_url": "https://drive.google.com/file/d/1SJriXkCDDfNWyrglDdqcBhSm8vpA7E_-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:41.000Z",
+          "modified_at": "2026-06-08T09:24:41Z",
           "price_date": "06.06.2026"
         },
         {
           "file": "The Grove Collection - The Iris Pricelist 06.06.2026.pdf",
           "file_id": "1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F",
           "file_url": "https://drive.google.com/file/d/1_J6IzDYq4uJISL4BWMeHWpfiMD_lku9F/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:41.000Z",
+          "modified_at": "2026-06-08T09:24:41Z",
           "price_date": "06.06.2026"
         },
         {
@@ -4464,7 +4417,7 @@
           "file": "CN Camden Goods Yard - The Regent  - Pricelist 30.08.26.pdf",
           "file_id": "18NAsgeiEdtUvG_cr-zjLSXf5II54ZdCZ",
           "file_url": "https://drive.google.com/file/d/18NAsgeiEdtUvG_cr-zjLSXf5II54ZdCZ/view?usp=drivesdk",
-          "modified_at": "2026-08-31T03:03:45.950Z",
+          "modified_at": "2026-08-31T03:03:45.95Z",
           "price_date": "30.08.26"
         },
         {
@@ -4492,7 +4445,7 @@
           "file": "Camden Goods Yard - The Regent  - Pricelist 16.08.26.pdf",
           "file_id": "1QkizhCfVnFQcRYo0x5E8Vubkv3wN-AIP",
           "file_url": "https://drive.google.com/file/d/1QkizhCfVnFQcRYo0x5E8Vubkv3wN-AIP/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:30:21.390Z",
+          "modified_at": "2026-08-18T02:30:21.39Z",
           "price_date": "16.08.26"
         },
         {
@@ -4583,7 +4536,7 @@
           "file": "Camden Goods Yard - CN The Gallery - Pricelist - 19.07.26.pdf",
           "file_id": "1GTAnPhYbnYe8yrcwnZ7uLy24LWP0oCYi",
           "file_url": "https://drive.google.com/file/d/1GTAnPhYbnYe8yrcwnZ7uLy24LWP0oCYi/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:51:54.920Z",
+          "modified_at": "2026-07-21T03:51:54.92Z",
           "price_date": "19.07.26"
         },
         {
@@ -4653,7 +4606,7 @@
           "file": "Camden Goods Yard - CN The Gallery - Pricelist - 28.06.26.pdf",
           "file_id": "1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO",
           "file_url": "https://drive.google.com/file/d/1Sk9a3IIZaFvNEeZRcP-J67gBn2-nzGFO/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:47:13.870Z",
+          "modified_at": "2026-06-30T01:47:13.87Z",
           "price_date": "28.06.26"
         },
         {
@@ -4733,7 +4686,7 @@
           "file": "Piano Studios May 2026.pdf",
           "file_id": "1V3WJH21x-RRIhkBjMNSp5To4ni-MI6nq",
           "file_url": "https://drive.google.com/file/d/1V3WJH21x-RRIhkBjMNSp5To4ni-MI6nq/view?usp=drivesdk",
-          "modified_at": "2026-06-04T06:32:18.000Z",
+          "modified_at": "2026-06-04T06:32:18Z",
           "price_date": "May 2026"
         }
       ],
@@ -4804,7 +4757,7 @@
           "file": "Centre Point - Centre Point Residences.pdf",
           "file_id": "1uj9kBinF6aIMZiPx6fjOQT6Yv24YyTTC",
           "file_url": "https://drive.google.com/file/d/1uj9kBinF6aIMZiPx6fjOQT6Yv24YyTTC/view?usp=drivesdk",
-          "modified_at": "2026-06-27T10:40:57.000Z",
+          "modified_at": "2026-06-27T10:40:57Z",
           "price_date": ""
         }
       ],
@@ -4850,7 +4803,7 @@
           "file": "2026-10-19- Development 1 - Postmark - Price List.pdf",
           "file_id": "15gcTAMLs_2kj1BZOwuUBUZYum0Xh6vpU",
           "file_url": "https://drive.google.com/file/d/15gcTAMLs_2kj1BZOwuUBUZYum0Xh6vpU/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10-19"
         }
       ],
@@ -4866,14 +4819,14 @@
           "file": "18.07.26 - Monograph Square - Price List Block H.pdf",
           "file_id": "1pDLbHiI-xmQXnGYis_EqMu1QgPkx75A3",
           "file_url": "https://drive.google.com/file/d/1pDLbHiI-xmQXnGYis_EqMu1QgPkx75A3/view?usp=drivesdk",
-          "modified_at": "2026-07-20T09:00:59.170Z",
+          "modified_at": "2026-07-20T09:00:59.17Z",
           "price_date": "18.07.26"
         },
         {
           "file": "04.07.26 - Monograph Square - Price List Block H.pdf",
           "file_id": "1lWNQ5UgGYP_1Nq3NHdEFIep_IaB6qRig",
           "file_url": "https://drive.google.com/file/d/1lWNQ5UgGYP_1Nq3NHdEFIep_IaB6qRig/view?usp=drivesdk",
-          "modified_at": "2026-07-06T08:18:37.640Z",
+          "modified_at": "2026-07-06T08:18:37.64Z",
           "price_date": "04.07.26"
         },
         {
@@ -5058,7 +5011,7 @@
           "file": "The OWO Residences - THE OWO RESIDENCES PRICE GUIDE.pdf",
           "file_id": "1hLrJsExDTqTPy14xzjVOybH8DfaGoHGC",
           "file_url": "https://drive.google.com/file/d/1hLrJsExDTqTPy14xzjVOybH8DfaGoHGC/view?usp=drivesdk",
-          "modified_at": "2026-06-27T10:27:57.000Z",
+          "modified_at": "2026-06-27T10:27:57Z",
           "price_date": ""
         }
       ],
@@ -5104,14 +5057,14 @@
           "file": "Chelsea Barracks - CHELSEA BARRACKS - ONE FIVE FIELDS SQUARE PRICE LIST.pdf",
           "file_id": "1M6Mbby0MvhLIp_nHtupA6xIrPQCY2KYL",
           "file_url": "https://drive.google.com/file/d/1M6Mbby0MvhLIp_nHtupA6xIrPQCY2KYL/view?usp=drivesdk",
-          "modified_at": "2026-06-27T10:13:05.000Z",
+          "modified_at": "2026-06-27T10:13:05Z",
           "price_date": ""
         },
         {
           "file": "One Five Fields Square - 9Sept25.pdf",
           "file_id": "1rA7Of_uVnP_uYJHse-tGLcIovph_YuAa",
           "file_url": "https://drive.google.com/file/d/1rA7Of_uVnP_uYJHse-tGLcIovph_YuAa/view?usp=drivesdk",
-          "modified_at": "2026-03-15T09:14:46.000Z",
+          "modified_at": "2026-03-15T09:14:46Z",
           "price_date": ""
         }
       ],
@@ -5193,14 +5146,14 @@
           "file": "The Lucan Prices Jan 2026.pdf",
           "file_id": "13IPBqmHJIFB1vdiU5PDJQrbezI8btQiz",
           "file_url": "https://drive.google.com/file/d/13IPBqmHJIFB1vdiU5PDJQrbezI8btQiz/view?usp=drivesdk",
-          "modified_at": "2026-04-13T09:42:08.000Z",
+          "modified_at": "2026-04-13T09:42:08Z",
           "price_date": "Jan 2026"
         },
         {
           "file": "The Lucan Prices December 2025.pdf",
           "file_id": "1F5mr9R4DugNyvHWEwIYdFNybv46UfJit",
           "file_url": "https://drive.google.com/file/d/1F5mr9R4DugNyvHWEwIYdFNybv46UfJit/view?usp=drivesdk",
-          "modified_at": "2025-11-29T01:22:55.000Z",
+          "modified_at": "2025-11-29T01:22:55Z",
           "price_date": "December 2025"
         }
       ],
@@ -5262,7 +5215,7 @@
           "file": "The Bryanston Hyde Park - Sample Price List - May 2026.pdf",
           "file_id": "1qrXsn5Ds4jmKW52vRvFy13iTnISm82N1",
           "file_url": "https://drive.google.com/file/d/1qrXsn5Ds4jmKW52vRvFy13iTnISm82N1/view?usp=drivesdk",
-          "modified_at": "2026-06-02T09:57:36.000Z",
+          "modified_at": "2026-06-02T09:57:36Z",
           "price_date": "May 2026"
         }
       ],
@@ -5308,7 +5261,7 @@
           "file": "One Carrington - Customer Price List - November 2024 Release.pdf",
           "file_id": "1Qh61x1kw8HjseectSL0yVkltsqLS09MD",
           "file_url": "https://drive.google.com/file/d/1Qh61x1kw8HjseectSL0yVkltsqLS09MD/view?usp=drivesdk",
-          "modified_at": "2026-05-23T10:02:46.000Z",
+          "modified_at": "2026-05-23T10:02:46Z",
           "price_date": "November 2024"
         }
       ],
@@ -5370,7 +5323,7 @@
           "file": "Marylebone Mansions Customer Pricelist 1st May 2026.pdf",
           "file_id": "1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ",
           "file_url": "https://drive.google.com/file/d/1a0g_dXOuMqEHxuet0u2GywQnjgjcKkiJ/view?usp=drivesdk",
-          "modified_at": "2026-05-12T07:11:23.000Z",
+          "modified_at": "2026-05-12T07:11:23Z",
           "price_date": "May 2026"
         }
       ],
@@ -5434,7 +5387,7 @@
           "file": "Block B & D - Pricelist - August 2026.pdf",
           "file_id": "1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC",
           "file_url": "https://drive.google.com/file/d/1V_E-wkumONeeN9LNI_Gnt-NNA-3htdeC/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:12:20.770Z",
+          "modified_at": "2026-09-01T11:12:20.77Z",
           "price_date": "August 2026"
         },
         {
@@ -5509,7 +5462,7 @@
           "file": "Trillium Price List - 16.08.26.pdf",
           "file_id": "1m7jvcBIif5thBum9X_E54AY6oVDa9RCa",
           "file_url": "https://drive.google.com/file/d/1m7jvcBIif5thBum9X_E54AY6oVDa9RCa/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:36:23.960Z",
+          "modified_at": "2026-08-18T02:36:23.96Z",
           "price_date": "16.08.26"
         },
         {
@@ -5572,14 +5525,14 @@
           "file": "Trillium Price List 01.07.26.pdf",
           "file_id": "1dVsNg71UQSZBSRxmLtgSWzzGSsji7UuF",
           "file_url": "https://drive.google.com/file/d/1dVsNg71UQSZBSRxmLtgSWzzGSsji7UuF/view?usp=drivesdk",
-          "modified_at": "2026-07-07T01:41:06.830Z",
+          "modified_at": "2026-07-07T01:41:06.83Z",
           "price_date": "01.07.26"
         },
         {
           "file": "Trillium Price List 05.07.26.pdf",
           "file_id": "1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895",
           "file_url": "https://drive.google.com/file/d/1aqvwuMfR6rUlnCZg6AjlOvUC_Vgij895/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:07:20.200Z",
+          "modified_at": "2026-07-06T10:07:20.2Z",
           "price_date": "05.07.26"
         },
         {
@@ -5593,7 +5546,7 @@
           "file": "Trillium Price List 14.06.26.pdf",
           "file_id": "1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G",
           "file_url": "https://drive.google.com/file/d/1AgRftMO5XePb-FmKVl-LUjXBOw8dYP5G/view?usp=drivesdk",
-          "modified_at": "2026-06-17T02:26:56.630Z",
+          "modified_at": "2026-06-17T02:26:56.63Z",
           "price_date": "14.06.26"
         },
         {
@@ -5631,7 +5584,7 @@
           "file": "Vabel Townhouse Pricing  Availability.pdf",
           "file_id": "1aWJGqfgrgaFP_Z3EEKa67qaOFE-B8cco",
           "file_url": "https://drive.google.com/file/d/1aWJGqfgrgaFP_Z3EEKa67qaOFE-B8cco/view?usp=drivesdk",
-          "modified_at": "2026-07-16T07:26:35.000Z",
+          "modified_at": "2026-07-16T07:26:35Z",
           "price_date": ""
         }
       ],
@@ -5725,7 +5678,7 @@
           "file": "Allen House Price List - July 2026.pdf",
           "file_id": "12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf",
           "file_url": "https://drive.google.com/file/d/12hrHkXw8XQrT3su-uD3jxJPzxB4a7uXf/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:22:47.490Z",
+          "modified_at": "2026-08-08T08:22:47.49Z",
           "price_date": "July 2026"
         }
       ],
@@ -5815,7 +5768,7 @@
           "file": "Ebury 202608.pdf",
           "file_id": "1V6fCp1GjqMO7PUfzK94z1lGbFUWgXf_s",
           "file_url": "https://drive.google.com/file/d/1V6fCp1GjqMO7PUfzK94z1lGbFUWgXf_s/view?usp=drivesdk",
-          "modified_at": "2026-08-25T07:58:43.000Z",
+          "modified_at": "2026-08-25T07:58:43Z",
           "price_date": "Ebury 2026"
         }
       ],
@@ -5855,7 +5808,7 @@
           "file": "The Broadway - Customer Pricelist 1st August 2026.pdf",
           "file_id": "1dTRJI5_i1I5KrEiN4_a3LBpmPFe5p-oo",
           "file_url": "https://drive.google.com/file/d/1dTRJI5_i1I5KrEiN4_a3LBpmPFe5p-oo/view?usp=drivesdk",
-          "modified_at": "2026-09-01T11:37:23.940Z",
+          "modified_at": "2026-09-01T11:37:23.94Z",
           "price_date": "August 2026"
         }
       ],
@@ -5871,7 +5824,7 @@
           "file": "The Broadway SW1 Price List 090626.pdf",
           "file_id": "1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N",
           "file_url": "https://drive.google.com/file/d/1YiJM3kvxao42IDyZ03mrvdd1zpF8-i6N/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:01:59.840Z",
+          "modified_at": "2026-06-26T10:01:59.84Z",
           "price_date": "List 0906"
         },
         {
@@ -5885,7 +5838,7 @@
           "file": "The Broadway - Customer Pricelist 28th October 2025.pdf",
           "file_id": "1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl",
           "file_url": "https://drive.google.com/file/d/1sJWZHDU1so6VTl850fRIbc-h7yNon9Jl/view?usp=drivesdk",
-          "modified_at": "2025-11-04T07:26:03.000Z",
+          "modified_at": "2025-11-04T07:26:03Z",
           "price_date": "October 2025"
         }
       ],
@@ -5918,7 +5871,7 @@
           "file": "Chelsea Finery - The Atelier Price List - 17.08.2026.pdf",
           "file_id": "14COUj7oNimLXtLugzfIx7aT1d5GW7Byy",
           "file_url": "https://drive.google.com/file/d/14COUj7oNimLXtLugzfIx7aT1d5GW7Byy/view?usp=drivesdk",
-          "modified_at": "2026-08-18T03:38:55.410Z",
+          "modified_at": "2026-08-18T03:38:55.41Z",
           "price_date": "17.08.2026"
         },
         {
@@ -6054,7 +6007,7 @@
           "file": "The Capston Pricelist_25.11(1).pdf",
           "file_id": "1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ",
           "file_url": "https://drive.google.com/file/d/1yZdyGXMbOMw6clTPzhl4GlmIdoUEqKcQ/view?usp=drivesdk",
-          "modified_at": "2025-11-29T01:12:11.000Z",
+          "modified_at": "2025-11-29T01:12:11Z",
           "price_date": ""
         }
       ],
@@ -6105,7 +6058,7 @@
           "file": "Parkside Collection Price List July 2026.pdf",
           "file_id": "1WCqLJHQ2ehnHTxn48VN_HLEWx-91YUIB",
           "file_url": "https://drive.google.com/file/d/1WCqLJHQ2ehnHTxn48VN_HLEWx-91YUIB/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:53.600Z",
+          "modified_at": "2026-07-21T03:55:53.6Z",
           "price_date": "July 2026"
         }
       ],
@@ -6175,7 +6128,7 @@
           "file": "Ransomes Wharf - Customer Price List - 01.05.2026 (1).pdf",
           "file_id": "1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek",
           "file_url": "https://drive.google.com/file/d/1RhMwNz-skJUMTW7-erWMED8SyjSRS3Ek/view?usp=drivesdk",
-          "modified_at": "2026-05-11T07:21:42.000Z",
+          "modified_at": "2026-05-11T07:21:42Z",
           "price_date": "01.05.2026"
         }
       ],
@@ -6318,7 +6271,7 @@
           "file": "Wandsworth Common Price List - Willow Collection 15.6.pdf",
           "file_id": "1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3",
           "file_url": "https://drive.google.com/file/d/1BjUzt1UoQD-rDVNOy196CwWGQifmXlS3/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:40.830Z",
+          "modified_at": "2026-06-22T05:47:40.83Z",
           "price_date": ""
         },
         {
@@ -6365,7 +6318,7 @@
           "file": "2026-W26 - Scheme 5 - King George's Gate - Price List.pdf",
           "file_id": "13NXDERgsKhaSw_lPUS9ELRcMi1aSNiX1",
           "file_url": "https://drive.google.com/file/d/13NXDERgsKhaSw_lPUS9ELRcMi1aSNiX1/view?usp=drivesdk",
-          "modified_at": "2026-08-11T01:47:13.690Z",
+          "modified_at": "2026-08-11T01:47:13.69Z",
           "price_date": ""
         },
         {
@@ -6482,7 +6435,7 @@
           "file": "CN - WM_ The Artisan Price list - 05.07.26.pdf",
           "file_id": "1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk",
           "file_url": "https://drive.google.com/file/d/1LOnSgjv8oSyX1s4moF8_6jPmickN76Uk/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:25:05.170Z",
+          "modified_at": "2026-07-07T09:25:05.17Z",
           "price_date": "05.07.26"
         },
         {
@@ -6569,7 +6522,7 @@
           "file": "Riverside Quarter Price list - 06.08.26.pdf",
           "file_id": "1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn",
           "file_url": "https://drive.google.com/file/d/1cmAeM58OT3x-OEHpL1uuOpSh6BtJmoVn/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:50.710Z",
+          "modified_at": "2026-08-08T08:23:50.71Z",
           "price_date": "06.08.26"
         }
       ],
@@ -6599,7 +6552,7 @@
           "file": "Riverside Quarter Price list 7.5.26.pdf",
           "file_id": "1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi",
           "file_url": "https://drive.google.com/file/d/1yFDQe9qpuYXoy3Tt7EwhZRRncTrZ1MUi/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:18:36.820Z",
+          "modified_at": "2026-05-26T10:18:36.82Z",
           "price_date": "7.5.26"
         }
       ],
@@ -6623,7 +6576,7 @@
           "file": "Chimes Westminster_Availability & Price List230530.pdf",
           "file_id": "1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh",
           "file_url": "https://drive.google.com/file/d/1wPyEINB8VGvWZYZDZN6IInLl6XLtqOSh/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:22:17.000Z",
+          "modified_at": "2026-05-29T07:22:17Z",
           "price_date": ""
         }
       ],
@@ -6720,14 +6673,14 @@
           "file": "Powerhouse Penthouse Pricelist 10th August 2026.pdf",
           "file_id": "1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54",
           "file_url": "https://drive.google.com/file/d/1qjT5GR1gdAxxymV9qmBV1dl0zkh7VI54/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:35.240Z",
+          "modified_at": "2026-08-11T02:18:35.24Z",
           "price_date": "August 2026"
         },
         {
           "file": "Savills Tower East Price List 3rd August 2026.pdf",
           "file_id": "1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV",
           "file_url": "https://drive.google.com/file/d/1_4iYlnTb1g5f5_-K7EM61hen5Rx6_bGV/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:31.000Z",
+          "modified_at": "2026-08-08T08:23:31Z",
           "price_date": "August 2026"
         },
         {
@@ -6769,28 +6722,28 @@
           "file": "Tower West Pricelist  29th June 2026.pdf",
           "file_id": "1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls",
           "file_url": "https://drive.google.com/file/d/1BzzUdKqBir2TtU6ncQbTreqXBkBWmQls/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:58.000Z",
+          "modified_at": "2026-07-02T06:17:58Z",
           "price_date": "June 2026"
         },
         {
           "file": "Water Gardens Pricelist  29th June 2026.pdf",
           "file_id": "1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh",
           "file_url": "https://drive.google.com/file/d/1JEHFsHu_omsK5ruNVNXM5o6qOkeh7toh/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:57.000Z",
+          "modified_at": "2026-07-02T06:17:57Z",
           "price_date": "June 2026"
         },
         {
           "file": "Powerhouse Pricelist  29th June 2026.pdf",
           "file_id": "16-QgXT0FouK19aB16WXHtGS9TnAEkswJ",
           "file_url": "https://drive.google.com/file/d/16-QgXT0FouK19aB16WXHtGS9TnAEkswJ/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:56.000Z",
+          "modified_at": "2026-07-02T06:17:56Z",
           "price_date": "June 2026"
         },
         {
           "file": "Tower East  Pricelist  29th June 2026.pdf",
           "file_id": "18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf",
           "file_url": "https://drive.google.com/file/d/18u1cLkH9FAST1Khe3rL1RPDMRT4gKnIf/view?usp=drivesdk",
-          "modified_at": "2026-07-02T06:17:54.000Z",
+          "modified_at": "2026-07-02T06:17:54Z",
           "price_date": "June 2026"
         },
         {
@@ -6804,35 +6757,35 @@
           "file": "Powerhouse Penthouse Pricelist 8th June 2026.pdf",
           "file_id": "1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi",
           "file_url": "https://drive.google.com/file/d/1CU_k1n1GE6eg9lgMmr6ppNYQR5Dh5VJi/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:59.000Z",
+          "modified_at": "2026-06-09T02:13:59Z",
           "price_date": "June 2026"
         },
         {
           "file": "Powerhouse Pricelist 8th June 2026.pdf",
           "file_id": "1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA",
           "file_url": "https://drive.google.com/file/d/1rQjdYCH9a10M_rFu97EhR2WzhJTW7vhA/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:58.000Z",
+          "modified_at": "2026-06-09T02:13:58Z",
           "price_date": "June 2026"
         },
         {
           "file": "Tower West Pricelist 8th June 2026.pdf",
           "file_id": "1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ",
           "file_url": "https://drive.google.com/file/d/1p6NjlAs55CNd-MveMcWDw6hj6nTi7xqZ/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:47.000Z",
+          "modified_at": "2026-06-09T02:13:47Z",
           "price_date": "June 2026"
         },
         {
           "file": "Tower East  Pricelist 8th June 2026.pdf",
           "file_id": "15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5",
           "file_url": "https://drive.google.com/file/d/15vWCIXCQCYORU6OUeIoOrnyPiZuKnAm5/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:45.000Z",
+          "modified_at": "2026-06-09T02:13:45Z",
           "price_date": "June 2026"
         },
         {
           "file": "Water Gardens Pricelist 8th June 2026.pdf",
           "file_id": "1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf",
           "file_url": "https://drive.google.com/file/d/1RPP8e5yUjO6ZrERg5iQl9WbIMvUljAFf/view?usp=drivesdk",
-          "modified_at": "2026-06-09T02:13:43.000Z",
+          "modified_at": "2026-06-09T02:13:43Z",
           "price_date": "June 2026"
         },
         {
@@ -6877,7 +6830,7 @@
           "file": "Herland Court Pricelist 19.10.26.pdf",
           "file_id": "1wwLTUmCjWtAvy50e0YWoUvLHDKsWFt-t",
           "file_url": "https://drive.google.com/file/d/1wwLTUmCjWtAvy50e0YWoUvLHDKsWFt-t/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10-19"
         }
       ],
@@ -6996,7 +6949,7 @@
           "file": "KRP - The Charlton - Price List (Hyperlinked) - 06.09.2026.pdf",
           "file_id": "1CNlrmhNiUV67VXKBxCqiJujwxr11hP6G",
           "file_url": "https://drive.google.com/file/d/1CNlrmhNiUV67VXKBxCqiJujwxr11hP6G/view?usp=drivesdk",
-          "modified_at": "2026-09-10T06:52:14.410Z",
+          "modified_at": "2026-09-10T06:52:14.41Z",
           "price_date": "06.09.2026"
         },
         {
@@ -7024,7 +6977,7 @@
           "file": "KRP - The Charlton - Price List (Hyperlinked) - 23.08.2026.pdf",
           "file_id": "1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B",
           "file_url": "https://drive.google.com/file/d/1ePvy2IX3LeIIRNwcoPLiZRM_eJ2qIx3B/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:56:39.520Z",
+          "modified_at": "2026-08-25T01:56:39.52Z",
           "price_date": "23.08.2026"
         },
         {
@@ -7115,7 +7068,7 @@
           "file": "OKRP - 3 Bed - Price List - 19.07.2026.pdf",
           "file_id": "111lI_9JwD-984R4ERCtfqNpvDzH7GDr2",
           "file_url": "https://drive.google.com/file/d/111lI_9JwD-984R4ERCtfqNpvDzH7GDr2/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:54:15.220Z",
+          "modified_at": "2026-07-21T03:54:15.22Z",
           "price_date": "19.07.2026"
         },
         {
@@ -7171,7 +7124,7 @@
           "file": "OKRP- 1 _ 2 -  Bed Price List - 28.06.2026.pdf",
           "file_id": "15aYI1w9LE0lMxGFPoqpGcBN8sk0N6i6G",
           "file_url": "https://drive.google.com/file/d/15aYI1w9LE0lMxGFPoqpGcBN8sk0N6i6G/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:23:52.590Z",
+          "modified_at": "2026-06-30T06:23:52.59Z",
           "price_date": "28.06.2026"
         },
         {
@@ -7213,14 +7166,14 @@
           "file": "King's Road Park - The Charlton - 1 & 2 Bed Price List  - 07.06.2026.pdf",
           "file_id": "125zhoPe5eJHPE7N-HnoIimLXElUZs9cn",
           "file_url": "https://drive.google.com/file/d/125zhoPe5eJHPE7N-HnoIimLXElUZs9cn/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:03:03.400Z",
+          "modified_at": "2026-06-09T07:03:03.4Z",
           "price_date": "07.06.2026"
         },
         {
           "file": "2026-05-28_Phase 4  - Classic & Premium - Price List 17.05.2026.pdf",
           "file_id": "1SUEV_xairtYJhG30CYRI_7GcWxLj5cw0",
           "file_url": "https://drive.google.com/file/d/1SUEV_xairtYJhG30CYRI_7GcWxLj5cw0/view?usp=drivesdk",
-          "modified_at": "2026-05-28T01:56:05.580Z",
+          "modified_at": "2026-05-28T01:56:05.58Z",
           "price_date": "26-05-28"
         },
         {
@@ -7318,7 +7271,7 @@
           "file": "RPT Price list 04082026.pdf",
           "file_id": "1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD",
           "file_url": "https://drive.google.com/file/d/1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD/view?usp=drivesdk",
-          "modified_at": "2026-08-13T10:01:06.000Z",
+          "modified_at": "2026-08-13T10:01:06Z",
           "price_date": "list 0408"
         }
       ],
@@ -7354,7 +7307,7 @@
           "file": "The Newton Pricelist.pdf",
           "file_id": "1QWbno0481opP2vu1TFR7qsu1q7n720Ak",
           "file_url": "https://drive.google.com/file/d/1QWbno0481opP2vu1TFR7qsu1q7n720Ak/view?usp=drivesdk",
-          "modified_at": "2026-05-20T03:48:56.000Z",
+          "modified_at": "2026-05-20T03:48:56Z",
           "price_date": ""
         }
       ],
@@ -7404,7 +7357,7 @@
           "file": "W1 Place Price List.png",
           "file_id": "14TIzJjQ4JwRm0gKJR0X0-sJASPRdR_Sb",
           "file_url": "https://drive.google.com/file/d/14TIzJjQ4JwRm0gKJR0X0-sJASPRdR_Sb/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -7551,14 +7504,14 @@
           "file": "TVC - The Ariel Price List October 2026 (1).pdf",
           "file_id": "1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh",
           "file_url": "https://drive.google.com/file/d/1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         },
         {
           "file": "TVC Scenery House Price List October 2026(1).pdf",
           "file_id": "1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa",
           "file_url": "https://drive.google.com/file/d/1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -7691,7 +7644,7 @@
           "file": "White City Living Cascades Three 21.08.26.pdf",
           "file_id": "1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF",
           "file_url": "https://drive.google.com/file/d/1FPhy0kFFoWHKRCTTSJUw0VbKeV-PLlHF/view?usp=drivesdk",
-          "modified_at": "2026-08-25T02:01:35.530Z",
+          "modified_at": "2026-08-25T02:01:35.53Z",
           "price_date": "21.08.26"
         },
         {
@@ -7747,7 +7700,7 @@
           "file": "White City Living Solaris Two 03.08.26.pdf",
           "file_id": "1XsJzJiJWXFtEP-k_5OX2TeJP52nomK6r",
           "file_url": "https://drive.google.com/file/d/1XsJzJiJWXFtEP-k_5OX2TeJP52nomK6r/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:57:07.060Z",
+          "modified_at": "2026-08-05T02:57:07.06Z",
           "price_date": "03.08.26"
         },
         {
@@ -7845,7 +7798,7 @@
           "file": "WCL - Solaris Two 27.06.26.pdf",
           "file_id": "16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX",
           "file_url": "https://drive.google.com/file/d/16tozLi_KpJlPjdtJR_Y4aeqmnxKNRXZX/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:42.040Z",
+          "modified_at": "2026-06-30T06:24:42.04Z",
           "price_date": "27.06.26"
         },
         {
@@ -7859,7 +7812,7 @@
           "file": "WCL - Cascades Three price list - 27.06.26.pdf",
           "file_id": "1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU",
           "file_url": "https://drive.google.com/file/d/1aLLq--OVxqMuCMqjTSl72nBISTgqHWSU/view?usp=drivesdk",
-          "modified_at": "2026-06-30T06:24:37.880Z",
+          "modified_at": "2026-06-30T06:24:37.88Z",
           "price_date": "27.06.26"
         },
         {
@@ -7887,21 +7840,21 @@
           "file": "WCL Solaris Two 22.05.26.pdf",
           "file_id": "1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-",
           "file_url": "https://drive.google.com/file/d/1mtGiuMZQHzHQhsHZGRkRnj62xfB61GW-/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:51.000Z",
+          "modified_at": "2026-06-08T08:14:51Z",
           "price_date": "22.05.26"
         },
         {
           "file": "WCL Ready to Move 22.05.26.pdf",
           "file_id": "1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa",
           "file_url": "https://drive.google.com/file/d/1rVXULV-iKhK2ZBdhv02oxISamIMb6XTa/view?usp=drivesdk",
-          "modified_at": "2026-06-08T08:14:49.000Z",
+          "modified_at": "2026-06-08T08:14:49Z",
           "price_date": "22.05.26"
         },
         {
           "file": "WCL Cascades Three price list - 22.05.26.pdf",
           "file_id": "1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3",
           "file_url": "https://drive.google.com/file/d/1aHBejek-aYAxCZbDamuO5Yg1_kOp5bG3/view?usp=drivesdk",
-          "modified_at": "2026-05-23T01:30:00.000Z",
+          "modified_at": "2026-05-23T01:30:00Z",
           "price_date": "22.05.26"
         }
       ],
@@ -7953,14 +7906,14 @@
           "file": "100 Kensington_The Oria Price List Oct 2026.pdf",
           "file_id": "1TI2TAGzq_pMOMWfNyc_SQzlYNHHkoj0k",
           "file_url": "https://drive.google.com/file/d/1TI2TAGzq_pMOMWfNyc_SQzlYNHHkoj0k/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         },
         {
           "file": "100 Kensington_The Ellery Price List Oct 2026.pdf",
           "file_id": "1p2o7mCNuRxEQHVkUIRW-KSUkIigOcD5R",
           "file_url": "https://drive.google.com/file/d/1p2o7mCNuRxEQHVkUIRW-KSUkIigOcD5R/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -8009,7 +7962,7 @@
           "file": "Fifty Brook Green - Price List - 28.04.2026 (2)(1).pdf",
           "file_id": "1cJB3W8_K3_2BHv6le405IczFY9QGT4QX",
           "file_url": "https://drive.google.com/file/d/1cJB3W8_K3_2BHv6le405IczFY9QGT4QX/view?usp=drivesdk",
-          "modified_at": "2026-05-07T10:52:04.000Z",
+          "modified_at": "2026-05-07T10:52:04Z",
           "price_date": "28.04.2026"
         }
       ],
@@ -8033,7 +7986,7 @@
           "file": "100GS - Availability List MAY 2025.pdf",
           "file_id": "1qcpt18Bi8jyT5-Ab2dVBP9kj2E3GouCB",
           "file_url": "https://drive.google.com/file/d/1qcpt18Bi8jyT5-Ab2dVBP9kj2E3GouCB/view?usp=drivesdk",
-          "modified_at": "2026-06-27T03:41:04.310Z",
+          "modified_at": "2026-06-27T03:41:04.31Z",
           "price_date": "MAY 2025"
         }
       ],
@@ -8083,7 +8036,7 @@
           "file": "The Bolsover Price List 22 April 26.pdf",
           "file_id": "1crmFB3xFULkvYR8t3POnlqbSzJuzVfI4",
           "file_url": "https://drive.google.com/file/d/1crmFB3xFULkvYR8t3POnlqbSzJuzVfI4/view?usp=drivesdk",
-          "modified_at": "2026-05-21T08:24:22.000Z",
+          "modified_at": "2026-05-21T08:24:22Z",
           "price_date": ""
         }
       ],
@@ -8108,7 +8061,7 @@
           "file": "Artisi Combined Price List August 2026.pdf",
           "file_id": "1EKj_jHi4qhTZ17lUP-JXpnXf6zEzUjqT",
           "file_url": "https://drive.google.com/file/d/1EKj_jHi4qhTZ17lUP-JXpnXf6zEzUjqT/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:12:58.060Z",
+          "modified_at": "2026-09-11T04:12:58.06Z",
           "price_date": "August 2026"
         },
         {
@@ -8163,7 +8116,7 @@
           "file": "Fulham Reach - Palmer House - Two-Bed - Plot 751.pdf",
           "file_id": "17X3iLy1Hv4SOyOJgcKoxfNPsM4tKuyn3",
           "file_url": "https://drive.google.com/file/d/17X3iLy1Hv4SOyOJgcKoxfNPsM4tKuyn3/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:53:35.080Z",
+          "modified_at": "2026-08-25T01:53:35.08Z",
           "price_date": ""
         },
         {
@@ -8186,7 +8139,7 @@
           "file": "Fulham Reach Palmer House - CN Agent use only - 26.07.26.pdf",
           "file_id": "1Vj4WghDHB5CGXnrKIGjXb9YnOOyD01Ir",
           "file_url": "https://drive.google.com/file/d/1Vj4WghDHB5CGXnrKIGjXb9YnOOyD01Ir/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:00:27.550Z",
+          "modified_at": "2026-07-28T02:00:27.55Z",
           "price_date": "26.07.26"
         },
         {
@@ -8268,14 +8221,14 @@
           "file": "Strand Chambers - Pre Launch Price List.pdf",
           "file_id": "1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q",
           "file_url": "https://drive.google.com/file/d/1MhQ8E45cfxNGC8mMjBo8vcR3wxBA4p6Q/view?usp=drivesdk",
-          "modified_at": "2026-05-29T07:17:36.000Z",
+          "modified_at": "2026-05-29T07:17:36Z",
           "price_date": ""
         },
         {
           "file": "Strand Chambers - September 25 Price List.pdf",
           "file_id": "1StQO1XESAqZ-eAW_N_2zBUY360FWM4cA",
           "file_url": "https://drive.google.com/file/d/1StQO1XESAqZ-eAW_N_2zBUY360FWM4cA/view?usp=drivesdk",
-          "modified_at": "2025-12-01T07:02:37.000Z",
+          "modified_at": "2025-12-01T07:02:37Z",
           "price_date": ""
         }
       ],
@@ -8306,7 +8259,7 @@
           "file": "10.27 Vita Living Circle Square Pricelist(1).pdf",
           "file_id": "1hwLWd9zgG4b9utehxW1UaqH-a5IcRvUm",
           "file_url": "https://drive.google.com/file/d/1hwLWd9zgG4b9utehxW1UaqH-a5IcRvUm/view?usp=drivesdk",
-          "modified_at": "2026-10-28T02:31:04.940Z",
+          "modified_at": "2026-10-28T02:31:04.94Z",
           "price_date": ""
         },
         {
@@ -8322,7 +8275,7 @@
           "file": "Vita Living Circle Square-East Pricelist.pdf",
           "file_id": "1P3hCSW6etUHfgFPyoD6Xw403YPISI4Df",
           "file_url": "https://drive.google.com/file/d/1P3hCSW6etUHfgFPyoD6Xw403YPISI4Df/view?usp=drivesdk",
-          "modified_at": "2026-10-23T03:14:57.240Z",
+          "modified_at": "2026-10-23T03:14:57.24Z",
           "price_date": ""
         },
         {
@@ -8350,14 +8303,14 @@
           "file": "04.20 Vita Living Circle Square Pricelist.pdf",
           "file_id": "1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI",
           "file_url": "https://drive.google.com/file/d/1XbjhePwwdDaeKQltEk9qB6vdzOHwweiI/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:30.000Z",
+          "modified_at": "2026-04-21T08:10:30Z",
           "price_date": ""
         },
         {
           "file": "04.20 Vita Living North Platinum Launch Pricelist.pdf",
           "file_id": "12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX",
           "file_url": "https://drive.google.com/file/d/12i0_WzpNKSCFHhfjBQ_ExC2mWXaMGcmX/view?usp=drivesdk",
-          "modified_at": "2026-04-21T08:10:18.000Z",
+          "modified_at": "2026-04-21T08:10:18Z",
           "price_date": ""
         }
       ],
@@ -8437,7 +8390,7 @@
           "file": "Bankside Availability List 26.06.2026.pdf",
           "file_id": "1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX",
           "file_url": "https://drive.google.com/file/d/1ZemJpSk7LWkBWXZx4miWcpJlLQ6NQlKX/view?usp=drivesdk",
-          "modified_at": "2026-07-02T08:18:50.460Z",
+          "modified_at": "2026-07-02T08:18:50.46Z",
           "price_date": "26.06.2026"
         }
       ],
@@ -8477,7 +8430,7 @@
           "file": "Vista River Gardens Availability 26.06.2026.pdf",
           "file_id": "1680xS0MX8ger9keurp0qhOOWO8jyHQ5-",
           "file_url": "https://drive.google.com/file/d/1680xS0MX8ger9keurp0qhOOWO8jyHQ5-/view?usp=drivesdk",
-          "modified_at": "2026-07-02T07:39:33.000Z",
+          "modified_at": "2026-07-02T07:39:33Z",
           "price_date": "26.06.2026"
         }
       ],
@@ -8722,7 +8675,7 @@
           "file": "Heatherwood Royal - Week 30.pdf",
           "file_id": "1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw",
           "file_url": "https://drive.google.com/file/d/1rxcdoyS3ekvIM15CECl5MEc-u4Ny3wrw/view?usp=drivesdk",
-          "modified_at": "2026-08-05T06:04:32.250Z",
+          "modified_at": "2026-08-05T06:04:32.25Z",
           "price_date": ""
         },
         {
@@ -8837,7 +8790,7 @@
           "file": "HQ pricelist 19th of July 2026.pdf",
           "file_id": "1sM3g_7lGvlMmjpmf0loIV639ygWdojKe",
           "file_url": "https://drive.google.com/file/d/1sM3g_7lGvlMmjpmf0loIV639ygWdojKe/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:54:02.800Z",
+          "modified_at": "2026-07-21T03:54:02.8Z",
           "price_date": "July 2026"
         },
         {
@@ -8858,7 +8811,7 @@
           "file": "HQ - The Maltings Price List - 14th June 2026.pdf",
           "file_id": "135L88u--74AijfQpujDURfjOVvKrezqV",
           "file_url": "https://drive.google.com/file/d/135L88u--74AijfQpujDURfjOVvKrezqV/view?usp=drivesdk",
-          "modified_at": "2026-06-17T06:23:42.070Z",
+          "modified_at": "2026-06-17T06:23:42.07Z",
           "price_date": "June 2026"
         },
         {
@@ -8879,7 +8832,7 @@
           "file": "2026-05-28_HQ - Ready to Move into Apartments - 17th May 2026.pdf",
           "file_id": "1rsu8q0zOULCAJmN2BOXXasFnec6NlGbE",
           "file_url": "https://drive.google.com/file/d/1rsu8q0zOULCAJmN2BOXXasFnec6NlGbE/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:27.790Z",
+          "modified_at": "2026-05-28T02:22:27.79Z",
           "price_date": "26-05-28"
         }
       ],
@@ -9169,14 +9122,14 @@
           "file": "Eastbrook Village - Beech Apartments Price List (30.05.26).pdf",
           "file_id": "19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1",
           "file_url": "https://drive.google.com/file/d/19xJO8DgxWDCsIJXxPvKdtEM6h7j6W2c1/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:40.040Z",
+          "modified_at": "2026-06-09T07:02:40.04Z",
           "price_date": "30.05.26"
         },
         {
           "file": "2026-05-28_EBV Mater Price List 16.05.2026.pdf",
           "file_id": "1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL",
           "file_url": "https://drive.google.com/file/d/1wrF8piqJdAb3AI3fsNrrNn3ORW9GZOtL/view?usp=drivesdk",
-          "modified_at": "2026-05-28T05:59:12.050Z",
+          "modified_at": "2026-05-28T05:59:12.05Z",
           "price_date": "26-05-28"
         }
       ],
@@ -9214,14 +9167,14 @@
           "file": "City Reach Price List - Florence Court 18.10.26.pdf",
           "file_id": "1LborilO1Dd5As8uOpt9yTvtd39IsZHTc",
           "file_url": "https://drive.google.com/file/d/1LborilO1Dd5As8uOpt9yTvtd39IsZHTc/view?usp=drivesdk",
-          "modified_at": "2026-10-30T06:53:59+00:00",
+          "modified_at": "2026-10-30T14:53:59+08:00",
           "price_date": "18.10.2026"
         },
         {
           "file": "City Reach Price List - IDA Court - 18.10.26.pdf",
           "file_id": "109699N9JrQowYxweV-fSGIlkpBI4JH5h",
           "file_url": "https://drive.google.com/file/d/109699N9JrQowYxweV-fSGIlkpBI4JH5h/view?usp=drivesdk",
-          "modified_at": "2026-10-30T06:53:59+00:00",
+          "modified_at": "2026-10-30T14:53:59+08:00",
           "price_date": "18.10.2026"
         }
       ],
@@ -9244,14 +9197,14 @@
           "file": "City Reach Ida Court Price List - 22.05.2026.pdf",
           "file_id": "19ZjPHQEMowA5xx0VdYiy5SRgMTEdgmYv",
           "file_url": "https://drive.google.com/file/d/19ZjPHQEMowA5xx0VdYiy5SRgMTEdgmYv/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:07.000Z",
+          "modified_at": "2026-05-25T00:58:07Z",
           "price_date": "22.05.2026"
         },
         {
           "file": "City Reach Florence Court Price List - 22.05.2026.pdf",
           "file_id": "1nOxwot1Gs-RiOm5oYi74I_-28r44y1fE",
           "file_url": "https://drive.google.com/file/d/1nOxwot1Gs-RiOm5oYi74I_-28r44y1fE/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:07.000Z",
+          "modified_at": "2026-05-25T00:58:07Z",
           "price_date": "22.05.2026"
         }
       ],
@@ -9291,7 +9244,7 @@
           "file": "Hartmere Freehold Houses Price List - 22.05.2026.pdf",
           "file_id": "18uwD29cxJP9NTZcopJXJWaWIhPnUJW71",
           "file_url": "https://drive.google.com/file/d/18uwD29cxJP9NTZcopJXJWaWIhPnUJW71/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         }
       ],
@@ -9338,7 +9291,7 @@
           "file": "Knights Park The Icon Price List 01.07.2026.pdf",
           "file_id": "1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb",
           "file_url": "https://drive.google.com/file/d/1cMzZIWHkAvo_R55Nlu0B_0QMvoTsBDTb/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:50.680Z",
+          "modified_at": "2026-07-03T01:41:50.68Z",
           "price_date": "01.07.2026"
         },
         {
@@ -9352,7 +9305,7 @@
           "file": "Knights Park Fusion Apartments Price List 01.07.2026.pdf",
           "file_id": "1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU",
           "file_url": "https://drive.google.com/file/d/1eOwWjFRPTIjFZIQzBs7QZi3NcPqZmAKU/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:45.340Z",
+          "modified_at": "2026-07-03T01:41:45.34Z",
           "price_date": "01.07.2026"
         }
       ],
@@ -9413,21 +9366,21 @@
           "file": "Marleigh Houses Kingsley View Price List - 22.05.2026.pdf",
           "file_id": "1wTMPuwzw2LC9N19nrGcrjigcSsdIEpHq",
           "file_url": "https://drive.google.com/file/d/1wTMPuwzw2LC9N19nrGcrjigcSsdIEpHq/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         },
         {
           "file": "Marleigh Apartments Franklin and Kestrel Price List - 22.05.2026.pdf",
           "file_id": "1NWG181TfRiUENkMpAMeXADmKLBMPZvbB",
           "file_url": "https://drive.google.com/file/d/1NWG181TfRiUENkMpAMeXADmKLBMPZvbB/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         },
         {
           "file": "Marleigh Houses Jubilee Central & Beaumont Gardens Price List - 22.05.2026.pdf",
           "file_id": "1I9eQ45Bw225ZAEA02C-ypRQziH2lvaUp",
           "file_url": "https://drive.google.com/file/d/1I9eQ45Bw225ZAEA02C-ypRQziH2lvaUp/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         }
       ],
@@ -9490,21 +9443,21 @@
           "file": "Knights Park House Price List - 22.05.2026.pdf",
           "file_id": "1SPNdJhuM5cA45tlDdx7BUUFlSP6Mz47e",
           "file_url": "https://drive.google.com/file/d/1SPNdJhuM5cA45tlDdx7BUUFlSP6Mz47e/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:07.000Z",
+          "modified_at": "2026-05-25T00:58:07Z",
           "price_date": "22.05.2026"
         },
         {
           "file": "Knights Park Fusion Apartments Price List - 22.05.2026.pdf",
           "file_id": "1ePrsQnBTp02l4Djwyu2TW1p1kyGqEs3_",
           "file_url": "https://drive.google.com/file/d/1ePrsQnBTp02l4Djwyu2TW1p1kyGqEs3_/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         },
         {
           "file": "Knights Park The ICON Price List - 22.05.2026.pdf",
           "file_id": "1kn02-GqlbEk6f4OK3kRQJlexBzZBCZKy",
           "file_url": "https://drive.google.com/file/d/1kn02-GqlbEk6f4OK3kRQJlexBzZBCZKy/view?usp=drivesdk",
-          "modified_at": "2026-05-25T00:58:06.000Z",
+          "modified_at": "2026-05-25T00:58:06Z",
           "price_date": "22.05.2026"
         }
       ],
@@ -9531,7 +9484,7 @@
           "file": "Price List April 2026 amended.pdf",
           "file_id": "1hcKTnozBipecGSZMzYSLMVlgQK6zy8k1",
           "file_url": "https://drive.google.com/file/d/1hcKTnozBipecGSZMzYSLMVlgQK6zy8k1/view?usp=drivesdk",
-          "modified_at": "2026-06-04T06:32:06.000Z",
+          "modified_at": "2026-06-04T06:32:06Z",
           "price_date": "April 2026"
         }
       ],
@@ -9693,14 +9646,14 @@
           "file": "The Exchange Union Court Pricelist - 05.07.2026.pdf",
           "file_id": "1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo",
           "file_url": "https://drive.google.com/file/d/1a7AQKllnj5DnZ4_FYgotx2v_ysCBU2Qo/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:07:07.840Z",
+          "modified_at": "2026-07-06T10:07:07.84Z",
           "price_date": "05.07.2026"
         },
         {
           "file": "The Exchange Dart House Price List  05.07.2026.pdf",
           "file_id": "1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo",
           "file_url": "https://drive.google.com/file/d/1PkTSwz3DOw5Vf69QFaI-jXbYZDIkaMQo/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:06:58.610Z",
+          "modified_at": "2026-07-06T10:06:58.61Z",
           "price_date": "05.07.2026"
         },
         {
@@ -9721,7 +9674,7 @@
           "file": "The Exchange Union Court Pricelist - 14.06.2026.pdf",
           "file_id": "1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ",
           "file_url": "https://drive.google.com/file/d/1wt5hp-QE9l3TJjk2ratBcy9szeHW5qnZ/view?usp=drivesdk",
-          "modified_at": "2026-06-17T05:54:03.080Z",
+          "modified_at": "2026-06-17T05:54:03.08Z",
           "price_date": "14.06.2026"
         },
         {
@@ -9865,7 +9818,7 @@
           "file": "CN-Highcroft - Price List 28.10.2026.pdf",
           "file_id": "1Fw3wi4dXGnuGxkIScmt5mEGO6wOY7GUQ",
           "file_url": "https://drive.google.com/file/d/1Fw3wi4dXGnuGxkIScmt5mEGO6wOY7GUQ/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:40:08.390Z",
+          "modified_at": "2026-10-29T08:40:08.39Z",
           "price_date": "28.10.2026"
         }
       ],
@@ -9923,7 +9876,7 @@
           "file": "CN-Highcroft - Price List 19.07 2026.pdf",
           "file_id": "1PdKndN14HvCkY4Cg1OH600NRcnAH5L-g",
           "file_url": "https://drive.google.com/file/d/1PdKndN14HvCkY4Cg1OH600NRcnAH5L-g/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:53:52.530Z",
+          "modified_at": "2026-07-21T03:53:52.53Z",
           "price_date": ""
         },
         {
@@ -10194,7 +10147,7 @@
           "file": "2026-05-28_One Waterside - Pricelist Poplar - May.pdf",
           "file_id": "1lJ3k5eSyCHbP4fQNYViXb31M7OtLe7Fg",
           "file_url": "https://drive.google.com/file/d/1lJ3k5eSyCHbP4fQNYViXb31M7OtLe7Fg/view?usp=drivesdk",
-          "modified_at": "2026-05-28T02:22:17.970Z",
+          "modified_at": "2026-05-28T02:22:17.97Z",
           "price_date": "26-05-28"
         },
         {
@@ -10316,7 +10269,7 @@
           "file": "Bishops Avenue Gardens - Price List October.pdf",
           "file_id": "1brVRTgQB-_mFQIPWguVxCGFeiQdDc7VG",
           "file_url": "https://drive.google.com/file/d/1brVRTgQB-_mFQIPWguVxCGFeiQdDc7VG/view?usp=drivesdk",
-          "modified_at": "2026-04-23T01:06:11.000Z",
+          "modified_at": "2026-04-23T01:06:11Z",
           "price_date": ""
         }
       ],
@@ -10357,7 +10310,7 @@
           "file": "The Claves Pricelist - September 2026.pdf",
           "file_id": "1XIys3fwc-szaJvdvDY95VytAaOc8OIA4",
           "file_url": "https://drive.google.com/file/d/1XIys3fwc-szaJvdvDY95VytAaOc8OIA4/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-09"
         }
       ],
@@ -10455,7 +10408,7 @@
           "file": "CN Grand Union - Peninsula House Price List - 29.07.26.pdf",
           "file_id": "1kKarP1VTqi4kOeDVHh5HcBVJITpXNa5_",
           "file_url": "https://drive.google.com/file/d/1kKarP1VTqi4kOeDVHh5HcBVJITpXNa5_/view?usp=drivesdk",
-          "modified_at": "2026-07-30T06:06:50.690Z",
+          "modified_at": "2026-07-30T06:06:50.69Z",
           "price_date": "29.07.26"
         },
         {
@@ -10476,7 +10429,7 @@
           "file": "CN Grand Union - Peninsula House Price List - 12.07.26.pdf",
           "file_id": "1IyF1gTSuDplwoi-UoAcPsdILhhuPTKc9",
           "file_url": "https://drive.google.com/file/d/1IyF1gTSuDplwoi-UoAcPsdILhhuPTKc9/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:53:43.220Z",
+          "modified_at": "2026-07-14T01:53:43.22Z",
           "price_date": "12.07.26"
         },
         {
@@ -10556,14 +10509,14 @@
           "file": "Fulton & Fifth - Brookline Price List - 03.08.26.pdf",
           "file_id": "1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t",
           "file_url": "https://drive.google.com/file/d/1fN-WDhY1dkDHEE8noR0knhM1ezjUnK6t/view?usp=drivesdk",
-          "modified_at": "2026-08-05T07:13:59.530Z",
+          "modified_at": "2026-08-05T07:13:59.53Z",
           "price_date": "03.08.26"
         },
         {
           "file": "Fulton & Fifth - Elmhurst Price List - 14 .04.26.pdf",
           "file_id": "1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B",
           "file_url": "https://drive.google.com/file/d/1owgxxdXhITNzgf5qY3R0dITRp7ZQmf2B/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
+          "modified_at": "2026-05-08T09:32:01Z",
           "price_date": ""
         }
       ],
@@ -10579,14 +10532,14 @@
           "file": "Fulton & Fifth - Brookline Price List - 20.05.26.pdf",
           "file_id": "1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY",
           "file_url": "https://drive.google.com/file/d/1z-ejSvDIiSHC-UKcjwWzd1Szaz_1DZGY/view?usp=drivesdk",
-          "modified_at": "2026-05-25T01:14:41.000Z",
+          "modified_at": "2026-05-25T01:14:41Z",
           "price_date": "20.05.26"
         },
         {
           "file": "Fulton & Fifth (Parkside) Investor Price List 14.04.26.pdf",
           "file_id": "1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf",
           "file_url": "https://drive.google.com/file/d/1FuVsjT3fU4onUi2W3wmWL-3FJWSvxDAf/view?usp=drivesdk",
-          "modified_at": "2026-05-08T09:32:01.000Z",
+          "modified_at": "2026-05-08T09:32:01Z",
           "price_date": "14.04.26"
         }
       ],
@@ -10699,7 +10652,7 @@
           "file": "Delamarre Pricelist 01.08.2026.pdf",
           "file_id": "1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw",
           "file_url": "https://drive.google.com/file/d/1tN5nx7ViEUcgFjlKuHn2dAXUQXN7pMHw/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:08.760Z",
+          "modified_at": "2026-08-08T08:23:08.76Z",
           "price_date": "01.08.2026"
         },
         {
@@ -10715,7 +10668,7 @@
           "file": "Ashbee Price list 01.07.2026.pdf",
           "file_id": "1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC",
           "file_url": "https://drive.google.com/file/d/1k8x1Lx8fJdehjlI4FG3quvOG23WQiRiC/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:42.120Z",
+          "modified_at": "2026-07-15T09:57:42.12Z",
           "price_date": "01.07.2026"
         },
         {
@@ -10750,7 +10703,7 @@
           "file": "Delamarre Pricelist 270426.pdf",
           "file_id": "18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-",
           "file_url": "https://drive.google.com/file/d/18YV8rZ5sz0zO1WgoRMrtLFHmh5nxfsx-/view?usp=drivesdk",
-          "modified_at": "2026-05-26T10:20:11.400Z",
+          "modified_at": "2026-05-26T10:20:11.4Z",
           "price_date": "Pricelist 2704"
         }
       ],
@@ -10816,7 +10769,7 @@
           "file": "Croydon Price List - 29 June 26.pdf",
           "file_id": "1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-",
           "file_url": "https://drive.google.com/file/d/1cXvSVncL5bGvOSGtrTuOHAhWGJHZMUs-/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:30:36.600Z",
+          "modified_at": "2026-07-03T01:30:36.6Z",
           "price_date": ""
         },
         {
@@ -11175,7 +11128,7 @@
           "file": "2026-05-28_CN-The Green Quarter - Brickfields Customer Pricelist -24.05.26.pdf",
           "file_id": "1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH",
           "file_url": "https://drive.google.com/file/d/1msJPuOzXyxUdU5TFX0n48a9E9wlgETsH/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:37.250Z",
+          "modified_at": "2026-05-28T03:54:37.25Z",
           "price_date": "26-05-28"
         },
         {
@@ -11263,21 +11216,21 @@
           "file": "Trent Park - Combined Pricelist 06.06.26.pdf",
           "file_id": "1WlaryNRtaGuFdq4pmLXxqa-gdc03eD6w",
           "file_url": "https://drive.google.com/file/d/1WlaryNRtaGuFdq4pmLXxqa-gdc03eD6w/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:29.000Z",
+          "modified_at": "2026-06-08T09:24:29Z",
           "price_date": "06.06.26"
         },
         {
           "file": "Royal Mews Price List 06.06.2026.pdf",
           "file_id": "1C0hfsm3sborELR80ZBnysFbjGSATHIUP",
           "file_url": "https://drive.google.com/file/d/1C0hfsm3sborELR80ZBnysFbjGSATHIUP/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:29.000Z",
+          "modified_at": "2026-06-08T09:24:29Z",
           "price_date": "06.06.2026"
         },
         {
           "file": "Mansion House Price List 06.06.2026.pdf",
           "file_id": "1okPu_8yXIvGRBLYexh5u2LCDXzYFSjMc",
           "file_url": "https://drive.google.com/file/d/1okPu_8yXIvGRBLYexh5u2LCDXzYFSjMc/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:28.000Z",
+          "modified_at": "2026-06-08T09:24:28Z",
           "price_date": "06.06.2026"
         }
       ],
@@ -11301,7 +11254,7 @@
           "file": "AG - Price List 05.06.26.pdf",
           "file_id": "1o0qiAfC5chU1lV5zi0N7acAdum--1gTZ",
           "file_url": "https://drive.google.com/file/d/1o0qiAfC5chU1lV5zi0N7acAdum--1gTZ/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:43.000Z",
+          "modified_at": "2026-06-08T09:24:43Z",
           "price_date": "05.06.26"
         }
       ],
@@ -11407,7 +11360,7 @@
           "file": "Kew Bridge Rise Wren Price List 01.07.2026.pdf",
           "file_id": "1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU",
           "file_url": "https://drive.google.com/file/d/1Y4nf3OJkbOo7Qg4bhJw9th-og7cZO_WU/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:41:42.780Z",
+          "modified_at": "2026-07-03T01:41:42.78Z",
           "price_date": "01.07.2026"
         },
         {
@@ -11486,7 +11439,7 @@
           "file": "Chiswick Green Pricelist May 2026.pdf",
           "file_id": "1alZi9ve7ia8H1VSEkF1ha9APf_JxZXR6",
           "file_url": "https://drive.google.com/file/d/1alZi9ve7ia8H1VSEkF1ha9APf_JxZXR6/view?usp=drivesdk",
-          "modified_at": "2026-06-04T06:32:22.000Z",
+          "modified_at": "2026-06-04T06:32:22Z",
           "price_date": "May 2026"
         }
       ],
@@ -11629,7 +11582,7 @@
           "file": "Rosa House - Daily  Price List 17.08.2026.pdf",
           "file_id": "1BARPneJ8HWJ_hhG3eSe11b5akskxSfpw",
           "file_url": "https://drive.google.com/file/d/1BARPneJ8HWJ_hhG3eSe11b5akskxSfpw/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:32:53.240Z",
+          "modified_at": "2026-08-18T02:32:53.24Z",
           "price_date": "17.08.2026"
         },
         {
@@ -11708,7 +11661,7 @@
           "file": "Rosa House - Daily  Price List 11.08.2026.pdf",
           "file_id": "1yHC5CsxyY-YdHxbv-1ES6d8Et3F3OYfm",
           "file_url": "https://drive.google.com/file/d/1yHC5CsxyY-YdHxbv-1ES6d8Et3F3OYfm/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:19:57.420Z",
+          "modified_at": "2026-08-11T06:19:57.42Z",
           "price_date": "11.08.2026"
         },
         {
@@ -11729,7 +11682,7 @@
           "file": "Fero House - Daily Pricelist 11.08.2026.pdf",
           "file_id": "1vcDU4RUHbRU8zr47b55T86tBmNZNbNpS",
           "file_url": "https://drive.google.com/file/d/1vcDU4RUHbRU8zr47b55T86tBmNZNbNpS/view?usp=drivesdk",
-          "modified_at": "2026-08-11T06:19:40.810Z",
+          "modified_at": "2026-08-11T06:19:40.81Z",
           "price_date": "11.08.2026"
         },
         {
@@ -11855,7 +11808,7 @@
           "file": "Opal House  Daily Price List 06.07.2026.pdf",
           "file_id": "1vogoJWk_GcUsz4lALn0UYzCygMej9lGs",
           "file_url": "https://drive.google.com/file/d/1vogoJWk_GcUsz4lALn0UYzCygMej9lGs/view?usp=drivesdk",
-          "modified_at": "2026-07-06T10:05:19.450Z",
+          "modified_at": "2026-07-06T10:05:19.45Z",
           "price_date": "06.07.2026"
         },
         {
@@ -11932,28 +11885,28 @@
           "file": "Myro House Daily Price List 08.06.2026.pdf",
           "file_id": "1TN1GRlCe3ELN-j-LSDND5s1LcoONYGMv",
           "file_url": "https://drive.google.com/file/d/1TN1GRlCe3ELN-j-LSDND5s1LcoONYGMv/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:36.000Z",
+          "modified_at": "2026-06-08T09:24:36Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "Opal House  Daily Price List 08.06.2026.pdf",
           "file_id": "1EBxdD4MqD-ZfF1Tj0iOqsh4aD2lO-rLb",
           "file_url": "https://drive.google.com/file/d/1EBxdD4MqD-ZfF1Tj0iOqsh4aD2lO-rLb/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:36.000Z",
+          "modified_at": "2026-06-08T09:24:36Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "Fero House - Daily Pricelist 08.06.2026.pdf",
           "file_id": "1TpFCZZ48yoyp2y7aun0_OZ3SHW0lC7zF",
           "file_url": "https://drive.google.com/file/d/1TpFCZZ48yoyp2y7aun0_OZ3SHW0lC7zF/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:35.000Z",
+          "modified_at": "2026-06-08T09:24:35Z",
           "price_date": "08.06.2026"
         },
         {
           "file": "Rosa House - Daily  Price List 08.06.2026.pdf",
           "file_id": "1I80ORCtNs0OcFQ6sO0jLRhKT2iQRGm15",
           "file_url": "https://drive.google.com/file/d/1I80ORCtNs0OcFQ6sO0jLRhKT2iQRGm15/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:34.000Z",
+          "modified_at": "2026-06-08T09:24:34Z",
           "price_date": "08.06.2026"
         }
       ],
@@ -12000,7 +11953,7 @@
           "file": "Wimbledon Bridge House - Price List - 29.06.26.pdf",
           "file_id": "1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P",
           "file_url": "https://drive.google.com/file/d/1Evog3KG8IPQZuLe5qKWA4D_J5CqnyT3P/view?usp=drivesdk",
-          "modified_at": "2026-07-03T01:32:09.000Z",
+          "modified_at": "2026-07-03T01:32:09Z",
           "price_date": "29.06.26"
         },
         {
@@ -12038,14 +11991,14 @@
           "file": "Cerulean Quarter - Price List - 06.08.2026.pdf",
           "file_id": "1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My",
           "file_url": "https://drive.google.com/file/d/1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:19.680Z",
+          "modified_at": "2026-08-08T08:23:19.68Z",
           "price_date": "06.08.2026"
         },
         {
           "file": "Cerulean Quarter - Price List - 22.10.2026.pdf",
           "file_id": "1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC",
           "file_url": "https://drive.google.com/file/d/1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10-22"
         }
       ],
@@ -12106,46 +12059,6 @@
       "old_files": [],
       "notes": []
     },
-    "E16 - Riverscape": {
-      "project": "E16 - Riverscape",
-      "city": "Outer London",
-      "developer": "Ballymore",
-      "cooperation_level": "开发商合作",
-      "cooperation_partner": "Ballymore",
-      "path": "UK 英国 / Outer London 外伦敦 / Newham 纽汉 / E16 - Riverscape",
-      "folder_id": "1Zy7vWaqkby8h35zC3nyrPMU2m4d1eW72",
-      "folder_url": "https://drive.google.com/drive/folders/1Zy7vWaqkby8h35zC3nyrPMU2m4d1eW72",
-      "price_folder_id": "1U-32C0xTra_UZTA_8yeYDt1NbcPxiUWH",
-      "price_folder_url": "https://drive.google.com/drive/folders/1U-32C0xTra_UZTA_8yeYDt1NbcPxiUWH",
-      "old_price_folder_id": "1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
-      "latest_files": [
-        {
-          "file": "The Riverscape Price List -October  2026.pdf",
-          "file_id": "18rz0dugu3Vaqdm6irK7778rKOqbYtrzd",
-          "file_url": "https://drive.google.com/file/d/18rz0dugu3Vaqdm6irK7778rKOqbYtrzd/view?usp=drivesdk",
-          "modified_at": "2026-10-06T21:04:12.213Z",
-          "price_date": "October  2026"
-        },
-        {
-          "file": "The Rivercape Price List - 25th August 2026.pdf",
-          "file_id": "1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J",
-          "file_url": "https://drive.google.com/file/d/1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J/view?usp=drivesdk",
-          "modified_at": "2026-08-26T03:38:54.625Z",
-          "price_date": "August 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Riverscape Price List - Summer Fete 2026.pdf",
-          "file_id": "1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i",
-          "file_url": "https://drive.google.com/file/d/1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i/view?usp=drivesdk",
-          "modified_at": "2026-06-27T07:13:55.285Z",
-          "price_date": "Fete 2026"
-        }
-      ],
-      "notes": []
-    },
     "E3 - Oxbow": {
       "project": "E3 - Oxbow",
       "city": "Outer London",
@@ -12164,7 +12077,7 @@
           "file": "Kantha Quarter pricelist May 2026.pdf",
           "file_id": "1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5",
           "file_url": "https://drive.google.com/file/d/1h7GKE8stL6f-BSmAT9SxcwbxbiJxQFc5/view?usp=drivesdk",
-          "modified_at": "2026-06-04T06:32:16.000Z",
+          "modified_at": "2026-06-04T06:32:16Z",
           "price_date": "May 2026"
         }
       ],
@@ -12312,21 +12225,21 @@
           "file": "The Redwood Price List 06.6.26.pdf",
           "file_id": "1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY",
           "file_url": "https://drive.google.com/file/d/1uP-4U_8B-PSHt-M0GcXKL_pA6o5WN5sY/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
+          "modified_at": "2026-06-08T09:24:40Z",
           "price_date": "06.6.26"
         },
         {
           "file": "Skyline Residence Price List 06.06.2026.pdf",
           "file_id": "1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv",
           "file_url": "https://drive.google.com/file/d/1qr-BDiz54Kwv1nvX31e30OR-SIqYsTrv/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:40.000Z",
+          "modified_at": "2026-06-08T09:24:40Z",
           "price_date": "06.06.2026"
         },
         {
           "file": "Penthouse Collection Price List 06.06.2026.pdf",
           "file_id": "16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM",
           "file_url": "https://drive.google.com/file/d/16V8n9FT4rGKDnHbUjPiTFCLMKQFch_AM/view?usp=drivesdk",
-          "modified_at": "2026-06-08T09:24:39.000Z",
+          "modified_at": "2026-06-08T09:24:39Z",
           "price_date": "06.06.2026"
         },
         {
@@ -12460,7 +12373,7 @@
           "file": "Twickenham Green Price List 16.06.26.pdf",
           "file_id": "12Y64dLI-1sIflt7b89PVNLN49g7P33dM",
           "file_url": "https://drive.google.com/file/d/12Y64dLI-1sIflt7b89PVNLN49g7P33dM/view?usp=drivesdk",
-          "modified_at": "2026-06-22T05:47:08.840Z",
+          "modified_at": "2026-06-22T05:47:08.84Z",
           "price_date": "16.06.26"
         }
       ],
@@ -12512,28 +12425,28 @@
           "file": "Rossdale Court Richmond Square - 1 Bedroom Price List (July 2026).pdf",
           "file_id": "1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf",
           "file_url": "https://drive.google.com/file/d/1ZI6YFlwXQP_wv0k5az68JVPvzBEUfSGf/view?usp=drivesdk",
-          "modified_at": "2026-08-08T08:23:42.930Z",
+          "modified_at": "2026-08-08T08:23:42.93Z",
           "price_date": "July 2026"
         },
         {
           "file": "Rossdale Court Richmond Square - 1 Bedroom Price List (Oct 2026).pdf",
           "file_id": "1fshOrwk3JP-u2ieQ-uOJa4XXC5naUQUf",
           "file_url": "https://drive.google.com/file/d/1fshOrwk3JP-u2ieQ-uOJa4XXC5naUQUf/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         },
         {
           "file": "Rossdale Court Richmond Square - 2 3 Bedroom Price List (Oct 2026).pdf",
           "file_id": "1IquWFZ5GswnxeZ5Ta4QYIuak6-BoBBQw",
           "file_url": "https://drive.google.com/file/d/1IquWFZ5GswnxeZ5Ta4QYIuak6-BoBBQw/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         },
         {
           "file": "Richmond Square Combined Price List October 2026.pdf",
           "file_id": "1hkaX5N35rWRhVhK4NRJLIhCJT3jOlRSW",
           "file_url": "https://drive.google.com/file/d/1hkaX5N35rWRhVhK4NRJLIhCJT3jOlRSW/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
+          "modified_at": "2026-10-30T10:33:03+08:00",
           "price_date": "2026-10"
         }
       ],
@@ -12624,7 +12537,7 @@
           "file": "CN Sutton Garden Square Customer Price List 26.07.26.pdf",
           "file_id": "1YWeNFR4SCKeP62R-5J1WCmUr-80vhtxJ",
           "file_url": "https://drive.google.com/file/d/1YWeNFR4SCKeP62R-5J1WCmUr-80vhtxJ/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:16:52.920Z",
+          "modified_at": "2026-07-28T02:16:52.92Z",
           "price_date": "26.07.26"
         },
         {
@@ -12666,7 +12579,7 @@
           "file": "2026-05-28_Sutton Garden Square Exclusive Preview Price List 24.05.26.pdf",
           "file_id": "19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK",
           "file_url": "https://drive.google.com/file/d/19BQ8yNoNbg2RFU1hR_s234pCSxXk_iYK/view?usp=drivesdk",
-          "modified_at": "2026-05-28T03:54:27.830Z",
+          "modified_at": "2026-05-28T03:54:27.83Z",
           "price_date": "26-05-28"
         },
         {
@@ -12732,8 +12645,117 @@
         }
       ],
       "notes": []
+    },
+    "E14 - Goodluck Hope": {
+      "project": "E14 - Goodluck Hope",
+      "city": "Inner London",
+      "developer": "Ballymore",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Ballymore",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - Goodluck Hope",
+      "folder_id": "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
+      "folder_url": "https://drive.google.com/drive/folders/1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
+      "price_folder_id": "1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
+      "price_folder_url": "https://drive.google.com/drive/folders/1mbvtBuMA4GwAQ6FFyGHzjWbGZsLhzBMO",
+      "old_price_folder_id": "14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
+      "latest_files": [
+        {
+          "file": "Goodluck Hope Price List November 2026.pdf",
+          "file_id": "12yf-u3wTZXOtDUntJOleueX7dhW2XcdF",
+          "file_url": "https://drive.google.com/file/d/12yf-u3wTZXOtDUntJOleueX7dhW2XcdF/view?usp=drivesdk",
+          "modified_at": "2026-11-03T11:03:31.553Z",
+          "price_date": "November 2026"
+        },
+        {
+          "file": "Goodluck Hope Price List 16th July 2026.pdf",
+          "file_id": "1VAsqQtYp6bqovkO5atpnueutggwqnItG",
+          "file_url": "https://drive.google.com/file/d/1VAsqQtYp6bqovkO5atpnueutggwqnItG/view?usp=drivesdk",
+          "modified_at": "2026-07-18T01:48:43.555Z",
+          "price_date": "July 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Goodluck Hope Price List October 2026.pdf",
+          "file_id": "1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK",
+          "file_url": "https://drive.google.com/file/d/1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:08.063Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Goodluck Hope Price List 30th June 2026.pdf",
+          "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
+          "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
+          "modified_at": "2026-07-01T09:44:09Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Goodluck Hope Price List 12th June 2026.pdf",
+          "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
+          "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
+          "modified_at": "2026-06-26T03:31:36.949Z",
+          "price_date": "June 2026"
+        }
+      ],
+      "notes": []
+    },
+    "E16 - Riverscape": {
+      "project": "E16 - Riverscape",
+      "city": "Outer London",
+      "developer": "Ballymore",
+      "cooperation_level": "开发商合作",
+      "cooperation_partner": "Ballymore",
+      "path": "UK 英国 / Outer London 外伦敦 / Newham 纽汉 / E16 - Riverscape",
+      "folder_id": "1Zy7vWaqkby8h35zC3nyrPMU2m4d1eW72",
+      "folder_url": "https://drive.google.com/drive/folders/1Zy7vWaqkby8h35zC3nyrPMU2m4d1eW72",
+      "price_folder_id": "1U-32C0xTra_UZTA_8yeYDt1NbcPxiUWH",
+      "price_folder_url": "https://drive.google.com/drive/folders/1U-32C0xTra_UZTA_8yeYDt1NbcPxiUWH",
+      "old_price_folder_id": "1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
+      "latest_files": [
+        {
+          "file": "Riverscape Price List November 2026.pdf",
+          "file_id": "1KsIXVqgQsruHX9lzjLiyZ2AS840JFD3D",
+          "file_url": "https://drive.google.com/file/d/1KsIXVqgQsruHX9lzjLiyZ2AS840JFD3D/view?usp=drivesdk",
+          "modified_at": "2026-11-03T11:03:28.847Z",
+          "price_date": "November 2026"
+        },
+        {
+          "file": "The Rivercape Price List - 25th August 2026.pdf",
+          "file_id": "1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J",
+          "file_url": "https://drive.google.com/file/d/1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J/view?usp=drivesdk",
+          "modified_at": "2026-08-26T03:38:54.625Z",
+          "price_date": "August 2026"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "The Riverscape Price List -October  2026.pdf",
+          "file_id": "18rz0dugu3Vaqdm6irK7778rKOqbYtrzd",
+          "file_url": "https://drive.google.com/file/d/18rz0dugu3Vaqdm6irK7778rKOqbYtrzd/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:12.213Z",
+          "price_date": "October  2026"
+        },
+        {
+          "file": "Riverscape Price List - Summer Fete 2026.pdf",
+          "file_id": "1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i",
+          "file_url": "https://drive.google.com/file/d/1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i/view?usp=drivesdk",
+          "modified_at": "2026-06-27T07:13:55.285Z",
+          "price_date": "Fete 2026"
+        }
+      ],
+      "notes": []
     }
   },
   "errors": [],
-  "published_at": "2026-10-30T15:19:32"
+  "targeted_project_ids": [
+    "1VyGVNw7Zt40hSodJVBxhVsiY68XrKvRJ",
+    "1Zy7vWaqkby8h35zC3nyrPMU2m4d1eW72"
+  ],
+  "targeted_projects": [
+    "E14 - Goodluck Hope",
+    "E16 - Riverscape"
+  ],
+  "published_at": "2026-11-03T19:08:15"
 }
