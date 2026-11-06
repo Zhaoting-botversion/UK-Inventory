@@ -1162,6 +1162,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1vW7qNuufxu_IS9kwuFV5IxlHJDXBECl5",
       "latest_files": [
         {
+          "file": "The Penthouses at One Park Drive 13.10.2026.pdf",
+          "file_id": "1FrTYCgYHj7q1HF3-_p38bhC_084Y-xIc",
+          "file_url": "https://drive.google.com/file/d/1FrTYCgYHj7q1HF3-_p38bhC_084Y-xIc/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:51.199Z",
+          "price_date": "2026-10-13"
+        },
+        {
           "file": "One Park Drive - One Park Drive - The Penthouses Price List.pdf",
           "file_id": "1xncSyJq_aH-gF9gVkY1fuxS_RJ0jV7FQ",
           "file_url": "https://drive.google.com/file/d/1xncSyJq_aH-gF9gVkY1fuxS_RJ0jV7FQ/view?usp=drivesdk",
@@ -1170,7 +1177,9 @@
         }
       ],
       "old_files": [],
-      "notes": []
+      "notes": [
+        "2026-11-06：新价单已更新，部分旧文件因 Google 应用写入权限不足保留原处，归档待补权限。"
+      ]
     },
     "E14 - One Thames Quay": {
       "project": "E14 - One Thames Quay",
@@ -2071,6 +2080,20 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1_MYXD-9RF-qvQRZqLwBSYqq46ZG4G_TE",
       "latest_files": [
         {
+          "file": "Angel Village - Phase 2 Price List October 2026 - LAUNCH.pdf",
+          "file_id": "1Es3rOufCRVfvW_su2CZ6wpoCuJu2Ghf7",
+          "file_url": "https://drive.google.com/file/d/1Es3rOufCRVfvW_su2CZ6wpoCuJu2Ghf7/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:44:43.845Z",
+          "price_date": "2026-10-01"
+        },
+        {
+          "file": "Angel Village - Phase 1 Price List  October 2026.pdf",
+          "file_id": "1aKH2U-9pcB3xueaXpZD-5blBxEggWsoX",
+          "file_url": "https://drive.google.com/file/d/1aKH2U-9pcB3xueaXpZD-5blBxEggWsoX/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:44:33.552Z",
+          "price_date": "2026-10-01"
+        },
+        {
           "file": "Angel Village - Savills Price List - Sept 2026.pdf",
           "file_id": "1QBE7mTuKckx3Jo2pSQwjS_2CrE56Sp0S",
           "file_url": "https://drive.google.com/file/d/1QBE7mTuKckx3Jo2pSQwjS_2CrE56Sp0S/view?usp=drivesdk",
@@ -2122,7 +2145,20 @@
           "price_date": "May 2026"
         }
       ],
-      "notes": []
+      "notes": [
+        "Savills 2026-11-06：预计交付起始时间更新为 Q1 2027，各房源按分期列示至 Q4 2027；旧项目名称保留用于历史关联。",
+        "2026-11-06：新价单已更新，部分旧文件因 Google 应用写入权限不足保留原处，归档待补权限。",
+        "最新楼书：The Concession at Angel Village_Brochure.pdf，已保存至项目网盘楼盘资料目录。"
+      ],
+      "brochure_files": [
+        {
+          "file": "The Concession at Angel Village_Brochure.pdf",
+          "file_id": "1UN1uyeccjoEClRn22sMz4x9QG_iabHUH",
+          "file_url": "https://drive.google.com/file/d/1UN1uyeccjoEClRn22sMz4x9QG_iabHUH/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:43.885Z"
+        }
+      ],
+      "estimated_completion": "From Q1 2027 (Savills October 2026 phase price lists)"
     },
     "EC2 - One Crown Place": {
       "project": "EC2 - One Crown Place",
@@ -4840,11 +4876,11 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1PJKuJXTy2TElvvTAHIWiDjdtKAUuTOU4",
       "latest_files": [
         {
-          "file": "2026-10-24 - Development 1 - Postmark - Price List.pdf",
-          "file_id": "154IAxbOc58s1zz1tJQZrQeqPN7Ka2Ybu",
-          "file_url": "https://drive.google.com/file/d/154IAxbOc58s1zz1tJQZrQeqPN7Ka2Ybu/view?usp=drivesdk",
-          "modified_at": "2026-10-30T06:00:00+00:00",
-          "price_date": "2026-10-24"
+          "file": "2026-11-1 - Development 1 - Postmark - Price List.pdf",
+          "file_id": "1Q65hc4gEOWvWgWMxyol0USCFd24nWAPs",
+          "file_url": "https://drive.google.com/file/d/1Q65hc4gEOWvWgWMxyol0USCFd24nWAPs/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:44:23.513Z",
+          "price_date": "2026-11-01"
         },
         {
           "file": "2026-09-07- Development 1 - Postmark - Price List.pdf",
@@ -4910,6 +4946,13 @@
           "file_url": "https://drive.google.com/file/d/1gtOKQKLGS_1d-XQFUH7lyNWAEqEHf_Ny/view?usp=drivesdk",
           "modified_at": "2026-06-06T10:14:23.129Z",
           "price_date": ""
+        },
+        {
+          "file": "2026-10-24 - Development 1 - Postmark - Price List.pdf",
+          "file_id": "154IAxbOc58s1zz1tJQZrQeqPN7Ka2Ybu",
+          "file_url": "https://drive.google.com/file/d/154IAxbOc58s1zz1tJQZrQeqPN7Ka2Ybu/view?usp=drivesdk",
+          "modified_at": "2026-10-30T06:00:00+00:00",
+          "price_date": "2026-10-24"
         }
       ],
       "notes": []
@@ -6587,6 +6630,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1Z6wI4NPw-Fbel2o6fTf0fNBL4HjYdDcs",
       "latest_files": [
         {
+          "file": "Riverside Quarter Price list 03.11.2026.pdf",
+          "file_id": "1BxWIOsA-gPQO-Ze53YQ10shkiCEok7M9",
+          "file_url": "https://drive.google.com/file/d/1BxWIOsA-gPQO-Ze53YQ10shkiCEok7M9/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:32.381Z",
+          "price_date": "2026-11-03"
+        },
+        {
           "file": "Riverside Quarter Price List - 3.9.26.pdf",
           "file_id": "1T6SO8T-TYOwWH3gy9tipupRuzLgF4X8C",
           "file_url": "https://drive.google.com/file/d/1T6SO8T-TYOwWH3gy9tipupRuzLgF4X8C/view?usp=drivesdk",
@@ -6631,7 +6681,9 @@
           "price_date": "7.5.26"
         }
       ],
-      "notes": []
+      "notes": [
+        "2026-11-06：新价单已更新，部分旧文件因 Google 应用写入权限不足保留原处，归档待补权限。"
+      ]
     },
     "SW1P - Chimes": {
       "project": "SW1P - Chimes",
@@ -7483,6 +7535,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/16fHbJ77U3CHXkBidmlflkN6e0jP0Z8UR",
       "latest_files": [
         {
+          "file": "Auria_Price List_Oct 2026.pdf",
+          "file_id": "1Rhw_N6RyY8VnmCjsnXWkdj2k3foGCzuA",
+          "file_url": "https://drive.google.com/file/d/1Rhw_N6RyY8VnmCjsnXWkdj2k3foGCzuA/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:44:58.076Z",
+          "price_date": "2026-10-01"
+        },
+        {
           "file": "Auria_Price List_Final.pdf",
           "file_id": "1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F",
           "file_url": "https://drive.google.com/file/d/1CPopGrtEwMtWG4Qr0TUJ2sciksLKQN6F/view?usp=drivesdk",
@@ -7506,7 +7565,9 @@
           "price_date": "11 May 2026"
         }
       ],
-      "notes": []
+      "notes": [
+        "2026-11-06：新价单已更新，部分旧文件因 Google 应用写入权限不足保留原处，归档待补权限。"
+      ]
     },
     "W11 - The Pembridge": {
       "project": "W11 - The Pembridge",
@@ -7548,6 +7609,20 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1EGHNTyzeAbXwxTSPKBz-6GwVD3vpPZN_",
       "latest_files": [
         {
+          "file": "TVC Scenery House Price List November 2026.pdf",
+          "file_id": "1oeBQa2QpUs8fNDbO_0eaeCSpusjdlphH",
+          "file_url": "https://drive.google.com/file/d/1oeBQa2QpUs8fNDbO_0eaeCSpusjdlphH/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:46:08.635Z",
+          "price_date": "2026-11-01"
+        },
+        {
+          "file": "TVC - The Ariel Price List November 2026 .pdf",
+          "file_id": "1MN-AJXy-icS34HD-coUKdBB1MK6ro3Rq",
+          "file_url": "https://drive.google.com/file/d/1MN-AJXy-icS34HD-coUKdBB1MK6ro3Rq/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:46:00.737Z",
+          "price_date": "2026-11-01"
+        },
+        {
           "file": "TVC Scenery House Price List August 2026.pdf",
           "file_id": "1MmCT0M5Z_EJyjzAUN33j9ACc5Nak0w-u",
           "file_url": "https://drive.google.com/file/d/1MmCT0M5Z_EJyjzAUN33j9ACc5Nak0w-u/view?usp=drivesdk",
@@ -7574,20 +7649,6 @@
           "file_url": "https://drive.google.com/file/d/1C1d4htZPRM0m9G0qwm_Jnb9Wqum9fvBh/view?usp=drivesdk",
           "modified_at": "2026-08-08T08:24:00.204Z",
           "price_date": "29.07.26"
-        },
-        {
-          "file": "TVC - The Ariel Price List October 2026 (1).pdf",
-          "file_id": "1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh",
-          "file_url": "https://drive.google.com/file/d/1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
-          "price_date": "2026-10"
-        },
-        {
-          "file": "TVC Scenery House Price List October 2026(1).pdf",
-          "file_id": "1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa",
-          "file_url": "https://drive.google.com/file/d/1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
-          "price_date": "2026-10"
         }
       ],
       "old_files": [
@@ -7618,9 +7679,25 @@
           "file_url": "https://drive.google.com/file/d/1rJ0RmqXXS17AN-v7g4Kz4wCfcsbqHfJJ/view?usp=drivesdk",
           "modified_at": "2026-06-05T08:37:16.872Z",
           "price_date": "12.05.2026"
+        },
+        {
+          "file": "TVC - The Ariel Price List October 2026 (1).pdf",
+          "file_id": "1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh",
+          "file_url": "https://drive.google.com/file/d/1WfeA4EbFqmAHMQzTLHXxgTJQO0AeYCEh/view?usp=drivesdk",
+          "modified_at": "2026-10-30T02:33:03+00:00",
+          "price_date": "2026-10"
+        },
+        {
+          "file": "TVC Scenery House Price List October 2026(1).pdf",
+          "file_id": "1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa",
+          "file_url": "https://drive.google.com/file/d/1JP5BF1d7ZSDiEY0RA77EC0J1Nq9ENnWa/view?usp=drivesdk",
+          "modified_at": "2026-10-30T02:33:03+00:00",
+          "price_date": "2026-10"
         }
       ],
-      "notes": []
+      "notes": [
+        "Savills November 表格：9WC.209 重复行保留历史已验证的一房身份；8WC.307→9WC.307 房号变化按原件记录，尚不能认定为成交。"
+      ]
     },
     "W12 - White City Living": {
       "project": "W12 - White City Living",
@@ -10752,6 +10829,20 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1WYLxfk9FOEsEOIjI5oBOXQXncqWLeNWd",
       "latest_files": [
         {
+          "file": "Delamarre Pricelist 27.10.26.pdf",
+          "file_id": "1OsTO0yeB-q0B2hZnm2PWc1pNvjrBnwyB",
+          "file_url": "https://drive.google.com/file/d/1OsTO0yeB-q0B2hZnm2PWc1pNvjrBnwyB/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:13.992Z",
+          "price_date": "2026-10-27"
+        },
+        {
+          "file": "Ashbee Price list 27.10.2026.pdf",
+          "file_id": "1EkmCUUDVxpD9PrlSwUX0rPQCeVi2gu4S",
+          "file_url": "https://drive.google.com/file/d/1EkmCUUDVxpD9PrlSwUX0rPQCeVi2gu4S/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:44:51.070Z",
+          "price_date": "2026-10-27"
+        },
+        {
           "file": "Delamarre Pricelist 02.09.26.pdf",
           "file_id": "1hPWiIq8nKCAiO_2BoHgcSs8H2rhJNYEe",
           "file_url": "https://drive.google.com/file/d/1hPWiIq8nKCAiO_2BoHgcSs8H2rhJNYEe/view?usp=drivesdk",
@@ -10824,7 +10915,9 @@
           "price_date": "Pricelist 2704"
         }
       ],
-      "notes": []
+      "notes": [
+        "2026-11-06：新价单已更新，部分旧文件因 Google 应用写入权限不足保留原处，归档待补权限。"
+      ]
     },
     "NW6 - The Clay Yard": {
       "project": "NW6 - The Clay Yard",
@@ -12098,6 +12191,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1zvQTaZz9BHeyIfp_eH6SC-Qc84nzGDhr",
       "latest_files": [
         {
+          "file": "Cerulean Quarter - Price List - 05.11.2026.pdf",
+          "file_id": "1SoF5JCNM3IfScIFH2qbeke1haccIuy_2",
+          "file_url": "https://drive.google.com/file/d/1SoF5JCNM3IfScIFH2qbeke1haccIuy_2/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:06.919Z",
+          "price_date": "2026-11-05"
+        },
+        {
           "file": "Cerulean Quarter - Price List - 03.09.2026.pdf",
           "file_id": "1XGdwIseCVT9ufZD8jnXitHzj23ujBaBH",
           "file_url": "https://drive.google.com/file/d/1XGdwIseCVT9ufZD8jnXitHzj23ujBaBH/view?usp=drivesdk",
@@ -12110,13 +12210,6 @@
           "file_url": "https://drive.google.com/file/d/1J7ZzPyndhgP-ZPQlm4njHjTVHv_UA1My/view?usp=drivesdk",
           "modified_at": "2026-08-08T08:23:19.680Z",
           "price_date": "06.08.2026"
-        },
-        {
-          "file": "Cerulean Quarter - Price List - 22.10.2026.pdf",
-          "file_id": "1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC",
-          "file_url": "https://drive.google.com/file/d/1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC/view?usp=drivesdk",
-          "modified_at": "2026-10-30T02:33:03+00:00",
-          "price_date": "2026-10-22"
         }
       ],
       "old_files": [
@@ -12140,6 +12233,13 @@
           "file_url": "https://drive.google.com/file/d/1jjPTHCLbDpd4VbyjpjaSV9xN5-2iiTGI/view?usp=drivesdk",
           "modified_at": "2026-06-05T10:45:45.376Z",
           "price_date": "02.06.2026"
+        },
+        {
+          "file": "Cerulean Quarter - Price List - 22.10.2026.pdf",
+          "file_id": "1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC",
+          "file_url": "https://drive.google.com/file/d/1Z2rt0ibALchq19YZLHKBStQMWdmSGpIC/view?usp=drivesdk",
+          "modified_at": "2026-10-30T02:33:03+00:00",
+          "price_date": "2026-10-22"
         }
       ],
       "notes": []
@@ -12630,7 +12730,9 @@
           "price_date": "11-05-26"
         }
       ],
-      "notes": []
+      "notes": [
+        "Savills 2026-11-06 核对：November 两份价单与现有 October PDF 的 SHA-256 完全一致，不重复上传或生成新版本。"
+      ]
     },
     "SM1 - Sutton Garden Square": {
       "project": "SM1 - Sutton Garden Square",
@@ -12809,8 +12911,38 @@
         }
       ],
       "notes": []
+    },
+    "SW1 - One Vincent Square": {
+      "project": "SW1 - One Vincent Square",
+      "city": "London",
+      "developer": "未分类",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / London 伦敦 / Inner London 内伦敦 / Super Prime London 顶豪 / SW1 - One Vincent Square",
+      "folder_id": "15UjQ9dVsA0SRSAx_XLIKR3ApoF3xzoER",
+      "folder_url": "https://drive.google.com/drive/folders/15UjQ9dVsA0SRSAx_XLIKR3ApoF3xzoER",
+      "price_folder_id": "1A0wQHUit3t8TLn6syJaVEbiYc2Xhutsm",
+      "price_folder_url": "https://drive.google.com/drive/folders/1A0wQHUit3t8TLn6syJaVEbiYc2Xhutsm",
+      "old_price_folder_id": "1Sys7qukD4Uf982tYqvG1f7_LJqs8bCpT",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Sys7qukD4Uf982tYqvG1f7_LJqs8bCpT",
+      "brochure_folder_id": "1BAHwGgWKloFCRPjjylS_MRkoJAE_JTcg",
+      "brochure_folder_url": "https://drive.google.com/drive/folders/1BAHwGgWKloFCRPjjylS_MRkoJAE_JTcg",
+      "latest_files": [],
+      "old_files": [],
+      "notes": [
+        "Savills 2026-11-06：新增项目楼书；当前未提供独立价单。",
+        "最新楼书：One_Vincent_Square_Brochure.pdf，已保存至项目网盘楼盘资料目录。"
+      ],
+      "brochure_files": [
+        {
+          "file": "One_Vincent_Square_Brochure.pdf",
+          "file_id": "1sX2TPn4XPlZK7ZtnrfVxYpla6DNF3p4K",
+          "file_url": "https://drive.google.com/file/d/1sX2TPn4XPlZK7ZtnrfVxYpla6DNF3p4K/view?usp=drivesdk",
+          "modified_at": "2026-11-06T10:45:23.673Z"
+        }
+      ]
     }
   },
   "errors": [],
-  "published_at": "2026-11-06T14:44:23"
+  "published_at": "2026-11-06T18:50:54"
 }
