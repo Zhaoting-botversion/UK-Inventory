@@ -7391,9 +7391,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1_Bw8HAtZEB1NEcC2ExnsnyRyusIiNdTd",
       "price_folder_id": "1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
       "price_folder_url": "https://drive.google.com/drive/folders/1HPLXBHCpJJDXpAP91n8xfMpFDO_7FZec",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1_bisYgK9XTPk5F0j3OSCJsCKQXS0ZA7c",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1_bisYgK9XTPk5F0j3OSCJsCKQXS0ZA7c",
       "latest_files": [
+        {
+          "file": "RPT Price list template 03112026.pdf",
+          "file_id": "1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB",
+          "file_url": "https://drive.google.com/file/d/1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB/view?usp=drivesdk",
+          "modified_at": "2026-11-07T04:12:03.470Z",
+          "price_date": "2026-11-03"
+        }
+      ],
+      "old_files": [
         {
           "file": "RPT Price list 04082026.pdf",
           "file_id": "1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD",
@@ -7402,10 +7411,7 @@
           "price_date": "list 0408"
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "SW8 - The Newton": {
       "project": "SW8 - The Newton",
@@ -12944,5 +12950,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-06T18:50:54"
+  "published_at": "2026-11-07T12:20:50"
 }
