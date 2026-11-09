@@ -12947,8 +12947,38 @@
           "modified_at": "2026-11-06T10:45:23.673Z"
         }
       ]
+    },
+    "B1 - Edition Birmingham": {
+      "project": "B1 - Edition Birmingham",
+      "city": "Birmingham",
+      "developer": "未记录",
+      "cooperation_level": "未记录",
+      "cooperation_partner": "未记录",
+      "path": "UK 英国 / Birmingham 伯明翰 / B1 - Edition Birmingham",
+      "folder_id": "1iFO5sxARt4Kdve8FU8Q8ieEKLyv7UY6E",
+      "folder_url": "https://drive.google.com/drive/folders/1iFO5sxARt4Kdve8FU8Q8ieEKLyv7UY6E",
+      "price_folder_id": "1Xt04mOBfNPj5fb3vnUxXFBTlfYW0sfqS",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Xt04mOBfNPj5fb3vnUxXFBTlfYW0sfqS",
+      "old_price_folder_id": "1A18fm6JG8PYA4YXFtnxmxOYsS9y186CI",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1A18fm6JG8PYA4YXFtnxmxOYsS9y186CI",
+      "materials_folder_id": "1RLDvGw0J1z84HWKT4no1LPEd5OIPSMi9",
+      "video_folder_id": "1Nupi3cJ1nmKpusviqV46I1HlbKYityKh",
+      "photo_folder_id": "1f9qolgVRToqaTgJYDngqwiBb6PHkZuSw",
+      "latest_files": [
+        {
+          "file": "11.06 Edition Birmingham Pricelist.pdf",
+          "file_id": "11N6PE_GT5upKsmpPp2nghALkAZiT-sE8",
+          "file_url": "https://drive.google.com/file/d/11N6PE_GT5upKsmpPp2nghALkAZiT-sE8/view?usp=drivesdk",
+          "modified_at": "2026-11-09T03:27:45.059Z",
+          "price_date": "2026-11-06"
+        }
+      ],
+      "old_files": [],
+      "notes": [
+        "Developer is not identified in the verified price-list source."
+      ]
     }
   },
   "errors": [],
-  "published_at": "2026-11-07T12:20:50"
+  "published_at": "2026-11-09T11:40:03"
 }
