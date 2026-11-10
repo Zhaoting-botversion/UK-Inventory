@@ -1580,11 +1580,11 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1UC4AKCtfJ-9wpgVCa1_LAcVnEvnai3bF",
       "latest_files": [
         {
-          "file": "Bow Green-Ready to move in-Core B Pricelist 19.10.26.pdf",
-          "file_id": "1mUGJYS8pUSJxxvE7vOdrszN1kPFCrShX",
-          "file_url": "https://drive.google.com/file/d/1mUGJYS8pUSJxxvE7vOdrszN1kPFCrShX/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:37:51.424Z",
-          "price_date": "19.10.26"
+          "file": "Bow Green-Ready to Move in-Core B Pricelist 06.11.26.pdf",
+          "file_id": "1G68Twjoq26oQQK-QLna_uIAUlE5Hw45V",
+          "file_url": "https://drive.google.com/file/d/1G68Twjoq26oQQK-QLna_uIAUlE5Hw45V/view?usp=drivesdk",
+          "modified_at": "2026-11-10T06:41:24.491Z",
+          "price_date": "2026-11-06"
         },
         {
           "file": "BG Bow View Pricelist 19.10.26.pdf",
@@ -1762,6 +1762,13 @@
           "file_url": "https://drive.google.com/file/d/1yp_7bqwh4qhpu-mIHenCktKO51wrH0FM/view?usp=drivesdk",
           "modified_at": "2026-06-27T09:50:43.000Z",
           "price_date": "15.06.26"
+        },
+        {
+          "file": "Bow Green-Ready to move in-Core B Pricelist 19.10.26.pdf",
+          "file_id": "1mUGJYS8pUSJxxvE7vOdrszN1kPFCrShX",
+          "file_url": "https://drive.google.com/file/d/1mUGJYS8pUSJxxvE7vOdrszN1kPFCrShX/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:37:51.424Z",
+          "price_date": "19.10.26"
         }
       ],
       "notes": []
@@ -7015,18 +7022,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1znxe0Q7J-C8_ln-QqgwEp9tJ9r6f1SjI",
       "latest_files": [
         {
-          "file": "OKRP- 1 & 2 Bed - Price List (Hyperlinked) - 25.10.2026.pdf",
-          "file_id": "1Ep7DTBTTh4YSyxc4dqPxSBZ-1GJqfXbe",
-          "file_url": "https://drive.google.com/file/d/1Ep7DTBTTh4YSyxc4dqPxSBZ-1GJqfXbe/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:41:09.836Z",
-          "price_date": "25.10.2026"
+          "file": "OKRP- 1 & 2 Bed - Price List (Hyperlinked) - 08.11.2026.pdf",
+          "file_id": "1CmMyrEtzFVereAJUpDqw1ywbEOSKu7O8",
+          "file_url": "https://drive.google.com/file/d/1CmMyrEtzFVereAJUpDqw1ywbEOSKu7O8/view?usp=drivesdk",
+          "modified_at": "2026-11-10T06:41:39.272Z",
+          "price_date": "2026-11-08"
         },
         {
-          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  25.10.2026.pdf",
-          "file_id": "1mehTQ_4VD_Zle4lnYT6RO2CdTEmEwNqE",
-          "file_url": "https://drive.google.com/file/d/1mehTQ_4VD_Zle4lnYT6RO2CdTEmEwNqE/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:41:03.575Z",
-          "price_date": "25.10.2026"
+          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  08.11.2026.pdf",
+          "file_id": "1TnO-boK17SL8_aPTKot1mSBrs3OJ12aA",
+          "file_url": "https://drive.google.com/file/d/1TnO-boK17SL8_aPTKot1mSBrs3OJ12aA/view?usp=drivesdk",
+          "modified_at": "2026-11-10T06:41:32.814Z",
+          "price_date": "2026-11-08"
         },
         {
           "file": "KRP - The Charlton - Price List (Hyperlinked) - 25.10.2026.pdf",
@@ -7309,6 +7316,20 @@
           "file_url": "https://drive.google.com/file/d/113oGHbYM7-5FfdUQeBEAeJfl3r-tml3q/view?usp=drivesdk",
           "modified_at": "2026-05-28T01:56:03.922Z",
           "price_date": "26-05-28"
+        },
+        {
+          "file": "OKRP - 3 Bed - Price List -(Hyperlinked)-  25.10.2026.pdf",
+          "file_id": "1mehTQ_4VD_Zle4lnYT6RO2CdTEmEwNqE",
+          "file_url": "https://drive.google.com/file/d/1mehTQ_4VD_Zle4lnYT6RO2CdTEmEwNqE/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:41:03.575Z",
+          "price_date": "25.10.2026"
+        },
+        {
+          "file": "OKRP- 1 & 2 Bed - Price List (Hyperlinked) - 25.10.2026.pdf",
+          "file_id": "1Ep7DTBTTh4YSyxc4dqPxSBZ-1GJqfXbe",
+          "file_url": "https://drive.google.com/file/d/1Ep7DTBTTh4YSyxc4dqPxSBZ-1GJqfXbe/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:41:09.836Z",
+          "price_date": "25.10.2026"
         }
       ],
       "notes": []
@@ -12980,5 +13001,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-09T11:40:03"
+  "published_at": "2026-11-10T14:43:50"
 }
