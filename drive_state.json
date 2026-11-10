@@ -6774,45 +6774,45 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/136-bO18PQXMiMrPdY1ZOF9yx46CVwHN0",
       "latest_files": [
         {
-          "file": "Powerhouse Pricelist 12th October 2026.pdf",
-          "file_id": "16v57B6jtXqbFYlxQdqsD988XCm3w69Pk",
-          "file_url": "https://drive.google.com/file/d/16v57B6jtXqbFYlxQdqsD988XCm3w69Pk/view?usp=drivesdk",
-          "modified_at": "2026-10-24T03:23:01.284Z",
-          "price_date": "October 2026"
+          "file": "Water Gardens Pricelist 9th November 2026.pdf",
+          "file_id": "157UsWSysVxjuQTEm03UCzZGWsoe_Qemf",
+          "file_url": "https://drive.google.com/file/d/157UsWSysVxjuQTEm03UCzZGWsoe_Qemf/view?usp=drivesdk",
+          "modified_at": "2026-11-10T09:24:08.081Z",
+          "price_date": "2026-11-09"
         },
         {
-          "file": "Powerhouse Penthouse Pricelist 12th October 2026.pdf",
-          "file_id": "12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv",
-          "file_url": "https://drive.google.com/file/d/12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv/view?usp=drivesdk",
-          "modified_at": "2026-10-24T03:22:51.277Z",
-          "price_date": "October 2026"
+          "file": "Tower West Pricelist 9th November 2026.pdf",
+          "file_id": "1L1Aqh8W_c4pyZhf7D02ZNvZDFnFAPYUO",
+          "file_url": "https://drive.google.com/file/d/1L1Aqh8W_c4pyZhf7D02ZNvZDFnFAPYUO/view?usp=drivesdk",
+          "modified_at": "2026-11-10T09:24:01.935Z",
+          "price_date": "2026-11-09"
         },
         {
-          "file": "Savills Tower East Price List 24th August 2026.pdf",
-          "file_id": "1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp",
-          "file_url": "https://drive.google.com/file/d/1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp/view?usp=drivesdk",
-          "modified_at": "2026-09-11T04:04:29.268Z",
-          "price_date": "August 2026"
+          "file": "Tower East  Pricelist 9th November 2026.pdf",
+          "file_id": "18_cVAfD-d1Pn2JAznOePMf2_sYw7b0CK",
+          "file_url": "https://drive.google.com/file/d/18_cVAfD-d1Pn2JAznOePMf2_sYw7b0CK/view?usp=drivesdk",
+          "modified_at": "2026-11-10T09:23:55.148Z",
+          "price_date": "2026-11-09"
+        },
+        {
+          "file": "Powerhouse Pricelist 9th November 2026.pdf",
+          "file_id": "1k7wgp7SncOZYf5WLp6gPs_0lFpkw_p7P",
+          "file_url": "https://drive.google.com/file/d/1k7wgp7SncOZYf5WLp6gPs_0lFpkw_p7P/view?usp=drivesdk",
+          "modified_at": "2026-11-10T09:24:27.412Z",
+          "price_date": "2026-11-09"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 9th November 2026.pdf",
+          "file_id": "185j3PfxxJOqXUgA34faEQ2nl32WhI6Nd",
+          "file_url": "https://drive.google.com/file/d/185j3PfxxJOqXUgA34faEQ2nl32WhI6Nd/view?usp=drivesdk",
+          "modified_at": "2026-11-10T09:23:32.649Z",
+          "price_date": "2026-11-09"
         },
         {
           "file": "Tower East  Pricelist 10th August 2026.pdf",
           "file_id": "1V3_I4735-bNR8REBdshZjnlr7Muq23_O",
           "file_url": "https://drive.google.com/file/d/1V3_I4735-bNR8REBdshZjnlr7Muq23_O/view?usp=drivesdk",
           "modified_at": "2026-08-11T02:26:09.971Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Water Gardens Pricelist 10th August 2026.pdf",
-          "file_id": "1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX",
-          "file_url": "https://drive.google.com/file/d/1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:57.082Z",
-          "price_date": "August 2026"
-        },
-        {
-          "file": "Tower West Pricelist 10th August 2026.pdf",
-          "file_id": "18bsfNEOys1XiueF7kqutrHRgD2oxgyyC",
-          "file_url": "https://drive.google.com/file/d/18bsfNEOys1XiueF7kqutrHRgD2oxgyyC/view?usp=drivesdk",
-          "modified_at": "2026-08-11T02:18:50.344Z",
           "price_date": "August 2026"
         }
       ],
@@ -6949,6 +6949,41 @@
           "file_url": "https://drive.google.com/file/d/1WFlrKAPlIJ8to_sadS5SWBOM0QyoPKy9/view?usp=drivesdk",
           "modified_at": "2026-06-05T10:47:18.178Z",
           "price_date": "June 2026"
+        },
+        {
+          "file": "Powerhouse Penthouse Pricelist 12th October 2026.pdf",
+          "file_id": "12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv",
+          "file_url": "https://drive.google.com/file/d/12n88-ioPI_6KmW1awKs5eHDqrQ4VzHlv/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:22:51.277Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Powerhouse Pricelist 12th October 2026.pdf",
+          "file_id": "16v57B6jtXqbFYlxQdqsD988XCm3w69Pk",
+          "file_url": "https://drive.google.com/file/d/16v57B6jtXqbFYlxQdqsD988XCm3w69Pk/view?usp=drivesdk",
+          "modified_at": "2026-10-24T03:23:01.284Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Savills Tower East Price List 24th August 2026.pdf",
+          "file_id": "1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp",
+          "file_url": "https://drive.google.com/file/d/1nS_Ht-vio8uz5wF-6CvvVLhIuPUCEurp/view?usp=drivesdk",
+          "modified_at": "2026-09-11T04:04:29.268Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Tower West Pricelist 10th August 2026.pdf",
+          "file_id": "18bsfNEOys1XiueF7kqutrHRgD2oxgyyC",
+          "file_url": "https://drive.google.com/file/d/18bsfNEOys1XiueF7kqutrHRgD2oxgyyC/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:50.344Z",
+          "price_date": "August 2026"
+        },
+        {
+          "file": "Water Gardens Pricelist 10th August 2026.pdf",
+          "file_id": "1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX",
+          "file_url": "https://drive.google.com/file/d/1d97J9iZlkUBwqm2XhT6xQOyDPBCuk0VX/view?usp=drivesdk",
+          "modified_at": "2026-08-11T02:18:57.082Z",
+          "price_date": "August 2026"
         }
       ],
       "notes": []
@@ -13043,5 +13078,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-10T14:53:40"
+  "published_at": "2026-11-10T17:26:26"
 }
