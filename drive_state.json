@@ -8576,18 +8576,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1MJAemaChe8PFS8omt58jVBSbb8eBKqR4",
       "latest_files": [
         {
-          "file": "11.06 Vita Living North Pricelist.pdf",
-          "file_id": "1Py_hWiicaeT9rZueKyQwOSqyCDiBTwcD",
-          "file_url": "https://drive.google.com/file/d/1Py_hWiicaeT9rZueKyQwOSqyCDiBTwcD/view?usp=drivesdk",
-          "modified_at": "2026-11-06T06:38:17.202Z",
-          "price_date": "2026-11-06"
+          "file": "2026.11.13 Vita Living North Pricelist.pdf",
+          "file_id": "1uifYlXW-9lzv2zvX2tfzE9zj0np9vYuO",
+          "file_url": "https://drive.google.com/file/d/1uifYlXW-9lzv2zvX2tfzE9zj0np9vYuO/view?usp=drivesdk",
+          "modified_at": "2026-11-13T02:47:43.559Z",
+          "price_date": "2026-11-13"
         },
         {
-          "file": "11.06 Vita living Circle Square Pricelist.pdf",
-          "file_id": "1XDRiin-k_eyaIYK9kfy3ZCF_tHRp2coV",
-          "file_url": "https://drive.google.com/file/d/1XDRiin-k_eyaIYK9kfy3ZCF_tHRp2coV/view?usp=drivesdk",
-          "modified_at": "2026-11-06T06:38:07.049Z",
-          "price_date": "2026-11-06"
+          "file": "2026.11.13 Vita Living Circle Square Pricelist.pdf",
+          "file_id": "1oCtzkiaK_dlXI40_VwvEC6kM54-R7kI2",
+          "file_url": "https://drive.google.com/file/d/1oCtzkiaK_dlXI40_VwvEC6kM54-R7kI2/view?usp=drivesdk",
+          "modified_at": "2026-11-13T02:47:34.533Z",
+          "price_date": "2026-11-13"
         },
         {
           "file": "07.27 Vita Living Circle Square Pricelist.pdf",
@@ -8653,6 +8653,20 @@
           "file_url": "https://drive.google.com/file/d/1Hc9br7u2wO-3qcHAT9ro3IRu8xa37mjo/view?usp=drivesdk",
           "modified_at": "2026-10-28T02:31:12.271Z",
           "price_date": ""
+        },
+        {
+          "file": "11.06 Vita living Circle Square Pricelist.pdf",
+          "file_id": "1XDRiin-k_eyaIYK9kfy3ZCF_tHRp2coV",
+          "file_url": "https://drive.google.com/file/d/1XDRiin-k_eyaIYK9kfy3ZCF_tHRp2coV/view?usp=drivesdk",
+          "modified_at": "2026-11-06T06:38:07.049Z",
+          "price_date": "2026-11-06"
+        },
+        {
+          "file": "11.06 Vita Living North Pricelist.pdf",
+          "file_id": "1Py_hWiicaeT9rZueKyQwOSqyCDiBTwcD",
+          "file_url": "https://drive.google.com/file/d/1Py_hWiicaeT9rZueKyQwOSqyCDiBTwcD/view?usp=drivesdk",
+          "modified_at": "2026-11-06T06:38:17.202Z",
+          "price_date": "2026-11-06"
         }
       ],
       "notes": []
@@ -13177,6 +13191,15 @@
       "photo_folder_id": "1f9qolgVRToqaTgJYDngqwiBb6PHkZuSw",
       "latest_files": [
         {
+          "file": "2026.11.13 Edition Birmingham Pricelist.pdf",
+          "file_id": "1UmGt5tWMV9YAQJAkuwzB9jzvRZgY0vkg",
+          "file_url": "https://drive.google.com/file/d/1UmGt5tWMV9YAQJAkuwzB9jzvRZgY0vkg/view?usp=drivesdk",
+          "modified_at": "2026-11-13T02:47:24.507Z",
+          "price_date": "2026-11-13"
+        }
+      ],
+      "old_files": [
+        {
           "file": "11.06 Edition Birmingham Pricelist.pdf",
           "file_id": "11N6PE_GT5upKsmpPp2nghALkAZiT-sE8",
           "file_url": "https://drive.google.com/file/d/11N6PE_GT5upKsmpPp2nghALkAZiT-sE8/view?usp=drivesdk",
@@ -13184,7 +13207,6 @@
           "price_date": "2026-11-06"
         }
       ],
-      "old_files": [],
       "notes": [
         "Developer is not identified in the verified price-list source."
       ]
@@ -13256,5 +13278,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-13T10:28:44"
+  "published_at": "2026-11-13T10:51:25"
 }
