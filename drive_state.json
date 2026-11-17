@@ -3014,13 +3014,6 @@
           "file_url": "https://drive.google.com/file/d/1FfcSaIjcyQFjWdXj70f0tskQgIj5mn_x/view?usp=drivesdk",
           "modified_at": "2026-08-18T02:34:17.402Z",
           "price_date": "15.08.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 05082026.pdf",
-          "file_id": "1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd",
-          "file_url": "https://drive.google.com/file/d/1QaUTqry37-Li86DBBr0ZZHUcULSCW5Vd/view?usp=drivesdk",
-          "modified_at": "2026-08-18T02:34:14.723Z",
-          "price_date": ""
         }
       ],
       "old_files": [
@@ -3109,13 +3102,6 @@
           "price_date": "26.07.2026"
         },
         {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 22072026.pdf",
-          "file_id": "1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd",
-          "file_url": "https://drive.google.com/file/d/1GKUjxdvU3oWJnYZXq06R716AZEX5bzrd/view?usp=drivesdk",
-          "modified_at": "2026-08-05T02:51:02.871Z",
-          "price_date": ""
-        },
-        {
           "file": "Oval Village - The Pinnacle Pricelist  - 02.08.2026.pdf",
           "file_id": "1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6",
           "file_url": "https://drive.google.com/file/d/1LeHVmnmLg_byRl6LIn4xmUyPQ8dpcEr6/view?usp=drivesdk",
@@ -3149,13 +3135,6 @@
           "file_url": "https://drive.google.com/file/d/1aBX7gJKCNGM1U_1EYoGTJxjw5_7oV2Oa/view?usp=drivesdk",
           "modified_at": "2026-07-21T03:55:32.504Z",
           "price_date": "19.07.2026"
-        },
-        {
-          "file": "Oval Village The Halo - Master price list (Internal use)__ 07072026.pdf",
-          "file_id": "13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF",
-          "file_url": "https://drive.google.com/file/d/13TYNDNCwKT4VPiMlIXHf8PiLP4LBe2kF/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:55:29.198Z",
-          "price_date": ""
         },
         {
           "file": "Oval Village - The Pinnacle Pricelist  - 19.07.2026.pdf",
@@ -5603,6 +5582,13 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
       "latest_files": [
         {
+          "file": "Altus Trillium - CUSTOMER Pricelist 14.11.26(1).pdf",
+          "file_id": "1ZAd8GEMwNIKXlvPDnfVC7l0gjl3si1ZR",
+          "file_url": "https://drive.google.com/file/d/1ZAd8GEMwNIKXlvPDnfVC7l0gjl3si1ZR/view?usp=drivesdk",
+          "modified_at": "2026-11-17T02:20:33.712Z",
+          "price_date": "2026-11-14"
+        },
+        {
           "file": "Trillium Price List - 24.10.26.pdf",
           "file_id": "1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa",
           "file_url": "https://drive.google.com/file/d/1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa/view?usp=drivesdk",
@@ -7453,39 +7439,6 @@
       ],
       "notes": []
     },
-    "SW8 - DAMAC Tower Nine Elms": {
-      "project": "SW8 - DAMAC Tower Nine Elms",
-      "city": "Inner London",
-      "developer": "未分类",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Inner London 内伦敦 / West & South West 西和西南伦敦 / SW8 - DAMAC Tower Nine Elms",
-      "folder_id": "1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
-      "folder_url": "https://drive.google.com/drive/folders/1Dbo5qERBZEOdtnH0fRO3EM9yJ9jilcJ5",
-      "price_folder_id": "1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
-      "price_folder_url": "https://drive.google.com/drive/folders/1pSbzFYsbcwSqR20xIH_QZ-Yfb42NENTq",
-      "old_price_folder_id": "11ytVJJoif90RVnRyM4oZt7h2r4G9KNeG",
-      "old_price_folder_url": "https://drive.google.com/drive/folders/11ytVJJoif90RVnRyM4oZt7h2r4G9KNeG",
-      "latest_files": [
-        {
-          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
-          "file_id": "1eBfjMhHk5stVxKJ0T8c6oSA5BNxS8RN4",
-          "file_url": "https://drive.google.com/file/d/1eBfjMhHk5stVxKJ0T8c6oSA5BNxS8RN4/view?usp=drivesdk",
-          "modified_at": "2026-09-02T06:00:25.662Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [
-        {
-          "file": "DAMAC TOWER NINE ELMS LONDON_Availability.pdf",
-          "file_id": "1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk",
-          "file_url": "https://drive.google.com/file/d/1WUOjmGnNcnyTqaq9VU5BQ9B01mHRipUk/view?usp=drivesdk",
-          "modified_at": "2026-08-04T07:48:00.897Z",
-          "price_date": ""
-        }
-      ],
-      "notes": []
-    },
     "SW8 - Key Bridge": {
       "project": "SW8 - Key Bridge",
       "city": "Inner London",
@@ -8433,13 +8386,6 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1cPYdAtgWekFYNTaQwDYbPI9SkcvoCDxI",
       "latest_files": [
         {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 30.08.26.pdf",
-          "file_id": "18o4Cnzy94SfqKD8XZQW_dk4dHCmgUPLv",
-          "file_url": "https://drive.google.com/file/d/18o4Cnzy94SfqKD8XZQW_dk4dHCmgUPLv/view?usp=drivesdk",
-          "modified_at": "2026-08-31T03:10:04.262Z",
-          "price_date": "30.08.26"
-        },
-        {
           "file": "Fulham Reach - Palmer House - Two-Bed - Plot 751.pdf",
           "file_id": "17X3iLy1Hv4SOyOJgcKoxfNPsM4tKuyn3",
           "file_url": "https://drive.google.com/file/d/17X3iLy1Hv4SOyOJgcKoxfNPsM4tKuyn3/view?usp=drivesdk",
@@ -8456,67 +8402,11 @@
       ],
       "old_files": [
         {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 23.08.26.pdf",
-          "file_id": "1bfmN0gy-BlWQrc25gfN4MPOrvK9bgfzM",
-          "file_url": "https://drive.google.com/file/d/1bfmN0gy-BlWQrc25gfN4MPOrvK9bgfzM/view?usp=drivesdk",
-          "modified_at": "2026-08-25T01:53:37.957Z",
-          "price_date": "23.08.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 26.07.26.pdf",
-          "file_id": "1Vj4WghDHB5CGXnrKIGjXb9YnOOyD01Ir",
-          "file_url": "https://drive.google.com/file/d/1Vj4WghDHB5CGXnrKIGjXb9YnOOyD01Ir/view?usp=drivesdk",
-          "modified_at": "2026-07-28T02:00:27.550Z",
-          "price_date": "26.07.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 19.07.26.pdf",
-          "file_id": "1FYMqXI08Da2D9cQtgxXTHB-hIcvuXhWw",
-          "file_url": "https://drive.google.com/file/d/1FYMqXI08Da2D9cQtgxXTHB-hIcvuXhWw/view?usp=drivesdk",
-          "modified_at": "2026-07-21T03:52:46.653Z",
-          "price_date": "19.07.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 08.07.26.pdf",
-          "file_id": "12cDa-svOIf0P-MnT4V3anLEmCQWPp8bp",
-          "file_url": "https://drive.google.com/file/d/12cDa-svOIf0P-MnT4V3anLEmCQWPp8bp/view?usp=drivesdk",
-          "modified_at": "2026-07-14T01:53:03.795Z",
-          "price_date": "08.07.26"
-        },
-        {
           "file": "Fulham Reach Palmer House - Customer Pricelist - 05.07.26.pdf",
           "file_id": "1_V95UtYqOMrpuorSAsYI1eukUJmk1NTe",
           "file_url": "https://drive.google.com/file/d/1_V95UtYqOMrpuorSAsYI1eukUJmk1NTe/view?usp=drivesdk",
           "modified_at": "2026-07-07T09:20:40.107Z",
           "price_date": "05.07.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 05.07.26.pdf",
-          "file_id": "12CqnlEuGpp7n5wcevoV9qCS_7G917QMc",
-          "file_url": "https://drive.google.com/file/d/12CqnlEuGpp7n5wcevoV9qCS_7G917QMc/view?usp=drivesdk",
-          "modified_at": "2026-07-07T09:20:26.023Z",
-          "price_date": "05.07.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 24.06.26.pdf",
-          "file_id": "1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda",
-          "file_url": "https://drive.google.com/file/d/1I52RFUg8yVcfCUuNkdCXeRzAz4kasjda/view?usp=drivesdk",
-          "modified_at": "2026-06-30T01:48:30.124Z",
-          "price_date": "24.06.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 10.06.26.pdf",
-          "file_id": "1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ",
-          "file_url": "https://drive.google.com/file/d/1LHF8_2uzk8g4ez9t1oB6qt27CEjONwvZ/view?usp=drivesdk",
-          "modified_at": "2026-06-11T05:57:16.137Z",
-          "price_date": "10.06.26"
-        },
-        {
-          "file": "Fulham Reach Palmer House - CN Agent use only - 24.05.26.pdf",
-          "file_id": "1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV",
-          "file_url": "https://drive.google.com/file/d/1F0NDcaBzECmTLvl_Oa9NLIur7gl5YIgV/view?usp=drivesdk",
-          "modified_at": "2026-06-09T07:02:53.488Z",
-          "price_date": "24.05.26"
         }
       ],
       "notes": []
@@ -10633,33 +10523,6 @@
         }
       ],
       "notes": []
-    },
-    "N2 - Bishops Avenue Gardens - Est. Complete Q4 2026": {
-      "project": "N2 - Bishops Avenue Gardens - Est. Complete Q4 2026",
-      "city": "Outer London",
-      "developer": "Valouran",
-      "cooperation_level": "未记录",
-      "cooperation_partner": "未记录",
-      "path": "UK 英国 / Outer London 外伦敦 / Barnet 巴尼特 / N2 - Bishops Avenue Gardens - Est. Complete Q4 2026",
-      "folder_id": "16bmInSADYNqSXYSXWTt6xQL63dlebun8",
-      "folder_url": "https://drive.google.com/drive/folders/16bmInSADYNqSXYSXWTt6xQL63dlebun8",
-      "price_folder_id": "10v6aUgQ-Pq92QY3ys2IsqvpvtLUMap9R",
-      "price_folder_url": "https://drive.google.com/drive/folders/10v6aUgQ-Pq92QY3ys2IsqvpvtLUMap9R",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
-      "latest_files": [
-        {
-          "file": "Bishops Avenue Gardens - Price List October.pdf",
-          "file_id": "1brVRTgQB-_mFQIPWguVxCGFeiQdDc7VG",
-          "file_url": "https://drive.google.com/file/d/1brVRTgQB-_mFQIPWguVxCGFeiQdDc7VG/view?usp=drivesdk",
-          "modified_at": "2026-04-23T01:06:11.000Z",
-          "price_date": ""
-        }
-      ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
     },
     "NW7 - The Claves": {
       "project": "NW7 - The Claves",
@@ -13278,5 +13141,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-13T10:51:25"
+  "published_at": "2026-11-17T10:25:25"
 }
