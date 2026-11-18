@@ -1000,9 +1000,18 @@
       "folder_url": "https://drive.google.com/drive/folders/1HEYbfjs9NuxYZx6CLCHj2lyDdcs29aX3",
       "price_folder_id": "1KrqYxxcklhe5wR8CGGpXYdlt96uZ0uep",
       "price_folder_url": "https://drive.google.com/drive/folders/1KrqYxxcklhe5wR8CGGpXYdlt96uZ0uep",
-      "old_price_folder_id": "",
-      "old_price_folder_url": "",
+      "old_price_folder_id": "1cY7gSpqeWywUitX9FNnv8rmfhem8iQVx",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1cY7gSpqeWywUitX9FNnv8rmfhem8iQVx",
       "latest_files": [
+        {
+          "file": "25 Cuba Pricelist - 16 Nov 2026.pdf",
+          "file_id": "10K7M6e4QxhHOZ0c0LWupZJzdSbbYEmwX",
+          "file_url": "https://drive.google.com/file/d/10K7M6e4QxhHOZ0c0LWupZJzdSbbYEmwX/view?usp=drivesdk",
+          "modified_at": "2026-11-18T01:29:36.945Z",
+          "price_date": "2026-11-16"
+        }
+      ],
+      "old_files": [
         {
           "file": "Cuba Shanghi Price List(1).pdf",
           "file_id": "1YvTfNH_j-JJ14khj1H0BdS78VN_DA9Lc",
@@ -1011,10 +1020,7 @@
           "price_date": ""
         }
       ],
-      "old_files": [],
-      "notes": [
-        "Missing old pricelist folder"
-      ]
+      "notes": []
     },
     "E14 - 8 Harbord Square - Off market": {
       "project": "E14 - 8 Harbord Square - Off market",
@@ -1090,34 +1096,48 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/14O6LJG6-YwQ2R3tj7zXD1e4AFGUyX8Rn",
       "latest_files": [
         {
-          "file": "Goodluck Hope Price List October 2026.pdf",
-          "file_id": "1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK",
-          "file_url": "https://drive.google.com/file/d/1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK/view?usp=drivesdk",
-          "modified_at": "2026-10-06T21:04:08.063Z",
-          "price_date": "October 2026"
+          "file": "Goodluck Hope Price List - November 2026.pdf",
+          "file_id": "16YtjkWZICrKEM0YsAlPUNuCmlDKisQ43",
+          "file_url": "https://drive.google.com/file/d/16YtjkWZICrKEM0YsAlPUNuCmlDKisQ43/view?usp=drivesdk",
+          "modified_at": "2026-11-18T01:29:44.940Z",
+          "price_date": "2026-11-09"
         },
         {
           "file": "Goodluck Hope Price List 16th July 2026.pdf",
           "file_id": "1VAsqQtYp6bqovkO5atpnueutggwqnItG",
           "file_url": "https://drive.google.com/file/d/1VAsqQtYp6bqovkO5atpnueutggwqnItG/view?usp=drivesdk",
           "modified_at": "2026-07-18T01:48:43.555Z",
-          "price_date": "July 2026"
+          "price_date": "2026-07-16"
         }
       ],
       "old_files": [
+        {
+          "file": "Goodluck Hope Price List October 2026.pdf",
+          "file_id": "1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK",
+          "file_url": "https://drive.google.com/file/d/1yh0UgYD-8-swJM9qXufnMZ_BWlEWKoaK/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:08.063Z",
+          "price_date": "2026-10-01"
+        },
         {
           "file": "Goodluck Hope Price List 30th June 2026.pdf",
           "file_id": "1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W",
           "file_url": "https://drive.google.com/file/d/1mKx9zncpeE9r-nFHLIFfLxpcXptYZo9W/view?usp=drivesdk",
           "modified_at": "2026-07-01T09:44:09.000Z",
-          "price_date": "June 2026"
+          "price_date": "2026-06-30"
         },
         {
           "file": "Goodluck Hope Price List 12th June 2026.pdf",
           "file_id": "1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT",
           "file_url": "https://drive.google.com/file/d/1bZ5wI0jysnPqGn-8o8HijqPsAOtQ-DeT/view?usp=drivesdk",
           "modified_at": "2026-06-26T03:31:36.949Z",
-          "price_date": "June 2026"
+          "price_date": "2026-06-12"
+        },
+        {
+          "file": "Goodluck Hope Price List November 2026.pdf",
+          "file_id": "12yf-u3wTZXOtDUntJOleueX7dhW2XcdF",
+          "file_url": "https://drive.google.com/file/d/12yf-u3wTZXOtDUntJOleueX7dhW2XcdF/view?usp=drivesdk",
+          "modified_at": "2026-11-03T11:03:31.553Z",
+          "price_date": "2026-11-01"
         }
       ],
       "notes": []
@@ -12371,27 +12391,41 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1aS0nf7r37E10WY7FUdbAexssNwfN_xfn",
       "latest_files": [
         {
-          "file": "The Riverscape Price List -October  2026.pdf",
-          "file_id": "18rz0dugu3Vaqdm6irK7778rKOqbYtrzd",
-          "file_url": "https://drive.google.com/file/d/18rz0dugu3Vaqdm6irK7778rKOqbYtrzd/view?usp=drivesdk",
-          "modified_at": "2026-10-06T21:04:12.213Z",
-          "price_date": "October  2026"
+          "file": "The Riverscape Price List - November 2026.pdf",
+          "file_id": "1GEOJFRXfKVDzfxir6MZKh7ZhZQ4BgV_E",
+          "file_url": "https://drive.google.com/file/d/1GEOJFRXfKVDzfxir6MZKh7ZhZQ4BgV_E/view?usp=drivesdk",
+          "modified_at": "2026-11-18T01:29:51.880Z",
+          "price_date": "2026-11-10"
         },
         {
           "file": "The Rivercape Price List - 25th August 2026.pdf",
           "file_id": "1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J",
           "file_url": "https://drive.google.com/file/d/1HxzXIIpP5Dqfi0STCgdHObTIHRwSTk8J/view?usp=drivesdk",
           "modified_at": "2026-08-26T03:38:54.625Z",
-          "price_date": "August 2026"
+          "price_date": "2026-08-25"
         }
       ],
       "old_files": [
+        {
+          "file": "The Riverscape Price List -October  2026.pdf",
+          "file_id": "18rz0dugu3Vaqdm6irK7778rKOqbYtrzd",
+          "file_url": "https://drive.google.com/file/d/18rz0dugu3Vaqdm6irK7778rKOqbYtrzd/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:12.213Z",
+          "price_date": "2026-10-01"
+        },
         {
           "file": "Riverscape Price List - Summer Fete 2026.pdf",
           "file_id": "1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i",
           "file_url": "https://drive.google.com/file/d/1LjUan_2grgNdIH-Or0woyjYOvQiF4p6i/view?usp=drivesdk",
           "modified_at": "2026-06-27T07:13:55.285Z",
-          "price_date": "Fete 2026"
+          "price_date": ""
+        },
+        {
+          "file": "Riverscape Price List November 2026.pdf",
+          "file_id": "1KsIXVqgQsruHX9lzjLiyZ2AS840JFD3D",
+          "file_url": "https://drive.google.com/file/d/1KsIXVqgQsruHX9lzjLiyZ2AS840JFD3D/view?usp=drivesdk",
+          "modified_at": "2026-11-03T11:03:28.847Z",
+          "price_date": "2026-11-01"
         }
       ],
       "notes": []
@@ -13141,5 +13175,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-17T10:25:25"
+  "published_at": "2026-11-18T09:35:13"
 }
