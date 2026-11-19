@@ -7516,11 +7516,11 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1_bisYgK9XTPk5F0j3OSCJsCKQXS0ZA7c",
       "latest_files": [
         {
-          "file": "RPT Price list template 03112026.pdf",
-          "file_id": "1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB",
-          "file_url": "https://drive.google.com/file/d/1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB/view?usp=drivesdk",
-          "modified_at": "2026-11-07T04:12:03.470Z",
-          "price_date": "2026-11-03"
+          "file": "RPT Price list 17112026.pdf",
+          "file_id": "1UDM8Nh-AztgGEWOxBeGOvUVssNUOSbh2",
+          "file_url": "https://drive.google.com/file/d/1UDM8Nh-AztgGEWOxBeGOvUVssNUOSbh2/view?usp=drivesdk",
+          "modified_at": "2026-11-19T01:00:10.380Z",
+          "price_date": "2026-11-17"
         }
       ],
       "old_files": [
@@ -7530,6 +7530,13 @@
           "file_url": "https://drive.google.com/file/d/1cog9Y_cle-HUiNDxkcsGf3Wq1sq4RsaD/view?usp=drivesdk",
           "modified_at": "2026-08-13T10:01:06.000Z",
           "price_date": "list 0408"
+        },
+        {
+          "file": "RPT Price list template 03112026.pdf",
+          "file_id": "1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB",
+          "file_url": "https://drive.google.com/file/d/1JNJnacyen-Rr3UMMlTjX-zNEq-USfrvB/view?usp=drivesdk",
+          "modified_at": "2026-11-07T04:12:03.470Z",
+          "price_date": "2026-11-03"
         }
       ],
       "notes": []
@@ -13175,5 +13182,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-18T09:35:13"
+  "published_at": "2026-11-19T09:03:22"
 }
