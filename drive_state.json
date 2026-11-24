@@ -13390,8 +13390,101 @@
       "notes": [
         "2026-11-23 邮件所附价单写明价格有效至 2026-11-22；成交前须重新确认价格及可售状态。"
       ]
+    },
+    "E14 - Wardian": {
+      "project": "E14 - Wardian",
+      "city": "Canary Wharf",
+      "developer": "Ballymore",
+      "cooperation_level": "",
+      "cooperation_partner": "",
+      "path": "UK 英国 / Inner London 内伦敦 / City, East & South East 城东和东南伦敦 / E14 - Wardian",
+      "folder_id": "1kpqVH-v_UZ30TsVONC3LBpFGhk_x9Huu",
+      "folder_url": "https://drive.google.com/drive/folders/1kpqVH-v_UZ30TsVONC3LBpFGhk_x9Huu",
+      "price_folder_id": "1Q0pDJjrf2CHDqn0M_pe32bLuC_2ndwea",
+      "price_folder_url": "https://drive.google.com/drive/folders/1Q0pDJjrf2CHDqn0M_pe32bLuC_2ndwea",
+      "old_price_folder_id": "116gISWX6WlrEO7PRhp32Qa1-hBPEQqKI",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/116gISWX6WlrEO7PRhp32Qa1-hBPEQqKI",
+      "latest_files": [
+        {
+          "file": "Wardian W3706 - User-provided Asking Price Record - 2026-11-24.pdf",
+          "file_id": "1WpDAsOYNjXif1HSxkWQliR8s_SW6aU0M",
+          "file_url": "https://drive.google.com/file/d/1WpDAsOYNjXif1HSxkWQliR8s_SW6aU0M/view?usp=drivesdk",
+          "modified_at": "2026-11-24T06:27:28.058Z",
+          "price_date": "2026-11-24"
+        }
+      ],
+      "old_files": [],
+      "materials_folder_id": "1OTEU4T2L6wl86GGB_Sucj6P1hdcP7o1U",
+      "materials_folder_url": "https://drive.google.com/drive/folders/1OTEU4T2L6wl86GGB_Sucj6P1hdcP7o1U",
+      "materials_files": [
+        {
+          "id": "1PTxq2VFh-7SVKsAc65fGPYBGDaj6gxea",
+          "title": "Wardian Look Book.pdf",
+          "mime_type": "application/pdf",
+          "size": "4369926",
+          "url": "https://drive.google.com/file/d/1PTxq2VFh-7SVKsAc65fGPYBGDaj6gxea/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1PTxq2VFh-7SVKsAc65fGPYBGDaj6gxea/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1OTEU4T2L6wl86GGB_Sucj6P1hdcP7o1U"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        {
+          "id": "1FYXLzny2yDKoDTLZog6ldbcw65eR--9q",
+          "title": "Wardian Factsheet 2026.pdf",
+          "mime_type": "application/pdf",
+          "size": "1243870",
+          "url": "https://drive.google.com/file/d/1FYXLzny2yDKoDTLZog6ldbcw65eR--9q/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1FYXLzny2yDKoDTLZog6ldbcw65eR--9q/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1OTEU4T2L6wl86GGB_Sucj6P1hdcP7o1U"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        },
+        {
+          "id": "15NnLN5S9uzApti2qdBlEh8vt5SjYKPfR",
+          "title": "W3706 Floorplan.pdf",
+          "mime_type": "application/pdf",
+          "size": "4182153",
+          "url": "https://drive.google.com/file/d/15NnLN5S9uzApti2qdBlEh8vt5SjYKPfR/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/15NnLN5S9uzApti2qdBlEh8vt5SjYKPfR/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": null,
+          "modified_time": null,
+          "parent_ids": [
+            "1OTEU4T2L6wl86GGB_Sucj6P1hdcP7o1U"
+          ],
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": null,
+          "permissions": null,
+          "source_visibility_status": "access_not_verified"
+        }
+      ],
+      "notes": [
+        "2026-11-24 用户确认 W3706 是当前唯一在售房源。当前报价 £950,000，原报价 £1,123,750；降幅 £173,750（15.46%）。",
+        "暂无开发商正式价单：报价及库存为用户提供，原报价日期未提供；单套报价记录不伪作开发商价单或历史价格版本。",
+        "户型图核实：Hobart Building，两房，室内 78.5平方米 / 845平方英尺，私人花园 32.1平方米 / 346平方英尺。"
+      ]
     }
   },
   "errors": [],
-  "published_at": "2026-11-24T11:28:27"
+  "published_at": "2026-11-24T14:29:40"
 }
