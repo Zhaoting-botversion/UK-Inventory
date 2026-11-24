@@ -3015,18 +3015,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1814qEcv8frHRiEAzciJrnPEwUehnAb_0",
       "latest_files": [
         {
-          "file": "Oval Village The Halo - The Residences - Price list__ 25.10.2026.pdf",
-          "file_id": "1vh9qbx2xR-rlfXyOFqt4EuamBYzvSGmO",
-          "file_url": "https://drive.google.com/file/d/1vh9qbx2xR-rlfXyOFqt4EuamBYzvSGmO/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:42:52.227Z",
-          "price_date": "25.10.2026"
+          "file": "Oval Village The Halo - The Residences - Price list 20.11.2026.pdf",
+          "file_id": "1htvi3Z3m75h-cZFzlGcauYO3gvErG9nN",
+          "file_url": "https://drive.google.com/file/d/1htvi3Z3m75h-cZFzlGcauYO3gvErG9nN/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:21:06.201Z",
+          "price_date": "2026-11-20"
         },
         {
-          "file": "Oval Village - The Pinnacle Pricelist  - 25.10.2026.pdf",
-          "file_id": "107fTKCIxxiKLmE_Ezuar5pr2A7XS28Qr",
-          "file_url": "https://drive.google.com/file/d/107fTKCIxxiKLmE_Ezuar5pr2A7XS28Qr/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:42:36.968Z",
-          "price_date": "25.10.2026"
+          "file": "Oval Village - The Pinnacle Pricelist  - 22.11.2026.pdf",
+          "file_id": "1uMt72Fr-w0y4EwlO1-sDDrS5QbZLCTGT",
+          "file_url": "https://drive.google.com/file/d/1uMt72Fr-w0y4EwlO1-sDDrS5QbZLCTGT/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:20:58.371Z",
+          "price_date": "2026-11-22"
         },
         {
           "file": "Oval Village The Halo - The Residences - Price list 02.10.2026.pdf",
@@ -3302,6 +3302,20 @@
           "file_url": "https://drive.google.com/file/d/1Kc2e28Gu-uJ68c38XQeygfgqOy87nDgx/view?usp=drivesdk",
           "modified_at": "2026-05-06T12:44:30.000Z",
           "price_date": "06.05.2026"
+        },
+        {
+          "file": "Oval Village - The Pinnacle Pricelist  - 25.10.2026.pdf",
+          "file_id": "107fTKCIxxiKLmE_Ezuar5pr2A7XS28Qr",
+          "file_url": "https://drive.google.com/file/d/107fTKCIxxiKLmE_Ezuar5pr2A7XS28Qr/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:42:36.968Z",
+          "price_date": "25.10.2026"
+        },
+        {
+          "file": "Oval Village The Halo - The Residences - Price list__ 25.10.2026.pdf",
+          "file_id": "1vh9qbx2xR-rlfXyOFqt4EuamBYzvSGmO",
+          "file_url": "https://drive.google.com/file/d/1vh9qbx2xR-rlfXyOFqt4EuamBYzvSGmO/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:42:52.227Z",
+          "price_date": "25.10.2026"
         }
       ],
       "notes": []
@@ -5609,18 +5623,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1hfaiS4sZB55w0t0swiI8mabnAGenleEJ",
       "latest_files": [
         {
+          "file": "Trillium - The Burton Price List - 21.11.26.pdf",
+          "file_id": "1iZnp5zWdz4DUO233eWpdeqn40GWPv70l",
+          "file_url": "https://drive.google.com/file/d/1iZnp5zWdz4DUO233eWpdeqn40GWPv70l/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:22:11.748Z",
+          "price_date": "2026-11-21"
+        },
+        {
           "file": "Altus Trillium - CUSTOMER Pricelist 14.11.26(1).pdf",
           "file_id": "1ZAd8GEMwNIKXlvPDnfVC7l0gjl3si1ZR",
           "file_url": "https://drive.google.com/file/d/1ZAd8GEMwNIKXlvPDnfVC7l0gjl3si1ZR/view?usp=drivesdk",
           "modified_at": "2026-11-17T02:20:33.712Z",
           "price_date": "2026-11-14"
-        },
-        {
-          "file": "Trillium Price List - 24.10.26.pdf",
-          "file_id": "1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa",
-          "file_url": "https://drive.google.com/file/d/1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:45:27.068Z",
-          "price_date": "24.10.26"
         }
       ],
       "old_files": [
@@ -5735,9 +5749,18 @@
           "file_url": "https://drive.google.com/file/d/1Y3DcDlQesSkowrEdPm4I1BA7sy9iwjrf/view?usp=drivesdk",
           "modified_at": "2026-05-28T02:21:55.435Z",
           "price_date": "26-05-28"
+        },
+        {
+          "file": "Trillium Price List - 24.10.26.pdf",
+          "file_id": "1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa",
+          "file_url": "https://drive.google.com/file/d/1_qlBOMMK25RZYXRl8ckPZSwXqsTvCkoa/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:45:27.068Z",
+          "price_date": "24.10.26"
         }
       ],
-      "notes": []
+      "notes": [
+        "2026-11-23 邮件单套推广资料 TR - Plot of the Week - 10.07.pdf 已保存至楼盘资料目录；对应 I.10.07 已计入 Burton 完整价单，不重复计入库存。"
+      ]
     },
     "W2 - Vabel Townhouse": {
       "project": "W2 - Vabel Townhouse",
@@ -9816,18 +9839,18 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1r6QCXafi1eS8_G88fLudQTMIqAS7Vjm7",
       "latest_files": [
         {
-          "file": "The Exchange Union Court Pricelist - 25.10.2026.pdf",
-          "file_id": "1iA9lKv9kBqZd-L9_vTCq3fH_IPZ1BZFW",
-          "file_url": "https://drive.google.com/file/d/1iA9lKv9kBqZd-L9_vTCq3fH_IPZ1BZFW/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:44:22.529Z",
-          "price_date": "25.10.2026"
+          "file": "The Exchange Union Court Pricelist - 22.11.2026.pdf",
+          "file_id": "1pTZDavhGTPcsO2xHg4koTAeSd8WEtw6y",
+          "file_url": "https://drive.google.com/file/d/1pTZDavhGTPcsO2xHg4koTAeSd8WEtw6y/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:21:28.209Z",
+          "price_date": "2026-11-22"
         },
         {
-          "file": "The Exchange Dart House Price List  25.10.2026.pdf",
-          "file_id": "1UdTHeDuCWd7efpPr2KZNvcLyNCsmYaTv",
-          "file_url": "https://drive.google.com/file/d/1UdTHeDuCWd7efpPr2KZNvcLyNCsmYaTv/view?usp=drivesdk",
-          "modified_at": "2026-10-29T08:44:11.885Z",
-          "price_date": "25.10.2026"
+          "file": "The Exchange Dart House Price List  22.11.2026.pdf",
+          "file_id": "1QikaN8yNr5ILSpivYvVr0jHXV2It1_rK",
+          "file_url": "https://drive.google.com/file/d/1QikaN8yNr5ILSpivYvVr0jHXV2It1_rK/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:21:13.917Z",
+          "price_date": "2026-11-22"
         },
         {
           "file": "The Exchange Watford By Berkeley Homes - Plot Of The Week 13.02__ Union Court.pdf",
@@ -10019,6 +10042,20 @@
           "file_url": "https://drive.google.com/file/d/1XCIhGIOk8OyfrsaE-jWv8iSWFOMRR86v/view?usp=drivesdk",
           "modified_at": "2026-05-28T03:53:37.431Z",
           "price_date": "26-05-28"
+        },
+        {
+          "file": "The Exchange Dart House Price List  25.10.2026.pdf",
+          "file_id": "1UdTHeDuCWd7efpPr2KZNvcLyNCsmYaTv",
+          "file_url": "https://drive.google.com/file/d/1UdTHeDuCWd7efpPr2KZNvcLyNCsmYaTv/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:44:11.885Z",
+          "price_date": "25.10.2026"
+        },
+        {
+          "file": "The Exchange Union Court Pricelist - 25.10.2026.pdf",
+          "file_id": "1iA9lKv9kBqZd-L9_vTCq3fH_IPZ1BZFW",
+          "file_url": "https://drive.google.com/file/d/1iA9lKv9kBqZd-L9_vTCq3fH_IPZ1BZFW/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:44:22.529Z",
+          "price_date": "25.10.2026"
         }
       ],
       "notes": []
@@ -13236,8 +13273,125 @@
       ],
       "old_files": [],
       "notes": []
+    },
+    "Arch & Bloom": {
+      "project": "Arch & Bloom",
+      "city": "Guildford",
+      "developer": "Berkeley",
+      "cooperation_level": "",
+      "cooperation_partner": "",
+      "path": "UK 英国 / Guildford / Arch & Bloom",
+      "folder_id": "1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "folder_url": "https://drive.google.com/drive/folders/1mew0ZZntULylmuNL_7WMH13zoQTD7SKg",
+      "price_folder_id": "1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "price_folder_url": "https://drive.google.com/drive/folders/1adiBjHHcBYCyclUgBulxODKcMQqxu05Q",
+      "old_price_folder_id": "1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1r4hlMwiwKR1zCeCaqZWeX6vcol3G7UCw",
+      "latest_files": [
+        {
+          "file": "A&B Customer Price List 19th November 2026.pdf",
+          "file_id": "1ajF69feWuzXH3zyrfcgq9zHkmh5Imbxy",
+          "file_url": "https://drive.google.com/file/d/1ajF69feWuzXH3zyrfcgq9zHkmh5Imbxy/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:21:49.747Z",
+          "price_date": "2026-11-19"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "A&B Customer Price List 25th October 2026.pdf",
+          "file_id": "1N4yn9U7sKO6LMAOqWveZjkAU0fdi6gll",
+          "file_url": "https://drive.google.com/file/d/1N4yn9U7sKO6LMAOqWveZjkAU0fdi6gll/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:36:54.274Z",
+          "price_date": "2026-10-25"
+        }
+      ],
+      "notes": []
+    },
+    "Eden Grove": {
+      "project": "Eden Grove",
+      "city": "Staines-upon-Thames",
+      "developer": "Berkeley",
+      "cooperation_level": "",
+      "cooperation_partner": "",
+      "path": "UK 英国 / Staines-upon-Thames / Eden Grove",
+      "folder_id": "1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
+      "folder_url": "https://drive.google.com/drive/folders/1vloPmnUHexAJZmQDZbZ09GgnmdLgUuzy",
+      "price_folder_id": "1B03UHD3XKvis-AA-wJPGKISDCpio5XA_",
+      "price_folder_url": "https://drive.google.com/drive/folders/1B03UHD3XKvis-AA-wJPGKISDCpio5XA_",
+      "old_price_folder_id": "1Rj1tOnmXwFB2lQH6edhGq_uQwsqPmH1M",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/1Rj1tOnmXwFB2lQH6edhGq_uQwsqPmH1M",
+      "latest_files": [
+        {
+          "file": "Eden Grove - 29.11.26  - Master Price List.pdf",
+          "file_id": "1xQThQK-rPZzXgUD8B7j7kiQeBZVGV0Qh",
+          "file_url": "https://drive.google.com/file/d/1xQThQK-rPZzXgUD8B7j7kiQeBZVGV0Qh/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:22:04.042Z",
+          "price_date": "2026-11-01"
+        },
+        {
+          "file": "Eden Grove - 25.10.26  - Customer Price List .pdf",
+          "file_id": "1brADIi5e2B9DrYGh_-CxGOo42k0LJJun",
+          "file_url": "https://drive.google.com/file/d/1brADIi5e2B9DrYGh_-CxGOo42k0LJJun/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:38:28.201Z",
+          "price_date": "2026-10-25"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Eden Grove - 25.10.26  - Master Price List .pdf",
+          "file_id": "1aIsq9aOWqwb4m9feR2Tx7kP2JLnOtyuR",
+          "file_url": "https://drive.google.com/file/d/1aIsq9aOWqwb4m9feR2Tx7kP2JLnOtyuR/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:38:36.190Z",
+          "price_date": "2026-10-25"
+        }
+      ],
+      "notes": [
+        "2026-11-23 邮件附件：PDF 正文只注明 November 2026，按 2026 年 11 月记录；原文件名 29.11.26 晚于邮件日期，保留原名并待开发商确认。日期 2026-11-01 仅为月份存储占位，并非正文印发日。"
+      ]
+    },
+    "Bankside Gardens": {
+      "project": "Bankside Gardens",
+      "city": "Reading",
+      "developer": "Berkeley",
+      "cooperation_level": "",
+      "cooperation_partner": "",
+      "path": "UK 英国 / Reading / Bankside Gardens",
+      "folder_id": "1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
+      "folder_url": "https://drive.google.com/drive/folders/1eDbXpEgAfwlyJySjklTXcllneJFdx6o6",
+      "price_folder_id": "1vVIUfDu4Iyv5PpVFscc34FuO4ZaXLCn6",
+      "price_folder_url": "https://drive.google.com/drive/folders/1vVIUfDu4Iyv5PpVFscc34FuO4ZaXLCn6",
+      "old_price_folder_id": "19mmeCqFHqe2hcpxDNNa76a6ej_HKtfha",
+      "old_price_folder_url": "https://drive.google.com/drive/folders/19mmeCqFHqe2hcpxDNNa76a6ej_HKtfha",
+      "latest_files": [
+        {
+          "file": "Bankside Gardens Customer Price list 22.11.26.pdf",
+          "file_id": "1RXUIVX6kazHM6pKyPEaipHWhp4VhplEK",
+          "file_url": "https://drive.google.com/file/d/1RXUIVX6kazHM6pKyPEaipHWhp4VhplEK/view?usp=drivesdk",
+          "modified_at": "2026-11-24T03:22:19.521Z",
+          "price_date": "2026-11-22"
+        },
+        {
+          "file": "Bankside Gardens - Master pricelist - 22.08.26.pdf",
+          "file_id": "1vmP9MTqbDk-2t44hg4-tDX3-u_27vADn",
+          "file_url": "https://drive.google.com/file/d/1vmP9MTqbDk-2t44hg4-tDX3-u_27vADn/view?usp=drivesdk",
+          "modified_at": "2026-08-25T01:52:01.178Z",
+          "price_date": "2026-10-23"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Bankside Gardens Customer Price list 23.10.26.pdf",
+          "file_id": "1cV_64kIbLA1JfB9Wan_WDy01SV-KyZl6",
+          "file_url": "https://drive.google.com/file/d/1cV_64kIbLA1JfB9Wan_WDy01SV-KyZl6/view?usp=drivesdk",
+          "modified_at": "2026-10-29T08:37:11.370Z",
+          "price_date": "2026-10-23"
+        }
+      ],
+      "notes": [
+        "2026-11-23 邮件所附价单写明价格有效至 2026-11-22；成交前须重新确认价格及可售状态。"
+      ]
     }
   },
   "errors": [],
-  "published_at": "2026-11-23T11:58:28"
+  "published_at": "2026-11-24T11:28:27"
 }
