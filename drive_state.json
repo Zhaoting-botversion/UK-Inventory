@@ -5961,14 +5961,25 @@
       "latest_files": [
         {
           "file": "Holland Park Gate Price List.pdf",
+          "file_id": "1xGIo3hkP6DtqlTxCsOnqUfvBVrqoAd8q",
+          "file_url": "https://drive.google.com/file/d/1xGIo3hkP6DtqlTxCsOnqUfvBVrqoAd8q/view?usp=drivesdk",
+          "modified_at": "2026-11-26T07:37:21.131Z",
+          "price_date": "2026-08-25"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Holland Park Gate Price List.pdf",
           "file_id": "1rKjCb6tZPxE8SKt5fYysm9EUB6rZg3Wl",
           "file_url": "https://drive.google.com/file/d/1rKjCb6tZPxE8SKt5fYysm9EUB6rZg3Wl/view?usp=drivesdk",
           "modified_at": "2026-06-27T05:54:20.257Z",
           "price_date": ""
         }
       ],
-      "old_files": [],
-      "notes": []
+      "notes": [
+        "价单已过期，价格及库存待开发商确认。原文件有效期：2026-08-25 至 2026-10-22。"
+      ],
+      "public_notice": "价单已过期，价格及库存待开发商确认。原文件有效期：2026-08-25 至 2026-10-22。"
     },
     "W8 - One Kensington Gardens": {
       "project": "W8 - One Kensington Gardens",
@@ -13598,5 +13609,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-25T09:59:12"
+  "published_at": "2026-11-26T15:42:46"
 }
