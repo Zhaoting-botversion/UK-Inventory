@@ -1037,6 +1037,7 @@ def build_data() -> dict:
         project["price_folder_url"] = state.get("price_folder_url", "")
         project["old_price_folder_url"] = state.get("old_price_folder_url", "")
         project["notes"] = state.get("notes", [])
+        project["public_notice"] = state.get("public_notice", "")
         project["files"] = [
             {
                 "file": row.get("file", ""),
@@ -2117,7 +2118,7 @@ def build_unit_file_lookup(data: dict) -> dict[tuple[str, str], str]:
             filename = item.get("file", "")
             url = item.get("file_url", "")
             if filename and url:
-                lookup[(project, filename)] = url
+                lookup.setdefault((project, filename), url)
                 by_file.setdefault(filename, url)
     for project in data.get("projects", []):
         project_name = project.get("name", "")
@@ -2125,7 +2126,7 @@ def build_unit_file_lookup(data: dict) -> dict[tuple[str, str], str]:
             filename = item.get("file", "")
             url = item.get("file_url", "")
             if filename and url:
-                lookup[(project_name, filename)] = url
+                lookup.setdefault((project_name, filename), url)
                 by_file.setdefault(filename, url)
     lookup.update({("", filename): url for filename, url in by_file.items()})
     return lookup
@@ -2746,7 +2747,7 @@ def render_units(data: dict, query: dict[str, list[str]] | None = None) -> bytes
               <td class="rent-col num">{display_money_number(row.get("rent_number"))}</td>
               <td class="yield-col num">{display_percent(row.get("rental_yield"))}</td>
               <td class="change-col">{inventory_change_tag(change_type)}</td>
-              <td class="source-col">{source_link}</td>
+              <td class="source-col">{source_link}{f'<div class="muted" role="note">{e(project.get("public_notice", ""))}</div>' if project.get("public_notice") else ""}</td>
             </tr>"""
         )
     if not rows:
@@ -3116,6 +3117,7 @@ def render_project(data: dict, name: str) -> bytes:
     ) or '<tr><td colspan="9" class="muted">暂无房源级变化记录。</td></tr>'
     content = f"""
       <h1>{e(project['name'])}</h1>
+      {f'<div class="panel" role="note"><strong>价单提示：</strong>{e(project.get("public_notice", ""))}</div>' if project.get("public_notice") else ""}
       <div class="grid">
         <div class="metric"><div class="label">城市/区域</div><div class="value" style="font-size:20px">{e(display_label(project['city']))}</div></div>
         <div class="metric"><div class="label">开发商</div><div class="value" style="font-size:20px">{e(project['developer'])}</div></div>
