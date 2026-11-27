@@ -2914,17 +2914,75 @@
       "old_price_folder_url": "https://drive.google.com/drive/folders/1reTfcDRtTs742bbNjy_saI1UaJMAYO_Y",
       "latest_files": [
         {
-          "file": "Peninsula Gardens - Pricelist - 6th October 2026.pdf",
-          "file_id": "1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF",
-          "file_url": "https://drive.google.com/file/d/1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF/view?usp=drivesdk",
-          "modified_at": "2026-10-06T21:04:06.112Z",
-          "price_date": "October 2026"
+          "file": "Prime Point -  Pricelist - 24th November 2026.pdf",
+          "file_id": "1zhIlniNw0kCX6h_glUDAl1tEJku8JeqN",
+          "file_url": "https://drive.google.com/file/d/1zhIlniNw0kCX6h_glUDAl1tEJku8JeqN/view?usp=drivesdk",
+          "modified_at": "2026-11-27T10:06:59.832Z",
+          "price_date": "2026-11-24"
+        },
+        {
+          "file": "Peninsula Gardens - Agents Pricelist - 25th November 2026(1).pdf",
+          "file_id": "1L84NCyMciy3gVu1iwSUVUMt7BhZTT-vM",
+          "file_url": "https://drive.google.com/file/d/1L84NCyMciy3gVu1iwSUVUMt7BhZTT-vM/view?usp=drivesdk",
+          "modified_at": "2026-11-27T10:06:52.401Z",
+          "price_date": "2026-11-25"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 24th November 2026.pdf",
+          "file_id": "1lGUJ8fFW9WIWYIdqIo3aJ0q9vNmFTi2E",
+          "file_url": "https://drive.google.com/file/d/1lGUJ8fFW9WIWYIdqIo3aJ0q9vNmFTi2E/view?usp=drivesdk",
+          "modified_at": "2026-11-27T10:06:44.048Z",
+          "price_date": "2026-11-24"
+        }
+      ],
+      "old_files": [
+        {
+          "file": "Prime Point - Pricelist - 9th July 2026.pdf",
+          "file_id": "15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw",
+          "file_url": "https://drive.google.com/file/d/15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:05.753Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 9th July 2026.pdf",
+          "file_id": "1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu",
+          "file_url": "https://drive.google.com/file/d/1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu/view?usp=drivesdk",
+          "modified_at": "2026-07-15T09:57:02.557Z",
+          "price_date": "July 2026"
+        },
+        {
+          "file": "Prime Point - Pricelist - 1st June 2026.pdf",
+          "file_id": "1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm",
+          "file_url": "https://drive.google.com/file/d/1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm/view?usp=drivesdk",
+          "modified_at": "2026-06-26T10:02:42.928Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Peninsula Riverfront Agents Pricelist - 1st June 2026.pdf",
+          "file_id": "1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2",
+          "file_url": "https://drive.google.com/file/d/1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:58.524Z",
+          "price_date": "June 2026"
+        },
+        {
+          "file": "Prime Point -  Pricelist - 1st June 2026.pdf",
+          "file_id": "1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7",
+          "file_url": "https://drive.google.com/file/d/1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7/view?usp=drivesdk",
+          "modified_at": "2026-06-06T10:14:46.694Z",
+          "price_date": "June 2026"
         },
         {
           "file": "Peninsula Riverfront Agents Pricelist - 6th October 2026.pdf",
           "file_id": "1kat1pxtLfwkSBGD9zsDPc0a3T9t2tkEn",
           "file_url": "https://drive.google.com/file/d/1kat1pxtLfwkSBGD9zsDPc0a3T9t2tkEn/view?usp=drivesdk",
           "modified_at": "2026-10-06T21:04:03.905Z",
+          "price_date": "October 2026"
+        },
+        {
+          "file": "Peninsula Gardens - Pricelist - 6th October 2026.pdf",
+          "file_id": "1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF",
+          "file_url": "https://drive.google.com/file/d/1QmFMU3_o1zC34S68e01cG-Sjvr2Ap8kF/view?usp=drivesdk",
+          "modified_at": "2026-10-06T21:04:06.112Z",
           "price_date": "October 2026"
         },
         {
@@ -2968,43 +3026,6 @@
           "file_url": "https://drive.google.com/file/d/1s4AB68a3H9sqMDLOhKU1lqjRVTyxxP7R/view?usp=drivesdk",
           "modified_at": "2026-07-29T01:42:50.948Z",
           "price_date": "July 2026"
-        }
-      ],
-      "old_files": [
-        {
-          "file": "Prime Point - Pricelist - 9th July 2026.pdf",
-          "file_id": "15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw",
-          "file_url": "https://drive.google.com/file/d/15ieMK9sshqgQHRfZNnrMb_WVJMmpIIdw/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:05.753Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Peninsula Riverfront Agents Pricelist - 9th July 2026.pdf",
-          "file_id": "1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu",
-          "file_url": "https://drive.google.com/file/d/1im-w3J7aFOuuTU7SnJ2ISjmcD2sTPCWu/view?usp=drivesdk",
-          "modified_at": "2026-07-15T09:57:02.557Z",
-          "price_date": "July 2026"
-        },
-        {
-          "file": "Prime Point - Pricelist - 1st June 2026.pdf",
-          "file_id": "1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm",
-          "file_url": "https://drive.google.com/file/d/1Fft0VEnpwt45YZVuCo89nJUJQ45V6Mjm/view?usp=drivesdk",
-          "modified_at": "2026-06-26T10:02:42.928Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Peninsula Riverfront Agents Pricelist - 1st June 2026.pdf",
-          "file_id": "1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2",
-          "file_url": "https://drive.google.com/file/d/1uST4tACta2yUEbkVsQDuZ3-fwUmsUeU2/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:58.524Z",
-          "price_date": "June 2026"
-        },
-        {
-          "file": "Prime Point -  Pricelist - 1st June 2026.pdf",
-          "file_id": "1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7",
-          "file_url": "https://drive.google.com/file/d/1Cl_L9lPPUFLF9GgKnMDTq11N4-M6SbF7/view?usp=drivesdk",
-          "modified_at": "2026-06-06T10:14:46.694Z",
-          "price_date": "June 2026"
         }
       ],
       "notes": []
@@ -13609,5 +13630,5 @@
     }
   },
   "errors": [],
-  "published_at": "2026-11-26T15:42:46"
+  "published_at": "2026-11-27T18:13:47"
 }
